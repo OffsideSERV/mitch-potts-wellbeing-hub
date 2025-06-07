@@ -1,9 +1,8 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Calendar, Heart, Leaf, Book, Thermometer, Weight } from 'lucide-react';
+import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope } from 'lucide-react';
 
 const Index = () => {
   const primaryServices = [
@@ -20,7 +19,7 @@ const Index = () => {
     {
       title: "Live Blood Analysis",
       description: "Advanced diagnostic technique to assess your body's nutritional status",
-      icon: <Thermometer className="h-8 w-8 text-primary" />
+      icon: <Microscope className="h-8 w-8 text-primary" />
     },
     {
       title: "Functional Medicine",
@@ -73,15 +72,16 @@ const Index = () => {
             <div className="space-y-8">
               <div className="space-y-4">
                 <Badge variant="secondary" className="text-sm">
-                  Brisbane Naturopathic Clinic
+                  NXTLVL Health - Brisbane Clinic
                 </Badge>
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Natural Health Solutions with{" "}
+                  Advanced Natural Health Solutions with{" "}
                   <span className="text-primary">Mitchell Potts</span>
                 </h1>
                 <p className="text-xl text-muted-foreground leading-relaxed">
-                  Experienced Naturopath helping Brisbane residents achieve optimal health through 
-                  personalized natural medicine, nutrition guidance, and holistic wellness approaches.
+                  Experience cutting-edge naturopathic care at NXTLVL Health. Mitch combines advanced 
+                  diagnostic techniques like Live Blood Analysis with personalized natural medicine 
+                  to help you achieve optimal wellness.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -96,16 +96,16 @@ const Index = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?q=80&w=800&h=600&fit=crop" 
-                alt="Natural health and wellness"
+                src="/lovable-uploads/8ff6a2a2-0c89-4c39-b32c-f82c7001ded3.png" 
+                alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health"
                 className="rounded-2xl shadow-2xl w-full h-auto"
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
-                  <Leaf className="h-8 w-8 text-primary" />
+                  <Microscope className="h-8 w-8 text-primary" />
                   <div>
-                    <p className="font-semibold">Holistic Approach</p>
-                    <p className="text-sm text-muted-foreground">Natural • Effective • Personalized</p>
+                    <p className="font-semibold">Advanced Diagnostics</p>
+                    <p className="text-sm text-muted-foreground">Live Blood Analysis • Natural Medicine</p>
                   </div>
                 </div>
               </div>
@@ -120,42 +120,85 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Meet Mitchell "Mitch" Potts</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Your dedicated Brisbane Naturopath committed to helping you achieve lasting health 
-              and vitality through evidence-based natural medicine.
+              Your dedicated naturopath at NXTLVL Health, combining traditional healing wisdom 
+              with modern diagnostic technology for personalized healthcare solutions.
             </p>
           </div>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h3 className="text-2xl font-semibold">Why Choose Mitch?</h3>
+              <h3 className="text-2xl font-semibold">Why Choose Mitch at NXTLVL Health?</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
-                  <Heart className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                  <Microscope className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold">Personalized Care</h4>
-                    <p className="text-muted-foreground">Every treatment plan is tailored to your unique health needs and goals</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <Book className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                  <div>
-                    <h4 className="font-semibold">Evidence-Based Practice</h4>
-                    <p className="text-muted-foreground">Combining traditional naturopathy with modern scientific research</p>
+                    <h4 className="font-semibold">Advanced Live Blood Analysis</h4>
+                    <p className="text-muted-foreground">Real-time assessment of your blood's nutritional status and cellular health</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Leaf className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
+                    <h4 className="font-semibold">Custom Herbal Medicine</h4>
+                    <p className="text-muted-foreground">Personalized herbal formulations prepared specifically for your health needs</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <Heart className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                  <div>
                     <h4 className="font-semibold">Holistic Approach</h4>
-                    <p className="text-muted-foreground">Addressing root causes, not just symptoms, for lasting health improvements</p>
+                    <p className="text-muted-foreground">Addressing root causes through comprehensive natural health solutions</p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=800&h=600&fit=crop" 
-                alt="Natural remedies and wellness"
+                src="/lovable-uploads/b28b1e57-7b52-4adb-bb62-79cd59febc55.png" 
+                alt="Mitchell Potts at NXTLVL Health clinic"
+                className="rounded-2xl shadow-lg w-full h-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Live Blood Analysis Showcase */}
+      <section className="py-20 px-4 bg-muted/30">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Advanced Live Blood Analysis</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Experience cutting-edge diagnostic technology that reveals the real-time state of your cellular health
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <h3 className="text-2xl font-semibold">What Live Blood Analysis Reveals</h3>
+              <div className="space-y-4">
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-muted-foreground">Nutritional deficiencies and cellular metabolism</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-muted-foreground">Immune system function and inflammatory markers</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-muted-foreground">Blood circulation and oxygenation levels</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-muted-foreground">Digestive health and toxin load assessment</p>
+                </div>
+              </div>
+            </div>
+            <div className="relative">
+              <img 
+                src="/lovable-uploads/4c62a19f-7c98-4dfd-8b68-3b3306b1c3b8.png" 
+                alt="Mitch performing Live Blood Analysis at NXTLVL Health"
                 className="rounded-2xl shadow-lg w-full h-auto"
               />
             </div>
@@ -164,12 +207,12 @@ const Index = () => {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 px-4 bg-muted/30">
+      <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Comprehensive Health Services</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              A full range of natural health services designed to support your wellness journey
+              A full range of natural health services designed to support your wellness journey at NXTLVL Health
             </p>
           </div>
 
@@ -191,13 +234,49 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Natural Medicine Preparation */}
+      <section className="py-20 px-4 bg-muted/30">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Custom Herbal Medicine</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Watch Mitch prepare personalized herbal formulations using high-quality natural ingredients
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="relative">
+              <img 
+                src="/lovable-uploads/e93c52c1-c59d-4e76-a2a8-d66a96ad1b63.png" 
+                alt="Mitch preparing herbal tinctures"
+                className="rounded-xl shadow-lg w-full h-64 object-cover"
+              />
+            </div>
+            <div className="relative">
+              <img 
+                src="/lovable-uploads/b7a36eb9-29e4-4f66-8777-c52f2fd30de8.png" 
+                alt="Natural medicine bottles and preparations"
+                className="rounded-xl shadow-lg w-full h-64 object-cover"
+              />
+            </div>
+            <div className="relative">
+              <img 
+                src="/lovable-uploads/fb7dd20c-25e8-4e31-bd9b-28e29c61b46f.png" 
+                alt="Herbal medicine consultation process"
+                className="rounded-xl shadow-lg w-full h-64 object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Primary Conditions Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Specialized Treatment Areas</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Mitch specializes in treating these key health conditions with proven natural approaches
+              Mitch specializes in treating these key health conditions with proven natural approaches at NXTLVL Health
             </p>
           </div>
 
@@ -233,10 +312,10 @@ const Index = () => {
       <section className="py-20 px-4 bg-primary/5">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Start Your Health Journey Today</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Start Your Health Journey at NXTLVL Health</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Ready to take control of your health? Book a consultation with Mitch and discover 
-              how natural medicine can transform your wellbeing.
+              Ready to experience advanced natural healthcare? Book a consultation with Mitch at NXTLVL Health 
+              and discover how cutting-edge diagnostics and personalized natural medicine can transform your wellbeing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-lg px-8 py-6">
@@ -251,7 +330,7 @@ const Index = () => {
 
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="space-y-3">
-              <h3 className="text-xl font-semibold">Location</h3>
+              <h3 className="text-xl font-semibold">NXTLVL Health</h3>
               <p className="text-muted-foreground">
                 Brisbane, Queensland<br />
                 Australia
@@ -261,7 +340,7 @@ const Index = () => {
               <h3 className="text-xl font-semibold">Contact</h3>
               <p className="text-muted-foreground">
                 Phone: (07) 3000 0000<br />
-                Email: info@mitchpottsnaturopathy.com.au
+                Email: info@nxtlvlhealth.com.au
               </p>
             </div>
             <div className="space-y-3">
@@ -279,7 +358,7 @@ const Index = () => {
       <footer className="py-8 px-4 bg-foreground text-background">
         <div className="container mx-auto max-w-6xl text-center">
           <p className="text-sm">
-            © 2024 Mitchell Potts Naturopathy. All rights reserved. | Brisbane, Queensland, Australia
+            © 2024 NXTLVL Health - Mitchell Potts Naturopathy. All rights reserved. | Brisbane, Queensland, Australia
           </p>
         </div>
       </footer>
