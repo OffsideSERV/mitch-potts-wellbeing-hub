@@ -195,7 +195,7 @@ const Index = () => {
           </div>
 
           <div className="text-center mt-20">
-            <h2 className="text-3xl lg:text-4xl font-bold text-primary">Finally Feel Like You're in Safe Hands</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-primary">Then You've Come to The Right Place</h2>
           </div>
         </div>
       </section>
