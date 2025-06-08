@@ -89,26 +89,26 @@ const Index = () => {
           </div>
 
           {/* Trust Boosters */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 max-w-4xl mx-auto">
-            <div className="text-center space-y-3">
-              <Users className="h-12 w-12 text-primary mx-auto" />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-8 max-w-5xl mx-auto">
+            <div className="text-center space-y-2">
+              <Users className="h-8 w-8 text-primary mx-auto" />
               <div>
-                <h3 className="text-2xl font-bold text-foreground">1000+</h3>
-                <p className="text-muted-foreground">Patients Helped</p>
+                <h3 className="text-xl font-bold text-foreground">1000+</h3>
+                <p className="text-sm text-muted-foreground">Patients Helped</p>
               </div>
             </div>
-            <div className="text-center space-y-3">
-              <TestTube className="h-12 w-12 text-primary mx-auto" />
+            <div className="text-center space-y-2">
+              <TestTube className="h-8 w-8 text-primary mx-auto" />
               <div>
-                <h3 className="text-2xl font-bold text-foreground">Real Testing</h3>
-                <p className="text-muted-foreground">No Guessing</p>
+                <h3 className="text-xl font-bold text-foreground">Real Testing</h3>
+                <p className="text-sm text-muted-foreground">No Guessing</p>
               </div>
             </div>
-            <div className="text-center space-y-3">
-              <BadgeCheck className="h-12 w-12 text-primary mx-auto" />
+            <div className="text-center space-y-2">
+              <BadgeCheck className="h-8 w-8 text-primary mx-auto" />
               <div>
-                <h3 className="text-2xl font-bold text-foreground">Registered</h3>
-                <p className="text-muted-foreground">Naturopath</p>
+                <h3 className="text-xl font-bold text-foreground">Registered</h3>
+                <p className="text-sm text-muted-foreground">Naturopath</p>
               </div>
             </div>
           </div>
