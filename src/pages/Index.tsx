@@ -142,8 +142,6 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">If This Sounds Like You...</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              You're smart, you've tried everything, but something still feels off. You're <strong>tired of feeling tired</strong>, 
-              and you're ready for <strong>real answers</strong>—not just another band-aid solution.
             </p>
           </div>
 
