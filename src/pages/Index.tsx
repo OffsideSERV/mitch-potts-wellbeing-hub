@@ -49,7 +49,7 @@ const Index = () => {
                   Best Naturopath in Brisbane - NXTLVL Health
                 </h1>
                 <h2 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Not Feeling Like Yourself? Transform in Just <span className="text-primary">6 Weeks!</span>
+                  Not Feeling Like Yourself? Transform in <span className="text-primary">6 Weeks!</span>
                 </h2>
                 
                 {/* Mobile Image - placed right after headline */}
