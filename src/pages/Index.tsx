@@ -72,7 +72,7 @@ const Index = () => {
                     I know exactly how frustrating it is to feel <strong>bloated, drained, and just out of it</strong>, but still have your doctor, friends, and family, tell you there's nothing wrong.
                   </p>
                   <p className="text-xl text-muted-foreground leading-relaxed">
-                    That's why I'm here to tell you that <strong>you're not crazy</strong>, and I'm here to give you the <strong>answers you've been looking for</strong>.
+                    That's why, as the <strong>best Naturopath Brisbane</strong> has to offer, I'm here to tell you that <strong>you're not crazy</strong>, I'm here to give you the <strong>answers you've been looking for</strong>.
                   </p>
                 </div>
               </div>
