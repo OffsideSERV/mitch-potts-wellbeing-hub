@@ -120,16 +120,16 @@ const Services = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  Are you sick of feeling tired, bloated, foggy, or just off—and getting no answers?
+                  Are you sick of feeling <strong>tired, bloated, foggy, or just off</strong>—and getting no answers?
                 </p>
                 <p>
-                  We get it. That's why here at NXTLVL Health, registered live blood analysis Naturopath Mitch builds a plan for you that actually works with your body.
+                  We get it. That's why here at NXTLVL Health, registered live blood analysis Naturopath Mitch builds a plan for you that <strong>actually works with your body</strong>.
                 </p>
                 <p>
-                  He blends nature and real science to treat the root cause of your problems—not just cover up the symptoms. Using tools like nutrition, herbal medicine, lifestyle coaching, live blood analysis, and smart testing, he helps your body get back to being balance.
+                  He blends nature and real science to treat the <strong>root cause of your problems</strong>—not just cover up the symptoms. Using tools like nutrition, herbal medicine, lifestyle coaching, live blood analysis, and smart testing, he helps your body get back to being balance.
                 </p>
                 <p>
-                  Whether you're dealing with gut problems, burnout, poor sleep, or mood swings—naturopathy helps your whole body heal, not just one part of it.
+                  Whether you're dealing with gut problems, burnout, poor sleep, or mood swings—naturopathy helps <strong>your whole body heal</strong>, not just one part of it.
                 </p>
                 <p>
                   <a href="https://www.torrens.edu.au/stories/blog/health/naturopathy-explained#:~:text=What%20does%20a%20Naturopath%20do,whole%20health%20of%20the%20individual." className="text-primary hover:underline font-semibold">Learn more about Naturopathy</a>
@@ -151,10 +151,10 @@ const Services = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Nutrition, Movement, Live Blood Analysis, and More</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
-                Naturopathy isn't just one thing. It's a full-body approach. We use food, herbs, movement, mindset and testing to bring your body back to life.
+                Naturopathy isn't just one thing. It's a <strong>full-body approach</strong>. We use food, herbs, movement, mindset and testing to bring your body back to life.
               </p>
               <p>
-                This isn't one-size-fits-all. We partner with you to build a plan that feels simple, doable, and works long-term.
+                This isn't one-size-fits-all. We partner with you to build a plan that feels <strong>simple, doable, and works long-term</strong>.
               </p>
               <p>
                 In addition to our naturopathy services, we also offer a range of holistic services in Brisbane such as{' '}
@@ -173,7 +173,7 @@ const Services = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">EXPERIENCING UNEXPLAINED SYMPTOMS?</h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-              At NXTLVL Health in New Farm, we go way deeper than "you're fine", which is probably something you're sick of. We find out what's really going on—and then give you a step-by-step plan to actually fix it.
+              At NXTLVL Health in New Farm, we go way deeper than <strong>"you're fine"</strong>, which is probably something you're sick of. We find out <strong>what's really going on</strong>—and then give you a step-by-step plan to actually fix it.
             </p>
           </div>
 
@@ -227,7 +227,7 @@ const Services = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Ready to Get Real Answers About Your Health?</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Book your consultation with Mitch and discover what's really going on in your body through advanced naturopathic testing and live blood analysis.
+              Book your consultation with Mitch and discover what's really going on in your body through <strong>advanced naturopathic testing and live blood analysis</strong>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3" asChild>
