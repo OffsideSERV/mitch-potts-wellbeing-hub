@@ -3,68 +3,47 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope } from 'lucide-react';
-
 const Index = () => {
-  const primaryServices = [
-    {
-      title: "Naturopathy",
-      description: "Holistic approach to health using natural remedies and lifestyle medicine",
-      icon: <Leaf className="h-8 w-8 text-primary" />
-    },
-    {
-      title: "Nutrition Guidance",
-      description: "Personalized nutrition plans to optimize your health and wellbeing",
-      icon: <Heart className="h-8 w-8 text-primary" />
-    },
-    {
-      title: "Live Blood Analysis",
-      description: "Advanced diagnostic technique to assess your body's nutritional status",
-      icon: <Microscope className="h-8 w-8 text-primary" />
-    },
-    {
-      title: "Functional Medicine",
-      description: "Root cause analysis and personalized treatment protocols",
-      icon: <Book className="h-8 w-8 text-primary" />
-    },
-    {
-      title: "MLS Laser Therapy",
-      description: "Advanced laser treatment for pain relief and tissue healing",
-      icon: <Thermometer className="h-8 w-8 text-primary" />
-    },
-    {
-      title: "Personal Training",
-      description: "Customized fitness programs to support your health journey",
-      icon: <Weight className="h-8 w-8 text-primary" />
-    }
-  ];
-
-  const primaryConditions = [
-    { name: "Gut Health", description: "Digestive disorders, IBS, SIBO, and microbiome optimization" },
-    { name: "Weight Loss", description: "Sustainable weight management through natural approaches" },
-    { name: "Fatigue", description: "Chronic fatigue, energy optimization, and adrenal support" },
-    { name: "Skin Conditions", description: "Eczema, acne, psoriasis, and other dermatological issues" }
-  ];
-
-  const additionalConditions = [
-    "Allergies & Food Sensitivities",
-    "Asthma",
-    "Children's Health",
-    "Cardiovascular Health",
-    "Chronic Inflammation & Pain",
-    "Diabetes",
-    "Detoxification (Environmental Toxins / Liver Support)",
-    "Headaches (Migraines)",
-    "Immune Health (Cold & Flu, Bacterial Infections)",
-    "Insomnia (Poor Sleep Quality)",
-    "Men's Health",
-    "Mental Health (Stress, Anxiety & Depression)",
-    "Musculoskeletal Issues",
-    "Thyroid",
-    "Athletic Performance and Recovery"
-  ];
-
-  return (
-    <div className="min-h-screen bg-background">
+  const primaryServices = [{
+    title: "Naturopathy",
+    description: "Holistic approach to health using natural remedies and lifestyle medicine",
+    icon: <Leaf className="h-8 w-8 text-primary" />
+  }, {
+    title: "Nutrition Guidance",
+    description: "Personalized nutrition plans to optimize your health and wellbeing",
+    icon: <Heart className="h-8 w-8 text-primary" />
+  }, {
+    title: "Live Blood Analysis",
+    description: "Advanced diagnostic technique to assess your body's nutritional status",
+    icon: <Microscope className="h-8 w-8 text-primary" />
+  }, {
+    title: "Functional Medicine",
+    description: "Root cause analysis and personalized treatment protocols",
+    icon: <Book className="h-8 w-8 text-primary" />
+  }, {
+    title: "MLS Laser Therapy",
+    description: "Advanced laser treatment for pain relief and tissue healing",
+    icon: <Thermometer className="h-8 w-8 text-primary" />
+  }, {
+    title: "Personal Training",
+    description: "Customized fitness programs to support your health journey",
+    icon: <Weight className="h-8 w-8 text-primary" />
+  }];
+  const primaryConditions = [{
+    name: "Gut Health",
+    description: "Digestive disorders, IBS, SIBO, and microbiome optimization"
+  }, {
+    name: "Weight Loss",
+    description: "Sustainable weight management through natural approaches"
+  }, {
+    name: "Fatigue",
+    description: "Chronic fatigue, energy optimization, and adrenal support"
+  }, {
+    name: "Skin Conditions",
+    description: "Eczema, acne, psoriasis, and other dermatological issues"
+  }];
+  const additionalConditions = ["Allergies & Food Sensitivities", "Asthma", "Children's Health", "Cardiovascular Health", "Chronic Inflammation & Pain", "Diabetes", "Detoxification (Environmental Toxins / Liver Support)", "Headaches (Migraines)", "Immune Health (Cold & Flu, Bacterial Infections)", "Insomnia (Poor Sleep Quality)", "Men's Health", "Mental Health (Stress, Anxiety & Depression)", "Musculoskeletal Issues", "Thyroid", "Athletic Performance and Recovery"];
+  return <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
@@ -95,11 +74,7 @@ const Index = () => {
               </div>
             </div>
             <div className="relative">
-              <img 
-                src="/lovable-uploads/8ff6a2a2-0c89-4c39-b32c-f82c7001ded3.png" 
-                alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health"
-                className="rounded-2xl shadow-2xl w-full h-auto"
-              />
+              <img alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Microscope className="h-8 w-8 text-primary" />
@@ -153,11 +128,7 @@ const Index = () => {
               </div>
             </div>
             <div className="relative">
-              <img 
-                src="/lovable-uploads/b28b1e57-7b52-4adb-bb62-79cd59febc55.png" 
-                alt="Mitchell Potts at NXTLVL Health clinic"
-                className="rounded-2xl shadow-lg w-full h-auto"
-              />
+              <img alt="Mitchell Potts at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full h-auto" src="/lovable-uploads/42aef2a5-2c1a-47fd-ad93-e2b0b669ebdc.jpg" />
             </div>
           </div>
         </div>
@@ -196,11 +167,7 @@ const Index = () => {
               </div>
             </div>
             <div className="relative">
-              <img 
-                src="/lovable-uploads/4c62a19f-7c98-4dfd-8b68-3b3306b1c3b8.png" 
-                alt="Mitch performing Live Blood Analysis at NXTLVL Health"
-                className="rounded-2xl shadow-lg w-full h-auto"
-              />
+              <img src="/lovable-uploads/4c62a19f-7c98-4dfd-8b68-3b3306b1c3b8.png" alt="Mitch performing Live Blood Analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -217,8 +184,7 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {primaryServices.map((service, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
+            {primaryServices.map((service, index) => <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
                 <CardHeader className="pb-4">
                   <div className="mb-4">{service.icon}</div>
                   <CardTitle className="text-xl">{service.title}</CardTitle>
@@ -228,8 +194,7 @@ const Index = () => {
                     {service.description}
                   </CardDescription>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -246,25 +211,13 @@ const Index = () => {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="relative">
-              <img 
-                src="/lovable-uploads/e93c52c1-c59d-4e76-a2a8-d66a96ad1b63.png" 
-                alt="Mitch preparing herbal tinctures"
-                className="rounded-xl shadow-lg w-full h-64 object-cover"
-              />
+              <img src="/lovable-uploads/e93c52c1-c59d-4e76-a2a8-d66a96ad1b63.png" alt="Mitch preparing herbal tinctures" className="rounded-xl shadow-lg w-full h-64 object-cover" />
             </div>
             <div className="relative">
-              <img 
-                src="/lovable-uploads/b7a36eb9-29e4-4f66-8777-c52f2fd30de8.png" 
-                alt="Natural medicine bottles and preparations"
-                className="rounded-xl shadow-lg w-full h-64 object-cover"
-              />
+              <img src="/lovable-uploads/b7a36eb9-29e4-4f66-8777-c52f2fd30de8.png" alt="Natural medicine bottles and preparations" className="rounded-xl shadow-lg w-full h-64 object-cover" />
             </div>
             <div className="relative">
-              <img 
-                src="/lovable-uploads/fb7dd20c-25e8-4e31-bd9b-28e29c61b46f.png" 
-                alt="Herbal medicine consultation process"
-                className="rounded-xl shadow-lg w-full h-64 object-cover"
-              />
+              <img src="/lovable-uploads/fb7dd20c-25e8-4e31-bd9b-28e29c61b46f.png" alt="Herbal medicine consultation process" className="rounded-xl shadow-lg w-full h-64 object-cover" />
             </div>
           </div>
         </div>
@@ -281,8 +234,7 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-16">
-            {primaryConditions.map((condition, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow duration-300">
+            {primaryConditions.map((condition, index) => <Card key={index} className="hover:shadow-lg transition-shadow duration-300">
                 <CardHeader>
                   <CardTitle className="text-xl text-primary">{condition.name}</CardTitle>
                 </CardHeader>
@@ -291,18 +243,15 @@ const Index = () => {
                     {condition.description}
                   </CardDescription>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
 
           <div className="bg-muted/50 rounded-2xl p-8">
             <h3 className="text-2xl font-semibold mb-6 text-center">Additional Conditions Treated</h3>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-              {additionalConditions.map((condition, index) => (
-                <Badge key={index} variant="secondary" className="justify-start p-3 text-sm">
+              {additionalConditions.map((condition, index) => <Badge key={index} variant="secondary" className="justify-start p-3 text-sm">
                   {condition}
-                </Badge>
-              ))}
+                </Badge>)}
             </div>
           </div>
         </div>
@@ -362,8 +311,6 @@ const Index = () => {
           </p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
