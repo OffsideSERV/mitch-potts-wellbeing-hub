@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -52,8 +53,8 @@ const Index = () => {
                   Best Naturopath in Brisbane - NXTLVL Health
                 </h1>
                 <h2 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Couldn't Find Answers Elsewhere?{" "}
-                  <span className="text-primary">Finally Feel Like Yourself Again!</span>
+                  Not Feeling Like Yourself?{" "}
+                  <span className="text-primary">Transform in 6 Weeks!</span>
                 </h2>
                 
                 {/* Mobile Image - placed right after headline */}
@@ -73,13 +74,10 @@ const Index = () => {
                 {/* Mobile spacing for body text */}
                 <div className="lg:space-y-0 space-y-6 mt-8 lg:mt-0">
                   <p className="text-xl text-muted-foreground leading-relaxed">
-                    I know exactly how it feels when you're <strong>struggling with health problems</strong> and you <strong>couldn't find answers elsewhere</strong>.
+                    I know exactly how frustrating it is to feel bloated, drained, and just out of it, but still have your doctor, friends, and family, tell you there's nothing wrong.
                   </p>
                   <p className="text-xl text-muted-foreground leading-relaxed">
-                    You're <strong>unsure what to do and where to seek advice from</strong>. You feel like <strong>no one is looking at the big picture</strong>.
-                  </p>
-                  <p className="text-xl text-muted-foreground leading-relaxed">
-                    Your doctor says you're fine, but <strong>you don't feel fine</strong>. I'm here to help you <strong>finally feel like you're in safe hands</strong>.
+                    That's why I'm here to tell you that you're not crazy, and I'm here to give you the answers you've been looking for.
                   </p>
                 </div>
               </div>
@@ -125,17 +123,17 @@ const Index = () => {
               </div>
             </div>
             <div className="text-center space-y-2">
-              <TestTube className="h-8 w-8 text-primary mx-auto" />
-              <div>
-                <h3 className="text-xl font-bold text-foreground">90% of Patients</h3>
-                <p className="text-sm text-muted-foreground">See Results in Just 6 Weeks</p>
-              </div>
-            </div>
-            <div className="text-center space-y-2">
               <BadgeCheck className="h-8 w-8 text-primary mx-auto" />
               <div>
                 <h3 className="text-xl font-bold text-foreground">Real Testing</h3>
                 <p className="text-sm text-muted-foreground">No Guessing</p>
+              </div>
+            </div>
+            <div className="text-center space-y-2">
+              <TestTube className="h-8 w-8 text-primary mx-auto" />
+              <div>
+                <h3 className="text-xl font-bold text-foreground">90% of Patients</h3>
+                <p className="text-sm text-muted-foreground">See Results in Just 6 Weeks</p>
               </div>
             </div>
           </div>
@@ -206,7 +204,7 @@ const Index = () => {
           </div>
 
           <div className="text-center mt-20">
-            <h2 className="text-3xl lg:text-4xl font-bold text-primary">Finally Feel Like You're in Safe Hands</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-primary">Then You've Come to The Right Place</h2>
           </div>
         </div>
       </section>
@@ -265,21 +263,27 @@ const Index = () => {
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center space-y-3">
                 <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto">
-                  <Thermometer className="h-6 w-6 text-red-500" />
+                  <div className="w-6 h-6 bg-yellow-400 rounded-full flex items-center justify-center">
+                    <div className="w-4 h-4 bg-red-500 rounded-full"></div>
+                  </div>
                 </div>
                 <h4 className="font-semibold">Prescription Drugs</h4>
                 <p className="text-sm text-muted-foreground">Just cover symptoms while your body gets sicker underneath. Side effects create new problems.</p>
               </div>
               <div className="text-center space-y-3">
                 <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto">
-                  <Book className="h-6 w-6 text-red-500" />
+                  <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
+                    <div className="w-2 h-2 bg-green-800 rounded-full"></div>
+                  </div>
                 </div>
                 <h4 className="font-semibold">Generic Diets</h4>
                 <p className="text-sm text-muted-foreground">One-size-fits-all approaches ignore YOUR unique body and why YOU got sick.</p>
               </div>
               <div className="text-center space-y-3">
                 <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto">
-                  <Weight className="h-6 w-6 text-red-500" />
+                  <div className="w-6 h-6 bg-yellow-600 rounded-full flex items-center justify-center">
+                    <div className="text-xs font-bold text-white">$</div>
+                  </div>
                 </div>
                 <h4 className="font-semibold">Expensive Supplements</h4>
                 <p className="text-sm text-muted-foreground">Random vitamins without testing is like cooking with every ingredient in your kitchen. Just a waste of money.</p>
