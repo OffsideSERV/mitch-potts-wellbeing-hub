@@ -62,10 +62,10 @@ const Index = () => {
                   <span className="text-primary">Transform in 6 Weeks!</span>
                 </h2>
                 <p className="text-xl text-muted-foreground leading-relaxed">
-                  I know exactly how frustrating it is to feel bloated, drained, and just out of it, but still have your doctor, friends, and family, tell you there's nothing wrong.
+                  I know exactly how frustrating it is to feel <strong>bloated, drained, and just out of it</strong>, but still have your doctor, friends, and family, tell you <strong>there's nothing wrong</strong>.
                 </p>
                 <p className="text-xl text-muted-foreground leading-relaxed">
-                  That's why I'm here to tell you that you're not crazy, and I'm here to give you the answers you've been looking for.
+                  That's why I'm here to tell you that <strong>you're not crazy</strong>, and I'm here to give you the <strong>answers you've been looking for</strong>.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
