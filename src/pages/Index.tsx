@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -89,7 +90,7 @@ const Index = () => {
                   <span className="text-center">Book a Free 15-Minute Consult</span>
                 </Button>
                 <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3 h-auto">
-                  Learn More
+                  Call Mitch
                 </Button>
               </div>
             </div>
