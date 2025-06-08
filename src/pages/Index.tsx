@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope } from 'lucide-react';
+
 const Index = () => {
   const primaryServices = [{
     title: "Naturopathy",
@@ -50,13 +51,13 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="space-y-4">
-                <Badge variant="secondary" className="text-sm">
+                <h1 className="text-sm bg-secondary text-secondary-foreground px-3 py-1 rounded-full inline-block">
                   NXTLVL Health - Brisbane Clinic
-                </Badge>
-                <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
+                </h1>
+                <h2 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
                   Advanced Natural Health Solutions with{" "}
                   <span className="text-primary">Mitchell Potts</span>
-                </h1>
+                </h2>
                 <p className="text-xl text-muted-foreground leading-relaxed">
                   Experience cutting-edge naturopathic care at NXTLVL Health. Mitch combines advanced 
                   diagnostic techniques like Live Blood Analysis with personalized natural medicine 
@@ -313,4 +314,5 @@ const Index = () => {
       </footer>
     </div>;
 };
+
 export default Index;
