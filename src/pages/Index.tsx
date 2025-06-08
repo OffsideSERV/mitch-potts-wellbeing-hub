@@ -322,7 +322,7 @@ const Index = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Meet Mitchell "Mitch" Potts</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Choose Mitch As Your Naturopath?</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               The naturopath who <strong>finally listens</strong> and has the advanced testing to prove what's really going wrong in your body—no more guessing games.
             </p>
@@ -337,6 +337,13 @@ const Index = () => {
                   <div>
                     <h4 className="font-semibold">He Actually SEES What's Wrong</h4>
                     <p className="text-muted-foreground">Live blood analysis reveals exactly what your body needs—<strong>no more guessing</strong> why you feel terrible</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <Target className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold">Customized Plan Just For YOU</h4>
+                    <p className="text-muted-foreground">Every treatment plan is <strong>individually tailored</strong> to your unique health profile, symptoms, and lifestyle—not a cookie-cutter approach</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
