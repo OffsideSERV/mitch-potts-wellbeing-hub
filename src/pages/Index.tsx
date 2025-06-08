@@ -46,7 +46,7 @@ const Index = () => {
             <div className="space-y-8 lg:mt-0 mt-12">
               <div className="space-y-4">
                 <h1 className="text-sm bg-secondary text-secondary-foreground px-3 py-1 rounded-full inline-block">
-                  Best Naturopath in Brisbane - NXTLVL Health
+                  Best Naturopath Brisbane - NXTLVL Health
                 </h1>
                 <h2 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
                   Not Feeling Like Yourself? <span className="text-primary">Transform in 6 Weeks!</span>
@@ -54,7 +54,7 @@ const Index = () => {
                 
                 {/* Mobile Image - placed right after headline */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" />
+                  <img alt="Mitchell Potts, leading naturopath Brisbane, preparing natural herbal remedies at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Microscope className="h-6 w-6 text-primary" />
@@ -95,7 +95,7 @@ const Index = () => {
             
             {/* Desktop Image - only visible on large screens */}
             <div className="relative hidden lg:block">
-              <img alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" />
+              <img alt="Mitchell Potts, leading naturopath Brisbane, preparing natural herbal remedies at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Microscope className="h-8 w-8 text-primary" />
@@ -195,7 +195,7 @@ const Index = () => {
           </div>
 
           <div className="text-center mt-20">
-            <h2 className="text-3xl lg:text-4xl font-bold text-primary">Finally Feel Like You're in Safe Hands</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-primary">Finally Feel Like You're in Safe Hands with Brisbane's Leading Naturopath</h2>
           </div>
         </div>
       </section>
@@ -206,19 +206,19 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Naturopathy Works When Everything Else Failed</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              You've tried pills, diets, and quick fixes. But naturopathy is different. It's the <strong>missing piece</strong> 
+              You've tried pills, diets, and quick fixes. But working with a good naturopath in Brisbane is different. It's the <strong>missing piece</strong> 
               that helps solve what others couldn't.
             </p>
           </div>
 
           {/* Mobile Image positioned after heading */}
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/1bd48616-2927-4298-ac11-2883825577b5.png" alt="Professional consultation at NXTLVL Health showing personalised patient care" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/1bd48616-2927-4298-ac11-2883825577b5.png" alt="Professional naturopath Brisbane consultation at NXTLVL Health showing personalised patient care" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
-              <h3 className="text-2xl font-semibold">Here's What Makes Naturopathy Different</h3>
+              <h3 className="text-2xl font-semibold">Here's What Makes Our Brisbane Naturopathy Different</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <Target className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
@@ -245,7 +245,7 @@ const Index = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/1bd48616-2927-4298-ac11-2883825577b5.png" alt="Professional consultation at NXTLVL Health showing personalised patient care" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/1bd48616-2927-4298-ac11-2883825577b5.png" alt="Professional naturopath Brisbane consultation at NXTLVL Health showing personalised patient care" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
 
@@ -318,20 +318,20 @@ const Index = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Choose Mitch As Your Naturopath?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Choose Mitch As Your Brisbane Naturopath?</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              The naturopath who <strong>finally listens</strong> and has the advanced screening to prove what's really going wrong in your body. No more guessing games.
+              The naturopath Brisbane locals trust who <strong>finally listens</strong> and has the advanced screening to prove what's really going wrong in your body. No more guessing games.
             </p>
           </div>
           
           {/* Mobile Image positioned after heading */}
           <div className="lg:hidden mb-12">
-            <img alt="Mitchell Potts performing microscopy analysis at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full h-auto mx-auto" src="/lovable-uploads/aa4b685d-0956-463f-ad98-180c34dbdb0d.png" />
+            <img alt="Mitchell Potts, experienced naturopath Brisbane, performing microscopy analysis at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full h-auto mx-auto" src="/lovable-uploads/aa4b685d-0956-463f-ad98-180c34dbdb0d.png" />
           </div>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h3 className="text-2xl font-semibold">Why Mitch Gets Results When Others Don't</h3>
+              <h3 className="text-2xl font-semibold">Why Mitch Gets Results When Other Naturopaths Brisbane Don't</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <Microscope className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
@@ -365,7 +365,7 @@ const Index = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img alt="Mitchell Potts performing microscopy analysis at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full h-auto" src="/lovable-uploads/aa4b685d-0956-463f-ad98-180c34dbdb0d.png" />
+              <img alt="Mitchell Potts, experienced naturopath Brisbane, performing microscopy analysis at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full h-auto" src="/lovable-uploads/aa4b685d-0956-463f-ad98-180c34dbdb0d.png" />
             </div>
           </div>
         </div>
@@ -403,7 +403,7 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">The Health Problems That Actually Get Fixed Here</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Tired of being told "it's all in your head"? These are the <strong>real health issues</strong> Mitch specialises in solving.
+              Tired of being told "it's all in your head"? These are the <strong>real health issues</strong> our Brisbane naturopathy clinic specialises in solving.
               The ones other practitioners just can't figure out.
             </p>
           </div>
@@ -438,7 +438,7 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">What Our Patients Say</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Real stories from real people who <strong>finally got their health back on track</strong> and are <strong>seeing results they've wanted for years</strong>.
+              Real stories from real people who <strong>finally got their health back on track</strong> with the best naturopath Brisbane has to offer and are <strong>seeing results they've wanted for years</strong>.
             </p>
           </div>
           
@@ -455,7 +455,7 @@ const Index = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Ready To Finally Feel Like Yourself Again?</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Stop wasting time with doctors who don't listen and treatments that don't work. Book your <strong>free 15-minute consultation</strong> with Mitch and discover why thousands of people are finally getting the answers they've been searching for.
+              Stop wasting time with doctors who don't listen and treatments that don't work. Book your <strong>free 15-minute consultation</strong> with Brisbane's most trusted naturopath and discover why thousands of people are finally getting the answers they've been searching for.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
@@ -471,7 +471,7 @@ const Index = () => {
 
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="space-y-3">
-              <h3 className="text-xl font-semibold">NXTLVL Health - Naturopath</h3>
+              <h3 className="text-xl font-semibold">NXTLVL Health - Naturopath Brisbane</h3>
               <p className="text-muted-foreground">
                 Suite 2/665 Brunswick St<br />
                 New Farm, QLD 4005<br />
