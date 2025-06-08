@@ -275,7 +275,7 @@ const Index = () => {
                   <span className="text-2xl">💰</span>
                 </div>
                 <h4 className="font-semibold">Expensive Supplements</h4>
-                <p className="text-sm text-muted-foreground">Random vitamins without testing what you actually need. Just expensive pee.</p>
+                <p className="text-sm text-muted-foreground">Random vitamins without testing is like trying to make a pasta with every ingredient in your kitchen. Just a waste of money.</p>
               </div>
             </div>
           </div>
