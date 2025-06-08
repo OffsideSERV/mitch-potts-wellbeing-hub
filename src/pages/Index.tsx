@@ -254,21 +254,21 @@ const Index = () => {
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center space-y-3">
                 <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-content-center mx-auto">
-                  <Thermometer className="h-6 w-6 text-red-500" />
+                  <Pill className="h-6 w-6 text-red-500" />
                 </div>
                 <h4 className="font-semibold">Prescription Drugs</h4>
                 <p className="text-sm text-muted-foreground">Just cover symptoms while your body gets sicker underneath. Side effects create new problems.</p>
               </div>
               <div className="text-center space-y-3">
                 <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-content-center mx-auto">
-                  <Book className="h-6 w-6 text-red-500" />
+                  <Salad className="h-6 w-6 text-red-500" />
                 </div>
                 <h4 className="font-semibold">Generic Diets</h4>
                 <p className="text-sm text-muted-foreground">One-size-fits-all approaches ignore YOUR unique body and why YOU got sick.</p>
               </div>
               <div className="text-center space-y-3">
                 <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-content-center mx-auto">
-                  <Weight className="h-6 w-6 text-red-500" />
+                  <DollarSign className="h-6 w-6 text-red-500" />
                 </div>
                 <h4 className="font-semibold">Expensive Supplements</h4>
                 <p className="text-sm text-muted-foreground">Random vitamins without testing is like cooking with every ingredient in your kitchen. Just a waste of money.</p>
