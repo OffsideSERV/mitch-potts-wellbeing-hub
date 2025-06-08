@@ -202,7 +202,7 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="text-center">
+          <div className="text-center mt-20">
             <h2 className="text-3xl lg:text-4xl font-bold text-primary">Then You've Come To The Right Place</h2>
           </div>
         </div>
