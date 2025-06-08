@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -64,7 +65,7 @@ const Index = () => {
                 
                 {/* Mobile Image - placed right after headline */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" />
+                  <img alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-80 object-cover" src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Microscope className="h-6 w-6 text-primary" />
@@ -214,36 +215,36 @@ const Index = () => {
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">What is Naturopathy?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Finally, Someone Who Gets It</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Naturopathy is a holistic healthcare approach that harnesses your body's natural healing abilities 
-              through evidence-based natural therapies, lifestyle medicine, and personalized treatment plans.
+              You've been <strong>dismissed, misunderstood, and told it's all in your head</strong>. But here's the truth: 
+              when your body isn't working right, there's <strong>always a reason</strong>—and I know how to find it.
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
-              <h3 className="text-2xl font-semibold">How Naturopathy Helps You</h3>
+              <h3 className="text-2xl font-semibold">Why You Keep Feeling Stuck</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <Target className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold">Treats Root Causes</h4>
-                    <p className="text-muted-foreground">Rather than just managing symptoms, naturopathy identifies and addresses the underlying causes of illness</p>
+                    <h4 className="font-semibold">They Only Treat Symptoms</h4>
+                    <p className="text-muted-foreground">Most doctors give you a pill for every symptom but <strong>never ask WHY</strong> you're sick in the first place</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Shield className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold">Strengthens Natural Immunity</h4>
-                    <p className="text-muted-foreground">Supports your body's innate healing mechanisms through nutrition, herbal medicine, and lifestyle optimization</p>
+                    <h4 className="font-semibold">Your Body Is Crying For Help</h4>
+                    <p className="text-muted-foreground">That fatigue, bloating, and brain fog? It's your body <strong>screaming that something's wrong</strong>—but nobody's listening</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Zap className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold">Restores Energy & Vitality</h4>
-                    <p className="text-muted-foreground">Addresses fatigue, stress, and chronic conditions by optimizing your body's natural energy systems</p>
+                    <h4 className="font-semibold">You Deserve To Feel Amazing</h4>
+                    <p className="text-muted-foreground"><strong>Imagine waking up energized</strong>, thinking clearly, and feeling comfortable in your own skin again</p>
                   </div>
                 </div>
               </div>
@@ -257,33 +258,33 @@ const Index = () => {
             <Card className="text-center border-0 shadow-md">
               <CardHeader>
                 <Leaf className="h-12 w-12 text-primary mx-auto mb-4" />
-                <CardTitle className="text-xl">Natural Therapies</CardTitle>
+                <CardTitle className="text-xl">Real Solutions</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  Using herbal medicine, nutritional therapy, and lifestyle interventions to support healing
+                  No more band-aids. We find the <strong>root cause</strong> and fix it using natural medicine that actually works
                 </CardDescription>
               </CardContent>
             </Card>
             <Card className="text-center border-0 shadow-md">
               <CardHeader>
                 <Heart className="h-12 w-12 text-primary mx-auto mb-4" />
-                <CardTitle className="text-xl">Personalized Care</CardTitle>
+                <CardTitle className="text-xl">You're Finally Heard</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  Every treatment plan is tailored to your unique health profile and individual needs
+                  Someone who <strong>actually listens</strong> to your story and believes what you're experiencing is real
                 </CardDescription>
               </CardContent>
             </Card>
             <Card className="text-center border-0 shadow-md">
               <CardHeader>
                 <Microscope className="h-12 w-12 text-primary mx-auto mb-4" />
-                <CardTitle className="text-xl">Evidence-Based</CardTitle>
+                <CardTitle className="text-xl">Proven Results</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  Combining traditional wisdom with modern diagnostic tools and scientific research
+                  Advanced testing shows us <strong>exactly what's wrong</strong> so we can create your personalized healing plan
                 </CardDescription>
               </CardContent>
             </Card>
