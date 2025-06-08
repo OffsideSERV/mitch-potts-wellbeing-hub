@@ -65,7 +65,7 @@ const Index = () => {
                 
                 {/* Mobile Image - placed right after headline */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-80 object-cover" src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" />
+                  <img alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Microscope className="h-6 w-6 text-primary" />
@@ -85,11 +85,11 @@ const Index = () => {
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-8 sm:py-6 h-auto whitespace-normal leading-tight">
+                <Button size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3 h-auto whitespace-normal leading-tight">
                   <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                   <span className="text-center">Book a Free 15-Minute Consult</span>
                 </Button>
-                <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-8 sm:py-6 h-auto">
+                <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3 h-auto">
                   Learn More
                 </Button>
               </div>
@@ -407,11 +407,11 @@ const Index = () => {
               and discover how cutting-edge diagnostics and personalized natural medicine can transform your wellbeing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="text-lg px-8 py-6">
+              <Button size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
                 <Calendar className="mr-2 h-5 w-5" />
                 Book a Free 15-Minute Consult
               </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6">
+              <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
                 Call: (07) 3000 0000
               </Button>
             </div>
