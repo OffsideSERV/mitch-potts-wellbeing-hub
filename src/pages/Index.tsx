@@ -84,11 +84,11 @@ const Index = () => {
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="text-lg px-8 py-6">
-                  <Calendar className="mr-2 h-5 w-5" />
-                  Book a Free 15-Minute Consult
+                <Button size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-8 sm:py-6 h-auto whitespace-normal leading-tight">
+                  <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
+                  <span className="text-center">Book a Free 15-Minute Consult</span>
                 </Button>
-                <Button variant="outline" size="lg" className="text-lg px-8 py-6">
+                <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-8 sm:py-6 h-auto">
                   Learn More
                 </Button>
               </div>
