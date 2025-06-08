@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, TestTube, BadgeCheck } from 'lucide-react';
+import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, TestTube, BadgeCheck, Target, Shield, Zap } from 'lucide-react';
 
 const Index = () => {
   const primaryServices = [{
@@ -111,6 +111,87 @@ const Index = () => {
                 <p className="text-sm text-muted-foreground">Naturopath</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* What is Naturopathy Section */}
+      <section className="py-20 px-4 bg-muted/30">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">What is Naturopathy?</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Naturopathy is a holistic healthcare approach that harnesses your body's natural healing abilities 
+              through evidence-based natural therapies, lifestyle medicine, and personalized treatment plans.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+            <div className="space-y-6">
+              <h3 className="text-2xl font-semibold">How Naturopathy Helps You</h3>
+              <div className="space-y-4">
+                <div className="flex items-start space-x-3">
+                  <Target className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold">Treats Root Causes</h4>
+                    <p className="text-muted-foreground">Rather than just managing symptoms, naturopathy identifies and addresses the underlying causes of illness</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <Shield className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold">Strengthens Natural Immunity</h4>
+                    <p className="text-muted-foreground">Supports your body's innate healing mechanisms through nutrition, herbal medicine, and lifestyle optimization</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <Zap className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold">Restores Energy & Vitality</h4>
+                    <p className="text-muted-foreground">Addresses fatigue, stress, and chronic conditions by optimizing your body's natural energy systems</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="relative">
+              <img src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" alt="Natural herbal remedies and naturopathic medicine preparation" className="rounded-2xl shadow-lg w-full h-auto" />
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <Card className="text-center border-0 shadow-md">
+              <CardHeader>
+                <Leaf className="h-12 w-12 text-primary mx-auto mb-4" />
+                <CardTitle className="text-xl">Natural Therapies</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  Using herbal medicine, nutritional therapy, and lifestyle interventions to support healing
+                </CardDescription>
+              </CardContent>
+            </Card>
+            <Card className="text-center border-0 shadow-md">
+              <CardHeader>
+                <Heart className="h-12 w-12 text-primary mx-auto mb-4" />
+                <CardTitle className="text-xl">Personalized Care</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  Every treatment plan is tailored to your unique health profile and individual needs
+                </CardDescription>
+              </CardContent>
+            </Card>
+            <Card className="text-center border-0 shadow-md">
+              <CardHeader>
+                <Microscope className="h-12 w-12 text-primary mx-auto mb-4" />
+                <CardTitle className="text-xl">Evidence-Based</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  Combining traditional wisdom with modern diagnostic tools and scientific research
+                </CardDescription>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
