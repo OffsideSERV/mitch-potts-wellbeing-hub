@@ -12,37 +12,26 @@
             box-sizing: border-box;
         }
         
-        /* Override any theme or Elementor constraints */
-        .elementor-widget-html {
-            width: 100% !important;
-            max-width: none !important;
-        }
-        
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             line-height: 1.6;
             color: #0f172a;
             background-color: #ffffff;
-            width: 100%;
-            margin: 0;
         }
         
         .landing-page {
             width: 100%;
             margin: 0;
             padding: 0;
-            background-color: #ffffff;
         }
         
         /* Hero Section */
         .hero-section {
             background: linear-gradient(to bottom right, rgba(0, 150, 136, 0.1), rgba(0, 150, 136, 0.05));
             padding: 5rem 1rem;
-            width: 100%;
         }
         
         .hero-container {
-            width: 100%;
             max-width: 1200px;
             margin: 0 auto;
             display: grid;
@@ -54,12 +43,17 @@
         @media (min-width: 1024px) {
             .hero-container {
                 grid-template-columns: 1fr 1fr;
-                gap: 3rem;
             }
         }
         
         .hero-content {
-            space-y: 2rem;
+            order: 2;
+        }
+        
+        @media (min-width: 1024px) {
+            .hero-content {
+                order: 1;
+            }
         }
         
         .hero-badge {
@@ -76,7 +70,7 @@
             font-size: 2.5rem;
             font-weight: bold;
             line-height: 1.2;
-            margin-bottom: 1rem;
+            margin-bottom: 2rem;
         }
         
         @media (min-width: 1024px) {
@@ -89,87 +83,16 @@
             color: #00968a;
         }
         
-        .hero-description {
-            font-size: 1.25rem;
-            color: #64748b;
-            margin-bottom: 1.5rem;
-            line-height: 1.6;
-        }
-        
-        .hero-buttons {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            margin-top: 2rem;
-        }
-        
-        @media (min-width: 640px) {
-            .hero-buttons {
-                flex-direction: row;
-            }
-        }
-        
-        .btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            padding: 1rem 1.5rem;
-            border-radius: 0.375rem;
-            font-weight: 500;
-            font-size: 1rem;
-            text-decoration: none;
-            transition: all 0.2s;
-            cursor: pointer;
-            border: none;
-            gap: 0.5rem;
-        }
-        
-        .btn-primary {
-            background-color: #00968a;
-            color: white;
-        }
-        
-        .btn-primary:hover {
-            background-color: #00796b;
-        }
-        
-        .btn-outline {
-            background-color: transparent;
-            color: #00968a;
-            border: 1px solid #00968a;
-        }
-        
-        .btn-outline:hover {
-            background-color: #00968a;
-            color: white;
-        }
-        
         .hero-image-container {
             position: relative;
-            display: block;
-        }
-        
-        @media (max-width: 1023px) {
-            .hero-image-container {
-                margin: 2rem -1rem;
-            }
+            order: 1;
+            margin: 2rem -1rem;
         }
         
         @media (min-width: 1024px) {
-            .hero-image-container.desktop-only {
-                display: block;
-            }
-            .hero-image-container.mobile-only {
-                display: none;
-            }
-        }
-        
-        @media (max-width: 1023px) {
-            .hero-image-container.desktop-only {
-                display: none;
-            }
-            .hero-image-container.mobile-only {
-                display: block;
+            .hero-image-container {
+                order: 2;
+                margin: 0;
             }
         }
         
@@ -193,21 +116,14 @@
             padding: 1rem;
             border-radius: 0.75rem;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-        }
-        
-        @media (max-width: 1023px) {
-            .hero-overlay {
-                bottom: -1.5rem;
-                left: 0.5rem;
-                padding: 1rem;
-            }
+            bottom: -1.5rem;
+            left: 0.5rem;
         }
         
         @media (min-width: 1024px) {
             .hero-overlay {
-                bottom: -1.5rem;
-                left: -1.5rem;
                 padding: 1.5rem;
+                left: -1.5rem;
             }
         }
         
@@ -254,6 +170,71 @@
             }
         }
         
+        .hero-description {
+            font-size: 1.25rem;
+            color: #64748b;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+            padding: 1.25rem 0;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        @media (min-width: 640px) {
+            .hero-buttons {
+                flex-direction: row;
+            }
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.75rem 1rem;
+            border-radius: 0.375rem;
+            font-weight: 500;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: all 0.2s;
+            cursor: pointer;
+            border: none;
+            gap: 0.5rem;
+        }
+        
+        @media (min-width: 640px) {
+            .btn {
+                font-size: 1.125rem;
+            }
+        }
+        
+        .btn-primary {
+            background-color: #00968a;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: #00796b;
+        }
+        
+        .btn-outline {
+            background-color: transparent;
+            color: #00968a;
+            border: 1px solid #00968a;
+        }
+        
+        .btn-outline:hover {
+            background-color: #00968a;
+            color: white;
+        }
+        
+        .btn span {
+            text-align: center;
+        }
+        
         /* Trust Boosters */
         .trust-boosters {
             display: grid;
@@ -298,7 +279,6 @@
         /* Section Styles */
         .section {
             padding: 5rem 1rem;
-            width: 100%;
         }
         
         .section-alt {
@@ -306,7 +286,6 @@
         }
         
         .section-container {
-            width: 100%;
             max-width: 1200px;
             margin: 0 auto;
         }
@@ -317,7 +296,7 @@
         }
         
         .section-title {
-            font-size: 2rem;
+            font-size: 1.875rem;
             font-weight: bold;
             margin-bottom: 1.5rem;
             color: #0f172a;
@@ -391,10 +370,10 @@
         }
         
         .card-icon {
-            width: 2rem;
-            height: 2rem;
+            width: 3rem;
+            height: 3rem;
             color: #00968a;
-            margin-bottom: 1rem;
+            margin: 0 auto 1rem;
         }
         
         .card-title {
@@ -408,9 +387,10 @@
             color: #64748b;
             line-height: 1.6;
             margin: 0;
+            font-size: 1rem;
         }
         
-        /* Special Content Sections */
+        /* Content Sections */
         .content-section {
             margin-bottom: 3rem;
         }
@@ -469,9 +449,10 @@
             color: #64748b;
             line-height: 1.6;
             margin-bottom: 1.5rem;
+            font-size: 1.125rem;
         }
         
-        .highlight-box .highlight-text {
+        .highlight-text {
             font-size: 1.25rem;
             font-weight: 600;
             color: #00968a;
@@ -506,52 +487,6 @@
             text-align: left;
         }
         
-        /* Contact Section */
-        .contact-section {
-            background-color: rgba(0, 150, 136, 0.05);
-        }
-        
-        .contact-grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 2rem;
-            text-align: center;
-            margin-top: 3rem;
-        }
-        
-        @media (min-width: 768px) {
-            .contact-grid {
-                grid-template-columns: repeat(3, 1fr);
-            }
-        }
-        
-        .contact-item h3 {
-            font-size: 1.25rem;
-            font-weight: 600;
-            margin-bottom: 0.75rem;
-            color: #0f172a;
-        }
-        
-        .contact-item p {
-            color: #64748b;
-            line-height: 1.6;
-            margin: 0;
-        }
-        
-        /* Footer */
-        .footer {
-            background-color: #0f172a;
-            color: white;
-            padding: 2rem 1rem;
-            text-align: center;
-            width: 100%;
-        }
-        
-        .footer p {
-            font-size: 0.875rem;
-            margin: 0;
-        }
-        
         /* Image Styles */
         .section-image {
             width: 100%;
@@ -570,22 +505,35 @@
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
         }
         
-        /* Icons as SVG */
-        .icon {
-            display: inline-block;
-            width: 1em;
-            height: 1em;
-            fill: currentColor;
+        /* Hidden on mobile/desktop classes */
+        .hidden-mobile {
+            display: none;
         }
         
-        /* Center final CTA */
+        @media (min-width: 1024px) {
+            .hidden-mobile {
+                display: block;
+            }
+        }
+        
+        .hidden-desktop {
+            display: block;
+        }
+        
+        @media (min-width: 1024px) {
+            .hidden-desktop {
+                display: none;
+            }
+        }
+        
+        /* Final CTA */
         .final-cta {
             text-align: center;
             margin-top: 5rem;
         }
         
         .final-cta h2 {
-            font-size: 2rem;
+            font-size: 1.875rem;
             font-weight: bold;
             color: #00968a;
             margin: 0;
@@ -595,6 +543,16 @@
             .final-cta h2 {
                 font-size: 2.5rem;
             }
+        }
+        
+        /* Bullet points */
+        .bullet-point {
+            width: 0.5rem;
+            height: 0.5rem;
+            background-color: #00968a;
+            border-radius: 50%;
+            margin-top: 0.5rem;
+            flex-shrink: 0;
         }
     </style>
 </head>
@@ -607,60 +565,72 @@
                     <span class="hero-badge">Best Naturopath in Brisbane - NXTLVL Health</span>
                     <h1 class="hero-title">
                         Not Feeling Like Yourself? 
-                        <span class="hero-title-accent">Transform in 6 Weeks!</span>
+                        <span class="hero-title-accent">Transform in Just 6 Weeks!</span>
                     </h1>
                     
                     <!-- Mobile Image -->
-                    <div class="hero-image-container mobile-only">
-                        <img src="https://yourdomain.com/wp-content/uploads/image1.jpg" alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health" class="hero-image">
+                    <div class="hero-image-container hidden-desktop">
+                        <img src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health" class="hero-image">
                         <div class="hero-overlay">
                             <div class="overlay-content">
                                 <svg class="overlay-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l-3 3m-4 3.5L5 16l3-3m8-3l3 3-3 3"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12 6-12 6V6z"></path>
                                 </svg>
                                 <div class="overlay-text">
-                                    <h3>Advanced Diagnostics</h3>
+                                    <h3>Advanced Screening Method</h3>
                                     <p>Live Blood Analysis • Natural Medicine</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     
-                    <p class="hero-description">
-                        I know exactly how frustrating it is to feel <strong>bloated, drained, and just out of it</strong>, but still have your doctor, friends, and family, tell you <strong>there's nothing wrong</strong>.
-                    </p>
-                    <p class="hero-description">
-                        That's why I'm here to tell you that <strong>you're not crazy</strong>, and I'm here to give you the <strong>answers you've been looking for</strong>.
-                    </p>
+                    <div style="margin-top: 2rem;">
+                        <p class="hero-description">
+                            I know how frustrating it must be to feel <strong>bloated, drained, and just out of it</strong>, but still have your doctor tell you there's nothing wrong.
+                        </p>
+                        <p class="hero-description">
+                            That's why, as the <strong>best Naturopath Brisbane</strong> has to offer, I'm here to tell you that <strong>you're not crazy</strong>, and I'm here to give you the <strong>answers you've been looking for</strong>.
+                        </p>
+                    </div>
                     
                     <div class="hero-buttons">
-                        <a href="tel:+61731808853" class="btn btn-primary">
-                            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <a href="https://nxtlvlhealth.com.au/book-now/" class="btn btn-primary">
+                            <svg style="width: 1.25rem; height: 1.25rem; flex-shrink: 0;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                             </svg>
-                            Book a Free 15-Minute Consult
+                            <span>Book an Appointment Today!</span>
                         </a>
-                        <a href="tel:+61731808853" class="btn btn-outline">Call Mitch</a>
+                        <a href="tel:0731808853" class="btn btn-outline">
+                            <svg style="width: 1rem; height: 1rem; flex-shrink: 0;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                            </svg>
+                            Call Mitch
+                        </a>
+                    </div>
+                    
+                    <!-- Google 5 Star Badge -->
+                    <div style="margin-top: 1.5rem;">
+                        <script defer async src='https://cdn.trustindex.io/loader.js?7985f8c47d89745a18661502ab0'></script>
                     </div>
                 </div>
                 
                 <!-- Desktop Image -->
-                <div class="hero-image-container desktop-only">
-                    <img src="https://yourdomain.com/wp-content/uploads/image1.jpg" alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health" class="hero-image">
+                <div class="hero-image-container hidden-mobile">
+                    <img src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health" class="hero-image">
                     <div class="hero-overlay">
                         <div class="overlay-content">
                             <svg class="overlay-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l-3 3m-4 3.5L5 16l3-3m8-3l3 3-3 3"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12 6-12 6V6z"></path>
                             </svg>
                             <div class="overlay-text">
-                                <h3>Advanced Diagnostics</h3>
+                                <h3>Advanced Screening Method</h3>
                                 <p>Live Blood Analysis • Natural Medicine</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
             <!-- Trust Boosters -->
             <div class="trust-boosters">
                 <div class="trust-item">
@@ -672,17 +642,17 @@
                 </div>
                 <div class="trust-item">
                     <svg class="trust-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
                     <h3 class="trust-number">Real Testing</h3>
                     <p class="trust-label">No Guessing</p>
                 </div>
                 <div class="trust-item">
                     <svg class="trust-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
                     </svg>
-                    <h3 class="trust-number">Registered</h3>
-                    <p class="trust-label">Naturopath</p>
+                    <h3 class="trust-number">90% of Patients</h3>
+                    <p class="trust-label">See Results in Just 6 Weeks</p>
                 </div>
             </div>
         </section>
@@ -694,29 +664,29 @@
                     <h2 class="section-title">If This Sounds Like You...</h2>
                 </div>
 
-                <img src="https://yourdomain.com/wp-content/uploads/image2.png" alt="Woman feeling tired and unwell sitting on couch" class="section-image">
+                <img src="/lovable-uploads/fe4256a1-0181-4c24-bf85-f8c27507574d.png" alt="Woman feeling tired and unwell sitting on couch" class="section-image">
 
                 <div class="grid grid-2 content-section">
                     <div>
-                        <h3>You Wake Up Tired Every Morning</h3>
+                        <h3>You Feel Tired All the Time</h3>
                         <ul class="content-list">
                             <li class="content-list-item">
                                 <svg class="content-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                 </svg>
-                                <p class="content-text">No matter how many hours you sleep, you <strong>hit snooze twice</strong> and still feel completely groggy</p>
+                                <p class="content-text">You're <strong>sluggish in the morning</strong> no matter how much sleep you get. Your body feels heavy and drained</p>
                             </li>
                             <li class="content-list-item">
                                 <svg class="content-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 11V7a4 4 0 118 0m-4 8v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z"></path>
                                 </svg>
-                                <p class="content-text">You <strong>need coffee just to function</strong>, then crash by 2pm every single day</p>
+                                <p class="content-text">You <strong>need caffeine just to function properly</strong>, and then you crash hard by the afternoon feeling even more exhausted</p>
                             </li>
                             <li class="content-list-item">
                                 <svg class="content-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
                                 </svg>
-                                <p class="content-text">Brain fog makes you <strong>forget things mid-sentence</strong> during important meetings</p>
+                                <p class="content-text">Brain fog makes you <strong>forget things mid-sentence</strong></p>
                             </li>
                         </ul>
                     </div>
@@ -724,35 +694,34 @@
                         <h3>Your Body Feels Out of Control</h3>
                         <ul class="content-list">
                             <li class="content-list-item">
-                                <div style="width: 0.5rem; height: 0.5rem; background-color: #00968a; border-radius: 50%; margin-top: 0.5rem; flex-shrink: 0;"></div>
-                                <p class="content-text"><strong>Bloated and uncomfortable</strong> after every meal, no matter what you eat</p>
+                                <div class="bullet-point"></div>
+                                <p class="content-text"><strong>Bloating and gut issues after every meal</strong> makes your stomach feel tight and uncomfortable</p>
                             </li>
                             <li class="content-list-item">
-                                <div style="width: 0.5rem; height: 0.5rem; background-color: #00968a; border-radius: 50%; margin-top: 0.5rem; flex-shrink: 0;"></div>
-                                <p class="content-text">Your skin breaks out randomly and your <strong>clothes feel tight</strong></p>
+                                <div class="bullet-point"></div>
+                                <p class="content-text">You're <strong>embarrassed about how your skin breaks out randomly</strong>, and your clothes feel tight around your belly</p>
                             </li>
                             <li class="content-list-item">
-                                <div style="width: 0.5rem; height: 0.5rem; background-color: #00968a; border-radius: 50%; margin-top: 0.5rem; flex-shrink: 0;"></div>
-                                <p class="content-text">You're <strong>doing everything "right"</strong> but still feel completely wrong</p>
+                                <div class="bullet-point"></div>
+                                <p class="content-text">You're <strong>trying everything but nothing is working</strong>. You feel stuck and frustrated</p>
                             </li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="highlight-box">
-                    <h3>You've Heard It All Before</h3>
+                    <h3>You've Been Struggling for Ages</h3>
                     <p>
-                        Your doctor says <strong>"you're fine"</strong> but you know something's off. You've tried <strong>gut cleanses, 
-                        elimination diets, and expensive supplements</strong>—but nothing really worked. You're tired of 
-                        <strong>wasting money</strong> on generic plans that don't understand YOUR body.
+                        Your doctor says <strong>you're fine, but you don't feel fine</strong>. You've <strong>searched for answers online</strong>, 
+                        but it's left you <strong>even more confused</strong>. You have <strong>no idea what you're doing wrong</strong>.
                     </p>
                     <p class="highlight-text">
-                        You want someone who <strong>actually listens</strong>. Someone who gets it. Someone who can finally give you <strong>real answers</strong>.
+                        You want someone who <strong>listens to you, and tailors everything to you and your life</strong>. Someone who gets it. Someone who can finally give you <strong>answers</strong>.
                     </p>
                 </div>
 
                 <div class="final-cta">
-                    <h2>Then You've Come To The Right Place</h2>
+                    <h2>Then You've Come to The Right Place</h2>
                 </div>
             </div>
         </section>
@@ -763,14 +732,19 @@
                 <div class="section-header">
                     <h2 class="section-title">Why Naturopathy Works When Everything Else Failed</h2>
                     <p class="section-description">
-                        You've tried pills, diets, and quick fixes. But naturopathy is different—it's the <strong>missing piece</strong> 
-                        that actually gets to the <strong>root of why you're sick</strong>, not just covering up symptoms.
+                        You've tried pills, diets, and other quick fixes. But naturopathy's way different. It's a <strong>natural approach</strong> 
+                        that heals your problems at the root.
                     </p>
                 </div>
 
-                <div class="grid grid-2 content-section" style="align-items: center;">
+                <!-- Mobile Image positioned after heading -->
+                <div class="hidden-desktop" style="margin-bottom: 3rem;">
+                    <img src="/lovable-uploads/1bd48616-2927-4298-ac11-2883825577b5.png" alt="Professional consultation at NXTLVL Health showing personalised patient care" class="content-image">
+                </div>
+
+                <div class="grid grid-2 content-section" style="align-items: center; margin-bottom: 4rem;">
                     <div>
-                        <h3>Here's What Makes Naturopathy Different</h3>
+                        <h3>What Makes Our Naturopathy in Brisbane Different</h3>
                         <ul class="content-list">
                             <li class="content-list-item">
                                 <svg class="content-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -778,7 +752,7 @@
                                 </svg>
                                 <div>
                                     <h4 style="font-weight: 600; margin: 0 0 0.5rem;">We Find The ACTUAL Problem</h4>
-                                    <p class="content-text">While doctors just treat symptoms, naturopathy digs deep to find <strong>why your body stopped working properly</strong> in the first place</p>
+                                    <p class="content-text">While doctors just treat symptoms, we dig deep to find <strong>what's really going on in your body, and what's causing your symptoms</strong></p>
                                 </div>
                             </li>
                             <li class="content-list-item">
@@ -787,7 +761,7 @@
                                 </svg>
                                 <div>
                                     <h4 style="font-weight: 600; margin: 0 0 0.5rem;">Your Body Heals Itself (When You Remove What's Blocking It)</h4>
-                                    <p class="content-text">Instead of forcing your body with drugs, we <strong>remove the obstacles</strong> so your body can do what it was designed to do—heal</p>
+                                    <p class="content-text">Instead of forcing your body with drugs, we <strong>remove what's stopping you from getting better</strong> so your body can heal naturally</p>
                                 </div>
                             </li>
                             <li class="content-list-item">
@@ -795,66 +769,79 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
                                 </svg>
                                 <div>
-                                    <h4 style="font-weight: 600; margin: 0 0 0.5rem;">No More Band-Aid Solutions</h4>
-                                    <p class="content-text">We don't just <strong>mask your symptoms</strong>—we fix the underlying dysfunction so you actually <strong>get better for good</strong></p>
+                                    <h4 style="font-weight: 600; margin: 0 0 0.5rem;">No More Quick Fixes</h4>
+                                    <p class="content-text">We don't just <strong>cover up your symptoms</strong>. We fix what's actually wrong so you <strong>get better for good</strong></p>
                                 </div>
                             </li>
                         </ul>
                     </div>
-                    <div>
-                        <img src="https://yourdomain.com/wp-content/uploads/image3.png" alt="Professional consultation at NXTLVL Health showing personalized patient care" class="content-image">
+                    <!-- Desktop Image -->
+                    <div class="hidden-mobile">
+                        <img src="/lovable-uploads/1bd48616-2927-4298-ac11-2883825577b5.png" alt="Professional consultation at NXTLVL Health showing personalised patient care" class="content-image">
                     </div>
                 </div>
 
-                <div class="highlight-box">
+                <div class="highlight-box" style="margin-bottom: 3rem;">
                     <h3 style="text-align: center; margin-bottom: 1.5rem;">Why Everything You've Tried Before Didn't Work</h3>
                     <div class="grid grid-3">
                         <div style="text-align: center;">
-                            <div style="width: 3rem; height: 3rem; background-color: #fee2e2; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 0.75rem; font-size: 1.5rem;">💊</div>
+                            <div style="width: 3rem; height: 3rem; background-color: #fee2e2; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 0.75rem;">
+                                <svg style="width: 1.5rem; height: 1.5rem; color: #ef4444;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                                </svg>
+                            </div>
                             <h4 style="font-weight: 600; margin: 0 0 0.75rem;">Prescription Drugs</h4>
-                            <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Just cover symptoms while your body gets sicker underneath. Side effects create new problems.</p>
+                            <p style="font-size: 0.875rem; color: #64748b; margin: 0;">They just cover symptoms while your body gets sicker underneath. Side effects create new problems.</p>
                         </div>
                         <div style="text-align: center;">
-                            <div style="width: 3rem; height: 3rem; background-color: #fee2e2; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 0.75rem; font-size: 1.5rem;">🥗</div>
+                            <div style="width: 3rem; height: 3rem; background-color: #fee2e2; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 0.75rem;">
+                                <svg style="width: 1.5rem; height: 1.5rem; color: #ef4444;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                                </svg>
+                            </div>
                             <h4 style="font-weight: 600; margin: 0 0 0.75rem;">Generic Diets</h4>
-                            <p style="font-size: 0.875rem; color: #64748b; margin: 0;">One-size-fits-all approaches ignore YOUR unique biochemistry and why YOU got sick.</p>
+                            <p style="font-size: 0.875rem; color: #64748b; margin: 0;">These are one-size-fits-all approaches that ignore YOUR unique body and lifestyle</p>
                         </div>
                         <div style="text-align: center;">
-                            <div style="width: 3rem; height: 3rem; background-color: #fee2e2; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 0.75rem; font-size: 1.5rem;">💰</div>
+                            <div style="width: 3rem; height: 3rem; background-color: #fee2e2; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 0.75rem;">
+                                <svg style="width: 1.5rem; height: 1.5rem; color: #ef4444;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
+                                </svg>
+                            </div>
                             <h4 style="font-weight: 600; margin: 0 0 0.75rem;">Expensive Supplements</h4>
-                            <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Random vitamins without testing is like trying to make a pasta with every ingredient in your kitchen. Just a waste of money.</p>
+                            <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Taking random vitamins and supplements without testing is like cooking pasta with every ingredient in your kitchen. It's just a waste of money.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="grid grid-3">
-                    <div class="card">
+                    <div class="card" style="text-align: center;">
                         <div class="card-header">
                             <svg class="card-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l-3 3m-4 3.5L5 16l3-3m8-3l3 3-3 3"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12 6-12 6V6z"></path>
                             </svg>
-                            <h3 class="card-title">We Test, Don't Guess</h3>
+                            <h3 class="card-title">We Test, We Don't Guess</h3>
                         </div>
                         <div class="card-content">
                             <p class="card-description">
-                                Advanced diagnostics show us <strong>exactly what's wrong</strong> in your body—no more trial and error
+                                Advanced screening shows us <strong>exactly what's wrong</strong> in your body. No more trial and error
                             </p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" style="text-align: center;">
                         <div class="card-header">
                             <svg class="card-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
                             </svg>
-                            <h3 class="card-title">Personalized Medicine</h3>
+                            <h3 class="card-title">Personalised Medicine</h3>
                         </div>
                         <div class="card-content">
                             <p class="card-description">
-                                Custom formulas made specifically for YOUR body chemistry—not generic solutions
+                                Custom formulas made specifically for YOUR body. No generic solutions
                             </p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" style="text-align: center;">
                         <div class="card-header">
                             <svg class="card-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
@@ -863,7 +850,7 @@
                         </div>
                         <div class="card-content">
                             <p class="card-description">
-                                Fix the root cause so you <strong>stay healthy</strong>—not just feel better temporarily
+                                Mitch will fix the root cause of your problems so you <strong>stay healthy long-term</strong>. Not just feel better for the time being
                             </p>
                         </div>
                     </div>
@@ -875,10 +862,15 @@
         <section class="section">
             <div class="section-container">
                 <div class="section-header">
-                    <h2 class="section-title">Why Choose Mitch As Your Naturopath?</h2>
+                    <h2 class="section-title">Why is Mitch The Best Naturopath in Brisbane?</h2>
                     <p class="section-description">
-                        The naturopath who <strong>finally listens</strong> and has the advanced testing to prove what's really going wrong in your body—no more guessing games.
+                        Because he's a naturopath who <strong>actually listens</strong> and he uses advanced screening to see what's really going wrong in your body. No more guessing games.
                     </p>
+                </div>
+                
+                <!-- Mobile Image positioned after heading -->
+                <div class="hidden-desktop" style="margin-bottom: 3rem;">
+                    <img alt="Mitchell Potts performing microscopy analysis at NXTLVL Health clinic" class="content-image" src="/lovable-uploads/aa4b685d-0956-463f-ad98-180c34dbdb0d.png" />
                 </div>
                 
                 <div class="grid grid-2 content-section" style="align-items: center;">
@@ -887,11 +879,11 @@
                         <ul class="content-list">
                             <li class="content-list-item">
                                 <svg class="content-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l-3 3m-4 3.5L5 16l3-3m8-3l3 3-3 3"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12 6-12 6V6z"></path>
                                 </svg>
                                 <div>
                                     <h4 style="font-weight: 600; margin: 0 0 0.5rem;">He Actually SEES What's Wrong</h4>
-                                    <p class="content-text">Live blood analysis reveals exactly what your body needs—<strong>no more guessing</strong> why you feel terrible</p>
+                                    <p class="content-text">His live blood analysis will reveal exactly what your body needs.</p>
                                 </div>
                             </li>
                             <li class="content-list-item">
@@ -899,17 +891,8 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                 </svg>
                                 <div>
-                                    <h4 style="font-weight: 600; margin: 0 0 0.5rem;">Customized Plan Just For YOU</h4>
-                                    <p class="content-text">Every treatment plan is <strong>individually tailored</strong> to your unique health profile, symptoms, and lifestyle—not a cookie-cutter approach</p>
-                                </div>
-                            </li>
-                            <li class="content-list-item">
-                                <svg class="content-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
-                                </svg>
-                                <div>
-                                    <h4 style="font-weight: 600; margin: 0 0 0.5rem;">Medicine Made Just For YOU</h4>
-                                    <p class="content-text">Custom herbal formulas designed specifically for your unique health issues—<strong>not generic solutions</strong></p>
+                                    <h4 style="font-weight: 600; margin: 0 0 0.5rem;">Customised Plan Just For YOU</h4>
+                                    <p class="content-text">Every treatment plan is <strong>individually made</strong> for your unique health profile, symptoms, and lifestyle. It's not a cookie-cutter approach</p>
                                 </div>
                             </li>
                             <li class="content-list-item">
@@ -917,14 +900,15 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
                                 </svg>
                                 <div>
-                                    <h4 style="font-weight: 600; margin: 0 0 0.5rem;">Someone Who Actually Listens</h4>
-                                    <p class="content-text">He believes your symptoms are real and <strong>digs deep to find the root cause</strong>—not just band-aid fixes</p>
+                                    <h4 style="font-weight: 600; margin: 0 0 0.5rem;">Someone Who Really Cares</h4>
+                                    <p class="content-text">He cares deeply about helping you feel better, the right way</p>
                                 </div>
                             </li>
                         </ul>
                     </div>
-                    <div>
-                        <img src="https://yourdomain.com/wp-content/uploads/image4.png" alt="Mitchell Potts performing microscopy analysis at NXTLVL Health clinic" class="content-image">
+                    <!-- Desktop Image -->
+                    <div class="hidden-mobile">
+                        <img alt="Mitchell Potts performing microscopy analysis at NXTLVL Health clinic" class="content-image" src="/lovable-uploads/aa4b685d-0956-463f-ad98-180c34dbdb0d.png" />
                     </div>
                 </div>
             </div>
@@ -936,87 +920,68 @@
                 <div class="section-header">
                     <h2 class="section-title">The Complete Solution You've Been Looking For</h2>
                     <p class="section-description">
-                        Stop jumping from specialist to specialist. Mitch combines advanced diagnostics with proven natural treatments 
-                        to give you <strong>everything you need</strong> to finally feel like yourself again.
+                        Stop jumping from specialist to specialist. Mitch combines many different services to help people
                     </p>
                 </div>
 
                 <div class="grid grid-3">
                     <div class="card">
-                        <div class="card-header">
-                            <svg class="card-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
-                            </svg>
+                        <div class="card-header" style="padding-bottom: 1rem;">
                             <h3 class="card-title">Naturopathy</h3>
                         </div>
                         <div class="card-content">
                             <p class="card-description">
-                                Finally get to the root cause of why you feel terrible—using natural remedies that actually work long-term
+                                Undeniably good naturopathy in Brisbane to finally uncover what doctors couldn't and get your health back on track using natural remedies that actually work
                             </p>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-header">
-                            <svg class="card-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-                            </svg>
+                        <div class="card-header" style="padding-bottom: 1rem;">
                             <h3 class="card-title">Nutrition Guidance</h3>
                         </div>
                         <div class="card-content">
                             <p class="card-description">
-                                Stop guessing what to eat. Get a personalized nutrition plan designed specifically for YOUR body's needs
+                                No need to play guessing games with fad diets. Get a fully customised nutrition plan that's made just for you.
                             </p>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-header">
-                            <svg class="card-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l-3 3m-4 3.5L5 16l3-3m8-3l3 3-3 3"></path>
-                            </svg>
+                        <div class="card-header" style="padding-bottom: 1rem;">
                             <h3 class="card-title">Live Blood Analysis</h3>
                         </div>
                         <div class="card-content">
                             <p class="card-description">
-                                See exactly what's happening inside your body in real-time—no more wondering why you feel sick
+                                Mitch will find out exactly what's going on in your body by examining your blood under a microscope.
                             </p>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-header">
-                            <svg class="card-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
-                            </svg>
+                        <div class="card-header" style="padding-bottom: 1rem;">
                             <h3 class="card-title">Functional Medicine</h3>
                         </div>
                         <div class="card-content">
                             <p class="card-description">
-                                Advanced testing that finds the real problem everyone else missed—then fixes it for good
+                                Advanced screening that looks at the big picture everyone else missed. You'll get the answers you need.
                             </p>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-header">
-                            <svg class="card-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
-                            </svg>
+                        <div class="card-header" style="padding-bottom: 1rem;">
                             <h3 class="card-title">MLS Laser Therapy</h3>
                         </div>
                         <div class="card-content">
                             <p class="card-description">
-                                Cutting-edge laser treatment that actually heals your tissues and eliminates pain naturally
+                                A natural laser treatment that gives you less pain and better range of motion. You'll feel your body getting stronger within just the first few sessions.
                             </p>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-header">
-                            <svg class="card-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"></path>
-                            </svg>
+                        <div class="card-header" style="padding-bottom: 1rem;">
                             <h3 class="card-title">Personal Training</h3>
                         </div>
                         <div class="card-content">
                             <p class="card-description">
-                                Exercise programs that work WITH your health issues, not against them—finally feel strong again
+                                Exercise that works with your body, not against it. You'll start hitting PBs in the gym again
                             </p>
                         </div>
                     </div>
@@ -1030,8 +995,8 @@
                 <div class="section-header">
                     <h2 class="section-title">The Health Problems That Actually Get Fixed Here</h2>
                     <p class="section-description">
-                        Tired of being told "it's all in your head"? These are the <strong>real health issues</strong> Mitch specializes in solving—
-                        the ones other practitioners just can't figure out.
+                        Tired of being told "it's all in your head"? These are the <strong>real health issues</strong> Mitch specialises in solving.
+                        The ones other practitioners just can't figure out.
                     </p>
                 </div>
 
@@ -1042,17 +1007,17 @@
                         </div>
                         <div class="card-content">
                             <p class="card-description">
-                                Finally fix that bloating, cramping, and digestive chaos that's been ruining your life for years
+                                Finally solve your gut problems and bloating that's been going on for ages. No more feeling sick after food
                             </p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title" style="color: #00968a;">Weight Loss</h3>
+                            <h3 class="card-title" style="color: #00968a;">Weight Management</h3>
                         </div>
                         <div class="card-content">
                             <p class="card-description">
-                                Lose weight the right way—by fixing what's actually broken in your body, not starving yourself
+                                Stop trying everything and nothing working. Get results you've wanted for years by fixing what's actually wrong
                             </p>
                         </div>
                     </div>
@@ -1062,7 +1027,7 @@
                         </div>
                         <div class="card-content">
                             <p class="card-description">
-                                Get your energy back and stop feeling like you need three coffees just to function like a normal person
+                                Stop feeling tired all the time and sluggish in the morning. Get your energy back and feel like yourself again
                             </p>
                         </div>
                     </div>
@@ -1072,7 +1037,7 @@
                         </div>
                         <div class="card-content">
                             <p class="card-description">
-                                Clear up stubborn skin problems that make you want to hide—eczema, acne, psoriasis, and more
+                                Resolve stubborn skin issues that have been taking ages to heal. Finally gain confidence in your skin again
                             </p>
                         </div>
                     </div>
@@ -1101,60 +1066,22 @@
             </div>
         </section>
 
-        <!-- Contact Section -->
-        <section class="section contact-section">
+        <!-- Testimonials Section -->
+        <section class="section section-alt">
             <div class="section-container">
                 <div class="section-header">
-                    <h2 class="section-title">Ready To Finally Feel Like Yourself Again?</h2>
-                    <p class="section-description" style="margin-bottom: 2rem;">
-                        Stop wasting time with doctors who don't listen and treatments that don't work. Book your <strong>free 15-minute consultation</strong> with Mitch and discover why thousands of people are finally getting the answers they've been searching for.
+                    <h2 class="section-title">What Our Patients Say</h2>
+                    <p class="section-description">
+                        Real stories from real people who <strong>finally got their health back on track</strong> and are <strong>seeing results they've wanted for years</strong>.
                     </p>
-                    <div class="hero-buttons" style="justify-content: center;">
-                        <a href="tel:+61731808853" class="btn btn-primary">
-                            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                            </svg>
-                            Book Your Free 15-Minute Call Now
-                        </a>
-                        <a href="tel:+61731808853" class="btn btn-outline">Call Mitch</a>
-                    </div>
                 </div>
-
-                <div class="contact-grid">
-                    <div class="contact-item">
-                        <h3>NXTLVL Health - New Farm</h3>
-                        <p>
-                            Suite 2/665 Brunswick St<br>
-                            New Farm, QLD 4005<br>
-                            Australia
-                        </p>
-                    </div>
-                    <div class="contact-item">
-                        <h3>Contact</h3>
-                        <p>
-                            Phone: <a href="tel:+61731808853" style="color: #00968a; text-decoration: none;">(07) 3180 8853</a><br>
-                            Email: <a href="mailto:info@nxtlvlhealth.com.au" style="color: #00968a; text-decoration: none;">info@nxtlvlhealth.com.au</a>
-                        </p>
-                    </div>
-                    <div class="contact-item">
-                        <h3>Hours</h3>
-                        <p>
-                            Monday - Friday: 9:00 AM - 6:00 PM<br>
-                            Saturday: 9:00 AM - 2:00 PM
-                        </p>
-                    </div>
+                
+                <!-- Trustindex Reviews Shortcode -->
+                <div style="width: 100%;" id="trustindex-reviews">
+                    [trustindex no-registration=google]
                 </div>
             </div>
         </section>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="section-container">
-                <p>
-                    © 2024 NXTLVL Health - Mitchell Potts Naturopathy. All rights reserved. | Brisbane, Queensland, Australia
-                </p>
-            </div>
-        </footer>
     </div>
 </body>
 </html>
