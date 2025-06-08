@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -128,6 +127,14 @@ const Index = () => {
               You're smart, you've tried everything, but something still feels off. You're tired of feeling tired, 
               and you're ready for real answers—not just another band-aid solution.
             </p>
+          </div>
+
+          <div className="mb-12">
+            <img 
+              src="/lovable-uploads/fe4256a1-0181-4c24-bf85-f8c27507574d.png" 
+              alt="Woman feeling tired and unwell sitting on couch" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
+            />
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
