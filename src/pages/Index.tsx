@@ -66,7 +66,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-green-50 to-blue-50 py-20 px-4">
+      <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
@@ -96,7 +96,7 @@ const Index = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&h=600" 
+                src="/lovable-uploads/8ff6a2a2-0c89-4c39-b32c-f82c7001ded3.png" 
                 alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health"
                 className="rounded-2xl shadow-2xl w-full h-auto"
               />
@@ -154,7 +154,7 @@ const Index = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&w=800&h=600" 
+                src="/lovable-uploads/b28b1e57-7b52-4adb-bb62-79cd59febc55.png" 
                 alt="Mitchell Potts at NXTLVL Health clinic"
                 className="rounded-2xl shadow-lg w-full h-auto"
               />
@@ -197,7 +197,7 @@ const Index = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?auto=format&fit=crop&w=800&h=600" 
+                src="/lovable-uploads/4c62a19f-7c98-4dfd-8b68-3b3306b1c3b8.png" 
                 alt="Mitch performing Live Blood Analysis at NXTLVL Health"
                 className="rounded-2xl shadow-lg w-full h-auto"
               />
@@ -247,21 +247,21 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=400&h=300" 
+                src="/lovable-uploads/e93c52c1-c59d-4e76-a2a8-d66a96ad1b63.png" 
                 alt="Mitch preparing herbal tinctures"
                 className="rounded-xl shadow-lg w-full h-64 object-cover"
               />
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=400&h=300" 
+                src="/lovable-uploads/b7a36eb9-29e4-4f66-8777-c52f2fd30de8.png" 
                 alt="Natural medicine bottles and preparations"
                 className="rounded-xl shadow-lg w-full h-64 object-cover"
               />
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1586015555751-63bb77f4322a?auto=format&fit=crop&w=400&h=300" 
+                src="/lovable-uploads/fb7dd20c-25e8-4e31-bd9b-28e29c61b46f.png" 
                 alt="Herbal medicine consultation process"
                 className="rounded-xl shadow-lg w-full h-64 object-cover"
               />
