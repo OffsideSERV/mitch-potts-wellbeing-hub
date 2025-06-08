@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -7,27 +8,27 @@ import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, Te
 const Index = () => {
   const primaryServices = [{
     title: "Naturopathy",
-    description: "Holistic approach to health using natural remedies and lifestyle medicine",
+    description: "Finally get to the root cause of why you feel terrible—using natural remedies that actually work long-term",
     icon: <Leaf className="h-8 w-8 text-primary" />
   }, {
     title: "Nutrition Guidance",
-    description: "Personalized nutrition plans to optimize your health and wellbeing",
+    description: "Stop guessing what to eat. Get a personalized nutrition plan designed specifically for YOUR body's needs",
     icon: <Heart className="h-8 w-8 text-primary" />
   }, {
     title: "Live Blood Analysis",
-    description: "Advanced diagnostic technique to assess your body's nutritional status",
+    description: "See exactly what's happening inside your body in real-time—no more wondering why you feel sick",
     icon: <Microscope className="h-8 w-8 text-primary" />
   }, {
     title: "Functional Medicine",
-    description: "Root cause analysis and personalized treatment protocols",
+    description: "Advanced testing that finds the real problem everyone else missed—then fixes it for good",
     icon: <Book className="h-8 w-8 text-primary" />
   }, {
     title: "MLS Laser Therapy",
-    description: "Advanced laser treatment for pain relief and tissue healing",
+    description: "Cutting-edge laser treatment that actually heals your tissues and eliminates pain naturally",
     icon: <Thermometer className="h-8 w-8 text-primary" />
   }, {
     title: "Personal Training",
-    description: "Customized fitness programs to support your health journey",
+    description: "Exercise programs that work WITH your health issues, not against them—finally feel strong again",
     icon: <Weight className="h-8 w-8 text-primary" />
   }];
   
@@ -373,9 +374,10 @@ const Index = () => {
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Comprehensive Health Services</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">The Complete Solution You've Been Looking For</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              A full range of natural health services designed to support your wellness journey at NXTLVL Health
+              Stop jumping from specialist to specialist. Mitch combines advanced diagnostics with proven natural treatments 
+              to give you <strong>everything you need</strong> to finally feel like yourself again.
             </p>
           </div>
 
