@@ -249,7 +249,7 @@ const Index = () => {
               </div>
             </div>
             <div className="relative">
-              <img src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" alt="Natural herbal remedies representing naturopathic healing approach" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/1bd48616-2927-4298-ac11-2883825577b5.png" alt="Professional consultation at NXTLVL Health showing personalized patient care" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
 
