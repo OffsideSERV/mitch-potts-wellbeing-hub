@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -444,7 +443,7 @@ const Index = () => {
                 Book Your Free 15-Minute Call Now
               </Button>
               <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
-                Call: (07) 3180 8853
+                Call Mitch
               </Button>
             </div>
           </div>
