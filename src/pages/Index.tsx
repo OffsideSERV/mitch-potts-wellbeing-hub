@@ -167,7 +167,7 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="bg-muted/50 rounded-2xl p-8 text-center">
+          <div className="bg-muted/50 rounded-2xl p-8 text-center mb-12">
             <h3 className="text-2xl font-semibold mb-4">You've Been Here Before</h3>
             <p className="text-lg text-muted-foreground mb-6">
               Your doctor says "you're fine" but you know something's off. You've tried gut cleanses, 
@@ -177,6 +177,10 @@ const Index = () => {
             <p className="text-xl font-semibold text-primary">
               You want someone who actually listens. Someone who gets it. Someone who can finally give you real answers.
             </p>
+          </div>
+
+          <div className="text-center">
+            <h2 className="text-3xl lg:text-4xl font-bold text-primary">Then You've Come To The Right Place</h2>
           </div>
         </div>
       </section>
