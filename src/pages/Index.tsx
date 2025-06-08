@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -52,18 +51,34 @@ const Index = () => {
       {/* 1. Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
-          <div className="grid lg:grid-cols-5 gap-12 items-center">
-            <div className="space-y-8 lg:col-span-2 lg:order-1 order-2">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="space-y-8">
               <div className="space-y-4">
                 <h1 className="text-sm bg-secondary text-secondary-foreground px-3 py-1 rounded-full inline-block">
                   Best Naturopath in Brisbane - NXTLVL Health
                 </h1>
                 <h2 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Not Feeling Like Yourself? <span className="text-primary">Transform in 6 Weeks!</span>
+                  Not Feeling Like Yourself?{" "}
+                  <span className="text-primary">Transform in 6 Weeks!</span>
                 </h2>
+                <p className="text-xl text-muted-foreground leading-relaxed">
+                  I know exactly how frustrating it is to feel <strong>bloated, drained, and just out of it</strong>, but still have your doctor, friends, and family, tell you <strong>there's nothing wrong</strong>.
+                </p>
+                <p className="text-xl text-muted-foreground leading-relaxed">
+                  That's why I'm here to tell you that <strong>you're not crazy</strong>, and I'm here to give you the <strong>answers you've been looking for</strong>.
+                </p>
+              </div>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button size="lg" className="text-lg px-8 py-6">
+                  <Calendar className="mr-2 h-5 w-5" />
+                  Book a Free 15-Minute Consult
+                </Button>
+                <Button variant="outline" size="lg" className="text-lg px-8 py-6">
+                  Learn More
+                </Button>
               </div>
             </div>
-            <div className="relative lg:col-span-3 lg:order-2 order-1">
+            <div className="relative">
               <img alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -74,26 +89,6 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div className="mt-12 lg:col-span-2 space-y-8">
-            <div className="space-y-4">
-              <p className="text-xl text-muted-foreground leading-relaxed">
-                I know exactly how frustrating it is to feel <strong>bloated, drained, and just out of it</strong>, but still have your doctor, friends, and family, tell you <strong>there's nothing wrong</strong>.
-              </p>
-              <p className="text-xl text-muted-foreground leading-relaxed">
-                That's why I'm here to tell you that <strong>you're not crazy</strong>, and I'm here to give you the <strong>answers you've been looking for</strong>.
-              </p>
-            </div>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="text-lg px-8 py-6">
-                <Calendar className="mr-2 h-5 w-5" />
-                Book a Free 15-Minute Consult
-              </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6">
-                Learn More
-              </Button>
             </div>
           </div>
 
