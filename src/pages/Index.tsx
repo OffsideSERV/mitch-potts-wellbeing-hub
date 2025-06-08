@@ -1,8 +1,9 @@
+
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, TestTube, BadgeCheck, Target, Shield, Zap } from 'lucide-react';
+import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, TestTube, BadgeCheck, Target, Shield, Zap, Coffee, Clock, Brain } from 'lucide-react';
 
 const Index = () => {
   const primaryServices = [{
@@ -30,6 +31,7 @@ const Index = () => {
     description: "Customized fitness programs to support your health journey",
     icon: <Weight className="h-8 w-8 text-primary" />
   }];
+  
   const primaryConditions = [{
     name: "Gut Health",
     description: "Digestive disorders, IBS, SIBO, and microbiome optimization"
@@ -43,9 +45,11 @@ const Index = () => {
     name: "Skin Conditions",
     description: "Eczema, acne, psoriasis, and other dermatological issues"
   }];
+  
   const additionalConditions = ["Allergies & Food Sensitivities", "Asthma", "Children's Health", "Cardiovascular Health", "Chronic Inflammation & Pain", "Diabetes", "Detoxification (Environmental Toxins / Liver Support)", "Headaches (Migraines)", "Immune Health (Cold & Flu, Bacterial Infections)", "Insomnia (Poor Sleep Quality)", "Men's Health", "Mental Health (Stress, Anxiety & Depression)", "Musculoskeletal Issues", "Thyroid", "Athletic Performance and Recovery"];
+  
   return <div className="min-h-screen bg-background">
-      {/* Hero Section */}
+      {/* 1. Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -115,7 +119,69 @@ const Index = () => {
         </div>
       </section>
 
-      {/* What is Naturopathy Section */}
+      {/* 2. Section that relates to them and really targets their pains and desires */}
+      <section className="py-20 px-4">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">If This Sounds Like You...</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              You're smart, you've tried everything, but something still feels off. You're tired of feeling tired, 
+              and you're ready for real answers—not just another band-aid solution.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <div className="space-y-6">
+              <h3 className="text-2xl font-semibold">You Wake Up Tired Every Morning</h3>
+              <div className="space-y-4">
+                <div className="flex items-start space-x-3">
+                  <Clock className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                  <p className="text-muted-foreground">No matter how many hours you sleep, you hit snooze twice and still feel groggy</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <Coffee className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                  <p className="text-muted-foreground">You need coffee just to function, then crash by 2pm every single day</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <Brain className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                  <p className="text-muted-foreground">Brain fog makes you forget things mid-sentence during important meetings</p>
+                </div>
+              </div>
+            </div>
+            <div className="space-y-6">
+              <h3 className="text-2xl font-semibold">Your Body Feels Out of Control</h3>
+              <div className="space-y-4">
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-muted-foreground">Bloated and uncomfortable after every meal, no matter what you eat</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-muted-foreground">Your skin breaks out randomly and your clothes feel tight</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-muted-foreground">You're doing everything "right" but still feel completely wrong</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-muted/50 rounded-2xl p-8 text-center">
+            <h3 className="text-2xl font-semibold mb-4">You've Been Here Before</h3>
+            <p className="text-lg text-muted-foreground mb-6">
+              Your doctor says "you're fine" but you know something's off. You've tried gut cleanses, 
+              elimination diets, and expensive supplements—but nothing really worked. You're tired of 
+              wasting money on generic plans that don't understand YOUR body.
+            </p>
+            <p className="text-xl font-semibold text-primary">
+              You want someone who actually listens. Someone who gets it. Someone who can finally give you real answers.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* 3. What is Naturopathy Section */}
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
@@ -196,7 +262,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* About Section */}
+      {/* 4. About Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
@@ -241,47 +307,8 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Live Blood Analysis Showcase */}
+      {/* 5. Services Section */}
       <section className="py-20 px-4 bg-muted/30">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Advanced Live Blood Analysis</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Experience cutting-edge diagnostic technology that reveals the real-time state of your cellular health
-            </p>
-          </div>
-
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <h3 className="text-2xl font-semibold">What Live Blood Analysis Reveals</h3>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-muted-foreground">Nutritional deficiencies and cellular metabolism</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-muted-foreground">Immune system function and inflammatory markers</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-muted-foreground">Blood circulation and oxygenation levels</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-muted-foreground">Digestive health and toxin load assessment</p>
-                </div>
-              </div>
-            </div>
-            <div className="relative">
-              <img src="/lovable-uploads/4c62a19f-7c98-4dfd-8b68-3b3306b1c3b8.png" alt="Mitch performing Live Blood Analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Services Section */}
-      <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Comprehensive Health Services</h2>
@@ -306,31 +333,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Natural Medicine Preparation */}
-      <section className="py-20 px-4 bg-muted/30">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Custom Herbal Medicine</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Watch Mitch prepare personalized herbal formulations using high-quality natural ingredients
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="relative">
-              <img src="/lovable-uploads/e93c52c1-c59d-4e76-a2a8-d66a96ad1b63.png" alt="Mitch preparing herbal tinctures" className="rounded-xl shadow-lg w-full h-64 object-cover" />
-            </div>
-            <div className="relative">
-              <img src="/lovable-uploads/b7a36eb9-29e4-4f66-8777-c52f2fd30de8.png" alt="Natural medicine bottles and preparations" className="rounded-xl shadow-lg w-full h-64 object-cover" />
-            </div>
-            <div className="relative">
-              <img src="/lovable-uploads/fb7dd20c-25e8-4e31-bd9b-28e29c61b46f.png" alt="Herbal medicine consultation process" className="rounded-xl shadow-lg w-full h-64 object-cover" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Primary Conditions Section */}
+      {/* 6. Primary Conditions Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
@@ -410,7 +413,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Footer */}
+      {/* 7. Footer */}
       <footer className="py-8 px-4 bg-foreground text-background">
         <div className="container mx-auto max-w-6xl text-center">
           <p className="text-sm">
