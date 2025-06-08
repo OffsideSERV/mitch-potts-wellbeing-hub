@@ -435,15 +435,14 @@ const Index = () => {
       <section className="py-20 px-4 bg-primary/5">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Start Your Health Journey at NXTLVL Health</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Ready To Finally Feel Like Yourself Again?</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Ready to experience advanced natural healthcare? Book a consultation with Mitch at NXTLVL Health 
-              and discover how cutting-edge diagnostics and personalized natural medicine can transform your wellbeing.
+              Stop wasting time with doctors who don't listen and treatments that don't work. Book your <strong>free 15-minute consultation</strong> with Mitch and discover why thousands of people are finally getting the answers they've been searching for.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
                 <Calendar className="mr-2 h-5 w-5" />
-                Book a Free 15-Minute Consult
+                Book Your Free 15-Minute Call Now
               </Button>
               <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
                 Call: (07) 3000 0000
