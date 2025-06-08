@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -42,20 +41,17 @@ const Index = () => {
   
   const additionalConditions = ["Allergies & Food Sensitivities", "Asthma", "Children's Health", "Cardiovascular Health", "Chronic Inflammation & Pain", "Diabetes", "Detoxification (Environmental Toxins / Liver Support)", "Headaches (Migraines)", "Immune Health (Cold & Flu, Bacterial Infections)", "Insomnia (Poor Sleep Quality)", "Men's Health", "Mental Health (Stress, Anxiety & Depression)", "Musculoskeletal Issues", "Thyroid", "Athletic Performance and Recovery"];
   
-  return <div className="min-h-screen bg-background" style={{fontFamily: "'Neue Haas Grotesk', sans-serif"}}>
-      {/* Google Fonts */}
-      <link href="https://fonts.googleapis.com/css2?family=DIN+Condensed:wght@400;700&family=Neue+Haas+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-      
+  return <div className="min-h-screen bg-background">
       {/* 1. Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
             <div className="space-y-8">
               <div className="space-y-4">
-                <h1 className="text-sm bg-secondary text-secondary-foreground px-3 py-1 rounded-full inline-block" style={{fontFamily: "'DIN Condensed', sans-serif"}}>
+                <h1 className="text-sm bg-secondary text-secondary-foreground px-3 py-1 rounded-full inline-block">
                   Best Naturopath in Brisbane - NXTLVL Health
                 </h1>
-                <h2 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight" style={{fontFamily: "'DIN Condensed', sans-serif"}}>
+                <h2 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
                   Couldn't Find Answers Elsewhere?{" "}
                   <span className="text-primary">Finally Feel Like Yourself Again!</span>
                 </h2>
@@ -67,7 +63,7 @@ const Index = () => {
                     <div className="flex items-center space-x-3">
                       <Microscope className="h-6 w-6 text-primary" />
                       <div>
-                        <p className="font-semibold text-sm" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Advanced Screening Method</p>
+                        <p className="font-semibold text-sm">Advanced Screening Method</p>
                         <p className="text-xs text-muted-foreground">Live Blood Analysis • Natural Medicine</p>
                       </div>
                     </div>
@@ -75,7 +71,7 @@ const Index = () => {
                 </div>
                 
                 {/* Mobile spacing for body text */}
-                <div className="lg:space-y-0 space-y-6">
+                <div className="lg:space-y-0 space-y-6 mt-8 lg:mt-0">
                   <p className="text-xl text-muted-foreground leading-relaxed">
                     I know exactly how it feels when you're <strong>struggling with health problems</strong> and you <strong>couldn't find answers elsewhere</strong>.
                   </p>
@@ -111,7 +107,7 @@ const Index = () => {
                 <div className="flex items-center space-x-3">
                   <Microscope className="h-8 w-8 text-primary" />
                   <div>
-                    <p className="font-semibold" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Advanced Screening Method</p>
+                    <p className="font-semibold">Advanced Screening Method</p>
                     <p className="text-sm text-muted-foreground">Live Blood Analysis • Natural Medicine</p>
                   </div>
                 </div>
@@ -124,22 +120,22 @@ const Index = () => {
             <div className="text-center space-y-2">
               <Users className="h-8 w-8 text-primary mx-auto" />
               <div>
-                <h3 className="text-xl font-bold text-foreground" style={{fontFamily: "'DIN Condensed', sans-serif"}}>1000+</h3>
+                <h3 className="text-xl font-bold text-foreground">1000+</h3>
                 <p className="text-sm text-muted-foreground">Patients Helped</p>
               </div>
             </div>
             <div className="text-center space-y-2">
               <TestTube className="h-8 w-8 text-primary mx-auto" />
               <div>
-                <h3 className="text-xl font-bold text-foreground" style={{fontFamily: "'DIN Condensed', sans-serif"}}>90% of Patients</h3>
+                <h3 className="text-xl font-bold text-foreground">90% of Patients</h3>
                 <p className="text-sm text-muted-foreground">See Results in Just 6 Weeks</p>
               </div>
             </div>
             <div className="text-center space-y-2">
               <BadgeCheck className="h-8 w-8 text-primary mx-auto" />
               <div>
-                <h3 className="text-xl font-bold text-foreground" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Registered</h3>
-                <p className="text-sm text-muted-foreground">Naturopath</p>
+                <h3 className="text-xl font-bold text-foreground">Real Testing</h3>
+                <p className="text-sm text-muted-foreground">No Guessing</p>
               </div>
             </div>
           </div>
@@ -150,7 +146,7 @@ const Index = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{fontFamily: "'DIN Condensed', sans-serif"}}>If This Sounds Like You...</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">If This Sounds Like You...</h2>
           </div>
 
           <div className="mb-12">
@@ -163,7 +159,7 @@ const Index = () => {
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="space-y-6">
-              <h3 className="text-2xl font-semibold" style={{fontFamily: "'DIN Condensed', sans-serif"}}>You Feel Tired All the Time</h3>
+              <h3 className="text-2xl font-semibold">You Feel Tired All the Time</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <Clock className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
@@ -180,7 +176,7 @@ const Index = () => {
               </div>
             </div>
             <div className="space-y-6">
-              <h3 className="text-2xl font-semibold" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Your Body Feels Out of Control</h3>
+              <h3 className="text-2xl font-semibold">Your Body Feels Out of Control</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -199,7 +195,7 @@ const Index = () => {
           </div>
 
           <div className="bg-muted/50 rounded-2xl p-8 mb-12">
-            <h3 className="text-2xl font-semibold mb-4" style={{fontFamily: "'DIN Condensed', sans-serif"}}>You've Been Struggling for Ages</h3>
+            <h3 className="text-2xl font-semibold mb-4">You've Been Struggling for Ages</h3>
             <p className="text-lg text-muted-foreground mb-6">
               Your doctor says <strong>you're fine, but you don't feel fine</strong>. You've been <strong>dealing with health issues for years</strong> 
               and there's <strong>conflicting health advice everywhere</strong>. You <strong>didn't know what you were doing wrong</strong>.
@@ -210,7 +206,7 @@ const Index = () => {
           </div>
 
           <div className="text-center mt-20">
-            <h2 className="text-3xl lg:text-4xl font-bold text-primary" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Finally Feel Like You're in Safe Hands</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-primary">Finally Feel Like You're in Safe Hands</h2>
           </div>
         </div>
       </section>
@@ -219,7 +215,7 @@ const Index = () => {
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Why Naturopathy Works When Everything Else Failed</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Naturopathy Works When Everything Else Failed</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               You've tried pills, diets, and quick fixes. But naturopathy is different. It's the <strong>missing piece</strong> 
               that helps solve what others couldn't.
@@ -233,26 +229,26 @@ const Index = () => {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
-              <h3 className="text-2xl font-semibold" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Here's What Makes Naturopathy Different</h3>
+              <h3 className="text-2xl font-semibold">Here's What Makes Naturopathy Different</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <Target className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold" style={{fontFamily: "'DIN Condensed', sans-serif"}}>We Find The ACTUAL Problem</h4>
+                    <h4 className="font-semibold">We Find The ACTUAL Problem</h4>
                     <p className="text-muted-foreground">While doctors just treat symptoms, we dig deep to find <strong>what's really going on in your body</strong> that you didn't know about</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Leaf className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Your Body Heals Itself (When You Remove What's Blocking It)</h4>
+                    <h4 className="font-semibold">Your Body Heals Itself (When You Remove What's Blocking It)</h4>
                     <p className="text-muted-foreground">Instead of forcing your body with drugs, we <strong>remove what's stopping you getting better</strong> so your body can heal naturally</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Shield className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold" style={{fontFamily: "'DIN Condensed', sans-serif"}}>No More Quick Fixes</h4>
+                    <h4 className="font-semibold">No More Quick Fixes</h4>
                     <p className="text-muted-foreground">We don't just <strong>cover up your symptoms</strong>. We fix what's actually wrong so you <strong>get better for good</strong></p>
                   </div>
                 </div>
@@ -265,27 +261,27 @@ const Index = () => {
           </div>
 
           <div className="bg-muted/50 rounded-2xl p-8 mb-12">
-            <h3 className="text-2xl font-semibold mb-6 text-center" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Why Everything You've Tried Before Didn't Work</h3>
+            <h3 className="text-2xl font-semibold mb-6 text-center">Why Everything You've Tried Before Didn't Work</h3>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center space-y-3">
                 <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-content-center mx-auto">
-                  <span className="text-2xl">💊</span>
+                  <Thermometer className="h-6 w-6 text-red-500" />
                 </div>
-                <h4 className="font-semibold" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Prescription Drugs</h4>
+                <h4 className="font-semibold">Prescription Drugs</h4>
                 <p className="text-sm text-muted-foreground">Just cover symptoms while your body gets sicker underneath. Side effects create new problems.</p>
               </div>
               <div className="text-center space-y-3">
                 <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-content-center mx-auto">
-                  <span className="text-2xl">🥗</span>
+                  <Book className="h-6 w-6 text-red-500" />
                 </div>
-                <h4 className="font-semibold" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Generic Diets</h4>
+                <h4 className="font-semibold">Generic Diets</h4>
                 <p className="text-sm text-muted-foreground">One-size-fits-all approaches ignore YOUR unique body and why YOU got sick.</p>
               </div>
               <div className="text-center space-y-3">
                 <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-content-center mx-auto">
-                  <span className="text-2xl">💰</span>
+                  <Weight className="h-6 w-6 text-red-500" />
                 </div>
-                <h4 className="font-semibold" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Expensive Supplements</h4>
+                <h4 className="font-semibold">Expensive Supplements</h4>
                 <p className="text-sm text-muted-foreground">Random vitamins without testing is like cooking with every ingredient in your kitchen. Just a waste of money.</p>
               </div>
             </div>
@@ -295,7 +291,7 @@ const Index = () => {
             <Card className="text-center border-0 shadow-md">
               <CardHeader>
                 <Microscope className="h-12 w-12 text-primary mx-auto mb-4" />
-                <CardTitle className="text-xl" style={{fontFamily: "'DIN Condensed', sans-serif"}}>We Test, Don't Guess</CardTitle>
+                <CardTitle className="text-xl">We Test, Don't Guess</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
@@ -306,7 +302,7 @@ const Index = () => {
             <Card className="text-center border-0 shadow-md">
               <CardHeader>
                 <Heart className="h-12 w-12 text-primary mx-auto mb-4" />
-                <CardTitle className="text-xl" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Personalised Medicine</CardTitle>
+                <CardTitle className="text-xl">Personalised Medicine</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
@@ -317,7 +313,7 @@ const Index = () => {
             <Card className="text-center border-0 shadow-md">
               <CardHeader>
                 <Zap className="h-12 w-12 text-primary mx-auto mb-4" />
-                <CardTitle className="text-xl" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Lasting Results</CardTitle>
+                <CardTitle className="text-xl">Lasting Results</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
@@ -333,7 +329,7 @@ const Index = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Why Choose Mitch As Your Naturopath?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Choose Mitch As Your Naturopath?</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               The naturopath who <strong>finally listens</strong> and has the advanced screening to prove what's really going wrong in your body. No more guessing games.
             </p>
@@ -346,33 +342,33 @@ const Index = () => {
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h3 className="text-2xl font-semibold" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Why Mitch Gets Results When Others Don't</h3>
+              <h3 className="text-2xl font-semibold">Why Mitch Gets Results When Others Don't</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <Microscope className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold" style={{fontFamily: "'DIN Condensed', sans-serif"}}>He Actually SEES What's Wrong</h4>
+                    <h4 className="font-semibold">He Actually SEES What's Wrong</h4>
                     <p className="text-muted-foreground">Live blood analysis reveals exactly what your body needs. <strong>No more guessing</strong> why you feel terrible</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Target className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Customised Plan Just For YOU</h4>
+                    <h4 className="font-semibold">Customised Plan Just For YOU</h4>
                     <p className="text-muted-foreground">Every treatment plan is <strong>individually tailored</strong> to your unique health profile, symptoms, and lifestyle. Not a cookie-cutter approach</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Leaf className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Medicine Made Just For YOU</h4>
+                    <h4 className="font-semibold">Medicine Made Just For YOU</h4>
                     <p className="text-muted-foreground">Custom herbal formulas designed specifically for your unique health issues. <strong>Not generic solutions</strong></p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Heart className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Someone Who Actually Listens</h4>
+                    <h4 className="font-semibold">Someone Who Actually Listens</h4>
                     <p className="text-muted-foreground">He believes your symptoms are real and <strong>digs deep to find the root cause</strong>. Not just quick fixes</p>
                   </div>
                 </div>
@@ -390,7 +386,7 @@ const Index = () => {
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{fontFamily: "'DIN Condensed', sans-serif"}}>The Complete Solution You've Been Looking For</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">The Complete Solution You've Been Looking For</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Stop jumping from specialist to specialist. Mitch combines advanced screening with proven natural treatments 
               to give you <strong>everything you need</strong> to finally feel like yourself again.
@@ -400,7 +396,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {primaryServices.map((service, index) => <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
                 <CardHeader className="pb-4">
-                  <CardTitle className="text-xl" style={{fontFamily: "'DIN Condensed', sans-serif"}}>{service.title}</CardTitle>
+                  <CardTitle className="text-xl">{service.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-base leading-relaxed">
@@ -416,7 +412,7 @@ const Index = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{fontFamily: "'DIN Condensed', sans-serif"}}>The Health Problems That Actually Get Fixed Here</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">The Health Problems That Actually Get Fixed Here</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Tired of being told "it's all in your head"? These are the <strong>real health issues</strong> Mitch specialises in solving.
               The ones other practitioners just can't figure out.
@@ -426,7 +422,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8 mb-16">
             {primaryConditions.map((condition, index) => <Card key={index} className="hover:shadow-lg transition-shadow duration-300">
                 <CardHeader>
-                  <CardTitle className="text-xl text-primary" style={{fontFamily: "'DIN Condensed', sans-serif"}}>{condition.name}</CardTitle>
+                  <CardTitle className="text-xl text-primary">{condition.name}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-base">
@@ -437,7 +433,7 @@ const Index = () => {
           </div>
 
           <div className="bg-muted/50 rounded-2xl p-8">
-            <h3 className="text-2xl font-semibold mb-6 text-center" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Plus All These Other Stubborn Health Issues</h3>
+            <h3 className="text-2xl font-semibold mb-6 text-center">Plus All These Other Stubborn Health Issues</h3>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {additionalConditions.map((condition, index) => <Badge key={index} variant="secondary" className="justify-start p-3 text-sm">
                   {condition}
@@ -451,7 +447,7 @@ const Index = () => {
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{fontFamily: "'DIN Condensed', sans-serif"}}>What Our Patients Say</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">What Our Patients Say</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Real stories from real people who <strong>finally got their health back on track</strong> and are <strong>seeing results they've wanted for years</strong>.
             </p>
@@ -466,7 +462,7 @@ const Index = () => {
       <section className="py-20 px-4 bg-primary/5">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Ready To Finally Feel Like Yourself Again?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Ready To Finally Feel Like Yourself Again?</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
               Stop wasting time with doctors who don't listen and treatments that don't work. Book your <strong>free 15-minute consultation</strong> with Mitch and discover why thousands of people are finally getting the answers they've been searching for.
             </p>
@@ -484,7 +480,7 @@ const Index = () => {
 
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="space-y-3">
-              <h3 className="text-xl font-semibold" style={{fontFamily: "'DIN Condensed', sans-serif"}}>NXTLVL Health - Naturopath</h3>
+              <h3 className="text-xl font-semibold">NXTLVL Health - Naturopath</h3>
               <p className="text-muted-foreground">
                 Suite 2/665 Brunswick St<br />
                 New Farm, QLD 4005<br />
@@ -492,14 +488,14 @@ const Index = () => {
               </p>
             </div>
             <div className="space-y-3">
-              <h3 className="text-xl font-semibold" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Contact</h3>
+              <h3 className="text-xl font-semibold">Contact</h3>
               <p className="text-muted-foreground">
                 Phone: (07) 3180 8853<br />
                 Email: info@nxtlvlhealth.com.au
               </p>
             </div>
             <div className="space-y-3">
-              <h3 className="text-xl font-semibold" style={{fontFamily: "'DIN Condensed', sans-serif"}}>Hours</h3>
+              <h3 className="text-xl font-semibold">Hours</h3>
               <p className="text-muted-foreground">
                 Monday - Friday: 9:00 AM - 7:00 PM<br />
                 Saturday: 8:00 AM - 12:00 PM
