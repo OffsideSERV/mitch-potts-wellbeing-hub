@@ -3,13 +3,12 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, TestTube, BadgeCheck, Target, Shield, Zap, Coffee, Clock, Brain, Phone } from 'lucide-react';
-
 const Index = () => {
   const primaryServices = [{
     title: "Naturopathy",
     description: "Finally find what others couldn't and get your health back on track using natural remedies that actually work"
   }, {
-    title: "Nutrition Guidance", 
+    title: "Nutrition Guidance",
     description: "Stop the conflicting health advice everywhere. Get a simple plan tailored just for you"
   }, {
     title: "Live Blood Analysis",
@@ -18,18 +17,17 @@ const Index = () => {
     title: "Functional Medicine",
     description: "Advanced screening that looks at the big picture everyone else missed. Finally get answers"
   }, {
-    title: "MLS Laser Therapy", 
+    title: "MLS Laser Therapy",
     description: "Natural treatment that gives you less pain and better range of motion. Feel your body getting stronger"
   }, {
     title: "Personal Training",
     description: "Exercise that works with your body, not against it. Start reaching PBs in the gym again"
   }];
-  
   const primaryConditions = [{
     name: "Gut Health",
     description: "Finally solve your gut problems and bloating that's been going on for ages. No more feeling sick after food"
   }, {
-    name: "Weight Management", 
+    name: "Weight Management",
     description: "Stop trying everything and nothing working. Get results you've wanted for years by fixing what's actually wrong"
   }, {
     name: "Fatigue",
@@ -38,9 +36,7 @@ const Index = () => {
     name: "Skin Conditions",
     description: "Resolve stubborn skin issues that have been taking ages to heal. Finally gain confidence in your skin again"
   }];
-  
   const additionalConditions = ["Allergies & Food Sensitivities", "Asthma", "Children's Health", "Cardiovascular Health", "Chronic Inflammation & Pain", "Diabetes", "Detoxification (Environmental Toxins / Liver Support)", "Headaches (Migraines)", "Immune Health (Cold & Flu, Bacterial Infections)", "Insomnia (Poor Sleep Quality)", "Men's Health", "Mental Health (Stress, Anxiety & Depression)", "Musculoskeletal Issues", "Thyroid", "Athletic Performance and Recovery"];
-  
   return <div className="min-h-screen bg-background">
       {/* 1. Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
@@ -52,12 +48,12 @@ const Index = () => {
                   Best Naturopath in Brisbane - NXTLVL Health
                 </h1>
                 <h2 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Not Feeling Like Yourself?{" "}
-                  <span className="text-primary">Transform in 6 Weeks!</span>
+                  Couldn't Find Answers Elsewhere?{" "}
+                  <span className="text-primary">Finally Feel Like Yourself Again!</span>
                 </h2>
                 
                 {/* Mobile Image - placed right after headline */}
-                <div className="relative lg:hidden mb-12 -mx-4">
+                <div className="relative lg:hidden mb-8 -mx-4">
                   <img alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -71,12 +67,15 @@ const Index = () => {
                 </div>
                 
                 {/* Mobile spacing for body text */}
-                <div className="lg:space-y-0 space-y-6 mt-20 lg:mt-0">
-                  <p className="text-xl text-muted-foreground leading-relaxed">
-                    I know exactly how frustrating it is to feel <strong>bloated, drained, and just out of it</strong>, but still have your doctor, friends, and family, tell you <strong>there's nothing wrong</strong>.
+                <div className="lg:space-y-0 space-y-6 mt-8 lg:mt-0">
+                  <p className="text-xl text-muted-foreground leading-relaxed py-[20px]">
+                    I know exactly how it feels when you're <strong>struggling with health problems</strong> and you <strong>couldn't find answers elsewhere</strong>.
                   </p>
                   <p className="text-xl text-muted-foreground leading-relaxed">
-                    That's why I'm here to tell you that <strong>you're not crazy</strong>, and I'm here to give you the <strong>answers you've been looking for</strong>.
+                    You're <strong>unsure what to do and where to seek advice from</strong>. You feel like <strong>no one is looking at the big picture</strong>.
+                  </p>
+                  <p className="text-xl text-muted-foreground leading-relaxed">
+                    Your doctor says you're fine, but <strong>you don't feel fine</strong>. I'm here to help you <strong>finally feel like you're in safe hands</strong>.
                   </p>
                 </div>
               </div>
@@ -147,11 +146,7 @@ const Index = () => {
           </div>
 
           <div className="mb-12">
-            <img 
-              src="/lovable-uploads/fe4256a1-0181-4c24-bf85-f8c27507574d.png" 
-              alt="Woman feeling tired and unwell sitting on couch" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
-            />
+            <img src="/lovable-uploads/fe4256a1-0181-4c24-bf85-f8c27507574d.png" alt="Woman feeling tired and unwell sitting on couch" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -203,7 +198,7 @@ const Index = () => {
           </div>
 
           <div className="text-center mt-20">
-            <h2 className="text-3xl lg:text-4xl font-bold text-primary">Then You've Come to The Right Place</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-primary">Finally Feel Like You're in Safe Hands</h2>
           </div>
         </div>
       </section>
@@ -261,28 +256,22 @@ const Index = () => {
             <h3 className="text-2xl font-semibold mb-6 text-center">Why Everything You've Tried Before Didn't Work</h3>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center space-y-3">
-                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto">
-                  <div className="w-6 h-6 bg-yellow-400 rounded-full flex items-center justify-center">
-                    <div className="w-4 h-4 bg-red-500 rounded-full"></div>
-                  </div>
+                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-content-center mx-auto">
+                  <Thermometer className="h-6 w-6 text-red-500" />
                 </div>
                 <h4 className="font-semibold">Prescription Drugs</h4>
                 <p className="text-sm text-muted-foreground">Just cover symptoms while your body gets sicker underneath. Side effects create new problems.</p>
               </div>
               <div className="text-center space-y-3">
-                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto">
-                  <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
-                    <div className="w-2 h-2 bg-green-800 rounded-full"></div>
-                  </div>
+                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-content-center mx-auto">
+                  <Book className="h-6 w-6 text-red-500" />
                 </div>
                 <h4 className="font-semibold">Generic Diets</h4>
                 <p className="text-sm text-muted-foreground">One-size-fits-all approaches ignore YOUR unique body and why YOU got sick.</p>
               </div>
               <div className="text-center space-y-3">
-                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto">
-                  <div className="w-6 h-6 bg-yellow-600 rounded-full flex items-center justify-center">
-                    <div className="text-xs font-bold text-white">$</div>
-                  </div>
+                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-content-center mx-auto">
+                  <Weight className="h-6 w-6 text-red-500" />
                 </div>
                 <h4 className="font-semibold">Expensive Supplements</h4>
                 <p className="text-sm text-muted-foreground">Random vitamins without testing is like cooking with every ingredient in your kitchen. Just a waste of money.</p>
@@ -457,7 +446,9 @@ const Index = () => {
           </div>
           
           {/* Trustindex Reviews Shortcode */}
-          <div className="w-full" dangerouslySetInnerHTML={{__html: '[trustindex no-registration=google]'}} />
+          <div className="w-full" dangerouslySetInnerHTML={{
+          __html: '[trustindex no-registration=google]'
+        }} />
         </div>
       </section>
 
@@ -518,5 +509,4 @@ const Index = () => {
       </footer>
     </div>;
 };
-
 export default Index;
