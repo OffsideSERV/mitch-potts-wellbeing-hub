@@ -71,7 +71,7 @@ const Index = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="text-lg px-8 py-6">
                   <Calendar className="mr-2 h-5 w-5" />
-                  Book Consultation
+                  Book a Free 15-Minute Consult
                 </Button>
                 <Button variant="outline" size="lg" className="text-lg px-8 py-6">
                   Learn More
@@ -391,7 +391,7 @@ const Index = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-lg px-8 py-6">
                 <Calendar className="mr-2 h-5 w-5" />
-                Book Your Consultation
+                Book a Free 15-Minute Consult
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8 py-6">
                 Call: (07) 3000 0000
