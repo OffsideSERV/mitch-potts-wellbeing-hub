@@ -58,7 +58,7 @@ const Index = () => {
                 </h2>
                 
                 {/* Mobile Image - placed right after headline */}
-                <div className="relative lg:hidden mb-8 -mx-4">
+                <div className="relative lg:hidden mb-12 -mx-4">
                   <img alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -72,12 +72,12 @@ const Index = () => {
                 </div>
                 
                 {/* Mobile spacing for body text */}
-                <div className="lg:space-y-0 space-y-6 mt-8 lg:mt-0">
+                <div className="lg:space-y-0 space-y-6 mt-12 lg:mt-0">
                   <p className="text-xl text-muted-foreground leading-relaxed">
-                    I know exactly how frustrating it is to feel bloated, drained, and just out of it, but still have your doctor, friends, and family, tell you there's nothing wrong.
+                    I know exactly how frustrating it is to feel <strong>bloated, drained, and just out of it</strong>, but still have your doctor, friends, and family, tell you <strong>there's nothing wrong</strong>.
                   </p>
                   <p className="text-xl text-muted-foreground leading-relaxed">
-                    That's why I'm here to tell you that you're not crazy, and I'm here to give you the answers you've been looking for.
+                    That's why I'm here to tell you that <strong>you're not crazy</strong>, and I'm here to give you the <strong>answers you've been looking for</strong>.
                   </p>
                 </div>
               </div>
@@ -123,17 +123,17 @@ const Index = () => {
               </div>
             </div>
             <div className="text-center space-y-2">
-              <BadgeCheck className="h-8 w-8 text-primary mx-auto" />
-              <div>
-                <h3 className="text-xl font-bold text-foreground">Real Testing</h3>
-                <p className="text-sm text-muted-foreground">No Guessing</p>
-              </div>
-            </div>
-            <div className="text-center space-y-2">
               <TestTube className="h-8 w-8 text-primary mx-auto" />
               <div>
                 <h3 className="text-xl font-bold text-foreground">90% of Patients</h3>
                 <p className="text-sm text-muted-foreground">See Results in Just 6 Weeks</p>
+              </div>
+            </div>
+            <div className="text-center space-y-2">
+              <BadgeCheck className="h-8 w-8 text-primary mx-auto" />
+              <div>
+                <h3 className="text-xl font-bold text-foreground">Real Testing</h3>
+                <p className="text-sm text-muted-foreground">No Guessing</p>
               </div>
             </div>
           </div>
