@@ -72,31 +72,6 @@ const Index = () => {
                 <Button variant="outline" size="lg" className="text-lg px-8 py-6">
                   Learn More
                 </Button>
-
-                {/* Trust Boosters */}
-                <div className="grid sm:grid-cols-3 gap-6 pt-8">
-                  <div className="text-center space-y-3">
-                    <Users className="h-12 w-12 text-primary mx-auto" />
-                    <div>
-                      <h3 className="text-2xl font-bold text-foreground">1000+</h3>
-                      <p className="text-muted-foreground">Patients Helped</p>
-                    </div>
-                  </div>
-                  <div className="text-center space-y-3">
-                    <TestTube className="h-12 w-12 text-primary mx-auto" />
-                    <div>
-                      <h3 className="text-2xl font-bold text-foreground">Real Testing</h3>
-                      <p className="text-muted-foreground">No Guessing</p>
-                    </div>
-                  </div>
-                  <div className="text-center space-y-3">
-                    <BadgeCheck className="h-12 w-12 text-primary mx-auto" />
-                    <div>
-                      <h3 className="text-2xl font-bold text-foreground">Registered</h3>
-                      <p className="text-muted-foreground">Naturopath</p>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="relative">
@@ -109,6 +84,31 @@ const Index = () => {
                     <p className="text-sm text-muted-foreground">Live Blood Analysis • Natural Medicine</p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Trust Boosters */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 max-w-4xl mx-auto">
+            <div className="text-center space-y-3">
+              <Users className="h-12 w-12 text-primary mx-auto" />
+              <div>
+                <h3 className="text-2xl font-bold text-foreground">1000+</h3>
+                <p className="text-muted-foreground">Patients Helped</p>
+              </div>
+            </div>
+            <div className="text-center space-y-3">
+              <TestTube className="h-12 w-12 text-primary mx-auto" />
+              <div>
+                <h3 className="text-2xl font-bold text-foreground">Real Testing</h3>
+                <p className="text-muted-foreground">No Guessing</p>
+              </div>
+            </div>
+            <div className="text-center space-y-3">
+              <BadgeCheck className="h-12 w-12 text-primary mx-auto" />
+              <div>
+                <h3 className="text-2xl font-bold text-foreground">Registered</h3>
+                <p className="text-muted-foreground">Naturopath</p>
               </div>
             </div>
           </div>
