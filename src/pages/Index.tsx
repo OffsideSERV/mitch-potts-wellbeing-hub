@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, TestTube, BadgeCheck, Target, Shield, Zap, Coffee, Clock, Brain } from 'lucide-react';
+import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, TestTube, BadgeCheck, Target, Shield, Zap, Coffee, Clock, Brain, Phone } from 'lucide-react';
 
 const Index = () => {
   const primaryServices = [{
@@ -89,6 +89,7 @@ const Index = () => {
                   <span className="text-center">Book a Free 15-Minute Consult</span>
                 </Button>
                 <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3 h-auto">
+                  <Phone className="mr-2 h-5 w-5 flex-shrink-0" />
                   Call Mitch
                 </Button>
               </div>
@@ -443,6 +444,7 @@ const Index = () => {
                 Book Your Free 15-Minute Call Now
               </Button>
               <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
+                <Phone className="mr-2 h-5 w-5" />
                 Call Mitch
               </Button>
             </div>
