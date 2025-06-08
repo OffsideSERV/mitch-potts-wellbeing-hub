@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -298,34 +297,33 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Meet Mitchell "Mitch" Potts</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Your dedicated naturopath at NXTLVL Health, combining traditional healing wisdom 
-              with modern diagnostic technology for personalized healthcare solutions.
+              The naturopath who <strong>finally listens</strong> and has the advanced testing to prove what's really going wrong in your body—no more guessing games.
             </p>
           </div>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h3 className="text-2xl font-semibold">Why Choose Mitch at NXTLVL Health?</h3>
+              <h3 className="text-2xl font-semibold">Why Mitch Gets Results When Others Don't</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <Microscope className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold">Advanced Live Blood Analysis</h4>
-                    <p className="text-muted-foreground">Real-time assessment of your blood's nutritional status and cellular health</p>
+                    <h4 className="font-semibold">He Actually SEES What's Wrong</h4>
+                    <p className="text-muted-foreground">Live blood analysis reveals exactly what your body needs—<strong>no more guessing</strong> why you feel terrible</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Leaf className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold">Custom Herbal Medicine</h4>
-                    <p className="text-muted-foreground">Personalized herbal formulations prepared specifically for your health needs</p>
+                    <h4 className="font-semibold">Medicine Made Just For YOU</h4>
+                    <p className="text-muted-foreground">Custom herbal formulas designed specifically for your unique health issues—<strong>not generic solutions</strong></p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Heart className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold">Holistic Approach</h4>
-                    <p className="text-muted-foreground">Addressing root causes through comprehensive natural health solutions</p>
+                    <h4 className="font-semibold">Someone Who Actually Listens</h4>
+                    <p className="text-muted-foreground">He believes your symptoms are real and <strong>digs deep to find the root cause</strong>—not just band-aid fixes</p>
                   </div>
                 </div>
               </div>
