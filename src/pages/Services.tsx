@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -84,6 +83,11 @@ const Services = () => {
                     Call Mitch
                   </a>
                 </Button>
+              </div>
+
+              {/* Google 5 Star Badge */}
+              <div className="mt-6">
+                <script defer async src='https://cdn.trustindex.io/loader.js?46476cb4757e774210564760f2f'></script>
               </div>
             </div>
             
