@@ -124,8 +124,8 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">If This Sounds Like You...</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              You're smart, you've tried everything, but something still feels off. You're **tired of feeling tired**, 
-              and you're ready for **real answers**—not just another band-aid solution.
+              You're smart, you've tried everything, but something still feels off. You're <strong>tired of feeling tired</strong>, 
+              and you're ready for <strong>real answers</strong>—not just another band-aid solution.
             </p>
           </div>
 
@@ -143,15 +143,15 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <Clock className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                  <p className="text-muted-foreground">No matter how many hours you sleep, you **hit snooze twice** and still feel **completely groggy**</p>
+                  <p className="text-muted-foreground">No matter how many hours you sleep, you <strong>hit snooze twice</strong> and still feel completely groggy</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Coffee className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                  <p className="text-muted-foreground">You **need coffee just to function**, then **crash by 2pm** every single day</p>
+                  <p className="text-muted-foreground">You <strong>need coffee just to function</strong>, then crash by 2pm every single day</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Brain className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                  <p className="text-muted-foreground">**Brain fog** makes you **forget things mid-sentence** during important meetings</p>
+                  <p className="text-muted-foreground">Brain fog makes you <strong>forget things mid-sentence</strong> during important meetings</p>
                 </div>
               </div>
             </div>
@@ -160,15 +160,15 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-muted-foreground">**Bloated and uncomfortable** after every meal, **no matter what you eat**</p>
+                  <p className="text-muted-foreground"><strong>Bloated and uncomfortable</strong> after every meal, no matter what you eat</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-muted-foreground">Your skin **breaks out randomly** and your **clothes feel tight**</p>
+                  <p className="text-muted-foreground">Your skin breaks out randomly and your <strong>clothes feel tight</strong></p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-muted-foreground">You're **doing everything "right"** but still feel **completely wrong**</p>
+                  <p className="text-muted-foreground">You're <strong>doing everything "right"</strong> but still feel completely wrong</p>
                 </div>
               </div>
             </div>
@@ -177,12 +177,12 @@ const Index = () => {
           <div className="bg-muted/50 rounded-2xl p-8 text-center mb-12">
             <h3 className="text-2xl font-semibold mb-4">You've Been Here Before</h3>
             <p className="text-lg text-muted-foreground mb-6">
-              Your doctor says **"you're fine"** but you **know something's off**. You've tried **gut cleanses**, 
-              **elimination diets**, and **expensive supplements**—but **nothing really worked**. You're **tired of 
-              wasting money** on generic plans that **don't understand YOUR body**.
+              Your doctor says <strong>"you're fine"</strong> but you know something's off. You've tried gut cleanses, 
+              elimination diets, and expensive supplements—but <strong>nothing really worked</strong>. You're tired of 
+              wasting money on generic plans that don't understand YOUR body.
             </p>
             <p className="text-xl font-semibold text-primary">
-              You want someone who **actually listens**. Someone who **gets it**. Someone who can finally give you **real answers**.
+              You want someone who <strong>actually listens</strong>. Someone who gets it. Someone who can finally give you <strong>real answers</strong>.
             </p>
           </div>
 
