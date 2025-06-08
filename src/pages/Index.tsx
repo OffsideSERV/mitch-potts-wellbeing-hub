@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -72,7 +71,7 @@ const Index = () => {
                 </div>
                 
                 {/* Mobile spacing for body text */}
-                <div className="lg:space-y-0 space-y-6 mt-12 lg:mt-0">
+                <div className="lg:space-y-0 space-y-6 mt-20 lg:mt-0">
                   <p className="text-xl text-muted-foreground leading-relaxed">
                     I know exactly how frustrating it is to feel <strong>bloated, drained, and just out of it</strong>, but still have your doctor, friends, and family, tell you <strong>there's nothing wrong</strong>.
                   </p>
