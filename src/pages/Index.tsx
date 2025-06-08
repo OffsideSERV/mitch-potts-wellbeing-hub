@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, TestTube, BadgeCheck, Target, Shield, Zap, Coffee, Clock, Brain } from 'lucide-react';
-
 const Index = () => {
   const primaryServices = [{
     title: "Naturopathy",
@@ -30,23 +29,20 @@ const Index = () => {
     description: "Exercise programs that work WITH your health issues, not against them—finally feel strong again",
     icon: <Weight className="h-8 w-8 text-primary" />
   }];
-  
   const primaryConditions = [{
     name: "Gut Health",
-    description: "Finally fix that bloating, cramping, and digestive chaos that's been ruining your life for years"
+    description: "Digestive disorders, IBS, SIBO, and microbiome optimization"
   }, {
     name: "Weight Loss",
-    description: "Lose weight the right way—by fixing what's actually broken in your body, not starving yourself"
+    description: "Sustainable weight management through natural approaches"
   }, {
     name: "Fatigue",
-    description: "Get your energy back and stop feeling like you need three coffees just to function like a normal person"
+    description: "Chronic fatigue, energy optimization, and adrenal support"
   }, {
     name: "Skin Conditions",
-    description: "Clear up stubborn skin problems that make you want to hide—eczema, acne, psoriasis, and more"
+    description: "Eczema, acne, psoriasis, and other dermatological issues"
   }];
-  
   const additionalConditions = ["Allergies & Food Sensitivities", "Asthma", "Children's Health", "Cardiovascular Health", "Chronic Inflammation & Pain", "Diabetes", "Detoxification (Environmental Toxins / Liver Support)", "Headaches (Migraines)", "Immune Health (Cold & Flu, Bacterial Infections)", "Insomnia (Poor Sleep Quality)", "Men's Health", "Mental Health (Stress, Anxiety & Depression)", "Musculoskeletal Issues", "Thyroid", "Athletic Performance and Recovery"];
-  
   return <div className="min-h-screen bg-background">
       {/* 1. Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
@@ -140,7 +136,7 @@ const Index = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">If This Sounds Like You...</h2>
+            
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               You're smart, you've tried everything, but something still feels off. You're <strong>tired of feeling tired</strong>, 
               and you're ready for <strong>real answers</strong>—not just another band-aid solution.
@@ -148,11 +144,7 @@ const Index = () => {
           </div>
 
           <div className="mb-12">
-            <img 
-              src="/lovable-uploads/fe4256a1-0181-4c24-bf85-f8c27507574d.png" 
-              alt="Woman feeling tired and unwell sitting on couch" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
-            />
+            <img src="/lovable-uploads/fe4256a1-0181-4c24-bf85-f8c27507574d.png" alt="Woman feeling tired and unwell sitting on couch" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -249,7 +241,7 @@ const Index = () => {
               </div>
             </div>
             <div className="relative">
-              <img src="/lovable-uploads/1bd48616-2927-4298-ac11-2883825577b5.png" alt="Professional consultation at NXTLVL Health showing personalized patient care" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" alt="Natural herbal remedies representing naturopathic healing approach" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
 
@@ -400,10 +392,9 @@ const Index = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">The Health Problems That Actually Get Fixed Here</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Specialized Treatment Areas</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Tired of being told "it's all in your head"? These are the <strong>real health issues</strong> Mitch specializes in solving—
-              the ones other practitioners just can't figure out.
+              Mitch specializes in treating these key health conditions with proven natural approaches at NXTLVL Health
             </p>
           </div>
 
@@ -421,7 +412,7 @@ const Index = () => {
           </div>
 
           <div className="bg-muted/50 rounded-2xl p-8">
-            <h3 className="text-2xl font-semibold mb-6 text-center">Plus All These Other Stubborn Health Issues</h3>
+            <h3 className="text-2xl font-semibold mb-6 text-center">Additional Conditions Treated</h3>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {additionalConditions.map((condition, index) => <Badge key={index} variant="secondary" className="justify-start p-3 text-sm">
                   {condition}
@@ -435,34 +426,34 @@ const Index = () => {
       <section className="py-20 px-4 bg-primary/5">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Ready To Finally Feel Like Yourself Again?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Start Your Health Journey at NXTLVL Health</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Stop wasting time with doctors who don't listen and treatments that don't work. Book your <strong>free 15-minute consultation</strong> with Mitch and discover why thousands of people are finally getting the answers they've been searching for.
+              Ready to experience advanced natural healthcare? Book a consultation with Mitch at NXTLVL Health 
+              and discover how cutting-edge diagnostics and personalized natural medicine can transform your wellbeing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
                 <Calendar className="mr-2 h-5 w-5" />
-                Book Your Free 15-Minute Call Now
+                Book a Free 15-Minute Consult
               </Button>
               <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
-                Call: (07) 3180 8853
+                Call: (07) 3000 0000
               </Button>
             </div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="space-y-3">
-              <h3 className="text-xl font-semibold">NXTLVL Health - New Farm</h3>
+              <h3 className="text-xl font-semibold">NXTLVL Health</h3>
               <p className="text-muted-foreground">
-                Suite 2/665 Brunswick St<br />
-                New Farm, QLD 4005<br />
+                Brisbane, Queensland<br />
                 Australia
               </p>
             </div>
             <div className="space-y-3">
               <h3 className="text-xl font-semibold">Contact</h3>
               <p className="text-muted-foreground">
-                Phone: (07) 3180 8853<br />
+                Phone: (07) 3000 0000<br />
                 Email: info@nxtlvlhealth.com.au
               </p>
             </div>
@@ -487,5 +478,4 @@ const Index = () => {
       </footer>
     </div>;
 };
-
 export default Index;
