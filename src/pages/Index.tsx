@@ -63,14 +63,14 @@ const Index = () => {
                 </h2>
                 
                 {/* Mobile Image - placed right after headline */}
-                <div className="relative lg:hidden mb-6">
+                <div className="relative lg:hidden mb-8 -mx-4">
                   <img alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" />
-                  <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
+                  <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
-                      <Microscope className="h-8 w-8 text-primary" />
+                      <Microscope className="h-6 w-6 text-primary" />
                       <div>
-                        <p className="font-semibold">Advanced Diagnostics</p>
-                        <p className="text-sm text-muted-foreground">Live Blood Analysis • Natural Medicine</p>
+                        <p className="font-semibold text-sm">Advanced Diagnostics</p>
+                        <p className="text-xs text-muted-foreground">Live Blood Analysis • Natural Medicine</p>
                       </div>
                     </div>
                   </div>
