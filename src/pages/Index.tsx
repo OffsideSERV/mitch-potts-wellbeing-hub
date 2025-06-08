@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -34,16 +33,16 @@ const Index = () => {
   
   const primaryConditions = [{
     name: "Gut Health",
-    description: "Digestive disorders, IBS, SIBO, and microbiome optimization"
+    description: "Finally fix that bloating, cramping, and digestive chaos that's been ruining your life for years"
   }, {
     name: "Weight Loss",
-    description: "Sustainable weight management through natural approaches"
+    description: "Lose weight the right way—by fixing what's actually broken in your body, not starving yourself"
   }, {
     name: "Fatigue",
-    description: "Chronic fatigue, energy optimization, and adrenal support"
+    description: "Get your energy back and stop feeling like you need three coffees just to function like a normal person"
   }, {
     name: "Skin Conditions",
-    description: "Eczema, acne, psoriasis, and other dermatological issues"
+    description: "Clear up stubborn skin problems that make you want to hide—eczema, acne, psoriasis, and more"
   }];
   
   const additionalConditions = ["Allergies & Food Sensitivities", "Asthma", "Children's Health", "Cardiovascular Health", "Chronic Inflammation & Pain", "Diabetes", "Detoxification (Environmental Toxins / Liver Support)", "Headaches (Migraines)", "Immune Health (Cold & Flu, Bacterial Infections)", "Insomnia (Poor Sleep Quality)", "Men's Health", "Mental Health (Stress, Anxiety & Depression)", "Musculoskeletal Issues", "Thyroid", "Athletic Performance and Recovery"];
@@ -401,9 +400,10 @@ const Index = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Specialized Treatment Areas</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">The Health Problems That Actually Get Fixed Here</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Mitch specializes in treating these key health conditions with proven natural approaches at NXTLVL Health
+              Tired of being told "it's all in your head"? These are the <strong>real health issues</strong> Mitch specializes in solving—
+              the ones other practitioners just can't figure out.
             </p>
           </div>
 
@@ -421,7 +421,7 @@ const Index = () => {
           </div>
 
           <div className="bg-muted/50 rounded-2xl p-8">
-            <h3 className="text-2xl font-semibold mb-6 text-center">Additional Conditions Treated</h3>
+            <h3 className="text-2xl font-semibold mb-6 text-center">Plus All These Other Stubborn Health Issues</h3>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {additionalConditions.map((condition, index) => <Badge key={index} variant="secondary" className="justify-start p-3 text-sm">
                   {condition}
