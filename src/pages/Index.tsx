@@ -78,13 +78,17 @@ const Index = () => {
                 </div>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight">
-                  <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
-                  <span className="text-center">Book a Free 15-Minute Chat</span>
+                <Button size="lg" className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight" asChild>
+                  <a href="https://nxtlvlhealth.com.au/book-now/">
+                    <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
+                    <span className="text-center">Book an Appointment Today!</span>
+                  </a>
                 </Button>
-                <Button variant="outline" size="lg" className="text-base sm:text-lg px-4 py-3 h-auto">
-                  <Phone className="mr-2 h-4 w-4 flex-shrink-0" />
-                  Call Mitch
+                <Button variant="outline" size="lg" className="text-base sm:text-lg px-4 py-3 h-auto" asChild>
+                  <a href="tel:0731808853">
+                    <Phone className="mr-2 h-4 w-4 flex-shrink-0" />
+                    Call Mitch
+                  </a>
                 </Button>
               </div>
               
@@ -451,13 +455,17 @@ const Index = () => {
               Stop wasting time with doctors who don't listen and treatments that don't work. Book your <strong>free 15-minute consultation</strong> with Mitch and discover why thousands of people are finally getting the answers they've been searching for.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
-                <Calendar className="mr-2 h-5 w-5" />
-                Book Your Free 15-Minute Call Now
+              <Button size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3" asChild>
+                <a href="https://nxtlvlhealth.com.au/book-now/">
+                  <Calendar className="mr-2 h-5 w-5" />
+                  Book an Appointment Today!
+                </a>
               </Button>
-              <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
-                <Phone className="mr-2 h-4 w-4" />
-                Call Mitch
+              <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3" asChild>
+                <a href="tel:0731808853">
+                  <Phone className="mr-2 h-4 w-4" />
+                  Call Mitch
+                </a>
               </Button>
             </div>
           </div>
