@@ -51,7 +51,7 @@ const Index = () => {
       {/* 1. Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
             <div className="space-y-8">
               <div className="space-y-4">
                 <h1 className="text-sm bg-secondary text-secondary-foreground px-3 py-1 rounded-full inline-block">
@@ -61,6 +61,21 @@ const Index = () => {
                   Not Feeling Like Yourself?{" "}
                   <span className="text-primary">Transform in 6 Weeks!</span>
                 </h2>
+                
+                {/* Mobile Image - placed right after headline */}
+                <div className="relative lg:hidden mb-6">
+                  <img alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" />
+                  <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
+                    <div className="flex items-center space-x-3">
+                      <Microscope className="h-8 w-8 text-primary" />
+                      <div>
+                        <p className="font-semibold">Advanced Diagnostics</p>
+                        <p className="text-sm text-muted-foreground">Live Blood Analysis • Natural Medicine</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
                 <p className="text-xl text-muted-foreground leading-relaxed">
                   I know exactly how frustrating it is to feel <strong>bloated, drained, and just out of it</strong>, but still have your doctor, friends, and family, tell you <strong>there's nothing wrong</strong>.
                 </p>
@@ -78,7 +93,9 @@ const Index = () => {
                 </Button>
               </div>
             </div>
-            <div className="relative">
+            
+            {/* Desktop Image - only visible on large screens */}
+            <div className="relative hidden lg:block">
               <img alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
