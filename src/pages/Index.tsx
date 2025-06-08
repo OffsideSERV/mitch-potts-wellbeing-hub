@@ -445,7 +445,7 @@ const Index = () => {
                 Book Your Free 15-Minute Call Now
               </Button>
               <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
-                Call: (07) 3000 0000
+                Call: (07) 3053 6500
               </Button>
             </div>
           </div>
@@ -454,14 +454,15 @@ const Index = () => {
             <div className="space-y-3">
               <h3 className="text-xl font-semibold">NXTLVL Health</h3>
               <p className="text-muted-foreground">
-                Brisbane, Queensland<br />
+                Suite 4, 4/55 Smithfield Rd<br />
+                Smithfield, QLD 4878<br />
                 Australia
               </p>
             </div>
             <div className="space-y-3">
               <h3 className="text-xl font-semibold">Contact</h3>
               <p className="text-muted-foreground">
-                Phone: (07) 3000 0000<br />
+                Phone: (07) 3053 6500<br />
                 Email: info@nxtlvlhealth.com.au
               </p>
             </div>
