@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -63,10 +62,10 @@ const Index = () => {
                   <span className="text-primary">Transform in 6 Weeks!</span>
                 </h2>
                 <p className="text-xl text-muted-foreground leading-relaxed">
-                  You know something's not right. You're tired, bloated, and your energy just isn't there anymore. 
-                  What if we told you that <strong>in just 6 weeks</strong>, you could feel like yourself again? 
-                  Mitchell Potts uses advanced Live Blood Analysis to see exactly what your body needs - 
-                  no more guessing, no more generic solutions. Just real answers and a clear path forward.
+                  I know exactly how frustrating it is to feel bloated, drained, and just out of it, but still have your doctor, friends, and family, tell you there's nothing wrong.
+                </p>
+                <p className="text-xl text-muted-foreground leading-relaxed">
+                  That's why I'm here to tell you that you're not crazy, and I'm here to give you the answers you've been looking for.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
