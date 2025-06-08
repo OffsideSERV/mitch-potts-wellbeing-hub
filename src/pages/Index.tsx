@@ -445,24 +445,24 @@ const Index = () => {
                 Book Your Free 15-Minute Call Now
               </Button>
               <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
-                Call: (07) 3053 6500
+                Call: (07) 3180 8853
               </Button>
             </div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="space-y-3">
-              <h3 className="text-xl font-semibold">NXTLVL Health</h3>
+              <h3 className="text-xl font-semibold">NXTLVL Health - New Farm</h3>
               <p className="text-muted-foreground">
-                Suite 4, 4/55 Smithfield Rd<br />
-                Smithfield, QLD 4878<br />
+                Suite 2/665 Brunswick St<br />
+                New Farm, QLD 4005<br />
                 Australia
               </p>
             </div>
             <div className="space-y-3">
               <h3 className="text-xl font-semibold">Contact</h3>
               <p className="text-muted-foreground">
-                Phone: (07) 3053 6500<br />
+                Phone: (07) 3180 8853<br />
                 Email: info@nxtlvlhealth.com.au
               </p>
             </div>
