@@ -214,76 +214,103 @@ const Index = () => {
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Finally, Someone Who Gets It</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Naturopathy Works When Everything Else Failed</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              You've been <strong>dismissed, misunderstood, and told it's all in your head</strong>. But here's the truth: 
-              when your body isn't working right, there's <strong>always a reason</strong>—and I know how to find it.
+              You've tried pills, diets, and quick fixes. But naturopathy is different—it's the <strong>missing piece</strong> 
+              that actually gets to the <strong>root of why you're sick</strong>, not just covering up symptoms.
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
-              <h3 className="text-2xl font-semibold">Why You Keep Feeling Stuck</h3>
+              <h3 className="text-2xl font-semibold">Here's What Makes Naturopathy Different</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <Target className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold">They Only Treat Symptoms</h4>
-                    <p className="text-muted-foreground">Most doctors give you a pill for every symptom but <strong>never ask WHY</strong> you're sick in the first place</p>
+                    <h4 className="font-semibold">We Find The ACTUAL Problem</h4>
+                    <p className="text-muted-foreground">While doctors just treat symptoms, naturopathy digs deep to find <strong>why your body stopped working properly</strong> in the first place</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <Leaf className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold">Your Body Heals Itself (When You Remove What's Blocking It)</h4>
+                    <p className="text-muted-foreground">Instead of forcing your body with drugs, we <strong>remove the obstacles</strong> so your body can do what it was designed to do—heal</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Shield className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold">Your Body Is Crying For Help</h4>
-                    <p className="text-muted-foreground">That fatigue, bloating, and brain fog? It's your body <strong>screaming that something's wrong</strong>—but nobody's listening</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <Zap className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                  <div>
-                    <h4 className="font-semibold">You Deserve To Feel Amazing</h4>
-                    <p className="text-muted-foreground"><strong>Imagine waking up energized</strong>, thinking clearly, and feeling comfortable in your own skin again</p>
+                    <h4 className="font-semibold">No More Band-Aid Solutions</h4>
+                    <p className="text-muted-foreground">We don't just <strong>mask your symptoms</strong>—we fix the underlying dysfunction so you actually <strong>get better for good</strong></p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="relative">
-              <img src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" alt="Natural herbal remedies and naturopathic medicine preparation" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" alt="Natural herbal remedies representing naturopathic healing approach" className="rounded-2xl shadow-lg w-full h-auto" />
+            </div>
+          </div>
+
+          <div className="bg-muted/50 rounded-2xl p-8 mb-12">
+            <h3 className="text-2xl font-semibold mb-6 text-center">Why Everything You've Tried Before Didn't Work</h3>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="text-center space-y-3">
+                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto">
+                  <span className="text-2xl">💊</span>
+                </div>
+                <h4 className="font-semibold">Prescription Drugs</h4>
+                <p className="text-sm text-muted-foreground">Just cover symptoms while your body gets sicker underneath. Side effects create new problems.</p>
+              </div>
+              <div className="text-center space-y-3">
+                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto">
+                  <span className="text-2xl">🥗</span>
+                </div>
+                <h4 className="font-semibold">Generic Diets</h4>
+                <p className="text-sm text-muted-foreground">One-size-fits-all approaches ignore YOUR unique biochemistry and why YOU got sick.</p>
+              </div>
+              <div className="text-center space-y-3">
+                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto">
+                  <span className="text-2xl">💰</span>
+                </div>
+                <h4 className="font-semibold">Expensive Supplements</h4>
+                <p className="text-sm text-muted-foreground">Random vitamins without testing what you actually need. Just expensive pee.</p>
+              </div>
             </div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="text-center border-0 shadow-md">
               <CardHeader>
-                <Leaf className="h-12 w-12 text-primary mx-auto mb-4" />
-                <CardTitle className="text-xl">Real Solutions</CardTitle>
+                <Microscope className="h-12 w-12 text-primary mx-auto mb-4" />
+                <CardTitle className="text-xl">We Test, Don't Guess</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  No more band-aids. We find the <strong>root cause</strong> and fix it using natural medicine that actually works
+                  Advanced diagnostics show us <strong>exactly what's wrong</strong> in your body—no more trial and error
                 </CardDescription>
               </CardContent>
             </Card>
             <Card className="text-center border-0 shadow-md">
               <CardHeader>
                 <Heart className="h-12 w-12 text-primary mx-auto mb-4" />
-                <CardTitle className="text-xl">You're Finally Heard</CardTitle>
+                <CardTitle className="text-xl">Personalized Medicine</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  Someone who <strong>actually listens</strong> to your story and believes what you're experiencing is real
+                  Custom formulas made specifically for YOUR body chemistry—not generic solutions
                 </CardDescription>
               </CardContent>
             </Card>
             <Card className="text-center border-0 shadow-md">
               <CardHeader>
-                <Microscope className="h-12 w-12 text-primary mx-auto mb-4" />
-                <CardTitle className="text-xl">Proven Results</CardTitle>
+                <Zap className="h-12 w-12 text-primary mx-auto mb-4" />
+                <CardTitle className="text-xl">Lasting Results</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  Advanced testing shows us <strong>exactly what's wrong</strong> so we can create your personalized healing plan
+                  Fix the root cause so you <strong>stay healthy</strong>—not just feel better temporarily
                 </CardDescription>
               </CardContent>
             </Card>
