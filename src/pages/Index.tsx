@@ -194,7 +194,7 @@ const Index = () => {
           </div>
 
           <div className="bg-muted/50 rounded-2xl p-8 text-center mb-12">
-            <h3 className="text-2xl font-semibold mb-4">You've Been Here Before</h3>
+            <h3 className="text-2xl font-semibold mb-4">You've Head It All Before</h3>
             <p className="text-lg text-muted-foreground mb-6">
               Your doctor says <strong>"you're fine"</strong> but you know something's off. You've tried gut cleanses, 
               elimination diets, and expensive supplements—but <strong>nothing really worked</strong>. You're tired of 
