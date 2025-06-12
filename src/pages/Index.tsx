@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -213,7 +212,7 @@ const Index = () => {
           </div>
 
           <div className="bg-muted/50 rounded-2xl p-8 mb-12">
-            <h3 className="text-2xl font-semibold mb-4">You've Been Struggling for Ages</h3>
+            <h3 className="text-2xl font-semibold mb-6">You've Been Struggling for Ages</h3>
             <p className="text-lg text-muted-foreground mb-6">
               Your doctor says <strong>you're fine, but you don't feel fine</strong>. You've <strong>searched for answers online</strong>, 
               but it's left you <strong>even more confused than before</strong>. You have <strong>no idea what you're doing wrong</strong>.
@@ -425,21 +424,119 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {primaryServices.map((service, index) => <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
-                <CardHeader className="pb-4">
-                  <CardTitle className="text-xl">{service.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-base leading-relaxed mb-3">
-                    {service.description}
-                  </CardDescription>
-                  {service.subtitle && (
-                    <CardDescription className="text-sm leading-relaxed italic text-muted-foreground">
-                      {service.subtitle}
-                    </CardDescription>
-                  )}
-                </CardContent>
-              </Card>)}
+            <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
+              <CardHeader className="pb-4">
+                <img 
+                  src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopathy-icon.png" 
+                  alt="Naturopathy icon" 
+                  className="w-12 h-12 mx-auto mb-4"
+                />
+                <CardTitle className="text-xl">Naturopathy</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base leading-relaxed mb-3">
+                  Undeniably good naturopathy in Brisbane to finally uncover what your doctor couldn't and get your health back on track using natural remedies that actually work
+                </CardDescription>
+                <CardDescription className="text-sm leading-relaxed italic text-muted-foreground">
+                  Naturopathy is what Mitch used to help hundreds of patients really take charge of their health.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
+              <CardHeader className="pb-4">
+                <img 
+                  src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Nutrition-icon.png" 
+                  alt="Nutrition Guidance icon" 
+                  className="w-12 h-12 mx-auto mb-4"
+                />
+                <CardTitle className="text-xl">Nutrition Guidance</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base leading-relaxed mb-3">
+                  There's no need to play guessing games with fad diets. Get a fully customised nutrition plan that's made just for you.
+                </CardDescription>
+                <CardDescription className="text-sm leading-relaxed italic text-muted-foreground">
+                  We simplify your food strategy so you know exactly what to eat, when to eat it, and why it works for your body.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
+              <CardHeader className="pb-4">
+                <img 
+                  src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Live-blood-analysis-icon.png" 
+                  alt="Live Blood Analysis icon" 
+                  className="w-12 h-12 mx-auto mb-4"
+                />
+                <CardTitle className="text-xl">Live Blood Analysis</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base leading-relaxed mb-3">
+                  Mitch will find out exactly what's going on in your body by examining your blood under a microscope.
+                </CardDescription>
+                <CardDescription className="text-sm leading-relaxed italic text-muted-foreground">
+                  Live blood analysis gives us insights no basic blood test can—like inflammation, nutrient absorption, or gut bugs you didn't know were there.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
+              <CardHeader className="pb-4">
+                <img 
+                  src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Functional-medicine-icon.png" 
+                  alt="Functional Medicine icon" 
+                  className="w-12 h-12 mx-auto mb-4"
+                />
+                <CardTitle className="text-xl">Functional Medicine</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base leading-relaxed mb-3">
+                  Advanced screening that looks at the big picture everyone else missed. You'll get the answers you need.
+                </CardDescription>
+                <CardDescription className="text-sm leading-relaxed italic text-muted-foreground">
+                  We check your hormones, gut, liver, immune function—everything that affects how you feel day to day.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
+              <CardHeader className="pb-4">
+                <img 
+                  src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/MLS-Laser-Therapy-icon.png" 
+                  alt="MLS Laser Therapy icon" 
+                  className="w-12 h-12 mx-auto mb-4"
+                />
+                <CardTitle className="text-xl">MLS Laser Therapy</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base leading-relaxed mb-3">
+                  A natural laser treatment that gives you less pain and better range of motion. You'll feel your body getting stronger within just the first few sessions.
+                </CardDescription>
+                <CardDescription className="text-sm leading-relaxed italic text-muted-foreground">
+                  Especially helpful for injuries or stubborn aches. You'll notice a change in how your body moves, often faster than expected.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
+              <CardHeader className="pb-4">
+                <img 
+                  src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Personal-Training-Icon.png" 
+                  alt="Personal Training icon" 
+                  className="w-12 h-12 mx-auto mb-4"
+                />
+                <CardTitle className="text-xl">Personal Training</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base leading-relaxed mb-3">
+                  Exercise that works with your body, not against it. You'll start hitting PBs in the gym again
+                </CardDescription>
+                <CardDescription className="text-sm leading-relaxed italic text-muted-foreground">
+                  Get stronger without burnout. Mitch helps you train smarter, with workouts that support your healing—not sabotage it.
+                </CardDescription>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
