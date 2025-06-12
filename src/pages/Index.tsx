@@ -425,7 +425,7 @@ const Index = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
-              <CardHeader className="pb-4">
+              <CardHeader className="pb-4 text-center">
                 <img 
                   src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopathy-icon.png" 
                   alt="Naturopathy icon" 
@@ -444,7 +444,7 @@ const Index = () => {
             </Card>
 
             <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
-              <CardHeader className="pb-4">
+              <CardHeader className="pb-4 text-center">
                 <img 
                   src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Nutrition-icon.png" 
                   alt="Nutrition Guidance icon" 
@@ -463,7 +463,7 @@ const Index = () => {
             </Card>
 
             <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
-              <CardHeader className="pb-4">
+              <CardHeader className="pb-4 text-center">
                 <img 
                   src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Live-blood-analysis-icon.png" 
                   alt="Live Blood Analysis icon" 
@@ -482,7 +482,7 @@ const Index = () => {
             </Card>
 
             <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
-              <CardHeader className="pb-4">
+              <CardHeader className="pb-4 text-center">
                 <img 
                   src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Functional-medicine-icon.png" 
                   alt="Functional Medicine icon" 
@@ -501,7 +501,7 @@ const Index = () => {
             </Card>
 
             <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
-              <CardHeader className="pb-4">
+              <CardHeader className="pb-4 text-center">
                 <img 
                   src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/MLS-Laser-Therapy-icon.png" 
                   alt="MLS Laser Therapy icon" 
@@ -520,7 +520,7 @@ const Index = () => {
             </Card>
 
             <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
-              <CardHeader className="pb-4">
+              <CardHeader className="pb-4 text-center">
                 <img 
                   src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Personal-Training-Icon.png" 
                   alt="Personal Training icon" 
