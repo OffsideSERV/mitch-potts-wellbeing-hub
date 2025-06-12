@@ -8,35 +8,41 @@ import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, Te
 const Index = () => {
   const primaryServices = [{
     title: "Naturopathy",
-    description: "Undeniably good naturopathy in Brisbane to finally uncover what doctors couldn't and get your health back on track using natural remedies that actually work"
+    description: "Undeniably good naturopathy in Brisbane to finally uncover what your doctor couldn't and get your health back on track using natural remedies that actually work",
+    subtitle: "Naturopathy is what Mitch used to help hundreds of patients really take charge of their health."
   }, {
     title: "Nutrition Guidance",
-    description: "No need to play guessing games with fad diets. Get a fully customised nutrition plan that's made just for you."
+    description: "There's no need to play guessing games with fad diets. Get a fully customised nutrition plan that's made just for you.",
+    subtitle: "We simplify your food strategy so you know exactly what to eat, when to eat it, and why it works for your body."
   }, {
     title: "Live Blood Analysis",
-    description: "Mitch will find out exactly what's going on in your body by examining your blood under a microscope."
+    description: "Mitch will find out exactly what's going on in your body by examining your blood under a microscope.",
+    subtitle: "Live blood analysis gives us insights no basic blood test can—like inflammation, nutrient absorption, or gut bugs you didn't know were there."
   }, {
     title: "Functional Medicine",
-    description: "Advanced screening that looks at the big picture everyone else missed. You'll get the answers you need."
+    description: "Advanced screening that looks at the big picture everyone else missed. You'll get the answers you need.",
+    subtitle: "We check your hormones, gut, liver, immune function—everything that affects how you feel day to day."
   }, {
     title: "MLS Laser Therapy",
-    description: "A natural laser treatment that gives you less pain and better range of motion. You'll feel your body getting stronger within just the first few sessions."
+    description: "A natural laser treatment that gives you less pain and better range of motion. You'll feel your body getting stronger within just the first few sessions.",
+    subtitle: "Especially helpful for injuries or stubborn aches. You'll notice a change in how your body moves, often faster than expected."
   }, {
     title: "Personal Training",
-    description: "Exercise that works with your body, not against it. You'll start hitting PBs in the gym again"
+    description: "Exercise that works with your body, not against it. You'll start hitting PBs in the gym again",
+    subtitle: "Get stronger without burnout. Mitch helps you train smarter, with workouts that support your healing—not sabotage it."
   }];
   const primaryConditions = [{
     name: "Gut Health",
-    description: "Finally solve your gut problems and bloating that's been going on for ages. No more feeling sick after food"
+    description: "You'll finally solve your gut problems and bloating that's been going on for ages. You won't feel sick after eating food again."
   }, {
     name: "Weight Management",
-    description: "Stop trying everything and nothing working. Get results you've wanted for years by fixing what's actually wrong"
+    description: "You'll finally drop the weight that's been driving you crazy. You'll look in the mirror and see yourself in the dream body you've wanted for years by fixing what's actually wrong"
   }, {
     name: "Fatigue",
-    description: "Stop feeling tired all the time and sluggish in the morning. Get your energy back and feel like yourself again"
+    description: "You'll stop feeling tired all the time and sluggish in the morning. You'll finally get your energy back and truly feel like yourself again."
   }, {
-    name: "Skin Conditions",
-    description: "Resolve stubborn skin issues that have been taking ages to heal. Finally gain confidence in your skin again"
+    name: "Skin Conditions (Eczema, Acne, etc)",
+    description: "You'll finally say goodbye to the skin issues that have been taking ages to heal. You'll gain confidence and spend some more time staring at that bathroom mirror."
   }];
   const additionalConditions = ["Allergies & Food Sensitivities", "Asthma", "Children's Health", "Cardiovascular Health", "Chronic Inflammation & Pain", "Diabetes", "Detoxification (Environmental Toxins / Liver Support)", "Headaches (Migraines)", "Immune Health (Cold & Flu, Bacterial Infections)", "Insomnia (Poor Sleep Quality)", "Men's Health", "Mental Health (Stress, Anxiety & Depression)", "Musculoskeletal Issues", "Thyroid", "Athletic Performance and Recovery"];
   return <div className="min-h-screen bg-background">
@@ -60,7 +66,7 @@ const Index = () => {
                     <div className="flex items-center space-x-3">
                       <Microscope className="h-6 w-6 text-primary" />
                       <div>
-                        <p className="font-semibold text-sm">Advanced Screening Method</p>
+                        <p className="font-semibold text-sm">Advanced Screening Clinic</p>
                         <p className="text-xs text-muted-foreground">Live Blood Analysis • Natural Medicine</p>
                       </div>
                     </div>
@@ -70,7 +76,7 @@ const Index = () => {
                 {/* Mobile spacing for body text */}
                 <div className="lg:space-y-0 space-y-6 mt-8 lg:mt-0">
                   <p className="text-xl text-muted-foreground leading-relaxed py-[20px]">
-                    I know how frustrating it must be to feel <strong>bloated, drained, and just out of it</strong>, but still have your doctor tell you there's nothing wrong.
+                    I know how frustrating it must be to feel <strong>bloated, drained, and just out of it</strong>, but still have your doctor tell you that there's nothing wrong.
                   </p>
                   <p className="text-xl text-muted-foreground leading-relaxed">
                     That's why, as the <strong>best Naturopath Brisbane</strong> has to offer, I'm here to tell you that <strong>you're not crazy</strong>, and I'm here to give you the <strong>answers you've been looking for</strong>.
@@ -125,7 +131,7 @@ const Index = () => {
             <div className="text-center space-y-2">
               <BadgeCheck className="h-8 w-8 text-primary mx-auto" />
               <div>
-                <h3 className="text-xl font-bold text-foreground">Real Testing</h3>
+                <h3 className="text-xl font-bold text-foreground">Real Testing From a Qualified Naturopath</h3>
                 <p className="text-sm text-muted-foreground">No Guessing</p>
               </div>
             </div>
@@ -144,7 +150,7 @@ const Index = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">If This Sounds Like You...</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">If This Sounds Like Your Symptoms...</h2>
           </div>
 
           <div className="mb-12">
@@ -157,15 +163,24 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <Clock className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                  <p className="text-muted-foreground">You're <strong>sluggish in the morning</strong> no matter how much sleep you get. Your body feels heavy and drained</p>
+                  <div>
+                    <p className="text-muted-foreground mb-2">You're <strong>sluggish in the morning</strong> no matter how much sleep you get. Your body feels heavy and drained.</p>
+                    <p className="text-sm text-muted-foreground italic">Even with a full night's sleep, you wake up foggy and slow. You drag yourself out of bed and spend the day feeling like you're moving through mud.</p>
+                  </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Coffee className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                  <p className="text-muted-foreground">You <strong>need caffeine just to function properly</strong>, and then you crash hard by the afternoon feeling even more exhausted</p>
+                  <div>
+                    <p className="text-muted-foreground mb-2">You <strong>need caffeine just to function properly</strong>, and then you crash hard by the afternoon feeling even more exhausted.</p>
+                    <p className="text-sm text-muted-foreground italic">Coffee works—but only for a little while. Then your body crashes harder. You feel wired but tired, and you can't figure out why your energy disappears so fast.</p>
+                  </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Brain className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                  <p className="text-muted-foreground">Brain fog makes you <strong>forget things mid-sentence</strong></p>
+                  <div>
+                    <p className="text-muted-foreground mb-2">Brain fog makes you <strong>forget things mid-sentence</strong>.</p>
+                    <p className="text-sm text-muted-foreground italic">You lose your train of thought, you forget simple words, and you feel frustrated because your mind just isn't working like it used to.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -174,15 +189,24 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-muted-foreground"><strong>Bloating and gut issues after every meal</strong> makes your stomach feel tight and uncomfortable</p>
+                  <div>
+                    <p className="text-muted-foreground mb-2"><strong>Bloating and gut issues after every meal</strong> makes your stomach feel tight and uncomfortable</p>
+                    <p className="text-sm text-muted-foreground italic">Even so-called healthy foods seem to set you off. It's like your body's reacting to everything and you can't keep track anymore.</p>
+                  </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-muted-foreground">You're <strong>embarrassed about how your skin breaks out randomly</strong>, and your clothes feel tight around your belly</p>
+                  <div>
+                    <p className="text-muted-foreground mb-2">You're <strong>embarrassed about how your skin breaks out randomly</strong>, and your clothes feel tight around your belly</p>
+                    <p className="text-sm text-muted-foreground italic">One minute your skin is fine, the next it's inflamed. You're trying to eat clean, but your body still feels puffy, sore, or swollen. Your confidence takes a hit.</p>
+                  </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-muted-foreground">You're <strong>trying everything but nothing is working</strong>. You feel stuck and frustrated</p>
+                  <div>
+                    <p className="text-muted-foreground mb-2">You're <strong>trying everything but nothing is working</strong>. You feel stuck and frustrated</p>
+                    <p className="text-sm text-muted-foreground italic">You've cut out gluten, sugar, dairy—maybe even tried detoxes or supplements—but you're still not getting better. It's exhausting and disheartening.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -192,7 +216,10 @@ const Index = () => {
             <h3 className="text-2xl font-semibold mb-4">You've Been Struggling for Ages</h3>
             <p className="text-lg text-muted-foreground mb-6">
               Your doctor says <strong>you're fine, but you don't feel fine</strong>. You've <strong>searched for answers online</strong>, 
-              but it's left you <strong>even more confused</strong>. You have <strong>no idea what you're doing wrong</strong>.
+              but it's left you <strong>even more confused than before</strong>. You have <strong>no idea what you're doing wrong</strong>.
+            </p>
+            <p className="text-lg text-muted-foreground mb-6">
+              You've gone down the rabbit hole of Google, tried wellness trends, and followed influencers—but now you're overloaded with advice and unsure what's actually right for you.
             </p>
             <p className="text-xl font-semibold text-primary">
               You want someone who <strong>listens to you, and tailors everything to you and your life</strong>. Someone who gets it. Someone who can finally give you <strong>answers</strong>.
@@ -210,9 +237,15 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Naturopathy Works When Everything Else Failed</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-6">
+              You've tried pills, diets, and other quick fixes. But naturopathy's a way different type of healthcare. It's a <strong>holistic approach to health</strong> 
+              that's natural and heals your problems at the root.
+            </p>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              You've tried pills, diets, and other quick fixes. But naturopathy's way different. It's a <strong>natural approach</strong> 
-              that heals your problems at the root.
+              Instead of masking symptoms, we zoom out and ask: why is this happening? We treat the person—not just the problem—with natural, proven methods that bring your body back into balance.
+            </p>
+            <p className="text-lg text-primary mt-4">
+              <a href="https://www.torrens.edu.au/stories/blog/health/naturopathy-explained#:~:text=What%20does%20a%20Naturopath%20do,whole%20health%20of%20the%20individual." className="hover:underline font-semibold">Click here to learn more about naturopathy</a>
             </p>
           </div>
 
@@ -229,21 +262,24 @@ const Index = () => {
                   <Target className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold">We Find The ACTUAL Problem</h4>
-                    <p className="text-muted-foreground">While doctors just treat symptoms, we dig deep to find <strong>what's really going on in your body, and what's causing your symptoms</strong></p>
+                    <p className="text-muted-foreground mb-2">While doctors just treat symptoms, our natural clinic digs deep to find <strong>what's really going on in your body, and what's causing your symptoms</strong></p>
+                    <p className="text-sm text-muted-foreground italic">We don't stop at surface-level answers. Our advanced testing and deep consultations mean we uncover issues others often miss—like inflammation, gut imbalances, or hidden deficiencies.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Leaf className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold">Your Body Heals Itself (When You Remove What's Blocking It)</h4>
-                    <p className="text-muted-foreground">Instead of forcing your body with drugs, we <strong>remove what's stopping you from getting better</strong> so your body can heal naturally</p>
+                    <h4 className="font-semibold">Your Body Heals Itself Through This Holistic Approach</h4>
+                    <p className="text-muted-foreground mb-2">Instead of forcing your body with drugs, we <strong>remove what's stopping you from getting better</strong> so your body can heal naturally</p>
+                    <p className="text-sm text-muted-foreground italic">We gently reset your body's systems using nutrition, herbs, and supportive therapies. When the blocks are cleared, healing happens.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Shield className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold">No More Quick Fixes</h4>
-                    <p className="text-muted-foreground">We don't just <strong>cover up your symptoms</strong>. We fix what's actually wrong so you <strong>get better for good</strong></p>
+                    <p className="text-muted-foreground mb-2">We don't just <strong>cover up your symptoms</strong>. We fix what's actually wrong so you <strong>get better for good</strong></p>
+                    <p className="text-sm text-muted-foreground italic">Because you don't want a short-term band-aid—you want long-term freedom from feeling unwell.</p>
                   </div>
                 </div>
               </div>
@@ -262,21 +298,24 @@ const Index = () => {
                   <Pill className="h-6 w-6 text-red-500" />
                 </div>
                 <h4 className="font-semibold">Prescription Drugs</h4>
-                <p className="text-sm text-muted-foreground">They just cover symptoms while your body gets sicker underneath. Side effects create new problems.</p>
+                <p className="text-sm text-muted-foreground mb-2">They just cover symptoms while your body gets sicker underneath. Side effects create new problems.</p>
+                <p className="text-xs text-muted-foreground italic">Medications can help temporarily, but they rarely solve the deeper issue—and they often add to your list of concerns with fatigue, weight gain, or gut troubles.</p>
               </div>
               <div className="text-center space-y-3">
                 <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto">
                   <Salad className="h-6 w-6 text-red-500" />
                 </div>
                 <h4 className="font-semibold">Generic Diets</h4>
-                <p className="text-sm text-muted-foreground">These are one-size-fits-all approaches that ignore YOUR unique body and lifestyle</p>
+                <p className="text-sm text-muted-foreground mb-2">These are one-size-fits-all approaches that ignore YOUR unique body and lifestyle</p>
+                <p className="text-xs text-muted-foreground italic">What works for your friend won't always work for you. Your body has different needs, triggers, and healing timelines.</p>
               </div>
               <div className="text-center space-y-3">
                 <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto">
                   <DollarSign className="h-6 w-6 text-red-500" />
                 </div>
                 <h4 className="font-semibold">Expensive Supplements</h4>
-                <p className="text-sm text-muted-foreground">Taking random vitamins and supplements without testing is like cooking pasta with every ingredient in your kitchen. It's just a waste of money.</p>
+                <p className="text-sm text-muted-foreground mb-2">Taking random vitamins and supplements without testing is like cooking pasta with every ingredient in your kitchen. It's just a waste of money.</p>
+                <p className="text-xs text-muted-foreground italic">You don't need more supplements—you need the right ones, targeted to your real deficiencies and health goals.</p>
               </div>
             </div>
           </div>
@@ -300,7 +339,7 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  Custom formulas made specifically for YOUR body. No generic solutions
+                  Custom formulas made specifically for YOUR body, like herbal medicine, nutrition, movement, etc. There's no generic solutions
                 </CardDescription>
               </CardContent>
             </Card>
@@ -324,8 +363,11 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why is Mitch The Best Naturopath in Brisbane?</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-6">
+              Because he's the top naturopath who <strong>actually listens</strong> and he uses natural therapies and naturopathic medicine in his consultations to heal your health concerns properly.
+            </p>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Because he's a naturopath who <strong>actually listens</strong> and he uses advanced screening to see what's really going wrong in your body. No more guessing games.
+              He explains things clearly, takes time with every consult, and backs everything with real testing and tailored strategies—so you always know what's happening and why.
             </p>
           </div>
           
@@ -342,21 +384,24 @@ const Index = () => {
                   <Microscope className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold">He Actually SEES What's Wrong</h4>
-                    <p className="text-muted-foreground">His live blood analysis will reveal exactly what your body needs.</p>
+                    <p className="text-muted-foreground mb-2">His live blood analysis will reveal exactly what your body needs.</p>
+                    <p className="text-sm text-muted-foreground italic">You'll see your health in real-time under the microscope, and finally understand what's happening on a cellular level.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Target className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold">Customised Plan Just For YOU</h4>
-                    <p className="text-muted-foreground">Every treatment plan is <strong>individually made</strong> for your unique health profile, symptoms, and lifestyle. It's not a cookie-cutter approach</p>
+                    <p className="text-muted-foreground mb-2">All his natural treatments are <strong>individually made</strong> for each unique health profile, symptoms, and lifestyle. It's not some cookie-cutter approach</p>
+                    <p className="text-sm text-muted-foreground italic">You'll feel heard, seen, and supported. Your plan will feel like it was made just for you—because it was.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Heart className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold">Someone Who Really Cares</h4>
-                    <p className="text-muted-foreground">He cares deeply about helping you feel better, the right way</p>
+                    <p className="text-muted-foreground mb-2">He cares deeply about helping people in his wellness clinic feel better, you will never feel like "just another patient".</p>
+                    <p className="text-sm text-muted-foreground italic">Clients say they feel safe, seen, and hopeful again. That's the difference that gets results.</p>
                   </div>
                 </div>
               </div>
@@ -373,9 +418,9 @@ const Index = () => {
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">The Complete Solution You've Been Looking For</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">The Holistic Approach You've Been Looking For</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Stop jumping from specialist to specialist. Mitch combines many different services to help people
+              Stop jumping from specialist to specialist. Mitch's naturopath clinic combines many different services to help people on their health journey.
             </p>
           </div>
 
@@ -385,9 +430,14 @@ const Index = () => {
                   <CardTitle className="text-xl">{service.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-base leading-relaxed">
+                  <CardDescription className="text-base leading-relaxed mb-3">
                     {service.description}
                   </CardDescription>
+                  {service.subtitle && (
+                    <CardDescription className="text-sm leading-relaxed italic text-muted-foreground">
+                      {service.subtitle}
+                    </CardDescription>
+                  )}
                 </CardContent>
               </Card>)}
           </div>
@@ -400,8 +450,7 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">The Health Problems That Actually Get Fixed Here</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Tired of being told "it's all in your head"? These are the <strong>real health issues</strong> Mitch specialises in solving.
-              The ones other practitioners just can't figure out.
+              Tired of being told that "it's all in your head"? Well you won't hear that once with Mitch, here are the <strong>real health issues</strong> Mitch specialises in solving. The ones other practitioners just can't figure out.
             </p>
           </div>
 
@@ -435,7 +484,7 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">What Our Patients Say</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Real stories from real people who <strong>finally got their health back on track</strong> and are <strong>seeing results they've wanted for years</strong>.
+              These are <strong>real stories from real people</strong> who finally got their health back on track because of NXTLVL Health and are now <strong>seeing results they've wanted for years</strong>.
             </p>
           </div>
           
