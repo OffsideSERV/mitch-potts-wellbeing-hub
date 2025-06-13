@@ -28,7 +28,19 @@ const MLSLaser = () => {
     },
     {
       title: "ARTHRITIS & ARTHRITIC JOINT PAIN",
-      description: "Reduce inflammation and pain in arthritic joints while improving function and quality of life.",
+      description: (
+        <>
+          Reduce inflammation and pain in arthritic joints while improving function and quality of life. {" "}
+          <a 
+            href="https://www.healwithlaser.com.au/blog/managing-arthritis-pain-with-non-invasive-mls-laser-therapy/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-primary hover:underline"
+          >
+            Learn more
+          </a>
+        </>
+      ),
       icon: <Shield className="h-6 w-6 text-primary" />
     },
     {
