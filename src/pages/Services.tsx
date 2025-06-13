@@ -41,6 +41,16 @@ const Services = () => {
       title: "IMMUNE RESPONSE ISSUES",
       description: "Your white blood cells and overall blood terrain can show us how well your immune system is functioning and responding to stressors.",
       icon: <Beaker className="h-6 w-6 text-primary" />
+    },
+    {
+      title: "EARLY SIGNS OF CHRONIC PAIN OR INFLAMMATION",
+      description: "Live blood analysis can help identify inflammatory markers and patterns that may contribute to chronic pain conditions.",
+      icon: <Heart className="h-6 w-6 text-primary" />
+    },
+    {
+      title: "FUNCTIONAL IMBALANCES THAT AREN'T FLAGGED IN TYPICAL MEDICAL TESTS",
+      description: "Many functional health issues exist in the grey area between wellness and disease, and live blood analysis can help identify these subtle imbalances.",
+      icon: <TestTube className="h-6 w-6 text-primary" />
     }
   ];
 
@@ -91,7 +101,7 @@ const Services = () => {
                 
                 {/* Mobile Image - placed right after headline */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" />
+                  <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Microscope className="h-6 w-6 text-primary" />
@@ -127,7 +137,7 @@ const Services = () => {
             
             {/* Desktop Image - only visible on large screens */}
             <div className="relative hidden lg:block">
-              <img alt="Mitchell Potts preparing natural herbal remedies at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg" />
+              <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Microscope className="h-8 w-8 text-primary" />
@@ -151,7 +161,7 @@ const Services = () => {
 
           {/* Mobile Image positioned after heading */}
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/1bd48616-2927-4298-ac11-2883825577b5.png" alt="Professional consultation at NXTLVL Health showing personalised patient care" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -170,7 +180,7 @@ const Services = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/1bd48616-2927-4298-ac11-2883825577b5.png" alt="Professional consultation at NXTLVL Health showing personalised patient care" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -189,6 +199,11 @@ const Services = () => {
                 We use live blood analysis as a <strong>key diagnostic test to help guide us</strong> when creating your personalised treatment plan. We may pick up indicators of:
               </p>
             </div>
+          </div>
+
+          {/* Add image after heading and description */}
+          <div className="mb-12">
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto">
@@ -239,7 +254,7 @@ const Services = () => {
           </div>
 
           <div className="mb-12">
-            <img src="/lovable-uploads/aa4b685d-0956-463f-ad98-180c34dbdb0d.png" alt="Mitchell Potts performing microscopy analysis at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/DSC_4578-scaled.jpeg" alt="Live blood screening equipment and analysis at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto">
@@ -247,20 +262,20 @@ const Services = () => {
               <Card key={index} className="border-0 shadow-md">
                 <CardHeader 
                   className="cursor-pointer hover:bg-muted/20 transition-colors"
-                  onClick={() => toggleDropdown(index + 10)}
+                  onClick={() => toggleDropdown(index + 20)}
                 >
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-3">
                       {finding.icon}
                       <CardTitle className="text-lg">{finding.title}</CardTitle>
                     </div>
-                    {openDropdown === index + 10 ? 
+                    {openDropdown === index + 20 ? 
                       <ChevronUp className="h-5 w-5 text-muted-foreground" /> : 
                       <ChevronDown className="h-5 w-5 text-muted-foreground" />
                     }
                   </div>
                 </CardHeader>
-                {openDropdown === index + 10 && (
+                {openDropdown === index + 20 && (
                   <CardContent className="pt-0">
                     <CardDescription className="text-base leading-relaxed">
                       {finding.description}
@@ -348,36 +363,42 @@ const Services = () => {
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-8">
               Led by Mitch Potts, our natural medicine clinic in New Farm is known for:
             </p>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <div className="flex items-start space-x-3">
-                  <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-base"><strong>A root cause approach</strong>, not just symptom control</p>
-                </div>
+          </div>
+
+          {/* Add image after heading and description */}
+          <div className="mb-12">
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
+            <div className="bg-white p-6 rounded-xl shadow-lg">
+              <div className="flex items-start space-x-3">
+                <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-base"><strong>A root cause approach</strong>, not just symptom control</p>
               </div>
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <div className="flex items-start space-x-3">
-                  <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-base"><strong>Functional testing</strong> that includes live blood screening, Oxidative Stress Test, Hormone Testing, and more</p>
-                </div>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-lg">
+              <div className="flex items-start space-x-3">
+                <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-base"><strong>Functional testing</strong> that includes live blood screening, Oxidative Stress Test, Hormone Testing, and more</p>
               </div>
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <div className="flex items-start space-x-3">
-                  <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-base"><strong>Straight-talking advice</strong> from a qualified naturopath with years of experience</p>
-                </div>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-lg">
+              <div className="flex items-start space-x-3">
+                <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-base"><strong>Straight-talking advice</strong> from a qualified naturopath with years of experience</p>
               </div>
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <div className="flex items-start space-x-3">
-                  <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-base"><strong>Clear guidance</strong> to restore good health and address your health problems head-on</p>
-                </div>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-lg">
+              <div className="flex items-start space-x-3">
+                <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-base"><strong>Clear guidance</strong> to restore good health and address your health problems head-on</p>
               </div>
-              <div className="bg-white p-6 rounded-xl shadow-lg md:col-span-2 lg:col-span-1">
-                <div className="flex items-start space-x-3">
-                  <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-base"><strong>A warm, real approach</strong> that puts you back in charge of your body</p>
-                </div>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-lg md:col-span-2 lg:col-span-1">
+              <div className="flex items-start space-x-3">
+                <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-base"><strong>A warm, real approach</strong> that puts you back in charge of your body</p>
               </div>
             </div>
           </div>
