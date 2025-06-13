@@ -5,7 +5,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MLS Laser Therapy Brisbane</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Load Tailwind CSS with high priority -->
+    <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Critical inline styles to prevent FOUC -->
+    <style>
+        /* Prevent flash of unstyled content */
+        body {
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+        
+        body.loaded {
+            visibility: visible;
+            opacity: 1;
+        }
+        
+        /* Critical base styles */
+        .bg-primary { background-color: hsl(174, 100%, 29%) !important; }
+        .bg-primary\/10 { background-color: hsla(174, 100%, 29%, 0.1) !important; }
+        .bg-primary\/5 { background-color: hsla(174, 100%, 29%, 0.05) !important; }
+        .bg-accent\/10 { background-color: hsla(174, 60%, 51%, 0.1) !important; }
+        .text-primary { color: hsl(174, 100%, 29%) !important; }
+        .text-primary-foreground { color: hsl(210, 40%, 98%) !important; }
+        .text-foreground { color: hsl(222.2, 84%, 4.9%) !important; }
+        .text-muted-foreground { color: hsl(215.4, 16.3%, 46.9%) !important; }
+        .bg-background { background-color: hsl(0, 0%, 100%) !important; }
+        .bg-muted\/30 { background-color: hsla(210, 40%, 96.1%, 0.3) !important; }
+        .bg-muted\/20 { background-color: hsla(210, 40%, 96.1%, 0.2) !important; }
+        .border-border { border-color: hsl(214.3, 31.8%, 91.4%) !important; }
+        .hover\:bg-primary:hover { background-color: hsl(174, 85%, 25%) !important; }
+        .hover\:text-primary:hover { color: hsl(174, 100%, 29%) !important; }
+        .hover\:underline:hover { text-decoration: underline !important; }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, hsla(174, 100%, 29%, 0.1) 0%, hsla(174, 60%, 51%, 0.1) 100%) !important;
+        }
+        
+        .dropdown-content {
+            display: none;
+        }
+        
+        .dropdown-content.show {
+            display: block;
+        }
+        
+        .transition-colors {
+            transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+        }
+        
+        .transform {
+            transform: rotate(0deg);
+        }
+        
+        .transform.rotate-180 {
+            transform: rotate(180deg);
+        }
+    </style>
+    
     <script>
         tailwind.config = {
             theme: {
@@ -35,48 +99,9 @@
             }
         }
     </script>
+    
+    <!-- Load Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <style>
-        .bg-primary { background-color: hsl(174, 100%, 29%); }
-        .bg-primary\/10 { background-color: hsla(174, 100%, 29%, 0.1); }
-        .bg-primary\/5 { background-color: hsla(174, 100%, 29%, 0.05); }
-        .bg-accent\/10 { background-color: hsla(174, 60%, 51%, 0.1); }
-        .text-primary { color: hsl(174, 100%, 29%); }
-        .text-primary-foreground { color: hsl(210, 40%, 98%); }
-        .text-foreground { color: hsl(222.2, 84%, 4.9%); }
-        .text-muted-foreground { color: hsl(215.4, 16.3%, 46.9%); }
-        .bg-background { background-color: hsl(0, 0%, 100%); }
-        .bg-muted\/30 { background-color: hsla(210, 40%, 96.1%, 0.3); }
-        .bg-muted\/20 { background-color: hsla(210, 40%, 96.1%, 0.2); }
-        .border-border { border-color: hsl(214.3, 31.8%, 91.4%); }
-        .hover\:bg-primary:hover { background-color: hsl(174, 85%, 25%); }
-        .hover\:text-primary:hover { color: hsl(174, 100%, 29%); }
-        .hover\:underline:hover { text-decoration: underline; }
-        
-        .gradient-bg {
-            background: linear-gradient(135deg, hsla(174, 100%, 29%, 0.1) 0%, hsla(174, 60%, 51%, 0.1) 100%);
-        }
-        
-        .dropdown-content {
-            display: none;
-        }
-        
-        .dropdown-content.show {
-            display: block;
-        }
-        
-        .transition-colors {
-            transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
-        }
-        
-        .transform {
-            transform: rotate(0deg);
-        }
-        
-        .transform.rotate-180 {
-            transform: rotate(180deg);
-        }
-    </style>
 </head>
 <body class="bg-background text-foreground">
     <!-- Hero Section -->
@@ -829,6 +854,14 @@
     </section>
 
     <script>
+        // Prevent FOUC by showing body only after styles are loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Small delay to ensure all styles are applied
+            setTimeout(function() {
+                document.body.classList.add('loaded');
+            }, 100);
+        });
+
         function toggleDropdown(dropdownId) {
             const dropdown = document.getElementById(dropdownId);
             const icon = document.getElementById(dropdownId.replace('dropdown-', 'icon-').replace('faq-', 'faq-icon-'));
@@ -843,6 +876,11 @@
                 icon.classList.add('fa-chevron-up');
             }
         }
+
+        // Ensure all external resources are loaded before showing content
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+        });
     </script>
 </body>
 </html>
