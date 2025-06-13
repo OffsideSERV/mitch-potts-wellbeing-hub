@@ -282,8 +282,8 @@ const MLSLaser = () => {
             </div>
           </div>
 
-          <div class="text-center">
-            <p class="text-lg text-muted-foreground max-w-4xl mx-auto">
+          <div className="text-center">
+            <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
               The <strong>laser light</strong> reaches affected areas without any discomfort, working on your body's <strong>natural healing processes</strong> and promoting <strong>tissue regeneration</strong> at the root.
             </p>
           </div>
