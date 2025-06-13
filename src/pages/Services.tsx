@@ -29,7 +29,20 @@ const Services = () => {
     },
     {
       title: "HEAVY METAL TOXICITY",
-      description: "Live blood screening can reveal cellular stress patterns that may indicate heavy metal burden affecting your body's natural detoxification processes.",
+      description: (
+        <div>
+          Live blood screening can reveal cellular stress patterns that may indicate heavy metal burden affecting your body's natural detoxification processes.
+          <br /><br />
+          <a 
+            href="https://my.clevelandclinic.org/health/diseases/23424-heavy-metal-poisoning-toxicity" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-primary hover:text-primary/80 underline"
+          >
+            Click to learn more about Heavy Metal Toxicity
+          </a>
+        </div>
+      ),
       icon: <Eye className="h-6 w-6 text-primary" />
     },
     {
