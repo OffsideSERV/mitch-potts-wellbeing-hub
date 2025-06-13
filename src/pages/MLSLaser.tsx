@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -120,11 +119,13 @@ const MLSLaser = () => {
                   Feel Better. Heal Faster. Naturally.
                 </h2>
                 
-                {/* Mobile Image Placeholder */}
+                {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <div className="bg-muted rounded-2xl shadow-2xl w-full h-96 flex items-center justify-center">
-                    <p className="text-muted-foreground">MLS Laser Therapy Image Placeholder</p>
-                  </div>
+                  <img 
+                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-doing-mls-laser-therapy-treatment-with-patient-scaled.jpeg"
+                    alt="Naturopath doing MLS laser therapy treatment with patient at NXTLVL Health"
+                    className="rounded-2xl shadow-2xl w-full h-96 object-cover"
+                  />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Zap className="h-6 w-6 text-primary" />
@@ -158,11 +159,13 @@ const MLSLaser = () => {
               </div>
             </div>
             
-            {/* Desktop Image Placeholder */}
+            {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <div className="bg-muted rounded-2xl shadow-2xl w-full h-96 flex items-center justify-center">
-                <p className="text-muted-foreground">MLS Laser Therapy Image Placeholder</p>
-              </div>
+              <img 
+                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-doing-mls-laser-therapy-treatment-with-patient-scaled.jpeg"
+                alt="Naturopath doing MLS laser therapy treatment with patient at NXTLVL Health"
+                className="rounded-2xl shadow-2xl w-full h-96 object-cover"
+              />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Zap className="h-8 w-8 text-primary" />
@@ -184,11 +187,13 @@ const MLSLaser = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Cutting-Edge MLS Laser Therapy in New Farm</h2>
           </div>
 
-          {/* Mobile Image Placeholder */}
+          {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <div className="bg-muted rounded-2xl shadow-lg w-full h-64 flex items-center justify-center mx-auto">
-              <p className="text-muted-foreground">MLS Laser Equipment Image Placeholder</p>
-            </div>
+            <img 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-getting-a-laser-therapy-treatment-for-her-neck-pain-scaled.jpeg"
+              alt="Woman getting MLS laser therapy treatment for neck pain at NXTLVL Health"
+              className="rounded-2xl shadow-lg w-full h-64 object-cover mx-auto"
+            />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -205,11 +210,13 @@ const MLSLaser = () => {
                 </p>
               </div>
             </div>
-            {/* Desktop Image Placeholder */}
+            {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <div className="bg-muted rounded-2xl shadow-lg w-full h-64 flex items-center justify-center">
-                <p className="text-muted-foreground">MLS Laser Equipment Image Placeholder</p>
-              </div>
+              <img 
+                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-getting-a-laser-therapy-treatment-for-her-neck-pain-scaled.jpeg"
+                alt="Woman getting MLS laser therapy treatment for neck pain at NXTLVL Health"
+                className="rounded-2xl shadow-lg w-full h-64 object-cover"
+              />
             </div>
           </div>
         </div>
@@ -230,11 +237,13 @@ const MLSLaser = () => {
             </div>
           </div>
 
-          {/* Image Placeholder */}
+          {/* Image */}
           <div className="mb-12">
-            <div className="bg-muted rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 flex items-center justify-center">
-              <p className="text-muted-foreground">MLS Laser Science Image Placeholder</p>
-            </div>
+            <img 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-doing-an-MLS-laser-treatment-for-a-female-patient-scaled.jpeg"
+              alt="Naturopath doing MLS laser treatment for female patient at NXTLVL Health"
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover"
+            />
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 text-left max-w-4xl mx-auto mb-8">
@@ -305,11 +314,13 @@ const MLSLaser = () => {
             </div>
           </div>
 
-          {/* Image Placeholder */}
+          {/* Image */}
           <div className="mb-12">
-            <div className="bg-muted rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 flex items-center justify-center">
-              <p className="text-muted-foreground">MLS Laser Treatment Image Placeholder</p>
-            </div>
+            <img 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/mls-laser-treatment-scaled.jpeg"
+              alt="MLS laser treatment equipment and therapy session at NXTLVL Health"
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover"
+            />
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto">
@@ -348,11 +359,13 @@ const MLSLaser = () => {
             </p>
           </div>
 
-          {/* Image Placeholder */}
+          {/* Image */}
           <div className="mb-12">
-            <div className="bg-muted rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 flex items-center justify-center">
-              <p className="text-muted-foreground">MLS Laser Conditions Image Placeholder</p>
-            </div>
+            <img 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg"
+              alt="Naturopath showing patient MLS laser therapy results on computer at NXTLVL Health"
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover"
+            />
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto">
@@ -404,11 +417,13 @@ const MLSLaser = () => {
             </div>
           </div>
 
-          {/* Image Placeholder */}
+          {/* Image */}
           <div className="mb-12">
-            <div className="bg-muted rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 flex items-center justify-center">
-              <p className="text-muted-foreground">MLS Laser Session Image Placeholder</p>
-            </div>
+            <img 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg"
+              alt="Naturopath having consultation with female patient at NXTLVL Health"
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover"
+            />
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 text-center mb-12">
@@ -455,11 +470,13 @@ const MLSLaser = () => {
             </div>
           </div>
 
-          {/* Image Placeholder */}
+          {/* Image */}
           <div className="mb-12">
-            <div className="bg-muted rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 flex items-center justify-center">
-              <p className="text-muted-foreground">NXTLVL Clinic Image Placeholder</p>
-            </div>
+            <img 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg"
+              alt="Woman talking to naturopath in Brisbane at NXTLVL Health clinic"
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover"
+            />
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 text-left">
