@@ -159,7 +159,7 @@ const PersonalTraining = () => {
                 </div>
               </div>
               
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col gap-4">
                 <Button size="lg" className="text-lg px-8 py-6 h-auto" asChild>
                   <a href="https://nxtlvlhealth.com.au/book-now/">
                     <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
