@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -145,7 +146,7 @@ const PersonalTraining = () => {
                 </h1>
                 
                 {/* Mobile Image - placed right after headline */}
-                <div className="relative lg:hidden mb-8 -mx-4">
+                <div className="relative lg:hidden mb-12 -mx-4">
                   <img alt="Personal trainer working with client at Function Well gym in Newstead" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/OPTIMISE-YOUR-PERFORMANCE.jpg" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -160,13 +161,13 @@ const PersonalTraining = () => {
               </div>
               
               <div className="flex flex-col gap-4">
-                <Button size="lg" className="text-lg px-8 py-6 h-auto" asChild>
+                <Button size="lg" className="text-lg px-8 py-6 h-auto w-full" asChild>
                   <a href="https://nxtlvlhealth.com.au/book-now/">
                     <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                     Book Your Personal Training Session
                   </a>
                 </Button>
-                <Button variant="outline" size="lg" className="text-lg px-8 py-6 h-auto" asChild>
+                <Button variant="outline" size="lg" className="text-lg px-8 py-6 h-auto w-full" asChild>
                   <a href="tel:0731808853">
                     <Phone className="mr-2 h-4 w-4 flex-shrink-0" />
                     Call Mitch
@@ -521,13 +522,13 @@ const PersonalTraining = () => {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="text-lg px-8 py-6" asChild>
+              <Button size="lg" className="text-lg px-8 py-6 w-full sm:w-auto" asChild>
                 <a href="https://nxtlvlhealth.com.au/book-now/">
                   <Calendar className="mr-2 h-5 w-5" />
                   Book Your Personal Training Session
                 </a>
               </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6" asChild>
+              <Button variant="outline" size="lg" className="text-lg px-8 py-6 w-full sm:w-auto" asChild>
                 <a href="tel:0731808853">
                   <Phone className="mr-2 h-4 w-4" />
                   Call Mitch
