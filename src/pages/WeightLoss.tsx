@@ -108,10 +108,10 @@ const WeightLoss = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  If you're exhausted from dieting, working out, and "eating healthy" but still can't seem to shift the weight, you're not alone. At NXTLVL Health, our <strong>weight loss naturopath service</strong> is built for people like you—people who are doing their best but still feel stuck.
+                  If you're exhausted from dieting, working out, and "eating healthy" but still can't seem to shift the weight, you're not alone. At NXTLVL Health, our <strong>weight loss naturopath service</strong> is built for people like you people who are doing their best but still feel stuck.
                 </p>
                 <p>
-                  Our approach isn't about calorie counting or quick fixes—it's about <strong>uncovering the root causes of your weight gain</strong> and treating them with science-backed, natural solutions. Whether you're facing hormonal imbalances, insulin resistance, digestive problems, poor sleep, or chronic stress, we'll help your body work with you, not against you.
+                  Our approach isn't about calorie counting or quick fixes it's about <strong>uncovering the root causes of your weight gain</strong> and treating them with science-backed, natural solutions. Whether you're facing hormonal imbalances, insulin resistance, digestive problems, poor sleep, or chronic stress, we'll help your body work with you, not against you.
                 </p>
                 <p>
                   With support from <strong>Brisbane naturopath Mitchell Potts</strong>, you'll get a personalised treatment plan that supports sustainable weight loss, improved energy levels, and better overall health.
@@ -137,10 +137,10 @@ const WeightLoss = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Naturopathic Weight Loss Actually Works</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
-                Forget generic advice. <strong>Naturopathic weight loss focuses on treating the whole person</strong>—not just the number on the scale. We consider all the underlying causes of weight gain including your thyroid hormones, gut health, lifestyle factors, and stress hormone levels.
+                Forget generic advice. <strong>Naturopathic weight loss focuses on treating the whole person</strong> not just the number on the scale. We consider all the underlying causes of weight gain including your thyroid hormones, gut health, lifestyle factors, and stress hormone levels.
               </p>
               <p>
-                We get to know your full story—your medical history, health goals, dietary changes you've tried, and how your body's been responding. Then, we craft a treatment that aligns with your individual needs.
+                We get to know your full story your medical history, health goals, dietary changes you've tried, and how your body's been responding. Then, we craft a treatment that aligns with your individual needs.
               </p>
             </div>
           </div>
@@ -161,7 +161,7 @@ const WeightLoss = () => {
                 {[
                   "Feel like you're doing everything right, but the scale won't move",
                   "Experience fluid retention, stubborn belly fat, or chronic bloating",
-                  "Have thyroid dysfunction, PCOS, or are in peri/menopause",
+                  <>Have <a href="https://my.clevelandclinic.org/health/diseases/8541-thyroid-disease" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">thyroid dysfunction</a>, PCOS, or are in peri/menopause</>,
                   "Struggle with fatigue, mood swings, or low motivation",
                   "Experience emotional eating or blood sugar crashes",
                   "Have a history of chronic fatigue, digestive health issues, or cardiovascular disease"
@@ -195,6 +195,15 @@ const WeightLoss = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">What's Included In Your Weight Loss Naturopathy Program</h2>
+          </div>
+
+          {/* Centered Image */}
+          <div className="mb-12">
+            <img 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
+              alt="Naturopath showing patient results on a computer at NXTLVL Health" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+            />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-8 mb-12">
@@ -280,19 +289,10 @@ const WeightLoss = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    You won't be left on your own. We provide regular follow-ups to review your progress, adapt your plan, and support your results. It's not just a service—it's a partnership.
+                    You won't be left on your own. We provide regular follow-ups to review your progress, adapt your plan, and support your results. It's not just a service it's a partnership.
                   </p>
                 </CardContent>
               </Card>
-
-              {/* Image positioned in right column */}
-              <div className="relative">
-                <img 
-                  src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
-                  alt="Naturopath showing patient results on a computer at NXTLVL Health" 
-                  className="rounded-2xl shadow-lg w-full h-auto" 
-                />
-              </div>
             </div>
           </div>
         </div>
@@ -319,7 +319,7 @@ const WeightLoss = () => {
               "Years of experience in naturopathic medicine, nutrition, and functional testing",
               "Advanced knowledge of naturopathic principles and natural weight loss protocols",
               "Customised plans built around your real life, not unrealistic programs",
-              "Care that goes beyond the scale—focusing on your health goals, energy, and confidence",
+              "Care that goes beyond the scale focusing on your health goals, energy, and confidence",
               "Appointments available in-clinic or via online consultations"
             ].map((item, index) => (
               <Card key={index} className="text-center">
@@ -370,7 +370,7 @@ const WeightLoss = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Ready to Work With a Weight Loss Naturopath in Brisbane?</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
               <p>
-                This isn't just about fitting into smaller clothes. It's about <strong>better health, higher energy, and feeling like yourself again</strong>. At NXTLVL Health, we take your health seriously—and we're here to help you succeed with real, lasting results.
+                This isn't just about fitting into smaller clothes. It's about <strong>better health, higher energy, and feeling like yourself again</strong>. At NXTLVL Health, we take your health seriously and we're here to help you succeed with real, lasting results.
               </p>
             </div>
 
