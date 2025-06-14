@@ -252,16 +252,16 @@ const GutHealth = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight" asChild>
+                <Button size="lg" className="text-lg px-8 py-6" asChild>
                   <a href="https://nxtlvlhealth.com.au/book-now/">
-                    <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
-                    <span className="text-center">Book Your Gut Health Consultation Today</span>
+                    <Calendar className="mr-2 h-5 w-5" />
+                    Book Now
                   </a>
                 </Button>
-                <Button variant="outline" size="lg" className="text-base sm:text-lg px-4 py-3 h-auto" asChild>
+                <Button variant="outline" size="lg" className="text-lg px-8 py-6" asChild>
                   <a href="tel:0731808853">
-                    <Phone className="mr-2 h-4 w-4 flex-shrink-0" />
-                    Call to Speak With Mitch Directly
+                    <Phone className="mr-2 h-4 w-4" />
+                    Call Now
                   </a>
                 </Button>
               </div>
@@ -769,16 +769,16 @@ const GutHealth = () => {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3" asChild>
+              <Button size="lg" className="text-lg px-8 py-6" asChild>
                 <a href="https://nxtlvlhealth.com.au/book-now/">
                   <Calendar className="mr-2 h-5 w-5" />
-                  Book Your Gut Health Consultation Today
+                  Book Now
                 </a>
               </Button>
-              <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3" asChild>
+              <Button variant="outline" size="lg" className="text-lg px-8 py-6" asChild>
                 <a href="tel:0731808853">
                   <Phone className="mr-2 h-4 w-4" />
-                  Call to Speak With Mitch Directly
+                  Call Now
                 </a>
               </Button>
             </div>
