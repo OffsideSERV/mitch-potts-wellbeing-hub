@@ -197,16 +197,8 @@ const WeightLoss = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">What's Included In Your Weight Loss Naturopathy Program</h2>
           </div>
 
-          {/* Mobile Image */}
-          <div className="lg:hidden mb-12">
-            <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
-              alt="Naturopath showing patient results on a computer at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
-            />
-          </div>
-
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
+          <div className="grid lg:grid-cols-2 gap-8 mb-12">
+            {/* Left Column */}
             <div className="space-y-8">
               <Card>
                 <CardHeader>
@@ -244,6 +236,20 @@ const WeightLoss = () => {
 
               <Card>
                 <CardHeader>
+                  <CardTitle className="text-xl text-primary">Mind-Body Support and Accountability</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    We understand the emotional toll of weight issues. You'll receive mindset coaching and emotional support to help address deeper stress hormone imbalances and support your journey toward body confidence and better mental health.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+
+            {/* Right Column */}
+            <div className="space-y-8">
+              <Card>
+                <CardHeader>
                   <CardTitle className="text-xl text-primary">Personalised Weight Loss Plan</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -267,28 +273,8 @@ const WeightLoss = () => {
                   </p>
                 </CardContent>
               </Card>
-            </div>
 
-            {/* Desktop Image */}
-            <div className="hidden lg:block">
-              <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
-                alt="Naturopath showing patient results on a computer at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto mb-8" 
-              />
-              
               <Card>
-                <CardHeader>
-                  <CardTitle className="text-xl text-primary">Mind-Body Support and Accountability</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">
-                    We understand the emotional toll of weight issues. You'll receive mindset coaching and emotional support to help address deeper stress hormone imbalances and support your journey toward body confidence and better mental health.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card className="mt-6">
                 <CardHeader>
                   <CardTitle className="text-xl text-primary">Ongoing Support & Plan Adjustments</CardTitle>
                 </CardHeader>
@@ -298,32 +284,16 @@ const WeightLoss = () => {
                   </p>
                 </CardContent>
               </Card>
+
+              {/* Image positioned in right column */}
+              <div className="relative">
+                <img 
+                  src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
+                  alt="Naturopath showing patient results on a computer at NXTLVL Health" 
+                  className="rounded-2xl shadow-lg w-full h-auto" 
+                />
+              </div>
             </div>
-          </div>
-
-          {/* Mobile cards for the remaining items */}
-          <div className="lg:hidden space-y-6 mt-8">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-xl text-primary">Mind-Body Support and Accountability</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  We understand the emotional toll of weight issues. You'll receive mindset coaching and emotional support to help address deeper stress hormone imbalances and support your journey toward body confidence and better mental health.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-xl text-primary">Ongoing Support & Plan Adjustments</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  You won't be left on your own. We provide regular follow-ups to review your progress, adapt your plan, and support your results. It's not just a service—it's a partnership.
-                </p>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
@@ -404,7 +374,7 @@ const WeightLoss = () => {
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild className="text-base sm:text-lg px-6 py-4">
                 <a href="https://nxtlvlhealth.com.au/book-now/">
                   <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -421,21 +391,6 @@ const WeightLoss = () => {
                   Talk to a Brisbane Naturopath Who Gets It
                 </a>
               </Button>
-            </div>
-
-            <div className="flex flex-wrap justify-center gap-4 text-lg font-medium text-primary">
-              <span className="flex items-center">
-                <Target className="mr-2 h-5 w-5" />
-                Book Your Initial Consultation Today
-              </span>
-              <span className="flex items-center">
-                <Users className="mr-2 h-5 w-5" />
-                Talk to a Brisbane Naturopath Who Gets It
-              </span>
-              <span className="flex items-center">
-                <Zap className="mr-2 h-5 w-5" />
-                Create a Weight Loss Programme That Finally Works
-              </span>
             </div>
           </div>
         </div>
