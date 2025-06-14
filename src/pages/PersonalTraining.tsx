@@ -147,7 +147,7 @@ const PersonalTraining = () => {
                 
                 {/* Mobile Image - placed right after headline */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Personal trainer working with client at Function Well gym in Newstead" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=80" />
+                  <img alt="Personal trainer working with client at Function Well gym in Newstead" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/Frontsquatty.webp" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Dumbbell className="h-6 w-6 text-primary" />
@@ -161,13 +161,13 @@ const PersonalTraining = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight" asChild>
+                <Button size="lg" className="text-lg px-8 py-6 h-auto" asChild>
                   <a href="https://nxtlvlhealth.com.au/book-now/">
                     <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
-                    <span className="text-center">Book Your Personal Training Session</span>
+                    Book Your Personal Training Session
                   </a>
                 </Button>
-                <Button variant="outline" size="lg" className="text-base sm:text-lg px-4 py-3 h-auto" asChild>
+                <Button variant="outline" size="lg" className="text-lg px-8 py-6 h-auto" asChild>
                   <a href="tel:0731808853">
                     <Phone className="mr-2 h-4 w-4 flex-shrink-0" />
                     Call Mitch
@@ -183,7 +183,7 @@ const PersonalTraining = () => {
             
             {/* Desktop Image - only visible on large screens */}
             <div className="relative hidden lg:block">
-              <img alt="Personal trainer working with client at Function Well gym in Newstead" className="rounded-2xl shadow-2xl w-full h-auto" src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=80" />
+              <img alt="Personal trainer working with client at Function Well gym in Newstead" className="rounded-2xl shadow-2xl w-full h-auto" src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/Frontsquatty.webp" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Dumbbell className="h-8 w-8 text-primary" />
@@ -207,7 +207,7 @@ const PersonalTraining = () => {
 
           {/* Mobile Image positioned after heading */}
           <div className="lg:hidden mb-12">
-            <img src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?auto=format&fit=crop&w=1200&q=80" alt="Modern gym interior at Function Well in Newstead" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/MitchRowing.webp" alt="Mitch providing personal training at Function Well in Newstead" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -217,7 +217,7 @@ const PersonalTraining = () => {
                   Looking for a <strong>personal trainer in Newstead</strong> who actually listens, understands your body, and helps you get long-term results? At NXTLVL Health, Mitch offers <strong>expert-led personal training in Newstead</strong> that's tailored to your fitness level, lifestyle, and personal goals. Whether you want to build strength, lose fat, recover from injury, or just feel better in your body, this is your next step.
                 </p>
                 <p>
-                  All sessions are held at <strong>Function Well, a premium private gym</strong> in the Mercedes Benz Building, Newstead QLD 4006. It's an inspiring space—free from the crowds and chaos of commercial gyms—giving you room to move freely and train with purpose.
+                  All sessions are held at <a href="https://functionwell.com.au" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Function Well</a>, a premium private gym in the Mercedes Benz Building, Newstead QLD 4006. It's an inspiring space—free from the crowds and chaos of commercial gyms—giving you room to move freely and train with purpose.
                 </p>
                 <p>
                   Forget cookie-cutter workouts. This is <strong>training designed for your unique body and real goals</strong>, delivered by one of the best personal trainers in Brisbane.
@@ -226,7 +226,7 @@ const PersonalTraining = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?auto=format&fit=crop&w=1200&q=80" alt="Modern gym interior at Function Well in Newstead" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/MitchRowing.webp" alt="Mitch providing personal training at Function Well in Newstead" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -252,7 +252,7 @@ const PersonalTraining = () => {
 
           {/* Add image after heading and description */}
           <div className="mb-12">
-            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=1200&q=80" alt="Personal trainer demonstrating proper exercise form" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/DSC_4578-scaled.jpeg" alt="Personal trainer demonstrating proper exercise form" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
         </div>
       </section>
@@ -468,7 +468,7 @@ const PersonalTraining = () => {
 
           {/* Add image after heading and description */}
           <div className="mb-12">
-            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80" alt="Function Well gym interior showing modern equipment and clean environment" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/Mentoring.webp" alt="Function Well gym interior showing modern equipment and clean environment" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto mb-16">
@@ -520,21 +520,15 @@ const PersonalTraining = () => {
               <p>
                 Whether you're just starting or looking to elevate your current training, <strong>NXTLVL Health is where your fitness goals finally become reality</strong>.
               </p>
-              <p className="text-xl font-semibold text-foreground">
-                👇 Ready to train with purpose, feel stronger, and take control of your health?
-              </p>
-              <p className="font-semibold text-foreground">
-                Call Mitch or Book Your Personal Training Session in Newstead Today
-              </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3" asChild>
+              <Button size="lg" className="text-lg px-8 py-6" asChild>
                 <a href="https://nxtlvlhealth.com.au/book-now/">
                   <Calendar className="mr-2 h-5 w-5" />
                   Book Your Personal Training Session
                 </a>
               </Button>
-              <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3" asChild>
+              <Button variant="outline" size="lg" className="text-lg px-8 py-6" asChild>
                 <a href="tel:0731808853">
                   <Phone className="mr-2 h-4 w-4" />
                   Call Mitch
