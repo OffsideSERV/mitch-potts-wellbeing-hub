@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -238,7 +237,7 @@ const GutHealth = () => {
                 
                 {/* Mobile Image - placed right after headline */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Gut health consultation with naturopath at NXTLVL Health Brisbane" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" />
+                  <img alt="Gut health consultation with naturopath at NXTLVL Health Brisbane" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Activity className="h-6 w-6 text-primary" />
@@ -255,13 +254,13 @@ const GutHealth = () => {
                 <Button size="lg" className="text-lg px-8 py-6" asChild>
                   <a href="https://nxtlvlhealth.com.au/book-now/">
                     <Calendar className="mr-2 h-5 w-5" />
-                    Book Now
+                    Book an Appointment Today!
                   </a>
                 </Button>
                 <Button variant="outline" size="lg" className="text-lg px-8 py-6" asChild>
                   <a href="tel:0731808853">
                     <Phone className="mr-2 h-4 w-4" />
-                    Call Now
+                    Call Mitch
                   </a>
                 </Button>
               </div>
@@ -274,7 +273,7 @@ const GutHealth = () => {
             
             {/* Desktop Image - only visible on large screens */}
             <div className="relative hidden lg:block">
-              <img alt="Gut health consultation with naturopath at NXTLVL Health Brisbane" className="rounded-2xl shadow-2xl w-full h-auto" src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" />
+              <img alt="Gut health consultation with naturopath at NXTLVL Health Brisbane" className="rounded-2xl shadow-2xl w-full h-auto" src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Activity className="h-8 w-8 text-primary" />
@@ -298,7 +297,7 @@ const GutHealth = () => {
 
           {/* Mobile Image positioned after heading */}
           <div className="lg:hidden mb-12">
-            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" alt="Gut health naturopath consultation at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" alt="Gut health naturopath consultation at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -314,7 +313,7 @@ const GutHealth = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" alt="Gut health naturopath consultation at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" alt="Gut health naturopath consultation at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -476,7 +475,7 @@ const GutHealth = () => {
           </div>
 
           <div className="mb-12">
-            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/DSC_4578-scaled.jpeg" alt="Gut health consultation process at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" alt="Gut health consultation process at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
@@ -596,7 +595,7 @@ const GutHealth = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">The Gut-Brain Connection: Why It Matters</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
-                The <strong>gut-brain axis</strong> refers to the two-way communication between your <strong>digestive tract</strong> and your <strong>nervous system</strong>. In fact, up to 90% of your body's serotonin is made in the gut. That means your gut health can directly influence your <strong>mental health</strong>, emotions, and even sleep quality.
+                The <strong>gut-brain axis</strong> refers to the two-way communication between your <strong>digestive tract</strong> and your <strong>nervous system</strong>. In fact, up to <a href="https://www.co-biome.com/education/patient/the-important-role-of-serotonin-in-your-gut/" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80">90% of your body's serotonin is made in the gut</a>. That means your gut health can directly influence your <strong>mental health</strong>, emotions, and even sleep quality.
               </p>
             </div>
           </div>
@@ -772,13 +771,13 @@ const GutHealth = () => {
               <Button size="lg" className="text-lg px-8 py-6" asChild>
                 <a href="https://nxtlvlhealth.com.au/book-now/">
                   <Calendar className="mr-2 h-5 w-5" />
-                  Book Now
+                  Book an Appointment Today!
                 </a>
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8 py-6" asChild>
                 <a href="tel:0731808853">
                   <Phone className="mr-2 h-4 w-4" />
-                  Call Now
+                  Call Mitch
                 </a>
               </Button>
             </div>
