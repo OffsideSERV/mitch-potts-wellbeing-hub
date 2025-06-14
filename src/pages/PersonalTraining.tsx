@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -147,7 +146,7 @@ const PersonalTraining = () => {
                 
                 {/* Mobile Image - placed right after headline */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Personal trainer working with client at Function Well gym in Newstead" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/Frontsquatty.webp" />
+                  <img alt="Personal trainer working with client at Function Well gym in Newstead" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/OPTIMISE-YOUR-PERFORMANCE.jpg" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Dumbbell className="h-6 w-6 text-primary" />
@@ -183,7 +182,7 @@ const PersonalTraining = () => {
             
             {/* Desktop Image - only visible on large screens */}
             <div className="relative hidden lg:block">
-              <img alt="Personal trainer working with client at Function Well gym in Newstead" className="rounded-2xl shadow-2xl w-full h-auto" src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/Frontsquatty.webp" />
+              <img alt="Personal trainer working with client at Function Well gym in Newstead" className="rounded-2xl shadow-2xl w-full h-auto" src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/OPTIMISE-YOUR-PERFORMANCE.jpg" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Dumbbell className="h-8 w-8 text-primary" />
@@ -207,7 +206,7 @@ const PersonalTraining = () => {
 
           {/* Mobile Image positioned after heading */}
           <div className="lg:hidden mb-12">
-            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/MitchRowing.webp" alt="Mitch providing personal training at Function Well in Newstead" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/Frontsquatty.webp" alt="Mitch providing personal training at Function Well in Newstead" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -226,7 +225,7 @@ const PersonalTraining = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/MitchRowing.webp" alt="Mitch providing personal training at Function Well in Newstead" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/Frontsquatty.webp" alt="Mitch providing personal training at Function Well in Newstead" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
