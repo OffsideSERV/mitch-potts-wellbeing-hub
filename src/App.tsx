@@ -11,6 +11,7 @@ import PersonalTraining from "./pages/PersonalTraining";
 import GutHealth from "./pages/GutHealth";
 import WeightLoss from "./pages/WeightLoss";
 import ThyroidNaturopathy from "./pages/ThyroidNaturopathy";
+import Diabetes from "./pages/Diabetes";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/gut-health" element={<GutHealth />} />
           <Route path="/weight-loss" element={<WeightLoss />} />
           <Route path="/thyroid-naturopathy" element={<ThyroidNaturopathy />} />
+          <Route path="/diabetes" element={<Diabetes />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
