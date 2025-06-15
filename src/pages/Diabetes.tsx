@@ -235,114 +235,142 @@ const Diabetes = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">What's Included in Your Diabetes Naturopathy Treatment</h2>
           </div>
 
-          <div className="space-y-16">
+          <div className="grid gap-8 max-w-5xl mx-auto">
             {/* Step 1 */}
-            <div className="space-y-6">
-              <h3 className="text-2xl font-semibold">1. A Deep Dive Into Your Health</h3>
-              <p className="text-lg text-muted-foreground">
-                Your first consultation lasts up to 75 minutes. Mitch will take the time to listen, ask questions, and understand your full story.
-              </p>
-              <p className="text-lg text-muted-foreground">
-                We'll talk about your symptoms, <strong>family history</strong>, stress, sleep, <strong>dietary habits</strong>, and more. You'll feel heard—and never rushed.
-              </p>
-            </div>
+            <Card className="bg-white shadow-lg">
+              <CardHeader>
+                <CardTitle className="flex items-center space-x-3">
+                  <div className="w-8 h-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold">1</div>
+                  <span>A Deep Dive Into Your Health</span>
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <p className="text-lg text-muted-foreground">
+                  Your first consultation lasts up to 75 minutes. Mitch will take the time to listen, ask questions, and understand your full story.
+                </p>
+                <p className="text-lg text-muted-foreground">
+                  We'll talk about your symptoms, <strong>family history</strong>, stress, sleep, <strong>dietary habits</strong>, and more. You'll feel heard—and never rushed.
+                </p>
+              </CardContent>
+            </Card>
 
             {/* Step 2 */}
-            <div className="space-y-6">
-              <h3 className="text-2xl font-semibold">2. Functional Testing (If Needed)</h3>
-              <p className="text-lg text-muted-foreground">
-                To understand what's happening inside your body, we may recommend simple testing such as:
-              </p>
-              
-              <div className="grid md:grid-cols-2 gap-4">
-                <div className="space-y-3">
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-base text-muted-foreground"><strong>HbA1c and fasting insulin</strong> (to assess blood sugar regulation)</p>
+            <Card className="bg-white shadow-lg">
+              <CardHeader>
+                <CardTitle className="flex items-center space-x-3">
+                  <div className="w-8 h-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold">2</div>
+                  <span>Functional Testing (If Needed)</span>
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <p className="text-lg text-muted-foreground">
+                  To understand what's happening inside your body, we may recommend simple testing such as:
+                </p>
+                
+                <div className="grid md:grid-cols-2 gap-4">
+                  <div className="space-y-3">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-base text-muted-foreground"><strong>HbA1c and fasting insulin</strong> (to assess blood sugar regulation)</p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-base text-muted-foreground"><strong>Nutrient levels</strong> like magnesium, B vitamins, and chromium</p>
+                    </div>
                   </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-base text-muted-foreground"><strong>Nutrient levels</strong> like magnesium, B vitamins, and chromium</p>
+                  <div className="space-y-3">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-base text-muted-foreground"><strong>Hormone testing</strong> (thyroid, cortisol, oestrogen)</p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-base text-muted-foreground">Tests for <strong>gut health</strong> or <strong>inflammation</strong></p>
+                    </div>
                   </div>
                 </div>
-                <div className="space-y-3">
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-base text-muted-foreground"><strong>Hormone testing</strong> (thyroid, cortisol, oestrogen)</p>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-base text-muted-foreground">Tests for <strong>gut health</strong> or <strong>inflammation</strong></p>
-                  </div>
-                </div>
-              </div>
 
-              <p className="text-lg text-muted-foreground">
-                We only recommend what will help and always explain what each result means.
-              </p>
-            </div>
+                <p className="text-lg text-muted-foreground">
+                  We only recommend what will help and always explain what each result means.
+                </p>
+              </CardContent>
+            </Card>
 
             {/* Step 3 */}
-            <div className="space-y-6">
-              <h3 className="text-2xl font-semibold">3. A Personalised Diabetes Treatment Plan</h3>
-              <p className="text-lg text-muted-foreground">
-                Based on your needs, we'll create a custom step-by-step plan that fits your life. This may include:
-              </p>
-              
-              <div className="grid md:grid-cols-2 gap-4">
-                <div className="space-y-3">
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-base text-muted-foreground">A <strong>healthy diet</strong> designed to keep blood sugar stable</p>
+            <Card className="bg-white shadow-lg">
+              <CardHeader>
+                <CardTitle className="flex items-center space-x-3">
+                  <div className="w-8 h-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold">3</div>
+                  <span>A Personalised Diabetes Treatment Plan</span>
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <p className="text-lg text-muted-foreground">
+                  Based on your needs, we'll create a custom step-by-step plan that fits your life. This may include:
+                </p>
+                
+                <div className="grid md:grid-cols-2 gap-4">
+                  <div className="space-y-3">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-base text-muted-foreground">A <strong>healthy diet</strong> designed to keep blood sugar stable</p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-base text-muted-foreground"><strong>Natural remedies</strong> and <strong>herbal medicine</strong> to support metabolism and hormone balance</p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-base text-muted-foreground"><strong>Natural supplements</strong> to reduce cravings and boost energy</p>
+                    </div>
                   </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-base text-muted-foreground"><strong>Natural remedies</strong> and <strong>herbal medicine</strong> to support metabolism and hormone balance</p>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-base text-muted-foreground"><strong>Natural supplements</strong> to reduce cravings and boost energy</p>
+                  <div className="space-y-3">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-base text-muted-foreground"><strong>Gut and liver support</strong> to improve nutrient use and insulin response</p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-base text-muted-foreground">Tools for <strong>stress management</strong> and better sleep</p>
+                    </div>
                   </div>
                 </div>
-                <div className="space-y-3">
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-base text-muted-foreground"><strong>Gut and liver support</strong> to improve nutrient use and insulin response</p>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-base text-muted-foreground">Tools for <strong>stress management</strong> and better sleep</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+              </CardContent>
+            </Card>
 
             {/* Step 4 */}
-            <div className="space-y-6">
-              <h3 className="text-2xl font-semibold">4. Ongoing Support That Keeps You On Track</h3>
-              <div className="grid md:grid-cols-2 gap-4">
-                <div className="space-y-3">
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-base text-muted-foreground">Regular check-ins to track progress</p>
+            <Card className="bg-white shadow-lg">
+              <CardHeader>
+                <CardTitle className="flex items-center space-x-3">
+                  <div className="w-8 h-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold">4</div>
+                  <span>Ongoing Support That Keeps You On Track</span>
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="grid md:grid-cols-2 gap-4">
+                  <div className="space-y-3">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-base text-muted-foreground">Regular check-ins to track progress</p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-base text-muted-foreground">Adjustments to your plan based on how your body responds</p>
+                    </div>
                   </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-base text-muted-foreground">Adjustments to your plan based on how your body responds</p>
+                  <div className="space-y-3">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-base text-muted-foreground">Mindset and emotional support to stay motivated</p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-base text-muted-foreground">Practical changes that are realistic and long-lasting</p>
+                    </div>
                   </div>
                 </div>
-                <div className="space-y-3">
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-base text-muted-foreground">Mindset and emotional support to stay motivated</p>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-base text-muted-foreground">Practical changes that are realistic and long-lasting</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
