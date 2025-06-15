@@ -13,6 +13,7 @@ import WeightLoss from "./pages/WeightLoss";
 import ThyroidNaturopathy from "./pages/ThyroidNaturopathy";
 import Diabetes from "./pages/Diabetes";
 import ChildrensHealth from "./pages/ChildrensHealth";
+import NorthBrisbaneNaturopathy from "./pages/NorthBrisbaneNaturopathy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -33,6 +34,7 @@ const App = () => (
           <Route path="/thyroid-naturopathy" element={<ThyroidNaturopathy />} />
           <Route path="/diabetes" element={<Diabetes />} />
           <Route path="/childrens-health" element={<ChildrensHealth />} />
+          <Route path="/north-brisbane-naturopathy" element={<NorthBrisbaneNaturopathy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
