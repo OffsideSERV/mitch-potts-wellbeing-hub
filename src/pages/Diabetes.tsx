@@ -224,6 +224,17 @@ const Diabetes = () => {
                 </div>
               </div>
             </div>
+            
+            <div className="text-center mt-8">
+              <a 
+                href="https://www.healthcentral.com/condition/diabetes/naturopathy-diabetes"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:text-primary/80 underline font-medium"
+              >
+                Learn more about how Naturopathy helps with Diabetes
+              </a>
+            </div>
           </div>
         </div>
       </section>
