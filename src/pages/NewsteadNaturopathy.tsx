@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { CheckCircle, Heart, Users, Activity, Brain, Baby, MapPin, Clock } from "lucide-react";
+import { CheckCircle, Heart, Users, Activity, Brain, Baby, MapPin, Clock, Shield, Zap, Stethoscope, Target, Leaf, Microscope } from "lucide-react";
 
 const NewsteadNaturopathy = () => {
   return (
@@ -108,10 +108,10 @@ const NewsteadNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  If you're tired of feeling "not quite right" and you're looking for a holistic approach that actually delivers long-term results for your health, you've come to the right place. At NXTLVL Health, we support many people like you from Newstead who are looking for clarity, support, and answers to their health that they couldn't get from doctors.
+                  If you're tired of feeling <strong>"not quite right"</strong> and you're looking for a <strong>holistic approach that actually delivers long-term results</strong> for your health, you've come to the right place. At NXTLVL Health, we support many people like you from Newstead who are looking for <strong>clarity, support, and answers to their health</strong> that they couldn't get from doctors.
                 </p>
                 <p>
-                  Our clinic, based just minutes from Newstead QLD, offers evidence-based natural medicine, functional testing, and personalised treatment plans designed to get you feeling better—physically, mentally, and emotionally. Whether you're struggling with digestive issues, hormonal imbalances, or chronic fatigue, our qualified naturopath Mitchell Potts is here to guide you every step of the way.
+                  Our clinic, based just minutes from Newstead QLD, offers <strong>evidence-based natural medicine, functional testing, and personalised treatment plans</strong> designed to get you feeling better physically, mentally, and emotionally. Whether you're struggling with digestive issues, hormonal imbalances, or chronic fatigue, our qualified naturopath Mitchell Potts is here to guide you every step of the way.
                 </p>
               </div>
             </div>
@@ -144,7 +144,7 @@ const NewsteadNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Although we're not located in Newstead itself, our clinic is just a short walk or drive away, conveniently located near New Farm and Fortitude Valley.
+                  Although we're not located in Newstead itself, our clinic is just a <strong>short walk or drive away</strong>, conveniently located near New Farm and Fortitude Valley.
                 </p>
               </CardContent>
             </Card>
@@ -158,7 +158,7 @@ const NewsteadNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  If you've been told everything is "normal," but still feel exhausted, anxious, or unwell, we'll help you get to the root cause of the problem. From your gut health to your nervous system, we explore what's really going on inside.
+                  If you've been told everything is "normal," but still feel exhausted, anxious, or unwell, we'll help you <strong>get to the root cause of the problem</strong>. From your gut health to your nervous system, we explore what's really going on inside.
                 </p>
               </CardContent>
             </Card>
@@ -172,7 +172,7 @@ const NewsteadNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  We take time to really listen to you and what you've been going through. Our holistic approach considers your whole life: your stress levels, your dietary habits, your emotional wellbeing, and even your medical history. You are way more than just your symptoms, and the help you get should reflect that.
+                  We take time to really listen to you and what you've been going through. Our <strong>holistic approach considers your whole life</strong>: your stress levels, your dietary habits, your emotional wellbeing, and even your medical history. You are way more than just your symptoms, and the help you get should reflect that.
                 </p>
               </CardContent>
             </Card>
@@ -190,77 +190,108 @@ const NewsteadNaturopathy = () => {
           <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl text-primary">Women's Health</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <Heart className="h-6 w-6" />
+                  Women's Health
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  We help with PMS, hormonal imbalances, painful periods, PCOS, and menopause. We help you understand your cycle and help you feel in control of your health again.
+                  We help with PMS, hormonal imbalances, painful periods, PCOS, and menopause. We help you <strong>understand your cycle and help you feel in control of your health again</strong>.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl text-primary">Gut Health & Digestive Complaints</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <Activity className="h-6 w-6" />
+                  Gut Health & Digestive Complaints
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="text-muted-foreground space-y-3">
+                  <p>
+                    From Irritable Bowel Syndrome (IBS) to bloating, reflux, and SIBO, we create <strong>gut-healing protocols for you that fix the root cause</strong> of your discomfort.
+                  </p>
+                  <a 
+                    href="https://www.kathleenmcfarlane.com.au/health-and-wellness/irritable-bowel-syndrome-ibs-help/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-primary hover:text-primary/80 underline inline-block"
+                  >
+                    Find out how effective Naturopathy is for IBS
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <Baby className="h-6 w-6" />
+                  Children's Health Support
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  From Irritable Bowel Syndrome (IBS) to bloating, reflux, and SIBO, we create gut-healing protocols for you that fix the root cause of your discomfort.
+                  We help with food allergies, mood swings, digestive issues, and fussy eating and much more in <strong>children of all ages</strong>.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl text-primary">Children's Health Support</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <Brain className="h-6 w-6" />
+                  Mental Health & Chronic Stress
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  We help with food allergies, mood swings, digestive issues, and fussy eating—and much more—in children of all ages.
+                  If anxiety, burnout, or mood changes are affecting your life, we help <strong>heal your nervous system and mental health</strong> with targeted nutritional medicine and sometimes even herbal medicine.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl text-primary">Mental Health & Chronic Stress</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <Target className="h-6 w-6" />
+                  Weight Loss & Metabolic Health
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  If anxiety, burnout, or mood changes are affecting your life, we help heal your nervous system and mental health with targeted nutritional medicine and sometimes even herbal medicine.
+                  We take a <strong>natural, non-restrictive approach to weight loss</strong>. There's no fad diets just real advice that's tailored to your body and lifestyle.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl text-primary">Weight Loss & Metabolic Health</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <Heart className="h-6 w-6" />
+                  Pregnancy Care & Fertility Support
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  We take a natural, non-restrictive approach to weight loss. There's no fad diets—just real advice that's tailored to your body and lifestyle.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-xl text-primary">Pregnancy Care & Fertility Support</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Whether you're trying to conceive, preparing for pregnancy, or need support post-partum, we offer safe, research-backed care for every stage.
+                  Whether you're trying to conceive, preparing for pregnancy, or need support post-partum, we offer <strong>safe, research-backed care for every stage</strong>.
                 </p>
               </CardContent>
             </Card>
 
             <Card className="md:col-span-1 lg:col-span-2">
               <CardHeader>
-                <CardTitle className="text-xl text-primary">Autoimmune Conditions & Chronic Disease</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <Shield className="h-6 w-6" />
+                  Autoimmune Conditions & Chronic Disease
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  From fatigue to inflammation, we help to heal your immune system and overall health without adding pressure or overwhelm to it.
+                  From fatigue to inflammation, we help to <strong>heal your immune system and overall health</strong> without adding pressure or overwhelm to it.
                 </p>
               </CardContent>
             </Card>
@@ -287,44 +318,56 @@ const NewsteadNaturopathy = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl text-primary">We Listen to Your Full Health Story</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <Users className="h-6 w-6" />
+                  We Listen to Your Full Health Story
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  During your initial consultation, we explore your symptoms, your past diagnoses, your lifestyle, your emotional health, and your health goals.
+                  During your initial consultation, we explore your symptoms, your past diagnoses, your lifestyle, your emotional health, and <strong>your health goals</strong>.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl text-primary">We Use Functional Testing When Needed</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <Microscope className="h-6 w-6" />
+                  We Use Functional Testing When Needed
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  This could include stool testing, hormone panels, nutrient profiles, or food sensitivity testing, depending on your specific needs.
+                  This could include <strong>stool testing, hormone panels, nutrient profiles, or food sensitivity testing</strong>, depending on your specific needs.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl text-primary">You Get a Personalised Treatment Plan</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <Target className="h-6 w-6" />
+                  You Get a Personalised Treatment Plan
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Every plan we give includes natural remedies, dietary recommendations, and lifestyle changes tailored to your condition, your goals, and even your schedule.
+                  Every plan we give includes <strong>natural remedies, dietary recommendations, and lifestyle changes</strong> tailored to your condition, your goals, and even your schedule.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl text-primary">We Focus on Lifestyle Changes That Work</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <CheckCircle className="h-6 w-6" />
+                  We Focus on Lifestyle Changes That Work
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Our advice is very practical and very realistic. Whether it's changing your breakfast or adding five minutes of mindfulness, we keep it doable for you.
+                  Our advice is <strong>very practical and very realistic</strong>. Whether it's changing your breakfast or adding five minutes of mindfulness, we keep it doable for you.
                 </p>
               </CardContent>
             </Card>
@@ -342,55 +385,70 @@ const NewsteadNaturopathy = () => {
           <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl text-primary">Western Herbal Medicine</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <Leaf className="h-6 w-6" />
+                  Western Herbal Medicine
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Herbal formulas crafted for hormonal support, digestive healing, liver detoxification, and nervous system regulation.
+                  <strong>Herbal formulas crafted for hormonal support</strong>, digestive healing, liver detoxification, and nervous system regulation.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl text-primary">Nutritional Medicine & Clinical Supplements</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <Zap className="h-6 w-6" />
+                  Nutritional Medicine & Clinical Supplements
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  We use practitioner-grade supplements and diet strategies to correct deficiencies, support organ systems, and restore energy.
+                  We use <strong>practitioner-grade supplements and diet strategies</strong> to correct deficiencies, support organ systems, and restore energy.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl text-primary">Natural Pain Relief & Anti-Inflammatory Support</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <Shield className="h-6 w-6" />
+                  Natural Pain Relief & Anti-Inflammatory Support
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  We support conditions such as joint pain, menstrual cramping, and muscle aches with anti-inflammatory herbs and nutritional support.
+                  We support conditions such as joint pain, menstrual cramping, and muscle aches with <strong>anti-inflammatory herbs and nutritional support</strong>.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl text-primary">Gut Healing Protocols</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <Activity className="h-6 w-6" />
+                  Gut Healing Protocols
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  For IBS, food intolerances, or SIBO, we support your microbiome, reduce inflammation, and improve digestion naturally.
+                  For IBS, food intolerances, or SIBO, we <strong>support your microbiome, reduce inflammation, and improve digestion naturally</strong>.
                 </p>
               </CardContent>
             </Card>
 
             <Card className="md:col-span-1 lg:col-span-2">
               <CardHeader>
-                <CardTitle className="text-xl text-primary">Stress & Nervous System Regulation</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <Brain className="h-6 w-6" />
+                  Stress & Nervous System Regulation
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Calm an overworked nervous system using herbal adaptogens, magnesium, and mind-body practices for long-term emotional resilience.
+                  <strong>Calm an overworked nervous system</strong> using herbal adaptogens, magnesium, and mind-body practices for long-term emotional resilience.
                 </p>
               </CardContent>
             </Card>
@@ -415,7 +473,7 @@ const NewsteadNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Our New Farm location is highly accessible for Newstead locals. We're just around the corner, literally.
+                  Our New Farm location is <strong>highly accessible for Newstead locals</strong>. We're just around the corner, literally.
                 </p>
               </CardContent>
             </Card>
@@ -429,7 +487,7 @@ const NewsteadNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  We also help people from West End, Spring Hill, and other Brisbane QLD suburbs who are looking for natural, long-term health care.
+                  We also help people from West End, Spring Hill, and other Brisbane QLD suburbs who are looking for <strong>natural, long-term health care</strong>.
                 </p>
               </CardContent>
             </Card>
@@ -456,33 +514,42 @@ const NewsteadNaturopathy = () => {
           <div className="grid md:grid-cols-1 gap-8">
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl text-primary">Bachelor of Health Science (Endeavour College of Natural Health)</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <Stethoscope className="h-6 w-6" />
+                  Bachelor of Health Science (Endeavour College of Natural Health)
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Your care is led by a university-qualified naturopath with a strong foundation in natural medicine and clinical practice.
+                  Your care is led by a <strong>university-qualified naturopath</strong> with a strong foundation in natural medicine and clinical practice.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl text-primary">Years of Clinical Experience Supporting Complex Health Conditions</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <Target className="h-6 w-6" />
+                  Years of Clinical Experience Supporting Complex Health Conditions
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Mitch has changed the lives of hundreds of people dealing with chronic illness, digestive conditions, fatigue, skin concerns, and more.
+                  Mitch has <strong>changed the lives of hundreds of people</strong> dealing with chronic illness, digestive conditions, fatigue, skin concerns, and more.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl text-primary">Straight-Talking, Results-Based Natural Healthcare</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <CheckCircle className="h-6 w-6" />
+                  Straight-Talking, Results-Based Natural Healthcare
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  We don't do fluff. You'll get honest answers, clear communication, and a plan that works with your life—not against it.
+                  We don't do fluff. You'll get <strong>honest answers, clear communication, and a plan that works with your life</strong> not against it.
                 </p>
               </CardContent>
             </Card>
@@ -529,22 +596,28 @@ const NewsteadNaturopathy = () => {
           <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl text-primary">Working With Personal Trainers, Massage Therapists, Allied Health</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <Users className="h-6 w-6" />
+                  Working With Personal Trainers, Massage Therapists, Allied Health
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  If you're currently seeing a Personal Trainer or Massage Therapist, we can integrate our recommendations into your wellness routine.
+                  If you're currently seeing a Personal Trainer or Massage Therapist, we can <strong>integrate our recommendations into your wellness routine</strong>.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl text-primary">Respecting Your Medical History & Existing Diagnosis</CardTitle>
+                <CardTitle className="text-xl text-primary flex items-center gap-2">
+                  <Stethoscope className="h-6 w-6" />
+                  Respecting Your Medical History & Existing Diagnosis
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Our treatments will work alongside conventional medicine. We value your previous care and work within an integrated model.
+                  Our treatments will <strong>work alongside conventional medicine</strong>. We value your previous care and work within an integrated model.
                 </p>
               </CardContent>
             </Card>
@@ -559,11 +632,11 @@ const NewsteadNaturopathy = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Book Your Initial Consultation Today</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
               <p>
-                Book your initial consultation today and get the answers and support you've been looking for.
+                Book your initial consultation today and get the <strong>answers and support you've been looking for</strong>.
               </p>
               <h3 className="text-xl font-semibold text-foreground">In-Clinic or Telehealth Options Available for Newstead Residents</h3>
               <p>
-                Whether you're based in Newstead QLD or nearby, we're here to support your health journey—on your terms.
+                Whether you're based in Newstead QLD or nearby, we're here to <strong>support your health journey on your terms</strong>.
               </p>
             </div>
 
