@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Diabetes = () => {
@@ -194,7 +193,7 @@ const Diabetes = () => {
             </p>
           </div>
 
-          <div class="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-4">
               <div className="space-y-3">
                 <div className="flex items-start space-x-3">
