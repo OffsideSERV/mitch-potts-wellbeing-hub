@@ -119,10 +119,10 @@ const NewFarmNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  If you're tired of feeling <strong>"not quite right"</strong> and you're looking for a gentle, natural health solution that actually works, then you've come to the right place. At NXTLVL Health, we help people from **New Farm QLD** and nearby suburbs like **Fortitude Valley, Spring Hill, and Bowen Hills** who are looking for more than just quick fixes. We get to the **root cause of your health problems**.
+                  If you're tired of feeling <strong>"not quite right"</strong> and you're looking for a gentle, natural health solution that actually works, then you've come to the right place. At NXTLVL Health, we help people from <strong>New Farm QLD</strong> and nearby suburbs like <strong>Fortitude Valley, Spring Hill, and Bowen Hills</strong> who are looking for more than just quick fixes. We get to the <strong>root cause of your health problems</strong>.
                 </p>
                 <p>
-                  Our clinic is located right in **New Farm, near Brunswick St, Merthyr Rd, and 187 James Street**. Whether you're dealing with **gut issues, chronic stress, or hormonal imbalances**, our friendly, experienced naturopath **Mitchell Potts** is here to help.
+                  Our clinic is located right in <strong>New Farm, near Brunswick St, Merthyr Rd, and 187 James Street</strong>. Whether you're dealing with <strong>gut issues, <a href="https://www.haberfieldhealth.com.au/post/7-ways-a-naturopath-can-help-treat-stress" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">chronic stress</a>, or hormonal imbalances</strong>, our friendly, experienced naturopath <strong>Mitchell Potts</strong> is here to help.
                 </p>
               </div>
             </div>
@@ -145,10 +145,10 @@ const NewFarmNaturopathy = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">A Local Naturopath You Can Trust</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
-                When your body feels off, it's hard to live the life you want. Maybe your **sleep isn't great**, your **tummy feels upset**, or your **mood is low**. Or maybe you've been told **"everything is normal"** from your doctor, but you still don't feel well. That's where we come in.
+                When your body feels off, it's hard to live the life you want. Maybe your <strong>sleep isn't great</strong>, your <strong>tummy feels upset</strong>, or your <strong>mood is low</strong>. Or maybe you've been told <strong>"everything is normal"</strong> from your doctor, but you still don't feel well. That's where we come in.
               </p>
               <p>
-                At NXTLVL Health, our **qualified naturopath Mitch Potts** takes the time to really understand what you've been going through. We use a **holistic approach**, mixing **natural therapies with modern science and functional testing** to understand your whole body. Then, we create a plan that fits your **unique needs and health goals**.
+                At NXTLVL Health, our <strong>qualified naturopath Mitch Potts</strong> takes the time to really understand what you've been going through. We use a <strong>holistic approach</strong>, mixing <strong>natural therapies with modern science and functional testing</strong> to understand your whole body. Then, we create a plan that fits your <strong>unique needs and health goals</strong>.
               </p>
             </div>
           </div>
@@ -184,7 +184,7 @@ const NewFarmNaturopathy = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    **Bloating, gas, Irritable Bowel Syndrome, reflux, constipation**
+                    <strong>Bloating, gas, Irritable Bowel Syndrome, reflux, constipation</strong>
                   </p>
                 </CardContent>
               </Card>
@@ -198,7 +198,7 @@ const NewFarmNaturopathy = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    **PMS, PCOS, painful periods, perimenopause, menopause**
+                    <strong>PMS, PCOS, painful periods, perimenopause, menopause</strong>
                   </p>
                 </CardContent>
               </Card>
@@ -212,7 +212,7 @@ const NewFarmNaturopathy = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    **Anxiety, low mood, poor sleep quality, overwhelm**
+                    <strong>Anxiety, low mood, poor sleep quality, overwhelm</strong>
                   </p>
                 </CardContent>
               </Card>
@@ -226,7 +226,7 @@ const NewFarmNaturopathy = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    **Digestive issues, food intolerances, immunity, sleep troubles**
+                    <strong>Digestive issues, food intolerances, immunity, sleep troubles</strong>
                   </p>
                 </CardContent>
               </Card>
@@ -240,7 +240,7 @@ const NewFarmNaturopathy = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    **Natural, non-restrictive programs tailored to your body**
+                    <strong>Natural, non-restrictive programs tailored to your body</strong>
                   </p>
                 </CardContent>
               </Card>
@@ -254,7 +254,7 @@ const NewFarmNaturopathy = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    **Autoimmune support, frequent infections, inflammation**
+                    <strong>Autoimmune support, frequent infections, inflammation</strong>
                   </p>
                 </CardContent>
               </Card>
@@ -267,10 +267,10 @@ const NewFarmNaturopathy = () => {
                   <CardTitle className="text-lg">Chronic Conditions</CardTitle>
                 </div>
                 <p className="text-muted-foreground mt-3">
-                  **Fatigue, skin problems, allergies, joint pain**
+                  <strong>Fatigue, skin problems, allergies, joint pain</strong>
                 </p>
                 <p className="text-muted-foreground mt-4 font-medium">
-                  We treat a wide range of health problems by looking at the **underlying imbalances** that may be holding your body back.
+                  We treat a wide range of health problems by looking at the <strong>underlying imbalances</strong> that may be holding your body back.
                 </p>
               </CardContent>
             </Card>
@@ -289,31 +289,31 @@ const NewFarmNaturopathy = () => {
             <div className="bg-white p-6 rounded-xl shadow-lg">
               <div className="flex items-start space-x-3">
                 <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-base">We're based **right here in New Farm QLD**</p>
+                <p className="text-base">We're based <strong>right here in New Farm QLD</strong></p>
               </div>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-lg">
               <div className="flex items-start space-x-3">
                 <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-base">We combine **natural medicine with scientific research and testing**</p>
+                <p className="text-base">We combine <strong>natural medicine with scientific research and testing</strong></p>
               </div>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-lg">
               <div className="flex items-start space-x-3">
                 <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-base">We build every plan around you—**your symptoms, lifestyle, and health goals**</p>
+                <p className="text-base">We build every plan around you—<strong>your symptoms, lifestyle, and health goals</strong></p>
               </div>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-lg">
               <div className="flex items-start space-x-3">
                 <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-base">We use **herbal medicine, nutritional supplements, and dietary support**</p>
+                <p className="text-base">We use <strong>herbal medicine, nutritional supplements, and dietary support</strong></p>
               </div>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-lg md:col-span-2 lg:col-span-1">
               <div className="flex items-start space-x-3">
                 <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-base">We create **long-term plans for good health and lasting change**</p>
+                <p className="text-base">We create <strong>long-term plans for good health and lasting change</strong></p>
               </div>
             </div>
           </div>
@@ -326,7 +326,7 @@ const NewFarmNaturopathy = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">What to Expect at Your First Consultation</h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-              When you come in for your initial consultation, we take our time to get to know you. We talk about your **symptoms, your lifestyle, your diet, your past medical history, and what you want to achieve** with your health.
+              When you come in for your initial consultation, we take our time to get to know you. We talk about your <strong>symptoms, your lifestyle, your diet, your past medical history, and what you want to achieve</strong> with your health.
             </p>
           </div>
 
@@ -336,19 +336,19 @@ const NewFarmNaturopathy = () => {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <Microscope className="h-5 w-5 text-primary" />
-                  <span className="text-lg">**Gut testing**</span>
+                  <span className="text-lg"><strong>Gut testing</strong></span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Activity className="h-5 w-5 text-primary" />
-                  <span className="text-lg">**Hormone panels**</span>
+                  <span className="text-lg"><strong>Hormone panels</strong></span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Target className="h-5 w-5 text-primary" />
-                  <span className="text-lg">**Nutrient profiles**</span>
+                  <span className="text-lg"><strong>Nutrient profiles</strong></span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-primary" />
-                  <span className="text-lg">**Food intolerance checks**</span>
+                  <span className="text-lg"><strong>Food intolerance checks</strong></span>
                 </div>
               </div>
             </div>
@@ -358,19 +358,19 @@ const NewFarmNaturopathy = () => {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <Leaf className="h-5 w-5 text-primary" />
-                  <span className="text-lg">**Herbal medicine**</span>
+                  <span className="text-lg"><strong>Herbal medicine</strong></span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Heart className="h-5 w-5 text-primary" />
-                  <span className="text-lg">**Nutritional advice and natural remedies**</span>
+                  <span className="text-lg"><strong>Nutritional advice and natural remedies</strong></span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Zap className="h-5 w-5 text-primary" />
-                  <span className="text-lg">**Lifestyle tweaks that fit into your days effortlessly**</span>
+                  <span className="text-lg"><strong>Lifestyle tweaks that fit into your days effortlessly</strong></span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Shield className="h-5 w-5 text-primary" />
-                  <span className="text-lg">**Natural methods to boost your energy levels**</span>
+                  <span className="text-lg"><strong>Natural methods to boost your energy levels</strong></span>
                 </div>
               </div>
             </div>
@@ -384,7 +384,7 @@ const NewFarmNaturopathy = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Natural Therapies at Our New Farm Clinic</h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-8">
-              Our clinic uses a blend of **safe, science-backed therapies**:
+              Our clinic uses a blend of <strong>safe, science-backed therapies</strong>:
             </p>
           </div>
 
@@ -398,7 +398,7 @@ const NewFarmNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Used to **calm inflammation, balance hormones, and support the nervous system**
+                  Used to <strong>calm inflammation, balance hormones, and support the nervous system</strong>
                 </p>
               </CardContent>
             </Card>
@@ -412,7 +412,7 @@ const NewFarmNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  To **correct deficiencies, support your gut, and increase energy**
+                  To <strong>correct deficiencies, support your gut, and increase energy</strong>
                 </p>
               </CardContent>
             </Card>
@@ -426,7 +426,7 @@ const NewFarmNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  For **joint pain, cramps, or headaches**
+                  For <strong>joint pain, cramps, or headaches</strong>
                 </p>
               </CardContent>
             </Card>
@@ -440,7 +440,7 @@ const NewFarmNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Using **gentle herbs, supplements, and stress tools**
+                  Using <strong>gentle herbs, supplements, and stress tools</strong>
                 </p>
               </CardContent>
             </Card>
@@ -454,7 +454,7 @@ const NewFarmNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  We work alongside trusted **Remedial Massage and massage therapist services in New Farm Wellness Centre and local clinics**
+                  We work alongside trusted <strong>Remedial Massage and massage therapist services in New Farm Wellness Centre and local clinics</strong>
                 </p>
               </CardContent>
             </Card>
@@ -474,22 +474,22 @@ const NewFarmNaturopathy = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 text-center mb-12">
             <div className="bg-white p-4 rounded-lg shadow-md">
-              <p className="font-semibold">**Brunswick St**</p>
+              <p className="font-semibold"><strong>Brunswick St</strong></p>
             </div>
             <div className="bg-white p-4 rounded-lg shadow-md">
-              <p className="font-semibold">**187 James Street**</p>
+              <p className="font-semibold"><strong>187 James Street</strong></p>
             </div>
             <div className="bg-white p-4 rounded-lg shadow-md">
-              <p className="font-semibold">**Merthyr Rd**</p>
+              <p className="font-semibold"><strong>Merthyr Rd</strong></p>
             </div>
             <div className="bg-white p-4 rounded-lg shadow-md">
-              <p className="font-semibold">**Fortitude Valley, West End, Spring Hill, and beyond**</p>
+              <p className="font-semibold"><strong>Fortitude Valley, West End, Spring Hill, and beyond</strong></p>
             </div>
           </div>
 
           <div className="text-center">
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              We work with other health providers, like **personal trainers, massage therapists, and allied health professionals**. If you need a team, we help you build one.
+              We work with other health providers, like <strong>personal trainers, massage therapists, and allied health professionals</strong>. If you need a team, we help you build one.
             </p>
           </div>
         </div>
@@ -501,7 +501,7 @@ const NewFarmNaturopathy = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">You Deserve to Feel Better</h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-              Whether you're tired of feeling **sick, overwhelmed, or just not like yourself**, NXTLVL Health is here to help you make sense of it all. We'll work with you to **restore balance in your body** and give you tools for **long-term, natural healing**.
+              Whether you're tired of feeling <strong>sick, overwhelmed, or just not like yourself</strong>, NXTLVL Health is here to help you make sense of it all. We'll work with you to <strong>restore balance in your body</strong> and give you tools for <strong>long-term, natural healing</strong>.
             </p>
           </div>
         </div>
@@ -513,10 +513,10 @@ const NewFarmNaturopathy = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Book Your Naturopath Appointment in New Farm Today</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              We're ready when you are. Book your appointment today with **Mitch at NXTLVL Health**—your trusted naturopath in New Farm.
+              We're ready when you are. Book your appointment today with <strong>Mitch at NXTLVL Health</strong>—your trusted naturopath in New Farm.
             </p>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
-              Let's help you feel **clear, calm, and back in control** again.
+              Let's help you feel <strong>clear, calm, and back in control</strong> again.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
