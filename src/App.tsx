@@ -16,6 +16,7 @@ import ChildrensHealth from "./pages/ChildrensHealth";
 import NorthBrisbaneNaturopathy from "./pages/NorthBrisbaneNaturopathy";
 import NewsteadNaturopathy from "./pages/NewsteadNaturopathy";
 import NewFarmNaturopathy from "./pages/NewFarmNaturopathy";
+import Areas from "./pages/Areas";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -39,6 +40,7 @@ const App = () => (
           <Route path="/north-brisbane-naturopathy" element={<NorthBrisbaneNaturopathy />} />
           <Route path="/newstead-naturopathy" element={<NewsteadNaturopathy />} />
           <Route path="/new-farm-naturopathy" element={<NewFarmNaturopathy />} />
+          <Route path="/areas" element={<Areas />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
