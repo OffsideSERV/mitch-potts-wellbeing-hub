@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Activity, Brain, Baby } from "lucide-react";
@@ -199,6 +198,16 @@ const NorthBrisbaneNaturopathy = () => {
           <div className="text-center">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
               Whether you're looking for help with your digestive health, better day-to-day energy levels, or a more balanced menstrual cycle, we'll create you a personalised treatment plan that gives your body what it needs.
+            </p>
+            <p className="text-lg text-muted-foreground max-w-4xl mx-auto mt-4">
+              <a 
+                href="https://www.healthhealingwellness.net.au/naturopathy/information/benefits-of-naturopathy" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:text-primary/80 underline"
+              >
+                Learn more about what Naturopathy helps with
+              </a>
             </p>
           </div>
         </div>
