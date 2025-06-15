@@ -21,7 +21,7 @@ const ChildrensHealth = () => {
                   <img 
                     alt="Children's naturopath consultation at NXTLVL Health Brisbane" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?auto=format&fit=crop&w=800&q=80" 
+                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/kcF6c6jGP3wRQF0L9ySy.png" 
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -72,7 +72,7 @@ const ChildrensHealth = () => {
               <img 
                 alt="Children's naturopath consultation at NXTLVL Health Brisbane" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?auto=format&fit=crop&w=800&q=80" 
+                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/kcF6c6jGP3wRQF0L9ySy.png" 
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -98,7 +98,7 @@ const ChildrensHealth = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=800&q=80" 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/KzhzvfYCqwWucZxbOivI.png" 
               alt="Child with healthy food at NXTLVL Health Brisbane" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
@@ -118,7 +118,7 @@ const ChildrensHealth = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=800&q=80" 
+                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/KzhzvfYCqwWucZxbOivI.png" 
                 alt="Child with healthy food at NXTLVL Health Brisbane" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -196,7 +196,7 @@ const ChildrensHealth = () => {
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&q=80" 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
               alt="Children's health consultation at NXTLVL Health Brisbane" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -264,9 +264,17 @@ const ChildrensHealth = () => {
                 <CardTitle className="text-xl text-primary">Nutritional Support for Kids</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">
+                <p className="text-muted-foreground mb-4">
                   We help parents like you make simple and practical dietary changes for their kids, especially if your child is a fussy eater or dealing with food sensitivities. We focus on improving energy, behaviour, digestion, and immune strength through nutrient-dense, real-world food options.
                 </p>
+                <a 
+                  href="https://www.healthdirect.gov.au/healthy-eating-for-children" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:text-primary/80 underline"
+                >
+                  Learn about the importance of Nutrition for your Child
+                </a>
               </CardContent>
             </Card>
 
