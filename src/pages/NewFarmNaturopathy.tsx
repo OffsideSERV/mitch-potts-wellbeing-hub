@@ -143,7 +143,7 @@ const NewFarmNaturopathy = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">A Local Naturopath You Can Trust</h2>
-            <div class="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
+            <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
                 When your body feels off, it's hard to live the life you want. Maybe your **sleep isn't great**, your **tummy feels upset**, or your **mood is low**. Or maybe you've been told **"everything is normal"** from your doctor, but you still don't feel well. That's where we come in.
               </p>
@@ -497,7 +497,7 @@ const NewFarmNaturopathy = () => {
 
       {/* You Deserve to Feel Better Section */}
       <section className="py-20 px-4 bg-muted/30">
-        <div class="container mx-auto max-w-6xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">You Deserve to Feel Better</h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
