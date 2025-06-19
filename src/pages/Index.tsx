@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -45,6 +44,7 @@ const Index = () => {
     description: "You'll finally say goodbye to the skin issues that have been taking ages to heal. You'll gain confidence and spend some more time staring at that bathroom mirror."
   }];
   const additionalConditions = ["Allergies & Food Sensitivities", "Asthma", "Children's Health", "Cardiovascular Health", "Chronic Inflammation & Pain", "Diabetes", "Detoxification (Environmental Toxins / Liver Support)", "Headaches (Migraines)", "Immune Health (Cold & Flu, Bacterial Infections)", "Insomnia (Poor Sleep Quality)", "Men's Health", "Mental Health & Stress Management (Stress, Anxiety & Depression)", "Musculoskeletal Issues", "Thyroid", "Athletic Performance and Recovery"];
+  
   return <div className="min-h-screen bg-background">
       {/* 1. Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
@@ -85,9 +85,9 @@ const Index = () => {
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight" asChild>
-                  <a href="https://nxtlvlhealth.com.au/book-now/">
+                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
                     <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
-                    <span className="text-center">Book an Appointment Today!</span>
+                    <span className="text-center">Book a Free 15-Min Consult!</span>
                   </a>
                 </Button>
                 <Button variant="outline" size="lg" className="text-base sm:text-lg px-4 py-3 h-auto" asChild>
@@ -359,7 +359,7 @@ const Index = () => {
             <img alt="Mitchell Potts performing microscopy analysis at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full h-auto mx-auto" src="/lovable-uploads/aa4b685d-0956-463f-ad98-180c34dbdb0d.png" />
           </div>
           
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold">Why Mitch Gets Results When Others Don't</h3>
               <div className="space-y-4">
@@ -393,6 +393,16 @@ const Index = () => {
             <div className="relative hidden lg:block">
               <img alt="Mitchell Potts performing microscopy analysis at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full h-auto" src="/lovable-uploads/aa4b685d-0956-463f-ad98-180c34dbdb0d.png" />
             </div>
+
+            {/* NEW CTA BUTTON ADDED TO MITCH SECTION */}
+            <div className="text-center mb-16">
+              <Button size="lg" className="text-base sm:text-lg px-6 py-4 h-auto" asChild>
+                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                  <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
+                  Book a Free 15-Min Consult!
+                </a>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
@@ -407,7 +417,7 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
               <CardHeader className="pb-4 text-center">
                 <img 
@@ -522,6 +532,16 @@ const Index = () => {
               </CardContent>
             </Card>
           </div>
+
+          {/* NEW CTA BUTTON ADDED TO SERVICES SECTION */}
+          <div className="text-center">
+            <Button size="lg" className="text-base sm:text-lg px-6 py-4 h-auto" asChild>
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
+                Book a Free 15-Min Consult!
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
 
@@ -548,13 +568,23 @@ const Index = () => {
               </Card>)}
           </div>
 
-          <div className="bg-muted/50 rounded-2xl p-8">
+          <div className="bg-muted/50 rounded-2xl p-8 mb-16">
             <h3 className="text-2xl font-semibold mb-6 text-center">Plus All These Other Stubborn Health Issues</h3>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {additionalConditions.map((condition, index) => <Badge key={index} variant="secondary" className="justify-start p-3 text-sm">
                   {condition}
                 </Badge>)}
             </div>
+          </div>
+
+          {/* NEW CTA BUTTON ADDED TO CONDITIONS SECTION */}
+          <div className="text-center">
+            <Button size="lg" className="text-base sm:text-lg px-6 py-4 h-auto" asChild>
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
+                Book a Free 15-Min Consult!
+              </a>
+            </Button>
           </div>
         </div>
       </section>
@@ -586,9 +616,9 @@ const Index = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3" asChild>
-                <a href="https://nxtlvlhealth.com.au/book-now/">
+                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
                   <Calendar className="mr-2 h-5 w-5" />
-                  Book an Appointment Today!
+                  Book a Free 15-Min Consult!
                 </a>
               </Button>
               <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3" asChild>
