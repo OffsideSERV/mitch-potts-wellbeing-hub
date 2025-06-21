@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Activity, Brain, Shield } from "lucide-react";
@@ -164,7 +163,7 @@ const IBSNaturopathy = () => {
 
             <div className="text-lg text-muted-foreground leading-relaxed text-center">
               <p>
-                These digestive symptoms can come and go. Some days are fine. Other days, it's hard to leave the house.
+                These digestive symptoms can come and go. Some days are fine. Other days, it's hard to leave the house. <a href="https://www.mayoclinic.org/diseases-conditions/irritable-bowel-syndrome/symptoms-causes/syc-20360016" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">Learn more about IBS</a>
               </p>
             </div>
           </div>
@@ -608,7 +607,7 @@ const IBSNaturopathy = () => {
               className="text-base sm:text-lg px-6 py-4 h-auto"
             >
               <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
-                <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                 </svg>
                 Book a Free 15-Min Consult!
