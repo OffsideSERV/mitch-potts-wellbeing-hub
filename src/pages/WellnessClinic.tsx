@@ -1,13 +1,24 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { CheckCircle, Heart, Users, Activity, Brain, Baby } from "lucide-react";
+import { 
+  Calendar, 
+  Phone, 
+  CheckCircle, 
+  Heart, 
+  Users, 
+  Target,
+  Leaf,
+  Zap,
+  Shield,
+  Activity
+} from "lucide-react";
 
 const WellnessClinic = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
+      <section className="relative bg-gradient-to-br from-primary/10 via-accent/10 to-primary/5 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
             <div className="space-y-8 lg:mt-0 mt-12">
@@ -38,24 +49,22 @@ const WellnessClinic = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
                   asChild 
+                  size="lg" 
                   className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight"
                 >
-                  <a href="https://nxtlvlhealth.com.au/book-now/">
-                    <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                    </svg>
+                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                    <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                     <span className="text-center">Book a Free 15-Min Consult</span>
                   </a>
                 </Button>
                 <Button 
                   variant="outline" 
+                  size="lg" 
                   asChild 
                   className="text-base sm:text-lg px-4 py-3 h-auto"
                 >
                   <a href="tel:0731808853">
-                    <svg className="mr-2 h-4 w-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
-                    </svg>
+                    <Phone className="mr-2 h-4 w-4 flex-shrink-0" />
                     Call Mitch
                   </a>
                 </Button>
@@ -105,7 +114,7 @@ const WellnessClinic = () => {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-            <div className="space-y-6">
+            <div class="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
                   At NXTLVL Health, we believe you deserve to <strong>feel well</strong>, inside and out. Our wellness clinic in Brisbane is here to help you feel <strong>more energy, better sleep, and less stress</strong> using natural care that makes sense for your life.
@@ -155,21 +164,38 @@ const WellnessClinic = () => {
             <div className="space-y-6">
               <h3 className="text-2xl font-bold mb-6">You might be dealing with:</h3>
               <ul className="space-y-4">
-                {[
-                  "Low energy",
-                  "Poor sleep",
-                  "Gut problems",
-                  "Hormonal imbalances",
-                  "Skin flare-ups",
-                  "Mood changes",
-                  "Chronic fatigue",
-                  "Stress or anxiety"
-                ].map((item, index) => (
-                  <li key={index} className="flex items-start space-x-3">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">{item}</span>
-                  </li>
-                ))}
+                <li className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">Low energy</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">Poor sleep</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">Gut problems</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">Hormonal imbalances</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">Skin flare-ups</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">Mood changes</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">Chronic fatigue</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">Stress or anxiety</span>
+                </li>
               </ul>
               <div className="mt-6 p-6 bg-primary/10 rounded-lg">
                 <p className="text-lg font-medium text-foreground">
@@ -179,10 +205,8 @@ const WellnessClinic = () => {
 
               <div className="flex justify-center pt-4">
                 <Button asChild className="text-base px-6 py-3">
-                  <a href="https://nxtlvlhealth.com.au/book-now/">
-                    <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                    </svg>
+                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                    <Calendar className="mr-2 h-5 w-5" />
                     Book a Free 15-Min Consult
                   </a>
                 </Button>
@@ -200,8 +224,44 @@ const WellnessClinic = () => {
         </div>
       </section>
 
-      {/* More Than a Clinic Section */}
+      {/* Meet Mitch Section */}
       <section className="py-20 px-4">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Meet Mitch – Lead Practitioner at NXTLVL Health</h2>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+            <div className="space-y-6">
+              <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
+                <p>
+                  Mitchell Potts is a <strong>university-qualified naturopath</strong> with years of experience helping people feel like themselves again. He combines <strong>traditional naturopathic wisdom with modern science</strong> to offer care that makes real sense.
+                </p>
+                <p>
+                  Mitch believes your body has the power to heal when given the right support. Whether you're dealing with <strong>digestive troubles, hormonal imbalances, chronic fatigue, or stress</strong>, he'll listen deeply and work with you to create a plan that feels right.
+                </p>
+                <p>
+                  When he's not in clinic, Mitch is continually learning about the latest in <strong>nutritional medicine, herbal therapies, and functional testing</strong> so he can offer the best care possible.
+                </p>
+                <p>
+                  <strong>His approach? Kind, clear, and honest.</strong> No judgment. No overwhelming protocols. Just practical support to help you feel well again.
+                </p>
+              </div>
+            </div>
+            {/* Image */}
+            <div className="relative">
+              <img 
+                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+                alt="Mitchell Potts, lead practitioner at NXTLVL Health" 
+                className="rounded-2xl shadow-lg w-full h-auto" 
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* More Than a Clinic Section */}
+      <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">More Than a Clinic, a Wellness Centre That Gets You</h2>
@@ -218,16 +278,18 @@ const WellnessClinic = () => {
                 </p>
               </div>
               <ul className="space-y-4">
-                {[
-                  "A university-qualified naturopath with years of experience",
-                  "Skilled support staff who are friendly and non-judgemental",
-                  "Access to referrals for massage therapists, allied health, and fitness coaches"
-                ].map((item, index) => (
-                  <li key={index} className="flex items-start space-x-3">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">{item}</span>
-                  </li>
-                ))}
+                <li className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">A university-qualified naturopath with years of experience</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">Skilled support staff who are friendly and non-judgemental</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">Access to referrals for massage therapists, allied health, and fitness coaches</span>
+                </li>
               </ul>
               <div className="mt-6 p-6 bg-primary/10 rounded-lg">
                 <p className="text-lg font-medium text-foreground">
@@ -248,7 +310,7 @@ const WellnessClinic = () => {
       </section>
 
       {/* What We Offer Section */}
-      <section className="py-20 px-4 bg-muted/30">
+      <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">What We Offer at Our Wellness Clinic</h2>
@@ -269,15 +331,10 @@ const WellnessClinic = () => {
           <div className="grid lg:grid-cols-2 gap-8 mb-12">
             {/* Left Column */}
             <div className="space-y-8">
-              <Card>
+              <Card className="bg-white shadow-md">
                 <CardHeader>
                   <CardTitle className="text-xl text-primary">
-                    <a 
-                      href="https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/herbal-medicine"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:text-primary/80 underline"
-                    >
+                    <a href="#herbal-medicine" className="hover:text-primary/80 underline">
                       Herbal Medicine
                     </a>
                   </CardTitle>
@@ -289,7 +346,7 @@ const WellnessClinic = () => {
                 </CardContent>
               </Card>
 
-              <Card>
+              <Card className="bg-white shadow-md">
                 <CardHeader>
                   <CardTitle className="text-xl text-primary">Nutritional Medicine</CardTitle>
                 </CardHeader>
@@ -300,7 +357,7 @@ const WellnessClinic = () => {
                 </CardContent>
               </Card>
 
-              <Card>
+              <Card className="bg-white shadow-md">
                 <CardHeader>
                   <CardTitle className="text-xl text-primary">Functional Testing</CardTitle>
                 </CardHeader>
@@ -314,7 +371,7 @@ const WellnessClinic = () => {
 
             {/* Right Column */}
             <div className="space-y-8">
-              <Card>
+              <Card className="bg-white shadow-md">
                 <CardHeader>
                   <CardTitle className="text-xl text-primary">Lifestyle Advice</CardTitle>
                 </CardHeader>
@@ -325,7 +382,7 @@ const WellnessClinic = () => {
                 </CardContent>
               </Card>
 
-              <Card>
+              <Card className="bg-white shadow-md">
                 <CardHeader>
                   <CardTitle className="text-xl text-primary">Ongoing Care and Check-Ins</CardTitle>
                 </CardHeader>
@@ -340,10 +397,8 @@ const WellnessClinic = () => {
 
           <div className="flex justify-center">
             <Button asChild className="text-base px-6 py-3">
-              <a href="https://nxtlvlhealth.com.au/book-now/">
-                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                </svg>
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                <Calendar className="mr-2 h-5 w-5" />
                 Book a Free 15-Min Consult
               </a>
             </Button>
@@ -352,7 +407,7 @@ const WellnessClinic = () => {
       </section>
 
       {/* Health Concerns Section */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">We Work With a Wide Range of Health Concerns</h2>
@@ -371,26 +426,78 @@ const WellnessClinic = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-            {[
-              "Digestive disorders like IBS, bloating, constipation, or reflux",
-              "Hormonal concerns including PMS, PCOS, or perimenopause",
-              "Chronic fatigue and low energy",
-              "Chronic pain and inflammation",
-              "Mental health and nervous system support",
-              "Poor sleep quality",
-              "Weight loss support and metabolic health",
-              "Skin issues like acne or eczema",
-              "Support with autoimmune and immune health"
-            ].map((condition, index) => (
-              <Card key={index}>
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">{condition}</span>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
+            <Card className="bg-white shadow-md">
+              <CardContent className="p-6">
+                <div className="flex items-start space-x-3">
+                  <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">Digestive disorders like IBS, bloating, constipation, or reflux</span>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="bg-white shadow-md">
+              <CardContent className="p-6">
+                <div className="flex items-start space-x-3">
+                  <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">Hormonal concerns including PMS, PCOS, or perimenopause</span>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="bg-white shadow-md">
+              <CardContent className="p-6">
+                <div className="flex items-start space-x-3">
+                  <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">Chronic fatigue and low energy</span>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="bg-white shadow-md">
+              <CardContent className="p-6">
+                <div className="flex items-start space-x-3">
+                  <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">Chronic pain and inflammation</span>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="bg-white shadow-md">
+              <CardContent className="p-6">
+                <div className="flex items-start space-x-3">
+                  <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">Mental health and nervous system support</span>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="bg-white shadow-md">
+              <CardContent className="p-6">
+                <div className="flex items-start space-x-3">
+                  <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">Poor sleep quality</span>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="bg-white shadow-md">
+              <CardContent className="p-6">
+                <div className="flex items-start space-x-3">
+                  <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">Weight loss support and metabolic health</span>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="bg-white shadow-md">
+              <CardContent className="p-6">
+                <div className="flex items-start space-x-3">
+                  <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">Skin issues like acne or eczema</span>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="bg-white shadow-md">
+              <CardContent className="p-6">
+                <div className="flex items-start space-x-3">
+                  <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">Support with autoimmune and immune health</span>
+                </div>
+              </CardContent>
+            </Card>
           </div>
 
           <div className="text-center">
@@ -402,7 +509,7 @@ const WellnessClinic = () => {
       </section>
 
       {/* Why Choose NXTLVL Health Section */}
-      <section className="py-20 px-4 bg-muted/30">
+      <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Clients Choose NXTLVL Health</h2>
@@ -426,167 +533,43 @@ const WellnessClinic = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
-            {[
-              "We listen closely and take time to understand your story",
-              "We only recommend what's needed and explain everything clearly",
-              "We create plans that fit your lifestyle, not just cookie-cutter protocols",
-              "We use the latest in nutritional medicine, herbal care, and functional testing",
-              "We truly care, and it shows in everything we do"
-            ].map((item, index) => (
-              <Card key={index}>
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">{item}</span>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-
-          <div className="text-center">
-            <p className="text-lg text-muted-foreground max-w-4xl mx-auto mb-8">
-              Our clients say they feel <strong>safe, understood, and empowered</strong> here. That means the world to us.
-            </p>
-            
-            <Button asChild className="text-base px-6 py-3">
-              <a href="https://nxtlvlhealth.com.au/book-now/">
-                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                </svg>
-                Book a Free 15-Min Consult
-              </a>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* Support for Every Step Section */}
-      <section className="py-20 px-4">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Support for Every Step of Your Health Journey</h2>
-          </div>
-
-          {/* Image */}
-          <div className="mb-12">
-            <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-standing-next-to-female-patient-thats-lying-down-while-he-checks-her-vitals-scaled.jpeg" 
-              alt="Naturopath standing next to female patient checking her vitals at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
-          </div>
-
-          <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground text-center">
-            <p>
-              Maybe you've been to lots of doctors. Maybe you've tried everything and still don't feel right.
-            </p>
-            <p>
-              <strong>You're not alone.</strong>
-            </p>
-            <p>
-              At NXTLVL Health, we help people who feel like they've <strong>hit a wall with their health</strong>. You may have been told "your tests are fine" or "just manage your stress." But deep down, you know something's still off.
-            </p>
-            <p>
-              We help you find answers. We don't just focus on the diagnosis. We look at the <strong>underlying causes</strong>.
-            </p>
-            <p>
-              Whether you're a busy parent, a student, or someone rebuilding after burnout, we're here to <strong>meet you where you are</strong>. For those seeking a range of allied health services tailored to individual needs, Mater Health and Wellness also provides such options.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Meet Mitch Section */}
-      <section className="py-20 px-4 bg-muted/30">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Meet Mitch – Lead Practitioner at NXTLVL Health</h2>
-          </div>
-
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
-                <p>
-                  Mitch is a <strong>degree-qualified naturopath</strong> with a strong background in herbal medicine, nutritional science, and holistic health. With <strong>years of hands-on experience</strong> helping clients of all ages, he specialises in:
-                </p>
-              </div>
-              <ul className="space-y-4">
-                {[
-                  "Gut health and digestion",
-                  "Women's health and hormones",
-                  "Mental health and nervous system support",
-                  "Chronic stress and fatigue",
-                  "Skin and immunity"
-                ].map((item, index) => (
-                  <li key={index} className="flex items-start space-x-3">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">{item}</span>
-                  </li>
-                ))}
-              </ul>
-              <div className="mt-6 p-6 bg-primary/10 rounded-lg">
-                <p className="text-lg font-medium text-foreground">
-                  His approach is <strong>calm, clear, and practical</strong>. You'll never feel rushed, judged, or overwhelmed. Just <strong>supported, informed, and in control</strong> again.
-                </p>
-              </div>
-
-              <div className="flex justify-center pt-4">
-                <Button asChild className="text-base px-6 py-3">
-                  <a href="https://nxtlvlhealth.com.au/book-now/">
-                    <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                    </svg>
-                    Book a Free 15-Min Consult
-                  </a>
-                </Button>
-              </div>
-            </div>
-            {/* Image */}
-            <div className="relative">
-              <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
-                alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* First Appointment Section */}
-      <section className="py-20 px-4">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Your First Appointment – What to Expect</h2>
-            <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Your first appointment is a <strong>deep dive into your health</strong>. You'll feel safe, heard, and supported.
-            </p>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-2xl text-primary">What we'll do:</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-4">
-                  {[
-                    "Talk through your symptoms, lifestyle, and health goals",
-                    "Review any past test results or diagnoses",
-                    "Recommend testing (only if it's needed)",
-                    "Build a clear, tailored plan just for you"
-                  ].map((item, index) => (
-                    <li key={index} className="flex items-start space-x-3">
-                      <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-muted-foreground">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-                <div className="mt-6 p-6 bg-primary/10 rounded-lg">
-                  <p className="text-lg font-medium text-foreground">
-                    And we'll keep the plan simple. You won't leave with a list of 50 things to do. Just <strong>real steps</strong>, chosen just for you.
-                  </p>
+            <Card className="bg-white shadow-md">
+              <CardContent className="p-6">
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">We listen closely and take time to understand your story</span>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="bg-white shadow-md">
+              <CardContent className="p-6">
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">We only recommend what's needed and explain everything clearly</span>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="bg-white shadow-md">
+              <CardContent className="p-6">
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">We create plans that fit your lifestyle, not just cookie-cutter protocols</span>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="bg-white shadow-md">
+              <CardContent className="p-6">
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">We use the latest in nutritional medicine, herbal care, and functional testing</span>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="bg-white shadow-md md:col-span-2">
+              <CardContent className="p-6">
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">We create a warm, real approach that puts you back in charge of your body</span>
                 </div>
               </CardContent>
             </Card>
@@ -594,138 +577,223 @@ const WellnessClinic = () => {
         </div>
       </section>
 
-      {/* Natural Therapies Section */}
+      {/* Support for Every Step Section */}
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Natural Therapies That Work With Your Life</h2>
-            <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              We know you're busy. That's why our plans are made to <strong>work in real life</strong>, not in some perfect world.
-            </p>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Support for Every Step of Your Health Journey</h2>
           </div>
 
-          <div className="mb-12">
-            <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/01/DSC_4545-scaled.jpeg" 
-              alt="Natural therapies consultation at NXTLVL Health Brisbane" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
-            {[
-              "Simple food swaps",
-              "Easy lifestyle upgrades",
-              "Supportive supplements",
-              "Gentle herbal remedies",
-              "Practical stress support techniques"
-            ].map((item, index) => (
-              <Card key={index}>
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">{item}</span>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-
-          <div className="text-center">
-            <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              We'll also show you how to <strong>make these changes stick</strong> so you feel the benefits for the long term.
-            </p>
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+            <div className="space-y-6">
+              <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
+                <p>
+                  Your <strong>health journey doesn't end</strong> when you walk out the door. We're here for <strong>the ups, the downs, and everything in between</strong>.
+                </p>
+                <p>
+                  Whether you need to <strong>adjust your plan, try something new, or just check in</strong> to see how you're feeling, we're here to support you.
+                </p>
+                <p>
+                  We want to be your <strong>trusted health allies</strong> for years to come.
+                </p>
+              </div>
+              <div className="mt-6 p-6 bg-primary/10 rounded-lg">
+                <p className="text-lg font-medium text-foreground">
+                  <strong>Your wellness matters to us</strong>, and we're committed to walking this journey with you.
+                </p>
+              </div>
+            </div>
+            {/* Image */}
+            <div className="relative">
+              <img 
+                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-standing-next-to-female-patient-thats-lying-down-while-he-checks-her-vitals-scaled.jpeg" 
+                alt="Naturopath standing next to female patient that's lying down while he checks her vitals at NXTLVL Health" 
+                className="rounded-2xl shadow-lg w-full h-auto" 
+              />
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Warm Space Section */}
+      {/* Natural Therapies Section */}
       <section className="py-20 px-4">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Natural Therapies That Work With Your Life</h2>
+            <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
+              We believe the <strong>best health solutions are ones that fit into your real life</strong>. Our natural therapies are designed to be practical, sustainable, and effective.
+            </p>
+          </div>
+
+          {/* Image */}
+          <div className="mb-12">
+            <img 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/01/DSC_4545-scaled.jpeg" 
+              alt="Natural therapies and treatments at NXTLVL Health" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+            />
+          </div>
+
+          <div className="max-w-4xl mx-auto space-y-8">
+            <div className="grid md:grid-cols-2 gap-6">
+              <Card className="bg-white shadow-md">
+                <CardContent className="p-6">
+                  <div className="flex items-start space-x-3">
+                    <Leaf className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                    <div>
+                      <h3 className="text-lg font-semibold mb-2">Gentle and Effective</h3>
+                      <p className="text-muted-foreground">Our treatments work with your body's natural healing processes</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card className="bg-white shadow-md">
+                <CardContent className="p-6">
+                  <div className="flex items-start space-x-3">
+                    <Target className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                    <div>
+                      <h3 className="text-lg font-semibold mb-2">Evidence-Based</h3>
+                      <p className="text-muted-foreground">We use scientifically-backed natural therapies for real results</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card className="bg-white shadow-md">
+                <CardContent className="p-6">
+                  <div className="flex items-start space-x-3">
+                    <Users className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                    <div>
+                      <h3 className="text-lg font-semibold mb-2">Personalised Care</h3>
+                      <p className="text-muted-foreground">Every treatment plan is tailored specifically to your needs</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card className="bg-white shadow-md">
+                <CardContent className="p-6">
+                  <div className="flex items-start space-x-3">
+                    <Shield className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                    <div>
+                      <h3 className="text-lg font-semibold mb-2">Safe and Natural</h3>
+                      <p className="text-muted-foreground">Minimal side effects with maximum health benefits</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* A Warm Space Section */}
+      <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">A Warm, Non-Judgemental Space</h2>
           </div>
 
-          {/* Image */}
-          <div className="mb-12">
-            <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/KzhzvfYCqwWucZxbOivI.png" 
-              alt="Warm and welcoming wellness clinic space at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-lg mx-auto h-auto" 
-            />
-          </div>
-
-          <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground text-center">
-            <p>
-              We believe care should feel <strong>kind, not clinical</strong>. Our wellness clinic is a <strong>peaceful, calm space</strong> where you'll feel welcomed from the minute you walk in.
-            </p>
-            <p>
-              Whether you're just starting your journey or looking for the next level in your care, we'll <strong>meet you where you are</strong> and help you move forward with confidence.
-            </p>
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+            <div className="space-y-6">
+              <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
+                <p>
+                  We know that sharing your <strong>health concerns can feel vulnerable</strong>. That's why we've created a space where you can feel completely comfortable and safe.
+                </p>
+                <p>
+                  No matter what you're going through, <strong>we're here to listen without judgment</strong>. You'll never feel rushed, dismissed, or misunderstood.
+                </p>
+                <p>
+                  Our clinic is designed to be a <strong>peaceful, welcoming environment</strong> where you can relax and focus on your healing.
+                </p>
+              </div>
+              <div className="mt-6 p-6 bg-primary/10 rounded-lg">
+                <p className="text-lg font-medium text-foreground">
+                  <strong>You deserve to be heard, understood, and supported</strong> on your wellness journey.
+                </p>
+              </div>
+            </div>
+            {/* Image */}
+            <div className="relative">
+              <img 
+                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/KzhzvfYCqwWucZxbOivI.png" 
+                alt="Warm and welcoming clinic space at NXTLVL Health" 
+                className="rounded-2xl shadow-lg w-full h-auto max-w-md mx-auto" 
+              />
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Community Section */}
-      <section className="py-20 px-4 bg-muted/30">
+      {/* Join the NXTLVL Health Community Section */}
+      <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Join the NXTLVL Health Community</h2>
           </div>
 
-          {/* Image */}
-          <div className="mb-12">
-            <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-checking-a-patients-blood-pressure-scaled.jpeg" 
-              alt="Naturopath checking a patient's blood pressure at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
-          </div>
-
-          <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground text-center">
-            <p>
-              We love being part of the <strong>New Farm and greater Brisbane community</strong>. Our clients come from all across Brisbane, Fortitude Valley, Newstead, Spring Hill, and beyond.
-            </p>
-            <p>
-              Some work with us weekly. Others come in monthly. Some just check in when they need extra support. <strong>However you need us, we're here</strong>. For added convenience, Mater Health and Wellness is also accessible via telehealth, offering flexibility for those who need it.
-            </p>
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+            <div className="space-y-6">
+              <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
+                <p>
+                  When you choose NXTLVL Health, you're not just getting a naturopath. You're joining a <strong>community of people who care about wellness</strong> and want to support each other.
+                </p>
+                <p>
+                  We're proud to be part of the <strong>Brisbane wellness community</strong>, helping people from all walks of life feel their best.
+                </p>
+                <p>
+                  Whether you're taking your <strong>first steps toward better health</strong> or you're looking for ongoing support, we're here to welcome you with open arms.
+                </p>
+              </div>
+              <div className="mt-6 p-6 bg-primary/10 rounded-lg">
+                <p className="text-lg font-medium text-foreground">
+                  <strong>Ready to start feeling like yourself again?</strong> We'd love to meet you.
+                </p>
+              </div>
+            </div>
+            {/* Image */}
+            <div className="relative">
+              <img 
+                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-checking-a-patients-blood-pressure-scaled.jpeg" 
+                alt="Naturopath checking a patient's blood pressure at NXTLVL Health" 
+                className="rounded-2xl shadow-lg w-full h-auto" 
+              />
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Final CTA Section */}
+      {/* Call to Action Section */}
       <section className="py-20 px-4 bg-primary/5">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Book Your Appointment at NXTLVL Health</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Ready to Feel Like Yourself Again?</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
               <p>
-                You don't need to stay stuck in <strong>pain, fatigue, or confusion</strong>.
+                If you're tired of feeling tired, stressed, or just not quite right, <strong>we're here to help</strong>. Our Brisbane wellness clinic offers the gentle, effective care you've been looking for.
               </p>
               <p>
-                NXTLVL Health is your <strong>local, trusted wellness clinic</strong> Brisbane locals rely on for real results. We'll walk with you every step of the way, helping you <strong>feel more like yourself</strong> again.
-              </p>
-              <h3 className="text-2xl font-bold text-foreground">Ready to take the next step?</h3>
-              <p>
-                Book your first appointment today and let's start your journey toward <strong>better energy, better sleep, and a better life</strong> together.
+                Book your consultation with Mitch at NXTLVL Health today and <strong>take the first step toward better health</strong>.
               </p>
             </div>
-
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild className="text-base sm:text-lg px-6 py-4">
-                <a href="https://nxtlvlhealth.com.au/book-now/">
-                  <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                  </svg>
+              <Button 
+                asChild 
+                size="lg" 
+                className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3"
+              >
+                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                  <Calendar className="mr-2 h-5 w-5" />
                   Book a Free 15-Min Consult
                 </a>
               </Button>
-              <Button variant="outline" asChild className="text-base sm:text-lg px-6 py-4">
+              <Button 
+                variant="outline" 
+                size="lg" 
+                asChild 
+                className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3"
+              >
                 <a href="tel:0731808853">
-                  <svg className="mr-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
-                  </svg>
-                  Call Mitch Today
+                  <Phone className="mr-2 h-4 w-4" />
+                  Call Mitch
                 </a>
               </Button>
             </div>
