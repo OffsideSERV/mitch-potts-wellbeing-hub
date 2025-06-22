@@ -44,7 +44,7 @@ const WellnessClinic = () => {
                     <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                     </svg>
-                    <span className="text-center">Book an Appointment Today</span>
+                    <span className="text-center">Free 15-Min Consult</span>
                   </a>
                 </Button>
                 <Button 
@@ -176,6 +176,17 @@ const WellnessClinic = () => {
                   We're here to help you find the balance again.
                 </p>
               </div>
+
+              <div className="flex justify-center pt-4">
+                <Button asChild className="text-base px-6 py-3">
+                  <a href="https://nxtlvlhealth.com.au/book-now/">
+                    <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    </svg>
+                    Free 15-Min Consult
+                  </a>
+                </Button>
+              </div>
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
@@ -246,12 +257,30 @@ const WellnessClinic = () => {
             </p>
           </div>
 
+          {/* Image */}
+          <div className="mb-12">
+            <img 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/DSC_4578-scaled.jpeg" 
+              alt="Natural medicine and wellness clinic facilities at NXTLVL Health" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+            />
+          </div>
+
           <div className="grid lg:grid-cols-2 gap-8 mb-12">
             {/* Left Column */}
             <div className="space-y-8">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-xl text-primary">Herbal Medicine</CardTitle>
+                  <CardTitle className="text-xl text-primary">
+                    <a 
+                      href="https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/herbal-medicine"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-primary/80 underline"
+                    >
+                      Herbal Medicine
+                    </a>
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
@@ -308,6 +337,17 @@ const WellnessClinic = () => {
               </Card>
             </div>
           </div>
+
+          <div className="flex justify-center">
+            <Button asChild className="text-base px-6 py-3">
+              <a href="https://nxtlvlhealth.com.au/book-now/">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Free 15-Min Consult
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
 
@@ -319,6 +359,15 @@ const WellnessClinic = () => {
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
               Our wellness services support many kinds of health issues, including:
             </p>
+          </div>
+
+          {/* Image */}
+          <div className="mb-12">
+            <img 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
+              alt="Naturopath showing patient results on a computer at NXTLVL Health" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+            />
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
@@ -387,9 +436,18 @@ const WellnessClinic = () => {
           </div>
 
           <div className="text-center">
-            <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
+            <p className="text-lg text-muted-foreground max-w-4xl mx-auto mb-8">
               Our clients say they feel safe, understood, and empowered here. That means the world to us.
             </p>
+            
+            <Button asChild className="text-base px-6 py-3">
+              <a href="https://nxtlvlhealth.com.au/book-now/">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Free 15-Min Consult
+              </a>
+            </Button>
           </div>
         </div>
       </section>
@@ -454,6 +512,17 @@ const WellnessClinic = () => {
                   His approach is calm, clear, and practical. You'll never feel rushed, judged, or overwhelmed. Just supported, informed, and in control again.
                 </p>
               </div>
+
+              <div className="flex justify-center pt-4">
+                <Button asChild className="text-base px-6 py-3">
+                  <a href="https://nxtlvlhealth.com.au/book-now/">
+                    <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    </svg>
+                    Free 15-Min Consult
+                  </a>
+                </Button>
+              </div>
             </div>
             {/* Image */}
             <div className="relative">
@@ -515,6 +584,14 @@ const WellnessClinic = () => {
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
               We know you're busy. That's why our plans are made to work in real life, not in some perfect world.
             </p>
+          </div>
+
+          <div class="mb-12">
+            <img 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+              alt="Natural therapies consultation at NXTLVL Health Brisbane" 
+              class="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+            />
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
@@ -604,7 +681,7 @@ const WellnessClinic = () => {
                   <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                   </svg>
-                  Book Your Appointment Today
+                  Free 15-Min Consult
                 </a>
               </Button>
               <Button variant="outline" asChild className="text-base sm:text-lg px-6 py-4">
