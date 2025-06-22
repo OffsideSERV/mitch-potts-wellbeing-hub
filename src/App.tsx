@@ -17,6 +17,7 @@ import NorthBrisbaneNaturopathy from "./pages/NorthBrisbaneNaturopathy";
 import NewsteadNaturopathy from "./pages/NewsteadNaturopathy";
 import NewFarmNaturopathy from "./pages/NewFarmNaturopathy";
 import IBSNaturopathy from "./pages/IBSNaturopathy";
+import WellnessClinic from "./pages/WellnessClinic";
 import Areas from "./pages/Areas";
 import NotFound from "./pages/NotFound";
 
@@ -42,6 +43,7 @@ const App = () => (
           <Route path="/newstead-naturopathy" element={<NewsteadNaturopathy />} />
           <Route path="/new-farm-naturopathy" element={<NewFarmNaturopathy />} />
           <Route path="/ibs-naturopathy" element={<IBSNaturopathy />} />
+          <Route path="/wellness-clinic" element={<WellnessClinic />} />
           <Route path="/areas" element={<Areas />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
