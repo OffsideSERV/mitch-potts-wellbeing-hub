@@ -114,7 +114,7 @@ const WellnessClinic = () => {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-            <div class="space-y-6">
+            <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
                   At NXTLVL Health, we believe you deserve to <strong>feel well</strong>, inside and out. Our wellness clinic in Brisbane is here to help you feel <strong>more energy, better sleep, and less stress</strong> using natural care that makes sense for your life.
@@ -716,7 +716,7 @@ const WellnessClinic = () => {
               <img 
                 src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/KzhzvfYCqwWucZxbOivI.png" 
                 alt="Warm and welcoming clinic space at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto max-w-md mx-auto" 
+                className="rounded-2xl shadow-lg w-full h-auto max-w-sm mx-auto" 
               />
             </div>
           </div>
