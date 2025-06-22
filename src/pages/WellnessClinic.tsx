@@ -108,13 +108,13 @@ const WellnessClinic = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  At NXTLVL Health, we believe you deserve to **feel well**, inside and out. Our wellness clinic in Brisbane is here to help you feel **more energy, better sleep, and less stress** using natural care that makes sense for your life.
+                  At NXTLVL Health, we believe you deserve to <strong>feel well</strong>, inside and out. Our wellness clinic in Brisbane is here to help you feel <strong>more energy, better sleep, and less stress</strong> using natural care that makes sense for your life.
                 </p>
                 <p>
-                  We're not about quick fixes. We're about **real answers and long-term change** to your wellbeing. Whether you need help with your gut, your energy, your hormones, or your mood, our team listens carefully and works with you to create a plan that works.
+                  We're not about quick fixes. We're about <strong>real answers and long-term change</strong> to your wellbeing. Whether you need help with your gut, your energy, your hormones, or your mood, our team listens carefully and works with you to create a plan that works.
                 </p>
                 <p>
-                  Our clinic in New Farm is trusted by people from Fortitude Valley, Spring Hill, Newstead, and all across Brisbane. If you're looking for a **warm, expert-led space** that blends natural care with real results, you've just found your Brisbane wellness clinic.
+                  Our clinic in New Farm is trusted by people from Fortitude Valley, Spring Hill, Newstead, and all across Brisbane. If you're looking for a <strong>warm, expert-led space</strong> that blends natural care with real results, you've just found your Brisbane wellness clinic.
                 </p>
               </div>
             </div>
@@ -137,7 +137,7 @@ const WellnessClinic = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Wellness Looks Different for Everyone</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
-                Everyone's body and life are different. That's why we take a **personalised, gentle approach**. We listen. We care. And we always aim to **get to the root cause** of your health issues, not just cover up symptoms.
+                Everyone's body and life are different. That's why we take a <strong>personalised, gentle approach</strong>. We listen. We care. And we always aim to <strong>get to the root cause</strong> of your health issues, not just cover up symptoms.
               </p>
             </div>
           </div>
@@ -211,10 +211,10 @@ const WellnessClinic = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  We're not just another wellness clinic in Brisbane. We're a **community of caring, passionate health professionals** who want you to feel your best.
+                  We're not just another wellness clinic in Brisbane. We're a <strong>community of caring, passionate health professionals</strong> who want you to feel your best.
                 </p>
                 <p>
-                  When you come to NXTLVL Health, you'll meet a team that includes: Unlike Brisbane Livewell Clinic, which offers Allied Health therapies and Natural Therapies, we focus on **creating a community of care** tailored to your unique needs.
+                  When you come to NXTLVL Health, you'll meet a team that includes: Unlike Brisbane Livewell Clinic, which offers Allied Health therapies and Natural Therapies, we focus on <strong>creating a community of care</strong> tailored to your unique needs.
                 </p>
               </div>
               <ul className="space-y-4">
@@ -231,7 +231,7 @@ const WellnessClinic = () => {
               </ul>
               <div className="mt-6 p-6 bg-primary/10 rounded-lg">
                 <p className="text-lg font-medium text-foreground">
-                  Our goal is simple: **help you enjoy life more**, with less pain and more peace.
+                  Our goal is simple: <strong>help you enjoy life more</strong>, with less pain and more peace.
                 </p>
               </div>
             </div>
@@ -253,7 +253,7 @@ const WellnessClinic = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">What We Offer at Our Wellness Clinic</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              We support your **physical and mental health** with a wide range of natural therapies, including:
+              We support your <strong>physical and mental health</strong> with a wide range of natural therapies, including:
             </p>
           </div>
 
@@ -284,7 +284,7 @@ const WellnessClinic = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    We use western herbal medicine to gently support the body. Herbs like **lemon balm, licorice, or turmeric** can help with inflammation, hormones, stress, and digestion.
+                    We use western herbal medicine to gently support the body. Herbs like <strong>lemon balm, licorice, or turmeric</strong> can help with inflammation, hormones, stress, and digestion.
                   </p>
                 </CardContent>
               </Card>
@@ -295,7 +295,7 @@ const WellnessClinic = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    **Food is powerful**. We use nutritional medicine to help with energy, gut health, and nutrient balance. Whether you need support with weight loss, immune health, or sleep, we'll guide you with **simple, real-world changes**.
+                    <strong>Food is powerful</strong>. We use nutritional medicine to help with energy, gut health, and nutrient balance. Whether you need support with weight loss, immune health, or sleep, we'll guide you with <strong>simple, real-world changes</strong>.
                   </p>
                 </CardContent>
               </Card>
@@ -306,7 +306,7 @@ const WellnessClinic = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Sometimes the answers are deeper. We may recommend testing (if needed) to check **gut bacteria, hormones, or nutrient levels**. This helps us make clear, confident choices with your plan.
+                    Sometimes the answers are deeper. We may recommend testing (if needed) to check <strong>gut bacteria, hormones, or nutrient levels</strong>. This helps us make clear, confident choices with your plan.
                   </p>
                 </CardContent>
               </Card>
@@ -320,7 +320,7 @@ const WellnessClinic = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    What you do every day matters. We help you build **better habits** around sleep, exercise, food, and stress so your body gets the consistent care it needs. **Small changes can make a big difference** in your health and wellness.
+                    What you do every day matters. We help you build <strong>better habits</strong> around sleep, exercise, food, and stress so your body gets the consistent care it needs. <strong>Small changes can make a big difference</strong> in your health and wellness.
                   </p>
                 </CardContent>
               </Card>
@@ -331,7 +331,7 @@ const WellnessClinic = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    We don't just give you a plan and leave you on your own. We **check in with you, tweak things**, and keep walking with you on your health journey.
+                    We don't just give you a plan and leave you on your own. We <strong>check in with you, tweak things</strong>, and keep walking with you on your health journey.
                   </p>
                 </CardContent>
               </Card>
@@ -357,7 +357,7 @@ const WellnessClinic = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">We Work With a Wide Range of Health Concerns</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Our **wellness services** support many kinds of health issues, including:
+              Our <strong>wellness services</strong> support many kinds of health issues, including:
             </p>
           </div>
 
@@ -395,7 +395,7 @@ const WellnessClinic = () => {
 
           <div className="text-center">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Our **holistic approach** blends natural care with science and evidence. We focus on **your whole body**, not just the symptoms.
+              Our <strong>holistic approach</strong> blends natural care with science and evidence. We focus on <strong>your whole body</strong>, not just the symptoms.
             </p>
           </div>
         </div>
@@ -408,10 +408,10 @@ const WellnessClinic = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Clients Choose NXTLVL Health</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
-                There are a lot of places in Brisbane to get help with your health. Health & Healing Wellness Centre, for example, is one of the largest holistic health clinics in Brisbane. **So why choose us?**
+                There are a lot of places in Brisbane to get help with your health. Health & Healing Wellness Centre, for example, is one of the largest holistic health clinics in Brisbane. <strong>So why choose us?</strong>
               </p>
               <p>
-                Here's why people trust NXTLVL Health as their go-to wellness clinic: While other clinics, like Health & Healing Wellness Centre, offer services from chiropractors, acupuncturists, naturopaths, massage therapists, and holistic therapists, we focus on providing a **deeply personalized and caring approach**.
+                Here's why people trust NXTLVL Health as their go-to wellness clinic: While other clinics, like Health & Healing Wellness Centre, offer services from chiropractors, acupuncturists, naturopaths, massage therapists, and holistic therapists, we focus on providing a <strong>deeply personalized and caring approach</strong>.
               </p>
             </div>
           </div>
@@ -446,7 +446,7 @@ const WellnessClinic = () => {
 
           <div className="text-center">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto mb-8">
-              Our clients say they feel **safe, understood, and empowered** here. That means the world to us.
+              Our clients say they feel <strong>safe, understood, and empowered</strong> here. That means the world to us.
             </p>
             
             <Button asChild className="text-base px-6 py-3">
@@ -482,16 +482,16 @@ const WellnessClinic = () => {
               Maybe you've been to lots of doctors. Maybe you've tried everything and still don't feel right.
             </p>
             <p>
-              **You're not alone.**
+              <strong>You're not alone.</strong>
             </p>
             <p>
-              At NXTLVL Health, we help people who feel like they've **hit a wall with their health**. You may have been told "your tests are fine" or "just manage your stress." But deep down, you know something's still off.
+              At NXTLVL Health, we help people who feel like they've <strong>hit a wall with their health</strong>. You may have been told "your tests are fine" or "just manage your stress." But deep down, you know something's still off.
             </p>
             <p>
-              We help you find answers. We don't just focus on the diagnosis. We look at the **underlying causes**.
+              We help you find answers. We don't just focus on the diagnosis. We look at the <strong>underlying causes</strong>.
             </p>
             <p>
-              Whether you're a busy parent, a student, or someone rebuilding after burnout, we're here to **meet you where you are**. For those seeking a range of allied health services tailored to individual needs, Mater Health and Wellness also provides such options.
+              Whether you're a busy parent, a student, or someone rebuilding after burnout, we're here to <strong>meet you where you are</strong>. For those seeking a range of allied health services tailored to individual needs, Mater Health and Wellness also provides such options.
             </p>
           </div>
         </div>
@@ -508,7 +508,7 @@ const WellnessClinic = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  Mitch is a **degree-qualified naturopath** with a strong background in herbal medicine, nutritional science, and holistic health. With **years of hands-on experience** helping clients of all ages, he specialises in:
+                  Mitch is a <strong>degree-qualified naturopath</strong> with a strong background in herbal medicine, nutritional science, and holistic health. With <strong>years of hands-on experience</strong> helping clients of all ages, he specialises in:
                 </p>
               </div>
               <ul className="space-y-4">
@@ -527,7 +527,7 @@ const WellnessClinic = () => {
               </ul>
               <div className="mt-6 p-6 bg-primary/10 rounded-lg">
                 <p className="text-lg font-medium text-foreground">
-                  His approach is **calm, clear, and practical**. You'll never feel rushed, judged, or overwhelmed. Just **supported, informed, and in control** again.
+                  His approach is <strong>calm, clear, and practical</strong>. You'll never feel rushed, judged, or overwhelmed. Just <strong>supported, informed, and in control</strong> again.
                 </p>
               </div>
 
@@ -560,7 +560,7 @@ const WellnessClinic = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Your First Appointment – What to Expect</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Your first appointment is a **deep dive into your health**. You'll feel safe, heard, and supported.
+              Your first appointment is a <strong>deep dive into your health</strong>. You'll feel safe, heard, and supported.
             </p>
           </div>
 
@@ -585,7 +585,7 @@ const WellnessClinic = () => {
                 </ul>
                 <div className="mt-6 p-6 bg-primary/10 rounded-lg">
                   <p className="text-lg font-medium text-foreground">
-                    And we'll keep the plan simple. You won't leave with a list of 50 things to do. Just **real steps**, chosen just for you.
+                    And we'll keep the plan simple. You won't leave with a list of 50 things to do. Just <strong>real steps</strong>, chosen just for you.
                   </p>
                 </div>
               </CardContent>
@@ -600,7 +600,7 @@ const WellnessClinic = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Natural Therapies That Work With Your Life</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              We know you're busy. That's why our plans are made to **work in real life**, not in some perfect world.
+              We know you're busy. That's why our plans are made to <strong>work in real life</strong>, not in some perfect world.
             </p>
           </div>
 
@@ -633,7 +633,7 @@ const WellnessClinic = () => {
 
           <div className="text-center">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              We'll also show you how to **make these changes stick** so you feel the benefits for the long term.
+              We'll also show you how to <strong>make these changes stick</strong> so you feel the benefits for the long term.
             </p>
           </div>
         </div>
@@ -651,16 +651,16 @@ const WellnessClinic = () => {
             <img 
               src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/KzhzvfYCqwWucZxbOivI.png" 
               alt="Warm and welcoming wellness clinic space at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+              className="rounded-2xl shadow-lg w-full max-w-lg mx-auto h-auto" 
             />
           </div>
 
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground text-center">
             <p>
-              We believe care should feel **kind, not clinical**. Our wellness clinic is a **peaceful, calm space** where you'll feel welcomed from the minute you walk in.
+              We believe care should feel <strong>kind, not clinical</strong>. Our wellness clinic is a <strong>peaceful, calm space</strong> where you'll feel welcomed from the minute you walk in.
             </p>
             <p>
-              Whether you're just starting your journey or looking for the next level in your care, we'll **meet you where you are** and help you move forward with confidence.
+              Whether you're just starting your journey or looking for the next level in your care, we'll <strong>meet you where you are</strong> and help you move forward with confidence.
             </p>
           </div>
         </div>
@@ -684,10 +684,10 @@ const WellnessClinic = () => {
 
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground text-center">
             <p>
-              We love being part of the **New Farm and greater Brisbane community**. Our clients come from all across Brisbane, Fortitude Valley, Newstead, Spring Hill, and beyond.
+              We love being part of the <strong>New Farm and greater Brisbane community</strong>. Our clients come from all across Brisbane, Fortitude Valley, Newstead, Spring Hill, and beyond.
             </p>
             <p>
-              Some work with us weekly. Others come in monthly. Some just check in when they need extra support. **However you need us, we're here**. For added convenience, Mater Health and Wellness is also accessible via telehealth, offering flexibility for those who need it.
+              Some work with us weekly. Others come in monthly. Some just check in when they need extra support. <strong>However you need us, we're here</strong>. For added convenience, Mater Health and Wellness is also accessible via telehealth, offering flexibility for those who need it.
             </p>
           </div>
         </div>
@@ -700,14 +700,14 @@ const WellnessClinic = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Book Your Appointment at NXTLVL Health</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
               <p>
-                You don't need to stay stuck in **pain, fatigue, or confusion**.
+                You don't need to stay stuck in <strong>pain, fatigue, or confusion</strong>.
               </p>
               <p>
-                NXTLVL Health is your **local, trusted wellness clinic** Brisbane locals rely on for real results. We'll walk with you every step of the way, helping you **feel more like yourself** again.
+                NXTLVL Health is your <strong>local, trusted wellness clinic</strong> Brisbane locals rely on for real results. We'll walk with you every step of the way, helping you <strong>feel more like yourself</strong> again.
               </p>
               <h3 className="text-2xl font-bold text-foreground">Ready to take the next step?</h3>
               <p>
-                Book your first appointment today and let's start your journey toward **better energy, better sleep, and a better life** together.
+                Book your first appointment today and let's start your journey toward <strong>better energy, better sleep, and a better life</strong> together.
               </p>
             </div>
 
