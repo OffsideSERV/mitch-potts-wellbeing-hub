@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Activity, Users, Brain, Zap } from "lucide-react";
@@ -39,11 +40,11 @@ const SIBONaturopathy = () => {
                   asChild 
                   className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight"
                 >
-                  <a href="https://nxtlvlhealth.com.au/book-now/">
+                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                     <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                     </svg>
-                    <span className="text-center">Book an Appointment Today!</span>
+                    <span className="text-center">Book a Free 15-Min Consult!</span>
                   </a>
                 </Button>
                 <Button 
@@ -107,13 +108,13 @@ const SIBONaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  If your gut always feels bloated, uncomfortable, or unpredictable, you may have something called SIBO — short for Small Intestinal Bacterial Overgrowth.
+                  If your gut always feels <strong>bloated, uncomfortable, or unpredictable</strong>, you may have something called <strong>SIBO</strong> — short for Small Intestinal Bacterial Overgrowth.
                 </p>
                 <p>
-                  At NXTLVL Health, we specialise in helping people understand and naturally treat SIBO using evidence-based naturopathic medicine, functional testing, and personalised care plans.
+                  At NXTLVL Health, we specialise in helping people understand and <strong>naturally treat SIBO</strong> using evidence-based naturopathic medicine, functional testing, and personalised care plans.
                 </p>
                 <p>
-                  You don't need to live with constant discomfort. Let's help you get to the root cause and find lasting relief.
+                  You don't need to live with constant discomfort. Let's help you <strong>get to the root cause</strong> and find lasting relief.
                 </p>
               </div>
             </div>
@@ -126,6 +127,18 @@ const SIBONaturopathy = () => {
               />
             </div>
           </div>
+
+          {/* CTA */}
+          <div className="text-center">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult!
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
 
@@ -136,7 +149,7 @@ const SIBONaturopathy = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">What Is SIBO?</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
-                SIBO happens when bacteria that should live in your large intestine start growing in your small intestine instead. This bacterial overgrowth can cause a range of uncomfortable symptoms and interfere with proper digestion and nutrient absorption.
+                SIBO happens when <strong>bacteria that should live in your large intestine</strong> start growing in your small intestine instead. This bacterial overgrowth can cause a range of <strong>uncomfortable symptoms</strong> and interfere with proper <strong>digestion and nutrient absorption</strong>.
               </p>
             </div>
           </div>
@@ -221,6 +234,14 @@ const SIBONaturopathy = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">How We Help at NXTLVL Health</h2>
+            {/* Added Image */}
+            <div className="mb-12">
+              <img 
+                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4503-scaled.jpeg" 
+                alt="NXTLVL Health naturopath consultation room" 
+                className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+              />
+            </div>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -239,6 +260,18 @@ const SIBONaturopathy = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+
+          {/* CTA */}
+          <div className="text-center mt-12">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult!
+              </a>
+            </Button>
           </div>
         </div>
       </section>
@@ -359,6 +392,14 @@ const SIBONaturopathy = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Do You Have SIBO?</h2>
+            {/* Added Image */}
+            <div className="mb-12">
+              <img 
+                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Sad-woman-dealing-with-gut-issues-and-bloating-scaled.jpeg" 
+                alt="Woman dealing with gut issues and bloating" 
+                className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+              />
+            </div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
@@ -379,6 +420,18 @@ const SIBONaturopathy = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+
+          {/* CTA */}
+          <div className="text-center mt-12">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult!
+              </a>
+            </Button>
           </div>
         </div>
       </section>
@@ -442,6 +495,14 @@ const SIBONaturopathy = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Natural Treatments We Use for SIBO</h2>
+            {/* Added Image */}
+            <div className="mb-12">
+              <img 
+                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/01/DSC_4546-scaled.jpeg" 
+                alt="Natural treatments and supplements for SIBO at NXTLVL Health" 
+                className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+              />
+            </div>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-8">
@@ -473,7 +534,7 @@ const SIBONaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  To break down food, absorb nutrients, and support bile flow and small intestine health.
+                  To <strong>break down food</strong>, absorb nutrients, and support <strong>bile flow</strong> and small intestine health.
                 </p>
               </CardContent>
             </Card>
@@ -540,6 +601,18 @@ const SIBONaturopathy = () => {
                 </ul>
               </CardContent>
             </Card>
+          </div>
+
+          {/* CTA */}
+          <div className="text-center mt-12">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult!
+              </a>
+            </Button>
           </div>
         </div>
       </section>
@@ -644,24 +717,24 @@ const SIBONaturopathy = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Your Next Step</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
               <p>
-                If you're struggling with ongoing bloating, pain, or unpredictable digestion and nothing has worked, it may be time to treat SIBO from the root. At NXTLVL Health, we help uncover the real cause, reduce symptoms, and help you rebuild trust in your gut.
+                If you're struggling with <strong>ongoing bloating, pain, or unpredictable digestion</strong> and nothing has worked, it may be time to <strong>treat SIBO from the root</strong>. At NXTLVL Health, we help uncover the real cause, reduce symptoms, and help you rebuild trust in your gut.
               </p>
               <h3 className="text-2xl font-bold text-foreground">Ready to feel better?</h3>
               <p>
-                Book your first SIBO naturopath consult today with Mitch at NXTLVL Health. Let's give your small intestine the help it needs so you can finally feel clear, light, and well again.
+                Book your first SIBO naturopath consult today with Mitch at NXTLVL Health. Let's give your small intestine the help it needs so you can finally feel <strong>clear, light, and well again</strong>.
               </p>
               <p>
-                You don't have to live in discomfort. We're here to help you heal naturally.
+                You don't have to live in discomfort. We're here to help you <strong>heal naturally</strong>.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild className="text-base sm:text-lg px-6 py-4">
-                <a href="https://nxtlvlhealth.com.au/book-now/">
+                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                   <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                   </svg>
-                  Book Your SIBO Consultation Today
+                  Book a Free 15-Min Consult!
                 </a>
               </Button>
               <Button variant="outline" asChild className="text-base sm:text-lg px-6 py-4">
