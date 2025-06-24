@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -199,17 +198,17 @@ const Services = () => {
         </div>
       </section>
 
-      {/* Diagnostic Tool Section */}
+      {/* Advanced Screening Tool Section */}
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">A Diagnostic Tool That Makes Healing Personal</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">An Advanced Screening Tool That Makes Healing Personal</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
                 This isn't generic advice. <strong>Live blood cell analysis will help us understand your body</strong> in a more dynamic, personal way than standard pathology tests alone.
               </p>
               <p>
-                We use live blood analysis as a <strong>key diagnostic test to help guide us</strong> when creating your personalised treatment plan. We may pick up indicators of:
+                We use live blood analysis as a <strong>key screening tool to help guide us</strong> when creating your personalised treatment plan. We may pick up indicators of:
               </p>
             </div>
           </div>
