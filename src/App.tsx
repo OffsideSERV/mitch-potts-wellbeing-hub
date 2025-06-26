@@ -1,60 +1,46 @@
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './App.css';
+import Home from './pages/Home';
+import Services from './pages/Services';
+import Contact from './pages/Contact';
+import About from './pages/About';
+import Naturopathy from './pages/Naturopathy';
+import GutHealth from './pages/GutHealth';
+import FatigueTreatment from './pages/FatigueTreatment';
+import HormoneImbalance from './pages/HormoneImbalance';
+import MensHealth from './pages/MensHealth';
+import WomensHealth from './pages/WomensHealth';
+import WeightLoss from './pages/WeightLoss';
+import SkinConditions from './pages/SkinConditions';
+import PainManagement from './pages/PainManagement';
+import WellnessClinic from './pages/WellnessClinic';
+import IBSTreatmentBrisbane from "./pages/IBSTreatmentBrisbane";
 
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
-import Services from "./pages/Services";
-import MLSLaser from "./pages/MLSLaser";
-import PersonalTraining from "./pages/PersonalTraining";
-import GutHealth from "./pages/GutHealth";
-import GutHealthSpecialist from "./pages/GutHealthSpecialist";
-import WeightLoss from "./pages/WeightLoss";
-import ThyroidNaturopathy from "./pages/ThyroidNaturopathy";
-import Diabetes from "./pages/Diabetes";
-import ChildrensHealth from "./pages/ChildrensHealth";
-import NorthBrisbaneNaturopathy from "./pages/NorthBrisbaneNaturopathy";
-import NewsteadNaturopathy from "./pages/NewsteadNaturopathy";
-import NewFarmNaturopathy from "./pages/NewFarmNaturopathy";
-import IBSNaturopathy from "./pages/IBSNaturopathy";
-import SIBONaturopathy from "./pages/SIBONaturopathy";
-import WellnessClinic from "./pages/WellnessClinic";
-import Areas from "./pages/Areas";
-import NotFound from "./pages/NotFound";
-
-const queryClient = new QueryClient();
-
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
+function App() {
+  return (
+    <BrowserRouter>
+      <div className="App">
         <Routes>
-          <Route path="/" element={<Index />} />
+          <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/mls-laser" element={<MLSLaser />} />
-          <Route path="/personal-training" element={<PersonalTraining />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/naturopathy" element={<Naturopathy />} />
           <Route path="/gut-health" element={<GutHealth />} />
-          <Route path="/gut-health-specialist" element={<GutHealthSpecialist />} />
+          <Route path="/fatigue-treatment" element={<FatigueTreatment />} />
+          <Route path="/hormone-imbalance" element={<HormoneImbalance />} />
+          <Route path="/mens-health" element={<MensHealth />} />
+          <Route path="/womens-health" element={<WomensHealth />} />
           <Route path="/weight-loss" element={<WeightLoss />} />
-          <Route path="/thyroid-naturopathy" element={<ThyroidNaturopathy />} />
-          <Route path="/diabetes" element={<Diabetes />} />
-          <Route path="/childrens-health" element={<ChildrensHealth />} />
-          <Route path="/north-brisbane-naturopathy" element={<NorthBrisbaneNaturopathy />} />
-          <Route path="/newstead-naturopathy" element={<NewsteadNaturopathy />} />
-          <Route path="/new-farm-naturopathy" element={<NewFarmNaturopathy />} />
-          <Route path="/ibs-naturopathy" element={<IBSNaturopathy />} />
-          <Route path="/sibo-naturopathy" element={<SIBONaturopathy />} />
+          <Route path="/skin-conditions" element={<SkinConditions />} />
+          <Route path="/pain-management" element={<PainManagement />} />
           <Route path="/wellness-clinic" element={<WellnessClinic />} />
-          <Route path="/areas" element={<Areas />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
+          <Route path="/ibs-treatment-brisbane" element={<IBSTreatmentBrisbane />} />
         </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
-  </QueryClientProvider>
-);
+      </div>
+    </BrowserRouter>
+  );
+}
 
 export default App;
