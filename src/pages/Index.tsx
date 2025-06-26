@@ -240,15 +240,6 @@ const Index = () => {
               </CardContent>
             </Card>
           </div>
-
-          <div className="text-center">
-            <Button size="lg" className="text-base sm:text-lg px-6 py-4 h-auto" asChild>
-              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
-                <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
-                Book a Free 15-Min Consult
-              </a>
-            </Button>
-          </div>
         </div>
       </section>
 
@@ -319,15 +310,6 @@ const Index = () => {
           <div className="mb-12">
             <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" alt="Naturopath performing live blood analysis at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
-
-          <div className="text-center">
-            <Button size="lg" className="text-base sm:text-lg px-6 py-4 h-auto" asChild>
-              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
-                <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
-                Book a Free 15-Min Consult
-              </a>
-            </Button>
-          </div>
         </div>
       </section>
 
@@ -336,6 +318,10 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">What Makes NXTLVL Health Different?</h2>
+          </div>
+
+          <div className="mb-12">
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-standing-next-to-female-patient-thats-lying-down-while-he-checks-her-vitals-scaled.jpeg" alt="Naturopath checking patient vitals at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-16">
@@ -374,6 +360,10 @@ const Index = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Our Natural Health Services</h2>
           </div>
 
+          <div className="mb-12">
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/01/DSC_4546-scaled.jpeg" alt="Natural health services at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+          </div>
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             {services.map((service, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
@@ -391,15 +381,6 @@ const Index = () => {
               </Card>
             ))}
           </div>
-
-          <div className="text-center">
-            <Button size="lg" className="text-base sm:text-lg px-6 py-4 h-auto" asChild>
-              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
-                <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
-                Book a Free 15-Min Consult
-              </a>
-            </Button>
-          </div>
         </div>
       </section>
 
@@ -408,6 +389,10 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">What We Help With</h2>
+          </div>
+
+          <div className="mb-12">
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/DSC_4530-scaled.jpeg" alt="Health conditions we help with at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-16">
@@ -434,18 +419,16 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Children's Health: Naturopathy for Kids</h2>
+          </div>
+
+          <div className="mb-12">
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/AdobeStock_513537271-scaled.jpeg" alt="Children's naturopathic health care" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+          </div>
+
+          <div className="text-center mb-12">
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               We help support children's development and wellbeing through gentle, safe, and natural care. Mitch works closely with parents to create custom plans for issues like eczema, digestive issues, or sleep problems.
             </p>
-          </div>
-
-          <div className="text-center">
-            <Button size="lg" className="text-base sm:text-lg px-6 py-4 h-auto" asChild>
-              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
-                <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
-                Book a Free 15-Min Consult
-              </a>
-            </Button>
           </div>
         </div>
       </section>
@@ -455,6 +438,10 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Mitch is Called the Best Naturopath in Brisbane</h2>
+          </div>
+
+          <div className="mb-12">
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" alt="Mitch Potts - Best naturopath in Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-16">
@@ -515,40 +502,42 @@ const Index = () => {
               If you can't make it to our Brisbane clinic, we've got you. Our online consultations offer the same in-depth support and results. Whether you're managing chronic health conditions or just want to take better care of yourself, we're here.
             </p>
           </div>
-
-          <div className="text-center">
-            <Button size="lg" className="text-base sm:text-lg px-6 py-4 h-auto" asChild>
-              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
-                <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
-                Book a Free 15-Min Consult
-              </a>
-            </Button>
-          </div>
         </div>
       </section>
 
-      {/* This is What You've Been Looking For */}
+      {/* Merged Section: This Is What You've Been Looking For + Ready to Get Your Life Back */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">This is What You've Been Looking For</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-12">
               From hormonal imbalances to chronic skin issues, from digestive discomfort to total burnout — we see you. And we've got a plan to help. You don't need to do this alone.
             </p>
-          </div>
-
-          <div className="text-center">
-            <Button size="lg" className="text-base sm:text-lg px-6 py-4 h-auto" asChild>
-              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
-                <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
-                Book a Free 15-Min Consult
-              </a>
-            </Button>
+            
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6 mt-16">Ready to Get Your Life Back?</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
+              Your symptoms are real. Your healing is possible. Let's do this together.
+            </p>
+            
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3" asChild>
+                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                  <Calendar className="mr-2 h-5 w-5" />
+                  Book a Free 15-Min Consult
+                </a>
+              </Button>
+              <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3" asChild>
+                <a href="tel:0731808853">
+                  <Phone className="mr-2 h-4 w-4" />
+                  Call Mitch Now
+                </a>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Testimonials Section */}
+      {/* Testimonials Section - Now Last */}
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
@@ -565,34 +554,13 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Final CTA Section */}
-      <section className="py-20 px-4 bg-primary/5">
+      {/* Footer */}
+      <footer className="py-8 px-4 bg-foreground text-background">
         <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Ready to Get Your Life Back?</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Your symptoms are real. Your healing is possible. Let's do this together.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3" asChild>
-                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
-                  <Calendar className="mr-2 h-5 w-5" />
-                  Book a Free 15-Min Consult
-                </a>
-              </Button>
-              <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3" asChild>
-                <a href="tel:0731808853">
-                  <Phone className="mr-2 h-4 w-4" />
-                  Call Mitch Now
-                </a>
-              </Button>
-            </div>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 text-center">
+          <div className="grid md:grid-cols-3 gap-8 text-center md:text-left mb-8">
             <div className="space-y-3">
               <h3 className="text-xl font-semibold">NXTLVL Health - Naturopath</h3>
-              <p className="text-muted-foreground">
+              <p className="text-background/80">
                 Suite 2/665 Brunswick St<br />
                 New Farm, QLD 4005<br />
                 Australia
@@ -600,28 +568,24 @@ const Index = () => {
             </div>
             <div className="space-y-3">
               <h3 className="text-xl font-semibold">Contact</h3>
-              <p className="text-muted-foreground">
+              <p className="text-background/80">
                 Phone: (07) 3180 8853<br />
                 Email: info@nxtlvlhealth.com.au
               </p>
             </div>
             <div className="space-y-3">
               <h3 className="text-xl font-semibold">Hours</h3>
-              <p className="text-muted-foreground">
+              <p className="text-background/80">
                 Monday - Friday: 9:00 AM - 7:00 PM<br />
                 Saturday: 8:00 AM - 12:00 PM
               </p>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="py-8 px-4 bg-foreground text-background">
-        <div className="container mx-auto max-w-6xl text-center">
-          <p className="text-sm">
-            © 2025 NXTLVL Health - Mitchell Potts Naturopathy. All rights reserved. | Brisbane, Queensland, Australia
-          </p>
+          <div className="text-center border-t border-background/20 pt-8">
+            <p className="text-sm text-background/80">
+              © 2025 NXTLVL Health - Mitchell Potts Naturopathy. All rights reserved. | Brisbane, Queensland, Australia
+            </p>
+          </div>
         </div>
       </footer>
     </div>;
