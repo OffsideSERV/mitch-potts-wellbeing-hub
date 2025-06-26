@@ -97,13 +97,13 @@ const IBSTreatmentBrisbane = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
               <p>
-                Do you feel bloated, sore, or tired after every meal you eat? Does your tummy always act up, with constipation, diarrhoea, or cramps you just can't explain?
+                Do you feel <strong>bloated, sore, or tired</strong> after every meal you eat? Does your tummy always act up, with <strong>constipation, diarrhoea, or cramps</strong> you just can't explain?
               </p>
               <p>
-                If so, you might be dealing with irritable bowel syndrome (IBS), a chronic condition that can affect every part of your day. But you're not alone. Many IBS sufferers across Brisbane are struggling with the same thing, and here at NXTLVL Health, we're here to help you finally get answers and heal.
+                If so, you might be dealing with <strong>irritable bowel syndrome (IBS)</strong>, a chronic condition that can affect every part of your day. But you're not alone. Many IBS sufferers across Brisbane are struggling with the same thing, and here at NXTLVL Health, we're here to help you <strong>finally get answers and heal</strong>.
               </p>
               <p>
-                Mitch, a trusted naturopath in Brisbane, is experienced in helping IBS patients with personalised care, advanced testing, and natural methods. Together, we'll create a treatment plan that helps you regain control over your life and feel good in your body again.
+                Mitch, a trusted naturopath in Brisbane, is experienced in helping IBS patients with <strong>personalised care, advanced testing, and natural methods</strong>. Together, we'll create a treatment plan that helps you regain control over your life and feel good in your body again.
               </p>
             </div>
           </div>
@@ -129,7 +129,7 @@ const IBSTreatmentBrisbane = () => {
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
               <p>
-                Irritable bowel syndrome (IBS) is a common functional gut disorder that affects the way your digestive system works. It's not the same as inflammatory bowel disease or coeliac disease, but the symptoms can still be severe and deeply uncomfortable. IBS affects 10-20% of the population, with a higher prevalence in women than men.
+                Irritable bowel syndrome (IBS) is a <strong>common functional gut disorder</strong> that affects the way your digestive system works. It's not the same as inflammatory bowel disease or coeliac disease, but the symptoms can still be <strong>severe and deeply uncomfortable</strong>. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4014048/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">IBS affects 10-20% of the population</a>, with a higher prevalence in women than men.
               </p>
             </div>
 
@@ -189,7 +189,7 @@ const IBSTreatmentBrisbane = () => {
 
             <div className="text-center">
               <p className="text-lg text-muted-foreground">
-                But IBS is way more than just a tummy problem. It can lead to anxiety, low energy, and an impaired quality of life. Chronic symptoms of IBS can also result in social embarrassment and isolation, as individuals may avoid social situations due to their symptoms.
+                But IBS is <strong>way more than just a tummy problem</strong>. It can lead to <strong>anxiety, low energy, and an impaired quality of life</strong>. Chronic symptoms of IBS can also result in social embarrassment and isolation, as individuals may avoid social situations due to their symptoms.
               </p>
             </div>
           </div>
@@ -202,7 +202,7 @@ const IBSTreatmentBrisbane = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why IBS Happens</h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-8">
-              There's no one cause of IBS. Most IBS sufferers have a mix of different triggers, like underlying causes that need to be investigated for effective management.
+              There's <strong>no one cause of IBS</strong>. Most IBS sufferers have a mix of different triggers, like underlying causes that need to be investigated for effective management.
             </p>
             
             {/* Image right under heading */}
@@ -274,7 +274,7 @@ const IBSTreatmentBrisbane = () => {
 
             <div className="text-center">
               <p className="text-lg text-muted-foreground">
-                That's why here at NXTLVL Health, we don't offer a one-size-fits-all approach. We uncover the underlying causes of your symptoms, so your body can finally heal.
+                That's why here at NXTLVL Health, we <strong>don't offer a one-size-fits-all approach</strong>. We uncover the underlying causes of your symptoms, so your body can finally heal.
               </p>
             </div>
           </div>
@@ -297,7 +297,7 @@ const IBSTreatmentBrisbane = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Our IBS Brisbane Treatment Approach</h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-8">
-              If you've been searching for a really effective IBS treatment in Brisbane, you've found it. We use a natural, holistic approach that blends science, gut testing, and lifestyle adjustments to create a change that lasts.
+              If you've been searching for a <strong>really effective IBS treatment in Brisbane</strong>, you've found it. We use a <strong>natural, holistic approach</strong> that blends science, gut testing, and lifestyle adjustments to create a change that lasts.
             </p>
             
             {/* Image right under heading */}
@@ -315,7 +315,7 @@ const IBSTreatmentBrisbane = () => {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-semibold mb-4 text-primary">Step 1: We Listen</h3>
                 <p className="text-muted-foreground text-lg">
-                  Your story matters. We'll talk about your medical history, daily life, symptoms, food habits, stress, sleep, and more.
+                  <strong>Your story matters.</strong> We'll talk about your medical history, daily life, symptoms, food habits, stress, sleep, and more.
                 </p>
               </CardContent>
             </Card>
@@ -324,7 +324,7 @@ const IBSTreatmentBrisbane = () => {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-semibold mb-4 text-primary">Step 2: We Test</h3>
                 <p className="text-muted-foreground text-lg mb-4">
-                  We use advanced tools like microbiome testing, functional testing, and stool analysis to check for:
+                  We use <strong>advanced tools</strong> like microbiome testing, functional testing, and stool analysis to check for:
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start space-x-3">
@@ -376,7 +376,7 @@ const IBSTreatmentBrisbane = () => {
                   </li>
                 </ul>
                 <p className="text-muted-foreground text-lg mt-4">
-                  A low-FODMAP diet contains only a very small amount of fermentable carbohydrates, which can help manage IBS symptoms.
+                  A <strong>low-FODMAP diet</strong> contains only a very small amount of fermentable carbohydrates, which can help manage IBS symptoms.
                 </p>
               </CardContent>
             </Card>
@@ -385,7 +385,7 @@ const IBSTreatmentBrisbane = () => {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-semibold mb-4 text-primary">Step 4: We Heal</h3>
                 <p className="text-muted-foreground text-lg">
-                  We help you improve digestion, calm your abdominal pain, and rebuild a healthy gut with real methods that are natural and effective. This is about long-term change, not short-term fixes.
+                  We help you improve digestion, calm your abdominal pain, and rebuild a healthy gut with <strong>real methods that are natural and effective</strong>. This is about <strong>long-term change, not short-term fixes</strong>.
                 </p>
               </CardContent>
             </Card>
@@ -394,7 +394,7 @@ const IBSTreatmentBrisbane = () => {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-semibold mb-4 text-primary">Step 5: We Support You Long-Term</h3>
                 <p className="text-muted-foreground text-lg">
-                  IBS is a chronic condition for many people. We'll guide you with ongoing care, check-ins, and new strategies to help you stay healthy for the long haul.
+                  IBS is a <strong>chronic condition</strong> for many people. We'll guide you with ongoing care, check-ins, and new strategies to help you stay healthy for the long haul.
                 </p>
               </CardContent>
             </Card>
@@ -424,7 +424,7 @@ const IBSTreatmentBrisbane = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
                     <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <p className="text-lg text-muted-foreground">Personalised care – Every plan is built just for you</p>
+                    <p className="text-lg text-muted-foreground"><strong>Personalised care</strong> – Every plan is built just for you</p>
                   </div>
                 </CardContent>
               </Card>
@@ -433,7 +433,7 @@ const IBSTreatmentBrisbane = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
                     <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <p className="text-lg text-muted-foreground">Gut-brain connection support – We understand how stress, anxiety, and mental health impact gut issues</p>
+                    <p className="text-lg text-muted-foreground"><strong>Gut-brain connection support</strong> – We understand how stress, anxiety, and mental health impact gut issues</p>
                   </div>
                 </CardContent>
               </Card>
@@ -442,7 +442,7 @@ const IBSTreatmentBrisbane = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
                     <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <p className="text-lg text-muted-foreground">Modern testing – Get insights into your gut that GPs often miss</p>
+                    <p className="text-lg text-muted-foreground"><strong>Modern testing</strong> – Get insights into your gut that GPs often miss</p>
                   </div>
                 </CardContent>
               </Card>
@@ -451,7 +451,7 @@ const IBSTreatmentBrisbane = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
                     <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <p className="text-lg text-muted-foreground">Natural medicine – We focus on root cause healing, not symptom-masking</p>
+                    <p className="text-lg text-muted-foreground"><strong>Natural medicine</strong> – We focus on root cause healing, not symptom-masking</p>
                   </div>
                 </CardContent>
               </Card>
@@ -460,7 +460,7 @@ const IBSTreatmentBrisbane = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
                     <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <p className="text-lg text-muted-foreground">Compassionate guidance – You'll feel heard, seen, and supported</p>
+                    <p className="text-lg text-muted-foreground"><strong>Compassionate guidance</strong> – You'll feel heard, seen, and supported</p>
                   </div>
                 </CardContent>
               </Card>
@@ -488,13 +488,13 @@ const IBSTreatmentBrisbane = () => {
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6 text-center">
               <p>
-                Irritable bowel syndrome IBS can impact more than your tummy. It can affect your energy, confidence, relationships, work, and mood.
+                Irritable bowel syndrome IBS can impact <strong>more than your tummy</strong>. It can affect your <strong>energy, confidence, relationships, work, and mood</strong>.
               </p>
               <p>
-                Many people with IBS avoid social events, feel isolated, and struggle with fatigue and low self-esteem. If you feel like this, you are not alone.
+                Many people with IBS <strong>avoid social events, feel isolated, and struggle with fatigue and low self-esteem</strong>. If you feel like this, you are not alone.
               </p>
               <p>
-                But with the right help, you can feel better, have more freedom, and get your life back to how it was.
+                But with the right help, you can <strong>feel better, have more freedom, and get your life back</strong> to how it was.
               </p>
             </div>
           </div>
@@ -507,7 +507,7 @@ const IBSTreatmentBrisbane = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Real Symptoms. Real Solutions.</h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-8">
-              Most IBS sufferers have lived with trigger symptoms for years. But there is a way forward.
+              Most IBS sufferers have lived with <strong>trigger symptoms for years</strong>. But there is a way forward.
             </p>
             
             {/* Image right under heading */}
@@ -523,7 +523,7 @@ const IBSTreatmentBrisbane = () => {
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6 text-center">
               <p>
-                By healing the gut lining, rebalancing the microbiome, and using natural treatment strategies, you can experience:
+                By <strong>healing the gut lining, rebalancing the microbiome, and using natural treatment strategies</strong>, you can experience:
               </p>
             </div>
 
@@ -563,7 +563,7 @@ const IBSTreatmentBrisbane = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Who We Help</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              We support IBS patients across Brisbane who are:
+              We support <strong>IBS patients across Brisbane</strong> who are:
             </p>
           </div>
 
@@ -631,10 +631,10 @@ const IBSTreatmentBrisbane = () => {
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6 text-center">
               <p>
-                If you're dealing with functional constipation, gastroesophageal reflux disease, or unpredictable IBS symptoms that leave you feeling anxious, tired, and overwhelmed, we're here to give you the help you've been looking for.
+                If you're dealing with <strong>functional constipation, gastroesophageal reflux disease, or unpredictable IBS symptoms</strong> that leave you feeling anxious, tired, and overwhelmed, we're here to give you the help you've been looking for.
               </p>
               <p>
-                NXTLVL Health combines the best of science, lifestyle, and natural therapies to bring you real relief from IBS symptoms. Together, we'll help you restore your balance, feel more confident with food, and improve your overall quality of life.
+                NXTLVL Health combines the <strong>best of science, lifestyle, and natural therapies</strong> to bring you real relief from IBS symptoms. Together, we'll help you <strong>restore your balance, feel more confident with food, and improve your overall quality of life</strong>.
               </p>
             </div>
           </div>
@@ -648,13 +648,13 @@ const IBSTreatmentBrisbane = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Book Your Free 15-Min Consult Today</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
               <p>
-                You don't have to keep guessing. You don't have to suffer in silence. And you definitely don't have to do this alone.
+                You don't have to <strong>keep guessing</strong>. You don't have to <strong>suffer in silence</strong>. And you definitely don't have to do this alone.
               </p>
               <p>
-                If you're looking for real IBS treatment in Brisbane, book your free consult now. Mitch is here to help you finally feel better, get clarity, and take back control of your health journey.
+                If you're looking for <strong>real IBS treatment in Brisbane</strong>, book your free consult now. Mitch is here to help you <strong>finally feel better, get clarity, and take back control</strong> of your health journey.
               </p>
               <p className="font-semibold text-primary">
-                Start today and take your first step toward better gut health, more energy, and real peace of mind.
+                Start today and take your first step toward <strong>better gut health, more energy, and real peace of mind</strong>.
               </p>
             </div>
 
