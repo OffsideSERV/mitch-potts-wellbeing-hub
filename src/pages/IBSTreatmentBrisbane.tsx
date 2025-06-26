@@ -99,7 +99,7 @@ const IBSTreatmentBrisbane = () => {
 
       {/* Feel Like Yourself Again Section */}
       <section className="py-20 px-4">
-        <div class Name="container mx-auto max-w-6xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Feel Like Yourself Again | IBS Support That Actually Helps</h2>
           </div>
