@@ -9,6 +9,7 @@ import Services from "./pages/Services";
 import MLSLaser from "./pages/MLSLaser";
 import PersonalTraining from "./pages/PersonalTraining";
 import GutHealth from "./pages/GutHealth";
+import GutHealthSpecialist from "./pages/GutHealthSpecialist";
 import WeightLoss from "./pages/WeightLoss";
 import ThyroidNaturopathy from "./pages/ThyroidNaturopathy";
 import Diabetes from "./pages/Diabetes";
@@ -36,6 +37,7 @@ const App = () => (
           <Route path="/mls-laser" element={<MLSLaser />} />
           <Route path="/personal-training" element={<PersonalTraining />} />
           <Route path="/gut-health" element={<GutHealth />} />
+          <Route path="/gut-health-specialist" element={<GutHealthSpecialist />} />
           <Route path="/weight-loss" element={<WeightLoss />} />
           <Route path="/thyroid-naturopathy" element={<ThyroidNaturopathy />} />
           <Route path="/diabetes" element={<Diabetes />} />
