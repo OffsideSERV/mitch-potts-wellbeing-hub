@@ -1,7 +1,6 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { CheckCircle, Heart, Users, Activity, Brain, Target, Leaf, Shield, Microscope, Stethoscope } from "lucide-react";
+import { CheckCircle, Heart, Users, Activity, Brain, Target, Leaf, Shield, Microscope } from "lucide-react";
 
 const GutHealthSpecialist = () => {
   return (
@@ -40,11 +39,11 @@ const GutHealthSpecialist = () => {
                   asChild 
                   className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight"
                 >
-                  <a href="https://nxtlvlhealth.com.au/book-now/">
+                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                     <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                     </svg>
-                    <span className="text-center">Book an Appointment Today</span>
+                    <span className="text-center">Book a Free 15-Min Consult</span>
                   </a>
                 </Button>
                 <Button 
@@ -296,7 +295,7 @@ const GutHealthSpecialist = () => {
 
           <div className="text-center mt-8">
             <Button asChild className="text-base sm:text-lg px-6 py-4">
-              <a href="https://nxtlvlhealth.com.au/book-now/">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                 <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                 </svg>
@@ -634,7 +633,7 @@ const GutHealthSpecialist = () => {
 
           <div className="text-center mt-8">
             <Button asChild className="text-base sm:text-lg px-6 py-4">
-              <a href="https://nxtlvlhealth.com.au/book-now/">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                 <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                 </svg>
@@ -736,7 +735,7 @@ const GutHealthSpecialist = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild className="text-base sm:text-lg px-6 py-4">
-                <a href="https://nxtlvlhealth.com.au/book-now/">
+                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                   <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                   </svg>
