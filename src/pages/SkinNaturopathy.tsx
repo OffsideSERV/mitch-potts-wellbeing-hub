@@ -40,11 +40,11 @@ const SkinNaturopathy = () => {
                   asChild 
                   className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight"
                 >
-                  <a href="https://nxtlvlhealth.com.au/book-now/">
+                  <a href="https://nxtlvlhealth.com.au/15-minute-consult/">
                     <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                     </svg>
-                    <span className="text-center">Book an Appointment Today</span>
+                    <span className="text-center">Book a Free 15-Min Consult</span>
                   </a>
                 </Button>
                 <Button 
@@ -123,6 +123,18 @@ const SkinNaturopathy = () => {
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
             </div>
+          </div>
+
+          {/* CTA after first section */}
+          <div className="text-center mb-16">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://nxtlvlhealth.com.au/15-minute-consult/">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult
+              </a>
+            </Button>
           </div>
         </div>
       </section>
@@ -226,6 +238,18 @@ const SkinNaturopathy = () => {
               ))}
             </div>
           </div>
+
+          {/* CTA after third section */}
+          <div className="text-center mt-16">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://nxtlvlhealth.com.au/15-minute-consult/">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
 
@@ -327,7 +351,7 @@ const SkinNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Managing stress is key. Stress impacts your immune system, digestion, and inflammatory response, all of which affect your skin. We help reduce stress with proven naturopathic techniques.
+                  Managing stress is key. Stress impacts your immune system, digestion, and inflammatory response, all of which affect your skin. We help reduce stress with proven naturopathic techniques. <a href="https://www.health.harvard.edu/blog/stress-may-be-getting-to-your-skin-but-its-not-a-one-way-street-2021041422334" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">Learn about the link between stress and your skin</a>.
                 </p>
               </CardContent>
             </Card>
@@ -345,6 +369,18 @@ const SkinNaturopathy = () => {
                 </p>
               </CardContent>
             </Card>
+          </div>
+
+          {/* CTA after fifth section */}
+          <div className="text-center mt-16">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://nxtlvlhealth.com.au/15-minute-consult/">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult
+              </a>
+            </Button>
           </div>
         </div>
       </section>
@@ -388,8 +424,20 @@ const SkinNaturopathy = () => {
               Skin issues don't just affect your body, they affect your confidence. Redness, rashes, or acne can make you feel anxious, embarrassed, or even depressed. But your skin doesn't have to control how you feel.
             </p>
             <p>
-              Mitch understands how skin problems can affect mental health. That's why he supports the whole person, body, skin, and mind, through the entire healing journey. Naturopathy emphasizes treatment strategies that are collaborative and tailored to the individual, ensuring that each patient receives care suited to their unique needs.
+              Mitch understands how skin problems can affect mental health. That's why he supports the whole person, body, skin, and mind, through the entire healing journey. Naturopathy emphasises treatment strategies that are collaborative and tailored to the individual, ensuring that each patient receives care suited to their unique needs.
             </p>
+          </div>
+
+          {/* CTA after seventh section */}
+          <div className="text-center mt-16">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://nxtlvlhealth.com.au/15-minute-consult/">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult
+              </a>
+            </Button>
           </div>
         </div>
       </section>
@@ -428,7 +476,7 @@ const SkinNaturopathy = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Let's Clear Things Up</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
               <p>
-                If you've tried everything and still feel stuck, it's time to take a different approach. Naturopathy for skin gives you answers, support, and a path toward true healing. Personalized treatment plans can improve overall health and restore balance in life, offering a comprehensive solution to persistent skin issues.
+                If you've tried everything and still feel stuck, it's time to take a different approach. Naturopathy for skin gives you answers, support, and a path toward true healing. Personalised treatment plans can improve overall health and restore balance in life, offering a comprehensive solution to persistent skin issues.
               </p>
               <p className="font-semibold text-foreground">
                 Book your free 15-minute consult with Mitch today and take the next step in feeling better in your skin, inside and out.
@@ -437,7 +485,7 @@ const SkinNaturopathy = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild className="text-base sm:text-lg px-6 py-4">
-                <a href="https://nxtlvlhealth.com.au/book-now/">
+                <a href="https://nxtlvlhealth.com.au/15-minute-consult/">
                   <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                   </svg>
