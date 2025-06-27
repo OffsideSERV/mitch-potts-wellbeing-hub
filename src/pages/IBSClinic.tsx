@@ -129,7 +129,7 @@ const IBSClinic = () => {
                 Irritable bowel syndrome (IBS) is a <strong>common disorder that affects the gastrointestinal tract</strong>. It can cause a range of issues, like <strong>abdominal pain, abdominal bloating, constipation, and diarrhoea</strong>. IBS affects around 1 in 5 people. Some people experience symptoms worse after eating certain foods, or during times of stress or anxiety. These are known as <strong>trigger symptoms</strong>.
               </p>
               <p>
-                IBS doesn't look the same for everyone. You might have mostly <strong>constipation (IBS-C), mostly diarrhoea (IBS-D), or a mix of both (IBS-M)</strong>. Females are more likely than males to be affected by IBS. That's why <strong>personalised care is so important</strong>.
+                IBS doesn't look the same for everyone. You might have mostly <strong>constipation (<a href="https://www.healthline.com/health/ibs-constipation" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">IBS-C</a>), mostly diarrhoea (<a href="https://www.webmd.com/ibs/what-is-ibs-d" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">IBS-D</a>), or a mix of both (<a href="https://www.healthline.com/health/irritable-bowel-syndrome/ibs-m-causes-symptoms-treatment" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">IBS-M</a>)</strong>. Females are more likely than males to be affected by IBS. That's why <strong>personalised care is so important</strong>.
               </p>
             </div>
           </div>
@@ -511,7 +511,7 @@ const IBSClinic = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Choose NXTLVL Health?</h2>
             
             {/* Image right under heading */}
-            <div class="mb-12">
+            <div className="mb-12">
               <img 
                 src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
                 alt="Happy patient consulting with naturopath at NXTLVL Health IBS clinic" 
