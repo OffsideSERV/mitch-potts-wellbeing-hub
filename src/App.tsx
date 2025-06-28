@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -14,6 +13,7 @@ import WeightLoss from "./pages/WeightLoss";
 import ThyroidNaturopathy from "./pages/ThyroidNaturopathy";
 import Diabetes from "./pages/Diabetes";
 import ChildrensHealth from "./pages/ChildrensHealth";
+import ADHDNaturopathy from "./pages/ADHDNaturopathy";
 import NorthBrisbaneNaturopathy from "./pages/NorthBrisbaneNaturopathy";
 import NewsteadNaturopathy from "./pages/NewsteadNaturopathy";
 import NewFarmNaturopathy from "./pages/NewFarmNaturopathy";
@@ -48,6 +48,7 @@ const App = () => (
           <Route path="/thyroid-naturopathy" element={<ThyroidNaturopathy />} />
           <Route path="/diabetes" element={<Diabetes />} />
           <Route path="/childrens-health" element={<ChildrensHealth />} />
+          <Route path="/adhd-naturopathy" element={<ADHDNaturopathy />} />
           <Route path="/north-brisbane-naturopathy" element={<NorthBrisbaneNaturopathy />} />
           <Route path="/newstead-naturopathy" element={<NewsteadNaturopathy />} />
           <Route path="/new-farm-naturopathy" element={<NewFarmNaturopathy />} />
