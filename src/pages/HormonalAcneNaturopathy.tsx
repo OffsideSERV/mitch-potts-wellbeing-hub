@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Zap, Target, Sparkles } from "lucide-react";
@@ -41,7 +42,7 @@ const HormonalAcneNaturopathy = () => {
                 >
                   <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                     <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 002 2v12a2 2 0 002 2z"></path>
                     </svg>
                     <span className="text-center">Book a Free 15-Min Consult</span>
                   </a>
@@ -132,7 +133,7 @@ const HormonalAcneNaturopathy = () => {
             <Button asChild className="text-base sm:text-lg px-6 py-4">
               <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                 <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 002 2v12a2 2 0 002 2z"></path>
                 </svg>
                 Book a Free 15-Min Consult
               </a>
@@ -255,7 +256,7 @@ const HormonalAcneNaturopathy = () => {
 
       {/* How a Hormonal Acne Naturopath Can Help Section */}
       <section className="py-20 px-4 bg-muted/30">
-        <div class="container mx-auto max-w-6xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">How a Hormonal Acne Naturopath Can Help</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
@@ -307,7 +308,7 @@ const HormonalAcneNaturopathy = () => {
             <Button asChild className="text-base sm:text-lg px-6 py-4">
               <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                 <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 002 2v12a2 2 0 002 2z"></path>
                 </svg>
                 Book a Free 15-Min Consult
               </a>
@@ -635,7 +636,7 @@ const HormonalAcneNaturopathy = () => {
             <Button asChild className="text-base sm:text-lg px-6 py-4">
               <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                 <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 002 2v12a2 2 0 002 2z"></path>
                 </svg>
                 Book a Free 15-Min Consult
               </a>
@@ -798,7 +799,7 @@ const HormonalAcneNaturopathy = () => {
             <Button asChild className="text-base sm:text-lg px-6 py-4">
               <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                 <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 002 2v12a2 2 0 002 2z"></path>
                 </svg>
                 Book a Free 15-Min Consult
               </a>
@@ -923,7 +924,7 @@ const HormonalAcneNaturopathy = () => {
               <Button asChild className="text-base sm:text-lg px-6 py-4">
                 <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                   <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 002 2v12a2 2 0 002 2z"></path>
                   </svg>
                   Book Your Free 15-Minute Consultation
                 </a>
