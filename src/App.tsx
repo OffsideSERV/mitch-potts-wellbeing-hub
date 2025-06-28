@@ -25,6 +25,7 @@ import NotFound from "./pages/NotFound";
 import IBSTreatmentBrisbane from "./pages/IBSTreatmentBrisbane";
 import IBSClinic from "./pages/IBSClinic";
 import SkinNaturopathy from "./pages/SkinNaturopathy";
+import EczemaNaturopathy from "./pages/EczemaNaturopathy";
 
 const queryClient = new QueryClient();
 
@@ -55,6 +56,7 @@ const App = () => (
           <Route path="/ibs-treatment-brisbane" element={<IBSTreatmentBrisbane />} />
           <Route path="/ibs-clinic" element={<IBSClinic />} />
           <Route path="/skin-naturopathy" element={<SkinNaturopathy />} />
+          <Route path="/eczema-naturopathy" element={<EczemaNaturopathy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
