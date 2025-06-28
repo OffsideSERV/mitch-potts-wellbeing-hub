@@ -258,7 +258,7 @@ const MorningsideNaturopathy = () => {
             ))}
           </div>
 
-          <div class="text-center">
+          <div className="text-center">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
               Our natural treatments include herbs, nutrition, lifestyle guidance, and functional testing when needed. Everything we recommend is tailored to you. Natural remedies may include the use of herbs and lifestyle modifications to balance hormones and treat skin conditions.
             </p>
