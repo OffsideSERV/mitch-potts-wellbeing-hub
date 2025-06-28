@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -26,6 +25,7 @@ import IBSTreatmentBrisbane from "./pages/IBSTreatmentBrisbane";
 import IBSClinic from "./pages/IBSClinic";
 import SkinNaturopathy from "./pages/SkinNaturopathy";
 import EczemaNaturopathy from "./pages/EczemaNaturopathy";
+import AcneNaturopathy from "./pages/AcneNaturopathy";
 
 const queryClient = new QueryClient();
 
@@ -57,6 +57,7 @@ const App = () => (
           <Route path="/ibs-clinic" element={<IBSClinic />} />
           <Route path="/skin-naturopathy" element={<SkinNaturopathy />} />
           <Route path="/eczema-naturopathy" element={<EczemaNaturopathy />} />
+          <Route path="/acne-naturopathy" element={<AcneNaturopathy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
