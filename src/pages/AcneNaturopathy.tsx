@@ -249,7 +249,7 @@ const AcneNaturopathy = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">How a Naturopath for Acne Can Help</h2>
-            <div class="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
+            <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
                 At NXTLVL Health, we don't just look at your skin. We look at your whole body.
               </p>
