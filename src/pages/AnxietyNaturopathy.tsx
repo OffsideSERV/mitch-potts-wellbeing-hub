@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Brain, Shield, Users, Activity } from "lucide-react";
@@ -649,7 +648,7 @@ const AnxietyNaturopathy = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Let's Help You Feel Like Yourself Again</h2>
-            <div class="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
+            <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
                 You don't have to live with constant anxiety. With the right guidance, it's possible to feel calm, grounded, and in control again, without relying solely on prescription medication.
               </p>
