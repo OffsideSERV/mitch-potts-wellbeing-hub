@@ -18,6 +18,7 @@ import AnxietyNaturopathy from "./pages/AnxietyNaturopathy";
 import NorthBrisbaneNaturopathy from "./pages/NorthBrisbaneNaturopathy";
 import NewsteadNaturopathy from "./pages/NewsteadNaturopathy";
 import NewFarmNaturopathy from "./pages/NewFarmNaturopathy";
+import MorningsideNaturopathy from "./pages/MorningsideNaturopathy";
 import IBSNaturopathy from "./pages/IBSNaturopathy";
 import SIBONaturopathy from "./pages/SIBONaturopathy";
 import WellnessClinic from "./pages/WellnessClinic";
@@ -54,6 +55,7 @@ const App = () => (
           <Route path="/north-brisbane-naturopathy" element={<NorthBrisbaneNaturopathy />} />
           <Route path="/newstead-naturopathy" element={<NewsteadNaturopathy />} />
           <Route path="/new-farm-naturopathy" element={<NewFarmNaturopathy />} />
+          <Route path="/morningside-naturopathy" element={<MorningsideNaturopathy />} />
           <Route path="/ibs-naturopathy" element={<IBSNaturopathy />} />
           <Route path="/sibo-naturopathy" element={<SIBONaturopathy />} />
           <Route path="/wellness-clinic" element={<WellnessClinic />} />
