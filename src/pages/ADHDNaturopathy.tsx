@@ -21,7 +21,7 @@ const ADHDNaturopathy = () => {
                   <img 
                     alt="ADHD naturopath consultation at NXTLVL Health Brisbane" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-checking-a-patients-blood-pressure-scaled.jpeg" 
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -42,7 +42,7 @@ const ADHDNaturopathy = () => {
                 >
                   <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                     <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 002 2v12a2 2 0 002 2z"></path>
                     </svg>
                     <span className="text-center">Book Your Free 15-Minute Consult Today</span>
                   </a>
@@ -72,7 +72,7 @@ const ADHDNaturopathy = () => {
               <img 
                 alt="ADHD naturopath consultation at NXTLVL Health Brisbane" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-checking-a-patients-blood-pressure-scaled.jpeg" 
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -130,7 +130,7 @@ const ADHDNaturopathy = () => {
             <Button asChild className="text-base sm:text-lg px-6 py-4">
               <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                 <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 002 2v12a2 2 0 002 2z"></path>
                 </svg>
                 Book Your Free 15-Minute Consult Today
               </a>
@@ -243,7 +243,7 @@ const ADHDNaturopathy = () => {
             <Button asChild className="text-base sm:text-lg px-6 py-4">
               <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                 <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 002 2v12a2 2 0 002 2z"></path>
                 </svg>
                 Book Your Free 15-Minute Consult Today
               </a>
@@ -272,7 +272,7 @@ const ADHDNaturopathy = () => {
             <p>We support <strong>children and adults</strong> with:</p>
           </div>
 
-          <div class="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-4">
               {[
                 "Diagnosed ADHD or suspected symptoms of ADHD",
@@ -343,7 +343,7 @@ const ADHDNaturopathy = () => {
             <Button asChild className="text-base sm:text-lg px-6 py-4">
               <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                 <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 002 2v12a2 2 0 002 2z"></path>
                 </svg>
                 Book Your Free 15-Minute Consult Today
               </a>
@@ -606,7 +606,7 @@ const ADHDNaturopathy = () => {
             <Button asChild className="text-base sm:text-lg px-6 py-4">
               <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                 <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 002 2v12a2 2 0 002 2z"></path>
                 </svg>
                 Book Your Free 15-Minute Consult Today
               </a>
@@ -658,7 +658,7 @@ const ADHDNaturopathy = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 class="text-3xl lg:text-4xl font-bold mb-6">Meet Mitch – Your ADHD Naturopath</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Meet Mitch – Your ADHD Naturopath</h2>
           </div>
 
           {/* Mobile Image */}
@@ -745,7 +745,7 @@ const ADHDNaturopathy = () => {
               <Button asChild className="text-base sm:text-lg px-6 py-4">
                 <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                   <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 002 2v12a2 2 0 002 2z"></path>
                   </svg>
                   Book Your Free 15-Minute Consult Today
                 </a>
