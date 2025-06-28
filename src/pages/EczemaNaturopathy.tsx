@@ -108,13 +108,13 @@ const EczemaNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  Do you feel like your skin is always itchy, red, or dry? Do you have to be careful about what you wear, what you eat, or even where you go? Do flare ups feel like they come out of nowhere?
+                  Do you feel like your skin is <strong>always itchy, red, or dry</strong>? Do you have to be careful about what you wear, what you eat, or even where you go? Do <strong>flare ups feel like they come out of nowhere</strong>?
                 </p>
                 <p>
-                  You're not alone. Eczema is a common inflammatory skin condition that can affect both kids and adults. It often starts in early childhood and can continue into adulthood. And while conventional treatments like steroid creams may offer short-term relief, they often don't get to the root cause.
+                  You're not alone. Eczema is a common inflammatory skin condition that can affect both kids and adults. It often starts in early childhood and can continue into adulthood. And while <strong>conventional treatments like steroid creams</strong> may offer short-term relief, they often don't get to the root cause.
                 </p>
                 <p>
-                  At NXTLVL Health, we use a natural, holistic approach to support your skin and your body. Mitch is a trusted naturopath eczema specialist who helps people find lasting relief through deeper healing. If your eczema symptoms are controlling your life, we're here to help you take it back.
+                  At NXTLVL Health, we use a <strong>natural, holistic approach</strong> to support your skin and your body. Mitch is a trusted naturopath eczema specialist who helps people find <strong>lasting relief through deeper healing</strong>. If your eczema symptoms are controlling your life, we're here to help you take it back.
                 </p>
               </div>
             </div>
@@ -162,10 +162,10 @@ const EczemaNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  Eczema, also known as atopic dermatitis or atopic eczema, is a chronic skin condition that causes itchy skin, red patches, dryness, and inflammation. For some people, it leads to constant itching, cracked skin, and even pain. It can show up on the face, hands, arms, legs, or anywhere on the body. Eczema often presents as patches of dry, red, raised, or scaly skin, which can blister, crack, and exude fluid.
+                  Eczema, also known as atopic dermatitis or atopic eczema, is a <strong>chronic skin condition</strong> that causes itchy skin, red patches, dryness, and inflammation. For some people, it leads to <strong>constant itching, cracked skin, and even pain</strong>. It can show up on the face, hands, arms, legs, or anywhere on the body. Eczema often presents as patches of dry, red, raised, or scaly skin, which can blister, crack, and exude fluid.
                 </p>
                 <p>
-                  Eczema is more than just dry skin. It's a sign that something deeper is going on inside your body. Eczema often signals deeper immune and gut imbalances. And that's why a naturopathic approach is so effective.
+                  <strong>Eczema is more than just dry skin.</strong> It's a sign that something deeper is going on inside your body. Eczema often signals <strong>deeper immune and gut imbalances</strong>. And that's why a naturopathic approach is so effective.
                 </p>
               </div>
             </div>
@@ -199,10 +199,10 @@ const EczemaNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6 mb-12">
             <p>
-              A naturopathic doctor for eczema looks at the whole person, not just the affected areas. We ask: Why is the skin reacting? What is happening in the immune system, the gut, or even your stress levels that could be contributing?
+              A naturopathic doctor for eczema looks at <strong>the whole person</strong>, not just the affected areas. We ask: Why is the skin reacting? What is happening in the immune system, the gut, or even your stress levels that could be contributing?
             </p>
             <p>
-              At NXTLVL Health, we take the time to understand your symptoms, your lifestyle, and your history. Through a comprehensive assessment, we can uncover the root causes of your flare ups and build a personalised plan to support your healing from the inside out.
+              At NXTLVL Health, we take the time to understand your symptoms, your lifestyle, and your history. Through a <strong>comprehensive assessment</strong>, we can uncover the root causes of your flare ups and build a <strong>personalised plan</strong> to support your healing from the inside out.
             </p>
           </div>
 
@@ -216,7 +216,17 @@ const EczemaNaturopathy = () => {
                 "Improving the skin barrier with essential fatty acids",
                 "Balancing the immune system",
                 "Identifying environmental and emotional triggers",
-                "Addressing food allergies and sensitivities, which can exacerbate atopic dermatitis in 10-30% of cases, particularly due to common allergens like eggs and milk"
+                <>
+                  Addressing food allergies and sensitivities, which can exacerbate atopic dermatitis in 10-30% of cases, particularly due to common allergens like eggs and milk.{" "}
+                  <a 
+                    href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9886409/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-primary hover:text-primary/80 underline"
+                  >
+                    Learn more
+                  </a>
+                </>
               ].map((treatment, index) => (
                 <Card key={index}>
                   <CardContent className="p-4">
@@ -302,13 +312,13 @@ const EczemaNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6">
             <p>
-              Most conventional treatments focus only on the symptoms. You get steroid creams, antihistamines, or topical corticosteroids, which might help for a while, but often lead to more irritated skin or red skin syndrome when overused.
+              Most conventional treatments focus only on the symptoms. You get <strong>steroid creams, antihistamines, or topical corticosteroids</strong>, which might help for a while, but often lead to more irritated skin or red skin syndrome when overused.
             </p>
             <p className="font-semibold text-foreground">
               We go deeper.
             </p>
             <p>
-              At NXTLVL Health, Mitch uses naturopathic eczema treatment to address the true root causes of your condition. That might include gut health problems, immune dysfunction, hormone imbalances, or poor diet. We also consider contributing factors like skincare products, stress, sleep, and exposure to common triggers like dust mites, pet dander, and environmental factors such as mould.
+              At NXTLVL Health, Mitch uses <strong>naturopathic eczema treatment</strong> to address the true root causes of your condition. That might include <strong>gut health problems, immune dysfunction, hormone imbalances, or poor diet</strong>. We also consider contributing factors like skincare products, stress, sleep, and exposure to common triggers like dust mites, pet dander, and environmental factors such as mould.
             </p>
           </div>
 
@@ -343,7 +353,7 @@ const EczemaNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  We work with you to find and remove foods that exacerbate eczema, like dairy, soy, or processed foods. We also support you with an anti inflammatory diet to nourish the skin and calm the immune system.
+                  We work with you to find and remove foods that exacerbate eczema, like <strong>dairy, soy, or processed foods</strong>. We also support you with an <strong>anti inflammatory diet</strong> to nourish the skin and calm the immune system.
                 </p>
               </CardContent>
             </Card>
@@ -357,7 +367,7 @@ const EczemaNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Your gut and skin are closely linked. We use natural supplements, probiotics, and herbs to heal the gut lining and support digestion. Restoring the microbiome is a key focus in naturopathic treatments for eczema. When the digestive system is working well, your skin can improve too.
+                  <strong>Your gut and skin are closely linked.</strong> We use natural supplements, probiotics, and herbs to heal the gut lining and support digestion. <strong>Restoring the microbiome</strong> is a key focus in naturopathic treatments for eczema. When the digestive system is working well, your skin can improve too.
                 </p>
               </CardContent>
             </Card>
@@ -371,7 +381,7 @@ const EczemaNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  We help your immune system respond more calmly, using nutrients and herbs to support immune function and reduce eczema flare ups.
+                  We help your immune system respond more calmly, using <strong>nutrients and herbs</strong> to support immune function and reduce eczema flare ups.
                 </p>
               </CardContent>
             </Card>
@@ -385,7 +395,7 @@ const EczemaNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  We recommend gentle topical herbs, sunflower oil, or coconut oil to support the skin barrier, soothe irritation, and hydrate sensitive skin naturally.
+                  We recommend gentle topical herbs, <strong>sunflower oil, or coconut oil</strong> to support the skin barrier, soothe irritation, and hydrate sensitive skin naturally.
                 </p>
               </CardContent>
             </Card>
@@ -399,7 +409,7 @@ const EczemaNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Stress is one of the most common triggers for eczema. We help with stress management techniques, sleep support, and lifestyle changes that help your body stay calm and balanced.
+                  <strong>Stress is one of the most common triggers</strong> for eczema. We help with stress management techniques, sleep support, and lifestyle changes that help your body stay calm and balanced.
                 </p>
               </CardContent>
             </Card>
@@ -482,10 +492,10 @@ const EczemaNaturopathy = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Ready to Treat Eczema Naturally?</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
               <p>
-                You don't have to live with constant itching, red skin, and frustration. With the right support, your skin can heal. Your body can calm down. And you can feel like yourself again.
+                You don't have to live with <strong>constant itching, red skin, and frustration</strong>. With the right support, your skin can heal. Your body can calm down. And you can feel like yourself again.
               </p>
               <p>
-                Book your free 15-minute consult with Mitch today. As a trusted naturopath eczema specialist, Mitch will help you understand what's happening inside your body and guide you through a natural, effective plan to heal your skin and improve your quality of life.
+                Book your free 15-minute consult with Mitch today. As a <strong>trusted naturopath eczema specialist</strong>, Mitch will help you understand what's happening inside your body and guide you through a <strong>natural, effective plan</strong> to heal your skin and improve your quality of life.
               </p>
               <p className="font-semibold text-foreground">
                 Let's help you feel good in your skin again.
@@ -505,10 +515,11 @@ const EczemaNaturopathy = () => {
                 <a href="tel:0731808853">
                   <svg className="mr-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
-                  </svg>
-                  Call Mitch Today
-                </a>
-              </Button>
+                    </svg>
+                    Call Mitch Today
+                  </a>
+                </Button>
+              </div>
             </div>
           </div>
         </div>
