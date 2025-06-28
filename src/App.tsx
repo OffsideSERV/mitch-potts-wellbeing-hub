@@ -14,6 +14,7 @@ import ThyroidNaturopathy from "./pages/ThyroidNaturopathy";
 import Diabetes from "./pages/Diabetes";
 import ChildrensHealth from "./pages/ChildrensHealth";
 import ADHDNaturopathy from "./pages/ADHDNaturopathy";
+import AnxietyNaturopathy from "./pages/AnxietyNaturopathy";
 import NorthBrisbaneNaturopathy from "./pages/NorthBrisbaneNaturopathy";
 import NewsteadNaturopathy from "./pages/NewsteadNaturopathy";
 import NewFarmNaturopathy from "./pages/NewFarmNaturopathy";
@@ -49,6 +50,7 @@ const App = () => (
           <Route path="/diabetes" element={<Diabetes />} />
           <Route path="/childrens-health" element={<ChildrensHealth />} />
           <Route path="/adhd-naturopathy" element={<ADHDNaturopathy />} />
+          <Route path="/anxiety-naturopathy" element={<AnxietyNaturopathy />} />
           <Route path="/north-brisbane-naturopathy" element={<NorthBrisbaneNaturopathy />} />
           <Route path="/newstead-naturopathy" element={<NewsteadNaturopathy />} />
           <Route path="/new-farm-naturopathy" element={<NewFarmNaturopathy />} />
