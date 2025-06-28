@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Brain, Shield, Users, Activity } from "lucide-react";
@@ -39,7 +40,7 @@ const AnxietyNaturopathy = () => {
                   asChild 
                   className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight"
                 >
-                  <a href="https://nxtlvlhealth.com.au/book-now/">
+                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                     <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                     </svg>
@@ -110,10 +111,10 @@ const AnxietyNaturopathy = () => {
                   Do you often feel nervous, unsettled, or stuck in a loop of worry that just won't go away? Is your mind racing at night, making it hard to fall asleep? Do you feel tight in your chest, short of breath, or exhausted from trying to manage everyday stress?
                 </p>
                 <p>
-                  You're not alone. Anxiety symptoms affect millions of people, and for many, they're not just in the mind. They show up in the body too: through tension, gut issues, poor sleep, and low energy.
+                  You're not alone. <strong>Anxiety symptoms affect millions of people</strong>, and for many, they're not just in the mind. They show up in the body too: through tension, gut issues, poor sleep, and low energy.
                 </p>
                 <p>
-                  At NXTLVL Health, we understand that treating anxiety goes beyond short-term fixes or medications. Mitch, a compassionate and experienced <strong>naturopath for anxiety</strong>, offers a holistic approach that supports your mind, body, and nervous system naturally. Naturopathic doctors (NDs) focus on treating the whole person and addressing underlying causes of anxiety.
+                  At NXTLVL Health, we understand that <strong>treating anxiety goes beyond short-term fixes or medications</strong>. Mitch, a compassionate and experienced <strong>naturopath for anxiety</strong>, offers a holistic approach that supports your mind, body, and nervous system naturally. Naturopathic doctors (NDs) focus on treating the whole person and addressing underlying causes of anxiety.
                 </p>
               </div>
             </div>
@@ -125,6 +126,18 @@ const AnxietyNaturopathy = () => {
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
             </div>
+          </div>
+
+          {/* CTA Button */}
+          <div className="text-center">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult
+              </a>
+            </Button>
           </div>
         </div>
       </section>
@@ -139,23 +152,34 @@ const AnxietyNaturopathy = () => {
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
               <p>
-                Anxiety is more than just feeling stressed. It's a persistent mental and physical state of worry, fear, and unease. When this nervous tension becomes chronic, it may evolve into an anxiety disorder like:
+                <strong>Anxiety is more than just feeling stressed</strong>. It's a persistent mental and physical state of worry, fear, and unease. When this nervous tension becomes chronic, it may evolve into an anxiety disorder like:
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
               {[
-                "Generalized Anxiety Disorder (GAD)",
-                "Panic Disorder",
-                "Social Anxiety",
-                "Anxiety with depression",
-                "Health anxiety"
+                { text: "Generalized Anxiety Disorder (GAD)", link: "https://www.mayoclinic.org/diseases-conditions/generalized-anxiety-disorder/symptoms-causes/syc-20360803" },
+                { text: "Panic Disorder", link: null },
+                { text: "Social Anxiety", link: null },
+                { text: "Anxiety with depression", link: null },
+                { text: "Health anxiety", link: null }
               ].map((condition, index) => (
                 <Card key={index}>
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-3">
                       <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-muted-foreground">{condition}</span>
+                      {condition.link ? (
+                        <a 
+                          href={condition.link} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-muted-foreground hover:text-primary underline"
+                        >
+                          {condition.text}
+                        </a>
+                      ) : (
+                        <span className="text-muted-foreground">{condition.text}</span>
+                      )}
                     </div>
                   </CardContent>
                 </Card>
@@ -164,7 +188,7 @@ const AnxietyNaturopathy = () => {
 
             <div className="text-center">
               <p className="text-lg text-muted-foreground">
-                Whether your anxiety is mild or severe, constant or intermittent, Mitch can help explore the root cause and create a tailored plan to help you feel calm, clear, and in control again.
+                Whether your anxiety is mild or severe, constant or intermittent, <strong>Mitch can help explore the root cause</strong> and create a tailored plan to help you feel calm, clear, and in control again.
               </p>
             </div>
           </div>
@@ -177,7 +201,7 @@ const AnxietyNaturopathy = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Signs and Symptoms of Anxiety</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Every person's experience with anxiety is different. Some people feel it mentally. Others experience physical symptoms of anxiety in their body. Common signs include:
+              <strong>Every person's experience with anxiety is different</strong>. Some people feel it mentally. Others experience physical symptoms of anxiety in their body. Common signs include:
             </p>
           </div>
 
@@ -200,6 +224,18 @@ const AnxietyNaturopathy = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+
+          {/* CTA Button */}
+          <div className="text-center mt-16">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult
+              </a>
+            </Button>
           </div>
         </div>
       </section>
@@ -224,10 +260,10 @@ const AnxietyNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  Conventional medicine often treats anxiety with medication like SSRIs, beta blockers, or sedatives. While these can help some people, they don't always work long term and may come with unwanted side effects.
+                  <strong>Conventional medicine often treats anxiety with medication</strong> like SSRIs, beta blockers, or sedatives. While these can help some people, they don't always work long term and may come with unwanted side effects.
                 </p>
                 <p>
-                  That's where naturopathic care comes in. At NXTLVL Health, Mitch uses naturopathic medicine and natural therapies to:
+                  That's where <strong>naturopathic care comes in</strong>. At NXTLVL Health, Mitch uses naturopathic medicine and natural therapies to:
                 </p>
                 <ul className="space-y-3">
                   {[
@@ -244,7 +280,7 @@ const AnxietyNaturopathy = () => {
                   ))}
                 </ul>
                 <p>
-                  The goal? To help your body function properly so you can manage stress naturally, without always needing to rely on medication. Many patients prefer a naturopathic approach for anxiety management compared to medication alone.
+                  The goal? <strong>To help your body function properly</strong> so you can manage stress naturally, without always needing to rely on medication. Many patients prefer a naturopathic approach for anxiety management compared to medication alone.
                 </p>
               </div>
             </div>
@@ -266,10 +302,10 @@ const AnxietyNaturopathy = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">What Makes Our Naturopathic Approach Different?</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto mb-8">
-              Mitch takes the time to truly understand what's going on in your life, your body, and your mind. No rushed appointments. No generic advice.
+              <strong>Mitch takes the time to truly understand</strong> what's going on in your life, your body, and your mind. No rushed appointments. No generic advice.
             </p>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Just expert, tailored strategies that work with your body, not against it.
+              Just <strong>expert, tailored strategies</strong> that work with your body, not against it.
             </p>
           </div>
 
@@ -299,11 +335,23 @@ const AnxietyNaturopathy = () => {
 
           <div className="text-center">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Naturopathic treatment includes assessing a patient's history, dietary habits, and lifestyle factors.
+              <strong>Naturopathic treatment includes assessing</strong> a patient's history, dietary habits, and lifestyle factors.
             </p>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto mt-4">
-              These are just some of the underlying causes that can trigger or worsen anxiety.
+              These are just some of the <strong>underlying causes</strong> that can trigger or worsen anxiety.
             </p>
+          </div>
+
+          {/* CTA Button */}
+          <div className="text-center mt-16">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult
+              </a>
+            </Button>
           </div>
         </div>
       </section>
@@ -318,7 +366,7 @@ const AnxietyNaturopathy = () => {
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
               <p>
-                Your gut and brain are closely connected through the gut-brain axis. Research suggests that poor gut health may directly affect mood, stress hormones, and neurotransmitter production (like serotonin and GABA). Research on the gut-brain connection supports the importance of a nutritional diet and supplementation with probiotics.
+                <strong>Your gut and brain are closely connected</strong> through the gut-brain axis. Research suggests that poor gut health may directly affect mood, stress hormones, and neurotransmitter production (like serotonin and GABA). <strong>Research on the gut-brain connection supports</strong> the importance of a nutritional diet and supplementation with probiotics.
               </p>
               <p>Many people with anxiety also suffer from:</p>
             </div>
@@ -344,7 +392,7 @@ const AnxietyNaturopathy = () => {
 
             <div className="text-center">
               <p className="text-lg text-muted-foreground">
-                We often use microbiome testing to explore gut bacteria, intestinal health, and inflammation markers, then use diet and natural therapies to restore balance.
+                We often use <strong>microbiome testing</strong> to explore gut bacteria, intestinal health, and inflammation markers, then use diet and natural therapies to restore balance.
               </p>
             </div>
           </div>
@@ -357,7 +405,7 @@ const AnxietyNaturopathy = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">What to Expect at Your Initial Consultation</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Mitch's approach to treating anxiety starts with understanding your full story. Your first visit includes: Naturopathic doctors spend between one and two hours face-to-face with patients during their initial appointment.
+              <strong>Mitch's approach to treating anxiety starts with understanding your full story</strong>. Your first visit includes: <strong>Naturopathic doctors spend between one and two hours</strong> face-to-face with patients during their initial appointment.
             </p>
           </div>
 
@@ -390,7 +438,7 @@ const AnxietyNaturopathy = () => {
 
           <div className="text-center mt-12">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              From there, we create a personalised treatment plan designed to work with your body's unique needs.
+              From there, we create a <strong>personalised treatment plan</strong> designed to work with your body's unique needs.
             </p>
           </div>
         </div>
@@ -410,7 +458,7 @@ const AnxietyNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Your brain needs specific nutrients to function properly, especially during times of stress. Mitch may recommend foods or supplements to correct deficiencies and support neurotransmitter balance.
+                  <strong>Your brain needs specific nutrients to function properly</strong>, especially during times of stress. Mitch may recommend foods or supplements to correct deficiencies and support neurotransmitter balance.
                 </p>
                 <p className="text-muted-foreground mb-4">Important nutrients include:</p>
                 <ul className="space-y-2">
@@ -436,7 +484,7 @@ const AnxietyNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Certain herbs have calming effects on the nervous system. Mitch may prescribe gentle, effective herbal medicine to:
+                  <strong>Certain herbs have calming effects</strong> on the nervous system. Mitch may prescribe gentle, effective herbal medicine to:
                 </p>
                 <ul className="space-y-2 mb-4">
                   {[
@@ -451,7 +499,7 @@ const AnxietyNaturopathy = () => {
                   ))}
                 </ul>
                 <p className="text-muted-foreground">
-                  Popular herbs include passionflower, ashwagandha, lemon balm, and rhodiola. Each is chosen based on your symptoms, health history, and medical status. Passionflower is used in herbal formulas for anxiety and has been shown to have comparable positive effects as anti-anxiety medication.
+                  Popular herbs include passionflower, ashwagandha, lemon balm, and rhodiola. Each is chosen based on your symptoms, health history, and medical status. <strong>Passionflower is used in herbal formulas for anxiety</strong> and has been shown to have comparable positive effects as anti-anxiety medication.
                 </p>
               </CardContent>
             </Card>
@@ -462,7 +510,7 @@ const AnxietyNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  We focus on restoring balance in the digestive system with:
+                  We focus on <strong>restoring balance in the digestive system</strong> with:
                 </p>
                 <ul className="space-y-2 mb-4">
                   {[
@@ -478,10 +526,10 @@ const AnxietyNaturopathy = () => {
                   ))}
                 </ul>
                 <p className="text-muted-foreground">
-                  In naturopathic care, dietary modifications may include reducing processed foods and increasing whole foods high in omega-3s.
+                  In naturopathic care, <strong>dietary modifications may include</strong> reducing processed foods and increasing whole foods high in omega-3s.
                 </p>
                 <p className="text-muted-foreground mt-4">
-                  This gut-first approach supports both the nervous system and immune system, helping reduce inflammation and manage stress naturally. Chronic inflammation can affect brain regions relevant to reward and threat sensitivity and lead to anxiety symptoms.
+                  This gut-first approach supports both the nervous system and immune system, <strong>helping reduce inflammation and manage stress naturally</strong>. Chronic inflammation can affect brain regions relevant to reward and threat sensitivity and lead to anxiety symptoms.
                 </p>
               </CardContent>
             </Card>
@@ -492,7 +540,7 @@ const AnxietyNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Anxiety often develops or worsens in response to lifestyle stress. Mitch helps you adopt simple tools to reduce nervous tension and build resilience. Naturopathic doctors advocate for calming practices such as mindfulness, yoga, and breathing techniques for anxiety management.
+                  <strong>Anxiety often develops or worsens in response to lifestyle stress</strong>. Mitch helps you adopt simple tools to reduce nervous tension and build resilience. <strong>Naturopathic doctors advocate for calming practices</strong> such as mindfulness, yoga, and breathing techniques for anxiety management.
                 </p>
                 <p className="text-muted-foreground mb-4">This may include:</p>
                 <ul className="space-y-2 mb-4">
@@ -509,13 +557,25 @@ const AnxietyNaturopathy = () => {
                   ))}
                 </ul>
                 <p className="text-muted-foreground">
-                  Exercise is recommended by NDs as it can effectively decrease symptoms of anxiety and depression.
+                  <strong>Exercise is recommended by NDs</strong> as it can effectively decrease symptoms of anxiety and depression.
                 </p>
                 <p className="text-muted-foreground mt-4">
                   Even small changes in routine can reduce anxiety and improve mental health over time.
                 </p>
               </CardContent>
             </Card>
+          </div>
+
+          {/* CTA Button */}
+          <div className="text-center mt-16">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult
+              </a>
+            </Button>
           </div>
         </div>
       </section>
@@ -526,7 +586,7 @@ const AnxietyNaturopathy = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Anxiety in Children, Teens, and Adults</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Mitch provides naturopathic anxiety support for:
+              <strong>Mitch provides naturopathic anxiety support</strong> for:
             </p>
           </div>
 
@@ -560,7 +620,7 @@ const AnxietyNaturopathy = () => {
 
           <div className="text-center mt-12">
             <p className="text-lg text-muted-foreground">
-              Every age group gets a different, age-appropriate plan tailored to their unique needs.
+              <strong>Every age group gets a different, age-appropriate plan</strong> tailored to their unique needs.
             </p>
           </div>
         </div>
@@ -593,7 +653,7 @@ const AnxietyNaturopathy = () => {
 
           <div className="text-center mt-12">
             <p className="text-lg text-muted-foreground">
-              These changes are possible with the right care and consistent support.
+              These changes are possible with <strong>the right care and consistent support</strong>.
             </p>
           </div>
         </div>
@@ -637,7 +697,7 @@ const AnxietyNaturopathy = () => {
 
           <div className="text-center mt-12">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Mitch brings years of experience in naturopathic medicine and a calm, grounded presence to help you feel safe, heard, and cared for.
+              <strong>Mitch brings years of experience</strong> in naturopathic medicine and a calm, grounded presence to help you feel safe, heard, and cared for.
             </p>
           </div>
         </div>
@@ -650,10 +710,10 @@ const AnxietyNaturopathy = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Let's Help You Feel Like Yourself Again</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
-                You don't have to live with constant anxiety. With the right guidance, it's possible to feel calm, grounded, and in control again, without relying solely on prescription medication.
+                <strong>You don't have to live with constant anxiety</strong>. With the right guidance, it's possible to feel calm, grounded, and in control again, without relying solely on prescription medication.
               </p>
               <p>
-                Whether you're managing generalised anxiety, panic disorder, or stress-related tension, Mitch is here to help.
+                Whether you're managing <strong>generalised anxiety, panic disorder, or stress-related tension</strong>, Mitch is here to help.
               </p>
             </div>
           </div>
@@ -667,16 +727,16 @@ const AnxietyNaturopathy = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Book Your Free 15-Minute Consult</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
               <p>
-                Let's uncover the underlying cause of your anxiety and start your journey to real relief. Book your free 15-minute consultation with Mitch at NXTLVL Health today.
+                Let's <strong>uncover the underlying cause of your anxiety</strong> and start your journey to real relief. Book your free 15-minute consultation with Mitch at NXTLVL Health today.
               </p>
               <p className="font-medium">
-                Feel like yourself again, with natural anxiety support that works.
+                <strong>Feel like yourself again, with natural anxiety support that works.</strong>
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild className="text-base sm:text-lg px-6 py-4">
-                <a href="https://nxtlvlhealth.com.au/book-now/">
+                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                   <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                   </svg>
