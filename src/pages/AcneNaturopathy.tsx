@@ -40,11 +40,11 @@ const AcneNaturopathy = () => {
                   asChild 
                   className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight"
                 >
-                  <a href="https://nxtlvlhealth.com.au/book-now/">
+                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                     <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                     </svg>
-                    <span className="text-center">Book an Appointment Today!</span>
+                    <span className="text-center">Book a Free 15-Min Consult</span>
                   </a>
                 </Button>
                 <Button 
@@ -127,6 +127,18 @@ const AcneNaturopathy = () => {
               />
             </div>
           </div>
+
+          {/* CTA Section */}
+          <div className="text-center">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
 
@@ -140,7 +152,7 @@ const AcneNaturopathy = () => {
                 <strong>Acne naturopathy</strong> is a natural, holistic way of treating acne by looking at the whole body. Instead of just treating the symptoms on your skin, we dig deeper to find what's really causing the breakouts. That includes things like hormonal imbalances, poor gut health, stress, diet, and lifestyle.
               </p>
               <p>
-                Mitch uses a <strong>naturopathic approach to acne</strong> that supports healthy skin from the inside out. By balancing hormones, improving gut health, and reducing inflammation, we help your body restore balance so your skin can heal naturally.
+                Mitch uses a <strong>naturopathic approach to acne</strong> that supports healthy skin from the inside out. By balancing hormones, improving gut health, and reducing inflammation, we help your body restore balance so your skin can heal naturally. <a href="https://betterhealthpractice.com.au/should-i-see-a-naturopath-for-acne/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">Learn more about how effective Naturopathy is for Acne</a>.
               </p>
             </div>
           </div>
@@ -182,6 +194,18 @@ const AcneNaturopathy = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+
+          {/* CTA Section */}
+          <div className="text-center mt-16">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult
+              </a>
+            </Button>
           </div>
         </div>
       </section>
@@ -303,6 +327,18 @@ const AcneNaturopathy = () => {
               </CardContent>
             </Card>
           </div>
+
+          {/* CTA Section */}
+          <div className="text-center mt-16">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
 
@@ -367,6 +403,18 @@ const AcneNaturopathy = () => {
               alt="Woman experiencing hormonal balance and clear skin after naturopathic treatment" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
+          </div>
+
+          {/* CTA Section */}
+          <div className="text-center">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult
+              </a>
+            </Button>
           </div>
         </div>
       </section>
@@ -472,6 +520,18 @@ const AcneNaturopathy = () => {
               <strong>Regular exercise</strong> can reduce stress levels and promote overall health and well-being, which may help in managing acne
             </p>
           </div>
+
+          {/* CTA Section */}
+          <div className="text-center mt-16">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
 
@@ -570,6 +630,18 @@ const AcneNaturopathy = () => {
               </Card>
             ))}
           </div>
+
+          {/* CTA Section */}
+          <div className="text-center mt-16">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
 
@@ -592,7 +664,7 @@ const AcneNaturopathy = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild className="text-base sm:text-lg px-6 py-4">
-                <a href="https://nxtlvlhealth.com.au/book-now/">
+                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                   <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                   </svg>
