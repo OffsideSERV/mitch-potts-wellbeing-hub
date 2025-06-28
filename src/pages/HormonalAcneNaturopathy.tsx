@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Zap, Target, Sparkles } from "lucide-react";
@@ -13,7 +12,7 @@ const HormonalAcneNaturopathy = () => {
             <div className="space-y-8 lg:mt-0 mt-12">
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Hormonal Acne Naturopath | <span className="text-primary">Balance Your Skin and Hormones</span> Naturally at NXTLVL Health
+                  Hormonal Acne Naturopathy | <span className="text-primary">Balance Your Skin and Hormones</span> Naturally at NXTLVL Health
                 </h1>
                 
                 {/* Mobile Image */}
