@@ -31,6 +31,7 @@ import EczemaNaturopathy from "./pages/EczemaNaturopathy";
 import AcneNaturopathy from "./pages/AcneNaturopathy";
 import HormonalAcneNaturopathy from "./pages/HormonalAcneNaturopathy";
 import HamiltonNaturopathy from "./pages/HamiltonNaturopathy";
+import ClayfieldNaturopathy from "./pages/ClayfieldNaturopathy";
 
 const queryClient = new QueryClient();
 
@@ -68,6 +69,7 @@ const App = () => (
           <Route path="/acne-naturopathy" element={<AcneNaturopathy />} />
           <Route path="/hormonal-acne-naturopathy" element={<HormonalAcneNaturopathy />} />
           <Route path="/hamilton-naturopathy" element={<HamiltonNaturopathy />} />
+          <Route path="/clayfield-naturopathy" element={<ClayfieldNaturopathy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
