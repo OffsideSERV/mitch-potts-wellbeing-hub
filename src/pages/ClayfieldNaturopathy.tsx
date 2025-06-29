@@ -168,7 +168,7 @@ const ClayfieldNaturopathy = () => {
 
       {/* Our Naturopathic Services Section */}
       <section className="py-20 px-4">
-        <div class="container mx-auto max-w-6xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Our Naturopathic Services</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto mb-8">
@@ -624,7 +624,7 @@ const ClayfieldNaturopathy = () => {
                 ].map((specialty, index) => (
                   <Card key={index}>
                     <CardContent className="p-4">
-                      <div class="flex items-center space-x-3">
+                      <div className="flex items-center space-x-3">
                         <Users className="h-5 w-5 text-primary" />
                         <span className="text-muted-foreground font-medium">{specialty}</span>
                       </div>
