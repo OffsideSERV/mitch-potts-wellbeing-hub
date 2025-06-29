@@ -108,7 +108,7 @@ const HamiltonNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  If you're in Hamilton and searching for a caring, knowledgeable naturopath, NXTLVL Health is just a short drive away. While we're not located directly in Hamilton, we proudly support many clients from the area who are looking for natural ways to feel better, regain energy, and enjoy life again.
+                  If you're in Hamilton and searching for a <strong>caring, knowledgeable naturopath</strong>, NXTLVL Health is just a short drive away. While we're not located directly in Hamilton, we proudly support many clients from the area who are looking for <strong>natural ways to feel better, regain energy, and enjoy life again</strong>.
                 </p>
               </div>
             </div>
@@ -144,10 +144,10 @@ const HamiltonNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  At NXTLVL Health, we believe in helping the body heal by finding and treating the underlying cause of your symptoms—not just covering them up. Whether you're facing digestive complaints, irregular periods, menopause symptoms, or low energy, our naturopathic treatment focuses on individualised patient care to help you feel your best.
+                  At NXTLVL Health, we believe in helping the body heal by <strong>finding and treating the underlying cause</strong> of your symptoms—not just covering them up. Whether you're facing digestive complaints, irregular periods, menopause symptoms, or low energy, our naturopathic treatment focuses on <strong>individualised patient care</strong> to help you feel your best.
                 </p>
                 <p>
-                  Our clinic is led by Mitch, a trusted and experienced naturopath with a particular interest in women's health, gut health, and mental wellbeing. Mitch has been a naturopath for 20 years and treats various gut problems. Using naturopathic medicine that is backed by the latest research, Mitch creates tailored plans using herbal medicine, nutrition, and advanced health science to help you reach long-lasting results.
+                  Our clinic is led by Mitch, a <strong>trusted and experienced naturopath</strong> with a particular interest in women's health, gut health, and mental wellbeing. Mitch has been a naturopath for 20 years and treats various gut problems. Using <strong>naturopathic medicine that is backed by the latest research</strong>, Mitch creates tailored plans using herbal medicine, nutrition, and advanced health science to help you reach long-lasting results.
                 </p>
               </div>
             </div>
@@ -196,7 +196,7 @@ const HamiltonNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
             <p>
-              Although we're not in Hamilton itself, our clinic is very close—and many Hamilton locals choose NXTLVL Health because they want:
+              Although we're not in Hamilton itself, our clinic is <strong>very close</strong>—and many Hamilton locals choose NXTLVL Health because they want:
             </p>
           </div>
 
@@ -212,7 +212,23 @@ const HamiltonNaturopathy = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">{item}</span>
+                    <span className="text-muted-foreground">
+                      {item.includes("rheumatoid arthritis") ? (
+                        <>
+                          Help for fertility, anxiety, depression, or{" "}
+                          <a 
+                            href="https://www.mayoclinic.org/diseases-conditions/rheumatoid-arthritis/symptoms-causes/syc-20353648"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-primary hover:text-primary/80 underline"
+                          >
+                            rheumatoid arthritis
+                          </a>
+                        </>
+                      ) : (
+                        item
+                      )}
+                    </span>
                   </div>
                 </CardContent>
               </Card>
@@ -221,7 +237,7 @@ const HamiltonNaturopathy = () => {
 
           <div className="text-center mt-12">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Your health is personal. That's why our approach is too.
+              <strong>Your health is personal. That's why our approach is too.</strong>
             </p>
           </div>
         </div>
@@ -233,7 +249,7 @@ const HamiltonNaturopathy = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Common Conditions We Treat</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto mb-8">
-              We see clients with a wide range of health concerns, including:
+              We see clients with a <strong>wide range of health concerns</strong>, including:
             </p>
           </div>
 
@@ -250,7 +266,23 @@ const HamiltonNaturopathy = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">{condition}</span>
+                    <span className="text-muted-foreground">
+                      {condition.includes("Rheumatoid arthritis") ? (
+                        <>
+                          <a 
+                            href="https://www.mayoclinic.org/diseases-conditions/rheumatoid-arthritis/symptoms-causes/syc-20353648"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-primary hover:text-primary/80 underline"
+                          >
+                            Rheumatoid arthritis
+                          </a>
+                          {" and other inflammatory conditions"}
+                        </>
+                      ) : (
+                        condition
+                      )}
+                    </span>
                   </div>
                 </CardContent>
               </Card>
@@ -259,7 +291,7 @@ const HamiltonNaturopathy = () => {
 
           <div className="text-center">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Our naturopathic treatments may include herbs, nutritional supplements, lifestyle changes, and personalised recommendations to support your body's healing.
+              Our naturopathic treatments may include <strong>herbs, nutritional supplements, lifestyle changes, and personalised recommendations</strong> to support your body's healing.
             </p>
           </div>
         </div>
@@ -285,10 +317,10 @@ const HamiltonNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  At NXTLVL Health, we know that health is more than just feeling "okay." Our integrative healthcare approach means we work alongside your other medical professionals (if needed), bringing together the best of natural and conventional care to get to the root of what's really going on. Naturopathy recognizes the importance of combining conventional therapies with naturopathic medicine.
+                  At NXTLVL Health, we know that health is more than just feeling "okay." Our <strong>integrative healthcare approach</strong> means we work alongside your other medical professionals (if needed), bringing together the best of natural and conventional care to get to the root of what's really going on. Naturopathy recognizes the importance of <strong>combining conventional therapies with naturopathic medicine</strong>.
                 </p>
                 <p>
-                  Mitch has an Advanced Diploma in Naturopathy and years of clinical experience. He offers expert advice with real empathy, helping you feel supported from your very first visit. Sarah, who graduated with a Bachelor of Naturopathy in 2010, also offers expert naturopathic advice at our clinic.
+                  Mitch has an <strong>Advanced Diploma in Naturopathy and years of clinical experience</strong>. He offers expert advice with real empathy, helping you feel supported from your very first visit. Sarah, who graduated with a Bachelor of Naturopathy in 2010, also offers <strong>expert naturopathic advice</strong> at our clinic.
                 </p>
               </div>
             </div>
@@ -324,7 +356,7 @@ const HamiltonNaturopathy = () => {
             </div>
             <div className="text-center mt-8">
               <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-                We're passionate about better health and helping you feel more like yourself again.
+                We're passionate about <strong>better health and helping you feel more like yourself again</strong>.
               </p>
             </div>
           </div>
@@ -351,10 +383,10 @@ const HamiltonNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  Many women from Hamilton visit our clinic for help with period problems, fertility, hormone imbalances, or menopause support. Emma, who has been a naturopath since 2003, has a special interest in hormones and fertility. These health changes can be overwhelming—but they don't have to be.
+                  Many women from Hamilton visit our clinic for help with <strong>period problems, fertility, hormone imbalances, or menopause support</strong>. Emma, who has been a naturopath since 2003, has a special interest in hormones and fertility. These health changes can be overwhelming—but they don't have to be.
                 </p>
                 <p>
-                  With gentle, effective naturopathic care, we can help you understand your body better, ease your symptoms, and support your natural cycles. Whether you're coming off the pill, planning a pregnancy, or just not feeling yourself—there is a natural way forward.
+                  With <strong>gentle, effective naturopathic care</strong>, we can help you understand your body better, ease your symptoms, and support your natural cycles. Whether you're coming off the pill, planning a pregnancy, or just not feeling yourself—<strong>there is a natural way forward</strong>.
                 </p>
               </div>
             </div>
@@ -403,10 +435,10 @@ const HamiltonNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground text-center">
             <p>
-              Health affects the whole family. At NXTLVL Health, we help clients of all ages feel their best. Whether it's your child with food sensitivities, your partner with sleep issues, or your own concerns with fatigue or stress—we're here to support you.
+              <strong>Health affects the whole family.</strong> At NXTLVL Health, we help clients of all ages feel their best. Whether it's your child with food sensitivities, your partner with sleep issues, or your own concerns with fatigue or stress—we're here to support you.
             </p>
             <p>
-              We love helping our local community, and many of our Hamilton clients feel like part of our extended family.
+              We love helping our local community, and many of our Hamilton clients <strong>feel like part of our extended family</strong>.
             </p>
           </div>
         </div>
@@ -419,10 +451,10 @@ const HamiltonNaturopathy = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Book Your First Appointment Today</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
               <p>
-                If you've been searching for a naturopath Hamilton locals trust, NXTLVL Health is just around the corner and ready to help.
+                If you've been searching for a <strong>naturopath Hamilton locals trust</strong>, NXTLVL Health is just around the corner and ready to help.
               </p>
               <p>
-                Book your first consultation today and take the first step toward better health, balance, and natural support that works.
+                <strong>Book your first consultation today</strong> and take the first step toward better health, balance, and natural support that works.
               </p>
             </div>
 
