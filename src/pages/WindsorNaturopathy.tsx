@@ -166,6 +166,18 @@ const WindsorNaturopathy = () => {
               />
             </div>
           </div>
+
+          {/* CTA */}
+          <div className="text-center mt-12">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult!
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
 
@@ -179,11 +191,11 @@ const WindsorNaturopathy = () => {
             </p>
           </div>
 
-          <div class="mb-12">
+          <div className="mb-12">
             <img 
               src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
               alt="NXTLVL Health clinic welcoming Windsor patients" 
-              class="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
           </div>
 
@@ -324,6 +336,18 @@ const WindsorNaturopathy = () => {
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
               **Functional testing can include gut indicans testing, heavy metal testing, pH analysis, and body composition analysis**, providing valuable insights for personalized care.
             </p>
+          </div>
+
+          {/* CTA */}
+          <div className="text-center mt-12">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult!
+              </a>
+            </Button>
           </div>
         </div>
       </section>
@@ -471,6 +495,18 @@ const WindsorNaturopathy = () => {
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
             </div>
+          </div>
+
+          {/* CTA */}
+          <div className="text-center mt-12">
+            <Button asChild className="text-base sm:text-lg px-6 py-4">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                Book a Free 15-Min Consult!
+              </a>
+            </Button>
           </div>
         </div>
       </section>
