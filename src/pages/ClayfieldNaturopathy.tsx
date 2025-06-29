@@ -40,11 +40,11 @@ const ClayfieldNaturopathy = () => {
                   asChild 
                   className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight"
                 >
-                  <a href="https://nxtlvlhealth.com.au/book-now/">
+                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                     <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 002 2v12a2 2 0 002 2z"></path>
                     </svg>
-                    <span className="text-center">Book an Appointment Today!</span>
+                    <span className="text-center">Book a Free 15-Min Consult!</span>
                   </a>
                 </Button>
                 <Button 
@@ -108,10 +108,10 @@ const ClayfieldNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  If you're based in Clayfield and searching for a kind, experienced naturopath who takes the time to really listen, NXTLVL Health is just around the corner. While we're not located directly in Clayfield, our clinic is close by—and we regularly see clients from this beautiful Brisbane suburb.
+                  If you're based in Clayfield and searching for a <strong>kind, experienced naturopath</strong> who takes the time to really listen, NXTLVL Health is just around the corner. While we're not located directly in Clayfield, our clinic is close by—and we regularly see clients from this beautiful Brisbane suburb.
                 </p>
                 <p>
-                  Whether you're feeling tired, stressed, run-down, or struggling with a chronic health issue, we're here to help you feel your best again—naturally.
+                  Whether you're feeling tired, stressed, run-down, or struggling with a chronic health issue, we're here to help you feel your best again—<strong>naturally</strong>.
                 </p>
               </div>
             </div>
@@ -147,10 +147,10 @@ const ClayfieldNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  At NXTLVL Health, we offer a holistic approach to health and wellbeing. That means we look at your whole body—not just one symptom or one part. Naturopathy is a holistic approach to healthcare that views the body as a whole. Whether it's your digestion, hormones, skin, or mood, everything in your body is connected. And when we support the root cause, your body can begin to heal.
+                  At NXTLVL Health, we offer a <strong>holistic approach to health and wellbeing</strong>. That means we look at your whole body—not just one symptom or one part. Naturopathy is a holistic approach to healthcare that views the body as a whole. Whether it's your digestion, hormones, skin, or mood, <strong>everything in your body is connected</strong>. And when we support the root cause, your body can begin to heal.
                 </p>
                 <p>
-                  We use natural therapies, herbal medicine, nutritional medicine, and functional testing to help you feel more balanced, calm, and full of energy.
+                  We use <strong>natural therapies, herbal medicine, nutritional medicine, and functional testing</strong> to help you feel more balanced, calm, and full of energy.
                 </p>
               </div>
             </div>
@@ -166,21 +166,36 @@ const ClayfieldNaturopathy = () => {
         </div>
       </section>
 
+      {/* Free 15-Min Consult CTA */}
+      <section className="py-16 px-4 bg-primary/5">
+        <div className="container mx-auto max-w-4xl text-center">
+          <h3 className="text-2xl font-bold mb-4">Not Sure If We're Right for You?</h3>
+          <p className="text-lg text-muted-foreground mb-6">
+            Book a free 15-minute consultation to discuss your health concerns and see how we can help.
+          </p>
+          <Button asChild className="text-lg px-8 py-4">
+            <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+              Book a Free 15-Min Consult!
+            </a>
+          </Button>
+        </div>
+      </section>
+
       {/* Our Naturopathic Services Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Our Naturopathic Services</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto mb-8">
-              We help people with a wide range of health concerns every day. Whether you're starting your health journey, managing an ongoing condition, or just wanting more energy and vitality, we'll support you every step of the way.
+              We help people with a <strong>wide range of health concerns</strong> every day. Whether you're starting your health journey, managing an ongoing condition, or just wanting more energy and vitality, we'll support you every step of the way.
             </p>
           </div>
 
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/KzhzvfYCqwWucZxbOivI.png" 
-              alt="Health and wellness consultation at NXTLVL Health Brisbane" 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-checking-blood-pressure-of-patient-scaled.jpeg" 
+              alt="Naturopath checking blood pressure of patient at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
           </div>
@@ -212,7 +227,7 @@ const ClayfieldNaturopathy = () => {
 
           <div className="text-center">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              We believe every person is unique. That's why we create tailored support plans that match your body, lifestyle, and goals. Empowering clients with knowledge and tools is a key component of personalized health plans. No cookie-cutter plans. Just what works for you.
+              We believe <strong>every person is unique</strong>. That's why we create tailored support plans that match your body, lifestyle, and goals. Empowering clients with knowledge and tools is a key component of personalized health plans. <strong>No cookie-cutter plans. Just what works for you.</strong>
             </p>
           </div>
         </div>
@@ -224,7 +239,7 @@ const ClayfieldNaturopathy = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Clayfield Locals Trust NXTLVL Health</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto mb-8">
-              Even though our clinic isn't in Clayfield, many of our clients live just around the corner and are happy to make the short trip for high-quality naturopathic care.
+              Even though our clinic isn't in Clayfield, many of our clients live just around the corner and are happy to make the short trip for <strong>high-quality naturopathic care</strong>.
             </p>
           </div>
 
@@ -262,7 +277,7 @@ const ClayfieldNaturopathy = () => {
 
           <div className="text-center mt-12">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Your wellbeing matters to us. That's why we offer a supportive space where you feel heard, understood, and empowered to take control of your health.
+              Your wellbeing matters to us. That's why we offer a <strong>supportive space</strong> where you feel heard, understood, and empowered to take control of your health.
             </p>
           </div>
         </div>
@@ -288,13 +303,13 @@ const ClayfieldNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  Your health is personal. It's not just about fixing one problem—it's about helping your whole body and mind feel better. True health encompasses the mind, body, and spirit.
+                  Your health is personal. It's not just about fixing one problem—it's about helping your <strong>whole body and mind feel better</strong>. True health encompasses the mind, body, and spirit.
                 </p>
                 <p>
-                  At NXTLVL Health, we take a collaborative approach. That means we work with you to create a simple, clear plan that fits your daily life. We may also work alongside other medical professionals if needed, so you get the most complete care possible.
+                  At NXTLVL Health, we take a <strong>collaborative approach</strong>. That means we work with you to create a simple, clear plan that fits your daily life. We may also work alongside other medical professionals if needed, so you get the most complete care possible.
                 </p>
                 <p>
-                  We combine herbal medicine, nutrition, and lifestyle guidance to support your healing process from the inside out.
+                  We combine <strong>herbal medicine, nutrition, and lifestyle guidance</strong> to support your healing process from the inside out.
                 </p>
               </div>
             </div>
@@ -310,21 +325,36 @@ const ClayfieldNaturopathy = () => {
         </div>
       </section>
 
+      {/* Free 15-Min Consult CTA */}
+      <section className="py-16 px-4 bg-primary/5">
+        <div className="container mx-auto max-w-4xl text-center">
+          <h3 className="text-2xl font-bold mb-4">Ready to Start Your Health Journey?</h3>
+          <p className="text-lg text-muted-foreground mb-6">
+            Take the first step with a free 15-minute consultation to see how we can support your health goals.
+          </p>
+          <Button asChild className="text-lg px-8 py-4">
+            <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+              Book a Free 15-Min Consult!
+            </a>
+          </Button>
+        </div>
+      </section>
+
       {/* Supporting Your Mental Health, Gently Section */}
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Supporting Your Mental Health, Gently</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto mb-8">
-              Mental health can affect every part of your life—your sleep, your focus, your mood, your energy. At NXTLVL Health, we offer gentle, supportive strategies to help with:
+              Mental health can affect every part of your life—your sleep, your focus, your mood, your energy. At NXTLVL Health, we offer <strong>gentle, supportive strategies</strong> to help with:
             </p>
           </div>
 
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/kcF6c6jGP3wRQF0L9ySy.png" 
-              alt="Mental health support consultation at NXTLVL Health Brisbane" 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Sad-woman-dealing-with-gut-issues-and-bloating-scaled.jpeg" 
+              alt="Woman dealing with health concerns at NXTLVL Health Brisbane" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
           </div>
@@ -350,10 +380,10 @@ const ClayfieldNaturopathy = () => {
 
           <div className="text-center space-y-6">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Our naturopathic approach to mental health uses nutrition, herbs, and lifestyle changes to support your nervous system and help you feel more calm, centred, and clear.
+              Our <strong>naturopathic approach to mental health</strong> uses nutrition, herbs, and lifestyle changes to support your nervous system and help you feel more calm, centred, and clear.
             </p>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              We also offer natural therapies to reduce stress, improve sleep, and help your body feel safe again.
+              We also offer <strong>natural therapies</strong> to reduce stress, improve sleep, and help your body feel safe again.
             </p>
           </div>
         </div>
@@ -365,15 +395,15 @@ const ClayfieldNaturopathy = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Hormonal Balance and Women's Health</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto mb-8">
-              Many women come to us feeling confused, overwhelmed, or frustrated with their hormones. Whether it's irregular periods, PMS, perimenopause, or recovering after the pill, we're here to help.
+              Many women come to us feeling confused, overwhelmed, or frustrated with their hormones. Whether it's irregular periods, PMS, perimenopause, or recovering after the pill, <strong>we're here to help</strong>.
             </p>
           </div>
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
-              alt="Women's health consultation at NXTLVL Health Brisbane" 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-standing-next-to-female-patient-thats-lying-down-while-he-checks-her-vitals-scaled.jpeg" 
+              alt="Naturopath checking patient vitals at NXTLVL Health Brisbane" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
           </div>
@@ -381,7 +411,7 @@ const ClayfieldNaturopathy = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                We look at the underlying cause of hormone symptoms and create a plan to support your body back to balance. This might include:
+                We look at the <strong>underlying cause of hormone symptoms</strong> and create a plan to support your body back to balance. This might include:
               </p>
               
               <div className="grid gap-4">
@@ -403,14 +433,14 @@ const ClayfieldNaturopathy = () => {
               </div>
 
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Women from Clayfield often visit our clinic for help with hormonal concerns because they want real answers, not just temporary solutions.
+                Women from Clayfield often visit our clinic for help with hormonal concerns because they want <strong>real answers, not just temporary solutions</strong>.
               </p>
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
-                alt="Women's health consultation at NXTLVL Health Brisbane" 
+                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-standing-next-to-female-patient-thats-lying-down-while-he-checks-her-vitals-scaled.jpeg" 
+                alt="Naturopath checking patient vitals at NXTLVL Health Brisbane" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
             </div>
@@ -424,17 +454,17 @@ const ClayfieldNaturopathy = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">A Focus on Gut Health and Digestive Support</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto mb-8">
-              So many health problems start in the gut. If your digestion isn't working well, it can affect your mood, energy, skin, hormones, and even immune health.
+              <strong>So many health problems start in the gut.</strong> If your digestion isn't working well, it can affect your mood, energy, skin, hormones, and even immune health.
             </p>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              At NXTLVL Health, we look closely at your digestive issues and use naturopathic treatments to support healing from the inside out.
+              At NXTLVL Health, we look closely at your digestive issues and use <strong>naturopathic treatments</strong> to support healing from the inside out.
             </p>
           </div>
 
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/DSC_4578-scaled.jpeg" 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/AdobeStock_1076682494-scaled.jpeg" 
               alt="Gut health and digestive support at NXTLVL Health clinic" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -455,7 +485,23 @@ const ClayfieldNaturopathy = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <Activity className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">{approach}</span>
+                    <span className="text-muted-foreground">
+                      {approach}
+                      {index === 1 && (
+                        <>
+                          <br />
+                          <br />
+                          <a 
+                            href="https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/herbal-medicine" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-primary hover:text-primary/80 underline"
+                          >
+                            Learn about the effectiveness of Herbal Medicine
+                          </a>
+                        </>
+                      )}
+                    </span>
                   </div>
                 </CardContent>
               </Card>
@@ -464,9 +510,24 @@ const ClayfieldNaturopathy = () => {
 
           <div className="text-center">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Our goal is to help you enjoy food again, reduce symptoms, and support your overall vitality.
+              Our goal is to help you <strong>enjoy food again, reduce symptoms, and support your overall vitality</strong>.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Free 15-Min Consult CTA */}
+      <section className="py-16 px-4 bg-primary/5">
+        <div className="container mx-auto max-w-4xl text-center">
+          <h3 className="text-2xl font-bold mb-4">Want to Learn More About Our Approach?</h3>
+          <p className="text-lg text-muted-foreground mb-6">
+            Schedule a free consultation to discuss your specific health concerns and treatment options.
+          </p>
+          <Button asChild className="text-lg px-8 py-4">
+            <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+              Book a Free 15-Min Consult!
+            </a>
+          </Button>
         </div>
       </section>
 
@@ -490,13 +551,13 @@ const ClayfieldNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  Feeling tired all the time? Many of our Clayfield clients come to us when they're completely exhausted—mentally, emotionally, and physically.
+                  <strong>Feeling tired all the time?</strong> Many of our Clayfield clients come to us when they're completely exhausted—mentally, emotionally, and physically.
                 </p>
                 <p>
-                  We understand how draining it can be to push through each day with no energy, poor sleep, and constant overwhelm. That's why we support your adrenal health, your nervous system, and your daily life.
+                  We understand how draining it can be to push through each day with no energy, poor sleep, and constant overwhelm. That's why we support your <strong>adrenal health, your nervous system, and your daily life</strong>.
                 </p>
                 <p>
-                  You don't have to do it alone. With the right guidance and tailored support, your body can recover, recharge, and feel strong again. The human body has a remarkable capacity to heal and maintain optimal health.
+                  You don't have to do it alone. With the right guidance and tailored support, your body can recover, recharge, and feel strong again. The human body has a <strong>remarkable capacity to heal and maintain optimal health</strong>.
                 </p>
               </div>
             </div>
@@ -530,13 +591,13 @@ const ClayfieldNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground text-center">
             <p>
-              At NXTLVL Health, we welcome people of all ages and stages. Whether you're a parent, student, professional, or retiree—your health matters. And we're here to support you.
+              At NXTLVL Health, we welcome <strong>people of all ages and stages</strong>. Whether you're a parent, student, professional, or retiree—your health matters. And we're here to support you.
             </p>
             <p>
-              We love working with the Clayfield community and helping families feel confident in their health decisions. We're also happy to work alongside massage therapists, doctors, or other wellness providers to give you the care you need.
+              We love working with the <strong>Clayfield community</strong> and helping families feel confident in their health decisions. We're also happy to work alongside massage therapists, doctors, or other wellness providers to give you the care you need.
             </p>
             <p>
-              We believe health is a team effort. And you're at the centre of it.
+              We believe <strong>health is a team effort</strong>. And you're at the centre of it.
             </p>
           </div>
         </div>
@@ -548,14 +609,14 @@ const ClayfieldNaturopathy = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Our Holistic Approach to Health</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto mb-8">
-              When you visit NXTLVL Health, we start with a thorough health consultation. We ask about your symptoms, lifestyle, medical history, and health goals. Appointments can be booked online or by phone at naturopath clinics.
+              When you visit NXTLVL Health, we start with a <strong>thorough health consultation</strong>. We ask about your symptoms, lifestyle, medical history, and health goals. Appointments can be booked online or by phone at naturopath clinics.
             </p>
           </div>
 
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/01/DSC_4546-scaled.jpeg" 
               alt="Holistic health approach at NXTLVL Health natural medicine clinic" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -587,7 +648,7 @@ const ClayfieldNaturopathy = () => {
 
           <div className="text-center">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Our goal is always to help you enjoy life, feel good in your body, and experience better health—naturally.
+              Our goal is always to help you <strong>enjoy life, feel good in your body, and experience better health—naturally</strong>.
             </p>
           </div>
         </div>
@@ -603,7 +664,7 @@ const ClayfieldNaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/Screen-Shot-2023-08-29-at-8.34.10-pm.png" 
               alt="Mitch, experienced naturopath at NXTLVL Health Brisbane" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
@@ -612,7 +673,7 @@ const ClayfieldNaturopathy = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Mitch is an experienced, compassionate naturopath who's helped hundreds of people transform their health. He has a special interest in:
+                Mitch is an <strong>experienced, compassionate naturopath</strong> who's helped hundreds of people transform their health. He has a special interest in:
               </p>
               
               <div className="grid gap-4">
@@ -635,17 +696,17 @@ const ClayfieldNaturopathy = () => {
 
               <div className="text-lg text-muted-foreground leading-relaxed space-y-4">
                 <p>
-                  Mitch takes the time to understand what's going on in your body and in your life. His approach is practical, evidence-based, and tailored to you.
+                  Mitch takes the time to understand what's going on in your body and in your life. His approach is <strong>practical, evidence-based, and tailored to you</strong>.
                 </p>
                 <p>
-                  With over a decade in the field, Mitch combines clinical experience, ongoing education, and a warm, supportive presence to help you feel truly cared for.
+                  With <strong>over a decade in the field</strong>, Mitch combines clinical experience, ongoing education, and a warm, supportive presence to help you feel truly cared for.
                 </p>
               </div>
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/Screen-Shot-2023-08-29-at-8.34.10-pm.png" 
                 alt="Mitch, experienced naturopath at NXTLVL Health Brisbane" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -664,7 +725,7 @@ const ClayfieldNaturopathy = () => {
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4503-scaled.jpeg" 
               alt="Ready to start your health journey at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -672,10 +733,10 @@ const ClayfieldNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground text-center">
             <p>
-              If you've been looking for a naturopath Clayfield locals trust, NXTLVL Health is just a short drive away—and we're ready to help.
+              If you've been looking for a <strong>naturopath Clayfield locals trust</strong>, NXTLVL Health is just a short drive away—and we're ready to help.
             </p>
             <p>
-              Whether you're managing stress, dealing with hormonal changes, or just want to feel more balanced, we'll help you get to the root of the problem and support your journey to optimal health.
+              Whether you're managing stress, dealing with hormonal changes, or just want to feel more balanced, we'll help you <strong>get to the root of the problem</strong> and support your journey to optimal health.
             </p>
           </div>
         </div>
@@ -688,20 +749,20 @@ const ClayfieldNaturopathy = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Book Your First Appointment Today</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
               <p>
-                You deserve to feel good in your body, your mind, and your daily life. Book your first consultation with Mitch at NXTLVL Health today and take the first step toward real, lasting change.
+                You deserve to <strong>feel good in your body, your mind, and your daily life</strong>. Book your first consultation with Mitch at NXTLVL Health today and take the first step toward real, lasting change.
               </p>
               <p>
-                We're here for you, every step of the way.
+                <strong>We're here for you, every step of the way.</strong>
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild className="text-base sm:text-lg px-6 py-4">
-                <a href="https://nxtlvlhealth.com.au/book-now/">
+                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                   <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                   </svg>
-                  Book Your First Appointment Today
+                  Book a Free 15-Min Consult!
                 </a>
               </Button>
               <Button variant="outline" asChild className="text-base sm:text-lg px-6 py-4">
