@@ -108,10 +108,10 @@ const WindsorNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  If you're living in Windsor and looking for a **caring, experienced naturopath**, NXTLVL Health is only a short drive away. While we are not located directly in Windsor, we proudly support many clients from the area who want a **natural approach to their health**. We're close, convenient, and passionate about helping you feel better.
+                  If you're living in Windsor and looking for a <strong>caring, experienced naturopath</strong>, NXTLVL Health is only a short drive away. While we are not located directly in Windsor, we proudly support many clients from the area who want a <strong>natural approach to their health</strong>. We're close, convenient, and passionate about helping you feel better.
                 </p>
                 <p>
-                  Whether you're struggling with **stress, low energy, anxiety, or chronic pain**, our team is here to help guide you back to wellness through personalised natural therapies and expert support.
+                  Whether you're struggling with <strong>stress, low energy, anxiety, or chronic pain</strong>, our team is here to help guide you back to wellness through personalised natural therapies and expert support.
                 </p>
               </div>
             </div>
@@ -147,13 +147,13 @@ const WindsorNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  At NXTLVL Health, we focus on **understanding the root cause** of your symptoms. We take the time to listen to your story so we can create a treatment plan that fits your life and your health goals.
+                  At NXTLVL Health, we focus on <strong>understanding the root cause</strong> of your symptoms. We take the time to listen to your story so we can create a treatment plan that fits your life and your health goals.
                 </p>
                 <p>
-                  Using **naturopathy, herbal medicine, nutritional supplementation**, and evidence-based wellness practices, we help support your body's natural healing abilities. Every person is unique, so every treatment plan is too.
+                  Using <strong>naturopathy, herbal medicine, nutritional supplementation</strong>, and evidence-based wellness practices, we help support your body's natural healing abilities. Every person is unique, so every treatment plan is too.
                 </p>
                 <p>
-                  We also support your **diet, stress levels, and lifestyle choices** to help you feel better every day.
+                  We also support your <strong>diet, stress levels, and lifestyle choices</strong> to help you feel better every day.
                 </p>
               </div>
             </div>
@@ -249,27 +249,55 @@ const WindsorNaturopathy = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-            {[
-              { icon: Activity, title: "Digestive Issues", description: "bloating, IBS, reflux" },
-              { icon: Brain, title: "Anxiety and Low Mood", description: "stress management, emotional balance" },
-              { icon: Heart, title: "Hormonal Imbalances", description: "hormonal regulation, women's health" },
-              { icon: Shield, title: "Fatigue and Low Energy", description: "energy restoration, vitality" },
-              { icon: Users, title: "Immune Weakness", description: "frequent illness, immune support" },
-              { icon: Baby, title: "General Wellness", description: "preventative care, overall health" }
-            ].map((item, index) => (
-              <Card key={index} className="text-center">
-                <CardContent className="p-6">
-                  <item.icon className="h-12 w-12 text-primary mx-auto mb-4" />
-                  <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-                  <p className="text-sm text-muted-foreground">{item.description}</p>
-                </CardContent>
-              </Card>
-            ))}
+            <Card className="text-center">
+              <CardContent className="p-6">
+                <Activity className="h-12 w-12 text-primary mx-auto mb-4" />
+                <h3 className="text-lg font-semibold mb-2">Digestive Issues</h3>
+                <p className="text-sm text-muted-foreground">
+                  bloating, <a href="https://www.healthdirect.gov.au/irritable-bowel-syndrome-ibs" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">IBS</a>, reflux
+                </p>
+              </CardContent>
+            </Card>
+            <Card className="text-center">
+              <CardContent className="p-6">
+                <Brain className="h-12 w-12 text-primary mx-auto mb-4" />
+                <h3 className="text-lg font-semibold mb-2">Anxiety and Low Mood</h3>
+                <p className="text-sm text-muted-foreground">stress management, emotional balance</p>
+              </CardContent>
+            </Card>
+            <Card className="text-center">
+              <CardContent className="p-6">
+                <Heart className="h-12 w-12 text-primary mx-auto mb-4" />
+                <h3 className="text-lg font-semibold mb-2">Hormonal Imbalances</h3>
+                <p className="text-sm text-muted-foreground">hormonal regulation, women's health</p>
+              </CardContent>
+            </Card>
+            <Card className="text-center">
+              <CardContent className="p-6">
+                <Shield className="h-12 w-12 text-primary mx-auto mb-4" />
+                <h3 className="text-lg font-semibold mb-2">Fatigue and Low Energy</h3>
+                <p className="text-sm text-muted-foreground">energy restoration, vitality</p>
+              </CardContent>
+            </Card>
+            <Card className="text-center">
+              <CardContent className="p-6">
+                <Users className="h-12 w-12 text-primary mx-auto mb-4" />
+                <h3 className="text-lg font-semibold mb-2">Immune Weakness</h3>
+                <p className="text-sm text-muted-foreground">frequent illness, immune support</p>
+              </CardContent>
+            </Card>
+            <Card className="text-center">
+              <CardContent className="p-6">
+                <Baby className="h-12 w-12 text-primary mx-auto mb-4" />
+                <h3 className="text-lg font-semibold mb-2">General Wellness</h3>
+                <p className="text-sm text-muted-foreground">preventative care, overall health</p>
+              </CardContent>
+            </Card>
           </div>
 
           <div className="text-center">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              **Naturopathy can help address various health conditions**, including digestive complaints, hormonal imbalances, and stress, by focusing on the root causes and promoting holistic healing.
+              <strong>Naturopathy can help address various health conditions</strong>, including digestive complaints, hormonal imbalances, and stress, by focusing on the root causes and promoting holistic healing.
             </p>
           </div>
         </div>
@@ -295,7 +323,7 @@ const WindsorNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  **Naturopathy is all about treating the whole person**—not just the symptoms. At NXTLVL Health, we use a combination of natural therapies designed to restore balance, reduce stress, and promote lasting wellness. This approach recognizes that **the body has the capacity for self-regulation**, which is central to achieving optimal health.
+                  <strong>Naturopathy is all about treating the whole person</strong>—not just the symptoms. At NXTLVL Health, we use a combination of natural therapies designed to restore balance, reduce stress, and promote lasting wellness. This approach recognizes that <strong>the body has the capacity for self-regulation</strong>, which is central to achieving optimal health.
                 </p>
                 <p>Some of our therapies include:</p>
                 <ul className="space-y-2 ml-6">
@@ -334,7 +362,7 @@ const WindsorNaturopathy = () => {
 
           <div className="text-center">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              **Functional testing can include gut indicans testing, heavy metal testing, pH analysis, and body composition analysis**, providing valuable insights for personalized care.
+              <strong>Functional testing can include gut indicans testing, heavy metal testing, pH analysis, and body composition analysis</strong>, providing valuable insights for personalized care.
             </p>
           </div>
 
@@ -370,7 +398,7 @@ const WindsorNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6">
             <p>
-              While our clinic focuses on **evidence-based natural medicine**, we also draw inspiration from traditional systems like **Traditional Chinese Medicine (TCM)**. These practices have been used for centuries to support body balance and vitality.
+              While our clinic focuses on <strong>evidence-based natural medicine</strong>, we also draw inspiration from traditional systems like <strong>Traditional Chinese Medicine (TCM)</strong>. These practices have been used for centuries to support body balance and vitality.
             </p>
             <p>
               Although we don't offer acupuncture in our clinic, we understand and respect its role in wellness, and we're happy to work collaboratively with other healthcare providers.
@@ -411,7 +439,7 @@ const WindsorNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  At NXTLVL Health, we understand that **real healing happens when you feel supported**. That's why every treatment plan we create is built around you. We consider your symptoms, lifestyle, medical history, and personal goals to craft a plan that makes sense and feels doable. **Naturopathy also aims to educate and empower clients** to take charge of their health, ensuring they feel confident in their wellness journey.
+                  At NXTLVL Health, we understand that <strong>real healing happens when you feel supported</strong>. That's why every treatment plan we create is built around you. We consider your symptoms, lifestyle, medical history, and personal goals to craft a plan that makes sense and feels doable. <strong>Naturopathy also aims to educate and empower clients</strong> to take charge of their health, ensuring they feel confident in their wellness journey.
                 </p>
                 <p>This may include:</p>
                 <ul className="space-y-2 ml-6">
@@ -466,7 +494,7 @@ const WindsorNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  **Stress and anxiety are two of the most common issues** we see in our practice. They don't just affect the mind—they also impact your body, your energy, and your overall health.
+                  <strong>Stress and anxiety are two of the most common issues</strong> we see in our practice. They don't just affect the mind—they also impact your body, your energy, and your overall health.
                 </p>
                 <p>
                   We support Windsor patients with gentle, effective strategies that help restore emotional balance. This may include:
@@ -529,10 +557,10 @@ const WindsorNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6">
             <p>
-              From **busy professionals to parents and retirees**, we support patients through every chapter of life. Whether you're managing a health condition, dealing with stress, or looking to feel your best again—we're here for you.
+              From <strong>busy professionals to parents and retirees</strong>, we support patients through every chapter of life. Whether you're managing a health condition, dealing with stress, or looking to feel your best again—we're here for you.
             </p>
             <p>
-              If you're preparing for a big life event, dealing with work stress, or just feeling "off," **a naturopath can help you get back on track** with personalised care.
+              If you're preparing for a big life event, dealing with work stress, or just feeling "off," <strong>a naturopath can help you get back on track</strong> with personalised care.
             </p>
           </div>
 
@@ -570,10 +598,10 @@ const WindsorNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  **Mitch leads the clinic with a calm, grounded approach** to health. With years of experience in naturopathic medicine and a passion for whole-body wellness, Mitch takes time to truly understand what's going on beneath the surface.
+                  <strong>Mitch leads the clinic with a calm, grounded approach</strong> to health. With years of experience in naturopathic medicine and a passion for whole-body wellness, Mitch takes time to truly understand what's going on beneath the surface.
                 </p>
                 <p>
-                  His **warm, practical guidance** helps patients feel safe, informed, and empowered to take back control of their health.
+                  His <strong>warm, practical guidance</strong> helps patients feel safe, informed, and empowered to take back control of their health.
                 </p>
               </div>
             </div>
@@ -607,10 +635,10 @@ const WindsorNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6">
             <p>
-              If you've been searching for a **naturopath Windsor locals trust**, NXTLVL Health is here to help. We're close by, easy to reach, and passionate about your health and wellbeing.
+              If you've been searching for a <strong>naturopath Windsor locals trust</strong>, NXTLVL Health is here to help. We're close by, easy to reach, and passionate about your health and wellbeing.
             </p>
             <p>
-              Whether you're dealing with a specific illness or simply want to feel more balanced, we'll help you move forward with clarity, confidence, and support. **Wellness allows for better function physically, mentally, and emotionally**, enabling you to live a more fulfilling life.
+              Whether you're dealing with a specific illness or simply want to feel more balanced, we'll help you move forward with clarity, confidence, and support. <strong>Wellness allows for better function physically, mentally, and emotionally</strong>, enabling you to live a more fulfilling life.
             </p>
           </div>
         </div>
@@ -623,7 +651,7 @@ const WindsorNaturopathy = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Book Your First Appointment Today</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
               <p>
-                **Take the first step toward better health** and book your consultation today. You deserve to feel good—in your body, your mind, and your life.
+                <strong>Take the first step toward better health</strong> and book your consultation today. You deserve to feel good—in your body, your mind, and your life.
               </p>
               <p>
                 We look forward to supporting you on your healing journey.
