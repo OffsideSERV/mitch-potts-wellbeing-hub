@@ -293,6 +293,19 @@ const IBSClinic = () => {
                 </CardContent>
               </Card>
             </div>
+            
+            <div className="text-center mt-8">
+              <p className="text-lg text-muted-foreground">
+                <a 
+                  href="https://nxtlvlhealth.com.au/what-we-treat/gut-health-specialist/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:text-primary/80 underline"
+                >
+                  Click here to learn about Mitchell, our Specialist in Gut Health
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -498,9 +511,19 @@ const IBSClinic = () => {
               </Card>
             </div>
 
-            <div className="text-center mt-8">
+            <div className="text-center mt-8 space-y-4">
               <p className="text-lg text-muted-foreground">
                 <strong>Counseling can be suggested for patients with IBS</strong> if depression or stress worsens their symptoms.
+              </p>
+              <p className="text-lg text-muted-foreground">
+                <a 
+                  href="https://nxtlvlhealth.com.au/what-we-treat/ibs-naturopath/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:text-primary/80 underline"
+                >
+                  Click here to learn about our IBS Naturopathy
+                </a>
               </p>
             </div>
           </div>
@@ -562,9 +585,19 @@ const IBSClinic = () => {
               </Card>
             </div>
 
-            <div className="text-center mt-8">
+            <div className="text-center mt-8 space-y-4">
               <p className="text-lg text-muted-foreground">
                 At NXTLVL Health, <strong>we're not just another one of those IBS clinics. We're a team that genuinely cares</strong> about your health, your body, and your life.
+              </p>
+              <p className="text-lg text-muted-foreground">
+                <a 
+                  href="https://nxtlvlhealth.com.au/what-we-treat/gut-health-naturopath-brisbane/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:text-primary/80 underline"
+                >
+                  Click here to explore our Gut Health Naturopathy
+                </a>
               </p>
             </div>
           </div>
