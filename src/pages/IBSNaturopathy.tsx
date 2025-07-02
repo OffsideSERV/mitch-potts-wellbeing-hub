@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Activity, Brain, Shield } from "lucide-react";
@@ -105,6 +106,9 @@ const IBSNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto">
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6 text-center">
+              <p>
+                If this sounds like you, our IBS Naturopath can help:
+              </p>
               <p>
                 Do you feel like your tummy is always upset? Are you tired of the bloating, cramping, and rushing to the toilet—or feeling stuck and not going at all? You're not alone. Many people feel this way, and it can be hard. But there's help.
               </p>
@@ -284,9 +288,19 @@ const IBSNaturopathy = () => {
               ))}
             </div>
 
-            <div className="text-center">
+            <div className="text-center space-y-4">
               <p className="text-lg text-muted-foreground">
                 Once we understand what's going on, we create a <strong>tailored treatment plan</strong> that fits your life.
+              </p>
+              <p className="text-lg">
+                <a 
+                  href="https://nxtlvlhealth.com.au/what-we-treat/gut-health-naturopath-brisbane/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:text-primary/80 underline"
+                >
+                  Learn more about our Gut Health Naturopathy
+                </a>
               </p>
             </div>
           </div>
@@ -368,6 +382,19 @@ const IBSNaturopathy = () => {
                   </p>
                 </CardContent>
               </Card>
+            </div>
+
+            <div className="text-center mt-12">
+              <p className="text-lg text-muted-foreground">
+                <a 
+                  href="https://nxtlvlhealth.com.au/what-we-treat/gut-health-specialist/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:text-primary/80 underline"
+                >
+                  Click here to learn more about our Gut Health Specialist, Mitch
+                </a>
+              </p>
             </div>
           </div>
         </div>
@@ -501,9 +528,19 @@ const IBSNaturopathy = () => {
               </Card>
             </div>
 
-            <div className="text-center">
+            <div className="text-center space-y-4">
               <p className="text-lg text-muted-foreground">
                 You'll feel heard. You'll feel understood. And you'll feel supported.
+              </p>
+              <p className="text-lg">
+                <a 
+                  href="https://nxtlvlhealth.com.au/what-we-treat/ibs-clinic/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:text-primary/80 underline"
+                >
+                  Learn more about our IBS Clinic
+                </a>
               </p>
             </div>
           </div>
