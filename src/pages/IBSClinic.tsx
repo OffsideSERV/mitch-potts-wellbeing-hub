@@ -82,7 +82,7 @@ const IBSClinic = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Feel Like Yourself Again</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Feel Like Yourself Again At Our IBS Clinic</h2>
             
             {/* Image right under heading */}
             <div className="mb-12">
@@ -97,10 +97,13 @@ const IBSClinic = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
               <p>
+                <strong>If you can relate to what's below, our IBS Clinic can help:</strong>
+              </p>
+              <p>
                 Do you feel <strong>bloated, uncomfortable, or like your gut just isn't working right</strong>? Do you have to think twice before eating certain foods? Are you constantly dealing with <strong>stomach pain, constipation, or diarrhoea</strong>? If this sounds like you, you may be living with Irritable Bowel Syndrome (IBS).
               </p>
               <p>
-                At NXTLVL Health, our <strong>IBS clinic is here to help you</strong>. Led by Mitch, a trusted naturopath and gut health expert, we work with people just like you to uncover the real reason behind your digestive troubles. Whether you're struggling with <strong>long-term gastrointestinal symptoms</strong> or just starting to notice gut issues, you'll receive <strong>natural support, expert guidance, and a clear plan</strong> to finally feel better.
+                At NXTLVL Health, our <strong>IBS clinic is here to help you</strong>. Led by Mitch, a trusted naturopath and gut health expert, we work with people just like you to uncover the real reason behind your digestive troubles. Whether you're struggling with <strong>long-term gastrointestinal symptoms</strong> or just starting to notice gut issues, you'll receive <strong>natural support, expert guidance, and a clear plan</strong> to finally feel great.
               </p>
             </div>
           </div>
@@ -236,7 +239,7 @@ const IBSClinic = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">How Our IBS Clinic Helps</h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-8">
-              At NXTLVL Health, we believe in a <strong>full-body approach to IBS treatment</strong>. That means we don't just look at your digestive system; we look at how your <strong>gut, lifestyle, stress, diet, and other factors</strong> all connect.
+              At NXTLVL Health, we believe in a <strong>full-body approach to IBS treatment</strong>. That means we don't just examine your digestive system; we look at how your <strong>gut, lifestyle, stress, diet, and other factors</strong> all connect.
             </p>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
               Here's what makes our care different from other IBS clinics:
@@ -258,7 +261,7 @@ const IBSClinic = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground"><strong>We listen to your story:</strong> Your symptoms, health history, lifestyle, and goals</span>
+                    <span className="text-lg text-muted-foreground"><strong>We listen to your story:</strong> Your symptoms, health history, lifestyle, and goals.</span>
                   </div>
                 </CardContent>
               </Card>
@@ -267,7 +270,7 @@ const IBSClinic = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <Brain className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground"><strong>We use natural therapies:</strong> That support your body, rather than cover symptoms</span>
+                    <span className="text-lg text-muted-foreground"><strong>We use natural therapies</strong> that support your body, rather than cover symptoms.</span>
                   </div>
                 </CardContent>
               </Card>
@@ -276,7 +279,7 @@ const IBSClinic = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <Target className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground"><strong>We offer testing:</strong> Like stool tests, food sensitivity checks, and functional gut testing</span>
+                    <span className="text-lg text-muted-foreground"><strong>We offer testing</strong> like stool tests, food sensitivity checks, and functional gut testing.</span>
                   </div>
                 </CardContent>
               </Card>
@@ -285,7 +288,7 @@ const IBSClinic = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <Users className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground"><strong>We build your plan:</strong> Diet, herbs, supplements, and lifestyle — all personalised</span>
+                    <span className="text-lg text-muted-foreground"><strong>We build your plan:</strong> Diet, herbs, supplements, and lifestyle — all personalised.</span>
                   </div>
                 </CardContent>
               </Card>
@@ -313,10 +316,10 @@ const IBSClinic = () => {
           <div className="max-w-4xl mx-auto space-y-6">
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
               <p>
-                IBS can be triggered by many things. It often shows up after a <strong>gut infection or food poisoning</strong>, but it can also develop from <strong>chronic stress, anxiety, poor diet, or even hormonal changes</strong>. Some patients also show signs of inflammatory bowel disease (IBD) like ulcerative colitis, or have coeliac disease. <strong>IBS can lead to anxiety and depression</strong> in some individuals.
+                IBS can be triggered by many things. It often shows up after a <strong>gut infection or food poisoning</strong>, but it can also develop from <strong>chronic stress, anxiety, poor diet, or even hormonal changes</strong>. Some patients also show signs of inflammatory bowel disease (IBD), like ulcerative colitis, or have coeliac disease. <strong>IBS can lead to anxiety and depression</strong> in some individuals.
               </p>
               <p>
-                Your symptoms might also be related to other conditions in the <strong>small intestine or large intestine</strong> that need proper testing and personalised care.
+                Your symptoms could also be related to other conditions in the <strong>small intestine or large intestine</strong> that need proper testing and personalised care.
               </p>
             </div>
           </div>
@@ -360,7 +363,7 @@ const IBSClinic = () => {
                   </li>
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                    <span>Stress reduction strategies to help you feel more calm and in control</span>
+                    <span>Stress reduction strategies to help you feel calmer and in control</span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
@@ -368,7 +371,7 @@ const IBSClinic = () => {
                   </li>
                 </ul>
                 <p className="text-muted-foreground text-lg mt-6">
-                  <strong>Diet and lifestyle changes are often the best long-term strategy</strong> to ease IBS symptoms
+                  <strong>Diet and lifestyle changes are often the best long-term strategy</strong> to ease IBS symptoms.
                 </p>
               </CardContent>
             </Card>
@@ -424,7 +427,7 @@ const IBSClinic = () => {
 
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
               <p>
-                This helps us <strong>accurately diagnose IBS, uncover the exact cause of your symptoms, and rule out other illnesses</strong> or chronic conditions. In IBS, medical tests such as blood tests, endoscopy and imaging tests don't show anything abnormal. In more severe cases, we may refer you for a colonoscopy, CT scan, or testing with a flexible tube via your doctor.
+                This helps us <strong>accurately diagnose IBS, uncover the exact cause of your symptoms, and rule out other illnesses</strong> or chronic conditions. In IBS, medical tests such as blood tests, endoscopy, and imaging tests don't show anything abnormal. In more severe cases, we may refer you for a colonoscopy, CT scan, or testing with a flexible tube via your doctor.
               </p>
             </div>
           </div>
@@ -497,7 +500,7 @@ const IBSClinic = () => {
 
             <div className="text-center mt-8">
               <p className="text-lg text-muted-foreground">
-                <strong>Counseling can be suggested for patients with IBS</strong> if depression or stress worsens their symptoms
+                <strong>Counseling can be suggested for patients with IBS</strong> if depression or stress worsens their symptoms.
               </p>
             </div>
           </div>
@@ -578,10 +581,10 @@ const IBSClinic = () => {
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6 text-center">
               <p>
-                Living with IBS can feel like a <strong>daily struggle</strong>. You're constantly checking where the nearest bathroom is, stressing about what to eat, or hiding how you really feel. <strong>But it doesn't have to be this way</strong>.
+                Living with IBS can feel like a <strong>daily struggle</strong>. You're constantly checking where the nearest bathroom is, stressing about what to eat, or hiding how you feel. <strong>But it doesn't have to be this way</strong>.
               </p>
               <p>
-                With the right support, the right testing, and the right plan — <strong>you can feel better</strong>. IBS symptoms can have a huge impact on your quality of life, but they don't have to define it.
+                With the right support, the right testing, and the right plan, <strong>you can feel better</strong>. IBS symptoms can have a huge impact on your quality of life, but they don't have to define it.
               </p>
               <p>
                 You can <strong>wake up without bloating. Eat without fear. Travel without worry. And just live life again</strong>.
