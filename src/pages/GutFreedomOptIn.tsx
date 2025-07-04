@@ -33,6 +33,42 @@ const GutFreedomOptIn = () => {
                   <Star className="w-5 h-5 fill-current" />
                   <span className="text-foreground font-semibold ml-2">Trusted by 1000+ Brisbane locals</span>
                 </div>
+
+                {/* Hero Form */}
+                <div className="bg-white rounded-xl shadow-lg p-6 max-w-md">
+                  <h3 className="text-lg font-semibold mb-4 text-center">Get Your Free Video Guide Now</h3>
+                  <form className="space-y-4">
+                    <div>
+                      <label htmlFor="hero-name" className="block text-sm font-medium text-gray-700 mb-1">
+                        Name *
+                      </label>
+                      <input
+                        type="text"
+                        id="hero-name"
+                        name="name"
+                        placeholder="Type your name"
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <label htmlFor="hero-email" className="block text-sm font-medium text-gray-700 mb-1">
+                        Email *
+                      </label>
+                      <input
+                        type="email"
+                        id="hero-email"
+                        name="email"
+                        placeholder="Type your email"
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                        required
+                      />
+                    </div>
+                    <Button type="submit" className="w-full bg-primary hover:bg-primary/90">
+                      Show Me The Guide!
+                    </Button>
+                  </form>
+                </div>
               </div>
             </div>
             
@@ -136,32 +172,32 @@ const GutFreedomOptIn = () => {
             <div className="flex items-start space-x-4 p-6 bg-white rounded-lg shadow-sm">
               <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
               <div>
-                <h3 className="font-semibold text-lg mb-2">The #1 Root Cause Behind Most Gut Issues</h3>
-                <p className="text-muted-foreground">Why treating symptoms isn't enough and what you need to address first to see real, lasting change.</p>
+                <h3 className="font-semibold text-lg mb-2">Why Proper Chewing Is Your First Line of Defense</h3>
+                <p className="text-muted-foreground">The simple technique that reduces bloating and gas by letting your saliva's natural enzymes do their job before food hits your stomach.</p>
               </div>
             </div>
 
             <div className="flex items-start space-x-4 p-6 bg-white rounded-lg shadow-sm">
               <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
               <div>
-                <h3 className="font-semibold text-lg mb-2">The Simple 3-Step Protocol</h3>
-                <p className="text-muted-foreground">Mitch's proven method that's helped hundreds of Brisbane locals take back control of their digestive health.</p>
+                <h3 className="font-semibold text-lg mb-2">The Hidden Stomach Acid Problem Most People Don't Know They Have</h3>
+                <p className="text-muted-foreground">How low stomach acid causes bloating, pain, and nutrient deficiencies - plus 4 simple ways to boost it naturally.</p>
               </div>
             </div>
 
             <div className="flex items-start space-x-4 p-6 bg-white rounded-lg shadow-sm">
               <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
               <div>
-                <h3 className="font-semibold text-lg mb-2">Foods That Heal vs. Foods That Harm</h3>
-                <p className="text-muted-foreground">The surprising truth about "healthy" foods that might be making your gut problems worse.</p>
+                <h3 className="font-semibold text-lg mb-2">Your Body's "Stress Switch" That Controls Digestion</h3>
+                <p className="text-muted-foreground">How to activate "rest and digest" mode so your body can actually process food instead of storing it as bloat and discomfort.</p>
               </div>
             </div>
 
             <div className="flex items-start space-x-4 p-6 bg-white rounded-lg shadow-sm">
               <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
               <div>
-                <h3 className="font-semibold text-lg mb-2">When to Seek Professional Help</h3>
-                <p className="text-muted-foreground">Red flags that indicate you need more than DIY solutions and how to find the right practitioner.</p>
+                <h3 className="font-semibold text-lg mb-2">The Real Truth About Common Gut Problems</h3>
+                <p className="text-muted-foreground">What SIBO, IBS, and other digestive issues really are, and why they all share one fixable root cause that doctors often miss.</p>
               </div>
             </div>
           </div>
@@ -419,7 +455,7 @@ const GutFreedomOptIn = () => {
                     var getNormalizedDate = function(date, acctFormat) {
                         var decodedDate = decodeURIComponent(date);
                         if (acctFormat && acctFormat.match(/(%d|%e).*%m/gi) !== null) {
-                            return decodedDate.replace(/(\\d{2}).*(\\d{2}).*(\\d{4})/g, '$3-$2-$1');
+                            return decodedDate.replace(/(\\\\d{2}).*(\\\\d{2}).*(\\\\d{4})/g, '$3-$2-$1');
                         } else if (Date.parse(decodedDate)) {
                             var dateObj = new Date(decodedDate);
                             var year = dateObj.getFullYear();
@@ -433,7 +469,7 @@ const GutFreedomOptIn = () => {
                     var getNormalizedTime = function(time) {
                         var hour, minutes;
                         var decodedTime = decodeURIComponent(time);
-                        var timeParts = Array.from(decodedTime.matchAll(/(\\d{1,2}):(\\d{1,2})\\W*([AaPp][Mm])?/gm))[0];
+                        var timeParts = Array.from(decodedTime.matchAll(/(\\\\d{1,2}):(\\\\d{1,2})\\\\W*([AaPp][Mm])?/gm))[0];
                         if (timeParts[3]) { // 12 hour format
                             var isPM = timeParts[3].toLowerCase() === 'pm';
                             if (isPM) {
@@ -453,7 +489,7 @@ const GutFreedomOptIn = () => {
                         var regexStr = "field\\\\[(\\\\d+)\\\\]";
                         var results = new RegExp(regexStr).exec(allInputs[i].name);
                         if (results != undefined) {
-                            allInputs[i].dataset.name = allInputs[i].name.match(/\\[time\\]$/)
+                            allInputs[i].dataset.name = allInputs[i].name.match(/\\\\[time\\\\]$/)
                                 ? \`\${window.cfields[results[1]]}_time\`
                                 : window.cfields[results[1]];
                         } else {
@@ -583,7 +619,7 @@ const GutFreedomOptIn = () => {
                                     for (var i = 0; i < elem.options.length; i++) {
                                         if (elem.options[i].selected
                                             && (!elem.options[i].value
-                                            || (elem.options[i].value.match(/\\n/g)))
+                                            || (elem.options[i].value.match(/\\\\n/g)))
                                         ) {
                                             selected = false;
                                         }
@@ -601,7 +637,7 @@ const GutFreedomOptIn = () => {
                             }
                         }
                         if (no_error && elem.name == 'email') {
-                            if (!value.match(/^[\\+_a-z0-9-'&=]+(\.[\\+_a-z0-9-']+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,})$/i)) {
+                            if (!value.match(/^[\\\\+_a-z0-9-'&=]+(\\\\.[\\\+_a-z0-9-']+)*@[a-z0-9-]+(\\\\.[a-z0-9-]+)*(\\\\.[a-z]{2,})$/i)) {
                                 elem.className = elem.className + ' _has_error';
                                 no_error = false;
                                 tooltip = create_tooltip(elem, "Enter a valid email address.");
@@ -615,7 +651,7 @@ const GutFreedomOptIn = () => {
                             }
                         }
                         if (no_error && /date_field/.test(elem.className)) {
-                            if (!value.match(/^\\d\\d\\d\\d-\\d\\d-\\d\\d$/)) {
+                            if (!value.match(/^\\\\d\\\\d\\\\d\\\\d-\\\\d\\\\d-\\\\d\\\\d$/)) {
                                 elem.className = elem.className + ' _has_error';
                                 no_error = false;
                                 tooltip = create_tooltip(elem, "Enter a valid date.");
@@ -721,7 +757,7 @@ const GutFreedomOptIn = () => {
                             var submitButton = e.target.querySelector('#_form_1_submit');
                             submitButton.disabled = true;
                             submitButton.classList.add('processing');
-                                    var serialized = _form_serialize(document.getElementById('_form_1_')).replace(/%0A/g, '\\\\n');
+                                    var serialized = _form_serialize(document.getElementById('_form_1_')).replace(/%0A/g, '\\\\\\\\n');
                             var err = form_to_submit.querySelector('._form_error');
                             err ? err.parentNode.removeChild(err) : false;
                             async function submitForm() {
