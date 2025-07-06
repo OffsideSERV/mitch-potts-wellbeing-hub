@@ -185,11 +185,20 @@ const NaturopathicNutritionist = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Combining Herbal Medicine and Nutrition</h2>
           </div>
 
-          {/* Centered Image */}
+          {/* New image right under heading */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/KzhzvfYCqwWucZxbOivI.png" 
-              alt="Herbal medicine and nutrition supplements at NXTLVL Health" 
+              src="/lovable-uploads/f9825d69-c7b5-47cd-bd5f-c49c30aaa5e9.png" 
+              alt="Naturopathic consultation with diagnostic equipment at NXTLVL Health" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+            />
+          </div>
+
+          {/* Original centered image */}
+          <div className="mb-12">
+            <img 
+              src="/lovable-uploads/9c3a4767-27df-40fb-a7b4-a2c6af678f29.png" 
+              alt="Naturopathic nutritionist with herbal supplements and microscope" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
           </div>
@@ -417,6 +426,15 @@ const NaturopathicNutritionist = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Personalised Plans That Work With Your Life</h2>
           </div>
 
+          {/* New image right under heading */}
+          <div className="mb-12">
+            <img 
+              src="/lovable-uploads/463a0285-13ee-4521-b12b-3153576f7b9a.png" 
+              alt="Naturopathic nutritionist creating personalised treatment plans at NXTLVL Health" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+            />
+          </div>
+
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6 mb-12">
             <p>
               After your assessment, you'll receive a customised plan that includes:
@@ -470,6 +488,15 @@ const NaturopathicNutritionist = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Clients Choose NXTLVL Health</h2>
           </div>
 
+          {/* New image right under heading */}
+          <div className="mb-12">
+            <img 
+              src="/lovable-uploads/513ad908-d0fa-42db-97e1-3f4975f91e54.png" 
+              alt="Naturopathic nutritionist with herbal medicine selection at NXTLVL Health" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+            />
+          </div>
+
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6 mb-12">
             <p>
               NXTLVL Health is not your typical wellness centre. Here's why Brisbane locals trust us: Reviews are a fantastic way of gauging how well a Naturopath works with clients, and our patients consistently share positive feedback about their experiences with us.
@@ -504,6 +531,15 @@ const NaturopathicNutritionist = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">How We Support Specific Health Conditions</h2>
+          </div>
+
+          {/* New image right under heading */}
+          <div className="mb-12">
+            <img 
+              src="/lovable-uploads/2bb8cdad-f87e-4aef-9585-14cde74ad162.png" 
+              alt="Naturopathic nutritionist using microscope for diagnostic testing at NXTLVL Health" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+            />
           </div>
 
           <div className="space-y-8">
@@ -659,10 +695,10 @@ const NaturopathicNutritionist = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Our Clinic Environment</h2>
           </div>
 
-          {/* Image */}
+          {/* Replaced Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/DSC_4500-1-scaled.jpeg" 
+              src="/lovable-uploads/0d102a48-b739-4586-a6d3-c43bc6493ff0.png" 
               alt="NXTLVL Health clinic environment Brisbane naturopathic nutrition" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -673,7 +709,7 @@ const NaturopathicNutritionist = () => {
               NXTLVL Health is a warm, welcoming wellness centre where patients feel safe and heard. Our team respects every health journey and provides support with compassion and understanding.
             </p>
             <p>
-              We also offer integrative services such as massage, lifestyle coaching, and emotional wellbeing support.
+              We also offer integrative services such as lifestyle coaching, and emotional wellbeing support.
             </p>
           </div>
         </div>
@@ -716,6 +752,15 @@ const NaturopathicNutritionist = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">The Role of Science in Natural Medicine</h2>
           </div>
 
+          {/* New image right under heading */}
+          <div className="mb-12">
+            <img 
+              src="/lovable-uploads/1bdbd40e-8584-424e-8284-afb4cf42a389.png" 
+              alt="Naturopathic nutritionist preparing herbal medicines at NXTLVL Health" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+            />
+          </div>
+
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6">
             <p>
               At NXTLVL Health, we believe that natural doesn't mean unscientific. We stay up to date with the latest clinical research and use therapies that are proven to be safe and effective.
@@ -732,6 +777,15 @@ const NaturopathicNutritionist = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">A Word from Mitch</h2>
+          </div>
+
+          {/* New image right under heading */}
+          <div className="mb-12">
+            <img 
+              src="/lovable-uploads/00e7e896-59e1-4eb7-ba3c-7a31e0b80620.png" 
+              alt="Mitch, naturopathic nutritionist at NXTLVL Health Brisbane" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+            />
           </div>
 
           <div className="max-w-4xl mx-auto">
@@ -828,32 +882,6 @@ const NaturopathicNutritionist = () => {
           </div>
 
           <div className="text-center mt-12">
-            <Button asChild className="text-base sm:text-lg px-6 py-4">
-              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
-                <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                </svg>
-                Book a Free 15-Min Consult
-              </a>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* Final CTA Section */}
-      <section className="py-20 px-4 bg-primary/5">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Conclusion: A Healthier Life Starts Here</h2>
-            <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
-              <p>
-                At NXTLVL Health, we don't just treat illness—we support your whole life. Whether you're managing chronic fatigue, skin issues, hormonal imbalance, or just want to feel more like yourself again, we'll guide you toward real, lasting results.
-              </p>
-              <p>
-                Experience the power of a tailored, science-backed, natural approach—guided by a caring and experienced naturopathic nutritionist.
-              </p>
-            </div>
-
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild className="text-base sm:text-lg px-6 py-4">
                 <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
