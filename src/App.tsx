@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -36,6 +37,7 @@ import WindsorNaturopathy from "./pages/WindsorNaturopathy";
 import GutFreedomOptIn from "./pages/GutFreedomOptIn";
 import AllergyNaturopath from "./pages/AllergyNaturopath";
 import NaturopathicNutritionist from "./pages/NaturopathicNutritionist";
+import IndooroopillyNaturopathy from "./pages/IndooroopillyNaturopathy";
 
 const queryClient = new QueryClient();
 
@@ -78,6 +80,7 @@ const App = () => (
           <Route path="/gut-freedom" element={<GutFreedomOptIn />} />
           <Route path="/allergy-naturopath" element={<AllergyNaturopath />} />
           <Route path="/naturopathic-nutritionist" element={<NaturopathicNutritionist />} />
+          <Route path="/indooroopilly-naturopathy" element={<IndooroopillyNaturopathy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
