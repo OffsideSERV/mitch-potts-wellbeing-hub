@@ -1,45 +1,35 @@
 
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { 
-  Calendar, 
-  Phone, 
-  CheckCircle, 
-  Heart, 
-  Users, 
-  Target,
-  Leaf,
-  Zap,
-  Shield,
-  Activity
-} from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
 
 const AllergyNaturopath = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary/10 via-accent/10 to-primary/5 py-20 px-4">
+      <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
             <div className="space-y-8 lg:mt-0 mt-12">
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Allergy Naturopath | Natural Relief and Support at <span className="text-primary">NXTLVL Health</span>
+                  Allergy Naturopath | Natural Relief and <span className="text-primary">Support</span> at NXTLVL Health
                 </h1>
                 
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
                   <img 
-                    alt="Naturopath consultation for allergy treatment at NXTLVL Health" 
+                    alt="Natural allergy treatment consultation at NXTLVL Health" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
                     src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
-                      <Shield className="h-6 w-6 text-primary" />
+                      <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                      </svg>
                       <div>
-                        <p className="font-semibold text-sm">Allergy Naturopathy</p>
-                        <p className="text-xs text-muted-foreground">Natural Relief • Root Cause</p>
+                        <p className="font-semibold text-sm">Natural Allergy Relief</p>
+                        <p className="text-xs text-muted-foreground">Immune Support • Root Cause Treatment</p>
                       </div>
                     </div>
                   </div>
@@ -47,24 +37,19 @@ const AllergyNaturopath = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button 
-                  asChild 
-                  size="lg" 
-                  className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight"
-                >
-                  <a href="https://nxtlvlhealth.com.au/book-now/" target="_blank" rel="noopener noreferrer">
-                    <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
-                    <span className="text-center">Book Your First Appointment</span>
+                <Button asChild size="lg" className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight">
+                  <a href="https://nxtlvlhealth.com.au/book-now/">
+                    <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    </svg>
+                    <span className="text-center">Book an Appointment Today</span>
                   </a>
                 </Button>
-                <Button 
-                  variant="outline" 
-                  size="lg" 
-                  asChild 
-                  className="text-base sm:text-lg px-4 py-3 h-auto"
-                >
+                <Button variant="outline" size="lg" asChild className="text-base sm:text-lg px-4 py-3 h-auto">
                   <a href="tel:0731808853">
-                    <Phone className="mr-2 h-4 w-4 flex-shrink-0" />
+                    <svg className="mr-2 h-4 w-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                    </svg>
                     Call Mitch
                   </a>
                 </Button>
@@ -79,16 +64,18 @@ const AllergyNaturopath = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                alt="Naturopath consultation for allergy treatment at NXTLVL Health" 
+                alt="Natural allergy treatment consultation at NXTLVL Health" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
                 src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
-                  <Shield className="h-8 w-8 text-primary" />
+                  <svg className="h-8 w-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                  </svg>
                   <div>
-                    <p className="font-semibold">Allergy Naturopathy</p>
-                    <p className="text-sm text-muted-foreground">Natural Relief • Root Cause</p>
+                    <p className="font-semibold">Natural Allergy Relief</p>
+                    <p className="text-sm text-muted-foreground">Immune Support • Root Cause Treatment</p>
                   </div>
                 </div>
               </div>
@@ -108,7 +95,7 @@ const AllergyNaturopath = () => {
           <div className="lg:hidden mb-12">
             <img 
               src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
-              alt="Woman discussing allergy symptoms with naturopath at NXTLVL Health" 
+              alt="Woman consulting with allergy naturopath in Brisbane" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
           </div>
@@ -117,10 +104,10 @@ const AllergyNaturopath = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  Do you struggle with hay fever, itchy skin, food reactions, or chronic congestion? Are you tired of taking antihistamines that only mask the symptoms but never get to the cause? At NXTLVL Health, we understand how frustrating it can be to live with ongoing allergy symptoms.
+                  Do you struggle with <strong>hay fever, itchy skin, food reactions, or chronic congestion</strong>? Are you tired of taking antihistamines that only mask the symptoms but never get to the cause? At NXTLVL Health, we understand how frustrating it can be to live with ongoing allergy symptoms.
                 </p>
                 <p>
-                  Our allergy naturopath, Mitch, offers a gentle, whole-person approach that aims to reduce allergy symptoms, support your immune system, and uncover the underlying causes. Using naturopathic medicine, Mitch helps allergy sufferers find long-lasting relief from a range of allergic diseases—naturally.
+                  Our allergy naturopath, Mitch, offers a <strong>gentle, whole-person approach</strong> that aims to reduce allergy symptoms, support your immune system, and uncover the underlying causes. Using naturopathic medicine, Mitch helps allergy sufferers find <strong>long-lasting relief</strong> from a range of allergic diseases—naturally.
                 </p>
               </div>
             </div>
@@ -128,7 +115,7 @@ const AllergyNaturopath = () => {
             <div className="relative hidden lg:block">
               <img 
                 src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
-                alt="Woman discussing allergy symptoms with naturopath at NXTLVL Health" 
+                alt="Woman consulting with allergy naturopath in Brisbane" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
             </div>
@@ -148,48 +135,69 @@ const AllergyNaturopath = () => {
             </div>
           </div>
 
-          {/* Mobile Image */}
-          <div className="lg:hidden mb-12">
+          {/* Image */}
+          <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
-              alt="Naturopath analyzing immune system function at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+              alt="NXTLVL Health immune system support and allergy treatment" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <h3 className="text-2xl font-bold mb-6">Common Allergy Symptoms We See Include:</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Runny nose or nasal congestion</span>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Watery or itchy eyes</span>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Post nasal drip and itchy throat</span>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Skin rashes or atopic dermatitis</span>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Digestive symptoms after eating certain food</span>
-                </li>
-              </ul>
-            </div>
-            {/* Desktop Image */}
-            <div className="relative hidden lg:block">
-              <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
-                alt="Naturopath analyzing immune system function at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
-              />
+          <div className="max-w-4xl mx-auto">
+            <h3 className="text-2xl font-bold mb-6">Common Allergy Symptoms We See Include:</h3>
+            <div className="grid md:grid-cols-2 gap-4">
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-center space-x-3">
+                    <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                    <span className="text-lg">Runny nose or nasal congestion</span>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-center space-x-3">
+                    <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+                    </svg>
+                    <span className="text-lg">Watery or itchy eyes</span>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-center space-x-3">
+                    <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                    </svg>
+                    <span className="text-lg">Post nasal drip and itchy throat</span>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-center space-x-3">
+                    <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                    </svg>
+                    <span className="text-lg">Skin rashes or atopic dermatitis</span>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card className="md:col-span-2">
+                <CardContent className="p-6">
+                  <div className="flex items-center space-x-3">
+                    <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                    </svg>
+                    <span className="text-lg">Digestive symptoms after eating certain food</span>
+                  </div>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </div>
@@ -202,44 +210,67 @@ const AllergyNaturopath = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Common Allergies We Support</h2>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-            <Card className="bg-white shadow-md">
+          <div className="mb-12">
+            <img 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+              alt="Naturopath conducting allergy testing and analysis" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+            />
+          </div>
+
+          <div className="space-y-4 max-w-4xl mx-auto">
+            <Card>
               <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Allergic rhinitis (hay fever)</span>
+                <div className="flex items-center space-x-3">
+                  <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                  </svg>
+                  <h3 className="text-lg font-semibold">ALLERGIC RHINITIS (HAY FEVER)</h3>
                 </div>
               </CardContent>
             </Card>
-            <Card className="bg-white shadow-md">
+
+            <Card>
               <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Food allergies and food intolerances</span>
+                <div className="flex items-center space-x-3">
+                  <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                  </svg>
+                  <h3 className="text-lg font-semibold">FOOD ALLERGIES AND FOOD INTOLERANCES</h3>
                 </div>
               </CardContent>
             </Card>
-            <Card className="bg-white shadow-md">
+
+            <Card>
               <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Seasonal allergies like pollen allergies</span>
+                <div className="flex items-center space-x-3">
+                  <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                  </svg>
+                  <h3 className="text-lg font-semibold">SEASONAL ALLERGIES LIKE POLLEN ALLERGIES</h3>
                 </div>
               </CardContent>
             </Card>
-            <Card className="bg-white shadow-md">
+
+            <Card>
               <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Animal dander and dust mite allergies</span>
+                <div className="flex items-center space-x-3">
+                  <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+                  </svg>
+                  <h3 className="text-lg font-semibold">ANIMAL DANDER AND DUST MITE ALLERGIES</h3>
                 </div>
               </CardContent>
             </Card>
-            <Card className="bg-white shadow-md md:col-span-2 lg:col-span-2">
+
+            <Card>
               <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Atopic dermatitis and eczema</span>
+                <div className="flex items-center space-x-3">
+                  <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                  </svg>
+                  <h3 className="text-lg font-semibold">ATOPIC DERMATITIS AND ECZEMA</h3>
                 </div>
               </CardContent>
             </Card>
@@ -252,67 +283,65 @@ const AllergyNaturopath = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">How a Naturopath for Allergies Can Help</h2>
-            <div class="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
+            <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
                 Unlike conventional allergy treatment, which often relies on antihistamines or other medications, a naturopathic approach focuses on the root cause. Mitch supports the whole person—looking at diet, gut function, immune system balance, and environmental triggers.
               </p>
             </div>
           </div>
 
-          {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
-              alt="Naturopath explaining allergy treatment approach to patient at NXTLVL Health" 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/DSC_4578-scaled.jpeg" 
+              alt="Naturopathic allergy treatment and natural remedies" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
           </div>
 
-          <div className="text-center mb-12">
-            <h3 className="text-2xl font-bold mb-6">Naturopathic treatments aim to:</h3>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-center space-x-3">
-                  <Target className="h-6 w-6 text-primary flex-shrink-0" />
-                  <span className="text-muted-foreground font-medium">Reduce inflammation</span>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-center space-x-3">
-                  <Shield className="h-6 w-6 text-primary flex-shrink-0" />
-                  <span className="text-muted-foreground font-medium">Modulate immune response</span>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-center space-x-3">
-                  <Heart className="h-6 w-6 text-primary flex-shrink-0" />
-                  <span className="text-muted-foreground font-medium">Support gut health and healing</span>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-center space-x-3">
-                  <Zap className="h-6 w-6 text-primary flex-shrink-0" />
-                  <span className="text-muted-foreground font-medium">Correct nutrient deficiencies</span>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-white shadow-md md:col-span-2 lg:col-span-2">
-              <CardContent className="p-6">
-                <div className="flex items-center space-x-3">
-                  <Activity className="h-6 w-6 text-primary flex-shrink-0" />
-                  <span className="text-muted-foreground font-medium">Reduce exposure to common triggers</span>
-                </div>
-              </CardContent>
-            </Card>
+          <div className="max-w-4xl mx-auto">
+            <h3 className="text-2xl font-bold mb-6 text-center">Naturopathic treatments aim to:</h3>
+            <div className="grid md:grid-cols-2 gap-4">
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-center space-x-3">
+                    <div className="w-3 h-3 bg-primary rounded-full flex-shrink-0"></div>
+                    <span className="text-lg">Reduce inflammation</span>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-center space-x-3">
+                    <div className="w-3 h-3 bg-primary rounded-full flex-shrink-0"></div>
+                    <span className="text-lg">Modulate immune response</span>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-center space-x-3">
+                    <div className="w-3 h-3 bg-primary rounded-full flex-shrink-0"></div>
+                    <span className="text-lg">Support gut health and healing</span>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-center space-x-3">
+                    <div className="w-3 h-3 bg-primary rounded-full flex-shrink-0"></div>
+                    <span className="text-lg">Correct nutrient deficiencies</span>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card className="md:col-span-2">
+                <CardContent className="p-6">
+                  <div className="flex items-center space-x-3">
+                    <div className="w-3 h-3 bg-primary rounded-full flex-shrink-0"></div>
+                    <span className="text-lg">Reduce exposure to common triggers</span>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </div>
       </section>
@@ -320,23 +349,19 @@ const AllergyNaturopath = () => {
       {/* Meet Mitch Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Meet Mitch – Your Allergy Naturopath</h2>
-          </div>
-
-          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
+              <h2 className="text-3xl lg:text-4xl font-bold">Meet Mitch – Your Allergy Naturopath</h2>
+              <div className="text-lg text-muted-foreground leading-relaxed">
                 <p>
                   Mitch is a compassionate and experienced naturopathic doctor with a special interest in allergies, immune system dysregulation, and gut health. He has helped many clients reduce symptoms of allergic rhinitis, food sensitivities, and skin reactions using herbal medicine, nutritional supplements, and practical, personalised plans.
                 </p>
               </div>
             </div>
-            {/* Image */}
             <div className="relative">
               <img 
                 src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
-                alt="Mitchell Potts, allergy naturopath at NXTLVL Health" 
+                alt="Mitch Potts - Allergy Naturopath at NXTLVL Health" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
             </div>
@@ -356,51 +381,59 @@ const AllergyNaturopath = () => {
             </div>
           </div>
 
-          {/* Image */}
-          <div className="mb-12">
-            <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/DSC_4578-scaled.jpeg" 
-              alt="Allergy testing equipment at NXTLVL Health clinic" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
+          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div className="space-y-4">
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-center space-x-3">
+                    <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                    </svg>
+                    <span className="text-lg font-semibold">Food intolerance testing</span>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-center space-x-3">
+                    <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                    </svg>
+                    <span className="text-lg font-semibold">Food allergy blood test</span>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-center space-x-3">
+                    <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                    </svg>
+                    <span className="text-lg font-semibold">Gut function and microbiome analysis</span>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-center space-x-3">
+                    <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                    </svg>
+                    <span className="text-lg font-semibold">Nutrient deficiency testing</span>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+            <div className="relative">
+              <img 
+                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+                alt="Comprehensive allergy testing and analysis at NXTLVL Health" 
+                className="rounded-2xl shadow-lg w-full h-auto" 
+              />
+            </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6 mb-8">
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Food intolerance testing</span>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Food allergy blood test</span>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Gut function and microbiome analysis</span>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Nutrient deficiency testing</span>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-
-          <div className="text-center space-y-6 text-lg text-muted-foreground max-w-4xl mx-auto">
+          <div className="text-center max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
             <p>
               Allergy testing can involve a range of methods including blood tests, skin prick tests, and elimination diets to identify specific allergens.
             </p>
@@ -423,47 +456,51 @@ const AllergyNaturopath = () => {
             </div>
           </div>
 
-          {/* Mobile Image */}
-          <div className="lg:hidden mb-12">
-            <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Sad-woman-dealing-with-gut-issues-and-bloating-scaled.jpeg" 
-              alt="Supporting gut health for allergy relief at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
-            />
-          </div>
-
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
-              <h3 className="text-2xl font-bold mb-6">Mitch supports gut healing with:</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start space-x-3">
-                  <Leaf className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Fermented foods and prebiotics</span>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <Leaf className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Botanical medicine for inflammation</span>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <Leaf className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Elimination diets to reduce exposure</span>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <Leaf className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Probiotic therapy and digestive enzymes</span>
-                </li>
-              </ul>
-              <div className="mt-6 p-6 bg-primary/10 rounded-lg">
-                <p className="text-lg font-medium text-foreground">
-                  Probiotics can improve quality of life for allergy sufferers by supporting gut health and reducing symptoms.
-                </p>
+              <h3 className="text-2xl font-bold">Mitch supports gut healing with:</h3>
+              <div className="space-y-4">
+                <Card>
+                  <CardContent className="p-6">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <span className="text-base">Fermented foods and prebiotics</span>
+                    </div>
+                  </CardContent>
+                </Card>
+                <Card>
+                  <CardContent className="p-6">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <span className="text-base">Botanical medicine for inflammation</span>
+                    </div>
+                  </CardContent>
+                </Card>
+                <Card>
+                  <CardContent className="p-6">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <span className="text-base">Elimination diets to reduce exposure</span>
+                    </div>
+                  </CardContent>
+                </Card>
+                <Card>
+                  <CardContent className="p-6">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <span className="text-base">Probiotic therapy and digestive enzymes</span>
+                    </div>
+                  </CardContent>
+                </Card>
               </div>
+              <p className="text-lg text-muted-foreground">
+                Probiotics can improve quality of life for allergy sufferers by supporting gut health and reducing symptoms.
+              </p>
             </div>
-            {/* Desktop Image */}
-            <div className="relative hidden lg:block">
+            <div className="relative">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Sad-woman-dealing-with-gut-issues-and-bloating-scaled.jpeg" 
-                alt="Supporting gut health for allergy relief at NXTLVL Health" 
+                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                alt="Gut health support for allergy management at NXTLVL Health" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
             </div>
@@ -473,7 +510,7 @@ const AllergyNaturopath = () => {
 
       {/* Herbal Medicines Section */}
       <section className="py-20 px-4 bg-muted/30">
-        <div class="container mx-auto max-w-6xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Herbal Medicines and Supplements</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
@@ -483,71 +520,94 @@ const AllergyNaturopath = () => {
             </div>
           </div>
 
-          {/* Image */}
-          <div className="mb-12">
-            <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/01/DSC_4545-scaled.jpeg" 
-              alt="Natural herbal medicines for allergy treatment at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
+          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div className="space-y-4">
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-center space-x-3">
+                    <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                    </svg>
+                    <div>
+                      <h4 className="text-lg font-semibold">Stinging nettle</h4>
+                      <p className="text-muted-foreground">(reduces histamine release)</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-center space-x-3">
+                    <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                    </svg>
+                    <div>
+                      <h4 className="text-lg font-semibold">Albizia and baical skullcap</h4>
+                      <p className="text-muted-foreground">(anti-inflammatory and immune modulation)</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex items-center space-x-3">
+                    <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                    </svg>
+                    <div>
+                      <h4 className="text-lg font-semibold">Eyebright</h4>
+                      <p className="text-muted-foreground">(supports watery eyes and nasal symptoms)</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+            <div className="relative">
+              <img 
+                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+                alt="Natural herbal medicines for allergy treatment" 
+                className="rounded-2xl shadow-lg w-full h-auto" 
+              />
+            </div>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-8 mb-12">
-            {/* Left Column - Herbal Medicines */}
-            <div className="space-y-8">
-              <Card className="bg-white shadow-md">
-                <CardHeader>
-                  <CardTitle className="text-xl text-primary">Herbal Remedies</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-4">
-                    <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-muted-foreground"><strong>Stinging nettle</strong> (reduces histamine release)</span>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-muted-foreground"><strong>Albizia and baical skullcap</strong> (anti-inflammatory and immune modulation)</span>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-muted-foreground"><strong>Eyebright</strong> (supports watery eyes and nasal symptoms)</span>
-                    </div>
-                  </div>
-                  <p className="text-muted-foreground mt-4">
-                    Stinging nettles are commonly used as a natural treatment for allergies and allergic rhinitis, offering relief from symptoms.
-                  </p>
-                </CardContent>
-              </Card>
-            </div>
+          <div className="text-center max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-12">
+            <p>
+              Stinging nettles are commonly used as a natural treatment for allergies and allergic rhinitis, offering relief from symptoms.
+            </p>
+            <p>
+              Nutritional supplements also help reduce inflammation and support immune health. Mitch may recommend:
+            </p>
+          </div>
 
-            {/* Right Column - Nutritional Supplements */}
-            <div className="space-y-8">
-              <Card className="bg-white shadow-md">
-                <CardHeader>
-                  <CardTitle className="text-xl text-primary">Nutritional Supplements</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground mb-4">
-                    Nutritional supplements also help reduce inflammation and support immune health. Mitch may recommend:
-                  </p>
-                  <div className="space-y-4">
-                    <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-muted-foreground"><strong>Vitamin C and quercetin</strong> (natural antihistamines)</span>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-muted-foreground"><strong>Zinc and vitamin A</strong> (immune modulators)</span>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-muted-foreground"><strong>Omega-3s and other anti-inflammatory nutrients</strong></span>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
+          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            <Card>
+              <CardContent className="p-6 text-center">
+                <svg className="h-8 w-8 text-primary mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                </svg>
+                <h4 className="text-lg font-semibold mb-2">Vitamin C and quercetin</h4>
+                <p className="text-muted-foreground">(natural antihistamines)</p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardContent className="p-6 text-center">
+                <svg className="h-8 w-8 text-primary mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                </svg>
+                <h4 className="text-lg font-semibold mb-2">Zinc and vitamin A</h4>
+                <p className="text-muted-foreground">(immune modulators)</p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardContent className="p-6 text-center">
+                <svg className="h-8 w-8 text-primary mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                </svg>
+                <h4 className="text-lg font-semibold mb-2">Omega-3s</h4>
+                <p className="text-muted-foreground">(and other anti-inflammatory nutrients)</p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
@@ -564,249 +624,220 @@ const AllergyNaturopath = () => {
             </div>
           </div>
 
-          {/* Image */}
-          <div className="mb-12">
-            <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/01/DSC_4584-scaled.jpeg" 
-              alt="Food allergy consultation at NXTLVL Health clinic" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
-          </div>
-
-          <div className="text-center mb-8">
-            <h3 className="text-2xl font-bold mb-6">We may support with:</h3>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-center space-x-3">
-                  <Target className="h-6 w-6 text-primary flex-shrink-0" />
-                  <span className="text-muted-foreground font-medium">Rotational diets</span>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-center space-x-3">
-                  <Heart className="h-6 w-6 text-primary flex-shrink-0" />
-                  <span className="text-muted-foreground font-medium">Tailored food plans</span>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-center space-x-3">
-                  <Shield className="h-6 w-6 text-primary flex-shrink-0" />
-                  <span className="text-muted-foreground font-medium">Support for reintroducing foods after healing</span>
-                </div>
-              </CardContent>
-            </Card>
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <h3 className="text-2xl font-bold">We may support with:</h3>
+              <div className="space-y-4">
+                <Card>
+                  <CardContent className="p-6">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <span className="text-base">Rotational diets</span>
+                    </div>
+                  </CardContent>
+                </Card>
+                <Card>
+                  <CardContent className="p-6">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <span className="text-base">Tailored food plans</span>
+                    </div>
+                  </CardContent>
+                </Card>
+                <Card>
+                  <CardContent className="p-6">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                      <span className="text-base">Support for reintroducing foods after healing</span>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+            <div className="relative">
+              <img 
+                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                alt="Food allergy and intolerance support consultation" 
+                className="rounded-2xl shadow-lg w-full h-auto" 
+              />
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Environmental Triggers Section */}
+      {/* Environmental Triggers & Management Sections */}
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Reducing Environmental Triggers</h2>
-            <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
-              <p>
-                Mitch will also guide you in reducing exposure to common triggers such as:
-              </p>
+          <div className="grid lg:grid-cols-2 gap-16">
+            {/* Environmental Triggers */}
+            <div className="space-y-8">
+              <div>
+                <h2 className="text-3xl font-bold mb-6">Reducing Environmental Triggers</h2>
+                <p className="text-lg text-muted-foreground mb-8">
+                  Mitch will also guide you in reducing exposure to common triggers such as:
+                </p>
+                <div className="space-y-4">
+                  <Card>
+                    <CardContent className="p-6">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-base">Pollen and dust mites</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+                  <Card>
+                    <CardContent className="p-6">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-base">Animal dander</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+                  <Card>
+                    <CardContent className="p-6">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-base">Mould and indoor allergens</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </div>
+                <p className="text-lg text-muted-foreground mt-6">
+                  Simple home and lifestyle changes can go a long way in reducing inflammation and allergic flare-ups.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="grid md:grid-cols-3 gap-6 mb-8">
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-center space-x-3">
-                  <Leaf className="h-6 w-6 text-primary flex-shrink-0" />
-                  <span className="text-muted-foreground font-medium">Pollen and dust mites</span>
+            {/* Managing Symptoms */}
+            <div className="space-y-8">
+              <div>
+                <h2 className="text-3xl font-bold mb-6">Managing Symptoms While Supporting Healing</h2>
+                <p className="text-lg text-muted-foreground mb-8">
+                  While we work to heal your immune system long term, we also help you feel better now. This may include:
+                </p>
+                <div className="space-y-4">
+                  <Card>
+                    <CardContent className="p-6">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-base">Botanical support for nasal passages and itchy skin</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+                  <Card>
+                    <CardContent className="p-6">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-base">Support for post nasal drip, itchy throat, and runny nose</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+                  <Card>
+                    <CardContent className="p-6">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-base">Calming herbs to reduce reactivity and stress</span>
+                      </div>
+                    </CardContent>
+                  </Card>
                 </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-center space-x-3">
-                  <Users className="h-6 w-6 text-primary flex-shrink-0" />
-                  <span className="text-muted-foreground font-medium">Animal dander</span>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-center space-x-3">
-                  <Shield className="h-6 w-6 text-primary flex-shrink-0" />
-                  <span className="text-muted-foreground font-medium">Mould and indoor allergens</span>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-
-          <div className="text-center">
-            <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Simple home and lifestyle changes can go a long way in reducing inflammation and allergic flare-ups.
-            </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Managing Symptoms Section */}
+      {/* What to Expect & Who We Help Sections */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Managing Symptoms While Supporting Healing</h2>
-            <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
-              <p>
-                While we work to heal your immune system long term, we also help you feel better now. This may include:
-              </p>
+          <div className="grid lg:grid-cols-2 gap-16">
+            {/* What to Expect */}
+            <div className="space-y-8">
+              <div>
+                <h2 className="text-3xl font-bold mb-6">What to Expect at Your First Consultation</h2>
+                <p className="text-lg text-muted-foreground mb-8">
+                  Your first visit includes:
+                </p>
+                <div className="space-y-4">
+                  <Card>
+                    <CardContent className="p-6">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-base">A full health and symptom history</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+                  <Card>
+                    <CardContent className="p-6">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-base">Discussion of current lifestyle and diet</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+                  <Card>
+                    <CardContent className="p-6">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-base">Review of past allergy testing or medications</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+                  <Card>
+                    <CardContent className="p-6">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-base">Personalised plan to manage symptoms and support healing</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </div>
+              </div>
             </div>
-          </div>
 
-          {/* Image */}
-          <div className="mb-12">
-            <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-standing-next-to-female-patient-thats-lying-down-while-he-checks-her-vitals-scaled.jpeg" 
-              alt="Naturopath providing symptom relief care at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <Leaf className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Botanical support for nasal passages and itchy skin</span>
+            {/* Who We Help */}
+            <div className="space-y-8">
+              <div>
+                <h2 className="text-3xl font-bold mb-6">Who We Help</h2>
+                <p className="text-lg text-muted-foreground mb-8">
+                  Mitch supports a wide range of allergy sufferers, including:
+                </p>
+                <div className="space-y-4">
+                  <Card>
+                    <CardContent className="p-6">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-base">Children with food allergy or itchy skin</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+                  <Card>
+                    <CardContent className="p-6">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-base">Adults with hay fever and allergic rhinitis</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+                  <Card>
+                    <CardContent className="p-6">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-base">Clients with eczema, asthma, or chronic sinus problems</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+                  <Card>
+                    <CardContent className="p-6">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-base">Those with multiple sensitivities or intolerances</span>
+                      </div>
+                    </CardContent>
+                  </Card>
                 </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Support for post nasal drip, itchy throat, and runny nose</span>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <Shield className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Calming herbs to reduce reactivity and stress</span>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* First Consultation Section */}
-      <section className="py-20 px-4 bg-muted/30">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">What to Expect at Your First Consultation</h2>
-          </div>
-
-          {/* Image */}
-          <div className="mb-12">
-            <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-checking-a-patients-blood-pressure-scaled.jpeg" 
-              alt="First allergy naturopath consultation at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
-          </div>
-
-          <div className="text-center mb-8">
-            <p className="text-lg text-muted-foreground max-w-4xl mx-auto mb-8">
-              Your first visit includes:
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-6">
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">A full health and symptom history</span>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Discussion of current lifestyle and diet</span>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Review of past allergy testing or medications</span>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Personalised plan to manage symptoms and support healing</span>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Who We Help Section */}
-      <section className="py-20 px-4">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Who We Help</h2>
-            <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
-              <p>
-                Mitch supports a wide range of allergy sufferers, including:
-              </p>
+              </div>
             </div>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-6">
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <Users className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Children with food allergy or itchy skin</span>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Adults with hay fever and allergic rhinitis</span>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <Activity className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Clients with eczema, asthma, or chronic sinus problems</span>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-white shadow-md">
-              <CardContent className="p-6">
-                <div className="flex items-start space-x-3">
-                  <Shield className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Those with multiple sensitivities or intolerances</span>
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
@@ -818,53 +849,52 @@ const AllergyNaturopath = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Choose NXTLVL Health for Allergy Support?</h2>
           </div>
 
-          {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4503-scaled.jpeg" 
-              alt="NXTLVL Health allergy naturopath clinic facilities" 
+              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+              alt="NXTLVL Health natural allergy support clinic" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Card className="bg-white shadow-md">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
+            <Card>
               <CardContent className="p-6">
                 <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Whole-person, natural allergy treatment</span>
+                  <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <span className="text-base"><strong>Whole-person, natural allergy treatment</strong></span>
                 </div>
               </CardContent>
             </Card>
-            <Card className="bg-white shadow-md">
+            <Card>
               <CardContent className="p-6">
                 <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Experienced allergy naturopath with a root cause focus</span>
+                  <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <span className="text-base"><strong>Experienced allergy naturopath with a root cause focus</strong></span>
                 </div>
               </CardContent>
             </Card>
-            <Card className="bg-white shadow-md">
+            <Card>
               <CardContent className="p-6">
                 <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Functional testing options available</span>
+                  <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <span className="text-base"><strong>Functional testing options available</strong></span>
                 </div>
               </CardContent>
             </Card>
-            <Card className="bg-white shadow-md">
+            <Card>
               <CardContent className="p-6">
                 <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">Gentle, science-based therapies</span>
+                  <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <span className="text-base"><strong>Gentle, science-based therapies</strong></span>
                 </div>
               </CardContent>
             </Card>
-            <Card className="bg-white shadow-md md:col-span-2 lg:col-span-2">
+            <Card className="md:col-span-2 lg:col-span-2">
               <CardContent className="p-6">
                 <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-muted-foreground">A welcoming clinic environment and compassionate care</span>
+                  <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <span className="text-base"><strong>A welcoming clinic environment and compassionate care</strong></span>
                 </div>
               </CardContent>
             </Card>
@@ -872,51 +902,40 @@ const AllergyNaturopath = () => {
         </div>
       </section>
 
-      {/* Ready to Get Started Section */}
-      <section className="py-20 px-4">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Ready to Get Started?</h2>
-            <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
-              <p>
-                If you're ready to explore natural ways to manage allergies and improve your immune health, NXTLVL Health is here for you.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Final CTA Section */}
+      {/* CTA Section */}
       <section className="py-20 px-4 bg-primary/5">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Book Your First Appointment</h2>
-            <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
-              <p>
-                Take the first step today and book a consultation with Mitch—your trusted allergy naturopath. Together, we'll uncover the root cause, relieve symptoms, and help you feel strong, balanced, and well again.
-              </p>
-              <div className="mt-6 p-6 bg-primary/10 rounded-lg">
-                <h3 className="text-2xl font-bold text-foreground mb-4">Feel Better—Naturally</h3>
-                <p className="text-lg font-medium text-foreground">
-                  Relief is possible. Let's help you breathe easier, eat with confidence, and live your life without the constant burden of allergies.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" className="text-base sm:text-lg px-6 py-4">
-                <a href="https://nxtlvlhealth.com.au/book-now/" target="_blank" rel="noopener noreferrer">
-                  <Calendar className="mr-2 h-5 w-5" />
-                  Book Your First Appointment
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Ready to Get Started?</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-4">
+              If you're ready to explore natural ways to manage allergies and improve your immune health, NXTLVL Health is here for you.
+            </p>
+            <h3 className="text-2xl font-bold mb-6">Book Your First Appointment</h3>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
+              Take the first step today and book a consultation with Mitch—your trusted allergy naturopath. Together, we'll uncover the root cause, relieve symptoms, and help you feel strong, balanced, and well again.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+              <Button asChild size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
+                <a href="https://nxtlvlhealth.com.au/book-now/">
+                  <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                  </svg>
+                  Book an Appointment Today
                 </a>
               </Button>
-              <Button variant="outline" size="lg" asChild className="text-base sm:text-lg px-6 py-4">
+              <Button variant="outline" size="lg" asChild className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
                 <a href="tel:0731808853">
-                  <Phone className="mr-2 h-4 w-4" />
-                  Call Your Allergy Naturopath
+                  <svg className="mr-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                  </svg>
+                  Call Mitch
                 </a>
               </Button>
             </div>
+            <h3 className="text-2xl font-bold mb-4">Feel Better—Naturally</h3>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              Relief is possible. Let's help you breathe easier, eat with confidence, and live your life without the constant burden of allergies.
+            </p>
           </div>
         </div>
       </section>
