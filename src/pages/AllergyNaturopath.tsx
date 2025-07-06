@@ -38,11 +38,11 @@ const AllergyNaturopath = () => {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight">
-                  <a href="https://nxtlvlhealth.com.au/book-now/">
+                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                     <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                     </svg>
-                    <span className="text-center">Book an Appointment Today</span>
+                    <span className="text-center">Book a Free 15-Min Consult</span>
                   </a>
                 </Button>
                 <Button variant="outline" size="lg" asChild className="text-base sm:text-lg px-4 py-3 h-auto">
@@ -56,7 +56,7 @@ const AllergyNaturopath = () => {
               </div>
 
               {/* Google 5 Star Badge */}
-              <div className="mt-6">
+              <div className="mt-8">
                 <script defer async src='https://cdn.trustindex.io/loader.js?46476cb4757e774210564760f2f'></script>
               </div>
             </div>
@@ -145,9 +145,9 @@ const AllergyNaturopath = () => {
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold mb-6">Common Allergy Symptoms We See Include:</h3>
-            <div className="grid md:grid-cols-2 gap-4">
-              <Card>
+            <h3 className="text-2xl font-bold mb-8 text-center">Common Allergy Symptoms We See Include:</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <Card className="border-l-4 border-l-primary">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3">
                     <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -157,7 +157,7 @@ const AllergyNaturopath = () => {
                   </div>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="border-l-4 border-l-primary">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3">
                     <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -168,7 +168,7 @@ const AllergyNaturopath = () => {
                   </div>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="border-l-4 border-l-primary">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3">
                     <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -178,7 +178,7 @@ const AllergyNaturopath = () => {
                   </div>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="border-l-4 border-l-primary">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3">
                     <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -188,7 +188,7 @@ const AllergyNaturopath = () => {
                   </div>
                 </CardContent>
               </Card>
-              <Card className="md:col-span-2">
+              <Card className="md:col-span-2 border-l-4 border-l-primary">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3">
                     <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -218,8 +218,8 @@ const AllergyNaturopath = () => {
             />
           </div>
 
-          <div className="space-y-4 max-w-4xl mx-auto">
-            <Card>
+          <div className="space-y-6 max-w-4xl mx-auto">
+            <Card className="border-l-4 border-l-primary hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="flex items-center space-x-3">
                   <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -230,7 +230,7 @@ const AllergyNaturopath = () => {
               </CardContent>
             </Card>
 
-            <Card>
+            <Card className="border-l-4 border-l-primary hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="flex items-center space-x-3">
                   <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -241,7 +241,7 @@ const AllergyNaturopath = () => {
               </CardContent>
             </Card>
 
-            <Card>
+            <Card className="border-l-4 border-l-primary hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="flex items-center space-x-3">
                   <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -252,7 +252,7 @@ const AllergyNaturopath = () => {
               </CardContent>
             </Card>
 
-            <Card>
+            <Card className="border-l-4 border-l-primary hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="flex items-center space-x-3">
                   <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -264,7 +264,7 @@ const AllergyNaturopath = () => {
               </CardContent>
             </Card>
 
-            <Card>
+            <Card className="border-l-4 border-l-primary hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="flex items-center space-x-3">
                   <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -299,9 +299,9 @@ const AllergyNaturopath = () => {
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold mb-6 text-center">Naturopathic treatments aim to:</h3>
-            <div className="grid md:grid-cols-2 gap-4">
-              <Card>
+            <h3 className="text-2xl font-bold mb-8 text-center">Naturopathic treatments aim to:</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <Card className="border-l-4 border-l-primary">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-primary rounded-full flex-shrink-0"></div>
@@ -309,7 +309,7 @@ const AllergyNaturopath = () => {
                   </div>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="border-l-4 border-l-primary">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-primary rounded-full flex-shrink-0"></div>
@@ -317,7 +317,7 @@ const AllergyNaturopath = () => {
                   </div>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="border-l-4 border-l-primary">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-primary rounded-full flex-shrink-0"></div>
@@ -325,7 +325,7 @@ const AllergyNaturopath = () => {
                   </div>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="border-l-4 border-l-primary">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-primary rounded-full flex-shrink-0"></div>
@@ -333,7 +333,7 @@ const AllergyNaturopath = () => {
                   </div>
                 </CardContent>
               </Card>
-              <Card className="md:col-span-2">
+              <Card className="md:col-span-2 border-l-4 border-l-primary">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-primary rounded-full flex-shrink-0"></div>
@@ -360,7 +360,7 @@ const AllergyNaturopath = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+                src="/lovable-uploads/81bb4143-d975-44a3-8df2-57e4ed8a1f3e.png" 
                 alt="Mitch Potts - Allergy Naturopath at NXTLVL Health" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -382,8 +382,8 @@ const AllergyNaturopath = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-            <div className="space-y-4">
-              <Card>
+            <div className="space-y-6">
+              <Card className="border-l-4 border-l-primary">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3">
                     <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -393,7 +393,7 @@ const AllergyNaturopath = () => {
                   </div>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="border-l-4 border-l-primary">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3">
                     <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -403,7 +403,7 @@ const AllergyNaturopath = () => {
                   </div>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="border-l-4 border-l-primary">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3">
                     <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -413,7 +413,7 @@ const AllergyNaturopath = () => {
                   </div>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="border-l-4 border-l-primary">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3">
                     <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -426,7 +426,7 @@ const AllergyNaturopath = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+                src="/lovable-uploads/6aea163f-811c-4a86-ad6c-54db726e95ea.png" 
                 alt="Comprehensive allergy testing and analysis at NXTLVL Health" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -460,7 +460,7 @@ const AllergyNaturopath = () => {
             <div className="space-y-6">
               <h3 className="text-2xl font-bold">Mitch supports gut healing with:</h3>
               <div className="space-y-4">
-                <Card>
+                <Card className="border-l-4 border-l-primary">
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-3">
                       <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -468,7 +468,7 @@ const AllergyNaturopath = () => {
                     </div>
                   </CardContent>
                 </Card>
-                <Card>
+                <Card className="border-l-4 border-l-primary">
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-3">
                       <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -476,7 +476,7 @@ const AllergyNaturopath = () => {
                     </div>
                   </CardContent>
                 </Card>
-                <Card>
+                <Card className="border-l-4 border-l-primary">
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-3">
                       <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -484,7 +484,7 @@ const AllergyNaturopath = () => {
                     </div>
                   </CardContent>
                 </Card>
-                <Card>
+                <Card className="border-l-4 border-l-primary">
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-3">
                       <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -499,7 +499,7 @@ const AllergyNaturopath = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                src="/lovable-uploads/f53858e6-8ef9-4571-9ccb-f9e90df7e025.png" 
                 alt="Gut health support for allergy management at NXTLVL Health" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -521,8 +521,8 @@ const AllergyNaturopath = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-            <div className="space-y-4">
-              <Card>
+            <div className="space-y-6">
+              <Card className="border-l-4 border-l-primary">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3">
                     <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -535,7 +535,7 @@ const AllergyNaturopath = () => {
                   </div>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="border-l-4 border-l-primary">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3">
                     <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -548,7 +548,7 @@ const AllergyNaturopath = () => {
                   </div>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="border-l-4 border-l-primary">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3">
                     <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -564,7 +564,7 @@ const AllergyNaturopath = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+                src="/lovable-uploads/843aa30e-0f25-485d-956e-d4e473082207.png" 
                 alt="Natural herbal medicines for allergy treatment" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -581,7 +581,7 @@ const AllergyNaturopath = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            <Card>
+            <Card className="border-l-4 border-l-primary">
               <CardContent className="p-6 text-center">
                 <svg className="h-8 w-8 text-primary mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
@@ -590,7 +590,7 @@ const AllergyNaturopath = () => {
                 <p className="text-muted-foreground">(natural antihistamines)</p>
               </CardContent>
             </Card>
-            <Card>
+            <Card className="border-l-4 border-l-primary">
               <CardContent className="p-6 text-center">
                 <svg className="h-8 w-8 text-primary mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
@@ -599,7 +599,7 @@ const AllergyNaturopath = () => {
                 <p className="text-muted-foreground">(immune modulators)</p>
               </CardContent>
             </Card>
-            <Card>
+            <Card className="border-l-4 border-l-primary">
               <CardContent className="p-6 text-center">
                 <svg className="h-8 w-8 text-primary mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
@@ -628,7 +628,7 @@ const AllergyNaturopath = () => {
             <div className="space-y-6">
               <h3 className="text-2xl font-bold">We may support with:</h3>
               <div className="space-y-4">
-                <Card>
+                <Card className="border-l-4 border-l-primary">
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-3">
                       <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -636,7 +636,7 @@ const AllergyNaturopath = () => {
                     </div>
                   </CardContent>
                 </Card>
-                <Card>
+                <Card className="border-l-4 border-l-primary">
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-3">
                       <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -644,7 +644,7 @@ const AllergyNaturopath = () => {
                     </div>
                   </CardContent>
                 </Card>
-                <Card>
+                <Card className="border-l-4 border-l-primary">
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-3">
                       <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -656,7 +656,7 @@ const AllergyNaturopath = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                src="/lovable-uploads/6d0b6778-ba4b-478d-9180-3b79fe27577c.png" 
                 alt="Food allergy and intolerance support consultation" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -677,7 +677,7 @@ const AllergyNaturopath = () => {
                   Mitch will also guide you in reducing exposure to common triggers such as:
                 </p>
                 <div className="space-y-4">
-                  <Card>
+                  <Card className="border-l-4 border-l-primary">
                     <CardContent className="p-6">
                       <div className="flex items-start space-x-3">
                         <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -685,7 +685,7 @@ const AllergyNaturopath = () => {
                       </div>
                     </CardContent>
                   </Card>
-                  <Card>
+                  <Card className="border-l-4 border-l-primary">
                     <CardContent className="p-6">
                       <div className="flex items-start space-x-3">
                         <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -693,7 +693,7 @@ const AllergyNaturopath = () => {
                       </div>
                     </CardContent>
                   </Card>
-                  <Card>
+                  <Card className="border-l-4 border-l-primary">
                     <CardContent className="p-6">
                       <div className="flex items-start space-x-3">
                         <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -716,7 +716,7 @@ const AllergyNaturopath = () => {
                   While we work to heal your immune system long term, we also help you feel better now. This may include:
                 </p>
                 <div className="space-y-4">
-                  <Card>
+                  <Card className="border-l-4 border-l-primary">
                     <CardContent className="p-6">
                       <div className="flex items-start space-x-3">
                         <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -724,7 +724,7 @@ const AllergyNaturopath = () => {
                       </div>
                     </CardContent>
                   </Card>
-                  <Card>
+                  <Card className="border-l-4 border-l-primary">
                     <CardContent className="p-6">
                       <div className="flex items-start space-x-3">
                         <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -732,7 +732,7 @@ const AllergyNaturopath = () => {
                       </div>
                     </CardContent>
                   </Card>
-                  <Card>
+                  <Card className="border-l-4 border-l-primary">
                     <CardContent className="p-6">
                       <div className="flex items-start space-x-3">
                         <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -759,7 +759,7 @@ const AllergyNaturopath = () => {
                   Your first visit includes:
                 </p>
                 <div className="space-y-4">
-                  <Card>
+                  <Card className="border-l-4 border-l-primary">
                     <CardContent className="p-6">
                       <div className="flex items-start space-x-3">
                         <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -767,7 +767,7 @@ const AllergyNaturopath = () => {
                       </div>
                     </CardContent>
                   </Card>
-                  <Card>
+                  <Card className="border-l-4 border-l-primary">
                     <CardContent className="p-6">
                       <div className="flex items-start space-x-3">
                         <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -775,7 +775,7 @@ const AllergyNaturopath = () => {
                       </div>
                     </CardContent>
                   </Card>
-                  <Card>
+                  <Card className="border-l-4 border-l-primary">
                     <CardContent className="p-6">
                       <div className="flex items-start space-x-3">
                         <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -783,7 +783,7 @@ const AllergyNaturopath = () => {
                       </div>
                     </CardContent>
                   </Card>
-                  <Card>
+                  <Card className="border-l-4 border-l-primary">
                     <CardContent className="p-6">
                       <div className="flex items-start space-x-3">
                         <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -803,7 +803,7 @@ const AllergyNaturopath = () => {
                   Mitch supports a wide range of allergy sufferers, including:
                 </p>
                 <div className="space-y-4">
-                  <Card>
+                  <Card className="border-l-4 border-l-primary">
                     <CardContent className="p-6">
                       <div className="flex items-start space-x-3">
                         <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -811,7 +811,7 @@ const AllergyNaturopath = () => {
                       </div>
                     </CardContent>
                   </Card>
-                  <Card>
+                  <Card className="border-l-4 border-l-primary">
                     <CardContent className="p-6">
                       <div className="flex items-start space-x-3">
                         <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -819,7 +819,7 @@ const AllergyNaturopath = () => {
                       </div>
                     </CardContent>
                   </Card>
-                  <Card>
+                  <Card className="border-l-4 border-l-primary">
                     <CardContent className="p-6">
                       <div className="flex items-start space-x-3">
                         <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -827,7 +827,7 @@ const AllergyNaturopath = () => {
                       </div>
                     </CardContent>
                   </Card>
-                  <Card>
+                  <Card className="border-l-4 border-l-primary">
                     <CardContent className="p-6">
                       <div className="flex items-start space-x-3">
                         <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -851,14 +851,14 @@ const AllergyNaturopath = () => {
 
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+              src="/lovable-uploads/681db518-b59b-4540-ab5a-b9bba5b43d6c.png" 
               alt="NXTLVL Health natural allergy support clinic" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
-            <Card>
+            <Card className="border-l-4 border-l-primary">
               <CardContent className="p-6">
                 <div className="flex items-start space-x-3">
                   <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -866,7 +866,7 @@ const AllergyNaturopath = () => {
                 </div>
               </CardContent>
             </Card>
-            <Card>
+            <Card className="border-l-4 border-l-primary">
               <CardContent className="p-6">
                 <div className="flex items-start space-x-3">
                   <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -874,7 +874,7 @@ const AllergyNaturopath = () => {
                 </div>
               </CardContent>
             </Card>
-            <Card>
+            <Card className="border-l-4 border-l-primary">
               <CardContent className="p-6">
                 <div className="flex items-start space-x-3">
                   <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -882,7 +882,7 @@ const AllergyNaturopath = () => {
                 </div>
               </CardContent>
             </Card>
-            <Card>
+            <Card className="border-l-4 border-l-primary">
               <CardContent className="p-6">
                 <div className="flex items-start space-x-3">
                   <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -890,7 +890,7 @@ const AllergyNaturopath = () => {
                 </div>
               </CardContent>
             </Card>
-            <Card className="md:col-span-2 lg:col-span-2">
+            <Card className="md:col-span-2 lg:col-span-2 border-l-4 border-l-primary">
               <CardContent className="p-6">
                 <div className="flex items-start space-x-3">
                   <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -915,15 +915,15 @@ const AllergyNaturopath = () => {
               Take the first step today and book a consultation with Mitch—your trusted allergy naturopath. Together, we'll uncover the root cause, relieve symptoms, and help you feel strong, balanced, and well again.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-              <Button asChild size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
-                <a href="https://nxtlvlhealth.com.au/book-now/">
+              <Button asChild size="lg" className="text-base sm:text-lg px-8 py-4 h-auto">
+                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                   <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                   </svg>
-                  Book an Appointment Today
+                  Book a Free 15-Min Consult
                 </a>
               </Button>
-              <Button variant="outline" size="lg" asChild className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
+              <Button variant="outline" size="lg" asChild className="text-base sm:text-lg px-8 py-4 h-auto">
                 <a href="tel:0731808853">
                   <svg className="mr-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
@@ -932,10 +932,6 @@ const AllergyNaturopath = () => {
                 </a>
               </Button>
             </div>
-            <h3 className="text-2xl font-bold mb-4">Feel Better—Naturally</h3>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Relief is possible. Let's help you breathe easier, eat with confidence, and live your life without the constant burden of allergies.
-            </p>
           </div>
         </div>
       </section>
