@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Activity, Brain, Sparkles, Leaf, Stethoscope } from "lucide-react";
@@ -190,15 +189,6 @@ const NaturopathicNutritionist = () => {
             <img 
               src="/lovable-uploads/f9825d69-c7b5-47cd-bd5f-c49c30aaa5e9.png" 
               alt="Naturopathic consultation with diagnostic equipment at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
-          </div>
-
-          {/* Original centered image */}
-          <div className="mb-12">
-            <img 
-              src="/lovable-uploads/9c3a4767-27df-40fb-a7b4-a2c6af678f29.png" 
-              alt="Naturopathic nutritionist with herbal supplements and microscope" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
           </div>
