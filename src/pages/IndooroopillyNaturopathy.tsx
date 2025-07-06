@@ -108,10 +108,10 @@ const IndooroopillyNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  If you're in Indooroopilly QLD and searching for a **kind and caring naturopath**, you're in the right place. NXTLVL Health isn't located directly in Indooroopilly, but we're just a **short drive away**—and we regularly support clients from the area, including Chapel Hill and surrounding suburbs. **Naturopathy is a holistic approach to healthcare** that focuses on supporting the body's innate ability to heal.
+                  If you're in Indooroopilly QLD and searching for a <strong>kind and caring naturopath</strong>, you're in the right place. NXTLVL Health isn't located directly in Indooroopilly, but we're just a <strong>short drive away</strong>—and we regularly support clients from the area, including Chapel Hill and surrounding suburbs. <strong>Naturopathy is a holistic approach to healthcare</strong> that focuses on supporting the body's innate ability to heal.
                 </p>
                 <p>
-                  We help people who feel **tired, stressed, or unwell** find their way back to better health using **natural therapies, herbal medicine, and nutrition**. Whether you're dealing with food intolerances, chronic health conditions, or just want to feel like yourself again, we're here to help.
+                  We help people who feel <strong>tired, stressed, or unwell</strong> find their way back to better health using <strong>natural therapies, herbal medicine, and nutrition</strong>. Whether you're dealing with food intolerances, chronic health conditions, or just want to feel like yourself again, we're here to help.
                 </p>
               </div>
             </div>
@@ -145,7 +145,7 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6 mb-12">
             <p>
-              At NXTLVL Health, we **don't just treat symptoms**—we **look for the root causes**. Our goal is to understand what's really going on in your body and create a personalised plan to help you feel better. **A holistic approach aims to address the root causes of imbalances** to promote long-term health. This includes looking at:
+              At NXTLVL Health, we <strong>don't just treat symptoms</strong>—we <strong>look for the root causes</strong>. Our goal is to understand what's really going on in your body and create a personalised plan to help you feel better. <strong>A holistic approach aims to address the root causes of imbalances</strong> to promote long-term health. This includes looking at:
             </p>
           </div>
 
@@ -171,7 +171,7 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed">
             <p>
-              Using **herbal medicine, nutritional medicine, and evidence-based strategies**, we help restore balance and promote optimal health. **Naturopathy aims to support the body's innate ability to heal** through nutritional guidance and lifestyle modifications.
+              Using <strong>herbal medicine, nutritional medicine, and evidence-based strategies</strong>, we help restore balance and promote optimal health. <strong>Naturopathy aims to support the body's innate ability to heal</strong> through nutritional guidance and lifestyle modifications.
             </p>
           </div>
         </div>
@@ -195,10 +195,10 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6">
             <p>
-              Mitch is an **experienced naturopath** who has a **special interest in gut health, chronic conditions, and women's wellness**. With a background in health science and natural healthcare, Mitch offers **personalised care that is both compassionate and practical**. **Qualified naturopaths have achieved a minimum degree level qualification** in Health Science.
+              Mitch is an <strong>experienced naturopath</strong> who has a <strong>special interest in gut health, chronic conditions, and women's wellness</strong>. With a background in health science and natural healthcare, Mitch offers <strong>personalised care that is both compassionate and practical</strong>. <strong>Qualified naturopaths have achieved a minimum degree level qualification</strong> in Health Science.
             </p>
             <p>
-              Many clients from Indooroopilly come to see Mitch because they want a **practitioner who takes the time to listen** and create a plan that suits their health needs and lifestyle.
+              Many clients from Indooroopilly come to see Mitch because they want a <strong>practitioner who takes the time to listen</strong> and create a plan that suits their health needs and lifestyle.
             </p>
           </div>
         </div>
@@ -222,7 +222,7 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6 mb-12">
             <p>
-              Whether you're facing a **chronic health condition** or just **not feeling your best**, we can help. Common health concerns we support include:
+              Whether you're facing a <strong>chronic health condition</strong> or just <strong>not feeling your best</strong>, we can help. Common health concerns we support include:
             </p>
           </div>
 
@@ -249,7 +249,7 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed">
             <p>
-              **Each plan is tailored to your unique situation**. We use a combination of dietary advice, lifestyle changes, and supplements when needed.
+              <strong>Each plan is tailored to your unique situation</strong>. We use a combination of dietary advice, lifestyle changes, and supplements when needed.
             </p>
           </div>
         </div>
@@ -298,7 +298,7 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed">
             <p>
-              We're here to **walk beside you on your health journey**—offering support, education, and practical steps to help you feel better.
+              We're here to <strong>walk beside you on your health journey</strong>—offering support, education, and practical steps to help you feel better.
             </p>
           </div>
         </div>
@@ -322,7 +322,7 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6 mb-12">
             <p>
-              Many people are **told their blood tests are "normal,"** yet they still feel unwell. That's where **medical nutrition therapy** can help. By addressing what your body needs at a cellular level, we can support you through chronic conditions like:
+              Many people are <strong>told their blood tests are "normal,"</strong> yet they still feel unwell. That's where <strong>medical nutrition therapy</strong> can help. By addressing what your body needs at a cellular level, we can support you through chronic conditions like:
             </p>
           </div>
 
@@ -346,7 +346,7 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed">
             <p>
-              Our treatments combine **nutrition, herbal medicine, and lifestyle advice**. We believe **food is powerful medicine**—and we'll help you use it in a way that's personalised and easy to follow. In naturopathy, the **focus is on educating individuals about informed health decisions**, including nutrition.
+              Our treatments combine <strong>nutrition, herbal medicine, and lifestyle advice</strong>. We believe <strong>food is powerful medicine</strong>—and we'll help you use it in a way that's personalised and easy to follow. In naturopathy, the <strong>focus is on educating individuals about informed health decisions</strong>, including nutrition.
             </p>
           </div>
         </div>
@@ -370,10 +370,10 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6 mb-12">
             <p>
-              **Your gut affects everything**—from energy and skin to hormones and mental clarity. If your digestion isn't right, **you won't feel your best**. **Naturopathy optimises digestion**, helping to improve overall health and well-being.
+              <strong>Your gut affects everything</strong>—from energy and skin to hormones and mental clarity. If your digestion isn't right, <strong>you won't feel your best</strong>. <strong>Naturopathy optimises digestion</strong>, helping to improve overall health and well-being.
             </p>
             <p>
-              We help clients from Indooroopilly with **gut-related issues** such as:
+              We help clients from Indooroopilly with <strong>gut-related issues</strong> such as:
             </p>
           </div>
 
@@ -397,7 +397,7 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed">
             <p>
-              We use **functional testing when needed** and recommend **targeted therapies** to restore gut balance.
+              We use <strong>functional testing when needed</strong> and recommend <strong>targeted therapies</strong> to restore gut balance.
             </p>
           </div>
         </div>
@@ -421,7 +421,7 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6 mb-12">
             <p>
-              **Anxiety and depression are more common than you might think**—but they **don't have to define your life**. Mitch supports mental health with **gentle, natural strategies** that work alongside your current lifestyle.
+              <strong>Anxiety and depression are more common than you might think</strong>—but they <strong>don't have to define your life</strong>. Mitch supports mental health with <strong>gentle, natural strategies</strong> that work alongside your current lifestyle.
             </p>
             <p>
               This may include:
@@ -448,7 +448,7 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed">
             <p>
-              **You don't have to do it alone**. There are **natural options** that can help you feel more calm, confident, and in control.
+              <strong>You don't have to do it alone</strong>. There are <strong>natural options</strong> that can help you feel more calm, confident, and in control.
             </p>
           </div>
         </div>
@@ -472,7 +472,7 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6 mb-12">
             <p>
-              Whether you're dealing with **hormone fluctuations** or **struggling to manage your weight**, we can help. Mitch works with many women and men on: **Naturopathy can balance hormones**, providing a natural way to address hormonal imbalances and related symptoms.
+              Whether you're dealing with <strong>hormone fluctuations</strong> or <strong>struggling to manage your weight</strong>, we can help. Mitch works with many women and men on: <strong>Naturopathy can balance hormones</strong>, providing a natural way to address hormonal imbalances and related symptoms.
             </p>
           </div>
 
@@ -496,7 +496,7 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed">
             <p>
-              Our approach is **kind, science-based, and personalised**—so you can feel better without the pressure of **extreme diets** or unsustainable routines.
+              Our approach is <strong>kind, science-based, and personalised</strong>—so you can feel better without the pressure of <strong>extreme diets</strong> or unsustainable routines.
             </p>
           </div>
         </div>
@@ -520,7 +520,7 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6 mb-12">
             <p>
-              **Your first appointment is all about understanding you**. We'll look at your:
+              <strong>Your first appointment is all about understanding you</strong>. We'll look at your:
             </p>
           </div>
 
@@ -545,7 +545,7 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed">
             <p>
-              Then, we'll **build a clear plan** that makes sense and fits into your life. **You'll leave with confidence and a real path forward**.
+              Then, we'll <strong>build a clear plan</strong> that makes sense and fits into your life. <strong>You'll leave with confidence and a real path forward</strong>.
             </p>
           </div>
         </div>
@@ -569,10 +569,10 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6">
             <p>
-              We welcome Indooroopilly clients for **in-person visits** and also offer **online consultations** for added convenience. Whether you're in Chapel Hill, Toowong, or elsewhere in Brisbane, **our doors are open to you**.
+              We welcome Indooroopilly clients for <strong>in-person visits</strong> and also offer <strong>online consultations</strong> for added convenience. Whether you're in Chapel Hill, Toowong, or elsewhere in Brisbane, <strong>our doors are open to you</strong>.
             </p>
             <p>
-              To get started, you can **easily book online** or call our team. We're happy to answer any questions and help you choose the **best time for your first visit**.
+              To get started, you can <strong>easily book online</strong> or call our team. We're happy to answer any questions and help you choose the <strong>best time for your first visit</strong>.
             </p>
           </div>
 
@@ -608,7 +608,7 @@ const IndooroopillyNaturopathy = () => {
           {/* Image under heading */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Natural-healthcare-importance-holistic-wellness-scaled.jpeg" 
+              src="/lovable-uploads/fe4256a1-0181-4c24-bf85-f8c27507574d.png" 
               alt="Importance of natural healthcare and holistic wellness approach" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -616,7 +616,7 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6 mb-12">
             <p>
-              Many of our clients have **tried everything before coming to us**. They're tired of **quick fixes** and want something real—something that **works with their body, not against it**. **Holistic approaches empower individuals** to take control of their health through education and lifestyle changes.
+              Many of our clients have <strong>tried everything before coming to us</strong>. They're tired of <strong>quick fixes</strong> and want something real—something that <strong>works with their body, not against it</strong>. <strong>Holistic approaches empower individuals</strong> to take control of their health through education and lifestyle changes.
             </p>
             <p>
               Natural therapies offer:
@@ -643,7 +643,7 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed">
             <p>
-              Our job is to **help you understand your body better** and support it with everything it needs to thrive.
+              Our job is to <strong>help you understand your body better</strong> and support it with everything it needs to thrive.
             </p>
           </div>
         </div>
@@ -656,10 +656,10 @@ const IndooroopillyNaturopathy = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Let's Work Together</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
               <p>
-                If you've been searching for a **naturopath Indooroopilly locals trust**, NXTLVL Health is here to help. We're **nearby, we're experienced, and we truly care**.
+                If you've been searching for a <strong>naturopath Indooroopilly locals trust</strong>, NXTLVL Health is here to help. We're <strong>nearby, we're experienced, and we truly care</strong>.
               </p>
               <p>
-                **You don't have to keep pushing through tiredness, discomfort, or stress alone**. Let's find the answers together—and get you **feeling better, naturally**.
+                <strong>You don't have to keep pushing through tiredness, discomfort, or stress alone</strong>. Let's find the answers together—and get you <strong>feeling better, naturally</strong>.
               </p>
             </div>
 
