@@ -1,4 +1,5 @@
 
+import { Helmet } from 'react-helmet-async';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { 
@@ -16,7 +17,12 @@ import {
 
 const WellnessClinic = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <>
+      <Helmet>
+        <title>Best Wellness Clinic Brisbane | Book a FREE 15-Min Consult!</title>
+        <meta name="description" content="Feeling off lately with no idea why? At NXTLVL Health, the best wellness clinic in Brisbane, we will find the real cause and heal the problem at its root." />
+      </Helmet>
+      <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 via-accent/10 to-primary/5 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
@@ -800,7 +806,8 @@ const WellnessClinic = () => {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 };
 

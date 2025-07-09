@@ -1,11 +1,17 @@
 
+import { Helmet } from 'react-helmet-async';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Activity, Users, Brain, Zap } from "lucide-react";
 
 const SIBONaturopathy = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <>
+      <Helmet>
+        <title>SIBO Naturopath | The Best in Brisbane | NXTLVL Health</title>
+        <meta name="description" content="Feeling tired, bloated, foggy or just flat? Our SIBO naturopath will the real cause of your symptoms, so you can finally feel like YOU again." />
+      </Helmet>
+      <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
@@ -749,7 +755,8 @@ const SIBONaturopathy = () => {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 };
 

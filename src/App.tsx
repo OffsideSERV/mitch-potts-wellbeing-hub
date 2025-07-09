@@ -70,9 +70,9 @@ const App = () => (
             <Route path="/areas-we-serve/naturopath-newstead" element={<NewsteadNaturopathy />} />
             <Route path="/areas-we-serve/naturopath-new-farm" element={<NewFarmNaturopathy />} />
             <Route path="/areas-we-serve/naturopath-morningside" element={<MorningsideNaturopathy />} />
-            <Route path="/ibs-naturopathy" element={<IBSNaturopathy />} />
-            <Route path="/sibo-naturopathy" element={<SIBONaturopathy />} />
-            <Route path="/wellness-clinic" element={<WellnessClinic />} />
+            <Route path="/what-we-treat/ibs-naturopath" element={<IBSNaturopathy />} />
+            <Route path="/what-we-treat/sibo-naturopath" element={<SIBONaturopathy />} />
+            <Route path="/what-we-treat/wellness-clinic-brisbane" element={<WellnessClinic />} />
             <Route path="/areas" element={<Areas />} />
             <Route path="/ibs-treatment-brisbane" element={<IBSTreatmentBrisbane />} />
             <Route path="/ibs-clinic" element={<IBSClinic />} />
