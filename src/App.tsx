@@ -46,6 +46,7 @@ import CancellationPolicy from "./pages/CancellationPolicy";
 import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import WebsiteDisclaimer from "./pages/WebsiteDisclaimer";
+import WhatWeTreat from "./pages/WhatWeTreat";
 
 const queryClient = new QueryClient();
 
@@ -97,6 +98,7 @@ const App = () => (
             <Route path="/contact" element={<Contact />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/website-disclaimer" element={<WebsiteDisclaimer />} />
+            <Route path="/what-we-treat" element={<WhatWeTreat />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
