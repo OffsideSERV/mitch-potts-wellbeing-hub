@@ -44,6 +44,7 @@ import FunctionalMedicine from "./pages/FunctionalMedicine";
 import LiveBloodAnalysisBrisbane from "./pages/LiveBloodAnalysisBrisbane";
 import CancellationPolicy from "./pages/CancellationPolicy";
 import Contact from "./pages/Contact";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 const queryClient = new QueryClient();
 
@@ -93,6 +94,7 @@ const App = () => (
             <Route path="/services/live-blood-analysis-brisbane" element={<LiveBloodAnalysisBrisbane />} />
             <Route path="/cancellation-policy" element={<CancellationPolicy />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

@@ -120,7 +120,7 @@ const Footer = () => {
               © 2024 NXTLVL Health. All rights reserved.
             </p>
             <div className="flex space-x-6">
-              <Link to="/privacy" className="text-sm text-muted-foreground hover:text-primary">
+              <Link to="/privacy-policy" className="text-sm text-muted-foreground hover:text-primary">
                 Privacy Policy
               </Link>
               <Link to="/terms" className="text-sm text-muted-foreground hover:text-primary">
