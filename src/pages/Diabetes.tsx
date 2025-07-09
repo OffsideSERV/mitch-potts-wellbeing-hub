@@ -1,8 +1,14 @@
+import { Helmet } from 'react-helmet-async';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Diabetes = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <>
+      <Helmet>
+        <title>5-Star Naturopath Diabetes Support in Brisbane</title>
+        <meta name="description" content="Tired of, or stuck with blood sugar issues? Our naturopath diabetes support will find the root cause of your problems,—so you can be calm and in control again." />
+      </Helmet>
+      <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
@@ -560,7 +566,8 @@ const Diabetes = () => {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 };
 
