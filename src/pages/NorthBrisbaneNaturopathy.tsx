@@ -1,10 +1,16 @@
+import { Helmet } from 'react-helmet-async';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Activity, Brain, Baby } from "lucide-react";
 
 const NorthBrisbaneNaturopathy = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <>
+      <Helmet>
+        <title>Best Naturopath in North Brisbane | NXTLVL Health</title>
+        <meta name="description" content="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath in North Brisbane that will find and heal the root cause of your problems." />
+      </Helmet>
+      <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
@@ -419,7 +425,8 @@ const NorthBrisbaneNaturopathy = () => {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 };
 

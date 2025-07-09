@@ -64,9 +64,9 @@ const App = () => (
             <Route path="/what-we-treat/naturopath-thyroid-brisbane" element={<ThyroidNaturopathy />} />
             <Route path="/what-we-treat/naturopath-diabetes-brisbane" element={<Diabetes />} />
             <Route path="/what-we-treat/childrens-naturopath-brisbane" element={<ChildrensHealth />} />
-            <Route path="/adhd-naturopathy" element={<ADHDNaturopathy />} />
-            <Route path="/anxiety-naturopathy" element={<AnxietyNaturopathy />} />
-            <Route path="/north-brisbane-naturopathy" element={<NorthBrisbaneNaturopathy />} />
+            <Route path="/what-we-treat/adhd-naturopath" element={<ADHDNaturopathy />} />
+            <Route path="/what-we-treat/naturopath-anxiety" element={<AnxietyNaturopathy />} />
+            <Route path="/areas-we-serve/naturopath-north-brisbane" element={<NorthBrisbaneNaturopathy />} />
             <Route path="/newstead-naturopathy" element={<NewsteadNaturopathy />} />
             <Route path="/new-farm-naturopathy" element={<NewFarmNaturopathy />} />
             <Route path="/morningside-naturopathy" element={<MorningsideNaturopathy />} />
