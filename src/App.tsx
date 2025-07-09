@@ -76,13 +76,13 @@ const App = () => (
             <Route path="/areas-we-serve" element={<Areas />} />
             <Route path="/what-we-treat/ibs-brisbane" element={<IBSTreatmentBrisbane />} />
             <Route path="/what-we-treat/ibs-clinic" element={<IBSClinic />} />
-            <Route path="/skin-naturopathy" element={<SkinNaturopathy />} />
-            <Route path="/eczema-naturopathy" element={<EczemaNaturopathy />} />
-            <Route path="/acne-naturopathy" element={<AcneNaturopathy />} />
-            <Route path="/hormonal-acne-naturopathy" element={<HormonalAcneNaturopathy />} />
-            <Route path="/hamilton-naturopathy" element={<HamiltonNaturopathy />} />
-            <Route path="/clayfield-naturopathy" element={<ClayfieldNaturopathy />} />
-            <Route path="/windsor-naturopathy" element={<WindsorNaturopathy />} />
+            <Route path="/what-we-treat/naturopathy-for-skin" element={<SkinNaturopathy />} />
+            <Route path="/what-we-treat/naturopath-eczema" element={<EczemaNaturopathy />} />
+            <Route path="/what-we-treat/acne-naturopathy" element={<AcneNaturopathy />} />
+            <Route path="/what-we-treat/hormonal-acne-naturopath" element={<HormonalAcneNaturopathy />} />
+            <Route path="/areas-we-serve/naturopath-hamilton" element={<HamiltonNaturopathy />} />
+            <Route path="/areas-we-serve/naturopath-clayfield-brisbane" element={<ClayfieldNaturopathy />} />
+            <Route path="/areas-we-serve/naturopath-windsor" element={<WindsorNaturopathy />} />
             <Route path="/gut-freedom" element={<GutFreedomOptIn />} />
             <Route path="/allergy-naturopath" element={<AllergyNaturopath />} />
             <Route path="/naturopathic-nutritionist" element={<NaturopathicNutritionist />} />

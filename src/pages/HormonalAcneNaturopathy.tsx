@@ -1,11 +1,17 @@
 
+import { Helmet } from 'react-helmet-async';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Zap, Target, Sparkles } from "lucide-react";
 
 const HormonalAcneNaturopathy = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <>
+      <Helmet>
+        <title>Best Hormonal Acne Naturopath in Brisbane | Free Consult!</title>
+        <meta name="description" content="Skin breaking out and have no idea why? No problem, Mitch's Hormonal Acne Naturopathy will finally give you answers. Book a free 15-min consult today!" />
+      </Helmet>
+      <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
@@ -908,7 +914,8 @@ const HormonalAcneNaturopathy = () => {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 };
 

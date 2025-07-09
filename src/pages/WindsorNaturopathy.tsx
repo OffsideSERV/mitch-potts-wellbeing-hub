@@ -1,11 +1,17 @@
 
+import { Helmet } from 'react-helmet-async';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Activity, Brain, Baby, Shield } from "lucide-react";
 
 const WindsorNaturopathy = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <>
+      <Helmet>
+        <title>Best Naturopath Windsor | Book a Free 15-Min Consult!</title>
+        <meta name="description" content="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath in Windsor that will find and heal the root cause of your problems." />
+      </Helmet>
+      <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
@@ -679,7 +685,8 @@ const WindsorNaturopathy = () => {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 };
 
