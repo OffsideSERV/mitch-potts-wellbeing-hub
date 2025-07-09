@@ -4,6 +4,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HelmetProvider } from 'react-helmet-async';
 import Layout from "./components/Layout";
 import Index from "./pages/Index";
 import Services from "./pages/Services";
@@ -40,10 +41,12 @@ import AllergyNaturopath from "./pages/AllergyNaturopath";
 import NaturopathicNutritionist from "./pages/NaturopathicNutritionist";
 import IndooroopillyNaturopathy from "./pages/IndooroopillyNaturopathy";
 import FunctionalMedicine from "./pages/FunctionalMedicine";
+import LiveBloodAnalysisBrisbane from "./pages/LiveBloodAnalysisBrisbane";
 
 const queryClient = new QueryClient();
 
 const App = () => (
+  <HelmetProvider>
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
@@ -85,6 +88,7 @@ const App = () => (
             <Route path="/naturopathic-nutritionist" element={<NaturopathicNutritionist />} />
             <Route path="/indooroopilly-naturopathy" element={<IndooroopillyNaturopathy />} />
             <Route path="/functional-medicine" element={<FunctionalMedicine />} />
+            <Route path="/services/live-blood-analysis-brisbane" element={<LiveBloodAnalysisBrisbane />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
@@ -92,6 +96,7 @@ const App = () => (
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
+  </HelmetProvider>
 );
 
 export default App;
