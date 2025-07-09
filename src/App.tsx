@@ -50,6 +50,7 @@ import WhatWeTreat from "./pages/WhatWeTreat";
 import NXTLVLTonics from "./pages/NXTLVLTonics";
 import NutritionistBrisbane from "./pages/NutritionistBrisbane";
 import BookNow from "./pages/BookNow";
+import BestTeaForStomachPain from "./pages/BestTeaForStomachPain";
 
 const queryClient = new QueryClient();
 
@@ -105,6 +106,7 @@ const App = () => (
             <Route path="/nxtlvl-tonics" element={<NXTLVLTonics />} />
             <Route path="/services/nutritionist-brisbane" element={<NutritionistBrisbane />} />
             <Route path="/book-now" element={<BookNow />} />
+            <Route path="/blog/gut-health/best-tea-for-stomach-pain-and-bloating" element={<BestTeaForStomachPain />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
