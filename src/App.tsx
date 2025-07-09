@@ -48,6 +48,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import WebsiteDisclaimer from "./pages/WebsiteDisclaimer";
 import WhatWeTreat from "./pages/WhatWeTreat";
 import NXTLVLTonics from "./pages/NXTLVLTonics";
+import NutritionistBrisbane from "./pages/NutritionistBrisbane";
 
 const queryClient = new QueryClient();
 
@@ -101,6 +102,7 @@ const App = () => (
             <Route path="/website-disclaimer" element={<WebsiteDisclaimer />} />
             <Route path="/what-we-treat" element={<WhatWeTreat />} />
             <Route path="/nxtlvl-tonics" element={<NXTLVLTonics />} />
+            <Route path="/services/nutritionist-brisbane" element={<NutritionistBrisbane />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
