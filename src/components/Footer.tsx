@@ -126,6 +126,9 @@ const Footer = () => {
               <Link to="/terms" className="text-sm text-muted-foreground hover:text-primary">
                 Terms of Service
               </Link>
+              <Link to="/cancellation-policy" className="text-sm text-muted-foreground hover:text-primary">
+                Cancellation Policy
+              </Link>
             </div>
           </div>
         </div>

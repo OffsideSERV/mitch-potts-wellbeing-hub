@@ -42,6 +42,7 @@ import NaturopathicNutritionist from "./pages/NaturopathicNutritionist";
 import IndooroopillyNaturopathy from "./pages/IndooroopillyNaturopathy";
 import FunctionalMedicine from "./pages/FunctionalMedicine";
 import LiveBloodAnalysisBrisbane from "./pages/LiveBloodAnalysisBrisbane";
+import CancellationPolicy from "./pages/CancellationPolicy";
 
 const queryClient = new QueryClient();
 
@@ -89,6 +90,7 @@ const App = () => (
             <Route path="/indooroopilly-naturopathy" element={<IndooroopillyNaturopathy />} />
             <Route path="/functional-medicine" element={<FunctionalMedicine />} />
             <Route path="/services/live-blood-analysis-brisbane" element={<LiveBloodAnalysisBrisbane />} />
+            <Route path="/cancellation-policy" element={<CancellationPolicy />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
