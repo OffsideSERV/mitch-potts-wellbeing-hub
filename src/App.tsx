@@ -45,6 +45,7 @@ import LiveBloodAnalysisBrisbane from "./pages/LiveBloodAnalysisBrisbane";
 import CancellationPolicy from "./pages/CancellationPolicy";
 import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import WebsiteDisclaimer from "./pages/WebsiteDisclaimer";
 
 const queryClient = new QueryClient();
 
@@ -95,6 +96,7 @@ const App = () => (
             <Route path="/cancellation-policy" element={<CancellationPolicy />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/website-disclaimer" element={<WebsiteDisclaimer />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
