@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, Phone, ChevronDown, ChevronUp, Zap, Activity, Heart, Shield, Target, CheckCircle } from 'lucide-react';
@@ -117,7 +118,12 @@ const MLSLaser = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <>
+      <Helmet>
+        <title>#1 MLS Laser Therapy Treatment In Brisbane | NXTLVL Health</title>
+        <meta name="description" content="Are you struggling with pains, injury, or slow healing? MLS Laser treatment at NXTLVL Health will help you heal faster, move better, and feel like you again." />
+      </Helmet>
+      <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
@@ -652,7 +658,8 @@ const MLSLaser = () => {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 };
 
