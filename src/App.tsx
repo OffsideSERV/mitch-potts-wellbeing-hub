@@ -47,6 +47,7 @@ import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import WebsiteDisclaimer from "./pages/WebsiteDisclaimer";
 import WhatWeTreat from "./pages/WhatWeTreat";
+import NXTLVLTonics from "./pages/NXTLVLTonics";
 
 const queryClient = new QueryClient();
 
@@ -99,6 +100,7 @@ const App = () => (
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/website-disclaimer" element={<WebsiteDisclaimer />} />
             <Route path="/what-we-treat" element={<WhatWeTreat />} />
+            <Route path="/nxtlvl-tonics" element={<NXTLVLTonics />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
