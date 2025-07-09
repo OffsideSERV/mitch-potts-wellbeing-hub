@@ -58,9 +58,9 @@ const App = () => (
             <Route path="/services" element={<Services />} />
             <Route path="/services/mls-laser-therapy-treatment-brisbane" element={<MLSLaser />} />
             <Route path="/services/personal-trainer-new-farm" element={<PersonalTraining />} />
-            <Route path="/gut-health" element={<GutHealth />} />
-            <Route path="/gut-health-specialist" element={<GutHealthSpecialist />} />
-            <Route path="/weight-loss" element={<WeightLoss />} />
+            <Route path="/what-we-treat/gut-health-naturopath-brisbane" element={<GutHealth />} />
+            <Route path="/what-we-treat/gut-health-specialist" element={<GutHealthSpecialist />} />
+            <Route path="/what-we-treat/weight-loss-naturopath-brisbane" element={<WeightLoss />} />
             <Route path="/thyroid-naturopathy" element={<ThyroidNaturopathy />} />
             <Route path="/diabetes" element={<Diabetes />} />
             <Route path="/childrens-health" element={<ChildrensHealth />} />
