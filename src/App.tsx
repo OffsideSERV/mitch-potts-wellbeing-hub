@@ -39,6 +39,7 @@ import GutFreedomOptIn from "./pages/GutFreedomOptIn";
 import AllergyNaturopath from "./pages/AllergyNaturopath";
 import NaturopathicNutritionist from "./pages/NaturopathicNutritionist";
 import IndooroopillyNaturopathy from "./pages/IndooroopillyNaturopathy";
+import FunctionalMedicine from "./pages/FunctionalMedicine";
 
 const queryClient = new QueryClient();
 
@@ -83,6 +84,7 @@ const App = () => (
             <Route path="/allergy-naturopath" element={<AllergyNaturopath />} />
             <Route path="/naturopathic-nutritionist" element={<NaturopathicNutritionist />} />
             <Route path="/indooroopilly-naturopathy" element={<IndooroopillyNaturopathy />} />
+            <Route path="/functional-medicine" element={<FunctionalMedicine />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
