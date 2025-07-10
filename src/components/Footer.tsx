@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="font-bold text-xl text-primary">NXTLVL Health</div>
+            <div className="font-bold text-xl text-primary">NXTLVL Health - Naturopath</div>
             <p className="text-sm text-muted-foreground">
               Natural health solutions with personalised care. Expert naturopathy services across Brisbane.
             </p>
@@ -46,7 +46,7 @@ const Footer = () => {
               </div>
               <div className="flex items-start space-x-2 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 mt-0.5" />
-                <span>Brisbane, Queensland</span>
+                <span>Suite 2/665 Brunswick St, New Farm QLD 4005</span>
               </div>
             </div>
           </div>
@@ -105,7 +105,11 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Clock className="h-4 w-4" />
-                <span>Flexible Hours Available</span>
+                <span>Monday - Friday: 9:00 AM - 7:00 PM</span>
+              </div>
+              <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                <Clock className="h-4 w-4" />
+                <span>Saturday: 8:00 AM - 12:00 PM</span>
               </div>
               <p className="text-xs text-muted-foreground">
                 Online & In-Person Consultations
@@ -117,7 +121,7 @@ const Footer = () => {
         <div className="border-t mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-muted-foreground">
-              © 2024 NXTLVL Health. All rights reserved.
+              © 2025 NXTLVL Health - Mitchell Potts Naturopathy. All rights reserved. | Brisbane, Queensland, Australia
             </p>
             <div className="flex space-x-6">
               <Link to="/privacy-policy" className="text-sm text-muted-foreground hover:text-primary">

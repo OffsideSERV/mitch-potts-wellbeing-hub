@@ -554,40 +554,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="py-8 px-4 bg-foreground text-background">
-        <div className="container mx-auto max-w-6xl">
-          <div className="grid md:grid-cols-3 gap-8 text-center md:text-left mb-8">
-            <div className="space-y-3">
-              <h3 className="text-xl font-semibold">NXTLVL Health - Naturopath</h3>
-              <p className="text-background/80">
-                Suite 2/665 Brunswick St<br />
-                New Farm, QLD 4005<br />
-                Australia
-              </p>
-            </div>
-            <div className="space-y-3">
-              <h3 className="text-xl font-semibold">Contact</h3>
-              <p className="text-background/80">
-                Phone: (07) 3180 8853<br />
-                Email: info@nxtlvlhealth.com.au
-              </p>
-            </div>
-            <div className="space-y-3">
-              <h3 className="text-xl font-semibold">Hours</h3>
-              <p className="text-background/80">
-                Monday - Friday: 9:00 AM - 7:00 PM<br />
-                Saturday: 8:00 AM - 12:00 PM
-              </p>
-            </div>
-          </div>
-          <div className="text-center border-t border-background/20 pt-8">
-            <p className="text-sm text-background/80">
-              © 2025 NXTLVL Health - Mitchell Potts Naturopathy. All rights reserved. | Brisbane, Queensland, Australia
-            </p>
-          </div>
-        </div>
-      </footer>
     </div>;
 };
 export default Index;
