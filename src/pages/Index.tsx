@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -139,19 +140,19 @@ const Index = () => {
         {/* Trust Boosters */}
         <div className="flex justify-between items-center mt-16 max-w-4xl mx-auto">
           <div className="text-center">
-            <Users className="h-10 w-10 text-primary mx-auto mb-3" />
+            <Users className="h-12 w-12 text-primary mx-auto mb-4" />
             <h3 className="text-xl font-bold text-foreground mb-1">1000+</h3>
             <p className="text-sm text-muted-foreground">Patients Helped</p>
           </div>
           
           <div className="text-center">
-            <CheckCircle className="h-10 w-10 text-primary mx-auto mb-3" />
+            <TestTube className="h-12 w-12 text-primary mx-auto mb-4" />
             <h3 className="text-xl font-bold text-foreground mb-1">Real Testing</h3>
             <p className="text-sm text-muted-foreground">No Guessing</p>
           </div>
           
           <div className="text-center">
-            <TestTube className="h-10 w-10 text-primary mx-auto mb-3" />
+            <CheckCircle className="h-12 w-12 text-primary mx-auto mb-4" />
             <h3 className="text-xl font-bold text-foreground mb-1">90% of Patients</h3>
             <p className="text-sm text-muted-foreground">See Results in Just 6 Weeks</p>
           </div>
