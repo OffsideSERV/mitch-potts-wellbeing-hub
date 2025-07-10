@@ -139,27 +139,21 @@ const Index = () => {
         {/* Trust Boosters */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
           <div className="text-center">
-            <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-              <CheckCircle className="w-8 h-8 text-green-600" />
-            </div>
-            <h3 className="text-xl font-semibold mb-2">Real Testing</h3>
-            <p className="text-gray-600">We use comprehensive functional testing to identify the root cause of your health issues, not just treat symptoms.</p>
+            <Users className="h-12 w-12 text-primary mx-auto mb-4" />
+            <h3 className="text-2xl font-bold text-foreground mb-1">1000+</h3>
+            <p className="text-sm text-muted-foreground">Patients Helped</p>
           </div>
           
           <div className="text-center">
-            <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-              <TestTube className="w-8 h-8 text-blue-600" />
-            </div>
-            <h3 className="text-xl font-semibold mb-2">90% of Patients</h3>
-            <p className="text-gray-600">See significant improvement in their symptoms within the first 3 months of treatment.</p>
+            <CheckCircle className="h-12 w-12 text-primary mx-auto mb-4" />
+            <h3 className="text-2xl font-bold text-foreground mb-1">Real Testing</h3>
+            <p className="text-sm text-muted-foreground">No Guessing</p>
           </div>
           
           <div className="text-center">
-            <div className="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-              <Users className="w-8 h-8 text-purple-600" />
-            </div>
-            <h3 className="text-xl font-semibold mb-2">Personalized Care</h3>
-            <p className="text-gray-600">Every treatment plan is tailored to your unique biochemistry, lifestyle, and health goals.</p>
+            <TestTube className="h-12 w-12 text-primary mx-auto mb-4" />
+            <h3 className="text-2xl font-bold text-foreground mb-1">90% of Patients</h3>
+            <p className="text-sm text-muted-foreground">See Results in Just 6 Weeks</p>
           </div>
         </div>
       </div>
