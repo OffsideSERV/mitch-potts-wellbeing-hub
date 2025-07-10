@@ -3,13 +3,14 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, TestTube, BadgeCheck, Target, Shield, Zap, Coffee, Clock, Brain, Phone, Pill, Salad, DollarSign, CheckCircle, Star } from 'lucide-react';
+
 const Index = () => {
   const services = [{
     title: "Naturopathy",
     description: "We offer powerful yet gentle support for your whole body. We work with chronic fatigue, gut health, hormonal imbalance, and more.",
     icon: <Leaf className="h-8 w-8 text-primary" />
   }, {
-    title: "Nutritional Medicine",
+    title: "Nutritional Medicine", 
     description: "You'll get a fully personalised nutrition plan built for your needs and goals. No more fad diets, just simple, powerful food support.",
     icon: <Salad className="h-8 w-8 text-primary" />
   }, {
@@ -108,25 +109,28 @@ const Index = () => {
               </div>
             </div>
 
-        {/* Trust Boosters */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-          
-          
-          <div className="text-center">
-            <CheckCircle className="h-12 w-12 text-primary mx-auto mb-4" />
-            <h3 className="text-2xl font-bold text-foreground mb-1">Real Testing</h3>
-            <p className="text-sm text-muted-foreground">No Guessing</p>
-          </div>
-          
-          <div className="text-center">
-            <TestTube className="h-12 w-12 text-primary mx-auto mb-4" />
-            <h3 className="text-2xl font-bold text-foreground mb-1">90% of Patients</h3>
-            <p className="text-sm text-muted-foreground">See Results in Just 6 Weeks</p>
+          {/* Trust Boosters */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 justify-between">
+            <div className="text-center">
+              <Users className="h-12 w-12 text-primary mx-auto mb-4" />
+              <h3 className="text-2xl font-bold text-foreground mb-1">1000+</h3>
+              <p class="text-sm text-muted-foreground">Patients Helped</p>
+            </div>
+            
+            <div className="text-center">
+              <CheckCircle className="h-12 w-12 text-primary mx-auto mb-4" />
+              <h3 className="text-2xl font-bold text-foreground mb-1">Real Testing</h3>
+              <p className="text-sm text-muted-foreground">No Guessing</p>
+            </div>
+            
+            <div className="text-center">
+              <TestTube className="h-12 w-12 text-primary mx-auto mb-4" />
+              <h3 className="text-2xl font-bold text-foreground mb-1">90% of Patients</h3>
+              <p className="text-sm text-muted-foreground">See Results in Just 6 Weeks</p>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
       {/* Finally A Brisbane Naturopath Who Gets It */}
       <section className="py-20 px-4">
@@ -496,4 +500,5 @@ const Index = () => {
 
     </div>;
 };
+
 export default Index;
