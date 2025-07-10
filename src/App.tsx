@@ -55,6 +55,7 @@ import HowToFlushSalicylates from "./pages/HowToFlushSalicylates";
 import WorstFoodsForGutHealth from "./pages/WorstFoodsForGutHealth";
 import NaturopathyForWeightLoss from "./pages/NaturopathyForWeightLoss";
 import GutHealth101 from "./pages/GutHealth101";
+import NaturopathyVsHomeopathy from "./pages/NaturopathyVsHomeopathy";
 
 const queryClient = new QueryClient();
 
@@ -115,6 +116,7 @@ const App = () => (
             <Route path="/blog/gut-health/7-worst-foods-for-gut-health" element={<WorstFoodsForGutHealth />} />
             <Route path="/blog/naturopathy/naturopathy-for-weight-loss" element={<NaturopathyForWeightLoss />} />
             <Route path="/blog/gut-health/gut-health-101-why-your-stomach-might-be-behind-your-brain-fog-and-fatigue" element={<GutHealth101 />} />
+            <Route path="/blog/naturopathy/naturopathy-vs-homeopathy" element={<NaturopathyVsHomeopathy />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
