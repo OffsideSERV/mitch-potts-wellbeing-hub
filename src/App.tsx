@@ -50,6 +50,7 @@ import WhatWeTreat from "./pages/WhatWeTreat";
 import NXTLVLTonics from "./pages/NXTLVLTonics";
 import NutritionistBrisbane from "./pages/NutritionistBrisbane";
 import BookNow from "./pages/BookNow";
+import Blog from "./pages/Blog";
 import BestTeaForStomachPain from "./pages/BestTeaForStomachPain";
 import HowToFlushSalicylates from "./pages/HowToFlushSalicylates";
 import WorstFoodsForGutHealth from "./pages/WorstFoodsForGutHealth";
@@ -113,6 +114,7 @@ const App = () => (
             <Route path="/nxtlvl-tonics" element={<NXTLVLTonics />} />
             <Route path="/services/nutritionist-brisbane" element={<NutritionistBrisbane />} />
             <Route path="/book-now" element={<BookNow />} />
+            <Route path="/blog" element={<Blog />} />
             <Route path="/blog/gut-health/best-tea-for-stomach-pain-and-bloating" element={<BestTeaForStomachPain />} />
             <Route path="/blog/naturopathy/how-to-flush-salicylates-from-your-body" element={<HowToFlushSalicylates />} />
             <Route path="/blog/gut-health/7-worst-foods-for-gut-health" element={<WorstFoodsForGutHealth />} />
