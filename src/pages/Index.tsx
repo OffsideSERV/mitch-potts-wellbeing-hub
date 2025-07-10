@@ -114,7 +114,7 @@ const Index = () => {
             <div className="text-center">
               <Users className="h-12 w-12 text-primary mx-auto mb-4" />
               <h3 className="text-2xl font-bold text-foreground mb-1">1000+</h3>
-              <p class="text-sm text-muted-foreground">Patients Helped</p>
+              <p className="text-sm text-muted-foreground">Patients Helped</p>
             </div>
             
             <div className="text-center">
