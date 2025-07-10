@@ -75,9 +75,8 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-10 w-10" />
-            <div className="font-bold text-xl text-primary">NXTLVL Health</div>
+          <Link to="/" className="flex items-center">
+            <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-12" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -116,56 +115,167 @@ const Navigation = () => {
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="text-sm font-medium">What We Treat</NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <ul className="grid gap-3 p-6 w-96">
-                    {treatmentItems.map((item) => (
-                      <li key={item.href}>
+                  <div className="grid gap-3 p-6 w-[600px]">
+                    <div className="grid grid-cols-2 gap-6">
+                      {/* Left Column */}
+                      <div className="space-y-3">
+                        {/* Gut Health with nested items */}
+                        <div>
+                          <NavigationMenuLink asChild>
+                            <Link
+                              to="/what-we-treat/gut-health-naturopath-brisbane"
+                              className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
+                            >
+                              Gut Health
+                            </Link>
+                          </NavigationMenuLink>
+                          <div className="ml-4 mt-1 space-y-1">
+                            <NavigationMenuLink asChild>
+                              <Link
+                                to="/what-we-treat/sibo-naturopath"
+                                className="block text-xs text-muted-foreground hover:text-primary p-1"
+                              >
+                                SIBO
+                              </Link>
+                            </NavigationMenuLink>
+                            <div>
+                              <span className="block text-xs text-muted-foreground p-1">IBS</span>
+                              <div className="ml-4 space-y-1">
+                                <NavigationMenuLink asChild>
+                                  <Link
+                                    to="/what-we-treat/ibs-naturopath"
+                                    className="block text-xs text-muted-foreground hover:text-primary p-1"
+                                  >
+                                    IBS Naturopathy
+                                  </Link>
+                                </NavigationMenuLink>
+                                <NavigationMenuLink asChild>
+                                  <Link
+                                    to="/what-we-treat/ibs-clinic"
+                                    className="block text-xs text-muted-foreground hover:text-primary p-1"
+                                  >
+                                    IBS Clinic
+                                  </Link>
+                                </NavigationMenuLink>
+                              </div>
+                            </div>
+                            <NavigationMenuLink asChild>
+                              <Link
+                                to="/what-we-treat/gut-health-specialist"
+                                className="block text-xs text-muted-foreground hover:text-primary p-1"
+                              >
+                                Gut Health Specialist
+                              </Link>
+                            </NavigationMenuLink>
+                          </div>
+                        </div>
+                        
                         <NavigationMenuLink asChild>
                           <Link
-                            to={item.href}
-                            className={cn(
-                              "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                            )}
+                            to="/what-we-treat/weight-loss-naturopath-brisbane"
+                            className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
                           >
-                            <div className="text-sm font-medium leading-none">{item.title}</div>
-                            {item.subItems && (
-                              <ul className="mt-2 space-y-1">
-                                {item.subItems.map((subItem) => (
-                                  <li key={subItem.href || subItem.title}>
-                                    {subItem.href ? (
-                                      <Link
-                                        to={subItem.href}
-                                        className="text-xs text-muted-foreground hover:text-primary"
-                                      >
-                                        • {subItem.title}
-                                      </Link>
-                                    ) : (
-                                      <div>
-                                        <span className="text-xs text-muted-foreground">• {subItem.title}</span>
-                                        {subItem.subItems && (
-                                          <ul className="ml-4 mt-1 space-y-1">
-                                            {subItem.subItems.map((nestedItem) => (
-                                              <li key={nestedItem.href}>
-                                                <Link
-                                                  to={nestedItem.href}
-                                                  className="text-xs text-muted-foreground hover:text-primary"
-                                                >
-                                                  - {nestedItem.title}
-                                                </Link>
-                                              </li>
-                                            ))}
-                                          </ul>
-                                        )}
-                                      </div>
-                                    )}
-                                  </li>
-                                ))}
-                              </ul>
-                            )}
+                            Weight Loss
                           </Link>
                         </NavigationMenuLink>
-                      </li>
-                    ))}
-                  </ul>
+                        
+                        <NavigationMenuLink asChild>
+                          <Link
+                            to="/what-we-treat/wellness-clinic-brisbane"
+                            className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
+                          >
+                            Overall Wellness
+                          </Link>
+                        </NavigationMenuLink>
+                        
+                        {/* Skin Conditions with nested items */}
+                        <div>
+                          <NavigationMenuLink asChild>
+                            <Link
+                              to="/what-we-treat/naturopathy-for-skin"
+                              className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
+                            >
+                              Skin Conditions
+                            </Link>
+                          </NavigationMenuLink>
+                          <div className="ml-4 mt-1 space-y-1">
+                            <NavigationMenuLink asChild>
+                              <Link
+                                to="/what-we-treat/hormonal-acne-naturopath"
+                                className="block text-xs text-muted-foreground hover:text-primary p-1"
+                              >
+                                Hormonal Acne
+                              </Link>
+                            </NavigationMenuLink>
+                            <NavigationMenuLink asChild>
+                              <Link
+                                to="/what-we-treat/acne-naturopathy"
+                                className="block text-xs text-muted-foreground hover:text-primary p-1"
+                              >
+                                Acne
+                              </Link>
+                            </NavigationMenuLink>
+                            <NavigationMenuLink asChild>
+                              <Link
+                                to="/what-we-treat/naturopath-eczema"
+                                className="block text-xs text-muted-foreground hover:text-primary p-1"
+                              >
+                                Eczema
+                              </Link>
+                            </NavigationMenuLink>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      {/* Right Column */}
+                      <div className="space-y-3">
+                        <NavigationMenuLink asChild>
+                          <Link
+                            to="/what-we-treat/naturopath-thyroid-brisbane"
+                            className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
+                          >
+                            Thyroid
+                          </Link>
+                        </NavigationMenuLink>
+                        
+                        <NavigationMenuLink asChild>
+                          <Link
+                            to="/what-we-treat/adhd-naturopath"
+                            className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
+                          >
+                            ADHD
+                          </Link>
+                        </NavigationMenuLink>
+                        
+                        <NavigationMenuLink asChild>
+                          <Link
+                            to="/what-we-treat/naturopath-anxiety"
+                            className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
+                          >
+                            Anxiety
+                          </Link>
+                        </NavigationMenuLink>
+                        
+                        <NavigationMenuLink asChild>
+                          <Link
+                            to="/what-we-treat/naturopath-diabetes-brisbane"
+                            className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
+                          >
+                            Diabetes
+                          </Link>
+                        </NavigationMenuLink>
+                        
+                        <NavigationMenuLink asChild>
+                          <Link
+                            to="/what-we-treat/childrens-naturopath-brisbane"
+                            className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
+                          >
+                            Children's Health
+                          </Link>
+                        </NavigationMenuLink>
+                      </div>
+                    </div>
+                  </div>
                 </NavigationMenuContent>
               </NavigationMenuItem>
 
@@ -228,7 +338,7 @@ const Navigation = () => {
             <SheetContent side="right" className="w-80">
               <div className="flex flex-col h-full">
                 <div className="flex items-center justify-between mb-6">
-                  <div className="font-bold text-lg text-primary">NXTLVL Health</div>
+                  <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-8" />
                   <Button variant="ghost" size="icon" onClick={closeSheet}>
                     <X className="h-5 w-5" />
                   </Button>

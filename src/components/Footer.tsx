@@ -25,30 +25,6 @@ const Footer = () => {
   return (
     <footer className="bg-muted/30 border-t">
       <div className="container mx-auto px-4 py-12">
-        {/* Trust Boosters Section */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16 max-w-5xl mx-auto">
-          <div className="text-center space-y-2">
-            <Users className="h-8 w-8 text-primary mx-auto" />
-            <div>
-              <h3 className="text-xl font-bold text-foreground">1000+</h3>
-              <p className="text-sm text-muted-foreground">Patients Helped</p>
-            </div>
-          </div>
-          <div className="text-center space-y-2">
-            <BadgeCheck className="h-8 w-8 text-primary mx-auto" />
-            <div>
-              <h3 className="text-xl font-bold text-foreground">Real Testing</h3>
-              <p className="text-sm text-muted-foreground">No Guessing</p>
-            </div>
-          </div>
-          <div className="text-center space-y-2">
-            <TestTube className="h-8 w-8 text-primary mx-auto" />
-            <div>
-              <h3 className="text-xl font-bold text-foreground">90% of Patients</h3>
-              <p className="text-sm text-muted-foreground">See Results in Just 6 Weeks</p>
-            </div>
-          </div>
-        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
