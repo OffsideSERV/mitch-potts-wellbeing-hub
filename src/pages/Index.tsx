@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -108,6 +109,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
+          </div>
 
           {/* Trust Boosters */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 justify-between">
