@@ -6,7 +6,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from "@/components/ui/navigation-menu";
 import { Menu, X, Phone, Calendar, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
-import nxtlvlLogo from "@/assets/nxtlvl-logo.png";
+import nxtlvlLogo from "/lovable-uploads/0aadec6a-7f1f-4a21-854c-39d8c3a218d0.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -76,7 +76,7 @@ const Navigation = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-12" />
+            <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-10 w-10" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -139,7 +139,14 @@ const Navigation = () => {
                               </Link>
                             </NavigationMenuLink>
                             <div>
-                              <span className="block text-xs text-muted-foreground p-1">IBS</span>
+                              <NavigationMenuLink asChild>
+                                <Link
+                                  to="/what-we-treat/ibs-brisbane"
+                                  className="block text-xs text-muted-foreground hover:text-primary p-1"
+                                >
+                                  IBS
+                                </Link>
+                              </NavigationMenuLink>
                               <div className="ml-4 space-y-1">
                                 <NavigationMenuLink asChild>
                                   <Link
