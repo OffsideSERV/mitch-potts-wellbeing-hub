@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -309,6 +308,14 @@ const Navigation = () => {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
+                <Link to="/blog" className={`text-sm font-medium transition-colors hover:text-primary px-4 py-2 ${
+                  isActive("/blog") ? "text-primary" : "text-muted-foreground"
+                }`}>
+                  Blog
+                </Link>
+              </NavigationMenuItem>
+
+              <NavigationMenuItem>
                 <Link to="/contact" className={`text-sm font-medium transition-colors hover:text-primary px-4 py-2 ${
                   isActive("/contact") ? "text-primary" : "text-muted-foreground"
                 }`}>
@@ -439,6 +446,16 @@ const Navigation = () => {
                       </Link>
                     ))}
                   </div>
+
+                  <Link
+                    to="/blog"
+                    onClick={closeSheet}
+                    className={`text-base font-medium transition-colors hover:text-primary ${
+                      isActive("/blog") ? "text-primary" : "text-muted-foreground"
+                    }`}
+                  >
+                    Blog
+                  </Link>
 
                   <Link
                     to="/contact"
