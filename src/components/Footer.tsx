@@ -5,20 +5,20 @@ import { Phone, Mail, MapPin, Calendar, Clock, Users, BadgeCheck, TestTube } fro
 
 const Footer = () => {
   const services = [
-    { title: "Gut Health", href: "/gut-health" },
-    { title: "Weight Loss", href: "/weight-loss" },
-    { title: "Thyroid Naturopathy", href: "/thyroid-naturopathy" },
-    { title: "ADHD Naturopathy", href: "/adhd-naturopathy" },
-    { title: "Anxiety Naturopathy", href: "/anxiety-naturopathy" },
-    { title: "Personal Training", href: "/personal-training" },
+    { title: "Gut Health", href: "/what-we-treat/gut-health-naturopath-brisbane" },
+    { title: "Weight Loss", href: "/what-we-treat/weight-loss-naturopath-brisbane" },
+    { title: "Thyroid Naturopathy", href: "/what-we-treat/naturopath-thyroid-brisbane" },
+    { title: "ADHD Naturopathy", href: "/what-we-treat/adhd-naturopath" },
+    { title: "Anxiety Naturopathy", href: "/what-we-treat/naturopath-anxiety" },
+    { title: "Personal Training", href: "/services/personal-trainer-new-farm" },
   ];
 
   const areas = [
-    { title: "North Brisbane", href: "/north-brisbane-naturopathy" },
-    { title: "Newstead", href: "/newstead-naturopathy" },
-    { title: "New Farm", href: "/new-farm-naturopathy" },
-    { title: "Clayfield", href: "/clayfield-naturopathy" },
-    { title: "Windsor", href: "/windsor-naturopathy" },
+    { title: "North Brisbane", href: "/areas-we-serve/naturopath-north-brisbane" },
+    { title: "Newstead", href: "/areas-we-serve/naturopath-newstead" },
+    { title: "New Farm", href: "/areas-we-serve/naturopath-new-farm" },
+    { title: "Clayfield", href: "/areas-we-serve/naturopath-clayfield-brisbane" },
+    { title: "Windsor", href: "/areas-we-serve/naturopath-windsor" },
     { title: "Indooroopilly", href: "/indooroopilly-naturopathy" },
   ];
 
