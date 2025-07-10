@@ -75,8 +75,7 @@ const Index = () => {
     }
   ];
   
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
@@ -137,30 +136,29 @@ const Index = () => {
               </div>
             </div>
 
-          {/* Trust Boosters */}
-          <div className="flex justify-center mt-16">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl w-full justify-items-center">
-              <div className="text-center">
-                <Users className="h-10 w-10 text-primary mx-auto mb-3" />
-                <h3 className="text-xl font-bold text-foreground mb-1">1000+</h3>
-                <p className="text-sm text-muted-foreground">Patients Helped</p>
-              </div>
-              
-              <div className="text-center">
-                <CheckCircle className="h-10 w-10 text-primary mx-auto mb-3" />
-                <h3 className="text-xl font-bold text-foreground mb-1">Real Testing</h3>
-                <p className="text-sm text-muted-foreground">No Guessing</p>
-              </div>
-              
-              <div className="text-center">
-                <TestTube className="h-10 w-10 text-primary mx-auto mb-3" />
-                <h3 className="text-xl font-bold text-foreground mb-1">90% of Patients</h3>
-                <p className="text-sm text-muted-foreground">See Results in Just 6 Weeks</p>
-              </div>
-            </div>
+        {/* Trust Boosters */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 max-w-4xl mx-auto">
+          <div className="text-center">
+            <Users className="h-10 w-10 text-primary mx-auto mb-3" />
+            <h3 className="text-xl font-bold text-foreground mb-1">1000+</h3>
+            <p className="text-sm text-muted-foreground">Patients Helped</p>
+          </div>
+          
+          <div className="text-center">
+            <CheckCircle className="h-10 w-10 text-primary mx-auto mb-3" />
+            <h3 className="text-xl font-bold text-foreground mb-1">Real Testing</h3>
+            <p className="text-sm text-muted-foreground">No Guessing</p>
+          </div>
+          
+          <div className="text-center">
+            <TestTube className="h-10 w-10 text-primary mx-auto mb-3" />
+            <h3 className="text-xl font-bold text-foreground mb-1">90% of Patients</h3>
+            <p className="text-sm text-muted-foreground">See Results in Just 6 Weeks</p>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
       {/* Finally A Brisbane Naturopath Who Gets It */}
       <section className="py-20 px-4">
@@ -534,8 +532,6 @@ const Index = () => {
         </div>
       </section>
 
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
