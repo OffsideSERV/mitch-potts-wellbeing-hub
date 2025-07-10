@@ -1,81 +1,52 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, TestTube, BadgeCheck, Target, Shield, Zap, Coffee, Clock, Brain, Phone, Pill, Salad, DollarSign, CheckCircle, Star } from 'lucide-react';
-
 const Index = () => {
-  const services = [
-    {
-      title: "Naturopathy",
-      description: "We offer powerful yet gentle support for your whole body. We work with chronic fatigue, gut health, hormonal imbalance, and more.",
-      icon: <Leaf className="h-8 w-8 text-primary" />
-    },
-    {
-      title: "Nutritional Medicine", 
-      description: "You'll get a fully personalised nutrition plan built for your needs and goals. No more fad diets, just simple, powerful food support.",
-      icon: <Salad className="h-8 w-8 text-primary" />
-    },
-    {
-      title: "Live Blood Analysis",
-      description: "We use this tool to spot inflammation, nutrient absorption issues, gut problems and more, right from a single drop of blood.",
-      icon: <Microscope className="h-8 w-8 text-primary" />
-    },
-    {
-      title: "Functional Testing",
-      description: "Dig deeper into hormones, digestive function, immune markers, and nutrients to find the real cause of your symptoms.",
-      icon: <TestTube className="h-8 w-8 text-primary" />
-    },
-    {
-      title: "MLS Laser Therapy",
-      description: "A fast, drug-free solution for pain, injury, and recovery. Great for improving range of motion and chronic pain relief.",
-      icon: <Zap className="h-8 w-8 text-primary" />
-    },
-    {
-      title: "Personal Training & Lifestyle Support",
-      description: "Workouts and lifestyle coaching that help support both healing and performance – all tailored for your life and schedule.",
-      icon: <Target className="h-8 w-8 text-primary" />
-    }
-  ];
-
-  const conditions = [
-    "Digestive disorders (IBS, SIBO, bloating, reflux)",
-    "Hormonal imbalances (PMS, PCOS, peri menopause)",
-    "Chronic fatigue and burnout",
-    "Skin issues (eczema, acne)",
-    "Mental health and stress",
-    "Poor sleep and insomnia",
-    "Autoimmune support",
-    "Food intolerances and allergies",
-    "Weight management",
-    "Immune system support",
-    "Mood disorders like anxiety or low mood"
-  ];
-
-  const whyDifferent = [
-    {
-      title: "We Test, We Don't Guess",
-      description: "Our live blood analysis and functional testing show us exactly what's going on in your body. There's no guessing, just real answers.",
-      icon: <TestTube className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "We Treat the Root Cause of Problems",
-      description: "From gut health to hormonal imbalances, mental health struggles, and any health condition, we focus on what's really driving your health issues.",
-      icon: <Target className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "The Plans are Built Just for You",
-      description: "There's no cookie-cutter diets or generic advice at NXTLVL Health. Every protocol is custom-made for your body, your goals, and your life, including nutritional changes designed for your needs and your lifestyle.",
-      icon: <Heart className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "Real Support the Whole Way",
-      description: "You're not alone. We stay with you the whole time, checking in, making changes, and helping you feel confident in your health journey.",
-      icon: <Shield className="h-6 w-6 text-primary" />
-    }
-  ];
-  
+  const services = [{
+    title: "Naturopathy",
+    description: "We offer powerful yet gentle support for your whole body. We work with chronic fatigue, gut health, hormonal imbalance, and more.",
+    icon: <Leaf className="h-8 w-8 text-primary" />
+  }, {
+    title: "Nutritional Medicine",
+    description: "You'll get a fully personalised nutrition plan built for your needs and goals. No more fad diets, just simple, powerful food support.",
+    icon: <Salad className="h-8 w-8 text-primary" />
+  }, {
+    title: "Live Blood Analysis",
+    description: "We use this tool to spot inflammation, nutrient absorption issues, gut problems and more, right from a single drop of blood.",
+    icon: <Microscope className="h-8 w-8 text-primary" />
+  }, {
+    title: "Functional Testing",
+    description: "Dig deeper into hormones, digestive function, immune markers, and nutrients to find the real cause of your symptoms.",
+    icon: <TestTube className="h-8 w-8 text-primary" />
+  }, {
+    title: "MLS Laser Therapy",
+    description: "A fast, drug-free solution for pain, injury, and recovery. Great for improving range of motion and chronic pain relief.",
+    icon: <Zap className="h-8 w-8 text-primary" />
+  }, {
+    title: "Personal Training & Lifestyle Support",
+    description: "Workouts and lifestyle coaching that help support both healing and performance – all tailored for your life and schedule.",
+    icon: <Target className="h-8 w-8 text-primary" />
+  }];
+  const conditions = ["Digestive disorders (IBS, SIBO, bloating, reflux)", "Hormonal imbalances (PMS, PCOS, peri menopause)", "Chronic fatigue and burnout", "Skin issues (eczema, acne)", "Mental health and stress", "Poor sleep and insomnia", "Autoimmune support", "Food intolerances and allergies", "Weight management", "Immune system support", "Mood disorders like anxiety or low mood"];
+  const whyDifferent = [{
+    title: "We Test, We Don't Guess",
+    description: "Our live blood analysis and functional testing show us exactly what's going on in your body. There's no guessing, just real answers.",
+    icon: <TestTube className="h-6 w-6 text-primary" />
+  }, {
+    title: "We Treat the Root Cause of Problems",
+    description: "From gut health to hormonal imbalances, mental health struggles, and any health condition, we focus on what's really driving your health issues.",
+    icon: <Target className="h-6 w-6 text-primary" />
+  }, {
+    title: "The Plans are Built Just for You",
+    description: "There's no cookie-cutter diets or generic advice at NXTLVL Health. Every protocol is custom-made for your body, your goals, and your life, including nutritional changes designed for your needs and your lifestyle.",
+    icon: <Heart className="h-6 w-6 text-primary" />
+  }, {
+    title: "Real Support the Whole Way",
+    description: "You're not alone. We stay with you the whole time, checking in, making changes, and helping you feel confident in your health journey.",
+    icon: <Shield className="h-6 w-6 text-primary" />
+  }];
   return <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
@@ -138,22 +109,18 @@ const Index = () => {
             </div>
 
         {/* Trust Boosters */}
-        <div className="flex justify-between items-center mt-16 max-w-4xl mx-auto">
-          <div className="text-center">
-            <Users className="h-12 w-12 text-primary mx-auto mb-4" />
-            <h3 className="text-xl font-bold text-foreground mb-1">1000+</h3>
-            <p className="text-sm text-muted-foreground">Patients Helped</p>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+          
           
           <div className="text-center">
-            <TestTube className="h-12 w-12 text-primary mx-auto mb-4" />
-            <h3 className="text-xl font-bold text-foreground mb-1">Real Testing</h3>
+            <CheckCircle className="h-12 w-12 text-primary mx-auto mb-4" />
+            <h3 className="text-2xl font-bold text-foreground mb-1">Real Testing</h3>
             <p className="text-sm text-muted-foreground">No Guessing</p>
           </div>
           
           <div className="text-center">
-            <CheckCircle className="h-12 w-12 text-primary mx-auto mb-4" />
-            <h3 className="text-xl font-bold text-foreground mb-1">90% of Patients</h3>
+            <TestTube className="h-12 w-12 text-primary mx-auto mb-4" />
+            <h3 className="text-2xl font-bold text-foreground mb-1">90% of Patients</h3>
             <p className="text-sm text-muted-foreground">See Results in Just 6 Weeks</p>
           </div>
         </div>
@@ -321,8 +288,7 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-16">
-            {whyDifferent.map((item, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
+            {whyDifferent.map((item, index) => <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
                 <CardHeader className="pb-4">
                   <div className="flex items-center space-x-3 mb-4">
                     {item.icon}
@@ -334,8 +300,7 @@ const Index = () => {
                     {item.description}
                   </CardDescription>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
 
           <div className="text-center">
@@ -361,8 +326,7 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            {services.map((service, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
+            {services.map((service, index) => <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
                 <CardHeader className="pb-4 text-center">
                   <div className="mx-auto mb-4">
                     {service.icon}
@@ -374,8 +338,7 @@ const Index = () => {
                     {service.description}
                   </CardDescription>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -392,11 +355,9 @@ const Index = () => {
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-16">
-            {conditions.map((condition, index) => (
-              <Badge key={index} variant="secondary" className="justify-start p-3 text-sm">
+            {conditions.map((condition, index) => <Badge key={index} variant="secondary" className="justify-start p-3 text-sm">
                 {condition}
-              </Badge>
-            ))}
+              </Badge>)}
           </div>
 
           <div className="text-center">
