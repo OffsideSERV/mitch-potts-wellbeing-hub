@@ -57,6 +57,7 @@ import NaturopathyForWeightLoss from "./pages/NaturopathyForWeightLoss";
 import GutHealth101 from "./pages/GutHealth101";
 import NaturopathyVsHomeopathy from "./pages/NaturopathyVsHomeopathy";
 import OzempicNaturalWeightLoss from "./pages/OzempicNaturalWeightLoss";
+import GutBrainConnection from "./pages/GutBrainConnection";
 
 const queryClient = new QueryClient();
 
@@ -119,6 +120,7 @@ const App = () => (
             <Route path="/blog/gut-health/gut-health-101-why-your-stomach-might-be-behind-your-brain-fog-and-fatigue" element={<GutHealth101 />} />
             <Route path="/blog/naturopathy/naturopathy-vs-homeopathy" element={<NaturopathyVsHomeopathy />} />
             <Route path="/blog/weight-loss/embracing-natural-weight-loss-with-ozempic-a-naturopaths-approach" element={<OzempicNaturalWeightLoss />} />
+            <Route path="/blog/gut-health/gut-brain-connection-how-your-gut-affects-mental-health" element={<GutBrainConnection />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
