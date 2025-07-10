@@ -75,7 +75,8 @@ const Index = () => {
     }
   ];
   
-  return <div className="min-h-screen bg-background">
+  return (
+    <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
@@ -533,6 +534,8 @@ const Index = () => {
         </div>
       </section>
 
-    </div>;
+    </div>
+  );
 };
+
 export default Index;
