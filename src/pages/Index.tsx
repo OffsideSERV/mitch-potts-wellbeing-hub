@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -134,31 +133,6 @@ const Index = () => {
                     <p className="text-sm text-muted-foreground">Live Blood Analysis • Natural Medicine</p>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Trust Boosters */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-20 max-w-5xl mx-auto">
-            <div className="text-center space-y-2">
-              <Users className="h-8 w-8 text-primary mx-auto" />
-              <div>
-                <h3 className="text-xl font-bold text-foreground">1000+</h3>
-                <p className="text-sm text-muted-foreground">Patients Helped</p>
-              </div>
-            </div>
-            <div className="text-center space-y-2">
-              <BadgeCheck className="h-8 w-8 text-primary mx-auto" />
-              <div>
-                <h3 className="text-xl font-bold text-foreground">Real Testing</h3>
-                <p className="text-sm text-muted-foreground">No Guessing</p>
-              </div>
-            </div>
-            <div className="text-center space-y-2">
-              <TestTube className="h-8 w-8 text-primary mx-auto" />
-              <div>
-                <h3 className="text-xl font-bold text-foreground">90% of Patients</h3>
-                <p className="text-sm text-muted-foreground">See Results in Just 6 Weeks</p>
               </div>
             </div>
           </div>
@@ -534,23 +508,6 @@ const Index = () => {
               </Button>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Testimonials Section - Now Last */}
-      <section className="py-20 px-4 bg-muted/30">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">What Our Patients Are Saying</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Clients say our <strong>natural health clinic</strong> helped them turn their lives around. From stress and fatigue to gut problems and hormonal imbalances, our <strong>naturopathic care</strong> gets real results. Mitch's commitment to compassionate, tailored care is what makes all the difference.
-            </p>
-          </div>
-          
-          {/* Trustindex Reviews Shortcode */}
-          <div className="w-full" dangerouslySetInnerHTML={{
-          __html: '[trustindex no-registration=google]'
-        }} />
         </div>
       </section>
 

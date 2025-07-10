@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -23,19 +24,32 @@ const Navigation = () => {
   ];
 
   const treatmentItems = [
-    { title: "Gut Health", href: "/what-we-treat/gut-health-naturopath-brisbane", subItems: [
-      { title: "SIBO", href: "/what-we-treat/sibo-naturopath" },
-      { title: "IBS Naturopathy", href: "/what-we-treat/ibs-naturopath" },
-      { title: "IBS Clinic", href: "/what-we-treat/ibs-clinic" },
-      { title: "Gut Health Specialist", href: "/what-we-treat/gut-health-specialist" },
-    ]},
+    { 
+      title: "Gut Health", 
+      href: "/what-we-treat/gut-health-naturopath-brisbane", 
+      subItems: [
+        { title: "SIBO", href: "/what-we-treat/sibo-naturopath" },
+        { 
+          title: "IBS", 
+          subItems: [
+            { title: "IBS Naturopathy", href: "/what-we-treat/ibs-naturopath" },
+            { title: "IBS Clinic", href: "/what-we-treat/ibs-clinic" },
+          ]
+        },
+        { title: "Gut Health Specialist", href: "/what-we-treat/gut-health-specialist" },
+      ]
+    },
     { title: "Weight Loss", href: "/what-we-treat/weight-loss-naturopath-brisbane" },
     { title: "Overall Wellness", href: "/what-we-treat/wellness-clinic-brisbane" },
-    { title: "Skin Conditions", href: "/what-we-treat/naturopathy-for-skin", subItems: [
-      { title: "Hormonal Acne", href: "/what-we-treat/hormonal-acne-naturopath" },
-      { title: "Acne", href: "/what-we-treat/acne-naturopathy" },
-      { title: "Eczema", href: "/what-we-treat/naturopath-eczema" },
-    ]},
+    { 
+      title: "Skin Conditions", 
+      href: "/what-we-treat/naturopathy-for-skin", 
+      subItems: [
+        { title: "Hormonal Acne", href: "/what-we-treat/hormonal-acne-naturopath" },
+        { title: "Acne", href: "/what-we-treat/acne-naturopathy" },
+        { title: "Eczema", href: "/what-we-treat/naturopath-eczema" },
+      ]
+    },
     { title: "Thyroid", href: "/what-we-treat/naturopath-thyroid-brisbane" },
     { title: "ADHD", href: "/what-we-treat/adhd-naturopath" },
     { title: "Anxiety", href: "/what-we-treat/naturopath-anxiety" },
@@ -116,13 +130,33 @@ const Navigation = () => {
                             {item.subItems && (
                               <ul className="mt-2 space-y-1">
                                 {item.subItems.map((subItem) => (
-                                  <li key={subItem.href}>
-                                    <Link
-                                      to={subItem.href}
-                                      className="text-xs text-muted-foreground hover:text-primary"
-                                    >
-                                      • {subItem.title}
-                                    </Link>
+                                  <li key={subItem.href || subItem.title}>
+                                    {subItem.href ? (
+                                      <Link
+                                        to={subItem.href}
+                                        className="text-xs text-muted-foreground hover:text-primary"
+                                      >
+                                        • {subItem.title}
+                                      </Link>
+                                    ) : (
+                                      <div>
+                                        <span className="text-xs text-muted-foreground">• {subItem.title}</span>
+                                        {subItem.subItems && (
+                                          <ul className="ml-4 mt-1 space-y-1">
+                                            {subItem.subItems.map((nestedItem) => (
+                                              <li key={nestedItem.href}>
+                                                <Link
+                                                  to={nestedItem.href}
+                                                  className="text-xs text-muted-foreground hover:text-primary"
+                                                >
+                                                  - {nestedItem.title}
+                                                </Link>
+                                              </li>
+                                            ))}
+                                          </ul>
+                                        )}
+                                      </div>
+                                    )}
                                   </li>
                                 ))}
                               </ul>
@@ -239,14 +273,35 @@ const Navigation = () => {
                         {item.subItems && (
                           <div className="pl-8 space-y-1 mt-1">
                             {item.subItems.map((subItem) => (
-                              <Link
-                                key={subItem.href}
-                                to={subItem.href}
-                                onClick={closeSheet}
-                                className="block text-xs text-muted-foreground hover:text-primary"
-                              >
-                                • {subItem.title}
-                              </Link>
+                              <div key={subItem.href || subItem.title}>
+                                {subItem.href ? (
+                                  <Link
+                                    to={subItem.href}
+                                    onClick={closeSheet}
+                                    className="block text-xs text-muted-foreground hover:text-primary"
+                                  >
+                                    • {subItem.title}
+                                  </Link>
+                                ) : (
+                                  <div>
+                                    <span className="block text-xs text-muted-foreground">• {subItem.title}</span>
+                                    {subItem.subItems && (
+                                      <div className="pl-4 space-y-1 mt-1">
+                                        {subItem.subItems.map((nestedItem) => (
+                                          <Link
+                                            key={nestedItem.href}
+                                            to={nestedItem.href}
+                                            onClick={closeSheet}
+                                            className="block text-xs text-muted-foreground hover:text-primary"
+                                          >
+                                            - {nestedItem.title}
+                                          </Link>
+                                        ))}
+                                      </div>
+                                    )}
+                                  </div>
+                                )}
+                              </div>
                             ))}
                           </div>
                         )}
