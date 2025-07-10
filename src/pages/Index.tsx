@@ -137,7 +137,7 @@ const Index = () => {
             </div>
 
         {/* Trust Boosters */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 max-w-4xl mx-auto justify-items-center">
+        <div className="flex justify-between items-center mt-16 max-w-4xl mx-auto">
           <div className="text-center">
             <Users className="h-10 w-10 text-primary mx-auto mb-3" />
             <h3 className="text-xl font-bold text-foreground mb-1">1000+</h3>
