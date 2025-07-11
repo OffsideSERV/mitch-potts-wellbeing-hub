@@ -26,7 +26,7 @@ const NorthBrisbaneNaturopathy = () => {
                   <img 
                     alt="Naturopath having consultation with female patient at NXTLVL Health" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                    src="/lovable-uploads/d8fb55f4-1a1b-4a7f-9aef-fb782c41df21.png" 
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -77,7 +77,7 @@ const NorthBrisbaneNaturopathy = () => {
               <img 
                 alt="Naturopath having consultation with female patient at NXTLVL Health" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                src="/lovable-uploads/d8fb55f4-1a1b-4a7f-9aef-fb782c41df21.png" 
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -103,7 +103,7 @@ const NorthBrisbaneNaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+              src="/lovable-uploads/e1f6dd06-164a-425b-bc19-839d603bc5ed.png" 
               alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
@@ -123,7 +123,7 @@ const NorthBrisbaneNaturopathy = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                src="/lovable-uploads/e1f6dd06-164a-425b-bc19-839d603bc5ed.png" 
                 alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -142,7 +142,7 @@ const NorthBrisbaneNaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+              src="/lovable-uploads/d4dfb30d-6da4-42d6-86b4-14b51e4d4a8f.png" 
               alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
@@ -165,7 +165,7 @@ const NorthBrisbaneNaturopathy = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+                src="/lovable-uploads/d4dfb30d-6da4-42d6-86b4-14b51e4d4a8f.png" 
                 alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -294,7 +294,7 @@ const NorthBrisbaneNaturopathy = () => {
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
+              src="/lovable-uploads/1bfb1d77-659c-4abb-bf46-dbc9c76fb806.png" 
               alt="Naturopath showing patient results on a computer at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
