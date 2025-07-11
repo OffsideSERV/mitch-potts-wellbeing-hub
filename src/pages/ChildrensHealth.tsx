@@ -27,7 +27,7 @@ const ChildrensHealth = () => {
                   <img 
                     alt="Children's naturopath consultation at NXTLVL Health Brisbane" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/kcF6c6jGP3wRQF0L9ySy.png" 
+                    src="/lovable-uploads/21bdc7a3-82f5-45cb-b6ad-b66cbdb91ec9.png" 
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -78,7 +78,7 @@ const ChildrensHealth = () => {
               <img 
                 alt="Children's naturopath consultation at NXTLVL Health Brisbane" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/kcF6c6jGP3wRQF0L9ySy.png" 
+                src="/lovable-uploads/21bdc7a3-82f5-45cb-b6ad-b66cbdb91ec9.png" 
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -104,7 +104,7 @@ const ChildrensHealth = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/KzhzvfYCqwWucZxbOivI.png" 
+              src="/lovable-uploads/58494e66-018f-4d31-b0b1-119423ae70f9.png" 
               alt="Child with healthy food at NXTLVL Health Brisbane" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
@@ -124,7 +124,7 @@ const ChildrensHealth = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/KzhzvfYCqwWucZxbOivI.png" 
+                src="/lovable-uploads/58494e66-018f-4d31-b0b1-119423ae70f9.png" 
                 alt="Child with healthy food at NXTLVL Health Brisbane" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -202,7 +202,7 @@ const ChildrensHealth = () => {
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
+              src="/lovable-uploads/26dd53ed-236e-42a2-a95c-c505572e08b2.png" 
               alt="Children's health consultation at NXTLVL Health Brisbane" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -313,7 +313,7 @@ const ChildrensHealth = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+              src="/lovable-uploads/3e8138df-4579-4443-838a-2d4275fc12ec.png" 
               alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
