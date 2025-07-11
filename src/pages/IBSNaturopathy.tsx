@@ -27,7 +27,7 @@ const IBSNaturopathy = () => {
                   <img 
                     alt="Woman consulting with naturopath for IBS" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                    src="/lovable-uploads/7c559226-37b5-4d6f-bcc4-f1a42d7a0b6b.png"
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -78,7 +78,7 @@ const IBSNaturopathy = () => {
               <img 
                 alt="Woman consulting with naturopath for IBS" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                src="/lovable-uploads/7c559226-37b5-4d6f-bcc4-f1a42d7a0b6b.png"
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -104,9 +104,9 @@ const IBSNaturopathy = () => {
           {/* Image right under heading */}
           <div className="mb-16">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Sad-woman-dealing-with-gut-issues-and-bloating-scaled.jpeg" 
+              src="/lovable-uploads/42bb449d-ce28-4105-a633-de7940727b20.png" 
               alt="Woman sitting on her coach sad about IBS problems" 
-              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto"
             />
           </div>
 
@@ -139,9 +139,9 @@ const IBSNaturopathy = () => {
           {/* Image right under heading */}
           <div className="mb-16">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+              src="/lovable-uploads/ed9e3662-e868-43a7-bf63-ca6b9508fe6b.png" 
               alt="Naturopath having a consult with patient for gut problems" 
-              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto"
             />
           </div>
 
@@ -193,9 +193,9 @@ const IBSNaturopathy = () => {
           {/* Image right under heading */}
           <div className="mb-16">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
+              src="/lovable-uploads/9d537cd9-cb50-487f-8c01-fcb353738f68.png" 
               alt="Naturopath showing test results to patient on a computer" 
-              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto"
             />
           </div>
 
@@ -254,9 +254,9 @@ const IBSNaturopathy = () => {
           {/* Image right under heading */}
           <div className="mb-16">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+              src="/lovable-uploads/9727d25c-44a3-4c65-9bdd-9ead72af59d5.png" 
               alt="Naturopath smiling while doing paperwork at his desk" 
-              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto"
             />
           </div>
 
@@ -326,9 +326,9 @@ const IBSNaturopathy = () => {
           {/* Image right under heading */}
           <div className="mb-16">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4503-scaled.jpeg" 
+              src="/lovable-uploads/60cace91-a809-4181-8c6d-083ba8fd5389.png" 
               alt="Naturopath talking to female patient with 3 bottles of natural tonics and herbs in his hands" 
-              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto"
             />
           </div>
 
@@ -419,9 +419,9 @@ const IBSNaturopathy = () => {
           {/* Image right under heading */}
           <div className="mb-16">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/AdobeStock_1076682494-scaled.jpeg" 
+              src="/lovable-uploads/73ae9c32-eb11-46ba-a42a-284c0061317f.png" 
               alt="Woman holding her gut in pain" 
-              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto"
             />
           </div>
 
@@ -481,9 +481,9 @@ const IBSNaturopathy = () => {
           {/* Image right under heading */}
           <div className="mb-16">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+              src="/lovable-uploads/6a563de7-3442-45e7-813f-2d08425b5f71.png" 
               alt="Naturopath looking through microscope" 
-              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto"
             />
           </div>
 
@@ -563,9 +563,9 @@ const IBSNaturopathy = () => {
           {/* Image right under heading */}
           <div className="mb-16">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-doing-work-at-desk-scaled.jpg" 
+              src="/lovable-uploads/a78839ee-9ca6-4087-b9b3-b68e08636b33.png" 
               alt="Naturopath doing paperwork at desk" 
-              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto"
             />
           </div>
 
@@ -602,9 +602,9 @@ const IBSNaturopathy = () => {
           {/* Image right under heading */}
           <div className="mb-16">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-checking-blood-pressure-of-patient-scaled.jpeg" 
+              src="/lovable-uploads/d3467fd2-1425-445a-afcc-e1e474d769bd.png" 
               alt="Naturopath checking blood pressure of a female patient" 
-              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto"
             />
           </div>
 
