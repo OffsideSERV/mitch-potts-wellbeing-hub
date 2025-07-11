@@ -27,7 +27,7 @@ const WeightLoss = () => {
                   <img 
                     alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                    src="/lovable-uploads/aeafb801-21a6-4748-a8c0-7cfe86dda52d.png"
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -78,7 +78,7 @@ const WeightLoss = () => {
               <img 
                 alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                src="/lovable-uploads/aeafb801-21a6-4748-a8c0-7cfe86dda52d.png"
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -104,9 +104,9 @@ const WeightLoss = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+              src="/lovable-uploads/726dc878-88f1-4c71-b05b-bf998ac39785.png" 
               alt="Naturopath having consultation with female patient at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto mx-auto"
             />
           </div>
 
@@ -127,9 +127,9 @@ const WeightLoss = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                src="/lovable-uploads/726dc878-88f1-4c71-b05b-bf998ac39785.png" 
                 alt="Naturopath having consultation with female patient at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
+                className="rounded-2xl shadow-lg w-full h-auto"
               />
             </div>
           </div>
@@ -154,9 +154,9 @@ const WeightLoss = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+              src="/lovable-uploads/2020f836-b7f6-4db1-8574-8110e92396a4.png" 
               alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto mx-auto"
             />
           </div>
 
@@ -187,9 +187,9 @@ const WeightLoss = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+                src="/lovable-uploads/2020f836-b7f6-4db1-8574-8110e92396a4.png" 
                 alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
+                className="rounded-2xl shadow-lg w-full h-auto"
               />
             </div>
           </div>
@@ -206,9 +206,9 @@ const WeightLoss = () => {
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
+              src="/lovable-uploads/611cabfc-2300-478c-a789-817b8bac2f8e.png" 
               alt="Naturopath showing patient results on a computer at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
             />
           </div>
 
@@ -314,9 +314,9 @@ const WeightLoss = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+              src="/lovable-uploads/fee05240-1244-4024-9a2b-a3742433d32f.png" 
               alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
             />
           </div>
 
