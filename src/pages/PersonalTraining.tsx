@@ -153,7 +153,7 @@ const PersonalTraining = () => {
                 
                 {/* Mobile Image - placed right after headline */}
                 <div className="relative lg:hidden mb-16 -mx-4">
-                  <img alt="Personal trainer working with client at Function Well gym in Newstead" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/OPTIMISE-YOUR-PERFORMANCE.jpg" />
+                  <img alt="Personal trainer working with client at Function Well gym in Newstead" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/dd4ff0ea-d4e7-416c-b0d9-d3a541758d60.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Dumbbell className="h-6 w-6 text-primary" />
@@ -189,7 +189,7 @@ const PersonalTraining = () => {
             
             {/* Desktop Image - only visible on large screens */}
             <div className="relative hidden lg:block">
-              <img alt="Personal trainer working with client at Function Well gym in Newstead" className="rounded-2xl shadow-2xl w-full h-auto" src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/OPTIMISE-YOUR-PERFORMANCE.jpg" />
+              <img alt="Personal trainer working with client at Function Well gym in Newstead" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/dd4ff0ea-d4e7-416c-b0d9-d3a541758d60.png" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Dumbbell className="h-8 w-8 text-primary" />
@@ -213,7 +213,7 @@ const PersonalTraining = () => {
 
           {/* Mobile Image positioned after heading */}
           <div className="lg:hidden mb-12">
-            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/Frontsquatty.webp" alt="Mitch providing personal training at Function Well in Newstead" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/c27cfaf2-b8ca-4803-a8dc-56755e37f880.png" alt="Mitch providing personal training at Function Well in Newstead" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -232,7 +232,7 @@ const PersonalTraining = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/Frontsquatty.webp" alt="Mitch providing personal training at Function Well in Newstead" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/c27cfaf2-b8ca-4803-a8dc-56755e37f880.png" alt="Mitch providing personal training at Function Well in Newstead" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -258,7 +258,7 @@ const PersonalTraining = () => {
 
           {/* Add image after heading and description */}
           <div className="mb-12">
-            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/DSC_4578-scaled.jpeg" alt="Personal trainer demonstrating proper exercise form" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/ebe57be4-34e5-44ef-a092-f4c535a3e714.png" alt="Personal trainer demonstrating proper exercise form" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
         </div>
       </section>
@@ -474,7 +474,7 @@ const PersonalTraining = () => {
 
           {/* Add image after heading and description */}
           <div className="mb-12">
-            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2024/08/Mentoring.webp" alt="Function Well gym interior showing modern equipment and clean environment" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/2acfe9ea-e8c0-461e-8881-8afe96eee441.png" alt="Function Well gym interior showing modern equipment and clean environment" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto mb-16">
