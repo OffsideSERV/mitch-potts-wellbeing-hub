@@ -27,7 +27,7 @@ const ADHDNaturopathy = () => {
                   <img 
                     alt="ADHD naturopath consultation at NXTLVL Health Brisbane" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-checking-a-patients-blood-pressure-scaled.jpeg" 
+                    src="/lovable-uploads/67cf124d-768d-4538-b395-cfd81826bcba.png" 
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -80,7 +80,7 @@ const ADHDNaturopathy = () => {
               <img 
                 alt="ADHD naturopath consultation at NXTLVL Health Brisbane" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-checking-a-patients-blood-pressure-scaled.jpeg" 
+                src="/lovable-uploads/67cf124d-768d-4538-b395-cfd81826bcba.png" 
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -106,7 +106,7 @@ const ADHDNaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/KzhzvfYCqwWucZxbOivI.png" 
+              src="/lovable-uploads/cfe598a0-7186-4051-aaac-837086e04c8d.png" 
               alt="Child with ADHD support at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
@@ -126,7 +126,7 @@ const ADHDNaturopathy = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/KzhzvfYCqwWucZxbOivI.png" 
+                src="/lovable-uploads/cfe598a0-7186-4051-aaac-837086e04c8d.png" 
                 alt="Child with ADHD support at NXTLVL Health" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -157,7 +157,7 @@ const ADHDNaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+              src="/lovable-uploads/6e318a68-c5c0-4f4a-99c5-45a48e41649f.png" 
               alt="Woman discussing ADHD with naturopath at NXTLVL Health Brisbane" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
@@ -191,7 +191,7 @@ const ADHDNaturopathy = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                src="/lovable-uploads/6e318a68-c5c0-4f4a-99c5-45a48e41649f.png" 
                 alt="Woman discussing ADHD with naturopath at NXTLVL Health Brisbane" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -210,7 +210,7 @@ const ADHDNaturopathy = () => {
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
+              src="/lovable-uploads/48cc100b-f874-40cd-a474-951bb035ed9c.png" 
               alt="ADHD naturopath explaining treatment plan at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -270,7 +270,7 @@ const ADHDNaturopathy = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/kcF6c6jGP3wRQF0L9ySy.png" 
+              src="/lovable-uploads/e7a22f60-791b-4cb4-9cd9-5bf8a08dacbe.png" 
               alt="ADHD support for children and adults at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -313,7 +313,7 @@ const ADHDNaturopathy = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+              src="/lovable-uploads/95c90e9c-b03c-4d6c-b635-14ff6ce00f55.png" 
               alt="Naturopath analysing ADHD causes through diagnostic testing at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -370,7 +370,7 @@ const ADHDNaturopathy = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4503-scaled.jpeg" 
+              src="/lovable-uploads/284f6d80-2bc3-4ed3-937b-219b575000c5.png" 
               alt="NXTLVL Health investigating ADHD root causes" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -416,7 +416,7 @@ const ADHDNaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-checking-a-patients-blood-pressure-scaled.jpeg" 
+              src="/lovable-uploads/9bf2793b-4233-45eb-a613-6ec4d11d1b66.png" 
               alt="Naturopath examining gut health connection to ADHD at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
@@ -436,7 +436,7 @@ const ADHDNaturopathy = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-checking-a-patients-blood-pressure-scaled.jpeg" 
+                src="/lovable-uploads/9bf2793b-4233-45eb-a613-6ec4d11d1b66.png" 
                 alt="Naturopath examining gut health connection to ADHD at NXTLVL Health" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -455,7 +455,7 @@ const ADHDNaturopathy = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-doing-work-at-desk-scaled.jpg" 
+              src="/lovable-uploads/4748db27-c782-4bc2-b09d-d93a2b5b2433.png" 
               alt="ADHD consultation preparation at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -633,7 +633,7 @@ const ADHDNaturopathy = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+              src="/lovable-uploads/256bf666-d5db-4321-8b3b-b0f2b25a18c2.png" 
               alt="NXTLVL Health natural ADHD treatment clinic" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -669,34 +669,13 @@ const ADHDNaturopathy = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Meet Mitch – Your ADHD Naturopath</h2>
           </div>
 
-          {/* Mobile Image */}
-          <div className="lg:hidden mb-12">
-            <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-checking-blood-pressure-of-patient-scaled.jpeg" 
-              alt="Mitch Potts, ADHD naturopath at NXTLVL Health Brisbane" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
-            />
-          </div>
-
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
-                <p>
-                  Mitch is an experienced <strong>naturopathic doctor ADHD families trust</strong>. With a clinical practice grounded in natural medicine, he combines compassion with evidence-based support. <strong>Emotional and psychological support</strong> is crucial for individuals with ADHD, and Mitch ensures this is a key part of his approach.
-                </p>
-                <p>
-                  Whether it's for your child or yourself, Mitch listens to your story and creates a <strong>treatment plan that's simple, practical, and effective</strong>.
-                </p>
-              </div>
-            </div>
-            {/* Desktop Image */}
-            <div className="relative hidden lg:block">
-              <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-checking-blood-pressure-of-patient-scaled.jpeg" 
-                alt="Mitch Potts, ADHD naturopath at NXTLVL Health Brisbane" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
-              />
-            </div>
+          <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6 text-center">
+            <p>
+              Mitch is an experienced <strong>naturopathic doctor ADHD families trust</strong>. With a clinical practice grounded in natural medicine, he combines compassion with evidence-based support. <strong>Emotional and psychological support</strong> is crucial for individuals with ADHD, and Mitch ensures this is a key part of his approach.
+            </p>
+            <p>
+              Whether it's for your child or yourself, Mitch listens to your story and creates a <strong>treatment plan that's simple, practical, and effective</strong>.
+            </p>
           </div>
         </div>
       </section>
