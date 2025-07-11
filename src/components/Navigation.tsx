@@ -75,7 +75,7 @@ const Navigation = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-10 w-10" />
+            <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-14 w-14" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -334,10 +334,10 @@ const Navigation = () => {
               </a>
             </Button>
             <Button size="sm" asChild>
-              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+              <Link to="/book-now">
                 <Calendar className="h-4 w-4 mr-2" />
                 Book Consult
-              </a>
+              </Link>
             </Button>
           </div>
 
@@ -352,7 +352,7 @@ const Navigation = () => {
             <SheetContent side="right" className="w-80">
               <div className="flex flex-col h-full">
                 <div className="flex items-center justify-between mb-6">
-                  <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-8" />
+                  <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-10" />
                   <Button variant="ghost" size="icon" onClick={closeSheet}>
                     <X className="h-5 w-5" />
                   </Button>
@@ -476,10 +476,10 @@ const Navigation = () => {
                     </a>
                   </Button>
                   <Button className="w-full" asChild>
-                    <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                    <Link to="/book-now">
                       <Calendar className="h-4 w-4 mr-2" />
                       Book Free Consult
-                    </a>
+                    </Link>
                   </Button>
                 </div>
               </div>
