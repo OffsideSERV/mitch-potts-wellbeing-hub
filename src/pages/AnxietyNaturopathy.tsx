@@ -27,7 +27,7 @@ const AnxietyNaturopathy = () => {
                   <img 
                     alt="Woman receiving anxiety support from naturopath at NXTLVL Health Brisbane" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                    src="/lovable-uploads/05a5e4c7-4c13-4d3c-a188-c9b6f283bec7.png" 
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -78,7 +78,7 @@ const AnxietyNaturopathy = () => {
               <img 
                 alt="Woman receiving anxiety support from naturopath at NXTLVL Health Brisbane" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                src="/lovable-uploads/05a5e4c7-4c13-4d3c-a188-c9b6f283bec7.png" 
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -104,7 +104,7 @@ const AnxietyNaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+              src="/lovable-uploads/8385dce4-92ee-4dd3-8c9c-b9452a00f083.png" 
               alt="Naturopath having consultation with female patient at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
@@ -127,7 +127,7 @@ const AnxietyNaturopathy = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                src="/lovable-uploads/8385dce4-92ee-4dd3-8c9c-b9452a00f083.png" 
                 alt="Naturopath having consultation with female patient at NXTLVL Health" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -256,7 +256,7 @@ const AnxietyNaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+              src="/lovable-uploads/c0e311d2-fff4-40e4-86ad-e03f9bf17e39.png" 
               alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
@@ -293,7 +293,7 @@ const AnxietyNaturopathy = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+                src="/lovable-uploads/c0e311d2-fff4-40e4-86ad-e03f9bf17e39.png" 
                 alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -418,7 +418,7 @@ const AnxietyNaturopathy = () => {
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
+              src="/lovable-uploads/31b67e9e-5857-41b3-b7f0-826908bd0917.png" 
               alt="Naturopath showing patient results on a computer at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -675,7 +675,7 @@ const AnxietyNaturopathy = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+              src="/lovable-uploads/f1d596df-5da2-4147-9fcd-7375c36afd5f.png" 
               alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
