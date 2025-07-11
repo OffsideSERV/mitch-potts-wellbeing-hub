@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -68,7 +69,7 @@ const Services = () => {
                 
                 {/* Mobile Image - placed right after headline */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" />
+                  <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/b156db4f-02ff-40d6-948b-3ea5abb31621.png" />
                 </div>
               </div>
               
@@ -95,7 +96,7 @@ const Services = () => {
             
             {/* Desktop Image - only visible on large screens */}
             <div className="relative hidden lg:block">
-              <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" />
+              <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/b156db4f-02ff-40d6-948b-3ea5abb31621.png" />
             </div>
           </div>
         </div>
