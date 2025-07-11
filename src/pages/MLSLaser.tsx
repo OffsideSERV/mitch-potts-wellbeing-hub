@@ -140,7 +140,7 @@ const MLSLaser = () => {
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
                   <img 
-                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-doing-mls-laser-therapy-treatment-with-patient-scaled.jpeg"
+                    src="/lovable-uploads/8f5feae9-391d-4644-af47-61593b7bc840.png"
                     alt="Naturopath doing MLS laser therapy treatment with patient at NXTLVL Health"
                     className="rounded-2xl shadow-2xl w-full h-96 object-cover"
                   />
@@ -180,7 +180,7 @@ const MLSLaser = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-doing-mls-laser-therapy-treatment-with-patient-scaled.jpeg"
+                src="/lovable-uploads/8f5feae9-391d-4644-af47-61593b7bc840.png"
                 alt="Naturopath doing MLS laser therapy treatment with patient at NXTLVL Health"
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />
@@ -208,7 +208,7 @@ const MLSLaser = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-getting-a-laser-therapy-treatment-for-her-neck-pain-scaled.jpeg"
+              src="/lovable-uploads/41390b79-f1ea-489a-b170-dd7156cf02ee.png"
               alt="Woman getting MLS laser therapy treatment for neck pain at NXTLVL Health"
               className="rounded-2xl shadow-lg w-full h-64 object-cover mx-auto"
             />
@@ -231,7 +231,7 @@ const MLSLaser = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-getting-a-laser-therapy-treatment-for-her-neck-pain-scaled.jpeg"
+                src="/lovable-uploads/41390b79-f1ea-489a-b170-dd7156cf02ee.png"
                 alt="Woman getting MLS laser therapy treatment for neck pain at NXTLVL Health"
                 className="rounded-2xl shadow-lg w-full h-64 object-cover"
               />
@@ -258,7 +258,7 @@ const MLSLaser = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-doing-an-MLS-laser-treatment-for-a-female-patient-scaled.jpeg"
+              src="/lovable-uploads/51106bb9-7ee7-49df-9e6f-6507f621c37b.png"
               alt="Naturopath doing MLS laser treatment for female patient at NXTLVL Health"
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover"
             />
@@ -335,7 +335,7 @@ const MLSLaser = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/mls-laser-treatment-scaled.jpeg"
+              src="/lovable-uploads/4bea3af7-ceb4-4aa3-b780-303ccd82e237.png"
               alt="MLS laser treatment equipment and therapy session at NXTLVL Health"
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover"
             />
@@ -380,7 +380,7 @@ const MLSLaser = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg"
+              src="/lovable-uploads/97e4214e-6a74-4542-bfa2-19292540f721.png"
               alt="Naturopath showing patient MLS laser therapy results on computer at NXTLVL Health"
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover"
             />
@@ -438,7 +438,7 @@ const MLSLaser = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg"
+              src="/lovable-uploads/052147da-fc73-4f16-965c-adcf6069e31e.png"
               alt="Naturopath having consultation with female patient at NXTLVL Health"
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover"
             />
@@ -491,7 +491,7 @@ const MLSLaser = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg"
+              src="/lovable-uploads/94a596d0-3d49-4629-85b5-0293916509a6.png"
               alt="Woman talking to naturopath in Brisbane at NXTLVL Health clinic"
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover"
             />
