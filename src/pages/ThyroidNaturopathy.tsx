@@ -25,7 +25,7 @@ const ThyroidNaturopathy = () => {
                   <img 
                     alt="Naturopath having consultation with female patient at NXTLVL Health" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                    src="/lovable-uploads/7bab2257-f140-4812-88c0-b910038ff849.png" 
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -73,7 +73,7 @@ const ThyroidNaturopathy = () => {
               <img 
                 alt="Naturopath having consultation with female patient at NXTLVL Health" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                src="/lovable-uploads/7bab2257-f140-4812-88c0-b910038ff849.png" 
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -96,7 +96,7 @@ const ThyroidNaturopathy = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+              src="/lovable-uploads/98dc86b9-d19c-4674-90b5-465183ac0c06.png" 
               alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
@@ -115,7 +115,7 @@ const ThyroidNaturopathy = () => {
             </div>
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                src="/lovable-uploads/98dc86b9-d19c-4674-90b5-465183ac0c06.png" 
                 alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -138,7 +138,7 @@ const ThyroidNaturopathy = () => {
 
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+              src="/lovable-uploads/c932dabd-3ac9-4dd4-b8f6-9e2595151e1a.png" 
               alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -401,7 +401,7 @@ const ThyroidNaturopathy = () => {
 
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+              src="/lovable-uploads/c3e9d0bc-b8cf-4e44-81d0-11a9a0213d4b.png" 
               alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
