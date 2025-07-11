@@ -40,7 +40,7 @@ const NewFarmNaturopathy = () => {
                   <img 
                     alt="Naturopath having consultation with female patient at NXTLVL Health" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                    src="/lovable-uploads/84b53da1-9f6d-44e1-83af-7bfa206f9225.png"
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -89,7 +89,7 @@ const NewFarmNaturopathy = () => {
               <img 
                 alt="Naturopath having consultation with female patient at NXTLVL Health" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                src="/lovable-uploads/84b53da1-9f6d-44e1-83af-7bfa206f9225.png"
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -115,9 +115,9 @@ const NewFarmNaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+              src="/lovable-uploads/e1bffcd2-1723-4e18-a2c9-90dd88842aa7.png" 
               alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto mx-auto"
             />
           </div>
 
@@ -135,9 +135,9 @@ const NewFarmNaturopathy = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                src="/lovable-uploads/e1bffcd2-1723-4e18-a2c9-90dd88842aa7.png" 
                 alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
+                className="rounded-2xl shadow-lg w-full h-auto"
               />
             </div>
           </div>
@@ -162,9 +162,9 @@ const NewFarmNaturopathy = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+              src="/lovable-uploads/a61f4af0-26d7-4e2a-9676-a409bfb6d550.png" 
               alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
             />
           </div>
         </div>
