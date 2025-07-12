@@ -626,7 +626,7 @@ const GutFreedomOptIn = () => {
               <img 
                 alt="Mitch Potts, naturopath at NXTLVL Health helping patients with gut health" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                src="/lovable-uploads/26dd53ed-236e-42a2-a95c-c505572e08b2.png" 
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -646,7 +646,7 @@ const GutFreedomOptIn = () => {
               <img 
                 alt="Mitch Potts, naturopath at NXTLVL Health helping patients with gut health" 
                 className="rounded-2xl shadow-2xl w-full h-auto max-h-80 sm:max-h-96 object-cover" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                src="/lovable-uploads/26dd53ed-236e-42a2-a95c-c505572e08b2.png" 
               />
             </div>
           </div>
