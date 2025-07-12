@@ -27,7 +27,7 @@ const ClayfieldNaturopathy = () => {
                   <img 
                     alt="Naturopath consultation at NXTLVL Health near Clayfield" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                    src="/lovable-uploads/5ab885c2-6334-4880-bd61-dce3bd826f8e.png"
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -78,7 +78,7 @@ const ClayfieldNaturopathy = () => {
               <img 
                 alt="Naturopath consultation at NXTLVL Health near Clayfield" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                src="/lovable-uploads/5ab885c2-6334-4880-bd61-dce3bd826f8e.png"
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -104,9 +104,9 @@ const ClayfieldNaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+              src="/lovable-uploads/629b9330-8bcf-44db-8889-18509024f856.png" 
               alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto mx-auto"
             />
           </div>
 
@@ -124,9 +124,9 @@ const ClayfieldNaturopathy = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                src="/lovable-uploads/629b9330-8bcf-44db-8889-18509024f856.png" 
                 alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
+                className="rounded-2xl shadow-lg w-full h-auto"
               />
             </div>
           </div>
@@ -143,9 +143,9 @@ const ClayfieldNaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+              src="/lovable-uploads/d515fc10-3cc2-4062-adf8-2638cee1c7bc.png" 
               alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto mx-auto"
             />
           </div>
 
@@ -163,9 +163,9 @@ const ClayfieldNaturopathy = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+                src="/lovable-uploads/d515fc10-3cc2-4062-adf8-2638cee1c7bc.png" 
                 alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
+                className="rounded-2xl shadow-lg w-full h-auto"
               />
             </div>
           </div>
@@ -200,9 +200,9 @@ const ClayfieldNaturopathy = () => {
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-checking-blood-pressure-of-patient-scaled.jpeg" 
+              src="/lovable-uploads/95e81372-7d61-43a1-b42c-b1cf39f1ff92.png" 
               alt="Naturopath checking blood pressure of patient at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
             />
           </div>
 
@@ -252,9 +252,9 @@ const ClayfieldNaturopathy = () => {
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+              src="/lovable-uploads/001a23d3-f9a1-4973-a6a1-a0bf46a7cfbb.png" 
               alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
             />
           </div>
 
@@ -299,9 +299,9 @@ const ClayfieldNaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
+              src="/lovable-uploads/95e81372-7d61-43a1-b42c-b1cf39f1ff92.png" 
               alt="Naturopath showing patient results on a computer at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto mx-auto"
             />
           </div>
 
@@ -322,9 +322,9 @@ const ClayfieldNaturopathy = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
+                src="/lovable-uploads/95e81372-7d61-43a1-b42c-b1cf39f1ff92.png" 
                 alt="Naturopath showing patient results on a computer at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
+                className="rounded-2xl shadow-lg w-full h-auto"
               />
             </div>
           </div>
@@ -359,9 +359,9 @@ const ClayfieldNaturopathy = () => {
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Sad-woman-dealing-with-gut-issues-and-bloating-scaled.jpeg" 
+              src="/lovable-uploads/27a9d38d-9848-4b64-aa99-831c8689e952.png" 
               alt="Woman dealing with health concerns at NXTLVL Health Brisbane" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
             />
           </div>
 
@@ -408,9 +408,9 @@ const ClayfieldNaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-standing-next-to-female-patient-thats-lying-down-while-he-checks-her-vitals-scaled.jpeg" 
+              src="/lovable-uploads/629b9330-8bcf-44db-8889-18509024f856.png" 
               alt="Naturopath checking patient vitals at NXTLVL Health Brisbane" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto mx-auto"
             />
           </div>
 
@@ -445,9 +445,9 @@ const ClayfieldNaturopathy = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-standing-next-to-female-patient-thats-lying-down-while-he-checks-her-vitals-scaled.jpeg" 
+                src="/lovable-uploads/629b9330-8bcf-44db-8889-18509024f856.png" 
                 alt="Naturopath checking patient vitals at NXTLVL Health Brisbane" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
+                className="rounded-2xl shadow-lg w-full h-auto"
               />
             </div>
           </div>
@@ -470,9 +470,9 @@ const ClayfieldNaturopathy = () => {
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/AdobeStock_1076682494-scaled.jpeg" 
+              src="/lovable-uploads/291dac49-43a8-4619-95ce-899c186cb8e0.png" 
               alt="Gut health and digestive support at NXTLVL Health clinic" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
             />
           </div>
 
@@ -547,9 +547,9 @@ const ClayfieldNaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-doing-work-at-desk-scaled.jpg" 
+              src="/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png" 
               alt="Stress and fatigue support at NXTLVL Health clinic" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto mx-auto"
             />
           </div>
 
@@ -570,9 +570,9 @@ const ClayfieldNaturopathy = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-doing-work-at-desk-scaled.jpg" 
+                src="/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png" 
                 alt="Stress and fatigue support at NXTLVL Health clinic" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
+                className="rounded-2xl shadow-lg w-full h-auto"
               />
             </div>
           </div>
@@ -589,9 +589,9 @@ const ClayfieldNaturopathy = () => {
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/kcF6c6jGP3wRQF0L9ySy.png" 
+              src="/lovable-uploads/27a9d38d-9848-4b64-aa99-831c8689e952.png" 
               alt="Family health support at NXTLVL Health Brisbane" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
             />
           </div>
 
@@ -622,9 +622,9 @@ const ClayfieldNaturopathy = () => {
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/01/DSC_4546-scaled.jpeg" 
+              src="/lovable-uploads/001a23d3-f9a1-4973-a6a1-a0bf46a7cfbb.png" 
               alt="Holistic health approach at NXTLVL Health natural medicine clinic" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
             />
           </div>
 
@@ -670,9 +670,9 @@ const ClayfieldNaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/Screen-Shot-2023-08-29-at-8.34.10-pm.png" 
+              src="/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png" 
               alt="Mitch, experienced naturopath at NXTLVL Health Brisbane" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto mx-auto"
             />
           </div>
 
@@ -712,9 +712,9 @@ const ClayfieldNaturopathy = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/Screen-Shot-2023-08-29-at-8.34.10-pm.png" 
+                src="/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png" 
                 alt="Mitch, experienced naturopath at NXTLVL Health Brisbane" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
+                className="rounded-2xl shadow-lg w-full h-auto"
               />
             </div>
           </div>
@@ -731,9 +731,9 @@ const ClayfieldNaturopathy = () => {
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4503-scaled.jpeg" 
+              src="/lovable-uploads/291dac49-43a8-4619-95ce-899c186cb8e0.png" 
               alt="Ready to start your health journey at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
             />
           </div>
 
