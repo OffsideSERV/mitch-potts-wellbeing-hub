@@ -28,7 +28,7 @@ const IBSClinic = () => {
                   <img 
                     alt="IBS clinic consultation at NXTLVL Health Brisbane" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                    src="/lovable-uploads/629b9330-8bcf-44db-8889-18509024f856.png"
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -68,7 +68,7 @@ const IBSClinic = () => {
               <img 
                 alt="IBS clinic consultation at NXTLVL Health Brisbane" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                src="/lovable-uploads/629b9330-8bcf-44db-8889-18509024f856.png"
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -93,7 +93,7 @@ const IBSClinic = () => {
             {/* Image right under heading */}
             <div className="mb-12">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Sad-woman-dealing-with-gut-issues-and-bloating-scaled.jpeg" 
+                src="/lovable-uploads/291dac49-43a8-4619-95ce-899c186cb8e0.png" 
                 alt="Woman feeling uncomfortable with digestive issues and IBS symptoms" 
                 className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
               />
@@ -125,7 +125,7 @@ const IBSClinic = () => {
             {/* Image right under heading */}
             <div className="mb-12">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                src="/lovable-uploads/5ab885c2-6334-4880-bd61-dce3bd826f8e.png" 
                 alt="Naturopath explaining IBS to patient at NXTLVL Health clinic" 
                 className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
               />
@@ -154,7 +154,7 @@ const IBSClinic = () => {
             {/* Image right under heading */}
             <div className="mb-12">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/AdobeStock_1076682494-scaled.jpeg" 
+                src="/lovable-uploads/27a9d38d-9848-4b64-aa99-831c8689e952.png" 
                 alt="Woman experiencing IBS symptoms and abdominal discomfort" 
                 className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
               />
@@ -254,7 +254,7 @@ const IBSClinic = () => {
             {/* Image right under text */}
             <div className="mb-12 mt-8">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+                src="/lovable-uploads/001a23d3-f9a1-4973-a6a1-a0bf46a7cfbb.png" 
                 alt="Mitch at NXTLVL Health planning IBS treatment approach" 
                 className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
               />
@@ -325,7 +325,7 @@ const IBSClinic = () => {
             {/* Image right under heading */}
             <div className="mb-12">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
+                src="/lovable-uploads/95e81372-7d61-43a1-b42c-b1cf39f1ff92.png" 
                 alt="Naturopath explaining IBS causes to patient on computer screen" 
                 className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
               />
@@ -354,7 +354,7 @@ const IBSClinic = () => {
             {/* Image right under heading */}
             <div className="mb-12">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-checking-blood-pressure-of-patient-scaled.jpeg" 
+                src="/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png" 
                 alt="Naturopath providing comprehensive IBS care at NXTLVL Health" 
                 className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
               />
@@ -407,7 +407,7 @@ const IBSClinic = () => {
             {/* Image right under heading */}
             <div className="mb-12">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+                src="/lovable-uploads/6253d25b-6827-4ec4-81ad-37d3b431a140.png" 
                 alt="Naturopath conducting testing for IBS diagnosis at NXTLVL Health" 
                 className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
               />
@@ -462,7 +462,7 @@ const IBSClinic = () => {
             {/* Image right under heading */}
             <div className="mb-12">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-doing-work-at-desk-scaled.jpg" 
+                src="/lovable-uploads/d515fc10-3cc2-4062-adf8-2638cee1c7bc.png" 
                 alt="Mitch planning natural IBS treatments at NXTLVL Health" 
                 className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
               />
@@ -545,7 +545,7 @@ const IBSClinic = () => {
             {/* Image right under heading */}
             <div className="mb-12">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                src="/lovable-uploads/123c33a8-6a44-4e25-911f-05813ec42a6f.png" 
                 alt="Happy patient consulting with naturopath at NXTLVL Health IBS clinic" 
                 className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
               />
