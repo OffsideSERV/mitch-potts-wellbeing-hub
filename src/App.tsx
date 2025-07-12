@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from 'react-helmet-async';
 import Layout from "./components/Layout";
 import CriticalCSS from "./components/CriticalCSS";
+import PerformanceOptimizer from "./components/PerformanceOptimizer";
 import { lazy, Suspense } from "react";
 
 // Critical pages - load immediately
@@ -80,6 +81,7 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <CriticalCSS />
+      <PerformanceOptimizer />
       <Toaster />
       <Sonner />
       <BrowserRouter>

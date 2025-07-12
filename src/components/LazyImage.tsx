@@ -24,13 +24,29 @@ const LazyImage: React.FC<LazyImageProps> = ({
   const [isLoaded, setIsLoaded] = useState(false);
   const [isInView, setIsInView] = useState(priority);
   const imgRef = useRef<HTMLImageElement>(null);
+  const pictureRef = useRef<HTMLPictureElement>(null);
 
-  // Generate responsive srcSet for PNG images
+  // Generate responsive srcSet with WebP support for better compression
   const generateSrcSet = (originalSrc: string) => {
     if (!originalSrc.includes('/lovable-uploads/')) return undefined;
     
-    const baseSrc = originalSrc.replace('.png', '');
-    return `${baseSrc}.png?w=400 400w, ${baseSrc}.png?w=800 800w, ${baseSrc}.png?w=1200 1200w`;
+    const baseSrc = originalSrc.replace(/\.(png|jpg|jpeg)$/i, '');
+    const ext = originalSrc.match(/\.(png|jpg|jpeg)$/i)?.[1] || 'png';
+    
+    // Generate multiple sizes with format optimization
+    const sizes = [400, 800, 1200];
+    return sizes.map(size => `${baseSrc}.${ext}?w=${size}&f=webp ${size}w`).join(', ');
+  };
+
+  // Generate fallback srcSet for browsers that don't support WebP
+  const generateFallbackSrcSet = (originalSrc: string) => {
+    if (!originalSrc.includes('/lovable-uploads/')) return undefined;
+    
+    const baseSrc = originalSrc.replace(/\.(png|jpg|jpeg)$/i, '');
+    const ext = originalSrc.match(/\.(png|jpg|jpeg)$/i)?.[1] || 'png';
+    
+    const sizes = [400, 800, 1200];
+    return sizes.map(size => `${baseSrc}.${ext}?w=${size} ${size}w`).join(', ');
   };
 
   useEffect(() => {
@@ -46,21 +62,51 @@ const LazyImage: React.FC<LazyImageProps> = ({
       { rootMargin: '50px' }
     );
 
-    if (imgRef.current) {
-      observer.observe(imgRef.current);
+    // Observe the appropriate element
+    const elementToObserve = pictureRef.current || imgRef.current;
+    if (elementToObserve) {
+      observer.observe(elementToObserve);
     }
 
     return () => observer.disconnect();
   }, [priority]);
 
-  const srcSet = generateSrcSet(src);
+  const webpSrcSet = generateSrcSet(src);
+  const fallbackSrcSet = generateFallbackSrcSet(src);
 
+  // Use picture element for WebP support with fallback
+  if (webpSrcSet && fallbackSrcSet) {
+    return (
+      <picture ref={pictureRef}>
+        {isInView && (
+          <source
+            srcSet={webpSrcSet}
+            sizes={sizes}
+            type="image/webp"
+          />
+        )}
+        <img
+          src={isInView ? src : placeholder}
+          srcSet={isInView ? fallbackSrcSet : undefined}
+          sizes={isInView ? sizes : undefined}
+          alt={alt}
+          width={width}
+          height={height}
+          className={`transition-opacity duration-300 ${isLoaded ? 'opacity-100' : 'opacity-70'} ${className}`}
+          onLoad={() => setIsLoaded(true)}
+          loading={priority ? "eager" : "lazy"}
+          decoding="async"
+          fetchPriority={priority || isInView ? "high" : "low"}
+        />
+      </picture>
+    );
+  }
+
+  // Fallback to regular img for non-lovable-uploads images
   return (
     <img
       ref={imgRef}
       src={isInView ? src : placeholder}
-      srcSet={isInView && srcSet ? srcSet : undefined}
-      sizes={isInView && srcSet ? sizes : undefined}
       alt={alt}
       width={width}
       height={height}
