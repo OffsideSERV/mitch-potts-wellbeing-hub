@@ -27,7 +27,7 @@ const EczemaNaturopathy = () => {
                   <img 
                     alt="Naturopath consultation for eczema treatment at NXTLVL Health" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                    src="/lovable-uploads/5ab885c2-6334-4880-bd61-dce3bd826f8e.png"
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -78,7 +78,7 @@ const EczemaNaturopathy = () => {
               <img 
                 alt="Naturopath consultation for eczema treatment at NXTLVL Health" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                src="/lovable-uploads/5ab885c2-6334-4880-bd61-dce3bd826f8e.png"
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -104,9 +104,9 @@ const EczemaNaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/KzhzvfYCqwWucZxbOivI.png" 
+              src="/lovable-uploads/291dac49-43a8-4619-95ce-899c186cb8e0.png" 
               alt="Natural skin care products for eczema treatment at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto mx-auto"
             />
           </div>
 
@@ -127,9 +127,9 @@ const EczemaNaturopathy = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/KzhzvfYCqwWucZxbOivI.png" 
+                src="/lovable-uploads/291dac49-43a8-4619-95ce-899c186cb8e0.png" 
                 alt="Natural skin care products for eczema treatment at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
+                className="rounded-2xl shadow-lg w-full h-auto"
               />
             </div>
           </div>
@@ -158,9 +158,9 @@ const EczemaNaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+              src="/lovable-uploads/629b9330-8bcf-44db-8889-18509024f856.png" 
               alt="Woman consulting with naturopath about eczema at NXTLVL Health Brisbane" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
+              className="rounded-2xl shadow-lg w-full h-auto mx-auto"
             />
           </div>
 
@@ -178,9 +178,9 @@ const EczemaNaturopathy = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                src="/lovable-uploads/629b9330-8bcf-44db-8889-18509024f856.png" 
                 alt="Woman consulting with naturopath about eczema at NXTLVL Health Brisbane" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
+                className="rounded-2xl shadow-lg w-full h-auto"
               />
             </div>
           </div>
@@ -197,9 +197,9 @@ const EczemaNaturopathy = () => {
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
+              src="/lovable-uploads/95e81372-7d61-43a1-b42c-b1cf39f1ff92.png" 
               alt="Naturopath explaining eczema treatment results to patient at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
             />
           </div>
 
@@ -270,9 +270,9 @@ const EczemaNaturopathy = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+              src="/lovable-uploads/d515fc10-3cc2-4062-adf8-2638cee1c7bc.png" 
               alt="Naturopath analysing eczema causes through diagnostic testing at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
             />
           </div>
 
@@ -310,9 +310,9 @@ const EczemaNaturopathy = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+              src="/lovable-uploads/001a23d3-f9a1-4973-a6a1-a0bf46a7cfbb.png" 
               alt="NXTLVL Health natural medicine clinic for eczema treatment" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
             />
           </div>
 
