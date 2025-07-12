@@ -1,23 +1,9 @@
-
 import { Helmet } from 'react-helmet-async';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { 
-  Calendar, 
-  Phone, 
-  CheckCircle, 
-  Heart, 
-  Users, 
-  Target,
-  Leaf,
-  Zap,
-  Shield,
-  Activity
-} from "lucide-react";
-
+import { Calendar, Phone, CheckCircle, Heart, Users, Target, Leaf, Zap, Shield, Activity } from "lucide-react";
 const WellnessClinic = () => {
-  return (
-    <>
+  return <>
       <Helmet>
         <title>Best Wellness Clinic Brisbane | Book a FREE 15-Min Consult!</title>
         <meta name="description" content="Feeling off lately with no idea why? At NXTLVL Health, the best wellness clinic in Brisbane, we will find the real cause and heal the problem at its root." />
@@ -35,11 +21,7 @@ const WellnessClinic = () => {
                 
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img 
-                    alt="Naturopath having consultation with female patient at NXTLVL Health" 
-                    className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
-                  />
+                  <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Heart className="h-6 w-6 text-primary" />
@@ -53,22 +35,13 @@ const WellnessClinic = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button 
-                  asChild 
-                  size="lg" 
-                  className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight"
-                >
+                <Button asChild size="lg" className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight">
                   <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
                     <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                     <span className="text-center">Book a Free 15-Min Consult</span>
                   </a>
                 </Button>
-                <Button 
-                  variant="outline" 
-                  size="lg" 
-                  asChild 
-                  className="text-base sm:text-lg px-4 py-3 h-auto"
-                >
+                <Button variant="outline" size="lg" asChild className="text-base sm:text-lg px-4 py-3 h-auto">
                   <a href="tel:0731808853">
                     <Phone className="mr-2 h-4 w-4 flex-shrink-0" />
                     Call Mitch
@@ -84,11 +57,7 @@ const WellnessClinic = () => {
             
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img 
-                alt="Naturopath having consultation with female patient at NXTLVL Health" 
-                className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
-              />
+              <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/1c52b36e-138d-4d78-8ac8-3cdb353d57fd.png" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Heart className="h-8 w-8 text-primary" />
@@ -112,11 +81,7 @@ const WellnessClinic = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
-              alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
-            />
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -135,11 +100,7 @@ const WellnessClinic = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
-                alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
-              />
+              <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -159,11 +120,7 @@ const WellnessClinic = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Sad-woman-dealing-with-gut-issues-and-bloating-scaled.jpeg" 
-              alt="Sad woman dealing with gut issues and bloating at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
-            />
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Sad-woman-dealing-with-gut-issues-and-bloating-scaled.jpeg" alt="Sad woman dealing with gut issues and bloating at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -220,11 +177,7 @@ const WellnessClinic = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Sad-woman-dealing-with-gut-issues-and-bloating-scaled.jpeg" 
-                alt="Sad woman dealing with gut issues and bloating at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
-              />
+              <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Sad-woman-dealing-with-gut-issues-and-bloating-scaled.jpeg" alt="Sad woman dealing with gut issues and bloating at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -256,11 +209,7 @@ const WellnessClinic = () => {
             </div>
             {/* Image */}
             <div className="relative">
-              <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
-                alt="Mitchell Potts, lead practitioner at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
-              />
+              <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" alt="Mitchell Potts, lead practitioner at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -305,11 +254,7 @@ const WellnessClinic = () => {
             </div>
             {/* Image */}
             <div className="relative">
-              <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-doing-an-MLS-laser-treatment-for-a-female-patient-scaled.jpeg" 
-                alt="Naturopath doing an MLS laser treatment for a female patient at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
-              />
+              <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-doing-an-MLS-laser-treatment-for-a-female-patient-scaled.jpeg" alt="Naturopath doing an MLS laser treatment for a female patient at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -327,11 +272,7 @@ const WellnessClinic = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
-              alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-8 mb-12">
@@ -424,11 +365,7 @@ const WellnessClinic = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4503-scaled.jpeg" 
-              alt="NXTLVL Health natural medicine clinic facilities" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4503-scaled.jpeg" alt="NXTLVL Health natural medicine clinic facilities" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
@@ -531,11 +468,7 @@ const WellnessClinic = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/01/DSC_4584-scaled.jpeg" 
-              alt="NXTLVL Health wellness clinic interior and facilities" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/01/DSC_4584-scaled.jpeg" alt="NXTLVL Health wellness clinic interior and facilities" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
@@ -611,11 +544,7 @@ const WellnessClinic = () => {
             </div>
             {/* Image */}
             <div className="relative">
-              <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-standing-next-to-female-patient-thats-lying-down-while-he-checks-her-vitals-scaled.jpeg" 
-                alt="Naturopath standing next to female patient that's lying down while he checks her vitals at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
-              />
+              <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-standing-next-to-female-patient-thats-lying-down-while-he-checks-her-vitals-scaled.jpeg" alt="Naturopath standing next to female patient that's lying down while he checks her vitals at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -633,11 +562,7 @@ const WellnessClinic = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/01/DSC_4545-scaled.jpeg" 
-              alt="Natural therapies and treatments at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
+            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/01/DSC_4545-scaled.jpeg" alt="Natural therapies and treatments at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto space-y-8">
@@ -719,11 +644,7 @@ const WellnessClinic = () => {
             </div>
             {/* Image */}
             <div className="relative">
-              <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/KzhzvfYCqwWucZxbOivI.png" 
-                alt="Warm and welcoming clinic space at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto max-w-sm mx-auto" 
-              />
+              <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/KzhzvfYCqwWucZxbOivI.png" alt="Warm and welcoming clinic space at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto max-w-sm mx-auto" />
             </div>
           </div>
         </div>
@@ -757,11 +678,7 @@ const WellnessClinic = () => {
             </div>
             {/* Image */}
             <div className="relative">
-              <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-checking-a-patients-blood-pressure-scaled.jpeg" 
-                alt="Naturopath checking a patient's blood pressure at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
-              />
+              <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-checking-a-patients-blood-pressure-scaled.jpeg" alt="Naturopath checking a patient's blood pressure at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -781,22 +698,13 @@ const WellnessClinic = () => {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                asChild 
-                size="lg" 
-                className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3"
-              >
+              <Button asChild size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
                 <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
                   <Calendar className="mr-2 h-5 w-5" />
                   Book a Free 15-Min Consult
                 </a>
               </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                asChild 
-                className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3"
-              >
+              <Button variant="outline" size="lg" asChild className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
                 <a href="tel:0731808853">
                   <Phone className="mr-2 h-4 w-4" />
                   Call Mitch
@@ -807,8 +715,6 @@ const WellnessClinic = () => {
         </div>
       </section>
       </div>
-    </>
-  );
+    </>;
 };
-
 export default WellnessClinic;
