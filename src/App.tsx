@@ -6,6 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from 'react-helmet-async';
 import Layout from "./components/Layout";
+import CriticalCSS from "./components/CriticalCSS";
 import { lazy, Suspense } from "react";
 
 // Critical pages - load immediately
@@ -78,6 +79,7 @@ const App = () => (
   <HelmetProvider>
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
+      <CriticalCSS />
       <Toaster />
       <Sonner />
       <BrowserRouter>
