@@ -20,7 +20,7 @@ const AllergyNaturopath = () => {
                   <img 
                     alt="Natural allergy treatment consultation at NXTLVL Health" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                    src="/lovable-uploads/26dd53ed-236e-42a2-a95c-c505572e08b2.png" 
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -66,7 +66,7 @@ const AllergyNaturopath = () => {
               <img 
                 alt="Natural allergy treatment consultation at NXTLVL Health" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                src="/lovable-uploads/26dd53ed-236e-42a2-a95c-c505572e08b2.png" 
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -94,7 +94,7 @@ const AllergyNaturopath = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+              src="/lovable-uploads/c8bb9855-7c0b-45b1-8e50-ae2da28905ea.png" 
               alt="Woman consulting with allergy naturopath in Brisbane" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
@@ -114,7 +114,7 @@ const AllergyNaturopath = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                src="/lovable-uploads/c8bb9855-7c0b-45b1-8e50-ae2da28905ea.png" 
                 alt="Woman consulting with allergy naturopath in Brisbane" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -138,7 +138,7 @@ const AllergyNaturopath = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+              src="/lovable-uploads/507d386f-e7d8-4e14-a144-56b40f6d528f.png" 
               alt="NXTLVL Health immune system support and allergy treatment" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -212,7 +212,7 @@ const AllergyNaturopath = () => {
 
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+              src="/lovable-uploads/0aadec6a-7f1f-4a21-854c-39d8c3a218d0.png" 
               alt="Naturopath conducting allergy testing and analysis" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -292,7 +292,7 @@ const AllergyNaturopath = () => {
 
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/DSC_4578-scaled.jpeg" 
+              src="/lovable-uploads/aa4b685d-0956-463f-ad98-180c34dbdb0d.png" 
               alt="Naturopathic allergy treatment and natural remedies" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
