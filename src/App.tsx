@@ -81,7 +81,7 @@ const App = () => (
   <HelmetProvider>
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
-      <CriticalCSS />
+      {/* <CriticalCSS /> */}
       <PerformanceOptimizer />
       <Toaster />
       <Sonner />
