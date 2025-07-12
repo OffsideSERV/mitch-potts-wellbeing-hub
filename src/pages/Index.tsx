@@ -68,10 +68,8 @@ const Index = () => {
                     alt="Naturopath having consultation with female patient at NXTLVL Health" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
                     src="/lovable-uploads/f459679d-99b6-4b58-affb-e2cedb040e6e.png"
-                    width={400}
-                    height={300}
-                    sizes="(max-width: 768px) 100vw, 348px"
-                    priority={true}
+                    width={800}
+                    height={600}
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -112,10 +110,8 @@ const Index = () => {
                 alt="Naturopath having consultation with female patient at NXTLVL Health" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
                 src="/lovable-uploads/f459679d-99b6-4b58-affb-e2cedb040e6e.png"
-                width={600}
-                height={400}
-                sizes="(max-width: 1024px) 50vw, 600px"
-                priority={true}
+                width={800}
+                height={600}
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">

@@ -7,8 +7,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from 'react-helmet-async';
 import Layout from "./components/Layout";
 import CriticalCSS from "./components/CriticalCSS";
-import ErrorBoundary from "./components/ErrorBoundary";
-import PerformanceOptimizer from "./components/PerformanceOptimizer";
 import { lazy, Suspense } from "react";
 
 // Critical pages - load immediately
@@ -81,15 +79,13 @@ const App = () => (
   <HelmetProvider>
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
-      {/* <CriticalCSS /> */}
-      <PerformanceOptimizer />
+      <CriticalCSS />
       <Toaster />
       <Sonner />
       <BrowserRouter>
         <Layout>
-          <ErrorBoundary>
-            <Suspense fallback={<PageLoader />}>
-              <Routes>
+          <Suspense fallback={<PageLoader />}>
+            <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/services" element={<Services />} />
               <Route path="/services/mls-laser-therapy-treatment-brisbane" element={<MLSLaser />} />
@@ -146,7 +142,6 @@ const App = () => (
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>
-          </ErrorBoundary>
         </Layout>
       </BrowserRouter>
     </TooltipProvider>
