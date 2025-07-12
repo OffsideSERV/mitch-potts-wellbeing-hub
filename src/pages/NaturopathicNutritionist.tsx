@@ -20,7 +20,7 @@ const NaturopathicNutritionist = () => {
                   <img 
                     alt="Naturopathic nutritionist consultation at NXTLVL Health" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                    src="/lovable-uploads/26dd53ed-236e-42a2-a95c-c505572e08b2.png" 
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -71,7 +71,7 @@ const NaturopathicNutritionist = () => {
               <img 
                 alt="Naturopathic nutritionist consultation at NXTLVL Health" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                src="/lovable-uploads/26dd53ed-236e-42a2-a95c-c505572e08b2.png" 
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -97,7 +97,7 @@ const NaturopathicNutritionist = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+              src="/lovable-uploads/507d386f-e7d8-4e14-a144-56b40f6d528f.png" 
               alt="NXTLVL Health clinic Brisbane naturopathic nutrition" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
@@ -117,7 +117,7 @@ const NaturopathicNutritionist = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+                src="/lovable-uploads/507d386f-e7d8-4e14-a144-56b40f6d528f.png" 
                 alt="NXTLVL Health clinic Brisbane naturopathic nutrition" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -148,7 +148,7 @@ const NaturopathicNutritionist = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+              src="/lovable-uploads/c8bb9855-7c0b-45b1-8e50-ae2da28905ea.png" 
               alt="Naturopathic nutritionist consultation Brisbane NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
@@ -168,7 +168,7 @@ const NaturopathicNutritionist = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                src="/lovable-uploads/c8bb9855-7c0b-45b1-8e50-ae2da28905ea.png" 
                 alt="Naturopathic nutritionist consultation Brisbane NXTLVL Health" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -241,7 +241,7 @@ const NaturopathicNutritionist = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+              src="/lovable-uploads/0aadec6a-7f1f-4a21-854c-39d8c3a218d0.png" 
               alt="Naturopathic nutritionist diagnostic testing NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -299,7 +299,7 @@ const NaturopathicNutritionist = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
+              src="/lovable-uploads/778efa12-2a50-4463-9137-b9811fb860b1.png" 
               alt="Holistic health approach naturopathic nutritionist NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
