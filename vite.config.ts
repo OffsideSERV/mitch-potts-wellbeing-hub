@@ -22,6 +22,20 @@ export default defineConfig(({ mode }) => ({
   build: {
     rollupOptions: {
       output: {
+        // Enable proper asset hashing for long-term caching
+        entryFileNames: 'assets/[name]-[hash].js',
+        chunkFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: (assetInfo) => {
+          const info = assetInfo.name?.split('.') || [];
+          const ext = info[info.length - 1];
+          if (/png|jpe?g|svg|gif|tiff|bmp|ico/i.test(ext)) {
+            return `assets/images/[name]-[hash][extname]`;
+          }
+          if (/css/i.test(ext)) {
+            return `assets/css/[name]-[hash][extname]`;
+          }
+          return `assets/[name]-[hash][extname]`;
+        },
         manualChunks: {
           vendor: ['react', 'react-dom'],
           router: ['react-router-dom'],
@@ -37,6 +51,9 @@ export default defineConfig(({ mode }) => ({
         drop_console: true,
         drop_debugger: true
       }
-    }
+    },
+    // Optimize asset handling for better caching
+    assetsInlineLimit: 4096, // Inline small assets as base64
+    reportCompressedSize: false, // Disable gzip reporting for faster builds
   }
 }));
