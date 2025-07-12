@@ -117,7 +117,7 @@ const Areas = () => {
                   <img 
                     alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+                    src="/lovable-uploads/001a23d3-f9a1-4973-a6a1-a0bf46a7cfbb.png"
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -166,7 +166,7 @@ const Areas = () => {
               <img 
                 alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+                src="/lovable-uploads/001a23d3-f9a1-4973-a6a1-a0bf46a7cfbb.png" 
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -197,6 +197,28 @@ const Areas = () => {
                 Below are just some of the suburbs we work with.
               </p>
             </div>
+          </div>
+
+          {/* Community Image */}
+          <div className="mb-12">
+            <img 
+              src="/lovable-uploads/123c33a8-6a44-4e25-911f-05813ec42a6f.png" 
+              alt="Happy family at NXTLVL Health representing our local community wellness approach" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Patient Care Image */}
+      <section className="py-16 px-4">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center">
+            <img 
+              src="/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png" 
+              alt="Naturopath providing comprehensive health assessment in Brisbane" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+            />
           </div>
         </div>
       </section>
@@ -236,6 +258,15 @@ const Areas = () => {
             </div>
           </div>
 
+          {/* Natural Medicine Image */}
+          <div className="mb-12">
+            <img 
+              src="/lovable-uploads/d515fc10-3cc2-4062-adf8-2638cee1c7bc.png" 
+              alt="Naturopath preparing personalized herbal medicine treatments" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+            />
+          </div>
+
           {/* Benefits Cards */}
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <Card className="text-center">
@@ -267,6 +298,19 @@ const Areas = () => {
                 </p>
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Professional Consultation Image */}
+      <section className="py-16 px-4">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center">
+            <img 
+              src="/lovable-uploads/629b9330-8bcf-44db-8889-18509024f856.png" 
+              alt="Professional naturopath consultation showing personalized care approach" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+            />
           </div>
         </div>
       </section>
