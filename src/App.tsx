@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from 'react-helmet-async';
 import Layout from "./components/Layout";
 import CriticalCSS from "./components/CriticalCSS";
+import ErrorBoundary from "./components/ErrorBoundary";
 import PerformanceOptimizer from "./components/PerformanceOptimizer";
 import { lazy, Suspense } from "react";
 
@@ -86,8 +87,9 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Layout>
-          <Suspense fallback={<PageLoader />}>
-            <Routes>
+          <ErrorBoundary>
+            <Suspense fallback={<PageLoader />}>
+              <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/services" element={<Services />} />
               <Route path="/services/mls-laser-therapy-treatment-brisbane" element={<MLSLaser />} />
@@ -144,6 +146,7 @@ const App = () => (
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>
+          </ErrorBoundary>
         </Layout>
       </BrowserRouter>
     </TooltipProvider>

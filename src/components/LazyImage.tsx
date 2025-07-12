@@ -96,7 +96,6 @@ const LazyImage: React.FC<LazyImageProps> = ({
           onLoad={() => setIsLoaded(true)}
           loading={priority ? "eager" : "lazy"}
           decoding="async"
-          fetchPriority={priority || isInView ? "high" : "low"}
         />
       </picture>
     );
@@ -114,7 +113,6 @@ const LazyImage: React.FC<LazyImageProps> = ({
       onLoad={() => setIsLoaded(true)}
       loading={priority ? "eager" : "lazy"}
       decoding="async"
-      fetchPriority={priority || isInView ? "high" : "low"}
     />
   );
 };
