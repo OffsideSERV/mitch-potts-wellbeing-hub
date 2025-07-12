@@ -122,7 +122,7 @@ const LiveBloodAnalysisBrisbane = () => {
                 
                 {/* Mobile Image - placed right after headline */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" />
+                  <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/26dd53ed-236e-42a2-a95c-c505572e08b2.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Microscope className="h-6 w-6 text-primary" />
@@ -158,7 +158,7 @@ const LiveBloodAnalysisBrisbane = () => {
             
             {/* Desktop Image - only visible on large screens */}
             <div className="relative hidden lg:block">
-              <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" />
+              <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/26dd53ed-236e-42a2-a95c-c505572e08b2.png" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Microscope className="h-8 w-8 text-primary" />
@@ -182,7 +182,7 @@ const LiveBloodAnalysisBrisbane = () => {
 
           {/* Mobile Image positioned after heading */}
           <div className="lg:hidden mb-12">
-            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/c8bb9855-7c0b-45b1-8e50-ae2da28905ea.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -201,7 +201,7 @@ const LiveBloodAnalysisBrisbane = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/c8bb9855-7c0b-45b1-8e50-ae2da28905ea.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -224,7 +224,7 @@ const LiveBloodAnalysisBrisbane = () => {
 
           {/* Add image after heading and description */}
           <div className="mb-12">
-            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/0aadec6a-7f1f-4a21-854c-39d8c3a218d0.png" alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto">
@@ -275,7 +275,7 @@ const LiveBloodAnalysisBrisbane = () => {
           </div>
 
           <div className="mb-12">
-            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/DSC_4578-scaled.jpeg" alt="Live blood screening equipment and analysis at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/778efa12-2a50-4463-9137-b9811fb860b1.png" alt="Live blood screening equipment and analysis at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto">
@@ -369,7 +369,7 @@ const LiveBloodAnalysisBrisbane = () => {
           </div>
 
           <div className="mb-12">
-            <img src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-standing-next-to-female-patient-thats-lying-down-while-he-checks-her-vitals-scaled.jpeg" alt="Naturopath checking patient vitals at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/611cabfc-2300-478c-a789-817b8bac2f8e.png" alt="Naturopath checking patient vitals at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="text-center">
