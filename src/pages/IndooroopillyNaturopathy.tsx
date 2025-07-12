@@ -21,7 +21,7 @@ const IndooroopillyNaturopathy = () => {
                   <img 
                     alt="NXTLVL Health naturopath consultation near Indooroopilly" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                    src="/lovable-uploads/c8bb9855-7c0b-45b1-8e50-ae2da28905ea.png" 
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -72,7 +72,7 @@ const IndooroopillyNaturopathy = () => {
               <img 
                 alt="NXTLVL Health naturopath consultation near Indooroopilly" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                src="/lovable-uploads/c8bb9855-7c0b-45b1-8e50-ae2da28905ea.png" 
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -98,7 +98,7 @@ const IndooroopillyNaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+              src="/lovable-uploads/507d386f-e7d8-4e14-a144-56b40f6d528f.png" 
               alt="NXTLVL Health natural medicine clinic near Indooroopilly" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
@@ -118,7 +118,7 @@ const IndooroopillyNaturopathy = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
+                src="/lovable-uploads/507d386f-e7d8-4e14-a144-56b40f6d528f.png" 
                 alt="NXTLVL Health natural medicine clinic near Indooroopilly" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
@@ -137,7 +137,7 @@ const IndooroopillyNaturopathy = () => {
           {/* Image under heading */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
+              src="/lovable-uploads/0aadec6a-7f1f-4a21-854c-39d8c3a218d0.png" 
               alt="Natural therapies and holistic health analysis at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -187,7 +187,7 @@ const IndooroopillyNaturopathy = () => {
           {/* Image under heading */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+              src="/lovable-uploads/26dd53ed-236e-42a2-a95c-c505572e08b2.png" 
               alt="Mitch providing naturopathy consultation at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -214,7 +214,7 @@ const IndooroopillyNaturopathy = () => {
           {/* Image under heading */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
+              src="/lovable-uploads/778efa12-2a50-4463-9137-b9811fb860b1.png" 
               alt="Naturopath discussing health conditions and treatment options" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -265,7 +265,7 @@ const IndooroopillyNaturopathy = () => {
           {/* Image under heading */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/KzhzvfYCqwWucZxbOivI.png" 
+              src="/lovable-uploads/6d0b6778-ba4b-478d-9180-3b79fe27577c.png" 
               alt="Natural health solutions trusted by Indooroopilly residents" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
@@ -561,7 +561,7 @@ const IndooroopillyNaturopathy = () => {
           {/* Image under heading */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Online-consultation-flexible-appointments-naturopathy-scaled.jpeg" 
+              src="/lovable-uploads/9e5ed0a0-bb35-4fde-9965-94edcb9294a8.png" 
               alt="Flexible appointment options including online consultations" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
