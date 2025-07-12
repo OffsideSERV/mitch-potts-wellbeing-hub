@@ -75,7 +75,15 @@ const Navigation = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-14 w-14" />
+            <img 
+              src={nxtlvlLogo} 
+              alt="NXTLVL Health" 
+              className="h-14 w-14" 
+              width={56}
+              height={56}
+              loading="eager"
+              decoding="async"
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -352,7 +360,15 @@ const Navigation = () => {
             <SheetContent side="right" className="w-80">
               <div className="flex flex-col h-full">
                 <div className="flex items-center justify-between mb-6">
-                  <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-10" />
+                  <img 
+                    src={nxtlvlLogo} 
+                    alt="NXTLVL Health" 
+                    className="h-10" 
+                    width={40}
+                    height={40}
+                    loading="eager"
+                    decoding="async"
+                  />
                   <Button variant="ghost" size="icon" onClick={closeSheet}>
                     <X className="h-5 w-5" />
                   </Button>
