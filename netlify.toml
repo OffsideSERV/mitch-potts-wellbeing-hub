@@ -1,13 +1,9 @@
-
 [build]
-  command = "npm run generate-static && npm run build"
   publish = "dist"
+  command = "npm run build"
 
-[[redirects]]
-  from = "/*"
-  to = "/static/:splat"
-  status = 200
-  conditions = {User-Agent = ["*bot*", "*crawler*", "*spider*", "*Googlebot*", "*Bingbot*", "*facebookexternalhit*", "*Twitterbot*", "*LinkedInBot*"]}
+[build.environment]
+  NODE_VERSION = "18"
 
 [[redirects]]
   from = "/robots.txt"
@@ -24,5 +20,21 @@
   to = "/index.html"
   status = 200
 
-[build.environment]
-  NODE_VERSION = "18"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

@@ -1,17 +1,6 @@
-
-# Bot detection - serve static HTML to crawlers
-/*    /static/:splat    200    Country=!*,User-Agent=*bot*
-/*    /static/:splat    200    Country=!*,User-Agent=*crawler*
-/*    /static/:splat    200    Country=!*,User-Agent=*spider*
-/*    /static/:splat    200    Country=!*,User-Agent=*Googlebot*
-/*    /static/:splat    200    Country=!*,User-Agent=*Bingbot*
-/*    /static/:splat    200    Country=!*,User-Agent=*facebookexternalhit*
-/*    /static/:splat    200    Country=!*,User-Agent=*Twitterbot*
-/*    /static/:splat    200    Country=!*,User-Agent=*LinkedInBot*
-
 # Serve static files directly
 /robots.txt   /robots.txt   200
 /sitemap.xml  /sitemap.xml  200
 
-# All other routes go to React app for regular users
+# All other routes go to React app
 /*  /index.html  200
