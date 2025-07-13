@@ -1,5 +1,0 @@
-{
-  "scripts": {
-    "generate-static": "node build-static-pages.js"
-  }
-}
