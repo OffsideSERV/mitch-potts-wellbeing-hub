@@ -49,13 +49,14 @@ export default defineConfig(({ mode }) => ({
     minify: 'terser',
     terserOptions: {
       compress: {
-        drop_console: true,
+        drop_console: false, // Keep console logs for debugging white screen
         drop_debugger: true
       }
     },
     // Optimize asset handling for better caching
     assetsInlineLimit: 4096, // Inline small assets as base64
     reportCompressedSize: false, // Disable gzip reporting for faster builds
+    sourcemap: true, // Enable sourcemaps for debugging
   },
   // Copy static files including robots.txt and sitemap.xml
   publicDir: 'public'
