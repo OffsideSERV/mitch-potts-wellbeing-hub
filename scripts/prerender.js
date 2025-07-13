@@ -1,7 +1,5 @@
 import React from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
-import { StaticRouter } from 'react-router-dom/server';
-import { HelmetProvider } from 'react-helmet-async';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -9,56 +7,50 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Simple app wrapper for SSR - we'll render each page individually
-const SimpleApp = ({ children, location }) => {
-  const helmetContext = {};
-  
-  return React.createElement(HelmetProvider, { context: helmetContext },
-    React.createElement(StaticRouter, { location },
-      React.createElement('div', { className: 'min-h-screen flex flex-col' },
-        // Simple navigation
-        React.createElement('nav', { className: 'bg-white shadow-md' },
-          React.createElement('div', { className: 'max-w-7xl mx-auto px-4' },
-            React.createElement('div', { className: 'flex justify-between items-center py-4' },
-              React.createElement('div', { className: 'text-xl font-bold text-[#2F6B6B]' }, 'NXTLVL Health'),
-              React.createElement('div', { className: 'hidden md:flex space-x-8' },
-                React.createElement('a', { href: '/', className: 'text-gray-700 hover:text-[#2F6B6B]' }, 'Home'),
-                React.createElement('a', { href: '/services', className: 'text-gray-700 hover:text-[#2F6B6B]' }, 'Services'),
-                React.createElement('a', { href: '/what-we-treat', className: 'text-gray-700 hover:text-[#2F6B6B]' }, 'What We Treat'),
-                React.createElement('a', { href: '/contact', className: 'text-gray-700 hover:text-[#2F6B6B]' }, 'Contact'),
-                React.createElement('a', { href: '/book-now', className: 'bg-[#2F6B6B] text-white px-4 py-2 rounded hover:bg-[#245555]' }, 'Book Now')
-              )
+// Simple app wrapper for SSR - no router needed, just layout
+const SimpleLayout = ({ children }) => {
+  return React.createElement('div', { className: 'min-h-screen flex flex-col' },
+    // Simple navigation
+    React.createElement('nav', { className: 'bg-white shadow-md' },
+      React.createElement('div', { className: 'max-w-7xl mx-auto px-4' },
+        React.createElement('div', { className: 'flex justify-between items-center py-4' },
+          React.createElement('div', { className: 'text-xl font-bold text-[#2F6B6B]' }, 'NXTLVL Health'),
+          React.createElement('div', { className: 'hidden md:flex space-x-8' },
+            React.createElement('a', { href: '/', className: 'text-gray-700 hover:text-[#2F6B6B]' }, 'Home'),
+            React.createElement('a', { href: '/services', className: 'text-gray-700 hover:text-[#2F6B6B]' }, 'Services'),
+            React.createElement('a', { href: '/what-we-treat', className: 'text-gray-700 hover:text-[#2F6B6B]' }, 'What We Treat'),
+            React.createElement('a', { href: '/contact', className: 'text-gray-700 hover:text-[#2F6B6B]' }, 'Contact'),
+            React.createElement('a', { href: '/book-now', className: 'bg-[#2F6B6B] text-white px-4 py-2 rounded hover:bg-[#245555]' }, 'Book Now')
+          )
+        )
+      )
+    ),
+    // Main content
+    React.createElement('main', { className: 'flex-1' }, children),
+    // Simple footer
+    React.createElement('footer', { className: 'bg-gray-900 text-white py-8' },
+      React.createElement('div', { className: 'max-w-7xl mx-auto px-4' },
+        React.createElement('div', { className: 'grid md:grid-cols-3 gap-8' },
+          React.createElement('div', null,
+            React.createElement('h3', { className: 'text-lg font-semibold mb-4' }, 'NXTLVL Health'),
+            React.createElement('p', { className: 'text-gray-400' }, 'Brisbane\'s leading naturopathy clinic for optimal health and wellness.')
+          ),
+          React.createElement('div', null,
+            React.createElement('h3', { className: 'text-lg font-semibold mb-4' }, 'Quick Links'),
+            React.createElement('ul', { className: 'space-y-2' },
+              React.createElement('li', null, React.createElement('a', { href: '/services', className: 'text-gray-400 hover:text-white' }, 'Services')),
+              React.createElement('li', null, React.createElement('a', { href: '/what-we-treat', className: 'text-gray-400 hover:text-white' }, 'What We Treat')),
+              React.createElement('li', null, React.createElement('a', { href: '/contact', className: 'text-gray-400 hover:text-white' }, 'Contact'))
             )
+          ),
+          React.createElement('div', null,
+            React.createElement('h3', { className: 'text-lg font-semibold mb-4' }, 'Contact Info'),
+            React.createElement('p', { className: 'text-gray-400' }, 'Brisbane, Queensland'),
+            React.createElement('p', { className: 'text-gray-400' }, 'Book your free consultation today')
           )
         ),
-        // Main content
-        React.createElement('main', { className: 'flex-1' }, children),
-        // Simple footer
-        React.createElement('footer', { className: 'bg-gray-900 text-white py-8' },
-          React.createElement('div', { className: 'max-w-7xl mx-auto px-4' },
-            React.createElement('div', { className: 'grid md:grid-cols-3 gap-8' },
-              React.createElement('div', null,
-                React.createElement('h3', { className: 'text-lg font-semibold mb-4' }, 'NXTLVL Health'),
-                React.createElement('p', { className: 'text-gray-400' }, 'Brisbane\'s leading naturopathy clinic for optimal health and wellness.')
-              ),
-              React.createElement('div', null,
-                React.createElement('h3', { className: 'text-lg font-semibold mb-4' }, 'Quick Links'),
-                React.createElement('ul', { className: 'space-y-2' },
-                  React.createElement('li', null, React.createElement('a', { href: '/services', className: 'text-gray-400 hover:text-white' }, 'Services')),
-                  React.createElement('li', null, React.createElement('a', { href: '/what-we-treat', className: 'text-gray-400 hover:text-white' }, 'What We Treat')),
-                  React.createElement('li', null, React.createElement('a', { href: '/contact', className: 'text-gray-400 hover:text-white' }, 'Contact'))
-                )
-              ),
-              React.createElement('div', null,
-                React.createElement('h3', { className: 'text-lg font-semibold mb-4' }, 'Contact Info'),
-                React.createElement('p', { className: 'text-gray-400' }, 'Brisbane, Queensland'),
-                React.createElement('p', { className: 'text-gray-400' }, 'Book your free consultation today')
-              )
-            ),
-            React.createElement('div', { className: 'border-t border-gray-800 mt-8 pt-8 text-center' },
-              React.createElement('p', { className: 'text-gray-400' }, '© 2025 NXTLVL Health. All rights reserved.')
-            )
-          )
+        React.createElement('div', { className: 'border-t border-gray-800 mt-8 pt-8 text-center' },
+          React.createElement('p', { className: 'text-gray-400' }, '© 2025 NXTLVL Health. All rights reserved.')
         )
       )
     )
@@ -299,10 +291,7 @@ function generateStaticHTML(route) {
     
     const pageData = getPageContent(route);
     const contentHTML = renderToStaticMarkup(
-      SimpleApp({ 
-        children: pageData.content, 
-        location: route 
-      })
+      React.createElement(SimpleLayout, { children: pageData.content })
     );
     
     // Read the base template
