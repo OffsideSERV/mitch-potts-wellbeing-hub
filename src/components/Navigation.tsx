@@ -642,7 +642,7 @@ const Navigation = () => {
                   <Button className="w-full" asChild>
                     <Link to="/book-now">
                       <Calendar className="h-4 w-4 mr-2" />
-                      Book Free Consult
+                      Book Consult
                     </Link>
                   </Button>
                 </div>
