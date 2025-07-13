@@ -1,13 +1,15 @@
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Phone, Mail, Clock, MapPin } from 'lucide-react';
 
 const BookNow = () => {
   return (
     <>
-      <Helmet>
-        <title>Book Appointment | NXTLVL Health | Brisbane Naturopath</title>
-        <meta name="description" content="Book your appointment with NXTLVL Health. Easy online booking for naturopathy consultations in Brisbane. Start your health journey today." />
-      </Helmet>
+      <SEO 
+        title="Book Appointment | NXTLVL Health | Brisbane Naturopath"
+        description="Book your appointment with NXTLVL Health. Easy online booking for naturopathy consultations in Brisbane. Start your health journey today."
+        canonical="/book-now"
+        keywords="book naturopath Brisbane, naturopathy appointment, health consultation booking, NXTLVL Health appointment"
+      />
 
       <div className="min-h-screen bg-background">
         {/* Hero Section */}

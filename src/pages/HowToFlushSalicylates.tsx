@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from '@/components/ui/button';
 import { Calendar, Clock, User, ChevronRight, AlertTriangle } from 'lucide-react';
 
@@ -92,10 +92,12 @@ const HowToFlushSalicylates = () => {
 
   return (
     <>
-      <Helmet>
-        <title>How to Flush Salicylates from Your Body | 4-Step Guide</title>
-        <meta name="description" content="Always feel bloated, itchy or foggy after eating healthy foods? Learn how to flush salicylates from your body gently and naturally in this guide, let's jump in!" />
-      </Helmet>
+      <SEO 
+        title="How to Flush Salicylates from Your Body | 4-Step Guide"
+        description="Always feel bloated, itchy or foggy after eating healthy foods? Learn how to flush salicylates from your body gently and naturally in this guide, let's jump in!"
+        canonical="/blog/naturopathy/how-to-flush-salicylates-from-your-body"
+        keywords="flush salicylates, salicylate intolerance, food sensitivities, naturopathy, detox, natural remedies"
+      />
 
       <div className="min-h-screen bg-background">
         {/* Header */}

@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Clock, ArrowRight, CheckCircle, AlertTriangle, Brain, Heart, Zap } from "lucide-react";
@@ -6,11 +6,12 @@ import { Clock, ArrowRight, CheckCircle, AlertTriangle, Brain, Heart, Zap } from
 const GutHealth101 = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-muted/20">
-      <Helmet>
-        <title>Gut Health 101: Why Your Stomach Might Be Behind Your Brain Fog and Fatigue - Naturopath Brisbane - Health Optimisation Expert</title>
-        <meta name="description" content="Struggling with brain fog or constant fatigue? Your gut could be the missing link. Discover how poor gut health affects energy, focus, and mental clarity." />
-        <meta name="keywords" content="gut health, brain fog, fatigue, naturopath Brisbane, digestive health, microbiome, energy, mental clarity" />
-      </Helmet>
+      <SEO 
+        title="Gut Health 101: Why Your Stomach Might Be Behind Your Brain Fog and Fatigue - Naturopath Brisbane - Health Optimisation Expert"
+        description="Struggling with brain fog or constant fatigue? Your gut could be the missing link. Discover how poor gut health affects energy, focus, and mental clarity."
+        canonical="/blog/gut-health/gut-health-101-why-your-stomach-might-be-behind-your-brain-fog-and-fatigue"
+        keywords="gut health, brain fog, fatigue, naturopath Brisbane, digestive health, microbiome, energy, mental clarity"
+      />
 
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Hero Section */}

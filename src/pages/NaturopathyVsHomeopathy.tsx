@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -7,11 +7,12 @@ import { Users, Brain, TestTube, Stethoscope, Leaf, Zap, Heart, CheckCircle, Hel
 const NaturopathyVsHomeopathy = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-muted/20">
-      <Helmet>
-        <title>Naturopathy vs Homeopathy | Which Should You Pick in 2025?</title>
-        <meta name="description" content="Confused about naturopathy vs homeopathy? Learn the 5 big differences between these natural healing approaches and discover which one is right for you." />
-        <meta name="keywords" content="naturopathy vs homeopathy, natural healing, alternative medicine, holistic health, Brisbane naturopath, homeopath" />
-      </Helmet>
+      <SEO 
+        title="Naturopathy vs Homeopathy | Which Should You Pick in 2025?"
+        description="Confused about naturopathy vs homeopathy? Learn the 5 big differences between these natural healing approaches and discover which one is right for you."
+        canonical="/blog/naturopathy/naturopathy-vs-homeopathy"
+        keywords="naturopathy vs homeopathy, natural healing, alternative medicine, holistic health, Brisbane naturopath, homeopath"
+      />
 
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Hero Section */}

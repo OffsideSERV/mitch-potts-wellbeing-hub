@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Clock, ArrowRight } from "lucide-react";
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 
 const blogPosts = [
   {
@@ -97,11 +97,12 @@ const Blog = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Health & Wellness Blog | NXTLVL Health</title>
-        <meta name="description" content="Discover expert insights on gut health, naturopathy, weight loss, and wellness. Read our latest articles on natural health solutions and holistic healing approaches." />
-        <meta name="keywords" content="health blog, naturopathy articles, gut health tips, weight loss advice, wellness blog, holistic health, natural remedies" />
-      </Helmet>
+      <SEO 
+        title="Health & Wellness Blog | NXTLVL Health"
+        description="Discover expert insights on gut health, naturopathy, weight loss, and wellness. Read our latest articles on natural health solutions and holistic healing approaches."
+        canonical="/blog"
+        keywords="health blog, naturopathy articles, gut health tips, weight loss advice, wellness blog, holistic health, natural remedies"
+      />
 
       <div className="min-h-screen bg-background">
         {/* Hero Section */}

@@ -1,10 +1,18 @@
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Activity, Brain, Sparkles, Leaf, Stethoscope } from "lucide-react";
 
 const NaturopathicNutritionist = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <>
+      <SEO 
+        title="Naturopathic Nutritionist Brisbane | Holistic Nutrition Therapy"
+        description="Expert naturopathic nutritionist in Brisbane combining nutrition science with natural medicine. Personalised nutrition plans for optimal health and wellness."
+        canonical="/naturopathic-nutritionist"
+        keywords="naturopathic nutritionist Brisbane, holistic nutrition, functional nutrition, naturopathic nutrition therapy, nutritional medicine"
+      />
+      <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
@@ -894,6 +902,7 @@ const NaturopathicNutritionist = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

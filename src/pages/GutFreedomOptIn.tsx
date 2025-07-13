@@ -1,11 +1,19 @@
 
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, Clock, Users, Star } from "lucide-react";
 
 const GutFreedomOptIn = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <>
+      <SEO 
+        title="Gut Freedom | Free 15-Minute Video Guide | NXTLVL Health"
+        description="Get your FREE 15-minute video guide to achieving gut freedom. Learn the 3 steps to transform your digestive health and regain energy naturally."
+        canonical="/gut-freedom"
+        keywords="gut freedom, digestive health guide, gut health video, free gut health resource, naturopath Brisbane"
+      />
+      <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-12 lg:py-16 px-4">
         <div className="container mx-auto max-w-6xl">
@@ -1418,6 +1426,7 @@ const GutFreedomOptIn = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

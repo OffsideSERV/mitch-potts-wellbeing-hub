@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from '@/components/ui/button';
 import { Phone, Calendar, Check, Leaf, Heart, Shield } from 'lucide-react';
 
@@ -73,10 +73,12 @@ const NXTLVLTonics = () => {
 
   return (
     <>
-      <Helmet>
-        <title>NXTLVL Tonics | Custom Herbal Blends & Natural Remedies</title>
-        <meta name="description" content="Discover personalised herbal tonics at NXTLVL Health. Custom blends for energy, sleep, immunity, gut health & more. Made by qualified naturopaths in New Farm." />
-      </Helmet>
+      <SEO 
+        title="NXTLVL Tonics | Custom Herbal Blends & Natural Remedies"
+        description="Discover personalised herbal tonics at NXTLVL Health. Custom blends for energy, sleep, immunity, gut health & more. Made by qualified naturopaths in New Farm."
+        canonical="/nxtlvl-tonics"
+        keywords="herbal tonics, custom herbal blends, natural remedies, naturopath New Farm, herbal medicine Brisbane, personalized health"
+      />
 
       <div className="min-h-screen bg-background">
         {/* Hero Section */}

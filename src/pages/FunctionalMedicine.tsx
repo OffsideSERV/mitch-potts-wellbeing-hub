@@ -1,10 +1,18 @@
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, Heart, Activity, Brain, Microscope, MapPin, Phone, BookOpen } from "lucide-react";
 
 const FunctionalMedicine = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <>
+      <SEO 
+        title="Functional Medicine Brisbane | Root Cause Health Solutions"
+        description="Expert functional medicine practitioner in Brisbane. Advanced testing and personalised treatment plans to address root causes of chronic health conditions."
+        canonical="/functional-medicine"
+        keywords="functional medicine Brisbane, root cause medicine, functional medicine practitioner, holistic health Brisbane, integrative medicine"
+      />
+      <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
@@ -258,6 +266,7 @@ const FunctionalMedicine = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

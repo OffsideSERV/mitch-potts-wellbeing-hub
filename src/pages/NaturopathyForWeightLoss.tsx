@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from '@/components/ui/button';
 import { Calendar, Clock, User, ChevronRight, Leaf, Heart, Scale } from 'lucide-react';
 
@@ -72,10 +72,12 @@ const NaturopathyForWeightLoss = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Naturopathy for Weight Loss in 2025 | Does It Really Work?</title>
-        <meta name="description" content="Learn all about how effective Naturopathy is for weight loss and how it helps you feel better naturally. Find out how a naturopath can heal your body and mind." />
-      </Helmet>
+      <SEO 
+        title="Naturopathy for Weight Loss in 2025 | Does It Really Work?"
+        description="Learn all about how effective Naturopathy is for weight loss and how it helps you feel better naturally. Find out how a naturopath can heal your body and mind."
+        canonical="/blog/naturopathy/naturopathy-for-weight-loss"
+        keywords="naturopathy weight loss, naturopath weight loss, natural weight loss, holistic weight loss, naturopathy Brisbane"
+      />
 
       <div className="min-h-screen bg-background">
         {/* Header */}

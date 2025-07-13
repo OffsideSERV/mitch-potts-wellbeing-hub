@@ -1,12 +1,14 @@
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 
 const CancellationPolicy = () => {
   return (
     <>
-      <Helmet>
-        <title>Cancellation Policy | NXTLVL Health</title>
-        <meta name="description" content="Learn about NXTLVL Health's cancellation and no-show policy. 24-hour cancellation policy with flexible approach for unforeseen circumstances." />
-      </Helmet>
+      <SEO 
+        title="Cancellation Policy | NXTLVL Health"
+        description="Learn about NXTLVL Health's cancellation and no-show policy. 24-hour cancellation policy with flexible approach for unforeseen circumstances."
+        canonical="/cancellation-policy"
+        keywords="naturopath cancellation policy, appointment cancellation, NXTLVL Health booking policy"
+      />
 
       <div className="min-h-screen bg-background">
         <div className="container mx-auto px-4 py-16">

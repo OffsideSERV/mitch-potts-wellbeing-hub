@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from '@/components/ui/button';
 import { Phone, Calendar, Apple, Activity, Target, Dna } from 'lucide-react';
 
@@ -28,10 +28,12 @@ const NutritionistBrisbane = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Nutritionist Brisbane | Expert Nutrition Plans | New Farm</title>
-        <meta name="description" content="Expert nutritionist in New Farm, Brisbane. Get tailored nutrition plans for weight loss, muscle gain, gut health & more. Book with Mitch for personalised nutrition guidance." />
-      </Helmet>
+      <SEO 
+        title="Nutritionist Brisbane | Expert Nutrition Plans | New Farm"
+        description="Expert nutritionist in New Farm, Brisbane. Get tailored nutrition plans for weight loss, muscle gain, gut health & more. Book with Mitch for personalised nutrition guidance."
+        canonical="/services/nutritionist-brisbane"
+        keywords="nutritionist Brisbane, nutrition plans, dietitian Brisbane, sports nutrition, weight loss nutrition, New Farm nutritionist"
+      />
 
       <div className="min-h-screen bg-background">
         {/* Hero Section */}

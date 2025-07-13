@@ -1,12 +1,14 @@
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 
 const PrivacyPolicy = () => {
   return (
     <>
-      <Helmet>
-        <title>Privacy Policy | NXTLVL Health</title>
-        <meta name="description" content="Learn how NXTLVL Health protects your personal information. Our privacy policy outlines our commitment to safeguarding your data in compliance with Australian Privacy Principles." />
-      </Helmet>
+      <SEO 
+        title="Privacy Policy | NXTLVL Health"
+        description="Learn how NXTLVL Health protects your personal information. Our privacy policy outlines our commitment to safeguarding your data in compliance with Australian Privacy Principles."
+        canonical="/privacy-policy"
+        keywords="privacy policy, data protection, Australian Privacy Principles, NXTLVL Health privacy"
+      />
 
       <div className="min-h-screen bg-background">
         <div className="container mx-auto px-4 py-16">

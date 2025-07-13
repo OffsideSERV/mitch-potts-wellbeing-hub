@@ -1,12 +1,14 @@
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 
 const WebsiteDisclaimer = () => {
   return (
     <>
-      <Helmet>
-        <title>Website Disclaimer | NXTLVL Health</title>
-        <meta name="description" content="Read NXTLVL Health's website disclaimer covering general information, liability limitations, and intellectual property rights for our health services website." />
-      </Helmet>
+      <SEO 
+        title="Website Disclaimer | NXTLVL Health"
+        description="Read NXTLVL Health's website disclaimer covering general information, liability limitations, and intellectual property rights for our health services website."
+        canonical="/website-disclaimer"
+        keywords="website disclaimer, liability, intellectual property, NXTLVL Health legal terms"
+      />
 
       <div className="min-h-screen bg-background">
         <div className="container mx-auto px-4 py-16">

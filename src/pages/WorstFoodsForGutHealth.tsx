@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from '@/components/ui/button';
 import { Calendar, Clock, User, AlertTriangle, CheckCircle } from 'lucide-react';
 
@@ -91,10 +91,12 @@ const WorstFoodsForGutHealth = () => {
 
   return (
     <>
-      <Helmet>
-        <title>7 Worst Foods for Gut Health | Avoid These Like The Plague</title>
-        <meta name="description" content="Are you struggling with bloating or tummy pain? Learn about the 7 worst foods for gut health that might be causing your pain. Let's jump in!" />
-      </Helmet>
+      <SEO 
+        title="7 Worst Foods for Gut Health | Avoid These Like The Plague"
+        description="Are you struggling with bloating or tummy pain? Learn about the 7 worst foods for gut health that might be causing your pain. Let's jump in!"
+        canonical="/blog/gut-health/7-worst-foods-for-gut-health"
+        keywords="worst foods for gut health, gut health foods to avoid, digestive health, bloating causes, gut bacteria, food intolerance"
+      />
 
       <div className="min-h-screen bg-background">
         {/* Header */}

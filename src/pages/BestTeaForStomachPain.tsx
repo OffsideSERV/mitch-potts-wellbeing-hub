@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from '@/components/ui/button';
 import { Calendar, Clock, User, ChevronRight } from 'lucide-react';
 
@@ -76,10 +76,12 @@ const BestTeaForStomachPain = () => {
 
   return (
     <>
-      <Helmet>
-        <title>The Best Tea for Stomach Pain and Bloating | 2025 Look</title>
-        <meta name="description" content="Are you struggling with bloating or tummy pain? Learn about the best tea for stomach pain and bloating in this quick guide. Let's jump in!" />
-      </Helmet>
+      <SEO 
+        title="The Best Tea for Stomach Pain and Bloating | 2025 Look"
+        description="Are you struggling with bloating or tummy pain? Learn about the best tea for stomach pain and bloating in this quick guide. Let's jump in!"
+        canonical="/blog/gut-health/best-tea-for-stomach-pain-and-bloating"
+        keywords="best tea for stomach pain, tea for bloating, herbal teas for digestion, natural stomach remedies, digestive teas"
+      />
 
       <div className="min-h-screen bg-background">
         {/* Header */}

@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -7,11 +7,12 @@ import { Brain, Heart, Users, Zap, Apple, Shield, Moon, Droplets, CheckCircle, A
 const GutBrainConnection = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-muted/20">
-      <Helmet>
-        <title>Gut-Brain Connection: How Your Gut Affects Mental Health - Naturopath Brisbane - Health Optimisation Expert</title>
-        <meta name="description" content="Discover the fascinating gut-brain connection and how your gut health directly impacts mental health. Learn evidence-based strategies from a Brisbane naturopath to improve both gut and mental wellbeing." />
-        <meta name="keywords" content="gut-brain connection, mental health, gut health, naturopath Brisbane, microbiome, anxiety, depression, serotonin, functional medicine" />
-      </Helmet>
+      <SEO 
+        title="Gut-Brain Connection: How Your Gut Affects Mental Health - Naturopath Brisbane - Health Optimisation Expert"
+        description="Discover the fascinating gut-brain connection and how your gut health directly impacts mental health. Learn evidence-based strategies from a Brisbane naturopath to improve both gut and mental wellbeing."
+        canonical="/blog/gut-health/gut-brain-connection-how-your-gut-affects-mental-health"
+        keywords="gut-brain connection, mental health, gut health, naturopath Brisbane, microbiome, anxiety, depression, serotonin, functional medicine"
+      />
 
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Hero Section */}

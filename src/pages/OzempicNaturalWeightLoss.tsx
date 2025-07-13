@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -7,11 +7,12 @@ import { Scale, Heart, Dumbbell, Pill, Leaf, Target, ArrowRight, CheckCircle, Us
 const OzempicNaturalWeightLoss = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-muted/20">
-      <Helmet>
-        <title>Embracing Natural Weight Loss with Ozempic: A Naturopath's Approach - Naturopath Brisbane - Health Optimisation Expert</title>
-        <meta name="description" content="Discover how to combine Ozempic with natural weight loss methods. Learn a naturopath's holistic approach to sustainable weight loss with clean eating, exercise, and targeted supplements." />
-        <meta name="keywords" content="Ozempic weight loss, natural weight loss, naturopath Brisbane, holistic weight loss, sustainable weight loss, GLP-1, muscle preservation" />
-      </Helmet>
+      <SEO 
+        title="Embracing Natural Weight Loss with Ozempic: A Naturopath's Approach - Naturopath Brisbane - Health Optimisation Expert"
+        description="Discover how to combine Ozempic with natural weight loss methods. Learn a naturopath's holistic approach to sustainable weight loss with clean eating, exercise, and targeted supplements."
+        canonical="/blog/weight-loss/embracing-natural-weight-loss-with-ozempic-a-naturopaths-approach"
+        keywords="Ozempic weight loss, natural weight loss, naturopath Brisbane, holistic weight loss, sustainable weight loss, GLP-1, muscle preservation"
+      />
 
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Hero Section */}
