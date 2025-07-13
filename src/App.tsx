@@ -66,6 +66,10 @@ const NaturopathyVsHomeopathy = lazy(() => import("./pages/NaturopathyVsHomeopat
 const OzempicNaturalWeightLoss = lazy(() => import("./pages/OzempicNaturalWeightLoss"));
 const GutBrainConnection = lazy(() => import("./pages/GutBrainConnection"));
 
+// Create dedicated pages for sitemap and robots
+const SitemapPage = lazy(() => import("./pages/SitemapPage"));
+const RobotsPage = lazy(() => import("./pages/RobotsPage"));
+
 // Loading component
 const PageLoader = () => (
   <div className="flex items-center justify-center min-h-[400px]">
@@ -138,6 +142,11 @@ const App = () => (
               <Route path="/blog/naturopathy/naturopathy-vs-homeopathy" element={<NaturopathyVsHomeopathy />} />
               <Route path="/blog/weight-loss/embracing-natural-weight-loss-with-ozempic-a-naturopaths-approach" element={<OzempicNaturalWeightLoss />} />
               <Route path="/blog/gut-health/gut-brain-connection-how-your-gut-affects-mental-health" element={<GutBrainConnection />} />
+              
+              {/* SEO essential pages */}
+              <Route path="/sitemap.xml" element={<SitemapPage />} />
+              <Route path="/robots.txt" element={<RobotsPage />} />
+              
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>

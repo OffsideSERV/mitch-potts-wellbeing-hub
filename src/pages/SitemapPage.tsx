@@ -1,0 +1,408 @@
+
+import { useEffect } from 'react';
+
+const SitemapPage = () => {
+  useEffect(() => {
+    // Set the content type to XML
+    document.title = 'Sitemap';
+  }, []);
+
+  const sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- Home Page -->
+  <url>
+    <loc>https://nxtlvlhealth.com.au/</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Main Category Pages -->
+  <url>
+    <loc>https://nxtlvlhealth.com.au/services</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/what-we-treat</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/areas-we-serve</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Specific Services -->
+  <url>
+    <loc>https://nxtlvlhealth.com.au/services/mls-laser-therapy-treatment-brisbane</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/services/personal-trainer-new-farm</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/services/live-blood-analysis-brisbane</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/services/nutritionist-brisbane</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Health Conditions We Treat -->
+  <url>
+    <loc>https://nxtlvlhealth.com.au/what-we-treat/gut-health-naturopath-brisbane</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/what-we-treat/gut-health-specialist</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/what-we-treat/weight-loss-naturopath-brisbane</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/what-we-treat/naturopath-thyroid-brisbane</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/what-we-treat/naturopath-diabetes-brisbane</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/what-we-treat/childrens-naturopath-brisbane</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/what-we-treat/adhd-naturopath</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/what-we-treat/naturopath-anxiety</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/what-we-treat/ibs-naturopath</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/what-we-treat/sibo-naturopath</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/what-we-treat/wellness-clinic-brisbane</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/what-we-treat/ibs-brisbane</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/what-we-treat/ibs-clinic</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/what-we-treat/naturopathy-for-skin</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/what-we-treat/naturopath-eczema</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/what-we-treat/acne-naturopathy</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/what-we-treat/hormonal-acne-naturopath</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Areas We Serve -->
+  <url>
+    <loc>https://nxtlvlhealth.com.au/areas-we-serve/naturopath-north-brisbane</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/areas-we-serve/naturopath-newstead</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/areas-we-serve/naturopath-new-farm</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/areas-we-serve/naturopath-morningside</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/areas-we-serve/naturopath-hamilton</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/areas-we-serve/naturopath-clayfield-brisbane</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/areas-we-serve/naturopath-windsor</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Specialized Pages -->
+  <url>
+    <loc>https://nxtlvlhealth.com.au/allergy-naturopath</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/naturopathic-nutritionist</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/indooroopilly-naturopathy</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/functional-medicine</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Blog Section -->
+  <url>
+    <loc>https://nxtlvlhealth.com.au/blog</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/blog/gut-health/best-tea-for-stomach-pain-and-bloating</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/blog/naturopathy/how-to-flush-salicylates-from-your-body</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/blog/gut-health/7-worst-foods-for-gut-health</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/blog/naturopathy/naturopathy-for-weight-loss</lo>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/blog/gut-health/gut-health-101-why-your-stomach-might-be-behind-your-brain-fog-and-fatigue</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/blog/naturopathy/naturopathy-vs-homeopathy</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/blog/weight-loss/embracing-natural-weight-loss-with-ozempic-a-naturopaths-approach</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/blog/gut-health/gut-brain-connection-how-your-gut-affects-mental-health</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Utility Pages -->
+  <url>
+    <loc>https://nxtlvlhealth.com.au/contact</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/book-now</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/nxtlvl-tonics</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/gut-freedom</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Legal Pages -->
+  <url>
+    <loc>https://nxtlvlhealth.com.au/privacy-policy</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/website-disclaimer</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>https://nxtlvlhealth.com.au/cancellation-policy</loc>
+    <lastmod>2025-07-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+</urlset>`;
+
+  return (
+    <div className="min-h-screen bg-background font-mono text-sm">
+      <div className="container mx-auto px-4 py-8">
+        <div className="bg-muted/30 p-6 rounded-lg">
+          <h1 className="text-2xl font-bold mb-4">XML Sitemap</h1>
+          <p className="text-muted-foreground mb-6">
+            This sitemap contains all the important pages on nxtlvlhealth.com.au for search engines to crawl and index.
+          </p>
+          <pre className="whitespace-pre-wrap text-xs overflow-x-auto bg-background p-4 rounded border">
+            {sitemapContent}
+          </pre>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default SitemapPage;

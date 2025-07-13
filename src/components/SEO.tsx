@@ -20,7 +20,10 @@ const SEO = ({
   keywords = "naturopath Brisbane, best naturopath Brisbane, natural medicine Brisbane, functional medicine Brisbane, gut health Brisbane",
   noindex = false
 }: SEOProps) => {
-  const fullCanonical = canonical ? `https://nxtlvlhealth.com.au${canonical}` : "https://nxtlvlhealth.com.au/";
+  // Fix canonical URL construction to avoid /index.html
+  const currentPath = window.location.pathname;
+  const cleanPath = currentPath === '/' ? '/' : currentPath.replace(/\/$/, '');
+  const fullCanonical = canonical ? `https://nxtlvlhealth.com.au${canonical}` : `https://nxtlvlhealth.com.au${cleanPath}`;
   
   return (
     <Helmet>

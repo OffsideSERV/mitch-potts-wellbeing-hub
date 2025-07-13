@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEO from '@/components/SEO';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, Phone, ChevronDown, ChevronUp, Microscope, Heart, TestTube, Eye, Activity, Beaker } from 'lucide-react';
@@ -102,14 +102,13 @@ const LiveBloodAnalysisBrisbane = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Helmet>
-        <title>Live Blood Analysis in Brisbane | Finally Get Answers</title>
-        <meta name="description" content="Tired, bloated, or just feel off? Get a live blood analysis in Brisbane to discover what's been holding you back and heal the root cause. Book a consult today!" />
-        <meta property="og:title" content="Live Blood Analysis in Brisbane | Finally Get Answers" />
-        <meta property="og:description" content="Tired, bloated, or just feel off? Get a live blood analysis in Brisbane to discover what's been holding you back and heal the root cause. Book a consult today!" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://nxtlvlhealth.com.au/services/live-blood-analysis-brisbane/" />
-      </Helmet>
+      <SEO
+        title="Live Blood Analysis in Brisbane | Finally Get Answers"
+        description="Tired, bloated, or just feel off? Get a live blood analysis in Brisbane to discover what's been holding you back and heal the root cause. Book a consult today!"
+        canonical="/services/live-blood-analysis-brisbane"
+        keywords="live blood analysis Brisbane, blood screening Brisbane, naturopath Brisbane, gut health Brisbane, nutritional deficiencies testing"
+      />
+      
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
