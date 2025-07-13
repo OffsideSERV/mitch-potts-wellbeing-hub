@@ -56,7 +56,7 @@ export default defineConfig(({ mode }) => ({
     // Optimize asset handling for better caching
     assetsInlineLimit: 4096, // Inline small assets as base64
     reportCompressedSize: false, // Disable gzip reporting for faster builds
-    sourcemap: true, // Enable sourcemaps for debugging
+    sourcemap: false, // Disable sourcemaps for production
   },
   // Copy static files including robots.txt and sitemap.xml
   publicDir: 'public'
