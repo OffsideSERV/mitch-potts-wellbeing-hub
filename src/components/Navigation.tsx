@@ -3,12 +3,13 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from "@/components/ui/navigation-menu";
-import { Menu, X, Phone, Calendar, ChevronDown } from "lucide-react";
+import { Menu, X, Phone, Calendar, ChevronDown, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import nxtlvlLogo from "/lovable-uploads/0aadec6a-7f1f-4a21-854c-39d8c3a218d0.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [expandedSections, setExpandedSections] = useState<{[key: string]: boolean}>({});
   const location = useLocation();
 
   const isActive = (path: string) => location.pathname === path;
@@ -67,7 +68,17 @@ const Navigation = () => {
     { title: "Windsor", href: "/areas-we-serve/naturopath-windsor" },
   ];
 
-  const closeSheet = () => setIsOpen(false);
+  const closeSheet = () => {
+    setIsOpen(false);
+    setExpandedSections({});
+  };
+
+  const toggleSection = (section: string) => {
+    setExpandedSections(prev => ({
+      ...prev,
+      [section]: !prev[section]
+    }));
+  };
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -387,82 +398,220 @@ const Navigation = () => {
                     Home
                   </Link>
                   
+                  {/* Services Section */}
                   <div className="space-y-2">
-                    <div className="text-base font-medium text-foreground">Services</div>
-                    {servicesItems.map((item) => (
-                      <Link
-                        key={item.href}
-                        to={item.href}
-                        onClick={closeSheet}
-                        className="block text-sm text-muted-foreground hover:text-primary pl-4"
-                      >
-                        {item.title}
-                      </Link>
-                    ))}
+                    <button
+                      onClick={() => toggleSection('services')}
+                      className="flex items-center justify-between w-full text-left text-base font-medium text-foreground"
+                    >
+                      Services
+                      <ChevronRight className={`h-4 w-4 transition-transform ${expandedSections.services ? 'rotate-90' : ''}`} />
+                    </button>
+                    {expandedSections.services && (
+                      <div className="pl-4 space-y-2">
+                        {servicesItems.map((item) => (
+                          <Link
+                            key={item.href}
+                            to={item.href}
+                            onClick={closeSheet}
+                            className="block text-sm text-muted-foreground hover:text-primary"
+                          >
+                            {item.title}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
                   </div>
 
+                  {/* What We Treat Section */}
                   <div className="space-y-2">
-                    <div className="text-base font-medium text-foreground">What We Treat</div>
-                    {treatmentItems.map((item) => (
-                      <div key={item.href}>
-                        <Link
-                          to={item.href}
-                          onClick={closeSheet}
-                          className="block text-sm text-muted-foreground hover:text-primary pl-4"
-                        >
-                          {item.title}
-                        </Link>
-                        {item.subItems && (
-                          <div className="pl-8 space-y-1 mt-1">
-                            {item.subItems.map((subItem) => (
-                              <div key={subItem.href || subItem.title}>
-                                {subItem.href ? (
-                                  <Link
-                                    to={subItem.href}
-                                    onClick={closeSheet}
-                                    className="block text-xs text-muted-foreground hover:text-primary"
-                                  >
-                                    • {subItem.title}
-                                  </Link>
-                                ) : (
-                                  <div>
-                                    <span className="block text-xs text-muted-foreground">• {subItem.title}</span>
-                                    {subItem.subItems && (
-                                      <div className="pl-4 space-y-1 mt-1">
-                                        {subItem.subItems.map((nestedItem) => (
-                                          <Link
-                                            key={nestedItem.href}
-                                            to={nestedItem.href}
-                                            onClick={closeSheet}
-                                            className="block text-xs text-muted-foreground hover:text-primary"
-                                          >
-                                            - {nestedItem.title}
-                                          </Link>
-                                        ))}
-                                      </div>
-                                    )}
+                    <button
+                      onClick={() => toggleSection('treatments')}
+                      className="flex items-center justify-between w-full text-left text-base font-medium text-foreground"
+                    >
+                      What We Treat
+                      <ChevronRight className={`h-4 w-4 transition-transform ${expandedSections.treatments ? 'rotate-90' : ''}`} />
+                    </button>
+                    {expandedSections.treatments && (
+                      <div className="pl-4 space-y-2">
+                        {/* Gut Health */}
+                        <div>
+                          <button
+                            onClick={() => toggleSection('gutHealth')}
+                            className="flex items-center justify-between w-full text-left text-sm text-muted-foreground hover:text-primary"
+                          >
+                            Gut Health
+                            <ChevronRight className={`h-3 w-3 transition-transform ${expandedSections.gutHealth ? 'rotate-90' : ''}`} />
+                          </button>
+                          {expandedSections.gutHealth && (
+                            <div className="pl-4 space-y-1 mt-1">
+                              <Link
+                                to="/what-we-treat/sibo-naturopath"
+                                onClick={closeSheet}
+                                className="block text-xs text-muted-foreground hover:text-primary"
+                              >
+                                • SIBO
+                              </Link>
+                              
+                              {/* IBS Subsection */}
+                              <div>
+                                <button
+                                  onClick={() => toggleSection('ibs')}
+                                  className="flex items-center justify-between w-full text-left text-xs text-muted-foreground hover:text-primary"
+                                >
+                                  • IBS
+                                  <ChevronRight className={`h-3 w-3 transition-transform ${expandedSections.ibs ? 'rotate-90' : ''}`} />
+                                </button>
+                                {expandedSections.ibs && (
+                                  <div className="pl-4 space-y-1 mt-1">
+                                    <Link
+                                      to="/what-we-treat/ibs-naturopath"
+                                      onClick={closeSheet}
+                                      className="block text-xs text-muted-foreground hover:text-primary"
+                                    >
+                                      - IBS Naturopathy
+                                    </Link>
+                                    <Link
+                                      to="/what-we-treat/ibs-clinic"
+                                      onClick={closeSheet}
+                                      className="block text-xs text-muted-foreground hover:text-primary"
+                                    >
+                                      - IBS Clinic
+                                    </Link>
                                   </div>
                                 )}
                               </div>
-                            ))}
-                          </div>
-                        )}
+                              
+                              <Link
+                                to="/what-we-treat/gut-health-specialist"
+                                onClick={closeSheet}
+                                className="block text-xs text-muted-foreground hover:text-primary"
+                              >
+                                • Gut Health Specialist
+                              </Link>
+                            </div>
+                          )}
+                        </div>
+                        
+                        {/* Simple treatment items */}
+                        <Link
+                          to="/what-we-treat/weight-loss-naturopath-brisbane"
+                          onClick={closeSheet}
+                          className="block text-sm text-muted-foreground hover:text-primary"
+                        >
+                          Weight Loss
+                        </Link>
+                        
+                        <Link
+                          to="/what-we-treat/wellness-clinic-brisbane"
+                          onClick={closeSheet}
+                          className="block text-sm text-muted-foreground hover:text-primary"
+                        >
+                          Overall Wellness
+                        </Link>
+                        
+                        {/* Skin Conditions */}
+                        <div>
+                          <button
+                            onClick={() => toggleSection('skinConditions')}
+                            className="flex items-center justify-between w-full text-left text-sm text-muted-foreground hover:text-primary"
+                          >
+                            Skin Conditions
+                            <ChevronRight className={`h-3 w-3 transition-transform ${expandedSections.skinConditions ? 'rotate-90' : ''}`} />
+                          </button>
+                          {expandedSections.skinConditions && (
+                            <div className="pl-4 space-y-1 mt-1">
+                              <Link
+                                to="/what-we-treat/hormonal-acne-naturopath"
+                                onClick={closeSheet}
+                                className="block text-xs text-muted-foreground hover:text-primary"
+                              >
+                                • Hormonal Acne
+                              </Link>
+                              <Link
+                                to="/what-we-treat/acne-naturopathy"
+                                onClick={closeSheet}
+                                className="block text-xs text-muted-foreground hover:text-primary"
+                              >
+                                • Acne
+                              </Link>
+                              <Link
+                                to="/what-we-treat/naturopath-eczema"
+                                onClick={closeSheet}
+                                className="block text-xs text-muted-foreground hover:text-primary"
+                              >
+                                • Eczema
+                              </Link>
+                            </div>
+                          )}
+                        </div>
+                        
+                        <Link
+                          to="/what-we-treat/naturopath-thyroid-brisbane"
+                          onClick={closeSheet}
+                          className="block text-sm text-muted-foreground hover:text-primary"
+                        >
+                          Thyroid
+                        </Link>
+                        
+                        <Link
+                          to="/what-we-treat/adhd-naturopath"
+                          onClick={closeSheet}
+                          className="block text-sm text-muted-foreground hover:text-primary"
+                        >
+                          ADHD
+                        </Link>
+                        
+                        <Link
+                          to="/what-we-treat/naturopath-anxiety"
+                          onClick={closeSheet}
+                          className="block text-sm text-muted-foreground hover:text-primary"
+                        >
+                          Anxiety
+                        </Link>
+                        
+                        <Link
+                          to="/what-we-treat/naturopath-diabetes-brisbane"
+                          onClick={closeSheet}
+                          className="block text-sm text-muted-foreground hover:text-primary"
+                        >
+                          Diabetes
+                        </Link>
+                        
+                        <Link
+                          to="/what-we-treat/childrens-naturopath-brisbane"
+                          onClick={closeSheet}
+                          className="block text-sm text-muted-foreground hover:text-primary"
+                        >
+                          Children's Health
+                        </Link>
                       </div>
-                    ))}
+                    )}
                   </div>
 
+                  {/* Areas We Serve Section */}
                   <div className="space-y-2">
-                    <div className="text-base font-medium text-foreground">Areas We Serve</div>
-                    {areasItems.map((item) => (
-                      <Link
-                        key={item.href}
-                        to={item.href}
-                        onClick={closeSheet}
-                        className="block text-sm text-muted-foreground hover:text-primary pl-4"
-                      >
-                        {item.title}
-                      </Link>
-                    ))}
+                    <button
+                      onClick={() => toggleSection('areas')}
+                      className="flex items-center justify-between w-full text-left text-base font-medium text-foreground"
+                    >
+                      Areas We Serve
+                      <ChevronRight className={`h-4 w-4 transition-transform ${expandedSections.areas ? 'rotate-90' : ''}`} />
+                    </button>
+                    {expandedSections.areas && (
+                      <div className="pl-4 space-y-2">
+                        {areasItems.map((item) => (
+                          <Link
+                            key={item.href}
+                            to={item.href}
+                            onClick={closeSheet}
+                            className="block text-sm text-muted-foreground hover:text-primary"
+                          >
+                            {item.title}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
                   </div>
 
                   <Link
