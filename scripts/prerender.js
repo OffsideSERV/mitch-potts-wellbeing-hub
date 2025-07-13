@@ -659,7 +659,12 @@ const getPageContent = (pathname) => {
     )
   };
 
-  return pageContent[pathname] || defaultContent;
+  console.log(`Looking for pathname: "${pathname}"`);
+  console.log(`Available routes: ${Object.keys(pageContent).join(', ')}`);
+  const result = pageContent[pathname] || defaultContent;
+  console.log(`Returning content for: ${result.title}`);
+  
+  return result;
 };
 
 // All routes to pre-render - matches App.tsx routing exactly
