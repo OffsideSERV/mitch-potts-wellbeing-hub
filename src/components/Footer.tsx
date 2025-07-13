@@ -135,6 +135,9 @@ const Footer = () => {
               <Link to="/cancellation-policy" className="text-sm text-muted-foreground hover:text-primary">
                 Cancellation Policy
               </Link>
+              <a href="/sitemap.xml" className="text-sm text-muted-foreground hover:text-primary">
+                Sitemap
+              </a>
             </div>
           </div>
         </div>
