@@ -1,6 +1,24 @@
+# Bot detection - serve static HTML to crawlers with User-Agent matching
+/ /index-static.html 200 User-Agent:*googlebot*
+/ /index-static.html 200 User-Agent:*bingbot*
+/ /index-static.html 200 User-Agent:*slurp*
+/ /index-static.html 200 User-Agent:*duckduckbot*
+/ /index-static.html 200 User-Agent:*baiduspider*
+/ /index-static.html 200 User-Agent:*yandexbot*
+/ /index-static.html 200 User-Agent:*facebookexternalhit*
+/ /index-static.html 200 User-Agent:*twitterbot*
+/ /index-static.html 200 User-Agent:*rogerbot*
+/ /index-static.html 200 User-Agent:*linkedinbot*
+/ /index-static.html 200 User-Agent:*embedly*
+/ /index-static.html 200 User-Agent:*quora*link*preview*
+/ /index-static.html 200 User-Agent:*showyoubot*
+/ /index-static.html 200 User-Agent:*outbrain*
+/ /index-static.html 200 User-Agent:*pinterest*
+/ /index-static.html 200 User-Agent:*developers.google.com*
+
 # Serve static files directly
 /robots.txt   /robots.txt   200
 /sitemap.xml  /sitemap.xml  200
 
-# All other routes go to React app
+# All other routes go to React app for human users
 /*  /index.html  200
