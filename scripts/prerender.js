@@ -765,6 +765,12 @@ function createStaticFiles() {
     let filePath;
     if (route === '/') {
       filePath = path.join(distPath, 'index.html');
+    } else if (route === '/sitemap.xml') {
+      // Special case for sitemap.xml - write as actual XML file
+      filePath = path.join(distPath, 'sitemap.xml');
+    } else if (route === '/robots.txt') {
+      // Special case for robots.txt - write as actual TXT file
+      filePath = path.join(distPath, 'robots.txt');
     } else {
       // Create directory structure for nested routes
       const routeDir = path.join(distPath, route);
