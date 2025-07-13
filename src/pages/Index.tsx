@@ -4,13 +4,14 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, TestTube, BadgeCheck, Target, Shield, Zap, Coffee, Clock, Brain, Phone, Pill, Salad, DollarSign, CheckCircle, Star } from 'lucide-react';
+
 const Index = () => {
   const services = useMemo(() => [{
     title: "Naturopathy",
     description: "We offer powerful yet gentle support for your whole body. We work with chronic fatigue, gut health, hormonal imbalance, and more.",
     icon: <Leaf className="h-8 w-8 text-primary" />
   }, {
-    title: "Nutritional Medicine",
+    title: "Nutritional Medicine", 
     description: "You'll get a fully personalised nutrition plan built for your needs and goals. No more fad diets, just simple, powerful food support.",
     icon: <Salad className="h-8 w-8 text-primary" />
   }, {
@@ -30,7 +31,9 @@ const Index = () => {
     description: "Workouts and lifestyle coaching that help support both healing and performance – all tailored for your life and schedule.",
     icon: <Target className="h-8 w-8 text-primary" />
   }], []);
+  
   const conditions = useMemo(() => ["Digestive disorders (IBS, SIBO, bloating, reflux)", "Hormonal imbalances (PMS, PCOS, peri menopause)", "Chronic fatigue and burnout", "Skin issues (eczema, acne)", "Mental health and stress", "Poor sleep and insomnia", "Autoimmune support", "Food intolerances and allergies", "Weight management", "Immune system support", "Mood disorders like anxiety or low mood"], []);
+  
   const whyDifferent = useMemo(() => [{
     title: "We Test, We Don't Guess",
     description: "Our live blood analysis and functional testing show us exactly what's going on in your body. There's no guessing, just real answers.",
@@ -60,8 +63,14 @@ const Index = () => {
                 </h1>
                 
                 {/* Mobile Image - placed right after headline */}
-                <div className="relative lg:hidden mb-8 -mx-4">
-                  <LazyImage alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/f459679d-99b6-4b58-affb-e2cedb040e6e.png" width={800} height={600} />
+                <div className="relative lg:hidden mb-20 -mx-4">
+                  <LazyImage 
+                    alt="Naturopath having consultation with female patient at NXTLVL Health" 
+                    className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
+                    src="/lovable-uploads/f459679d-99b6-4b58-affb-e2cedb040e6e.png"
+                    width={800}
+                    height={600}
+                  />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Microscope className="h-6 w-6 text-primary" />
@@ -76,7 +85,7 @@ const Index = () => {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight" asChild>
-                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer" className="my-[15px]">
+                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
                     <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                     <span className="text-center">Book a Free 15-Min Consult</span>
                   </a>
@@ -97,7 +106,13 @@ const Index = () => {
             
             {/* Desktop Image - only visible on large screens */}
             <div className="relative hidden lg:block">
-              <LazyImage alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/f459679d-99b6-4b58-affb-e2cedb040e6e.png" width={800} height={600} />
+              <LazyImage 
+                alt="Naturopath having consultation with female patient at NXTLVL Health" 
+                className="rounded-2xl shadow-2xl w-full h-auto" 
+                src="/lovable-uploads/f459679d-99b6-4b58-affb-e2cedb040e6e.png"
+                width={800}
+                height={600}
+              />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Microscope className="h-8 w-8 text-primary" />
@@ -134,14 +149,20 @@ const Index = () => {
       </section>
 
       {/* Finally A Brisbane Naturopath Who Gets It */}
-      <section className="py-20 px-4">
+      <section className="py-24 px-4 mt-8">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Finally – A Brisbane Naturopath Who Truly Gets It</h2>
           </div>
 
           <div className="mb-12">
-            <LazyImage src="/lovable-uploads/9e5ed0a0-bb35-4fde-9965-94edcb9294a8.png" alt="Woman dealing with health concerns needing naturopathic care" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" width={800} height={600} />
+            <LazyImage 
+              src="/lovable-uploads/9e5ed0a0-bb35-4fde-9965-94edcb9294a8.png" 
+              alt="Woman dealing with health concerns needing naturopathic care" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
+              width={800}
+              height={600}
+            />
           </div>
 
           <div className="max-w-4xl mx-auto text-center space-y-6 text-lg text-muted-foreground">
@@ -245,7 +266,13 @@ const Index = () => {
             </div>
             
             <div className="relative">
-              <LazyImage src="/lovable-uploads/7f8808bd-07aa-4759-8e99-de3701adb7e7.png" alt="Woman consulting with Brisbane naturopath at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" width={800} height={600} />
+              <LazyImage 
+                src="/lovable-uploads/7f8808bd-07aa-4759-8e99-de3701adb7e7.png" 
+                alt="Woman consulting with Brisbane naturopath at NXTLVL Health" 
+                className="rounded-2xl shadow-lg w-full h-auto"
+                width={800}
+                height={600}
+              />
             </div>
           </div>
 
@@ -276,7 +303,13 @@ const Index = () => {
           </div>
 
           <div className="mb-12">
-            <LazyImage src="/lovable-uploads/29a3a739-d347-46de-b287-0c187b12d5b7.png" alt="Naturopath performing live blood analysis at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" width={800} height={600} />
+            <LazyImage 
+              src="/lovable-uploads/29a3a739-d347-46de-b287-0c187b12d5b7.png" 
+              alt="Naturopath performing live blood analysis at NXTLVL Health Brisbane" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
+              width={800}
+              height={600}
+            />
           </div>
         </div>
       </section>
@@ -289,7 +322,13 @@ const Index = () => {
           </div>
 
           <div className="mb-12">
-            <LazyImage src="/lovable-uploads/889bad55-c07b-401c-8b1d-ee0484fff02d.png" alt="Naturopath checking patient vitals at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" width={800} height={600} />
+            <LazyImage 
+              src="/lovable-uploads/889bad55-c07b-401c-8b1d-ee0484fff02d.png" 
+              alt="Naturopath checking patient vitals at NXTLVL Health" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
+              width={800}
+              height={600}
+            />
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-16">
@@ -327,7 +366,13 @@ const Index = () => {
           </div>
 
           <div className="mb-12">
-            <LazyImage src="/lovable-uploads/17548d2b-e4a0-4571-aba5-1705f04c994e.png" alt="Natural health services at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" width={800} height={600} />
+            <LazyImage 
+              src="/lovable-uploads/17548d2b-e4a0-4571-aba5-1705f04c994e.png" 
+              alt="Natural health services at NXTLVL Health Brisbane" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
+              width={800}
+              height={600}
+            />
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
@@ -356,7 +401,13 @@ const Index = () => {
           </div>
 
           <div className="mb-12">
-            <LazyImage src="/lovable-uploads/61e65ac0-1104-41b0-8fad-b262f20e0290.png" alt="Health conditions we help with at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" width={800} height={600} />
+            <LazyImage 
+              src="/lovable-uploads/61e65ac0-1104-41b0-8fad-b262f20e0290.png" 
+              alt="Health conditions we help with at NXTLVL Health" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
+              width={800}
+              height={600}
+            />
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-16">
@@ -384,7 +435,13 @@ const Index = () => {
           </div>
 
           <div className="mb-12">
-            <LazyImage src="/lovable-uploads/87b88ea1-0f03-408b-89c7-477dbb81bc30.png" alt="Children's naturopathic health care" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" width={800} height={600} />
+            <LazyImage 
+              src="/lovable-uploads/87b88ea1-0f03-408b-89c7-477dbb81bc30.png" 
+              alt="Children's naturopathic health care" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
+              width={800}
+              height={600}
+            />
           </div>
 
           <div className="text-center mb-12">
@@ -403,7 +460,13 @@ const Index = () => {
           </div>
 
           <div className="mb-12">
-            <LazyImage src="/lovable-uploads/eb18265f-6c19-482a-a611-fefbc994ee40.png" alt="Mitch Potts - Best naturopath in Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" width={800} height={600} />
+            <LazyImage 
+              src="/lovable-uploads/eb18265f-6c19-482a-a611-fefbc994ee40.png" 
+              alt="Mitch Potts - Best naturopath in Brisbane" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
+              width={800}
+              height={600}
+            />
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-16">
@@ -501,4 +564,5 @@ const Index = () => {
 
     </div>;
 };
+
 export default Index;
