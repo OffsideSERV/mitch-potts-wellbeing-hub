@@ -4,6 +4,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
+
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   server: {
@@ -12,8 +13,7 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    mode === 'development' &&
-    componentTagger(),
+    mode === 'development' && componentTagger(),
   ].filter(Boolean),
   resolve: {
     alias: {
@@ -49,14 +49,13 @@ export default defineConfig(({ mode }) => ({
     minify: 'terser',
     terserOptions: {
       compress: {
-        drop_console: false, // Keep console logs for debugging white screen
+        drop_console: true,
         drop_debugger: true
       }
     },
     // Optimize asset handling for better caching
     assetsInlineLimit: 4096, // Inline small assets as base64
     reportCompressedSize: false, // Disable gzip reporting for faster builds
-    sourcemap: false, // Disable sourcemaps for production
   },
   // Copy static files including robots.txt and sitemap.xml
   publicDir: 'public'
