@@ -1,4 +1,5 @@
 import React, { useMemo } from 'react';
+import SEO from '@/components/SEO';
 import LazyImage from '@/components/LazyImage';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -52,6 +53,12 @@ const Index = () => {
     icon: <Shield className="h-6 w-6 text-primary" />
   }], []);
   return <div className="min-h-screen bg-background">
+      <SEO
+        title="Best Naturopath Brisbane | Book a FREE 15-Min Consult!"
+        description="Feel like something's wrong but no one's listening? NXTLVL Health is the best Naturopath in Brisbane and is here to give you the answers you've been looking for"
+        canonical="/"
+        keywords="naturopath Brisbane, best naturopath Brisbane, natural medicine Brisbane, functional medicine Brisbane, gut health Brisbane"
+      />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">

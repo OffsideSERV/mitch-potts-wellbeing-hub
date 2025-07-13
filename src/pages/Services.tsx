@@ -1,5 +1,6 @@
 
 import React from 'react';
+import SEO from '@/components/SEO';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, Phone, Leaf, TestTube, Salad, Zap, Target, Heart, Shield, Star } from 'lucide-react';
@@ -48,6 +49,12 @@ const Services = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Naturopathic Services Brisbane | NXTLVL Health"
+        description="Comprehensive naturopathic services including functional medicine, nutrition, laser therapy, and personal training. Tailored health plans for your well-being in Brisbane."
+        canonical="/services"
+        keywords="naturopathic services Brisbane, functional medicine Brisbane, nutrition Brisbane, laser therapy Brisbane, personal training Brisbane"
+      />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">

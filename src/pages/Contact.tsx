@@ -1,14 +1,16 @@
-import { Helmet } from 'react-helmet-async';
+import SEO from '@/components/SEO';
 import { Button } from '@/components/ui/button';
 import { Phone, Mail, MapPin, Calendar, Clock } from 'lucide-react';
 
 const Contact = () => {
   return (
     <>
-      <Helmet>
-        <title>Contact Us | NXTLVL Health</title>
-        <meta name="description" content="Get in touch with NXTLVL Health. Book a free 15-minute consultation with our expert naturopath or call us directly. Located in Brisbane, Queensland." />
-      </Helmet>
+      <SEO
+        title="Contact Us | NXTLVL Health Brisbane"
+        description="Get in touch with NXTLVL Health. Book a free 15-minute consultation with our expert naturopath or call us directly. Located in Brisbane, Queensland."
+        canonical="/contact"
+        keywords="contact naturopath Brisbane, book consultation Brisbane, NXTLVL Health contact"
+      />
 
       <div className="min-h-screen bg-background">
         <div className="container mx-auto px-4 py-16">
