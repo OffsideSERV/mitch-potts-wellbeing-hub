@@ -1,6 +1,5 @@
 import { useState } from "react";
-import Link from "next/link";
-import { useRouter } from "next/router";
+import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from "@/components/ui/navigation-menu";
@@ -11,9 +10,9 @@ import nxtlvlLogo from "/lovable-uploads/0aadec6a-7f1f-4a21-854c-39d8c3a218d0.pn
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [expandedSections, setExpandedSections] = useState<{[key: string]: boolean}>({});
-  const router = useRouter();
+  const location = useLocation();
 
-  const isActive = (path: string) => router.pathname === path;
+  const isActive = (path: string) => location.pathname === path;
 
   const servicesItems = [
     { title: "Live Blood Analysis in Brisbane", href: "/services/live-blood-analysis-brisbane" },
@@ -86,7 +85,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center">
+          <Link to="/" className="flex items-center">
             <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-14 w-14" />
           </Link>
 
@@ -94,7 +93,7 @@ const Navigation = () => {
           <NavigationMenu className="hidden lg:flex">
             <NavigationMenuList>
               <NavigationMenuItem>
-                <Link href="/" className={`text-sm font-medium transition-colors hover:text-primary px-4 py-2 ${
+                <Link to="/" className={`text-sm font-medium transition-colors hover:text-primary px-4 py-2 ${
                   isActive("/") ? "text-primary" : "text-muted-foreground"
                 }`}>
                   Home
@@ -109,7 +108,7 @@ const Navigation = () => {
                       <li key={item.href}>
                         <NavigationMenuLink asChild>
                           <Link
-                            href={item.href}
+                            to={item.href}
                             className={cn(
                               "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                             )}
@@ -134,7 +133,7 @@ const Navigation = () => {
                         <div className="relative group">
                           <NavigationMenuLink asChild>
                             <Link
-                              href="/what-we-treat/gut-health-naturopath-brisbane"
+                              to="/what-we-treat/gut-health-naturopath-brisbane"
                               className="flex items-center justify-between select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
                             >
                               Gut Health
@@ -147,7 +146,7 @@ const Navigation = () => {
                             <div className="p-2 space-y-1">
                               <NavigationMenuLink asChild>
                                 <Link
-                                  href="/what-we-treat/sibo-naturopath"
+                                  to="/what-we-treat/sibo-naturopath"
                                   className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
                                 >
                                   SIBO
@@ -158,7 +157,7 @@ const Navigation = () => {
                               <div className="relative group/ibs">
                                 <NavigationMenuLink asChild>
                                   <Link
-                                    href="/what-we-treat/ibs-brisbane"
+                                    to="/what-we-treat/ibs-brisbane"
                                     className="flex items-center justify-between select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
                                   >
                                     IBS
@@ -171,7 +170,7 @@ const Navigation = () => {
                                   <div className="p-2 space-y-1">
                                     <NavigationMenuLink asChild>
                                       <Link
-                                        href="/what-we-treat/ibs-naturopath"
+                                        to="/what-we-treat/ibs-naturopath"
                                         className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
                                       >
                                         IBS Naturopathy
@@ -179,7 +178,7 @@ const Navigation = () => {
                                     </NavigationMenuLink>
                                     <NavigationMenuLink asChild>
                                       <Link
-                                        href="/what-we-treat/ibs-clinic"
+                                        to="/what-we-treat/ibs-clinic"
                                         className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
                                       >
                                         IBS Clinic
@@ -191,7 +190,7 @@ const Navigation = () => {
                               
                               <NavigationMenuLink asChild>
                                 <Link
-                                  href="/what-we-treat/gut-health-specialist"
+                                  to="/what-we-treat/gut-health-specialist"
                                   className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
                                 >
                                   Gut Health Specialist
@@ -203,7 +202,7 @@ const Navigation = () => {
                         
                         <NavigationMenuLink asChild>
                           <Link
-                            href="/what-we-treat/weight-loss-naturopath-brisbane"
+                            to="/what-we-treat/weight-loss-naturopath-brisbane"
                             className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
                           >
                             Weight Loss
@@ -212,7 +211,7 @@ const Navigation = () => {
                         
                         <NavigationMenuLink asChild>
                           <Link
-                            href="/what-we-treat/wellness-clinic-brisbane"
+                            to="/what-we-treat/wellness-clinic-brisbane"
                             className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
                           >
                             Overall Wellness
@@ -223,7 +222,7 @@ const Navigation = () => {
                         <div className="relative group">
                           <NavigationMenuLink asChild>
                             <Link
-                              href="/what-we-treat/naturopathy-for-skin"
+                              to="/what-we-treat/naturopathy-for-skin"
                               className="flex items-center justify-between select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
                             >
                               Skin Conditions
@@ -236,7 +235,7 @@ const Navigation = () => {
                             <div className="p-2 space-y-1">
                               <NavigationMenuLink asChild>
                                 <Link
-                                  href="/what-we-treat/hormonal-acne-naturopath"
+                                  to="/what-we-treat/hormonal-acne-naturopath"
                                   className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
                                 >
                                   Hormonal Acne
@@ -244,7 +243,7 @@ const Navigation = () => {
                               </NavigationMenuLink>
                               <NavigationMenuLink asChild>
                                 <Link
-                                  href="/what-we-treat/acne-naturopathy"
+                                  to="/what-we-treat/acne-naturopathy"
                                   className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
                                 >
                                   Acne
@@ -252,7 +251,7 @@ const Navigation = () => {
                               </NavigationMenuLink>
                               <NavigationMenuLink asChild>
                                 <Link
-                                  href="/what-we-treat/naturopath-eczema"
+                                  to="/what-we-treat/naturopath-eczema"
                                   className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
                                 >
                                   Eczema
@@ -267,7 +266,7 @@ const Navigation = () => {
                       <div className="space-y-3">
                         <NavigationMenuLink asChild>
                           <Link
-                            href="/what-we-treat/naturopath-thyroid-brisbane"
+                            to="/what-we-treat/naturopath-thyroid-brisbane"
                             className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
                           >
                             Thyroid
@@ -276,7 +275,7 @@ const Navigation = () => {
                         
                         <NavigationMenuLink asChild>
                           <Link
-                            href="/what-we-treat/adhd-naturopath"
+                            to="/what-we-treat/adhd-naturopath"
                             className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
                           >
                             ADHD
@@ -285,7 +284,7 @@ const Navigation = () => {
                         
                         <NavigationMenuLink asChild>
                           <Link
-                            href="/what-we-treat/naturopath-anxiety"
+                            to="/what-we-treat/naturopath-anxiety"
                             className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
                           >
                             Anxiety
@@ -294,7 +293,7 @@ const Navigation = () => {
                         
                         <NavigationMenuLink asChild>
                           <Link
-                            href="/what-we-treat/naturopath-diabetes-brisbane"
+                            to="/what-we-treat/naturopath-diabetes-brisbane"
                             className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
                           >
                             Diabetes
@@ -303,7 +302,7 @@ const Navigation = () => {
                         
                         <NavigationMenuLink asChild>
                           <Link
-                            href="/what-we-treat/childrens-naturopath-brisbane"
+                            to="/what-we-treat/childrens-naturopath-brisbane"
                             className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
                           >
                             Children's Health
@@ -323,7 +322,7 @@ const Navigation = () => {
                       <li key={item.href}>
                         <NavigationMenuLink asChild>
                           <Link
-                            href={item.href}
+                            to={item.href}
                             className={cn(
                               "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                             )}
@@ -338,7 +337,7 @@ const Navigation = () => {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link href="/blog" className={`text-sm font-medium transition-colors hover:text-primary px-4 py-2 ${
+                <Link to="/blog" className={`text-sm font-medium transition-colors hover:text-primary px-4 py-2 ${
                   isActive("/blog") ? "text-primary" : "text-muted-foreground"
                 }`}>
                   Blog
@@ -346,7 +345,7 @@ const Navigation = () => {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link href="/contact" className={`text-sm font-medium transition-colors hover:text-primary px-4 py-2 ${
+                <Link to="/contact" className={`text-sm font-medium transition-colors hover:text-primary px-4 py-2 ${
                   isActive("/contact") ? "text-primary" : "text-muted-foreground"
                 }`}>
                   Contact
@@ -364,7 +363,7 @@ const Navigation = () => {
               </a>
             </Button>
             <Button size="sm" asChild>
-              <Link href="/book-now">
+              <Link to="/book-now">
                 <Calendar className="h-4 w-4 mr-2" />
                 Book Consult
               </Link>
@@ -387,7 +386,7 @@ const Navigation = () => {
 
                 <nav className="flex flex-col space-y-4 mb-8">
                   <Link
-                    href="/"
+                    to="/"
                     onClick={closeSheet}
                     className={`text-base font-medium transition-colors hover:text-primary ${
                       isActive("/") ? "text-primary" : "text-muted-foreground"
@@ -410,7 +409,7 @@ const Navigation = () => {
                         {servicesItems.map((item) => (
                           <Link
                             key={item.href}
-                            href={item.href}
+                            to={item.href}
                             onClick={closeSheet}
                             className="block text-sm text-muted-foreground hover:text-primary"
                           >
@@ -444,7 +443,7 @@ const Navigation = () => {
                           {expandedSections.gutHealth && (
                             <div className="pl-4 space-y-1 mt-1">
                               <Link
-                                href="/what-we-treat/sibo-naturopath"
+                                to="/what-we-treat/sibo-naturopath"
                                 onClick={closeSheet}
                                 className="block text-xs text-muted-foreground hover:text-primary"
                               >
@@ -463,14 +462,14 @@ const Navigation = () => {
                                 {expandedSections.ibs && (
                                   <div className="pl-4 space-y-1 mt-1">
                                     <Link
-                                      href="/what-we-treat/ibs-naturopath"
+                                      to="/what-we-treat/ibs-naturopath"
                                       onClick={closeSheet}
                                       className="block text-xs text-muted-foreground hover:text-primary"
                                     >
                                       - IBS Naturopathy
                                     </Link>
                                     <Link
-                                      href="/what-we-treat/ibs-clinic"
+                                      to="/what-we-treat/ibs-clinic"
                                       onClick={closeSheet}
                                       className="block text-xs text-muted-foreground hover:text-primary"
                                     >
@@ -481,7 +480,7 @@ const Navigation = () => {
                               </div>
                               
                               <Link
-                                href="/what-we-treat/gut-health-specialist"
+                                to="/what-we-treat/gut-health-specialist"
                                 onClick={closeSheet}
                                 className="block text-xs text-muted-foreground hover:text-primary"
                               >
@@ -493,7 +492,7 @@ const Navigation = () => {
                         
                         {/* Simple treatment items */}
                         <Link
-                          href="/what-we-treat/weight-loss-naturopath-brisbane"
+                          to="/what-we-treat/weight-loss-naturopath-brisbane"
                           onClick={closeSheet}
                           className="block text-sm text-muted-foreground hover:text-primary"
                         >
@@ -501,7 +500,7 @@ const Navigation = () => {
                         </Link>
                         
                         <Link
-                          href="/what-we-treat/wellness-clinic-brisbane"
+                          to="/what-we-treat/wellness-clinic-brisbane"
                           onClick={closeSheet}
                           className="block text-sm text-muted-foreground hover:text-primary"
                         >
@@ -520,21 +519,21 @@ const Navigation = () => {
                           {expandedSections.skinConditions && (
                             <div className="pl-4 space-y-1 mt-1">
                               <Link
-                                href="/what-we-treat/hormonal-acne-naturopath"
+                                to="/what-we-treat/hormonal-acne-naturopath"
                                 onClick={closeSheet}
                                 className="block text-xs text-muted-foreground hover:text-primary"
                               >
                                 • Hormonal Acne
                               </Link>
                               <Link
-                                href="/what-we-treat/acne-naturopathy"
+                                to="/what-we-treat/acne-naturopathy"
                                 onClick={closeSheet}
                                 className="block text-xs text-muted-foreground hover:text-primary"
                               >
                                 • Acne
                               </Link>
                               <Link
-                                href="/what-we-treat/naturopath-eczema"
+                                to="/what-we-treat/naturopath-eczema"
                                 onClick={closeSheet}
                                 className="block text-xs text-muted-foreground hover:text-primary"
                               >
@@ -545,7 +544,7 @@ const Navigation = () => {
                         </div>
                         
                         <Link
-                          href="/what-we-treat/naturopath-thyroid-brisbane"
+                          to="/what-we-treat/naturopath-thyroid-brisbane"
                           onClick={closeSheet}
                           className="block text-sm text-muted-foreground hover:text-primary"
                         >
@@ -553,7 +552,7 @@ const Navigation = () => {
                         </Link>
                         
                         <Link
-                          href="/what-we-treat/adhd-naturopath"
+                          to="/what-we-treat/adhd-naturopath"
                           onClick={closeSheet}
                           className="block text-sm text-muted-foreground hover:text-primary"
                         >
@@ -561,7 +560,7 @@ const Navigation = () => {
                         </Link>
                         
                         <Link
-                          href="/what-we-treat/naturopath-anxiety"
+                          to="/what-we-treat/naturopath-anxiety"
                           onClick={closeSheet}
                           className="block text-sm text-muted-foreground hover:text-primary"
                         >
@@ -569,7 +568,7 @@ const Navigation = () => {
                         </Link>
                         
                         <Link
-                          href="/what-we-treat/naturopath-diabetes-brisbane"
+                          to="/what-we-treat/naturopath-diabetes-brisbane"
                           onClick={closeSheet}
                           className="block text-sm text-muted-foreground hover:text-primary"
                         >
@@ -577,7 +576,7 @@ const Navigation = () => {
                         </Link>
                         
                         <Link
-                          href="/what-we-treat/childrens-naturopath-brisbane"
+                          to="/what-we-treat/childrens-naturopath-brisbane"
                           onClick={closeSheet}
                           className="block text-sm text-muted-foreground hover:text-primary"
                         >
@@ -601,7 +600,7 @@ const Navigation = () => {
                         {areasItems.map((item) => (
                           <Link
                             key={item.href}
-                            href={item.href}
+                            to={item.href}
                             onClick={closeSheet}
                             className="block text-sm text-muted-foreground hover:text-primary"
                           >
@@ -613,7 +612,7 @@ const Navigation = () => {
                   </div>
 
                   <Link
-                    href="/blog"
+                    to="/blog"
                     onClick={closeSheet}
                     className={`text-base font-medium transition-colors hover:text-primary ${
                       isActive("/blog") ? "text-primary" : "text-muted-foreground"
@@ -623,7 +622,7 @@ const Navigation = () => {
                   </Link>
 
                   <Link
-                    href="/contact"
+                    to="/contact"
                     onClick={closeSheet}
                     className={`text-base font-medium transition-colors hover:text-primary ${
                       isActive("/contact") ? "text-primary" : "text-muted-foreground"
@@ -641,7 +640,7 @@ const Navigation = () => {
                     </a>
                   </Button>
                   <Button className="w-full" asChild>
-                    <Link href="/book-now">
+                    <Link to="/book-now">
                       <Calendar className="h-4 w-4 mr-2" />
                       Book Consult
                     </Link>
