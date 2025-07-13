@@ -58,10 +58,5 @@ export default defineConfig(({ mode }) => ({
     reportCompressedSize: false, // Disable gzip reporting for faster builds
   },
   // Copy static files including robots.txt and sitemap.xml
-  publicDir: 'public',
-  
-  // SSR configuration
-  ssr: {
-    noExternal: ['react-helmet-async']
-  }
+  publicDir: 'public'
 }));
