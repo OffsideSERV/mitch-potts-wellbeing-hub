@@ -406,30 +406,52 @@ const getPageContent = (pathname) => {
     '/services': {
       title: 'Naturopathic Services Brisbane | NXTLVL Health',
       description: 'Comprehensive naturopathic services including functional medicine, nutrition, laser therapy, and personal training. Tailored health plans for your well-being in Brisbane.',
-      content: React.createElement('div', null,
+      content: React.createElement('div', { className: 'min-h-screen bg-background' },
         // Hero Section
         React.createElement('section', { className: 'relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4' },
           React.createElement('div', { className: 'container mx-auto max-w-6xl' },
             React.createElement('div', { className: 'lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center' },
-              React.createElement('div', { className: 'space-y-8' },
-                React.createElement('h1', { className: 'text-4xl lg:text-6xl font-bold text-foreground leading-tight' },
-                  'Our ',
-                  React.createElement('span', { className: 'text-primary' }, 'Naturopathic Services')
+              React.createElement('div', { className: 'space-y-8 lg:mt-0 mt-12' },
+                React.createElement('div', { className: 'space-y-4' },
+                  React.createElement('h1', { className: 'text-4xl lg:text-6xl font-bold text-foreground leading-tight' },
+                    'Our ',
+                    React.createElement('span', { className: 'text-primary' }, 'Naturopathic Services')
+                  ),
+                  React.createElement('h2', { className: 'text-2xl lg:text-3xl font-semibold text-muted-foreground' }, 'Tailored for Your Health Journey'),
+                  React.createElement('p', { className: 'text-lg text-muted-foreground' }, 'Naturopath, PT & functional medicine services for holistic wellness'),
+                  React.createElement('p', { className: 'text-lg text-muted-foreground' },
+                    'With the guidance and expert knowledge of naturopathy ',
+                    React.createElement('strong', null, 'Mitch'),
+                    ' at ',
+                    React.createElement('strong', null, 'NXTLVL Health'),
+                    ' in New Farm your goals are well within reach. Start your journey towards optimal well-being and book an appointment today!'
+                  ),
+                  // Mobile Image
+                  React.createElement('div', { className: 'relative lg:hidden mb-8 -mx-4' },
+                    React.createElement('img', { 
+                      alt: 'Naturopath having consultation with female patient at NXTLVL Health',
+                      className: 'rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover',
+                      src: '/lovable-uploads/b156db4f-02ff-40d6-948b-3ea5abb31621.png'
+                    })
+                  )
                 ),
-                React.createElement('h2', { className: 'text-2xl lg:text-3xl font-semibold text-muted-foreground' }, 'Tailored for Your Health Journey'),
-                React.createElement('p', { className: 'text-lg text-muted-foreground' }, 'Naturopath, PT & functional medicine services for holistic wellness'),
                 React.createElement('div', { className: 'flex flex-col sm:flex-row gap-4' },
                   React.createElement('a', { 
                     href: 'https://nxtlvlhealth.com.au/book-now/',
-                    className: 'bg-[#2F6B6B] text-white px-6 py-3 rounded hover:bg-[#245555] inline-flex items-center'
-                  }, 'BOOK NOW')
+                    className: 'bg-[#2F6B6B] text-white px-6 py-3 rounded hover:bg-[#245555] inline-flex items-center text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight'
+                  }, 'BOOK NOW'),
+                  React.createElement('a', { 
+                    href: 'tel:0731808853',
+                    className: 'border border-input bg-background hover:bg-accent hover:text-accent-foreground px-6 py-3 rounded inline-flex items-center text-base sm:text-lg px-4 py-3 h-auto'
+                  }, 'Call Mitch')
                 )
               ),
-              React.createElement('div', { className: 'relative' },
+              // Desktop Image
+              React.createElement('div', { className: 'relative hidden lg:block' },
                 React.createElement('img', { 
-                  src: '/lovable-uploads/b156db4f-02ff-40d6-948b-3ea5abb31621.png',
                   alt: 'Naturopath having consultation with female patient at NXTLVL Health',
-                  className: 'rounded-2xl shadow-2xl w-full h-auto'
+                  className: 'rounded-2xl shadow-2xl w-full h-auto',
+                  src: '/lovable-uploads/b156db4f-02ff-40d6-948b-3ea5abb31621.png'
                 })
               )
             )
@@ -438,19 +460,137 @@ const getPageContent = (pathname) => {
         // Services Grid
         React.createElement('section', { className: 'py-20 px-4' },
           React.createElement('div', { className: 'container mx-auto max-w-6xl' },
-            React.createElement('div', { className: 'grid md:grid-cols-2 lg:grid-cols-3 gap-8' },
-              React.createElement('div', { className: 'text-center p-6 border rounded-lg shadow-md' },
-                React.createElement('h3', { className: 'text-xl font-bold mb-4' }, 'NATUROPATHY'),
-                React.createElement('p', { className: 'text-muted-foreground' }, 'Holistic natural medicine approach')
+            React.createElement('div', { className: 'grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16' },
+              React.createElement('div', { className: 'text-center border-0 shadow-md hover:shadow-lg transition-shadow duration-300 rounded-lg bg-card text-card-foreground p-6' },
+                React.createElement('div', { className: 'pb-4' },
+                  React.createElement('div', { className: 'mx-auto mb-4' },
+                    React.createElement('svg', { className: 'h-8 w-8 text-primary', width: '24', height: '24', viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: '2', strokeLinecap: 'round', strokeLinejoin: 'round' },
+                      React.createElement('path', { d: 'M7 13l3 3 7-7' }),
+                      React.createElement('path', { d: 'M12 3a6.5 6.5 0 0 0 9 9 9 9 0 1 1-9-9Z' })
+                    )
+                  ),
+                  React.createElement('h3', { className: 'text-xl font-semibold' }, 'NATUROPATHY')
+                )
               ),
-              React.createElement('div', { className: 'text-center p-6 border rounded-lg shadow-md' },
-                React.createElement('h3', { className: 'text-xl font-bold mb-4' }, 'FUNCTIONAL MEDICINE'),
-                React.createElement('p', { className: 'text-muted-foreground' }, 'Root cause analysis and treatment')
+              React.createElement('div', { className: 'text-center border-0 shadow-md hover:shadow-lg transition-shadow duration-300 rounded-lg bg-card text-card-foreground p-6' },
+                React.createElement('div', { className: 'pb-4' },
+                  React.createElement('div', { className: 'mx-auto mb-4' },
+                    React.createElement('svg', { className: 'h-8 w-8 text-primary', width: '24', height: '24', viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: '2', strokeLinecap: 'round', strokeLinejoin: 'round' },
+                      React.createElement('path', { d: 'M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z' }),
+                      React.createElement('polyline', { points: '14,2 14,8 20,8' }),
+                      React.createElement('path', { d: 'M10 12a1 1 0 0 0-1 1v1a1 1 0 0 1-1 1 1 1 0 0 1 1 1v1a1 1 0 0 0 1 1' }),
+                      React.createElement('path', { d: 'M14 12a1 1 0 0 1 1 1v1a1 1 0 0 0 1 1 1 1 0 0 0-1 1v1a1 1 0 0 1-1 1' })
+                    )
+                  ),
+                  React.createElement('h3', { className: 'text-xl font-semibold' }, 'FUNCTIONAL MEDICINE')
+                )
               ),
-              React.createElement('div', { className: 'text-center p-6 border rounded-lg shadow-md' },
-                React.createElement('h3', { className: 'text-xl font-bold mb-4' }, 'NUTRITION'),
-                React.createElement('p', { className: 'text-muted-foreground' }, 'Personalized nutrition planning')
+              React.createElement('div', { className: 'text-center border-0 shadow-md hover:shadow-lg transition-shadow duration-300 rounded-lg bg-card text-card-foreground p-6' },
+                React.createElement('div', { className: 'pb-4' },
+                  React.createElement('div', { className: 'mx-auto mb-4' },
+                    React.createElement('svg', { className: 'h-8 w-8 text-primary', width: '24', height: '24', viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: '2', strokeLinecap: 'round', strokeLinejoin: 'round' },
+                      React.createElement('path', { d: 'M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z' }),
+                      React.createElement('path', { d: 'M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z' })
+                    )
+                  ),
+                  React.createElement('h3', { className: 'text-xl font-semibold' }, 'NUTRITION')
+                )
+              ),
+              React.createElement('div', { className: 'text-center border-0 shadow-md hover:shadow-lg transition-shadow duration-300 rounded-lg bg-card text-card-foreground p-6' },
+                React.createElement('div', { className: 'pb-4' },
+                  React.createElement('div', { className: 'mx-auto mb-4' },
+                    React.createElement('svg', { className: 'h-8 w-8 text-primary', width: '24', height: '24', viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: '2', strokeLinecap: 'round', strokeLinejoin: 'round' },
+                      React.createElement('polygon', { points: '13 2 3 14 12 14 11 22 21 10 12 10 13 2' })
+                    )
+                  ),
+                  React.createElement('h3', { className: 'text-xl font-semibold' }, 'LASER THERAPY')
+                )
+              ),
+              React.createElement('div', { className: 'text-center border-0 shadow-md hover:shadow-lg transition-shadow duration-300 rounded-lg bg-card text-card-foreground p-6' },
+                React.createElement('div', { className: 'pb-4' },
+                  React.createElement('div', { className: 'mx-auto mb-4' },
+                    React.createElement('svg', { className: 'h-8 w-8 text-primary', width: '24', height: '24', viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: '2', strokeLinecap: 'round', strokeLinejoin: 'round' },
+                      React.createElement('circle', { cx: '12', cy: '12', r: '10' }),
+                      React.createElement('circle', { cx: '12', cy: '12', r: '6' }),
+                      React.createElement('circle', { cx: '12', cy: '12', r: '2' })
+                    )
+                  ),
+                  React.createElement('h3', { className: 'text-xl font-semibold' }, 'PERSONAL TRAINING')
+                )
               )
+            )
+          )
+        ),
+        // Why Choose NXTLVL Section
+        React.createElement('section', { className: 'py-20 px-4 bg-muted/30' },
+          React.createElement('div', { className: 'container mx-auto max-w-6xl' },
+            React.createElement('div', { className: 'text-center mb-16' },
+              React.createElement('h2', { className: 'text-3xl lg:text-4xl font-bold mb-6' }, 'WHY CHOOSE NXTLVL?'),
+              React.createElement('p', { className: 'text-xl text-muted-foreground' }, 'Personalised health plans for your well-being')
+            ),
+            React.createElement('div', { className: 'grid md:grid-cols-1 lg:grid-cols-3 gap-8 mb-16' },
+              React.createElement('div', { className: 'hover:shadow-lg transition-shadow duration-300 border-0 shadow-md rounded-lg bg-card text-card-foreground' },
+                React.createElement('div', { className: 'pb-4 text-center p-6' },
+                  React.createElement('div', { className: 'mx-auto mb-4' },
+                    React.createElement('svg', { className: 'h-8 w-8 text-primary', width: '24', height: '24', viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: '2', strokeLinecap: 'round', strokeLinejoin: 'round' },
+                      React.createElement('path', { d: 'M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z' })
+                    )
+                  ),
+                  React.createElement('h3', { className: 'text-xl font-semibold' }, 'PERSONALISED PLANS')
+                ),
+                React.createElement('div', { className: 'p-6 pt-0' },
+                  React.createElement('p', { className: 'text-base leading-relaxed text-center text-muted-foreground' },
+                    'We develop tailored plans integrating a range of options including genetic and blood analysis, naturopathic consultations, and comprehensive assessments to understand your body\'s systems synergistically.'
+                  )
+                )
+              ),
+              React.createElement('div', { className: 'hover:shadow-lg transition-shadow duration-300 border-0 shadow-md rounded-lg bg-card text-card-foreground' },
+                React.createElement('div', { className: 'pb-4 text-center p-6' },
+                  React.createElement('div', { className: 'mx-auto mb-4' },
+                    React.createElement('svg', { className: 'h-8 w-8 text-primary', width: '24', height: '24', viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: '2', strokeLinecap: 'round', strokeLinejoin: 'round' },
+                      React.createElement('path', { d: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z' })
+                    )
+                  ),
+                  React.createElement('h3', { className: 'text-xl font-semibold' }, 'HOLISTIC APPROACH')
+                ),
+                React.createElement('div', { className: 'p-6 pt-0' },
+                  React.createElement('p', { className: 'text-base leading-relaxed text-center text-muted-foreground' },
+                    'Our approach includes nutrition, herbal medicine, targeted supplementation, and customised training programs to boost both mental and physical performance, prevent issues, and promote overall well-being.'
+                  )
+                )
+              ),
+              React.createElement('div', { className: 'hover:shadow-lg transition-shadow duration-300 border-0 shadow-md rounded-lg bg-card text-card-foreground' },
+                React.createElement('div', { className: 'pb-4 text-center p-6' },
+                  React.createElement('div', { className: 'mx-auto mb-4' },
+                    React.createElement('svg', { className: 'h-8 w-8 text-primary', width: '24', height: '24', viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: '2', strokeLinecap: 'round', strokeLinejoin: 'round' },
+                      React.createElement('polygon', { points: '12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26' })
+                    )
+                  ),
+                  React.createElement('h3', { className: 'text-xl font-semibold' }, 'UNLOCK YOUR FULL POTENTIAL')
+                ),
+                React.createElement('div', { className: 'p-6 pt-0' },
+                  React.createElement('p', { className: 'text-base leading-relaxed text-center text-muted-foreground' },
+                    'Elevate your fitness, transform your lifestyle, and embrace a future filled with vitality. Experience NXTLVL Health\'s tailored health plans to unlock your full potential and reach your goals.'
+                  )
+                )
+              )
+            )
+          )
+        ),
+        // Your Health, Your Foundation Section
+        React.createElement('section', { className: 'py-20 px-4' },
+          React.createElement('div', { className: 'container mx-auto max-w-6xl' },
+            React.createElement('div', { className: 'text-center mb-16' },
+              React.createElement('h2', { className: 'text-3xl lg:text-4xl font-bold mb-6' }, 'YOUR HEALTH, YOUR FOUNDATION'),
+              React.createElement('p', { className: 'text-xl text-muted-foreground max-w-4xl mx-auto' },
+                'We believe that your health is the foundation for a life lived at its absolute peak. Are you ready to pursue a stronger, healthier, and happier you?'
+              )
+            ),
+            React.createElement('div', { className: 'text-center' },
+              React.createElement('a', { 
+                href: 'https://nxtlvlhealth.com.au/book-now/',
+                className: 'bg-[#2F6B6B] text-white px-6 py-4 rounded hover:bg-[#245555] inline-flex items-center text-base sm:text-lg px-6 py-4 h-auto'
+              }, 'BOOK NOW')
             )
           )
         )
