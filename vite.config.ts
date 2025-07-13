@@ -37,11 +37,14 @@ export default defineConfig(({ mode }) => ({
           }
           return `assets/[name]-[hash][extname]`;
         },
-        manualChunks: {
-          vendor: ['react', 'react-dom'],
-          router: ['react-router-dom'],
-          ui: ['@radix-ui/react-accordion', '@radix-ui/react-dialog', '@radix-ui/react-dropdown-menu']
-        }
+        // Only use manualChunks for client builds, not SSR
+        ...(process.env.npm_lifecycle_event !== 'build:server' && {
+          manualChunks: {
+            vendor: ['react', 'react-dom'],
+            router: ['react-router-dom'],
+            ui: ['@radix-ui/react-accordion', '@radix-ui/react-dialog', '@radix-ui/react-dropdown-menu']
+          }
+        })
       }
     },
     cssCodeSplit: true,
