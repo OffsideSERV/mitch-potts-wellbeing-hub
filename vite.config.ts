@@ -1,3 +1,4 @@
+
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
@@ -55,5 +56,7 @@ export default defineConfig(({ mode }) => ({
     // Optimize asset handling for better caching
     assetsInlineLimit: 4096, // Inline small assets as base64
     reportCompressedSize: false, // Disable gzip reporting for faster builds
-  }
+  },
+  // Copy static files including robots.txt and sitemap.xml
+  publicDir: 'public'
 }));

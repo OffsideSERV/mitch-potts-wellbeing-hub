@@ -1,8 +1,11 @@
+
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Twitterbot
 Allow: /
@@ -12,5 +15,12 @@ Allow: /
 
 User-agent: *
 Allow: /
+Crawl-delay: 2
+
+# Disallow admin and development paths
+Disallow: /admin/
+Disallow: /dev/
+Disallow: /_next/
+Disallow: /api/
 
 Sitemap: https://nxtlvlhealth.com.au/sitemap.xml
