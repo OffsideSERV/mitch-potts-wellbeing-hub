@@ -1,6 +1,6 @@
 [build]
   publish = "dist"
-  command = "npm run build && node scripts/generate-static.js"
+  command = "npm run build"
 
 [build.environment]
   NODE_VERSION = "18"
@@ -20,10 +20,6 @@
   to = "/index.html"
   status = 200
 
-[dev]
-  command = "npm run dev"
-  port = 8080
-  publish = "dist"
 
 [[headers]]
   for = "/*"
