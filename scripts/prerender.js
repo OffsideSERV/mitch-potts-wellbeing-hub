@@ -216,15 +216,14 @@ function createStaticFiles() {
       filePath = path.join(distPath, 'index.html');
     } else {
       // Create directory structure for nested routes
-      const routePath = path.join(distPath, route);
-      const routeDir = path.dirname(routePath);
+      const routeDir = path.join(distPath, route);
       
       // Create directories if they don't exist
       if (!fs.existsSync(routeDir)) {
         fs.mkdirSync(routeDir, { recursive: true });
       }
       
-      filePath = path.join(routePath, 'index.html');
+      filePath = path.join(routeDir, 'index.html');
     }
     
     // Write the HTML file
