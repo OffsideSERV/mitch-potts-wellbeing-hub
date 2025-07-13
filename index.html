@@ -32,6 +32,39 @@
     <meta name="geo.placename" content="Brisbane, Queensland" />
     <meta name="geo.position" content="-27.4698;153.0251" />
     <meta name="ICBM" content="-27.4698, 153.0251" />
+
+    <!-- Bot Detection Script -->
+    <script>
+      // Detect if it's a bot/crawler
+      function isBot() {
+        const botUserAgents = [
+          'googlebot',
+          'bingbot',
+          'slurp',
+          'duckduckbot',
+          'baiduspider',
+          'yandexbot',
+          'facebookexternalhit',
+          'twitterbot',
+          'rogerbot',
+          'linkedinbot',
+          'embedly',
+          'quora link preview',
+          'showyoubot',
+          'outbrain',
+          'pinterest',
+          'developers.google.com/+/web/snippet'
+        ];
+        
+        const userAgent = navigator.userAgent.toLowerCase();
+        return botUserAgents.some(bot => userAgent.includes(bot));
+      }
+
+      // If it's a bot, redirect to static version
+      if (isBot()) {
+        window.location.replace('/index-static.html');
+      }
+    </script>
   </head>
 
   <body>
