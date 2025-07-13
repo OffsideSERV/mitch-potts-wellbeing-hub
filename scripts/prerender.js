@@ -662,7 +662,7 @@ const getPageContent = (pathname) => {
   return pageContent[pathname] || defaultContent;
 };
 
-// All routes to pre-render
+// All routes to pre-render - matches App.tsx routing exactly
 const routes = [
   '/',
   '/services',
@@ -715,7 +715,10 @@ const routes = [
   '/blog/gut-health/gut-health-101-why-your-stomach-might-be-behind-your-brain-fog-and-fatigue',
   '/blog/naturopathy/naturopathy-vs-homeopathy',
   '/blog/weight-loss/embracing-natural-weight-loss-with-ozempic-a-naturopaths-approach',
-  '/blog/gut-health/gut-brain-connection-how-your-gut-affects-mental-health'
+  '/blog/gut-health/gut-brain-connection-how-your-gut-affects-mental-health',
+  // SEO essential pages
+  '/sitemap.xml',
+  '/robots.txt'
 ];
 
 // Function to generate static HTML for a route
