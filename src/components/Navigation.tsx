@@ -379,12 +379,9 @@ const Navigation = () => {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-80">
-              <div className="flex flex-col h-full">
-                <div className="flex items-center justify-between mb-6">
+                <div className="flex flex-col h-full">
+                <div className="flex items-center mb-6">
                   <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-10" />
-                  <Button variant="ghost" size="icon" onClick={closeSheet}>
-                    <X className="h-5 w-5" />
-                  </Button>
                 </div>
 
                 <nav className="flex flex-col space-y-4 mb-8">
