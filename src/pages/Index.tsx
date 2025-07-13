@@ -63,7 +63,7 @@ const Index = () => {
                 </h1>
                 
                 {/* Mobile Image - placed right after headline */}
-                <div className="relative lg:hidden mb-8 -mx-4">
+                <div className="relative lg:hidden mb-20 -mx-4">
                   <LazyImage 
                     alt="Naturopath having consultation with female patient at NXTLVL Health" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
@@ -149,7 +149,7 @@ const Index = () => {
       </section>
 
       {/* Finally A Brisbane Naturopath Who Gets It */}
-      <section className="py-20 px-4">
+      <section className="py-24 px-4 mt-8">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Finally – A Brisbane Naturopath Who Truly Gets It</h2>

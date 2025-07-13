@@ -152,7 +152,7 @@ const PersonalTraining = () => {
                 </h1>
                 
                 {/* Mobile Image - placed right after headline */}
-                <div className="relative lg:hidden mb-16 -mx-4">
+                <div className="relative lg:hidden mb-24 -mx-4">
                   <img alt="Personal trainer working with client at Function Well gym in Newstead" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/dd4ff0ea-d4e7-416c-b0d9-d3a541758d60.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
