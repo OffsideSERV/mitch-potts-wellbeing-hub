@@ -4,15 +4,9 @@ import App from './App.tsx'
 import './index.css'
 
 const root = document.getElementById("root")!;
-const app = (
+
+createRoot(root).render(
   <BrowserRouter>
     <App />
   </BrowserRouter>
 );
-
-// Use hydration for SSR in production, normal rendering in development
-if (import.meta.env.PROD) {
-  hydrateRoot(root, app);
-} else {
-  createRoot(root).render(app);
-}
