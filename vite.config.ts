@@ -21,6 +21,8 @@ export default defineConfig(({ mode }) => ({
     },
   },
   build: {
+    outDir: 'dist',
+    sourcemap: false,
     rollupOptions: {
       output: {
         // Enable proper asset hashing for long-term caching
@@ -45,12 +47,13 @@ export default defineConfig(({ mode }) => ({
       }
     },
     cssCodeSplit: true,
-    target: 'esnext',
+    target: 'es2015', // Better browser compatibility for production
     minify: 'terser',
     terserOptions: {
       compress: {
-        drop_console: true,
-        drop_debugger: true
+        drop_console: false, // Keep console logs for debugging deployment issues
+        drop_debugger: true,
+        pure_funcs: ['console.debug']
       }
     },
     // Optimize asset handling for better caching
