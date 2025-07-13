@@ -727,6 +727,8 @@ function generateStaticHTML(route) {
     console.log(`Rendering route: ${route}`);
     
     const pageData = getPageContent(route);
+    console.log(`Page title for ${route}: ${pageData.title}`);
+    
     const contentHTML = renderToStaticMarkup(
       React.createElement(SimpleLayout, { children: pageData.content })
     );
