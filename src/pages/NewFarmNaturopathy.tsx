@@ -1,5 +1,5 @@
 
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { 
@@ -20,10 +20,12 @@ import {
 const NewFarmNaturopathy = () => {
   return (
     <>
-      <Helmet>
-        <title>Expert Naturopath in New Farm Brisbane | Mitchell Potts</title>
-        <meta name="description" content="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath in New Farm Brisbane that will find and heal the root cause of your problems." />
-      </Helmet>
+      <SEO 
+        title="Expert Naturopath in New Farm Brisbane | Mitchell Potts"
+        description="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath in New Farm Brisbane that will find and heal the root cause of your problems."
+        canonical="/areas-we-serve/naturopath-new-farm"
+        keywords="naturopath New Farm, New Farm naturopathy, natural health New Farm, holistic health New Farm Brisbane"
+      />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 via-accent/10 to-primary/5 py-20 px-4">

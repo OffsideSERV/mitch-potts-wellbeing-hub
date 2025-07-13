@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Activity, Brain, Target, Leaf, Shield, Microscope } from "lucide-react";
@@ -6,10 +6,12 @@ import { CheckCircle, Heart, Users, Activity, Brain, Target, Leaf, Shield, Micro
 const GutHealthSpecialist = () => {
   return (
     <>
-      <Helmet>
-        <title>Best Gut Health Specialist in Brisbane | Book a Free Consult</title>
-        <meta name="description" content="Feeling tired, bloated, foggy or just flat? Our gut health specialist Mitch will the real cause of your symptoms, so you can finally feel like YOU again." />
-      </Helmet>
+      <SEO 
+        title="Best Gut Health Specialist in Brisbane | Book a Free Consult"
+        description="Feeling tired, bloated, foggy or just flat? Our gut health specialist Mitch will the real cause of your symptoms, so you can finally feel like YOU again."
+        canonical="/what-we-treat/gut-health-specialist"
+        keywords="gut health specialist Brisbane, digestive health Brisbane, gut health doctor, microbiome specialist, SIBO specialist Brisbane"
+      />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

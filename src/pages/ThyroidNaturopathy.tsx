@@ -1,14 +1,16 @@
 
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const ThyroidNaturopathy = () => {
   return (
     <>
-      <Helmet>
-        <title>#1 Naturopath for Thyroid Support in Brisbane</title>
-        <meta name="description" content="Feel tired, foggy or stuck with thyroid symptoms? Our naturopath for thyroid problems will find what others have missed—so you can finally heal." />
-      </Helmet>
+      <SEO 
+        title="#1 Naturopath for Thyroid Support in Brisbane"
+        description="Feel tired, foggy or stuck with thyroid symptoms? Our naturopath for thyroid problems will find what others have missed—so you can finally heal."
+        canonical="/what-we-treat/naturopath-thyroid-brisbane"
+        keywords="thyroid naturopath Brisbane, thyroid treatment, hypothyroid naturopath, Hashimoto's treatment, thyroid support"
+      />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

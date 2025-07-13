@@ -1,5 +1,5 @@
 
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Activity, Brain, Shield } from "lucide-react";
@@ -7,10 +7,12 @@ import { CheckCircle, Heart, Users, Activity, Brain, Shield } from "lucide-react
 const IBSNaturopathy = () => {
   return (
     <>
-      <Helmet>
-        <title>Best IBS Naturopath in Brisbane | Book a Free 15-Min Consult</title>
-        <meta name="description" content="Feeling tired, bloated, foggy or just flat? Our IBS naturopath will the real cause of your symptoms, so you can finally feel like YOU again. Book a free consult" />
-      </Helmet>
+      <SEO 
+        title="Best IBS Naturopath in Brisbane | Book a Free 15-Min Consult"
+        description="Feeling tired, bloated, foggy or just flat? Our IBS naturopath will the real cause of your symptoms, so you can finally feel like YOU again. Book a free consult"
+        canonical="/what-we-treat/ibs-naturopath"
+        keywords="IBS naturopath Brisbane, irritable bowel syndrome treatment, natural IBS treatment, IBS specialist Brisbane, digestive health Brisbane"
+      />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

@@ -1,5 +1,5 @@
 
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { 
@@ -97,10 +97,12 @@ const Areas = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Areas We Serve | NXTLVL Health</title>
-        <meta name="description" content="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath that will find and heal the root cause of your problems. Find out where to get help." />
-      </Helmet>
+      <SEO 
+        title="Areas We Serve | NXTLVL Health"
+        description="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath that will find and heal the root cause of your problems. Find out where to get help."
+        canonical="/areas-we-serve"
+        keywords="naturopath Brisbane areas, Brisbane naturopathy suburbs, natural health Brisbane, holistic health Brisbane"
+      />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 via-accent/10 to-primary/5 py-20 px-4">

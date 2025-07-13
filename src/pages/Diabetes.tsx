@@ -1,13 +1,15 @@
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Diabetes = () => {
   return (
     <>
-      <Helmet>
-        <title>5-Star Naturopath Diabetes Support in Brisbane</title>
-        <meta name="description" content="Tired of, or stuck with blood sugar issues? Our naturopath diabetes support will find the root cause of your problems,—so you can be calm and in control again." />
-      </Helmet>
+      <SEO 
+        title="5-Star Naturopath Diabetes Support in Brisbane"
+        description="Tired of, or stuck with blood sugar issues? Our naturopath diabetes support will find the root cause of your problems,—so you can be calm and in control again."
+        canonical="/what-we-treat/naturopath-diabetes-brisbane"
+        keywords="diabetes naturopath Brisbane, blood sugar support, natural diabetes treatment, diabetes specialist Brisbane, naturopathic diabetes care"
+      />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

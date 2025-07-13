@@ -1,5 +1,5 @@
 
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Zap, Target, Sparkles } from "lucide-react";
@@ -7,10 +7,12 @@ import { CheckCircle, Heart, Users, Zap, Target, Sparkles } from "lucide-react";
 const HormonalAcneNaturopathy = () => {
   return (
     <>
-      <Helmet>
-        <title>Best Hormonal Acne Naturopath in Brisbane | Free Consult!</title>
-        <meta name="description" content="Skin breaking out and have no idea why? No problem, Mitch's Hormonal Acne Naturopathy will finally give you answers. Book a free 15-min consult today!" />
-      </Helmet>
+      <SEO 
+        title="Best Hormonal Acne Naturopath in Brisbane | Free Consult!"
+        description="Skin breaking out and have no idea why? No problem, Mitch's Hormonal Acne Naturopathy will finally give you answers. Book a free 15-min consult today!"
+        canonical="/what-we-treat/hormonal-acne-naturopath"
+        keywords="hormonal acne naturopath Brisbane, hormonal acne treatment, natural acne treatment, acne specialist Brisbane, hormonal balance Brisbane"
+      />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

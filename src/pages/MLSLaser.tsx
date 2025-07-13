@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, Phone, ChevronDown, ChevronUp, Zap, Activity, Heart, Shield, Target, CheckCircle } from 'lucide-react';
@@ -119,10 +119,12 @@ const MLSLaser = () => {
 
   return (
     <>
-      <Helmet>
-        <title>#1 MLS Laser Therapy Treatment In Brisbane | NXTLVL Health</title>
-        <meta name="description" content="Are you struggling with pains, injury, or slow healing? MLS Laser treatment at NXTLVL Health will help you heal faster, move better, and feel like you again." />
-      </Helmet>
+      <SEO 
+        title="#1 MLS Laser Therapy Treatment In Brisbane | NXTLVL Health"
+        description="Are you struggling with pains, injury, or slow healing? MLS Laser treatment at NXTLVL Health will help you heal faster, move better, and feel like you again."
+        canonical="/services/mls-laser-therapy-treatment-brisbane"
+        keywords="MLS laser therapy Brisbane, laser therapy treatment, pain relief Brisbane, injury recovery, sports injury treatment"
+      />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

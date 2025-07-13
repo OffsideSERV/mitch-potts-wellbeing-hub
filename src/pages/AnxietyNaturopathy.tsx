@@ -1,5 +1,5 @@
 
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Brain, Shield, Users, Activity } from "lucide-react";
@@ -7,10 +7,12 @@ import { CheckCircle, Heart, Brain, Shield, Users, Activity } from "lucide-react
 const AnxietyNaturopathy = () => {
   return (
     <>
-      <Helmet>
-        <title>Naturopath for Anxiety | Best in Brisbane | Free Consult!</title>
-        <meta name="description" content="Not feeling like yourself lately? Feeling on edge? Not sure what to do? Mitchell is a 5-star Naturopath for Anxiety that will finally give you answers." />
-      </Helmet>
+      <SEO 
+        title="Naturopath for Anxiety | Best in Brisbane | Free Consult!"
+        description="Not feeling like yourself lately? Feeling on edge? Not sure what to do? Mitchell is a 5-star Naturopath for Anxiety that will finally give you answers."
+        canonical="/what-we-treat/naturopath-anxiety"
+        keywords="anxiety naturopath Brisbane, natural anxiety treatment, anxiety support, holistic anxiety treatment, naturopathic anxiety care"
+      />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

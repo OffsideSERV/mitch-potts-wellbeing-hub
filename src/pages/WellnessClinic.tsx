@@ -1,13 +1,15 @@
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, Phone, CheckCircle, Heart, Users, Target, Leaf, Zap, Shield, Activity } from "lucide-react";
 const WellnessClinic = () => {
   return <>
-      <Helmet>
-        <title>Best Wellness Clinic Brisbane | Book a FREE 15-Min Consult!</title>
-        <meta name="description" content="Feeling off lately with no idea why? At NXTLVL Health, the best wellness clinic in Brisbane, we will find the real cause and heal the problem at its root." />
-      </Helmet>
+      <SEO 
+        title="Best Wellness Clinic Brisbane | Book a FREE 15-Min Consult!"
+        description="Feeling off lately with no idea why? At NXTLVL Health, the best wellness clinic in Brisbane, we will find the real cause and heal the problem at its root."
+        canonical="/what-we-treat/wellness-clinic-brisbane"
+        keywords="wellness clinic Brisbane, natural health clinic Brisbane, holistic health clinic, naturopathic clinic Brisbane"
+      />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 via-accent/10 to-primary/5 py-20 px-4">

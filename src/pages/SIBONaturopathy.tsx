@@ -1,5 +1,5 @@
 
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Activity, Users, Brain, Zap } from "lucide-react";
@@ -7,10 +7,12 @@ import { CheckCircle, Heart, Activity, Users, Brain, Zap } from "lucide-react";
 const SIBONaturopathy = () => {
   return (
     <>
-      <Helmet>
-        <title>SIBO Naturopath | The Best in Brisbane | NXTLVL Health</title>
-        <meta name="description" content="Feeling tired, bloated, foggy or just flat? Our SIBO naturopath will the real cause of your symptoms, so you can finally feel like YOU again." />
-      </Helmet>
+      <SEO 
+        title="SIBO Naturopath | The Best in Brisbane | NXTLVL Health"
+        description="Feeling tired, bloated, foggy or just flat? Our SIBO naturopath will the real cause of your symptoms, so you can finally feel like YOU again."
+        canonical="/what-we-treat/sibo-naturopath"
+        keywords="SIBO naturopath Brisbane, small intestinal bacterial overgrowth treatment, SIBO specialist, gut health Brisbane, natural SIBO treatment"
+      />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

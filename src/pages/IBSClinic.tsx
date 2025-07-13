@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, Phone, Calendar, Heart, Brain, Users, Target, Clock, Shield } from "lucide-react";
@@ -8,10 +8,12 @@ import { CheckCircle, Phone, Calendar, Heart, Brain, Users, Target, Clock, Shiel
 const IBSClinic = () => {
   return (
     <>
-      <Helmet>
-        <title>Best IBS Clinic in Brisbane | Book a Free 15-Min Consult!</title>
-        <meta name="description" content="Feeling tired, bloated, foggy or just flat? Our IBS Clinic in Brisbane will heal the real cause of your symptoms, so you can finally feel like YOU again." />
-      </Helmet>
+      <SEO 
+        title="Best IBS Clinic in Brisbane | Book a Free 15-Min Consult!"
+        description="Feeling tired, bloated, foggy or just flat? Our IBS Clinic in Brisbane will heal the real cause of your symptoms, so you can finally feel like YOU again."
+        canonical="/what-we-treat/ibs-clinic"
+        keywords="IBS clinic Brisbane, irritable bowel syndrome clinic, IBS treatment center, gut health clinic Brisbane, digestive health clinic"
+      />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

@@ -1,5 +1,5 @@
 
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Activity, Brain, Sparkles } from "lucide-react";
@@ -7,10 +7,12 @@ import { CheckCircle, Heart, Users, Activity, Brain, Sparkles } from "lucide-rea
 const EczemaNaturopathy = () => {
   return (
     <>
-      <Helmet>
-        <title>Best Naturopath for Eczema | Book a Free 15-Min Consult!</title>
-        <meta name="description" content="Always flaring up and have no idea why? No problem, Mitch is a Naturopath for Eczema who will finally give you answers. Book a free 15-min consult today!" />
-      </Helmet>
+      <SEO 
+        title="Best Naturopath for Eczema | Book a Free 15-Min Consult!"
+        description="Always flaring up and have no idea why? No problem, Mitch is a Naturopath for Eczema who will finally give you answers. Book a free 15-min consult today!"
+        canonical="/what-we-treat/naturopath-eczema"
+        keywords="eczema naturopath Brisbane, natural eczema treatment, eczema specialist, holistic eczema care, naturopathic eczema treatment"
+      />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

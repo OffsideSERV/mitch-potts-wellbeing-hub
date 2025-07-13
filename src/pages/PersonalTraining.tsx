@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, Phone, ChevronDown, ChevronUp, Dumbbell, Heart, Activity, Target, Users, Monitor, MapPin } from 'lucide-react';
@@ -136,10 +136,12 @@ const PersonalTraining = () => {
 
   return (
     <>
-      <Helmet>
-        <title>5-Star Rated Personal Trainer In New Farm | Mitchell Potts</title>
-        <meta name="description" content="Train right with Mitch, a 5-star personal trainer in New Farm. Build your strength, lose weight, boost energy, and feel confidence that lasts a lifetime." />
-      </Helmet>
+      <SEO 
+        title="5-Star Rated Personal Trainer In New Farm | Mitchell Potts"
+        description="Train right with Mitch, a 5-star personal trainer in New Farm. Build your strength, lose weight, boost energy, and feel confidence that lasts a lifetime."
+        canonical="/services/personal-trainer-new-farm"
+        keywords="personal trainer New Farm, personal trainer Brisbane, fitness trainer, strength training, weight loss trainer"
+      />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

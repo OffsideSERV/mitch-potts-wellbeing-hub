@@ -1,5 +1,5 @@
 
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Brain, Activity, Shield } from "lucide-react";
@@ -7,10 +7,12 @@ import { CheckCircle, Heart, Users, Brain, Activity, Shield } from "lucide-react
 const ADHDNaturopathy = () => {
   return (
     <>
-      <Helmet>
-        <title>Top ADHD Naturopath in Brisbane | Book a Free 15-Min Consult</title>
-        <meta name="description" content="Mitch from NXTLVL Health is here to help take the stress and confusion out of ADHD. Book a free consult and start getting the answers you've been looking for!" />
-      </Helmet>
+      <SEO 
+        title="Top ADHD Naturopath in Brisbane | Book a Free 15-Min Consult"
+        description="Mitch from NXTLVL Health is here to help take the stress and confusion out of ADHD. Book a free consult and start getting the answers you've been looking for!"
+        canonical="/what-we-treat/adhd-naturopath"
+        keywords="ADHD naturopath Brisbane, ADHD treatment, natural ADHD support, holistic ADHD treatment, ADHD specialist"
+      />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

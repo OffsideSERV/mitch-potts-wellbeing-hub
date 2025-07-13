@@ -1,5 +1,5 @@
 
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Scale, Users, Zap, Target } from "lucide-react";
@@ -7,10 +7,12 @@ import { CheckCircle, Heart, Scale, Users, Zap, Target } from "lucide-react";
 const WeightLoss = () => {
   return (
     <>
-      <Helmet>
-        <title>Weight Loss Naturopath | The Best in Brisbane</title>
-        <meta name="description" content="Tried everything and still not dropping the weight? Our weight loss naturopath finds out what's really going on—and helps your body transform the way you like." />
-      </Helmet>
+      <SEO 
+        title="Weight Loss Naturopath | The Best in Brisbane"
+        description="Tried everything and still not dropping the weight? Our weight loss naturopath finds out what's really going on—and helps your body transform the way you like."
+        canonical="/what-we-treat/weight-loss-naturopath-brisbane"
+        keywords="weight loss naturopath Brisbane, natural weight loss, holistic weight loss, naturopathic weight loss"
+      />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

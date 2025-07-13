@@ -1,5 +1,5 @@
 
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Baby, Shield, Activity } from "lucide-react";
@@ -7,10 +7,12 @@ import { CheckCircle, Heart, Users, Baby, Shield, Activity } from "lucide-react"
 const ChildrensHealth = () => {
   return (
     <>
-      <Helmet>
-        <title>Top-Rated Children's Naturopath in Brisbane</title>
-        <meta name="description" content="Our gentle children's naturopath Mitchell Potts helps uncover and treat the root causes of your child's gut, skin, mood, and energy problems—safely and easily." />
-      </Helmet>
+      <SEO 
+        title="Top-Rated Children's Naturopath in Brisbane"
+        description="Our gentle children's naturopath Mitchell Potts helps uncover and treat the root causes of your child's gut, skin, mood, and energy problems—safely and easily."
+        canonical="/what-we-treat/childrens-naturopath-brisbane"
+        keywords="children's naturopath Brisbane, kids naturopath, paediatric naturopath, children's health Brisbane, natural children's medicine"
+      />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
