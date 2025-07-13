@@ -68,21 +68,40 @@ const getPageContent = (pathname) => {
         React.createElement('section', { className: 'relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4' },
           React.createElement('div', { className: 'container mx-auto max-w-6xl' },
             React.createElement('div', { className: 'lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center' },
-              React.createElement('div', { className: 'space-y-8' },
-                React.createElement('h1', { className: 'text-4xl lg:text-6xl font-bold text-foreground leading-tight' },
-                  'Best Naturopath Brisbane | ',
-                  React.createElement('span', { className: 'text-primary' }, 'Feel Like Yourself Again'),
-                  ' at NXTLVL Health'
+              React.createElement('div', { className: 'space-y-8 lg:mt-0 mt-12' },
+                React.createElement('div', { className: 'space-y-4' },
+                  React.createElement('h1', { className: 'text-4xl lg:text-6xl font-bold text-foreground leading-tight' },
+                    'Best Naturopath Brisbane | ',
+                    React.createElement('span', { className: 'text-primary' }, 'Feel Like Yourself Again'),
+                    ' at NXTLVL Health'
+                  )
                 ),
                 React.createElement('div', { className: 'flex flex-col sm:flex-row gap-4' },
                   React.createElement('a', { 
                     href: 'https://calendly.com/nxtlvlhealth-info/15-min-consult',
-                    className: 'bg-[#2F6B6B] text-white px-6 py-3 rounded hover:bg-[#245555] inline-flex items-center'
-                  }, 'Book a Free 15-Min Consult'),
+                    target: '_blank',
+                    rel: 'noopener noreferrer',
+                    className: 'bg-[#2F6B6B] text-white px-6 py-3 rounded hover:bg-[#245555] inline-flex items-center text-base sm:text-lg'
+                  }, '📅 Book a Free 15-Min Consult'),
                   React.createElement('a', { 
                     href: 'tel:0731808853',
-                    className: 'border border-[#2F6B6B] text-[#2F6B6B] px-6 py-3 rounded hover:bg-[#2F6B6B] hover:text-white inline-flex items-center'
-                  }, 'Call Mitch Now')
+                    className: 'border border-[#2F6B6B] text-[#2F6B6B] px-6 py-3 rounded hover:bg-[#2F6B6B] hover:text-white inline-flex items-center text-base sm:text-lg'
+                  }, '📞 Call Mitch Now')
+                ),
+                // Trust Boosters
+                React.createElement('div', { className: 'grid grid-cols-1 md:grid-cols-3 gap-8 mt-16' },
+                  React.createElement('div', { className: 'text-center' },
+                    React.createElement('h3', { className: 'text-2xl font-bold text-foreground mb-1' }, '1000+'),
+                    React.createElement('p', { className: 'text-sm text-muted-foreground' }, 'Patients Helped')
+                  ),
+                  React.createElement('div', { className: 'text-center' },
+                    React.createElement('h3', { className: 'text-2xl font-bold text-foreground mb-1' }, 'Real Testing'),
+                    React.createElement('p', { className: 'text-sm text-muted-foreground' }, 'No Guessing')
+                  ),
+                  React.createElement('div', { className: 'text-center' },
+                    React.createElement('h3', { className: 'text-2xl font-bold text-foreground mb-1' }, '90% of Patients'),
+                    React.createElement('p', { className: 'text-sm text-muted-foreground' }, 'See Results in Just 6 Weeks')
+                  )
                 )
               ),
               React.createElement('div', { className: 'relative' },
@@ -90,20 +109,295 @@ const getPageContent = (pathname) => {
                   src: '/lovable-uploads/f459679d-99b6-4b58-affb-e2cedb040e6e.png',
                   alt: 'Naturopath having consultation with female patient at NXTLVL Health',
                   className: 'rounded-2xl shadow-2xl w-full h-auto'
-                })
+                }),
+                React.createElement('div', { className: 'absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg' },
+                  React.createElement('div', { className: 'flex items-center space-x-3' },
+                    React.createElement('div', { className: 'text-[#2F6B6B]' }, '🔬'),
+                    React.createElement('div', null,
+                      React.createElement('p', { className: 'font-semibold' }, 'Advanced Screening Method'),
+                      React.createElement('p', { className: 'text-sm text-muted-foreground' }, 'Live Blood Analysis • Natural Medicine')
+                    )
+                  )
+                )
               )
             )
           )
         ),
-        // Section 2
-        React.createElement('section', { className: 'py-24 px-4' },
+        
+        // Finally A Brisbane Naturopath Who Gets It
+        React.createElement('section', { className: 'py-24 px-4 mt-8' },
           React.createElement('div', { className: 'container mx-auto max-w-6xl' },
             React.createElement('div', { className: 'text-center mb-16' },
               React.createElement('h2', { className: 'text-3xl lg:text-4xl font-bold mb-6' }, 'Finally – A Brisbane Naturopath Who Truly Gets It')
             ),
+            React.createElement('div', { className: 'mb-12' },
+              React.createElement('img', { 
+                src: '/lovable-uploads/9e5ed0a0-bb35-4fde-9965-94edcb9294a8.png',
+                alt: 'Woman dealing with health concerns needing naturopathic care',
+                className: 'rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto'
+              })
+            ),
             React.createElement('div', { className: 'max-w-4xl mx-auto text-center space-y-6 text-lg text-muted-foreground' },
-              React.createElement('p', null, 'Are you feeling bloated, exhausted, foggy, or just not like yourself? And yet, every test you get comes back "normal"? Well, you\'re not alone, and you\'re definitely not making it up.'),
-              React.createElement('p', null, 'At NXTLVL Health, Mitch is here to help you feel better on your health journey, naturally. As one of the best naturopaths in Brisbane, he brings local expertise and a modern, holistic approach to your care.')
+              React.createElement('p', null,
+                'Are you feeling ',
+                React.createElement('strong', null, 'bloated, exhausted, foggy, or just not like yourself'),
+                '? And yet, every test you get comes back "normal"? Well, you\'re not alone, and you\'re definitely not making it up.'
+              ),
+              React.createElement('p', null,
+                'At NXTLVL Health, Mitch is here to help you feel better on your ',
+                React.createElement('strong', null, 'health journey'),
+                ', naturally. As one of the ',
+                React.createElement('strong', null, 'best naturopaths in Brisbane'),
+                ', he brings local expertise and a modern, ',
+                React.createElement('strong', null, 'holistic approach'),
+                ' to your care. Mitch is extremely knowledgeable in ',
+                React.createElement('strong', null, 'naturopathy'),
+                ' and ',
+                React.createElement('strong', null, 'holistic health'),
+                ', and as a ',
+                React.createElement('strong', null, 'qualified naturopath'),
+                ', he listens, he digs deep, and he finds the ',
+                React.createElement('strong', null, 'root cause'),
+                ' of your ',
+                React.createElement('strong', null, 'health concerns'),
+                ', so you can finally feel clear, calm, and in control again.'
+              )
+            ),
+            React.createElement('div', { className: 'text-center mt-12' },
+              React.createElement('a', { 
+                href: 'https://calendly.com/nxtlvlhealth-info/15-min-consult',
+                target: '_blank',
+                rel: 'noopener noreferrer',
+                className: 'bg-[#2F6B6B] text-white px-6 py-4 rounded hover:bg-[#245555] inline-flex items-center text-base sm:text-lg'
+              }, '📅 Book a Free 15-Min Consult')
+            )
+          )
+        ),
+
+        // Does This Sound Like You
+        React.createElement('section', { className: 'py-20 px-4 bg-muted/30' },
+          React.createElement('div', { className: 'container mx-auto max-w-6xl' },
+            React.createElement('div', { className: 'text-center mb-16' },
+              React.createElement('h2', { className: 'text-3xl lg:text-4xl font-bold mb-6' }, 'Does This Sound Like You?')
+            ),
+            React.createElement('div', { className: 'grid md:grid-cols-3 gap-8 mb-12' },
+              React.createElement('div', { className: 'text-center p-6 bg-white rounded-lg shadow-md' },
+                React.createElement('div', { className: 'text-4xl mb-4' }, '⏰'),
+                React.createElement('h3', { className: 'text-xl font-bold mb-4' }, 'You\'re Always Tired'),
+                React.createElement('p', { className: 'text-base text-muted-foreground' },
+                  'You sleep, but still feel wrecked. You rely on caffeine just to think straight. And the brain fog? It\'s making everything harder.'
+                )
+              ),
+              React.createElement('div', { className: 'text-center p-6 bg-white rounded-lg shadow-md' },
+                React.createElement('div', { className: 'text-4xl mb-4' }, '🌡️'),
+                React.createElement('h3', { className: 'text-xl font-bold mb-4' }, 'Your Gut Feels Like a Mess'),
+                React.createElement('p', { className: 'text-base text-muted-foreground' },
+                  'Bloating. Gas. Food reactions. Even healthy meals can set off discomfort. It\'s unpredictable and exhausting.'
+                )
+              ),
+              React.createElement('div', { className: 'text-center p-6 bg-white rounded-lg shadow-md' },
+                React.createElement('div', { className: 'text-4xl mb-4' }, '📚'),
+                React.createElement('h3', { className: 'text-xl font-bold mb-4' }, 'You\'ve Tried Everything'),
+                React.createElement('p', { className: 'text-base text-muted-foreground' },
+                  'You\'ve seen doctors. You\'ve tried all the diets. You\'ve read all the blogs. But you still feel like something\'s not right.'
+                )
+              )
+            )
+          )
+        ),
+
+        // Why People Say NXTLVL Health is the Best
+        React.createElement('section', { className: 'py-20 px-4' },
+          React.createElement('div', { className: 'container mx-auto max-w-6xl' },
+            React.createElement('div', { className: 'text-center mb-16' },
+              React.createElement('h2', { className: 'text-3xl lg:text-4xl font-bold mb-6' }, 'Why People Say NXTLVL Health is the Best Naturopath Brisbane Has')
+            ),
+            React.createElement('div', { className: 'grid md:grid-cols-2 gap-12 items-center mb-16' },
+              React.createElement('div', { className: 'space-y-6' },
+                React.createElement('div', { className: 'space-y-4' },
+                  React.createElement('div', { className: 'flex items-start space-x-3' },
+                    React.createElement('span', { className: 'text-[#2F6B6B] text-xl' }, '✓'),
+                    React.createElement('p', { className: 'text-lg text-muted-foreground' }, 'Thousands helped with real, lasting results')
+                  ),
+                  React.createElement('div', { className: 'flex items-start space-x-3' },
+                    React.createElement('span', { className: 'text-[#2F6B6B] text-xl' }, '✓'),
+                    React.createElement('p', { className: 'text-lg text-muted-foreground' },
+                      'We provide support throughout your ',
+                      React.createElement('strong', null, 'health journey'),
+                      ', addressing both ',
+                      React.createElement('strong', null, 'physical and emotional'),
+                      ' needs'
+                    )
+                  ),
+                  React.createElement('div', { className: 'flex items-start space-x-3' },
+                    React.createElement('span', { className: 'text-[#2F6B6B] text-xl' }, '✓'),
+                    React.createElement('p', { className: 'text-lg text-muted-foreground' },
+                      React.createElement('strong', null, 'Live blood analysis'),
+                      ' for real-time insights into your health'
+                    )
+                  ),
+                  React.createElement('div', { className: 'flex items-start space-x-3' },
+                    React.createElement('span', { className: 'text-[#2F6B6B] text-xl' }, '✓'),
+                    React.createElement('p', { className: 'text-lg text-muted-foreground' },
+                      'Personalised ',
+                      React.createElement('strong', null, 'natural treatments'),
+                      ' based on you, no guesswork'
+                    )
+                  ),
+                  React.createElement('div', { className: 'flex items-start space-x-3' },
+                    React.createElement('span', { className: 'text-[#2F6B6B] text-xl' }, '✓'),
+                    React.createElement('p', { className: 'text-lg text-muted-foreground' }, '90% of clients feel better in just their first 6 weeks')
+                  )
+                )
+              ),
+              React.createElement('div', { className: 'relative' },
+                React.createElement('img', { 
+                  src: '/lovable-uploads/7f8808bd-07aa-4759-8e99-de3701adb7e7.png',
+                  alt: 'Woman consulting with Brisbane naturopath at NXTLVL Health',
+                  className: 'rounded-2xl shadow-lg w-full h-auto'
+                })
+              )
+            ),
+            React.createElement('div', { className: 'text-center' },
+              React.createElement('a', { 
+                href: 'https://calendly.com/nxtlvlhealth-info/15-min-consult',
+                target: '_blank',
+                rel: 'noopener noreferrer',
+                className: 'bg-[#2F6B6B] text-white px-6 py-4 rounded hover:bg-[#245555] inline-flex items-center text-base sm:text-lg'
+              }, '📅 Book a Free 15-Min Consult')
+            )
+          )
+        ),
+
+        // Why Naturopathy Actually Works
+        React.createElement('section', { className: 'py-20 px-4 bg-muted/30' },
+          React.createElement('div', { className: 'container mx-auto max-w-6xl' },
+            React.createElement('div', { className: 'text-center mb-16' },
+              React.createElement('h2', { className: 'text-3xl lg:text-4xl font-bold mb-6' }, 'Why Naturopathy Actually Works'),
+              React.createElement('div', { className: 'max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground' },
+                React.createElement('p', null,
+                  React.createElement('strong', null, 'Naturopathy'),
+                  ' doesn\'t cover up symptoms. It finds the ',
+                  React.createElement('strong', null, 'root cause'),
+                  ' of your problems. Unlike ',
+                  React.createElement('strong', null, 'modern medicine'),
+                  ', which often treats symptoms in isolation, our ',
+                  React.createElement('strong', null, 'naturopathic care'),
+                  ' uses ',
+                  React.createElement('strong', null, 'natural medicine'),
+                  ' and science to help your body heal, naturally.'
+                ),
+                React.createElement('p', null,
+                  'Our ',
+                  React.createElement('strong', null, 'holistic approach'),
+                  ' blends ',
+                  React.createElement('strong', null, 'nutritional medicine'),
+                  ', ',
+                  React.createElement('strong', null, 'herbal medicine'),
+                  ', lifestyle support, and ',
+                  React.createElement('strong', null, 'functional testing'),
+                  ' as part of our ',
+                  React.createElement('strong', null, 'natural healthcare'),
+                  ' and comprehensive ',
+                  React.createElement('strong', null, 'health care'),
+                  ' philosophy to fix the ',
+                  React.createElement('strong', null, 'underlying causes'),
+                  ' of your problems, and help you feel your best again, inside and out.'
+                )
+              )
+            ),
+            React.createElement('div', { className: 'mb-12' },
+              React.createElement('img', { 
+                src: '/lovable-uploads/29a3a739-d347-46de-b287-0c187b12d5b7.png',
+                alt: 'Naturopath performing live blood analysis at NXTLVL Health Brisbane',
+                className: 'rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto'
+              })
+            )
+          )
+        ),
+
+        // What Makes NXTLVL Health Different
+        React.createElement('section', { className: 'py-20 px-4' },
+          React.createElement('div', { className: 'container mx-auto max-w-6xl' },
+            React.createElement('div', { className: 'text-center mb-16' },
+              React.createElement('h2', { className: 'text-3xl lg:text-4xl font-bold mb-6' }, 'What Makes NXTLVL Health Different?')
+            ),
+            React.createElement('div', { className: 'mb-12' },
+              React.createElement('img', { 
+                src: '/lovable-uploads/889bad55-c07b-401c-8b1d-ee0484fff02d.png',
+                alt: 'Naturopath checking patient vitals at NXTLVL Health',
+                className: 'rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto'
+              })
+            ),
+            React.createElement('div', { className: 'grid md:grid-cols-2 gap-8 mb-16' },
+              React.createElement('div', { className: 'p-6 bg-white rounded-lg shadow-md' },
+                React.createElement('div', { className: 'flex items-center space-x-3 mb-4' },
+                  React.createElement('span', { className: 'text-[#2F6B6B] text-2xl' }, '🧪'),
+                  React.createElement('h3', { className: 'text-xl font-bold' }, 'We Test, We Don\'t Guess')
+                ),
+                React.createElement('p', { className: 'text-base leading-relaxed text-muted-foreground' },
+                  'Our live blood analysis and functional testing show us exactly what\'s going on in your body. There\'s no guessing, just real answers.'
+                )
+              ),
+              React.createElement('div', { className: 'p-6 bg-white rounded-lg shadow-md' },
+                React.createElement('div', { className: 'flex items-center space-x-3 mb-4' },
+                  React.createElement('span', { className: 'text-[#2F6B6B] text-2xl' }, '🎯'),
+                  React.createElement('h3', { className: 'text-xl font-bold' }, 'We Treat the Root Cause of Problems')
+                ),
+                React.createElement('p', { className: 'text-base leading-relaxed text-muted-foreground' },
+                  'From gut health to hormonal imbalances, mental health struggles, and any health condition, we focus on what\'s really driving your health issues.'
+                )
+              ),
+              React.createElement('div', { className: 'p-6 bg-white rounded-lg shadow-md' },
+                React.createElement('div', { className: 'flex items-center space-x-3 mb-4' },
+                  React.createElement('span', { className: 'text-[#2F6B6B] text-2xl' }, '❤️'),
+                  React.createElement('h3', { className: 'text-xl font-bold' }, 'The Plans are Built Just for You')
+                ),
+                React.createElement('p', { className: 'text-base leading-relaxed text-muted-foreground' },
+                  'There\'s no cookie-cutter diets or generic advice at NXTLVL Health. Every protocol is custom-made for your body, your goals, and your life.'
+                )
+              ),
+              React.createElement('div', { className: 'p-6 bg-white rounded-lg shadow-md' },
+                React.createElement('div', { className: 'flex items-center space-x-3 mb-4' },
+                  React.createElement('span', { className: 'text-[#2F6B6B] text-2xl' }, '🛡️'),
+                  React.createElement('h3', { className: 'text-xl font-bold' }, 'Real Support the Whole Way')
+                ),
+                React.createElement('p', { className: 'text-base leading-relaxed text-muted-foreground' },
+                  'You\'re not alone. We stay with you the whole time, checking in, making changes, and helping you feel confident in your health journey.'
+                )
+              )
+            ),
+            React.createElement('div', { className: 'text-center' },
+              React.createElement('a', { 
+                href: 'https://calendly.com/nxtlvlhealth-info/15-min-consult',
+                target: '_blank',
+                rel: 'noopener noreferrer',
+                className: 'bg-[#2F6B6B] text-white px-6 py-4 rounded hover:bg-[#245555] inline-flex items-center text-base sm:text-lg'
+              }, '📅 Book a Free 15-Min Consult')
+            )
+          )
+        ),
+
+        // Final CTA Section
+        React.createElement('section', { className: 'py-20 px-4 bg-muted/30' },
+          React.createElement('div', { className: 'container mx-auto max-w-6xl' },
+            React.createElement('div', { className: 'text-center mb-16' },
+              React.createElement('h2', { className: 'text-3xl lg:text-4xl font-bold mb-6' }, 'Ready to Get Your Life Back?'),
+              React.createElement('p', { className: 'text-xl text-muted-foreground max-w-3xl mx-auto mb-8' },
+                'Your symptoms are real. Your healing is possible. Let\'s do this together.'
+              ),
+              React.createElement('div', { className: 'flex flex-col sm:flex-row gap-4 justify-center' },
+                React.createElement('a', { 
+                  href: 'https://calendly.com/nxtlvlhealth-info/15-min-consult',
+                  target: '_blank',
+                  rel: 'noopener noreferrer',
+                  className: 'bg-[#2F6B6B] text-white px-6 py-4 rounded hover:bg-[#245555] inline-flex items-center text-base sm:text-lg'
+                }, '📅 Book a Free 15-Min Consult'),
+                React.createElement('a', { 
+                  href: 'tel:0731808853',
+                  className: 'border border-[#2F6B6B] text-[#2F6B6B] px-6 py-4 rounded hover:bg-[#2F6B6B] hover:text-white inline-flex items-center text-base sm:text-lg'
+                }, '📞 Call Mitch Now')
+              )
             )
           )
         )
