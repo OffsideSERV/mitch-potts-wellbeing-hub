@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import SEO from "@/components/SEO";
 import { Button } from '@/components/ui/button';
 import { Phone, Calendar, Heart, Brain, Shield, Activity } from 'lucide-react';
 
@@ -28,10 +28,12 @@ const WhatWeTreat = () => {
 
   return (
     <>
-      <Helmet>
-        <title>What We Treat | Conditions & Health Issues | NXTLVL Health</title>
-        <meta name="description" content="Discover the wide range of health conditions we treat at NXTLVL Health. From gut health and fatigue to thyroid issues and weight management - we can help you feel your best." />
-      </Helmet>
+      <SEO 
+        title="What We Treat | Conditions & Health Issues | NXTLVL Health"
+        description="Discover the wide range of health conditions we treat at NXTLVL Health. From gut health and fatigue to thyroid issues and weight management - we can help you feel your best."
+        canonical="/what-we-treat"
+        keywords="naturopath conditions Brisbane, health conditions treated, naturopathic medicine Brisbane, holistic health treatment"
+      />
 
       <div className="min-h-screen bg-background">
         {/* Hero Section */}
