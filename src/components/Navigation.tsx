@@ -114,67 +114,72 @@ const Navigation = () => {
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="text-sm font-medium">What We Treat</NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <div className="grid gap-3 p-6 w-[600px]">
-                    <div className="grid grid-cols-2 gap-6">
+                  <div className="grid gap-3 p-6 w-80">
+                    <div className="grid grid-cols-2 gap-3">
                       {/* Left Column */}
-                      <div className="space-y-3">
-                        {/* Gut Health with nested items */}
-                        <div>
-                          <NavigationMenuLink asChild>
-                            <Link
-                              to="/what-we-treat/gut-health-naturopath-brisbane"
-                              className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
-                            >
-                              Gut Health
-                            </Link>
-                          </NavigationMenuLink>
-                          <div className="ml-4 mt-1 space-y-1">
-                            <NavigationMenuLink asChild>
-                              <Link
-                                to="/what-we-treat/sibo-naturopath"
-                                className="block text-xs text-muted-foreground hover:text-primary p-1"
-                              >
-                                SIBO
-                              </Link>
-                            </NavigationMenuLink>
-                            <div>
-                              <NavigationMenuLink asChild>
-                                <Link
-                                  to="/what-we-treat/ibs-brisbane"
-                                  className="block text-xs text-muted-foreground hover:text-primary p-1"
-                                >
-                                  IBS
-                                </Link>
-                              </NavigationMenuLink>
-                              <div className="ml-4 space-y-1">
-                                <NavigationMenuLink asChild>
-                                  <Link
-                                    to="/what-we-treat/ibs-naturopath"
-                                    className="block text-xs text-muted-foreground hover:text-primary p-1"
-                                  >
-                                    IBS Naturopathy
-                                  </Link>
-                                </NavigationMenuLink>
-                                <NavigationMenuLink asChild>
-                                  <Link
-                                    to="/what-we-treat/ibs-clinic"
-                                    className="block text-xs text-muted-foreground hover:text-primary p-1"
-                                  >
-                                    IBS Clinic
-                                  </Link>
-                                </NavigationMenuLink>
-                              </div>
-                            </div>
-                            <NavigationMenuLink asChild>
-                              <Link
-                                to="/what-we-treat/gut-health-specialist"
-                                className="block text-xs text-muted-foreground hover:text-primary p-1"
-                              >
-                                Gut Health Specialist
-                              </Link>
-                            </NavigationMenuLink>
-                          </div>
-                        </div>
+                      <div className="space-y-2">
+                        {/* Gut Health with cascading submenu */}
+                        <NavigationMenu>
+                          <NavigationMenuList>
+                            <NavigationMenuItem>
+                              <NavigationMenuTrigger className="text-sm font-medium justify-start p-2 h-auto hover:bg-accent hover:text-accent-foreground">
+                                Gut Health
+                              </NavigationMenuTrigger>
+                              <NavigationMenuContent>
+                                <div className="p-4 w-64 space-y-2">
+                                  <NavigationMenuLink asChild>
+                                    <Link
+                                      to="/what-we-treat/sibo-naturopath"
+                                      className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                                    >
+                                      SIBO
+                                    </Link>
+                                  </NavigationMenuLink>
+                                  
+                                  {/* IBS with its own cascading submenu */}
+                                  <NavigationMenu>
+                                    <NavigationMenuList>
+                                      <NavigationMenuItem>
+                                        <NavigationMenuTrigger className="text-sm justify-start p-2 h-auto hover:bg-accent hover:text-accent-foreground">
+                                          IBS
+                                        </NavigationMenuTrigger>
+                                        <NavigationMenuContent>
+                                          <div className="p-4 w-48 space-y-2">
+                                            <NavigationMenuLink asChild>
+                                              <Link
+                                                to="/what-we-treat/ibs-naturopath"
+                                                className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                                              >
+                                                IBS Naturopathy
+                                              </Link>
+                                            </NavigationMenuLink>
+                                            <NavigationMenuLink asChild>
+                                              <Link
+                                                to="/what-we-treat/ibs-clinic"
+                                                className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                                              >
+                                                IBS Clinic
+                                              </Link>
+                                            </NavigationMenuLink>
+                                          </div>
+                                        </NavigationMenuContent>
+                                      </NavigationMenuItem>
+                                    </NavigationMenuList>
+                                  </NavigationMenu>
+                                  
+                                  <NavigationMenuLink asChild>
+                                    <Link
+                                      to="/what-we-treat/gut-health-specialist"
+                                      className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                                    >
+                                      Gut Health Specialist
+                                    </Link>
+                                  </NavigationMenuLink>
+                                </div>
+                              </NavigationMenuContent>
+                            </NavigationMenuItem>
+                          </NavigationMenuList>
+                        </NavigationMenu>
                         
                         <NavigationMenuLink asChild>
                           <Link
@@ -194,47 +199,48 @@ const Navigation = () => {
                           </Link>
                         </NavigationMenuLink>
                         
-                        {/* Skin Conditions with nested items */}
-                        <div>
-                          <NavigationMenuLink asChild>
-                            <Link
-                              to="/what-we-treat/naturopathy-for-skin"
-                              className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
-                            >
-                              Skin Conditions
-                            </Link>
-                          </NavigationMenuLink>
-                          <div className="ml-4 mt-1 space-y-1">
-                            <NavigationMenuLink asChild>
-                              <Link
-                                to="/what-we-treat/hormonal-acne-naturopath"
-                                className="block text-xs text-muted-foreground hover:text-primary p-1"
-                              >
-                                Hormonal Acne
-                              </Link>
-                            </NavigationMenuLink>
-                            <NavigationMenuLink asChild>
-                              <Link
-                                to="/what-we-treat/acne-naturopathy"
-                                className="block text-xs text-muted-foreground hover:text-primary p-1"
-                              >
-                                Acne
-                              </Link>
-                            </NavigationMenuLink>
-                            <NavigationMenuLink asChild>
-                              <Link
-                                to="/what-we-treat/naturopath-eczema"
-                                className="block text-xs text-muted-foreground hover:text-primary p-1"
-                              >
-                                Eczema
-                              </Link>
-                            </NavigationMenuLink>
-                          </div>
-                        </div>
+                        {/* Skin Conditions with cascading submenu */}
+                        <NavigationMenu>
+                          <NavigationMenuList>
+                            <NavigationMenuItem>
+                              <NavigationMenuTrigger className="text-sm font-medium justify-start p-2 h-auto hover:bg-accent hover:text-accent-foreground">
+                                Skin Conditions
+                              </NavigationMenuTrigger>
+                              <NavigationMenuContent>
+                                <div className="p-4 w-64 space-y-2">
+                                  <NavigationMenuLink asChild>
+                                    <Link
+                                      to="/what-we-treat/hormonal-acne-naturopath"
+                                      className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                                    >
+                                      Hormonal Acne
+                                    </Link>
+                                  </NavigationMenuLink>
+                                  <NavigationMenuLink asChild>
+                                    <Link
+                                      to="/what-we-treat/acne-naturopathy"
+                                      className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                                    >
+                                      Acne
+                                    </Link>
+                                  </NavigationMenuLink>
+                                  <NavigationMenuLink asChild>
+                                    <Link
+                                      to="/what-we-treat/naturopath-eczema"
+                                      className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                                    >
+                                      Eczema
+                                    </Link>
+                                  </NavigationMenuLink>
+                                </div>
+                              </NavigationMenuContent>
+                            </NavigationMenuItem>
+                          </NavigationMenuList>
+                        </NavigationMenu>
                       </div>
                       
                       {/* Right Column */}
-                      <div className="space-y-3">
+                      <div className="space-y-2">
                         <NavigationMenuLink asChild>
                           <Link
                             to="/what-we-treat/naturopath-thyroid-brisbane"
