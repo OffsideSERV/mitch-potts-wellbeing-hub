@@ -1,4 +1,3 @@
-
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -29,7 +28,7 @@ const SIBONaturopathy = () => {
                   <img 
                     alt="Naturopath having consultation with female patient at NXTLVL Health" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                    src="/lovable-uploads/7c559226-37b5-4d6f-bcc4-f1a42d7a0b6b.png"
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -80,7 +79,7 @@ const SIBONaturopathy = () => {
               <img 
                 alt="Naturopath having consultation with female patient at NXTLVL Health" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg" 
+                src="/lovable-uploads/7c559226-37b5-4d6f-bcc4-f1a42d7a0b6b.png"
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
@@ -106,8 +105,8 @@ const SIBONaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
-              alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
+              src="/lovable-uploads/42bb449d-ce28-4105-a633-de7940727b20.png" 
+              alt="Woman sitting on her couch sad about gut problems" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
           </div>
@@ -129,8 +128,8 @@ const SIBONaturopathy = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
-                alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
+                src="/lovable-uploads/42bb449d-ce28-4105-a633-de7940727b20.png" 
+                alt="Woman sitting on her couch sad about gut problems" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
             </div>
@@ -165,15 +164,14 @@ const SIBONaturopathy = () => {
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
-              alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" 
+              src="/lovable-uploads/6a563de7-3442-45e7-813f-2d08425b5f71.png" 
+              alt="Naturopath looking through microscope" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h3 className="text-2xl font-bold mb-6">Symptoms of SIBO include:</h3>
               <ul className="space-y-4">
                 {[
                   "Bloating (often worse after eating)",
@@ -196,8 +194,8 @@ const SIBONaturopathy = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-looking-through-microscope-for-live-blood-analysis-scaled.jpeg" 
-                alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" 
+                src="/lovable-uploads/6a563de7-3442-45e7-813f-2d08425b5f71.png" 
+                alt="Naturopath looking through microscope" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
             </div>
@@ -210,6 +208,15 @@ const SIBONaturopathy = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">What Causes SIBO?</h2>
+          </div>
+
+          {/* Added Image */}
+          <div className="mb-16">
+            <img 
+              src="/lovable-uploads/9d537cd9-cb50-487f-8c01-fcb353738f68.png" 
+              alt="Naturopath showing test results to patient on a computer" 
+              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
+            />
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
@@ -245,8 +252,8 @@ const SIBONaturopathy = () => {
             {/* Added Image */}
             <div className="mb-12">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4503-scaled.jpeg" 
-                alt="NXTLVL Health naturopath consultation room" 
+                src="/lovable-uploads/a78839ee-9ca6-4087-b9b3-b68e08636b33.png" 
+                alt="Naturopath doing paperwork at desk" 
                 className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
               />
             </div>
@@ -294,8 +301,8 @@ const SIBONaturopathy = () => {
           {/* Centered Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
-              alt="Naturopath showing patient results on a computer at NXTLVL Health" 
+              src="/lovable-uploads/9d537cd9-cb50-487f-8c01-fcb353738f68.png" 
+              alt="Naturopath showing patient results on a computer" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
           </div>
@@ -403,8 +410,8 @@ const SIBONaturopathy = () => {
             {/* Added Image */}
             <div className="mb-12">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Sad-woman-dealing-with-gut-issues-and-bloating-scaled.jpeg" 
-                alt="Woman dealing with gut issues and bloating" 
+                src="/lovable-uploads/73ae9c32-eb11-46ba-a42a-284c0061317f.png" 
+                alt="Woman holding her gut in pain" 
                 className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
               />
             </div>
@@ -449,6 +456,15 @@ const SIBONaturopathy = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">What Happens in a SIBO Naturopath Consult?</h2>
+          </div>
+
+          {/* Added Image */}
+          <div className="mb-12">
+            <img 
+              src="/lovable-uploads/ed9e3662-e868-43a7-bf63-ca6b9508fe6b.png" 
+              alt="Naturopath having a consult with patient for gut problems" 
+              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+            />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-8">
@@ -506,8 +522,8 @@ const SIBONaturopathy = () => {
             {/* Added Image */}
             <div className="mb-12">
               <img 
-                src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/01/DSC_4546-scaled.jpeg" 
-                alt="Natural treatments and supplements for SIBO at NXTLVL Health" 
+                src="/lovable-uploads/60cace91-a809-4181-8c6d-083ba8fd5389.png" 
+                alt="Naturopath talking to female patient with 3 bottles of natural tonics and herbs in his hands" 
                 className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
               />
             </div>
@@ -691,8 +707,8 @@ const SIBONaturopathy = () => {
           {/* Image */}
           <div className="mb-12">
             <img 
-              src="https://nxtlvlhealth.com.au/wp-content/uploads/2025/05/DSC_4485-scaled.jpeg" 
-              alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" 
+              src="/lovable-uploads/d3467fd2-1425-445a-afcc-e1e474d769bd.png" 
+              alt="Naturopath checking blood pressure of a female patient" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
           </div>
