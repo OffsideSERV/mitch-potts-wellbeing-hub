@@ -109,26 +109,19 @@ const Navigation = () => {
           </div>
           
           {/* Desktop Layout */}
-          <div className="hidden sm:flex flex-row items-center justify-center gap-4 text-center">
-            <div className="flex items-center gap-2">
-              <Gift className="h-5 w-5 text-yellow-300 animate-pulse flex-shrink-0" />
-              <span className="text-sm md:text-base font-medium leading-tight">
-                <strong>Feeling Bloated After Every Meal You Eat?</strong>
-              </span>
-            </div>
-            <div className="flex flex-row items-center gap-3">
-              <span className="text-sm md:text-base font-medium leading-tight">
-                This Free 15-Min Gut Health Guide Will Give You The Answers You've Been Looking For!
-              </span>
-              <Button 
-                variant="secondary" 
-                size="sm" 
-                className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold whitespace-nowrap text-sm px-4 py-2"
-                asChild
-              >
-                <Link to="/gut-freedom">Get Free Guide</Link>
-              </Button>
-            </div>
+          <div className="hidden sm:flex flex-row items-center justify-center gap-3 text-center">
+            <Gift className="h-5 w-5 text-yellow-300 animate-pulse flex-shrink-0" />
+            <span className="text-sm md:text-base font-medium leading-tight">
+              <strong>Feeling Bloated After Every Meal You Eat?</strong> This Free 15-Min Gut Health Guide Will Give You The Answers You've Been Looking For!
+            </span>
+            <Button 
+              variant="secondary" 
+              size="sm" 
+              className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold whitespace-nowrap text-sm px-4 py-2"
+              asChild
+            >
+              <Link to="/gut-freedom">Get Free Guide</Link>
+            </Button>
           </div>
         </div>
       </div>
