@@ -85,21 +85,45 @@ const Navigation = () => {
       {/* Lead Magnet Promotional Header */}
       <div className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground py-2 md:py-3 px-4">
         <div className="container mx-auto">
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-center">
+          {/* Mobile Layout */}
+          <div className="flex flex-col sm:hidden items-center justify-center gap-2 text-center">
             <div className="flex items-center gap-2">
-              <Gift className="h-4 w-4 md:h-5 md:w-5 text-yellow-300 animate-pulse flex-shrink-0" />
-              <span className="text-xs sm:text-sm md:text-base font-medium leading-tight">
+              <Gift className="h-4 w-4 text-yellow-300 animate-pulse flex-shrink-0" />
+              <span className="text-xs font-medium leading-tight">
                 <strong>Feeling Bloated After Every Meal You Eat?</strong>
               </span>
             </div>
-            <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-3">
-              <span className="text-xs sm:text-sm md:text-base font-medium leading-tight">
+            <div className="flex flex-col items-center gap-2">
+              <span className="text-xs font-medium leading-tight">
                 This Free 15-Min Gut Health Guide Will Give You The Answers You've Been Looking For!
               </span>
               <Button 
                 variant="secondary" 
                 size="sm" 
-                className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold whitespace-nowrap text-xs sm:text-sm px-3 py-1 sm:px-4 sm:py-2"
+                className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold whitespace-nowrap text-xs px-3 py-1"
+                asChild
+              >
+                <Link to="/gut-freedom">Get Free Guide</Link>
+              </Button>
+            </div>
+          </div>
+          
+          {/* Desktop Layout */}
+          <div className="hidden sm:flex flex-row items-center justify-center gap-4 text-center">
+            <div className="flex items-center gap-2">
+              <Gift className="h-5 w-5 text-yellow-300 animate-pulse flex-shrink-0" />
+              <span className="text-sm md:text-base font-medium leading-tight">
+                <strong>Feeling Bloated After Every Meal You Eat?</strong>
+              </span>
+            </div>
+            <div className="flex flex-row items-center gap-3">
+              <span className="text-sm md:text-base font-medium leading-tight">
+                This Free 15-Min Gut Health Guide Will Give You The Answers You've Been Looking For!
+              </span>
+              <Button 
+                variant="secondary" 
+                size="sm" 
+                className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold whitespace-nowrap text-sm px-4 py-2"
                 asChild
               >
                 <Link to="/gut-freedom">Get Free Guide</Link>
