@@ -4,7 +4,7 @@ import LazyImage from '@/components/LazyImage';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, TestTube, BadgeCheck, Target, Shield, Zap, Coffee, Clock, Brain, Phone, Pill, Salad, DollarSign, CheckCircle, Star } from 'lucide-react';
+import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, TestTube, BadgeCheck, Target, Shield, Zap, Coffee, Clock, Brain, Phone, Pill, Salad, DollarSign, CheckCircle, Star, Gift, ArrowRight } from 'lucide-react';
 
 const Index = () => {
   const services = useMemo(() => [{
@@ -317,6 +317,94 @@ const Index = () => {
               width={800}
               height={600}
             />
+          </div>
+        </div>
+      </section>
+
+      {/* NEW: Gut Health Guide Lead Magnet Section */}
+      <section className="py-20 px-4 bg-gradient-to-br from-primary/5 to-accent/5">
+        <div className="container mx-auto max-w-6xl">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">
+                <Gift className="h-4 w-4" />
+                FREE GUIDE
+              </div>
+              
+              <h2 className="text-3xl lg:text-4xl font-bold text-foreground">
+                Stop Feeling Bloated After Every Meal
+              </h2>
+              
+              <p className="text-xl text-muted-foreground leading-relaxed">
+                Download our free 15-minute gut health guide and discover the simple steps to eliminate bloating, improve digestion, and feel comfortable in your body again.
+              </p>
+              
+              <div className="space-y-4">
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                  <p className="text-lg text-muted-foreground">Identify the root causes of your bloating</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                  <p className="text-lg text-muted-foreground">Learn which foods to avoid and which to embrace</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                  <p className="text-lg text-muted-foreground">Get proven strategies that work in just 15 minutes</p>
+                </div>
+              </div>
+              
+              <Button size="lg" className="text-base sm:text-lg px-8 py-4 h-auto group" asChild>
+                <a href="/gut-freedom">
+                  <Gift className="mr-2 h-5 w-5" />
+                  Get Your Free Guide Now
+                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                </a>
+              </Button>
+              
+              <p className="text-sm text-muted-foreground">
+                ✓ Instant download • ✓ No spam • ✓ Evidence-based advice
+              </p>
+            </div>
+            
+            <div className="relative">
+              <div className="relative bg-white rounded-2xl shadow-2xl p-8 transform rotate-1">
+                <div className="bg-gradient-to-br from-primary to-primary/80 rounded-xl p-6 text-white">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="bg-white/20 rounded-full p-3">
+                      <Salad className="h-8 w-8" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold">Gut Freedom Guide</h3>
+                      <p className="text-primary-foreground/80">15-Minute Read</p>
+                    </div>
+                  </div>
+                  
+                  <div className="space-y-3 text-sm">
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
+                      <span>Why you feel bloated after eating</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
+                      <span>The 5 worst foods for gut health</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
+                      <span>Simple 3-step healing protocol</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
+                      <span>When to seek professional help</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="absolute -top-4 -right-4 bg-yellow-400 text-black px-4 py-2 rounded-full text-sm font-bold transform -rotate-12 shadow-lg">
+                FREE!
+              </div>
+            </div>
           </div>
         </div>
       </section>
