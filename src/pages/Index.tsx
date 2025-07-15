@@ -146,7 +146,7 @@ const Index = () => {
           </div>
 
           <div className="mb-12">
-            <LazyImage src="/lovable-uploads/9e5ed0a0-bb35-4fde-9965-94edcb9294a8.png" alt="Woman dealing with health concerns needing naturopathic care" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" width={800} height={600} />
+            <LazyImage src="/lovable-uploads/d044484a-91e6-4582-8a51-f2c911631871.png" alt="Professional naturopathic consultation at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" width={800} height={600} />
           </div>
 
           <div className="max-w-4xl mx-auto text-center space-y-6 text-lg text-muted-foreground">
