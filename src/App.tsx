@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -67,6 +66,7 @@ import SitemapPage from "./pages/SitemapPage";
 import RobotsPage from "./pages/RobotsPage";
 import NaturopathForAthletes from "./pages/NaturopathForAthletes";
 import BulimbaNaturopathy from "./pages/BulimbaNaturopathy";
+import FortitudeValleyNaturopathy from "./pages/FortitudeValleyNaturopathy";
 
 const queryClient = new QueryClient();
 
@@ -135,6 +135,7 @@ const App = () => (
               <Route path="/blog/gut-health/gut-brain-connection-how-your-gut-affects-mental-health" element={<GutBrainConnection />} />
               <Route path="/what-we-treat/naturopath-for-athletes" element={<NaturopathForAthletes />} />
               <Route path="/areas-we-serve/naturopath-bulimba" element={<BulimbaNaturopathy />} />
+              <Route path="/areas-we-serve/naturopath-fortitude-valley" element={<FortitudeValleyNaturopathy />} />
               
               {/* SEO essential pages */}
               <Route path="/sitemap.xml" element={<SitemapPage />} />
