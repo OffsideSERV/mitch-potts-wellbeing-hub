@@ -211,7 +211,7 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  You've seen doctors. You've tried all the diets. You've read all the blogs. But you still feel like something's not right.
+                  You've seen doctors. You've tried all the diets. You've read all the blogs. But you still feel like something's not right. Maybe it's time to try a different approach with <a href="/blog/naturopathy/naturopathy-vs-homeopathy" className="text-primary hover:underline">naturopathy</a> or explore <a href="/blog/naturopathy/naturopathy-for-weight-loss" className="text-primary hover:underline">natural weight loss solutions</a>.
                 </CardDescription>
               </CardContent>
             </Card>

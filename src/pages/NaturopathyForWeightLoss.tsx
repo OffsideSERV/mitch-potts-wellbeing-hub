@@ -27,7 +27,7 @@ const NaturopathyForWeightLoss = () => {
     },
     {
       title: "Balance Your Gut Health", 
-      description: "Your belly is super smart! A happy gut can help your body burn fat a lot better."
+      description: "Your belly is super smart! A happy gut can help your body burn fat a lot better. Learn more about our approach to naturopathy across Brisbane areas like <a href=\"/areas-we-serve/naturopath-clayfield-brisbane\" className=\"text-primary hover:underline\">Clayfield</a> and <a href=\"/areas-we-serve/naturopath-new-farm\" className=\"text-primary hover:underline\">New Farm</a>."
     },
     {
       title: "Sleep and Stress Matter Too",
