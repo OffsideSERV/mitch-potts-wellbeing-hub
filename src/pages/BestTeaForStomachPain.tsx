@@ -137,7 +137,7 @@ const BestTeaForStomachPain = () => {
                     "I feel bloated after every meal, and I don't even know why."
                   </blockquote>
                   <p>That's what I hear from people every week in my clinic.</p>
-                  <p>Whether it's from food, stress, gut bugs, or hormone shifts—your gut is trying to tell you something.</p>
+                  <p>Whether it's from food, stress, gut bugs, or hormone shifts—your gut is trying to tell you something. While there are many potential causes - from food intolerances to <a href="/what-we-treat/ibs-naturopath" className="text-primary hover:underline">digestive disorders like IBS</a> or <a href="/what-we-treat/sibo-naturopath" className="text-primary hover:underline">SIBO</a> - understanding the root cause is crucial for lasting relief.</p>
                   <p>And while we work on fixing the root cause, sometimes you need fast, natural relief—and that's where the best tea for stomach pain and bloating can really help.</p>
                 </div>
               </div>
@@ -227,7 +227,7 @@ const BestTeaForStomachPain = () => {
                     <li>Notice which tea your body responds to best—everyone's a little different</li>
                     <li>Drink it warm—not hot, not cold</li>
                   </ul>
-                  <p>And if tea helps a little but your gut's still off most days, that's a sign to dig deeper.</p>
+                  <p>And if tea helps a little but your gut's still off most days, that's a sign to dig deeper. While teas can provide excellent symptomatic relief, persistent digestive issues may require a more comprehensive approach. Consider working with a <a href="/what-we-treat/gut-health-specialist" className="text-primary hover:underline">gut health specialist</a> who can help identify root causes. Additionally, avoiding <a href="/blog/gut-health/7-worst-foods-for-gut-health" className="text-primary hover:underline">foods that harm gut health</a> can complement your healing tea routine for better digestive wellness.</p>
                   <p className="font-medium text-lg">Bloating isn't something you just have to live with.</p>
                 </div>
               </div>

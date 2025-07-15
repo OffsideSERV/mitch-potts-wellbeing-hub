@@ -124,7 +124,7 @@ const GutHealthSpecialist = () => {
                   Many people live with gut issues that make everyday life hard. And often, they're told it's "just stress" or to try another diet. But at NXTLVL Health, we know the gut is the core of your health, and we treat it accordingly.
                 </p>
                 <p>
-                  Mitch, a trusted gut health specialist in Brisbane, helps you find out why your gut isn't feeling quite right. Whether it's small intestinal bacterial overgrowth (SIBO), irritable bowel syndrome (IBS), or a sensitive tummy, you'll get real support that helps you feel like yourself again.
+                  Mitch, a trusted gut health specialist in Brisbane, helps you find out why your gut isn't feeling quite right. Whether it's <a href="/what-we-treat/sibo-naturopath" className="text-primary hover:underline">small intestinal bacterial overgrowth (SIBO)</a>, <a href="/what-we-treat/ibs-naturopath" className="text-primary hover:underline">irritable bowel syndrome (IBS)</a>, or a sensitive tummy, you'll get real support that helps you feel like yourself again. We also offer specialized care at our <a href="/what-we-treat/ibs-clinic" className="text-primary hover:underline">IBS clinic</a> for comprehensive treatment.
                 </p>
               </div>
             </div>
@@ -274,21 +274,27 @@ const GutHealthSpecialist = () => {
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
             {[
-              "Small intestinal bacterial overgrowth (SIBO)",
-              "Irritable bowel syndrome (IBS)",
-              "Leaky gut",
-              "Ulcerative colitis",
-              "Inflammatory bowel disease (IBD)",
-              "Reflux, bloating, constipation, diarrhoea",
-              "Food intolerances",
-              "Abdominal pain",
-              "Digestive issues linked to mental health"
+              { text: "Small intestinal bacterial overgrowth (SIBO)", link: "/what-we-treat/sibo-naturopath" },
+              { text: "Irritable bowel syndrome (IBS)", link: "/what-we-treat/ibs-naturopath" },
+              { text: "Leaky gut", link: null },
+              { text: "Ulcerative colitis", link: null },
+              { text: "Inflammatory bowel disease (IBD)", link: null },
+              { text: "Reflux, bloating, constipation, diarrhoea", link: null },
+              { text: "Food intolerances", link: null },
+              { text: "Abdominal pain", link: null },
+              { text: "Digestive issues linked to mental health", link: null }
             ].map((condition, index) => (
               <Card key={index}>
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-muted-foreground">{condition}</span>
+                    <span className="text-muted-foreground">
+                      {condition.link ? (
+                        <a href={condition.link} className="text-primary hover:underline">{condition.text}</a>
+                      ) : (
+                        condition.text
+                      )}
+                    </span>
                   </div>
                 </CardContent>
               </Card>

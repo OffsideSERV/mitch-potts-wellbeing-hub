@@ -111,7 +111,7 @@ const IBSClinic = () => {
                 Do you feel <strong>bloated, uncomfortable, or like your gut just isn't working right</strong>? Do you have to think twice before eating certain foods? Are you constantly dealing with <strong>stomach pain, constipation, or diarrhoea</strong>? If this sounds like you, you may be living with Irritable Bowel Syndrome (IBS).
               </p>
               <p>
-                At NXTLVL Health, our <strong>IBS clinic is here to help you</strong>. Led by Mitch, a trusted naturopath and gut health expert, we work with people just like you to uncover the real reason behind your digestive troubles. Whether you're struggling with <strong>long-term gastrointestinal symptoms</strong> or just starting to notice gut issues, you'll receive <strong>natural support, expert guidance, and a clear plan</strong> to finally feel great.
+                At NXTLVL Health, our <strong>IBS clinic is here to help you</strong>. Led by Mitch, a trusted naturopath and <a href="/what-we-treat/gut-health-specialist" className="text-primary hover:underline">gut health expert</a>, we work with people just like you to uncover the real reason behind your digestive troubles. Our experienced <a href="/what-we-treat/ibs-naturopath" className="text-primary hover:underline">IBS naturopath</a> provides specialized care for lasting relief. Whether you're struggling with <strong>long-term gastrointestinal symptoms</strong> or just starting to notice gut issues, you'll receive <strong>natural support, expert guidance, and a clear plan</strong> to finally feel great.
               </p>
             </div>
           </div>
@@ -305,9 +305,7 @@ const IBSClinic = () => {
             <div className="text-center mt-8">
               <p className="text-lg text-muted-foreground">
                 <a 
-                  href="https://nxtlvlhealth.com.au/what-we-treat/gut-health-specialist/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
+                  href="/what-we-treat/gut-health-specialist"
                   className="text-primary hover:text-primary/80 underline"
                 >
                   Click here to learn about Mitchell, our Specialist in Gut Health
@@ -524,14 +522,12 @@ const IBSClinic = () => {
                 <strong>Counseling can be suggested for patients with IBS</strong> if depression or stress worsens their symptoms.
               </p>
               <p className="text-lg text-muted-foreground">
-                <a 
-                  href="https://nxtlvlhealth.com.au/what-we-treat/ibs-naturopath/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-primary hover:text-primary/80 underline"
-                >
-                  Click here to learn about our IBS Naturopathy
-                </a>
+                 <a 
+                   href="/what-we-treat/ibs-naturopath"
+                   className="text-primary hover:text-primary/80 underline"
+                 >
+                   Click here to learn about our IBS Naturopathy
+                 </a>
               </p>
             </div>
           </div>
@@ -598,14 +594,12 @@ const IBSClinic = () => {
                 At NXTLVL Health, <strong>we're not just another one of those IBS clinics. We're a team that genuinely cares</strong> about your health, your body, and your life.
               </p>
               <p className="text-lg text-muted-foreground">
-                <a 
-                  href="https://nxtlvlhealth.com.au/what-we-treat/gut-health-naturopath-brisbane/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-primary hover:text-primary/80 underline"
-                >
-                  Click here to explore our Gut Health Naturopathy
-                </a>
+                 <a 
+                   href="/what-we-treat/gut-health-naturopath-brisbane"
+                   className="text-primary hover:text-primary/80 underline"
+                 >
+                   Click here to explore our Gut Health Naturopathy
+                 </a>
               </p>
             </div>
           </div>

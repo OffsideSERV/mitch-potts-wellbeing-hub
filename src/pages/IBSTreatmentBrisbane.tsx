@@ -110,9 +110,9 @@ const IBSTreatmentBrisbane = () => {
               <p>
                 If so, you might be dealing with <strong>irritable bowel syndrome (IBS)</strong>, a chronic condition that can affect every part of your day. But you're not alone. Many IBS sufferers across Brisbane are struggling with the same thing, and here at NXTLVL Health, we're here to help you <strong>finally get answers and heal</strong>.
               </p>
-              <p>
-                Mitch, a trusted naturopath in Brisbane, is experienced in helping IBS patients with <strong>personalised care, advanced testing, and natural methods</strong>. Together, we'll create a treatment plan that helps you regain control over your life and feel good in your body again.
-              </p>
+                <p>
+                  Mitch, a trusted naturopath in Brisbane, is experienced in helping IBS patients with <strong>personalised care, advanced testing, and natural methods</strong>. Our comprehensive approach includes working at our specialized <a href="/what-we-treat/ibs-clinic" className="text-primary hover:underline">IBS clinic</a> and collaborating with our <a href="/what-we-treat/gut-health-specialist" className="text-primary hover:underline">gut health specialist</a>. Together, we'll create a treatment plan that helps you regain control over your life and feel good in your body again.
+                </p>
             </div>
           </div>
         </div>
@@ -247,7 +247,7 @@ const IBSTreatmentBrisbane = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
                     <Users className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                    <span className="text-muted-foreground">Imbalanced gut microbiota</span>
+                    <span className="text-muted-foreground">Imbalanced gut microbiota (often linked to <a href="/what-we-treat/sibo-naturopath" className="text-primary hover:underline">SIBO</a>)</span>
                   </div>
                 </CardContent>
               </Card>

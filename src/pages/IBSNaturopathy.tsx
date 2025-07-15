@@ -120,9 +120,9 @@ const IBSNaturopathy = () => {
               <p>
                 Do you feel like your tummy is always upset? Are you tired of the bloating, cramping, and rushing to the toilet—or feeling stuck and not going at all? You're not alone. Many people feel this way, and it can be hard. But there's help.
               </p>
-              <p>
-                At NXTLVL Health, we help people with irritable bowel syndrome (IBS) feel better using natural options. We work with you to understand what's really going on in your digestive system and make a plan that helps.
-              </p>
+                <p>
+                  At NXTLVL Health, we help people with irritable bowel syndrome (IBS) feel better using natural options. Our specialized <a href="/what-we-treat/ibs-clinic" className="text-primary hover:underline">IBS clinic</a> and dedicated <a href="/what-we-treat/gut-health-specialist" className="text-primary hover:underline">gut health specialist</a> work with you to understand what's really going on in your digestive system and make a plan that helps.
+                </p>
               <p>
                 Our <strong>IBS naturopath</strong> service is gentle, caring, and focused on the root cause of your symptoms.
               </p>
@@ -204,7 +204,7 @@ const IBSNaturopathy = () => {
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="grid gap-6">
               {[
-                "Gut issues like small intestinal bacterial overgrowth (SIBO), which is commonly found in patients with IBS",
+                "Gut issues like <a href=\"/what-we-treat/sibo-naturopath\" className=\"text-primary hover:underline\">small intestinal bacterial overgrowth (SIBO)</a>, which is commonly found in patients with IBS",
                 "Food sensitivities or food intolerances",
                 "Stress hormones and nervous system imbalances",
                 "Gut motility problems (how food moves through your gut)",
@@ -300,16 +300,14 @@ const IBSNaturopathy = () => {
               <p className="text-lg text-muted-foreground">
                 Once we understand what's going on, we create a <strong>tailored treatment plan</strong> that fits your life.
               </p>
-              <p className="text-lg">
-                <a 
-                  href="https://nxtlvlhealth.com.au/what-we-treat/gut-health-naturopath-brisbane/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-primary hover:text-primary/80 underline"
-                >
-                  Learn more about our Gut Health Naturopathy
-                </a>
-              </p>
+                <p className="text-lg">
+                  <a 
+                    href="/what-we-treat/gut-health-naturopath-brisbane" 
+                    className="text-primary hover:text-primary/80 underline"
+                  >
+                    Learn more about our Gut Health Naturopathy
+                  </a> or discover <a href="/what-we-treat/ibs-brisbane" className="text-primary hover:underline">comprehensive IBS treatment options</a> available at our clinic.
+                </p>
             </div>
           </div>
         </div>

@@ -769,7 +769,7 @@ const GutHealth = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Book Your Gut Health Consultation Today</h2>
             <div className="max-w-3xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
               <p>
-                Tired of living with <strong>digestive problems</strong>, bloating, or just feeling off? If you're ready to get real answers and real results, it's time to work with a <strong>gut health naturopath</strong> who truly understands how to heal the body from the inside out.
+                Tired of living with <strong>digestive problems</strong> like <a href="/what-we-treat/ibs-brisbane" className="text-primary hover:underline">IBS</a>, <a href="/what-we-treat/sibo-naturopath" className="text-primary hover:underline">SIBO</a>, bloating, or just feeling off? If you're ready to get real answers and real results, it's time to work with a <strong>gut health naturopath</strong> who truly understands how to heal the body from the inside out. Learn more about working with our dedicated <a href="/what-we-treat/gut-health-specialist" className="text-primary hover:underline">gut health specialist</a> for comprehensive care.
               </p>
               <p>
                 Whether you're local to Brisbane or joining us via <strong>online consultations</strong>, NXTLVL Health is here to guide you every step of the way.

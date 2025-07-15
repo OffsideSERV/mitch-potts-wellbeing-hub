@@ -119,7 +119,7 @@ const SIBONaturopathy = () => {
                   If your gut always feels <strong>bloated, uncomfortable, or unpredictable</strong>, you may have something called <strong>SIBO</strong> — short for Small Intestinal Bacterial Overgrowth.
                 </p>
                 <p>
-                  At NXTLVL Health, we specialise in helping people understand and <strong>naturally treat SIBO</strong> using evidence-based naturopathic medicine, functional testing, and personalised care plans.
+                  At NXTLVL Health, we specialise in helping people understand and <strong>naturally treat SIBO</strong> using evidence-based naturopathic medicine, functional testing, and personalised care plans. Our comprehensive approach includes working with our experienced <a href="/what-we-treat/gut-health-specialist" className="text-primary hover:underline">gut health specialist</a> and providing specialized care for those who also struggle with <a href="/what-we-treat/ibs-naturopath" className="text-primary hover:underline">IBS symptoms</a>.
                 </p>
                 <p>
                   You don't need to live with constant discomfort. Let's help you <strong>get to the root cause</strong> and find lasting relief.
@@ -219,7 +219,7 @@ const SIBONaturopathy = () => {
               "Abdominal surgery or gastric bypass",
               "Poor gut motility",
               "Chronic stress and nervous system changes",
-              "Irritable bowel syndrome",
+              "<a href=\"/what-we-treat/ibs-naturopath\" className=\"text-primary hover:underline\">Irritable bowel syndrome</a>",
               "Coeliac disease, Crohn's, or Ulcerative Colitis",
               "Weakened immune system",
               "Digestive enzyme deficiencies"

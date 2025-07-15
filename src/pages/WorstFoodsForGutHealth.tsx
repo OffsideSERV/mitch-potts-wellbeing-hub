@@ -206,7 +206,7 @@ const WorstFoodsForGutHealth = () => {
                       ))}
                     </ul>
                   </div>
-                  <p>It doesn't happen overnight, but it builds up fast.</p>
+                  <p>It doesn't happen overnight, but it builds up fast. Poor gut health is linked to various issues, from digestive problems like <a href="/what-we-treat/ibs-naturopath" className="text-primary hover:underline">IBS</a> and <a href="/what-we-treat/sibo-naturopath" className="text-primary hover:underline">SIBO</a> to autoimmune conditions and mental health challenges. Working with a qualified <a href="/what-we-treat/gut-health-specialist" className="text-primary hover:underline">gut health specialist</a> can help you identify and address these underlying issues.</p>
                 </div>
               </div>
 
@@ -250,7 +250,7 @@ const WorstFoodsForGutHealth = () => {
                       ))}
                     </ul>
                   </div>
-                  <p>If any of these sound like you, it might be time to make a change.</p>
+                  <p>If any of these sound like you, it might be time to make a change. Consider working with a healthcare professional who specializes in gut health. Our <a href="/what-we-treat/gut-health-naturopath-brisbane" className="text-primary hover:underline">naturopathic approach to gut health</a> can help you identify trigger foods and develop a healing protocol. For digestive issues like bloating and stomach pain, you might also find relief with <a href="/blog/gut-health/best-tea-for-stomach-pain-and-bloating" className="text-primary hover:underline">natural remedies such as healing teas</a>.</p>
                 </div>
               </div>
 
