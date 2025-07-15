@@ -5,13 +5,14 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, TestTube, BadgeCheck, Target, Shield, Zap, Coffee, Clock, Brain, Phone, Pill, Salad, DollarSign, CheckCircle, Star, Gift, ArrowRight, Video } from 'lucide-react';
+
 const Index = () => {
   const services = useMemo(() => [{
     title: "Naturopathy",
     description: "We offer powerful yet gentle support for your whole body. We work with chronic fatigue, gut health, hormonal imbalance, and more.",
     icon: <Leaf className="h-8 w-8 text-primary" />
   }, {
-    title: "Nutritional Medicine",
+    title: "Nutritional Medicine", 
     description: "You'll get a fully personalised nutrition plan built for your needs and goals. No more fad diets, just simple, powerful food support.",
     icon: <Salad className="h-8 w-8 text-primary" />
   }, {
@@ -49,6 +50,7 @@ const Index = () => {
     description: "You're not alone. We stay with you the whole time, checking in, making changes, and helping you feel confident in your health journey.",
     icon: <Shield className="h-6 w-6 text-primary" />
   }], []);
+
   return <div className="min-h-screen bg-background">
       <SEO title="Best Naturopath Brisbane | Book a FREE 15-Min Consult!" description="Feel like something's wrong but no one's listening? NXTLVL Health is the best Naturopath in Brisbane and is here to give you the answers you've been looking for" canonical="/" keywords="naturopath Brisbane, best naturopath Brisbane, natural medicine Brisbane, functional medicine Brisbane, gut health Brisbane" />
       
@@ -148,6 +150,9 @@ const Index = () => {
           </div>
 
           <div className="max-w-4xl mx-auto text-center space-y-6 text-lg text-muted-foreground">
+            <p>
+              We are the best naturopath Brisbane has to offer, and if this sounds like you, we're here to help:
+            </p>
             <p>
               Are you feeling <strong>bloated, exhausted, foggy, or just not like yourself</strong>? And yet, every test you get comes back "normal"? Well, you're not alone, and you're definitely not making it up.
             </p>
