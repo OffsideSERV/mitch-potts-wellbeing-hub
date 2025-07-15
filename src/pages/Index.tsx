@@ -50,12 +50,7 @@ const Index = () => {
     icon: <Shield className="h-6 w-6 text-primary" />
   }], []);
   return <div className="min-h-screen bg-background">
-      <SEO 
-        title="Best Naturopath Brisbane | NXTLVL Health - Natural Medicine Experts" 
-        description="Looking for the best naturopath in Brisbane? NXTLVL Health offers expert natural medicine, functional testing, and holistic health care. Book your free 15-minute consultation today!" 
-        canonical="/" 
-        keywords="best naturopath brisbane, naturopath brisbane, natural medicine brisbane, functional medicine brisbane, gut health brisbane, naturopaths brisbane, good naturopath brisbane, holistic health brisbane, live blood analysis brisbane, nutritional medicine brisbane, herbal medicine brisbane" 
-      />
+      <SEO title="Best Naturopath Brisbane | NXTLVL Health - Natural Medicine Experts" description="Looking for the best naturopath in Brisbane? NXTLVL Health offers expert natural medicine, functional testing, and holistic health care. Book your free 15-minute consultation today!" canonical="/" keywords="best naturopath brisbane, naturopath brisbane, natural medicine brisbane, functional medicine brisbane, gut health brisbane, naturopaths brisbane, good naturopath brisbane, holistic health brisbane, live blood analysis brisbane, nutritional medicine brisbane, herbal medicine brisbane" />
       
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
@@ -145,7 +140,7 @@ const Index = () => {
       <section className="py-24 px-4 mt-8">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Finally – A Best Naturopath Brisbane Who Truly Gets It</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Finally – The Best Naturopath Brisbane Has to Offer</h2>
           </div>
 
           <div className="mb-12">
