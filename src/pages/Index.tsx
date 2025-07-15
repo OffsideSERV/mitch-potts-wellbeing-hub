@@ -50,7 +50,7 @@ const Index = () => {
     icon: <Shield className="h-6 w-6 text-primary" />
   }], []);
   return <div className="min-h-screen bg-background">
-      <SEO title="Best Naturopath Brisbane | NXTLVL Health - Natural Medicine Experts" description="Looking for the best naturopath in Brisbane? NXTLVL Health offers expert natural medicine, functional testing, and holistic health care. Book your free 15-minute consultation today!" canonical="/" keywords="best naturopath brisbane, naturopath brisbane, natural medicine brisbane, functional medicine brisbane, gut health brisbane, naturopaths brisbane, good naturopath brisbane, holistic health brisbane, live blood analysis brisbane, nutritional medicine brisbane, herbal medicine brisbane" />
+      <SEO title="Best Naturopath Brisbane | Book a FREE 15-Min Consult!" description="Feel like something's wrong but no one's listening? NXTLVL Health is the best Naturopath in Brisbane and is here to give you the answers you've been looking for" canonical="/" keywords="naturopath Brisbane, best naturopath Brisbane, natural medicine Brisbane, functional medicine Brisbane, gut health Brisbane" />
       
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
@@ -59,7 +59,7 @@ const Index = () => {
             <div className="space-y-8 lg:mt-0 mt-12">
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Best Naturopath Brisbane - <span className="text-primary">Feel Like Yourself Again</span> with Expert Natural Medicine
+                  Best Naturopath Brisbane | <span className="text-primary">Feel Like Yourself Again</span> at NXTLVL Health
                 </h1>
                 
                 {/* Mobile Image - placed right after headline */}
@@ -140,7 +140,7 @@ const Index = () => {
       <section className="py-24 px-4 mt-8">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Finally – The Best Naturopath Brisbane Has to Offer</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Finally – A Brisbane Naturopath Who Truly Gets It</h2>
           </div>
 
           <div className="mb-12">
@@ -149,10 +149,10 @@ const Index = () => {
 
           <div className="max-w-4xl mx-auto text-center space-y-6 text-lg text-muted-foreground">
             <p>
-              Best naturopath Brisbane has to offer? You've found it. Are you feeling <strong>bloated, exhausted, foggy, or just not like yourself</strong>? And yet, every test you get comes back "normal"? Well, you're not alone, and you're definitely not making it up.
+              Are you feeling <strong>bloated, exhausted, foggy, or just not like yourself</strong>? And yet, every test you get comes back "normal"? Well, you're not alone, and you're definitely not making it up.
             </p>
             <p>
-              At NXTLVL Health, we offer the <strong>best naturopath Brisbane</strong> experience through our comprehensive <strong>natural health clinic</strong>. Mitch, our <strong>experienced naturopath</strong> and <strong>highly qualified</strong> practitioner, is here to help you achieve <strong>optimal health</strong> on your <strong>health journey</strong>. As the <strong>best naturopath Brisbane</strong> locals trust, he brings proven expertise and a modern, <strong>holistic approach</strong> to your <strong>health care</strong>. Our <strong>naturopathic care</strong> focuses on both <strong>physical health</strong> and <strong>mental health</strong>, using <strong>natural medicine</strong> and <strong>proven methods</strong> to find the <strong>root cause</strong> of your <strong>health concerns</strong> and <strong>chronic health conditions</strong>.
+              At NXTLVL Health, Mitch is here to help you feel better on your <strong>health journey</strong>, naturally. As one of the <strong>best naturopaths in Brisbane</strong>, he brings local expertise and a modern, <strong>holistic approach</strong> to your care. Mitch is extremely knowledgeable in <strong>naturopathy</strong> and <strong>holistic health</strong>, and as a <strong>qualified naturopath</strong>, he listens, he digs deep, and he finds the <strong>root cause</strong> of your <strong>health concerns</strong>, so you can finally feel clear, calm, and in control again.
             </p>
           </div>
 
@@ -436,12 +436,12 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Naturopathy Actually Works</h2>
-          <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
+            <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
-                The <strong>best naturopath Brisbane</strong> clinics understand that <strong>naturopathy</strong> and <strong>naturopathic medicine</strong> don't just cover up symptoms. We find the <strong>root cause</strong> and <strong>underlying cause</strong> of your <strong>health problems</strong> and <strong>health issues</strong>. Unlike <strong>modern medicine</strong>, which often treats symptoms in isolation, our <strong>naturopathic care</strong> uses <strong>natural medicine</strong> and <strong>modern science</strong> to help your body heal naturally and achieve <strong>better health</strong>.
+                <strong>Naturopathy</strong> doesn't cover up symptoms. It finds the <strong>root cause</strong> of your problems. Unlike <strong>modern medicine</strong>, which often treats symptoms in isolation, our <strong>naturopathic care</strong> uses <strong>natural medicine</strong> and science to help your body heal, naturally.
               </p>
               <p>
-                Our comprehensive <strong>holistic approach</strong> blends <strong>nutritional medicine</strong>, <strong>herbal medicine</strong>, <strong>nutritional supplements</strong>, lifestyle support, and <strong>functional testing</strong> as part of our <strong>natural healthcare</strong> and evidence-based <strong>health care</strong> philosophy. We address <strong>digestive health</strong>, <strong>hormonal imbalances</strong>, <strong>chronic pain</strong>, <strong>chronic fatigue</strong>, <strong>skin conditions</strong>, <strong>mood disorders</strong>, and many other <strong>health conditions</strong> to help you feel your best again.
+                Our <strong>holistic approach</strong> blends <strong>nutritional medicine</strong>, <strong>herbal medicine</strong>, lifestyle support, and <strong>functional testing</strong> as part of our <strong>natural healthcare</strong> and comprehensive <strong>health care</strong> philosophy to fix the <strong>underlying causes</strong> of your problems, and help you feel your best again, inside and out.
               </p>
             </div>
           </div>
@@ -494,7 +494,7 @@ const Index = () => {
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Best Naturopath Brisbane Services - <a href="/services" className="text-primary hover:underline">Natural Health Solutions</a></h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Our Natural Health Services</h2>
           </div>
 
           <div className="mb-12">
@@ -523,10 +523,7 @@ const Index = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Health Conditions We Treat - <a href="/what-we-treat" className="text-primary hover:underline">Expert Naturopathic Care</a></h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              As the <strong>best naturopath Brisbane</strong> has to offer, we provide <strong>natural treatments</strong> for <strong>chronic health conditions</strong>, <strong>digestive disorders</strong>, <strong>hormonal imbalances</strong>, and more. Our <strong>experienced practitioners</strong> use <strong>proven methods</strong> to address your <strong>health needs</strong> and support your <strong>wellness journey</strong>.
-            </p>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">What We Help With</h2>
           </div>
 
           <div className="mb-12">
@@ -563,7 +560,7 @@ const Index = () => {
 
           <div className="text-center mb-12">
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              We help support children's development and <strong>well being</strong> through gentle, safe, and <strong>natural approach</strong> care. As the <strong>best naturopath Brisbane</strong> families trust, Mitch works closely with parents to create custom plans for issues like <strong>skin conditions</strong>, <strong>digestive disorders</strong>, or <strong>sleep disturbances</strong>. Learn more about our <a href="/childrens-health" className="text-primary hover:underline">children's health services</a>.
+              We help support children's development and wellbeing through gentle, safe, and natural care. Mitch works closely with parents to create custom plans for issues like eczema, digestive issues, or sleep problems.
             </p>
           </div>
         </div>
@@ -635,7 +632,7 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Virtual Appointments: Online Consultations for Busy Lives</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              If you can't make it to our <strong>Brisbane naturopath clinic</strong>, we've got you covered. Our online consultations offer the same in-depth support and results as the <strong>best naturopath Brisbane</strong> clinic experience. Whether you're managing <strong>chronic health conditions</strong>, seeking <strong>preventative care</strong>, or just want to take better care of your <strong>own health</strong>, our virtual appointments provide comprehensive <strong>naturopathic care</strong> from the comfort of your home.
+              If you can't make it to our Brisbane clinic, we've got you. Our online consultations offer the same in-depth support and results. Whether you're managing chronic health conditions or just want to take better care of yourself, we're here.
             </p>
           </div>
         </div>
@@ -647,12 +644,12 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">This is What You've Been Looking For</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-12">
-              From <strong>hormonal imbalances</strong> to <strong>chronic pain</strong> and <strong>skin conditions</strong>, from <strong>digestive disorders</strong> to total <strong>chronic fatigue</strong> and burnout — we see you. As the <strong>best naturopath Brisbane</strong> has available, we've got a personalized plan to help you achieve <strong>optimal health</strong> and live a <strong>healthy lifestyle</strong>. You don't need to navigate your <strong>healing journey</strong> alone. Visit our <a href="/gut-health" className="text-primary hover:underline">gut health specialist page</a> or learn about our <a href="/functional-medicine" className="text-primary hover:underline">functional medicine approach</a>.
+              From hormonal imbalances to chronic skin issues, from digestive discomfort to total burnout — we see you. And we've got a plan to help. You don't need to do this alone.
             </p>
             
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 mt-16">Ready to Get Your Life Back?</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Your <strong>debilitating symptoms</strong> are real. Your <strong>healing journey</strong> to <strong>better health</strong> is possible with the <strong>best naturopath Brisbane</strong> team. We <strong>provide support</strong> through evidence-based <strong>natural treatments</strong> and <strong>nutritional support</strong>. Let's work together to help you achieve <strong>optimal health</strong> and a <strong>balanced life</strong>.
+              Your symptoms are real. Your healing is possible. Let's do this together.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
