@@ -1,9 +1,9 @@
+
 import React, { useState } from 'react';
 import SEO from '@/components/SEO';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Calendar, Phone, ChevronDown, ChevronUp, Activity, Heart, TestTube, Eye, Beaker, Stethoscope, Brain, Leaf, Target, Zap, ShieldCheck, Trophy, Timer, FlameKindling } from 'lucide-react';
-import LazyImage from '@/components/LazyImage';
+import { Calendar, Phone, ChevronDown, ChevronUp, Activity, Heart, TestTube, Brain, Leaf, Target, Zap, ShieldCheck, Trophy, Timer, FlameKindling } from 'lucide-react';
 
 const NaturopathForAthletes = () => {
   const [openDropdown, setOpenDropdown] = useState<number | null>(null);
@@ -16,69 +16,69 @@ const NaturopathForAthletes = () => {
     {
       title: "RECURRING INJURIES",
       description: "Persistent injuries that keep coming back, preventing you from training at your full potential.",
-      icon: <Activity className="h-6 w-6 text-primary" />
+      icon: <Activity className="h-8 w-8 text-primary" />
     },
     {
       title: "GUT ISSUES", 
       description: "Digestive problems that affect nutrient absorption and energy levels during training.",
-      icon: <TestTube className="h-6 w-6 text-primary" />
+      icon: <TestTube className="h-8 w-8 text-primary" />
     },
     {
       title: "SLEEP TROUBLES",
       description: "Poor sleep quality affecting recovery, performance, and mental clarity.",
-      icon: <Brain className="h-6 w-6 text-primary" />
+      icon: <Brain className="h-8 w-8 text-primary" />
     },
     {
       title: "SLOWER RECOVERY",
       description: "Extended recovery times between training sessions limiting your progress.",
-      icon: <Timer className="h-6 w-6 text-primary" />
+      icon: <Timer className="h-8 w-8 text-primary" />
     },
     {
       title: "POOR ENERGY PRODUCTION",
       description: "Low energy levels that don't match your training intensity and dedication.",
-      icon: <Zap className="h-6 w-6 text-primary" />
+      icon: <Zap className="h-8 w-8 text-primary" />
     },
     {
       title: "WEAK IMMUNE FUNCTION",
       description: "Frequent illnesses that interrupt your training schedule and performance goals.",
-      icon: <ShieldCheck className="h-6 w-6 text-primary" />
+      icon: <ShieldCheck className="h-8 w-8 text-primary" />
     },
     {
       title: "LOW MOOD OR MENTAL BURNOUT",
       description: "Mental fatigue and mood changes that affect motivation and performance mindset.",
-      icon: <Heart className="h-6 w-6 text-primary" />
+      icon: <Heart className="h-8 w-8 text-primary" />
     }
   ];
 
   const treatmentApproaches = [
     {
       title: "Nutritional Medicine",
-      icon: "🌿",
+      icon: <Leaf className="h-8 w-8 text-primary" />,
       description: "Personalised nutrition plans to support energy production, recovery, hormone balance, and overall performance."
     },
     {
       title: "Herbal Medicine",
-      icon: "🌿",
+      icon: <Leaf className="h-8 w-8 text-primary" />,
       description: "Targeted herbs to support immune function, reduce inflammation, and aid recovery with adaptogenic properties."
     },
     {
       title: "Live Blood Analysis",
-      icon: "🌿",
+      icon: <TestTube className="h-8 w-8 text-primary" />,
       description: "Real-time view into your health showing inflammation, nutrient issues, and immune system stress."
     },
     {
       title: "Functional Testing",
-      icon: "🌿",
+      icon: <Brain className="h-8 w-8 text-primary" />,
       description: "Comprehensive testing of hormones, digestion, adrenal function, and nutrient levels."
     },
     {
       title: "Laser Therapy (MLS)",
-      icon: "🌿",
+      icon: <Zap className="h-8 w-8 text-primary" />,
       description: "Support tissue repair, muscle relaxation, and reduce inflammation for injury recovery."
     },
     {
       title: "Personal Training & Lifestyle Coaching",
-      icon: "🌿",
+      icon: <Target className="h-8 w-8 text-primary" />,
       description: "Movement and lifestyle guidance for injury prevention and optimal health."
     }
   ];
@@ -137,17 +137,26 @@ const NaturopathForAthletes = () => {
         description="Boost performance, recover faster, and feel stronger with a trusted naturopath for athletes in Brisbane. Book your free 15-min consult at NXTLVL Health today."
         canonical="/what-we-treat/naturopath-for-athletes"
       />
-      <div className="min-h-screen bg-gradient-to-br from-background via-background/95 to-muted/10">
+      <div className="min-h-screen bg-background">
         {/* Hero Section */}
-        <section className="relative py-20 px-4 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-accent/5" />
-          <div className="container mx-auto max-w-6xl relative z-10">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="space-y-8">
-                <div className="space-y-6">
-                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight bg-gradient-to-r from-primary via-primary-dark to-accent bg-clip-text text-transparent">
-                    Naturopath for Athletes Brisbane | Boost Performance, Recover Faster, Feel Strong Again
+        <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
+          <div className="container mx-auto max-w-6xl">
+            <div className="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
+              <div className="space-y-8 lg:mt-0 mt-12">
+                <div className="space-y-4">
+                  <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
+                    Naturopath for Athletes Brisbane | <span className="text-primary">Boost Performance, Recover Faster, Feel Strong Again</span>
                   </h1>
+                  
+                  {/* Mobile Image */}
+                  <div className="relative lg:hidden mb-8 -mx-4">
+                    <img 
+                      alt="Professional athlete training with focus and determination, representing peak athletic performance" 
+                      className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
+                      src="/lovable-uploads/4748db27-c782-4bc2-b09d-d93a2b5b2433.png" 
+                    />
+                  </div>
+                  
                   <div className="space-y-4 text-lg text-muted-foreground">
                     <p>
                       <strong className="text-foreground">Feel Like Your Body Isn't Keeping Up With Your Training?</strong><br />
@@ -158,46 +167,53 @@ const NaturopathForAthletes = () => {
                     </p>
                   </div>
                 </div>
+                
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Button size="lg" className="text-lg hover-scale">
-                    <Calendar className="mr-2 h-5 w-5" />
-                    Book Free 15-Min Consult
+                  <Button size="lg" className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight" asChild>
+                    <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                      <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
+                      <span className="text-center">Book Free 15-Min Consult</span>
+                    </a>
                   </Button>
-                  <Button variant="outline" size="lg" className="text-lg hover-scale">
-                    <Phone className="mr-2 h-5 w-5" />
-                    Call (07) 3180 8853
+                  <Button variant="outline" size="lg" className="text-base sm:text-lg px-4 py-3 h-auto" asChild>
+                    <a href="tel:0731808853">
+                      <Phone className="mr-2 h-4 w-4 flex-shrink-0" />
+                      Call (07) 3180 8853
+                    </a>
                   </Button>
+                </div>
+
+                {/* Google 5 Star Badge */}
+                <div className="mt-6">
+                  <script defer async src='https://cdn.trustindex.io/loader.js?46476cb4757e774210564760f2f'></script>
                 </div>
               </div>
-              <div className="relative">
-                <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
-                  <LazyImage
-                    src="/lovable-uploads/4748db27-c782-4bc2-b09d-d93a2b5b2433.png"
-                    alt="Professional athlete training with focus and determination, representing peak athletic performance"
-                    className="w-full h-[600px] object-cover"
-                  />
-                </div>
-                <div className="absolute -top-4 -left-4 w-72 h-72 bg-primary/10 rounded-full blur-3xl" />
-                <div className="absolute -bottom-4 -right-4 w-72 h-72 bg-accent/10 rounded-full blur-3xl" />
+              
+              {/* Desktop Image */}
+              <div className="relative hidden lg:block">
+                <img 
+                  alt="Professional athlete training with focus and determination, representing peak athletic performance" 
+                  className="rounded-2xl shadow-2xl w-full h-auto" 
+                  src="/lovable-uploads/4748db27-c782-4bc2-b09d-d93a2b5b2433.png" 
+                />
               </div>
             </div>
           </div>
         </section>
 
         {/* Why Athletes Choose Section */}
-        <section className="py-16 px-4">
+        <section className="py-20 px-4">
           <div className="container mx-auto max-w-6xl">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Why Athletes Choose Naturopathic Support
-              </h2>
-              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Athletes Choose Naturopathic Support</h2>
+              <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
                 You already take care of your body. But training hard places <strong className="text-foreground">increased demands</strong> on your system. Without proper support, it can lead to:
               </p>
             </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
               {athleteIssues.map((issue, index) => (
-                <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover-scale bg-gradient-to-br from-card to-card/50">
+                <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
                   <CardHeader className="pb-4">
                     <div className="flex items-center gap-3 mb-2">
                       {issue.icon}
@@ -205,13 +221,14 @@ const NaturopathForAthletes = () => {
                     </div>
                   </CardHeader>
                   <CardContent>
-                    <CardDescription className="text-muted-foreground">
+                    <CardDescription className="text-base leading-relaxed">
                       {issue.description}
                     </CardDescription>
                   </CardContent>
                 </Card>
               ))}
             </div>
+            
             <div className="text-center">
               <p className="text-lg text-muted-foreground">
                 <strong className="text-foreground">Naturopathic medicine</strong> takes a <strong className="text-foreground">comprehensive approach</strong> to address these issues at the root — so you can get back to performing at your best.
@@ -221,40 +238,50 @@ const NaturopathForAthletes = () => {
         </section>
 
         {/* Meet Mitch Section */}
-        <section className="py-16 px-4 bg-gradient-to-r from-muted/20 via-muted/10 to-muted/20">
+        <section className="py-20 px-4 bg-muted/30">
           <div className="container mx-auto max-w-6xl">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6">Meet Mitch – The Naturopath Who Trains, Competes, and Gets It</h2>
+            </div>
+
+            {/* Mobile Image */}
+            <div className="lg:hidden mb-12">
+              <img 
+                src="/lovable-uploads/513ad908-d0fa-42db-97e1-3f4975f91e54.png" 
+                alt="Mitch Potts, naturopath and personal trainer, demonstrating exercise form in a professional fitness setting" 
+                className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
+              />
+            </div>
+
             <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="relative">
-                <LazyImage
-                  src="/lovable-uploads/513ad908-d0fa-42db-97e1-3f4975f91e54.png"
-                  alt="Mitch Potts, naturopath and personal trainer, demonstrating exercise form in a professional fitness setting"
-                  className="w-full h-[500px] object-cover rounded-2xl shadow-lg"
-                />
-              </div>
               <div className="space-y-6">
-                <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                  Meet Mitch – The Naturopath Who Trains, Competes, and Gets It
-                </h2>
-                <div className="space-y-4 text-lg text-muted-foreground">
+                <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                   <p>
                     <strong className="text-foreground">Mitch Potts</strong> isn't just a <strong className="text-foreground">naturopath for athletes</strong> — he's also a trained personal trainer who understands the unique pressure athletes face. From elite competitors to weekend warriors, Mitch helps you achieve your <strong className="text-foreground">athletic goals</strong> without burning out your body.
                   </p>
                   <p>
-                    At <strong className="text-foreground">NXTLVL Health</strong>, located in <strong className="text-foreground"><a href="/areas-we-serve/naturopath-new-farm" className="text-primary hover:text-primary-dark transition-colors">New Farm, Brisbane</a></strong>, we bring together <strong className="text-foreground">natural therapies</strong>, <strong className="text-foreground">nutritional medicine</strong>, <strong className="text-foreground">functional testing</strong>, and <strong className="text-foreground">sports performance</strong> strategies to give athletes the edge they've been looking for.
+                    At <strong className="text-foreground">NXTLVL Health</strong>, located in <strong className="text-foreground">New Farm, Brisbane</strong>, we bring together <strong className="text-foreground">natural therapies</strong>, <strong className="text-foreground">nutritional medicine</strong>, <strong className="text-foreground">functional testing</strong>, and <strong className="text-foreground">sports performance</strong> strategies to give athletes the edge they've been looking for.
                   </p>
                 </div>
+              </div>
+              
+              {/* Desktop Image */}
+              <div className="relative hidden lg:block">
+                <img 
+                  src="/lovable-uploads/513ad908-d0fa-42db-97e1-3f4975f91e54.png" 
+                  alt="Mitch Potts, naturopath and personal trainer, demonstrating exercise form in a professional fitness setting" 
+                  className="rounded-2xl shadow-lg w-full h-auto" 
+                />
               </div>
             </div>
           </div>
         </section>
 
         {/* How Naturopathy Supports Performance */}
-        <section className="py-16 px-4">
+        <section className="py-20 px-4">
           <div className="container mx-auto max-w-6xl">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                How Naturopathy Supports Athletic Performance
-              </h2>
+            <div className="text-center mb-16">
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6">How Naturopathy Supports Athletic Performance</h2>
               <div className="max-w-4xl mx-auto space-y-4 text-lg text-muted-foreground">
                 <p>
                   Athletes are different. Your body works harder. It recovers slower. And it demands more from every system — digestion, immunity, hormones, and beyond.
@@ -269,55 +296,55 @@ const NaturopathForAthletes = () => {
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-              <Card className="border-0 shadow-lg bg-gradient-to-br from-primary/5 to-primary/10">
+              <Card className="border-0 shadow-lg">
                 <CardContent className="p-6">
                   <Target className="h-8 w-8 text-primary mb-4" />
                   <h3 className="font-semibold mb-2">Faster tissue repair and recovery</h3>
                 </CardContent>
               </Card>
-              <Card className="border-0 shadow-lg bg-gradient-to-br from-accent/5 to-accent/10">
+              <Card className="border-0 shadow-lg">
                 <CardContent className="p-6">
-                  <Zap className="h-8 w-8 text-accent mb-4" />
+                  <Zap className="h-8 w-8 text-primary mb-4" />
                   <h3 className="font-semibold mb-2">Improved energy levels and stamina</h3>
                 </CardContent>
               </Card>
-              <Card className="border-0 shadow-lg bg-gradient-to-br from-primary/5 to-primary/10">
+              <Card className="border-0 shadow-lg">
                 <CardContent className="p-6">
                   <Heart className="h-8 w-8 text-primary mb-4" />
                   <h3 className="font-semibold mb-2">Balanced hormones for optimal adrenal hormone profile</h3>
                 </CardContent>
               </Card>
-              <Card className="border-0 shadow-lg bg-gradient-to-br from-accent/5 to-accent/10">
+              <Card className="border-0 shadow-lg">
                 <CardContent className="p-6">
-                  <ShieldCheck className="h-8 w-8 text-accent mb-4" />
+                  <ShieldCheck className="h-8 w-8 text-primary mb-4" />
                   <h3 className="font-semibold mb-2">Stronger immune system function</h3>
                 </CardContent>
               </Card>
-              <Card className="border-0 shadow-lg bg-gradient-to-br from-primary/5 to-primary/10">
+              <Card className="border-0 shadow-lg">
                 <CardContent className="p-6">
                   <Brain className="h-8 w-8 text-primary mb-4" />
                   <h3 className="font-semibold mb-2">Better sleep and mental clarity</h3>
                 </CardContent>
               </Card>
-              <Card className="border-0 shadow-lg bg-gradient-to-br from-accent/5 to-accent/10">
+              <Card className="border-0 shadow-lg">
                 <CardContent className="p-6">
-                  <FlameKindling className="h-8 w-8 text-accent mb-4" />
+                  <FlameKindling className="h-8 w-8 text-primary mb-4" />
                   <h3 className="font-semibold mb-2">Reduced inflammation and pain</h3>
                 </CardContent>
               </Card>
-              <Card className="border-0 shadow-lg bg-gradient-to-br from-primary/5 to-primary/10">
+              <Card className="border-0 shadow-lg">
                 <CardContent className="p-6">
                   <Activity className="h-8 w-8 text-primary mb-4" />
                   <h3 className="font-semibold mb-2">Optimal glucose metabolism for stable energy</h3>
                 </CardContent>
               </Card>
-              <Card className="border-0 shadow-lg bg-gradient-to-br from-accent/5 to-accent/10">
+              <Card className="border-0 shadow-lg">
                 <CardContent className="p-6">
-                  <TestTube className="h-8 w-8 text-accent mb-4" />
-                  <h3 className="font-semibold mb-2"><a href="/what-we-treat/gut-health-naturopath-brisbane" className="text-accent hover:text-accent-dark transition-colors">Gut health</a> for better nutrient absorption</h3>
+                  <TestTube className="h-8 w-8 text-primary mb-4" />
+                  <h3 className="font-semibold mb-2">Gut health for better nutrient absorption</h3>
                 </CardContent>
               </Card>
-              <Card className="border-0 shadow-lg bg-gradient-to-br from-primary/5 to-primary/10">
+              <Card className="border-0 shadow-lg">
                 <CardContent className="p-6">
                   <Leaf className="h-8 w-8 text-primary mb-4" />
                   <h3 className="font-semibold mb-2">Antioxidant support to mitigate free radical production</h3>
@@ -334,11 +361,9 @@ const NaturopathForAthletes = () => {
         </section>
 
         {/* Body Telling You Something Section */}
-        <section className="py-16 px-4 bg-gradient-to-r from-muted/20 via-muted/10 to-muted/20">
+        <section className="py-20 px-4 bg-muted/30">
           <div className="container mx-auto max-w-4xl text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Your Body Is Telling You Something — Are You Listening?
-            </h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Your Body Is Telling You Something — Are You Listening?</h2>
             <div className="space-y-4 text-lg text-muted-foreground">
               <p>Let's be real — intense exercise isn't always healthy.</p>
               <p>
@@ -351,13 +376,11 @@ const NaturopathForAthletes = () => {
         </section>
 
         {/* NXTLVL Health Difference */}
-        <section className="py-16 px-4">
+        <section className="py-20 px-4">
           <div className="container mx-auto max-w-6xl">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              The NXTLVL Health Difference
-            </h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-center mb-16">The NXTLVL Health Difference</h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover-scale">
+              <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-xl">
                     <TestTube className="h-6 w-6 text-primary" />
@@ -366,11 +389,11 @@ const NaturopathForAthletes = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Through <strong className="text-foreground"><a href="/services/live-blood-analysis-brisbane" className="text-primary hover:text-primary-dark transition-colors">live blood analysis</a></strong> and advanced <strong className="text-foreground">functional testing</strong>, we can pinpoint imbalances affecting your <strong className="text-foreground">sports performance</strong> — from nutrient deficiencies to inflammation, gut bugs, and hormonal disruption.
+                    Through <strong className="text-foreground">live blood analysis</strong> and advanced <strong className="text-foreground">functional testing</strong>, we can pinpoint imbalances affecting your <strong className="text-foreground">sports performance</strong> — from nutrient deficiencies to inflammation, gut bugs, and hormonal disruption.
                   </p>
                 </CardContent>
               </Card>
-              <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover-scale">
+              <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-xl">
                     <Heart className="h-6 w-6 text-primary" />
@@ -383,7 +406,7 @@ const NaturopathForAthletes = () => {
                   </p>
                 </CardContent>
               </Card>
-              <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover-scale">
+              <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-xl">
                     <Trophy className="h-6 w-6 text-primary" />
@@ -401,27 +424,26 @@ const NaturopathForAthletes = () => {
         </section>
 
         {/* Treatments Section */}
-        <section className="py-16 px-4 bg-gradient-to-r from-muted/20 via-muted/10 to-muted/20">
+        <section className="py-20 px-4 bg-muted/30">
           <div className="container mx-auto max-w-6xl">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Naturopathic Treatments We Use to Support Athletes
-              </h2>
-              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6">Naturopathic Treatments We Use to Support Athletes</h2>
+              <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
                 We combine different <strong className="text-foreground">naturopathic treatments</strong> to support your body where it needs it most, including reducing inflammation to help athletes recover and perform better.
               </p>
             </div>
+            
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {treatmentApproaches.map((treatment, index) => (
-                <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover-scale">
+                <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
                   <CardHeader>
                     <CardTitle className="flex items-center gap-3 text-xl">
-                      <span className="text-2xl">{treatment.icon}</span>
+                      {treatment.icon}
                       {treatment.title}
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <CardDescription className="text-muted-foreground text-base">
+                    <CardDescription className="text-base leading-relaxed">
                       {treatment.description}
                     </CardDescription>
                   </CardContent>
@@ -432,19 +454,17 @@ const NaturopathForAthletes = () => {
         </section>
 
         {/* Athletes We Support */}
-        <section className="py-16 px-4">
+        <section className="py-20 px-4">
           <div className="container mx-auto max-w-6xl">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                  We Support All Types of Athletes
-                </h2>
+                <h2 className="text-3xl lg:text-4xl font-bold mb-6">We Support All Types of Athletes</h2>
                 <p className="text-lg text-muted-foreground mb-8">
                   Whether you're on the field, in the gym, on the bike, or running marathons — <strong className="text-foreground">naturopathic care</strong> can help you <strong className="text-foreground">perform better</strong> and recover smarter.
                 </p>
                 <div className="grid md:grid-cols-2 gap-4">
                   {athleteTypes.map((type, index) => (
-                    <div key={index} className="flex items-center gap-3 p-3 rounded-lg bg-gradient-to-r from-primary/5 to-primary/10">
+                    <div key={index} className="flex items-center gap-3 p-3 rounded-lg bg-muted/50">
                       <Trophy className="h-5 w-5 text-primary flex-shrink-0" />
                       <span className="text-sm font-medium">{type}</span>
                     </div>
@@ -452,10 +472,10 @@ const NaturopathForAthletes = () => {
                 </div>
               </div>
               <div className="relative">
-                <LazyImage
-                  src="/lovable-uploads/98dc86b9-d19c-4674-90b5-465183ac0c06.png"
-                  alt="Diverse group of athletes from different sports showing the variety of athletic disciplines supported"
-                  className="w-full h-[500px] object-cover rounded-2xl shadow-lg"
+                <img 
+                  src="/lovable-uploads/98dc86b9-d19c-4674-90b5-465183ac0c06.png" 
+                  alt="Diverse group of athletes from different sports showing the variety of athletic disciplines supported" 
+                  className="rounded-2xl shadow-lg w-full h-auto" 
                 />
               </div>
             </div>
@@ -463,24 +483,28 @@ const NaturopathForAthletes = () => {
         </section>
 
         {/* Common Challenges */}
-        <section className="py-16 px-4 bg-gradient-to-r from-muted/20 via-muted/10 to-muted/20">
+        <section className="py-20 px-4 bg-muted/30">
           <div className="container mx-auto max-w-6xl">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Common Health Challenges We See in Athletes
-              </h2>
-              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6">Common Health Challenges We See in Athletes</h2>
+              <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
                 Athletes often push through the warning signs. But ignoring your body only leads to longer-term setbacks. Here's what we help with every day:
               </p>
             </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
               {commonChallenges.map((challenge, index) => (
-                <div key={index} className="flex items-center gap-3 p-4 rounded-lg bg-gradient-to-r from-card to-card/50 shadow-md">
-                  <Activity className="h-5 w-5 text-primary flex-shrink-0" />
-                  <span className="text-sm">{challenge}</span>
-                </div>
+                <Card key={index} className="border-0 shadow-lg">
+                  <CardContent className="p-6">
+                    <div className="flex items-center gap-3">
+                      <Activity className="h-5 w-5 text-primary flex-shrink-0" />
+                      <span className="text-sm">{challenge}</span>
+                    </div>
+                  </CardContent>
+                </Card>
               ))}
             </div>
+            
             <div className="text-center">
               <p className="text-lg text-muted-foreground">
                 If any of that sounds familiar, it's time to work with someone who actually gets it.
@@ -490,12 +514,10 @@ const NaturopathForAthletes = () => {
         </section>
 
         {/* Why Work With Naturopath */}
-        <section className="py-16 px-4">
+        <section className="py-20 px-4">
           <div className="container mx-auto max-w-6xl">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Why Work With a Naturopath for Athletes?
-              </h2>
+            <div className="text-center mb-16">
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Work With a Naturopath for Athletes?</h2>
               <div className="max-w-4xl mx-auto space-y-4 text-lg text-muted-foreground">
                 <p>
                   Unlike <strong className="text-foreground">conventional treatments</strong> or <strong className="text-foreground">sports medicine</strong>, which often focus on short-term fixes, <strong className="text-foreground">naturopathic doctors</strong> and <strong className="text-foreground">naturopathic practitioners</strong> take time to understand the <strong className="text-foreground">whole person</strong>.
@@ -503,16 +525,18 @@ const NaturopathForAthletes = () => {
                 <p>We look at:</p>
               </div>
             </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
               {assessmentAreas.map((area, index) => (
-                <Card key={index} className="border-0 shadow-lg bg-gradient-to-br from-primary/5 to-primary/10">
+                <Card key={index} className="border-0 shadow-lg">
                   <CardContent className="p-6 flex items-center gap-3">
-                    <Stethoscope className="h-6 w-6 text-primary flex-shrink-0" />
+                    <Brain className="h-6 w-6 text-primary flex-shrink-0" />
                     <span className="font-medium">{area}</span>
                   </CardContent>
                 </Card>
               ))}
             </div>
+            
             <div className="text-center">
               <p className="text-lg text-muted-foreground">
                 Then we build a plan that works for your goals, schedule, and body — not a one-size-fits-all approach.
@@ -522,13 +546,11 @@ const NaturopathForAthletes = () => {
         </section>
 
         {/* What to Expect */}
-        <section className="py-16 px-4 bg-gradient-to-r from-muted/20 via-muted/10 to-muted/20">
+        <section className="py-20 px-4 bg-muted/30">
           <div className="container mx-auto max-w-6xl">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              What You Can Expect
-            </h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-center mb-16">What You Can Expect</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover-scale">
+              <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <CardHeader className="text-center">
                   <div className="text-4xl mb-4">👋</div>
                   <CardTitle className="text-xl">Step 1: Free 15-Min Discovery Call</CardTitle>
@@ -539,7 +561,7 @@ const NaturopathForAthletes = () => {
                   </p>
                 </CardContent>
               </Card>
-              <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover-scale">
+              <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <CardHeader className="text-center">
                   <div className="text-4xl mb-4">🧪</div>
                   <CardTitle className="text-xl">Step 2: Deep Testing & Assessment</CardTitle>
@@ -550,7 +572,7 @@ const NaturopathForAthletes = () => {
                   </p>
                 </CardContent>
               </Card>
-              <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover-scale">
+              <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <CardHeader className="text-center">
                   <div className="text-4xl mb-4">🧠</div>
                   <CardTitle className="text-xl">Step 3: Custom Plan for Your Body</CardTitle>
@@ -561,7 +583,7 @@ const NaturopathForAthletes = () => {
                   </p>
                 </CardContent>
               </Card>
-              <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover-scale">
+              <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <CardHeader className="text-center">
                   <div className="text-4xl mb-4">📈</div>
                   <CardTitle className="text-xl">Step 4: Ongoing Support & Adjustments</CardTitle>
@@ -577,11 +599,9 @@ const NaturopathForAthletes = () => {
         </section>
 
         {/* Science-Backed Section */}
-        <section className="py-16 px-4">
+        <section className="py-20 px-4">
           <div className="container mx-auto max-w-4xl text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              This Isn't Woo-Woo. It's Science-Backed Natural Medicine That Works.
-            </h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">This Isn't Woo-Woo. It's Science-Backed Natural Medicine That Works.</h2>
             <div className="space-y-4 text-lg text-muted-foreground">
               <p>
                 Everything we do is based on science and real results. No fluff. No guesswork. Just smart, natural strategies that have helped hundreds of athletes improve their <strong className="text-foreground">well-being</strong>, reduce downtime, and stay in the game longer. Athletes are increasingly turning to <strong className="text-foreground">naturopathy</strong> for its <strong className="text-foreground">holistic approach</strong> and <strong className="text-foreground">personalized care</strong>.
@@ -594,15 +614,13 @@ const NaturopathForAthletes = () => {
         </section>
 
         {/* Still Wondering Section */}
-        <section className="py-16 px-4 bg-gradient-to-r from-muted/20 via-muted/10 to-muted/20">
+        <section className="py-20 px-4 bg-muted/30">
           <div className="container mx-auto max-w-4xl">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Still Wondering If Naturopathy Is Right for You?
-            </h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-center mb-12">Still Wondering If Naturopathy Is Right for You?</h2>
             <div className="text-center mb-8">
               <p className="text-lg text-muted-foreground">Ask yourself:</p>
             </div>
-            <div className="grid md:grid-cols-2 gap-6 mb-8">
+            <div className="grid md:grid-cols-2 gap-6 mb-12">
               {[
                 "Are you feeling tired all the time, even with rest?",
                 "Are you catching colds often or struggling to bounce back after training?",
@@ -610,10 +628,14 @@ const NaturopathForAthletes = () => {
                 "Are injuries becoming more common?",
                 "Is your mental focus or motivation dropping?"
               ].map((question, index) => (
-                <div key={index} className="flex items-start gap-3 p-4 rounded-lg bg-card shadow-md">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
-                  <span className="text-muted-foreground">{question}</span>
-                </div>
+                <Card key={index} className="border-0 shadow-lg">
+                  <CardContent className="p-6">
+                    <div className="flex items-start gap-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+                      <span className="text-muted-foreground">{question}</span>
+                    </div>
+                  </CardContent>
+                </Card>
               ))}
             </div>
             <div className="text-center">
@@ -625,12 +647,10 @@ const NaturopathForAthletes = () => {
         </section>
 
         {/* Get Back to Peak Performance */}
-        <section className="py-16 px-4">
+        <section className="py-20 px-4">
           <div className="container mx-auto max-w-4xl text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Get Back to Peak Performance — Naturally
-            </h2>
-            <div className="space-y-4 text-lg text-muted-foreground mb-8">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Get Back to Peak Performance — Naturally</h2>
+            <div className="space-y-4 text-lg text-muted-foreground mb-12">
               <p>
                 You don't need to guess anymore. You don't need to push through pain. And you definitely don't need to accept feeling "off" as your new normal.
               </p>
@@ -649,9 +669,11 @@ const NaturopathForAthletes = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent className="text-center space-y-4">
-                <Button size="lg" className="text-lg hover-scale w-full">
-                  <Calendar className="mr-2 h-5 w-5" />
-                  👉 Book Free Consult
+                <Button size="lg" className="text-lg w-full" asChild>
+                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                    <Calendar className="mr-2 h-5 w-5" />
+                    👉 Book Free Consult
+                  </a>
                 </Button>
                 <div className="space-y-2 text-muted-foreground">
                   <p>📍 In-Person in Brisbane or Online Across Australia</p>
@@ -663,11 +685,9 @@ const NaturopathForAthletes = () => {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-16 px-4 bg-gradient-to-r from-muted/20 via-muted/10 to-muted/20">
+        <section className="py-20 px-4 bg-muted/30">
           <div className="container mx-auto max-w-4xl">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Frequently Asked Questions
-            </h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
             <div className="space-y-6">
               {faqItems.map((faq, index) => (
                 <Card key={index} className="border-0 shadow-lg">
@@ -696,12 +716,10 @@ const NaturopathForAthletes = () => {
         </section>
 
         {/* Final CTA Section */}
-        <section className="py-16 px-4">
+        <section className="py-20 px-4">
           <div className="container mx-auto max-w-4xl text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Your Performance Starts with Your Health
-            </h2>
-            <div className="space-y-4 text-lg text-muted-foreground mb-8">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Your Performance Starts with Your Health</h2>
+            <div className="space-y-4 text-lg text-muted-foreground mb-12">
               <p>
                 At <strong className="text-foreground">NXTLVL Health</strong>, we support athletes like you to <strong className="text-foreground">recover</strong>, rebalance, and reach that next level — not with band-aids, but with real solutions.
               </p>
