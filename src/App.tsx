@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -22,6 +21,7 @@ import Diabetes from "./pages/Diabetes";
 import ChildrensHealth from "./pages/ChildrensHealth";
 import ADHDNaturopathy from "./pages/ADHDNaturopathy";
 import AnxietyNaturopathy from "./pages/AnxietyNaturopathy";
+import NaturopathicSportsMedicine from "./pages/NaturopathicSportsMedicine";
 import NorthBrisbaneNaturopathy from "./pages/NorthBrisbaneNaturopathy";
 import NewsteadNaturopathy from "./pages/NewsteadNaturopathy";
 import NewFarmNaturopathy from "./pages/NewFarmNaturopathy";
@@ -90,6 +90,7 @@ const App = () => (
               <Route path="/what-we-treat/childrens-naturopath-brisbane" element={<ChildrensHealth />} />
               <Route path="/what-we-treat/adhd-naturopath" element={<ADHDNaturopathy />} />
               <Route path="/what-we-treat/naturopath-anxiety" element={<AnxietyNaturopathy />} />
+              <Route path="/what-we-treat/naturopathic-sports-medicine" element={<NaturopathicSportsMedicine />} />
               <Route path="/areas-we-serve/naturopath-north-brisbane" element={<NorthBrisbaneNaturopathy />} />
               <Route path="/areas-we-serve/naturopath-newstead" element={<NewsteadNaturopathy />} />
               <Route path="/areas-we-serve/naturopath-new-farm" element={<NewFarmNaturopathy />} />
