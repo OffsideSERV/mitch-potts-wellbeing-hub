@@ -111,9 +111,9 @@ const HormonalAcneNaturopathy = () => {
               <p>
                 <strong>Hormonal acne is more than skin deep.</strong> It's painful, frustrating, and can impact your confidence and wellbeing. If this sounds like you, you're not alone.
               </p>
-              <p>
-                At NXTLVL Health, Mitch is a <strong>trusted hormonal acne naturopath</strong> who helps women and teens understand the root cause of their breakouts. Using a holistic approach, he creates natural treatment plans to support hormone balance, skin health, gut health, and overall wellbeing.
-              </p>
+                <p>
+                  At NXTLVL Health, Mitch is a <strong>trusted hormonal acne naturopath</strong> who helps women and teens understand the root cause of their breakouts. Using a holistic approach, he creates natural treatment plans to support hormone balance, skin health, gut health, and overall wellbeing. Whether you're dealing with hormonal acne specifically or other <a href="/what-we-treat/acne-naturopathy" className="text-primary hover:underline">general acne concerns</a>, our comprehensive <a href="/what-we-treat/naturopathy-for-skin" className="text-primary hover:underline">skin naturopathy approach</a> addresses the whole person.
+                </p>
             </div>
 
             <div className="text-center mt-12">

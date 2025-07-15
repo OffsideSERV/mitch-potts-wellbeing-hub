@@ -119,7 +119,7 @@ const SkinNaturopathy = () => {
                   Are you tired of covering up breakouts, red patches, or itchy, irritated skin? Have you tried every cream, lotion, or skin care product without results? You're not alone. Many people struggle with skin conditions that don't respond to the usual treatments.
                 </p>
                 <p>
-                  At NXTLVL Health, we offer naturopathy for skin to uncover the real reasons behind your skin issues. Mitch, an experienced naturopath for skin health, takes a holistic approach to support your skin and your body from the inside out. Because healthy skin doesn't just start with what you put on your face. It starts with what's happening inside.
+                  At NXTLVL Health, we offer naturopathy for skin to uncover the real reasons behind your skin issues. Mitch, an experienced naturopath for skin health, takes a holistic approach to support your skin and your body from the inside out. Whether you're struggling with <a href="/what-we-treat/acne-naturopathy" className="text-primary hover:underline">acne</a>, <a href="/what-we-treat/hormonal-acne-naturopath" className="text-primary hover:underline">hormonal acne</a>, <a href="/what-we-treat/naturopath-eczema" className="text-primary hover:underline">eczema</a>, or other skin conditions, healthy skin doesn't just start with what you put on your face. It starts with what's happening inside.
                 </p>
               </div>
             </div>

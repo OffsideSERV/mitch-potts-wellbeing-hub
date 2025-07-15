@@ -122,7 +122,7 @@ const EczemaNaturopathy = () => {
                   You're not alone. Eczema is a common inflammatory skin condition that can affect both kids and adults. It often starts in early childhood and can continue into adulthood. And while <strong>conventional treatments like steroid creams</strong> may offer short-term relief, they often don't get to the root cause.
                 </p>
                 <p>
-                  At NXTLVL Health, we use a <strong>natural, holistic approach</strong> to support your skin and your body. Mitch is a trusted naturopath eczema specialist who helps people find <strong>lasting relief through deeper healing</strong>. If your eczema symptoms are controlling your life, we're here to help you take it back.
+                  At NXTLVL Health, we use a <strong>natural, holistic approach</strong> to support your skin and your body. Mitch is a trusted naturopath eczema specialist who helps people find <strong>lasting relief through deeper healing</strong>. Our comprehensive <a href="/what-we-treat/naturopathy-for-skin" className="text-primary hover:underline">naturopathy for skin conditions</a> also addresses other concerns like <a href="/what-we-treat/acne-naturopathy" className="text-primary hover:underline">acne</a> and <a href="/what-we-treat/hormonal-acne-naturopath" className="text-primary hover:underline">hormonal acne</a>. If your eczema symptoms are controlling your life, we're here to help you take it back.
                 </p>
               </div>
             </div>

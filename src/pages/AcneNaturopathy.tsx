@@ -119,10 +119,10 @@ const AcneNaturopathy = () => {
                   Do you feel like you've tried every cream, face wash, and topical treatment out there? Does your acne keep coming back no matter what you do? Are you tired of hiding your skin and feeling self-conscious?
                 </p>
                 <p>
-                  You're not alone. Acne is one of the most common skin conditions, and it can affect teens and adults alike. At NXTLVL Health, we understand how deeply acne can impact your confidence, your daily life, and your overall well being.
+                  You're not alone. Acne is one of the most common skin conditions, and it can affect teens and adults alike. Whether you're dealing with general breakouts or specifically <a href="/what-we-treat/hormonal-acne-naturopath" className="text-primary hover:underline">hormonal acne</a>, At NXTLVL Health, we understand how deeply acne can impact your confidence, your daily life, and your overall well being.
                 </p>
                 <p>
-                  That's why Mitch, our <strong>trusted naturopath for acne</strong>, takes a different approach—one that gets to the root cause. A <strong>comprehensive health assessment</strong> is essential in the naturopathic approach to acne, including running lab work to assess digestion and nutritional status.
+                  That's why Mitch, our <strong>trusted naturopath for acne</strong>, takes a different approach—one that gets to the root cause. Our comprehensive <a href="/what-we-treat/naturopathy-for-skin" className="text-primary hover:underline">naturopathic approach to skin health</a> includes running lab work to assess digestion and nutritional status. A <strong>comprehensive health assessment</strong> is essential in the naturopathic approach to acne.
                 </p>
               </div>
             </div>
