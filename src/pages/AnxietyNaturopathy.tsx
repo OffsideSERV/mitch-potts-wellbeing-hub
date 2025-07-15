@@ -119,7 +119,7 @@ const AnxietyNaturopathy = () => {
                   Do you often feel nervous, unsettled, or stuck in a loop of worry that just won't go away? Is your mind racing at night, making it hard to fall asleep? Do you feel tight in your chest, short of breath, or exhausted from trying to manage everyday stress?
                 </p>
                 <p>
-                  You're not alone. <strong>Anxiety symptoms affect millions of people</strong>, and for many, they're not just in the mind. They show up in the body too: through tension, gut issues, poor sleep, and low energy.
+                  You're not alone. <strong>Anxiety symptoms affect millions of people</strong>, and for many, they're not just in the mind. They show up in the body too: through tension, gut issues, poor sleep, and low energy. Many people who struggle with anxiety also find themselves dealing with <a href="/what-we-treat/adhd-naturopath" className="text-primary hover:text-primary/80 underline">attention and focus challenges</a>, as these nervous system conditions often overlap.
                 </p>
                 <p>
                   At NXTLVL Health, we understand that <strong>treating anxiety goes beyond short-term fixes or medications</strong>. Mitch, a compassionate and experienced <strong>naturopath for anxiety</strong>, offers a holistic approach that supports your mind, body, and nervous system naturally. Naturopathic doctors (NDs) focus on treating the whole person and addressing underlying causes of anxiety.
@@ -221,7 +221,7 @@ const AnxietyNaturopathy = () => {
               "Difficulty sleeping or constant fatigue",
               "Poor digestion or upset stomach",
               "Irritability, worry, or fear",
-              "Trouble concentrating or brain fog"
+              <><a href="/what-we-treat/adhd-naturopath" className="text-primary hover:text-primary/80 underline">Trouble concentrating</a> or brain fog</>
             ].map((symptom, index) => (
               <Card key={index}>
                 <CardContent className="p-6">

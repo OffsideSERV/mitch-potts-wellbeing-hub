@@ -186,7 +186,7 @@ const ADHDNaturopathy = () => {
                   ))}
                 </div>
                 <p>
-                  While <strong>stimulant medications</strong> are often prescribed, they don't work for everyone—and they don't address the root causes. That's where a naturopathic approach can help. <strong>ADHD treatment plans from naturopathic doctors</strong> are individualised and take into account diet, lifestyle, genetics, and emotional factors.
+                  While <strong>stimulant medications</strong> are often prescribed, they don't work for everyone—and they don't address the root causes. That's where a naturopathic approach can help. <strong>ADHD treatment plans from naturopathic doctors</strong> are individualised and take into account diet, lifestyle, genetics, and emotional factors. Many people with ADHD also experience <a href="/what-we-treat/naturopath-anxiety" className="text-primary hover:text-primary/80 underline">anxiety and nervous tension</a>, which is why a comprehensive approach to nervous system support is essential.
                 </p>
               </div>
             </div>
@@ -287,7 +287,7 @@ const ADHDNaturopathy = () => {
               {[
                 "Diagnosed ADHD or suspected symptoms of ADHD",
                 "Brain fog, poor memory, and attention issues",
-                "Restlessness, anxiety, and emotional ups and downs",
+                <>Restlessness, <a href="/what-we-treat/naturopath-anxiety" className="text-primary hover:text-primary/80 underline">anxiety</a>, and emotional ups and downs</>,
                 "Sleep disruption and frequent infections",
                 "Side effects or poor response to stimulant medications"
               ].map((who, index) => (
