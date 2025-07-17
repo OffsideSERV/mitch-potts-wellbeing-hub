@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -66,7 +65,6 @@ import GutBrainConnection from "./pages/GutBrainConnection";
 import SitemapPage from "./pages/SitemapPage";
 import RobotsPage from "./pages/RobotsPage";
 import NaturopathForAthletes from "./pages/NaturopathForAthletes";
-import BulimbaNaturopathy from "./pages/BulimbaNaturopathy";
 
 const queryClient = new QueryClient();
 
@@ -134,7 +132,6 @@ const App = () => (
               <Route path="/blog/weight-loss/embracing-natural-weight-loss-with-ozempic-a-naturopaths-approach" element={<OzempicNaturalWeightLoss />} />
               <Route path="/blog/gut-health/gut-brain-connection-how-your-gut-affects-mental-health" element={<GutBrainConnection />} />
               <Route path="/what-we-treat/naturopath-for-athletes" element={<NaturopathForAthletes />} />
-              <Route path="/areas-we-serve/naturopath-bulimba" element={<BulimbaNaturopathy />} />
               
               {/* SEO essential pages */}
               <Route path="/sitemap.xml" element={<SitemapPage />} />
