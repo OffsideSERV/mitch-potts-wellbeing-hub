@@ -35,16 +35,11 @@ const GutHealthVideo = () => {
         <section className="py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-                <iframe
-                  src="https://iframe.mediadelivery.net/embed/372827/b1ad3f7b-f9e4-4a48-94ad-2c4f1c19c4c2?autoplay=false&loop=false&muted=false&preload=true&responsive=true"
-                  className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
-                  loading="lazy"
-                  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
-                  allowFullScreen
-                  title="Gut Health Video - How to Fix Your Digestive Issues"
-                />
-              </div>
+              <div 
+                dangerouslySetInnerHTML={{
+                  __html: `<div style="position:relative;padding-top:56.25%;"><iframe src="https://iframe.mediadelivery.net/embed/413460/07e2e40e-8635-4b33-b147-f668a3f8a330?autoplay=false&loop=false&muted=false&preload=true&responsive=true" loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe></div>`
+                }}
+              />
             </div>
           </div>
         </section>
@@ -72,23 +67,18 @@ const GutHealthVideo = () => {
 
             {/* Calendly Integration */}
             <div className="max-w-4xl mx-auto">
-              <div className="bg-background rounded-lg shadow-lg p-8">
-                <div 
-                  className="calendly-inline-widget" 
-                  data-url="https://calendly.com/nxtlvlhealth-info/15-min-consult"
-                  style={{ minWidth: '320px', height: '700px' }}
-                ></div>
-              </div>
+              <div 
+                dangerouslySetInnerHTML={{
+                  __html: `<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/nxtlvlhealth-info/15-min-consult" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->`
+                }}
+              />
             </div>
           </div>
         </section>
       </div>
-      
-      <script 
-        type="text/javascript" 
-        src="https://assets.calendly.com/assets/external/widget.js" 
-        async
-      ></script>
     </>
   );
 };
