@@ -77,43 +77,18 @@ const GutHealthVideo = () => {
                   className="calendly-inline-widget" 
                   data-url="https://calendly.com/nxtlvlhealth-info/15-min-consult"
                   style={{ minWidth: '320px', height: '700px' }}
-                />
-                <script 
-                  type="text/javascript" 
-                  src="https://assets.calendly.com/assets/external/widget.js" 
-                  async
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Final CTA */}
-        <section className="py-16 bg-primary/5">
-          <div className="container mx-auto px-4">
-            <div className="max-w-2xl mx-auto text-center">
-              <h3 className="text-2xl font-bold text-foreground mb-4">
-                Don't Wait Another Day
-              </h3>
-              <p className="text-muted-foreground mb-6">
-                Your gut health affects every aspect of your wellbeing. Take the first step towards feeling your best with a free consultation.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button asChild size="lg">
-                  <a href="tel:0731808853">
-                    Call (07) 3180 8853
-                  </a>
-                </Button>
-                <Button variant="outline" size="lg" asChild>
-                  <a href="mailto:info@nxtlvlhealth.com.au">
-                    Email Us
-                  </a>
-                </Button>
+                ></div>
               </div>
             </div>
           </div>
         </section>
       </div>
+      
+      <script 
+        type="text/javascript" 
+        src="https://assets.calendly.com/assets/external/widget.js" 
+        async
+      ></script>
     </>
   );
 };
