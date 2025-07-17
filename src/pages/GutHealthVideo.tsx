@@ -55,27 +55,14 @@ const GutHealthVideo = () => {
                 Book your FREE 15-minute consultation with our expert naturopath and discover your personalized path to digestive wellness.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Button size="lg" className="text-lg px-8 py-4">
+              <Button size="lg" className="text-lg px-8 py-4" asChild>
+                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
                   <Calendar className="h-5 w-5 mr-2" />
                   Book Your Free Consultation
-                </Button>
-                <p className="text-sm text-muted-foreground">
-                  No obligation • 100% Free • Expert advice
-                </p>
-              </div>
+                </a>
+              </Button>
             </div>
-
-            {/* Calendly Integration */}
-            <div className="max-w-4xl mx-auto">
-              <div 
-                dangerouslySetInnerHTML={{
-                  __html: `<!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/nxtlvlhealth-info/15-min-consult" style="min-width:320px;height:700px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Calendly inline widget end -->`
-                }}
-              />
-            </div>
+          </div>
           </div>
         </section>
       </div>
