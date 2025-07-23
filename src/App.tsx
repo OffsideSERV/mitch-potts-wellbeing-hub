@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from 'react-helmet-async';
 import Layout from "./components/Layout";
 import CriticalCSS from "./components/CriticalCSS";
+import GutHealthPopup from "./components/GutHealthPopup";
 
 // Import all pages directly for instant navigation
 import Index from "./pages/Index";
@@ -78,6 +79,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <GutHealthPopup />
         <Layout>
           <Routes>
               <Route path="/" element={<Index />} />

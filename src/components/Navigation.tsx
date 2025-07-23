@@ -82,20 +82,20 @@ const Navigation = () => {
 
   return (
     <>
-      {/* Lead Magnet Promotional Header */}
-      <div className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground py-2 md:py-3 px-4">
+      {/* MLS Laser Therapy Promotion Header */}
+      <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white py-2 md:py-3 px-4">
         <div className="container mx-auto">
           {/* Mobile Layout */}
           <div className="flex flex-col sm:hidden items-center justify-center gap-2 text-center">
             <div className="flex items-center gap-2">
               <Gift className="h-4 w-4 text-yellow-300 animate-pulse flex-shrink-0" />
               <span className="text-xs font-medium leading-tight">
-                <strong>Feeling Bloated After Every Meal You Eat?</strong>
+                <strong>40% OFF MLS Laser Therapy Initial Consult!</strong>
               </span>
             </div>
             <div className="flex flex-col items-center gap-2">
               <span className="text-xs font-medium leading-tight">
-                This Free 15-Min Gut Health Guide Will Give You The Answers You've Been Looking For!
+                Limited Time: Experience Revolutionary Pain Relief & Healing
               </span>
               <Button 
                 variant="secondary" 
@@ -103,7 +103,7 @@ const Navigation = () => {
                 className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold whitespace-nowrap text-xs px-3 py-1"
                 asChild
               >
-                <Link to="/gut-freedom">Get Free Guide</Link>
+                <Link to="/laser-healing">Book Now - Save 40%</Link>
               </Button>
             </div>
           </div>
@@ -112,7 +112,7 @@ const Navigation = () => {
           <div className="hidden sm:flex flex-row items-center justify-center gap-3 text-center">
             <Gift className="h-5 w-5 text-yellow-300 animate-pulse flex-shrink-0" />
             <span className="text-sm md:text-base font-medium leading-tight">
-              <strong>Feeling Bloated After Every Meal You Eat?</strong> This Free 15-Min Gut Health Guide Will Give You The Answers You've Been Looking For!
+              <strong>40% OFF MLS Laser Therapy Initial Consult!</strong> Limited Time: Experience Revolutionary Pain Relief & Healing
             </span>
             <Button 
               variant="secondary" 
@@ -120,7 +120,7 @@ const Navigation = () => {
               className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold whitespace-nowrap text-sm px-4 py-2"
               asChild
             >
-              <Link to="/gut-freedom">Get Free Guide</Link>
+              <Link to="/laser-healing">Book Now - Save 40%</Link>
             </Button>
           </div>
         </div>
