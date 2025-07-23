@@ -12,26 +12,6 @@ const LaserHealing = () => {
         canonical="/laser-healing"
         keywords="chronic pain relief Brisbane, endometriosis treatment, PCOS natural treatment, gut health, hormone balance Brisbane"
       />
-      
-      {/* 40% Discount Banner */}
-      <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white py-4 px-4">
-        <div className="container mx-auto max-w-6xl">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-3 text-center">
-            <div className="flex items-center gap-2">
-              <Gift className="h-6 w-6 text-yellow-300 animate-pulse" />
-              <span className="text-lg font-bold">LIMITED TIME OFFER</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="text-2xl font-bold text-yellow-300">40% OFF</span>
-              <span className="text-lg">MLS Laser Initial Consultations</span>
-            </div>
-            <div className="flex items-center gap-1 text-sm">
-              <Clock className="h-4 w-4" />
-              <span>Don't miss out - Book now!</span>
-            </div>
-          </div>
-        </div>
-      </div>
 
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-16 px-4">
@@ -95,7 +75,7 @@ const LaserHealing = () => {
               <Button size="lg" className="text-lg px-8 py-4 h-auto w-full sm:w-auto bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700" asChild>
                 <a href="/book-now">
                   <Calendar className="mr-2 h-5 w-5" />
-                  Book Your Healing Session - Save 40%
+                  Book Your Healing Session
                 </a>
               </Button>
             </div>
@@ -107,12 +87,7 @@ const LaserHealing = () => {
                 alt="Woman receiving natural MLS Laser treatment for pain relief" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
               />
-              <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg border-2 border-orange-200">
-                <div className="text-center mb-2">
-                  <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-3 py-1 rounded-full text-sm font-bold">
-                    40% OFF
-                  </div>
-                </div>
+              <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg border-2 border-primary/20">
                 <div className="flex items-center space-x-3">
                   <Target className="h-8 w-8 text-primary" />
                   <div>
@@ -131,12 +106,7 @@ const LaserHealing = () => {
               alt="Woman receiving natural MLS Laser treatment for pain relief" 
               className="rounded-2xl shadow-2xl w-full h-auto" 
             />
-            <div className="absolute -bottom-4 left-4 right-4 bg-white p-4 rounded-xl shadow-lg border-2 border-orange-200">
-              <div className="text-center mb-2">
-                <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-2 py-1 rounded-full text-xs font-bold">
-                  40% OFF
-                </div>
-              </div>
+            <div className="absolute -bottom-4 left-4 right-4 bg-white p-4 rounded-xl shadow-lg border-2 border-primary/20">
               <div className="flex items-center space-x-3">
                 <Target className="h-6 w-6 text-primary" />
                 <div>
@@ -287,20 +257,10 @@ const LaserHealing = () => {
                 That's what's waiting for you.
               </p>
               
-              <div className="bg-orange-500/20 p-6 rounded-lg border border-orange-300 mb-6">
-                <div className="flex items-center justify-center gap-2 mb-2">
-                  <Gift className="h-6 w-6 text-orange-300" />
-                  <span className="text-2xl font-bold text-orange-100">40% OFF</span>
-                </div>
-                <p className="text-lg font-medium text-primary-foreground">
-                  Limited time: Save on your initial consultation
-                </p>
-              </div>
-              
               <Button size="lg" className="text-xl px-12 py-6 h-auto bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700" asChild>
                 <a href="/book-now">
                   <Calendar className="mr-3 h-6 w-6" />
-                  Start Your Healing Journey - Save 40%
+                  Start Your Healing Journey
                 </a>
               </Button>
             </div>
@@ -323,14 +283,14 @@ const LaserHealing = () => {
               <span className="text-2xl font-bold text-orange-100">40% OFF INITIAL CONSULTATION</span>
             </div>
             <p className="text-lg opacity-90">
-              Don't wait - this limited time offer won't last forever
+              Limited time offer - Book your session today
             </p>
           </div>
           
           <Button size="lg" variant="secondary" className="text-xl px-12 py-6 h-auto bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white border-0" asChild>
             <a href="/book-now">
               <Calendar className="mr-3 h-6 w-6" />
-              Book Your Session Now - Save 40%
+              Book Your Session Now
             </a>
           </Button>
         </div>
