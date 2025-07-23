@@ -83,8 +83,8 @@ const LaserHealing = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                src="/src/assets/mls-laser-machine.jpg" 
-                alt="Professional MLS Laser therapy machine for pain relief treatment" 
+                src="/lovable-uploads/48968bce-0083-4fb8-bc0f-6069bc00aead.png" 
+                alt="Patient receiving MLS Laser therapy treatment for pain relief" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg border-2 border-primary/20">
