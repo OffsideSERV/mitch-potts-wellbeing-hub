@@ -154,6 +154,14 @@ const HowToFlushSalicylates = () => {
                   <p>Let's keep this simple. Salicylates are natural chemicals found in lots of healthy foods—like fruits, herbs, spices, and even some skincare.</p>
                   <p>They're part of a plant's defence system. For most people, they're no problem. But for others, they can cause big trouble.</p>
                 </div>
+                
+                <div className="mt-8 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/d18c82d8-632d-4799-873a-d4948af25d3c.png" 
+                    alt="Healthcare professional consulting with patient in a clinical setting"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
               </div>
 
               {/* Why Some People React */}
@@ -198,6 +206,14 @@ const HowToFlushSalicylates = () => {
                 <h2 className="text-3xl font-bold text-foreground mb-6">
                   How to Flush Salicylates From Your Body (Step-by-Step)
                 </h2>
+                
+                <div className="mb-8 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/02f49e9b-f09d-4cd4-a687-6959328f40f3.png" 
+                    alt="Woman drinking water in a kitchen setting, promoting hydration and detox"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
                 
                 <div className="space-y-8">
                   {steps.map((step, index) => (
@@ -310,6 +326,14 @@ const HowToFlushSalicylates = () => {
                   </ul>
                   <p>You don't have to figure it out alone. I've worked with hundreds of clients just like you—smart, proactive people who just want real answers and a plan that makes sense.</p>
                   <p>Sometimes it's salicylates. Sometimes it's something deeper. But either way, I'll help you find it.</p>
+                </div>
+                
+                <div className="mt-8 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/77b58f7a-2882-46e5-a8c8-2f1044ae149e.png" 
+                    alt="Healthcare professional using microscope for detailed analysis in clinic"
+                    className="w-full h-auto object-cover"
+                  />
                 </div>
                 
                 <div className="mt-6 p-6 bg-primary/5 rounded-lg border border-primary/20">
