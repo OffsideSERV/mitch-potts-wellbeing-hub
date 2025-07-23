@@ -140,6 +140,14 @@ const BestTeaForStomachPain = () => {
                   <p>Whether it's from food, stress, gut bugs, or hormone shifts—your gut is trying to tell you something. While there are many potential causes - from food intolerances to <a href="/what-we-treat/ibs-naturopath" className="text-primary hover:underline">digestive disorders like IBS</a> or <a href="/what-we-treat/sibo-naturopath" className="text-primary hover:underline">SIBO</a> - understanding the root cause is crucial for lasting relief.</p>
                   <p>And while we work on fixing the root cause, sometimes you need fast, natural relief—and that's where the best tea for stomach pain and bloating can really help.</p>
                 </div>
+                
+                <div className="mt-8 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/90001e49-4765-49a5-88de-d9a7a9124d98.png" 
+                    alt="Woman experiencing stomach discomfort, holding her belly while sitting on a couch"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
               </div>
 
               {/* How Tea Can Help */}
@@ -152,6 +160,14 @@ const BestTeaForStomachPain = () => {
                   <p>The right tea can give you a gentle reset when things feel stuck, heavy, or irritated.</p>
                   <p>And no—it doesn't need to be fancy.</p>
                   <p>But it does need to be the right kind of tea—not just any "detox" blend from the supermarket.</p>
+                </div>
+                
+                <div className="mt-8 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/f3e26b20-edb6-4467-8bc4-50806535f813.png" 
+                    alt="Herbal tea setup with teapot, cup of tea, lemon, mint leaves and loose tea"
+                    className="w-full h-auto object-cover"
+                  />
                 </div>
               </div>
 
@@ -194,6 +210,14 @@ const BestTeaForStomachPain = () => {
                   </ul>
                   <p>You can drink 1–3 cups a day of most of these teas. Just start slow and see what works best for your body.</p>
                 </div>
+                
+                <div className="mt-8 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/df06128e-5140-44aa-8843-c166143842b9.png" 
+                    alt="Healthcare professional consulting with a patient in a clinical setting"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
               </div>
 
               {/* What to Avoid */}
@@ -229,6 +253,14 @@ const BestTeaForStomachPain = () => {
                   </ul>
                   <p>And if tea helps a little but your gut's still off most days, that's a sign to dig deeper. While teas can provide excellent symptomatic relief, persistent digestive issues may require a more comprehensive approach. Consider working with a <a href="/what-we-treat/gut-health-specialist" className="text-primary hover:underline">gut health specialist</a> who can help identify root causes. Additionally, avoiding <a href="/blog/gut-health/7-worst-foods-for-gut-health" className="text-primary hover:underline">foods that harm gut health</a> can complement your healing tea routine for better digestive wellness.</p>
                   <p className="font-medium text-lg">Bloating isn't something you just have to live with.</p>
+                </div>
+                
+                <div className="mt-8 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/16a21a8d-a48b-4648-a0d8-d725b514fe0d.png" 
+                    alt="Naturopath discussing treatment options with patient in a modern clinic"
+                    className="w-full h-auto object-cover"
+                  />
                 </div>
               </div>
 
