@@ -43,7 +43,14 @@ const OzempicNaturalWeightLoss = () => {
           </div>
         </div>
 
-        {/* Introduction */}
+        {/* Ozempic Image */}
+        <div className="mb-12">
+          <img 
+            src="/lovable-uploads/fd4b63f3-31e8-41d1-84fa-36b20701887c.png" 
+            alt="Ozempic injection pens for natural weight loss approach"
+            className="w-full max-w-2xl mx-auto rounded-lg shadow-md"
+          />
+        </div>
         <Card className="mb-12 bg-gradient-to-r from-primary/5 to-blue-500/5 border-primary/20">
           <CardContent className="pt-8">
             <p className="text-lg text-muted-foreground leading-relaxed">
