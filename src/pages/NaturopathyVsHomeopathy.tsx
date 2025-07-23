@@ -80,6 +80,15 @@ const NaturopathyVsHomeopathy = () => {
               <blockquote className="border-l-4 border-primary pl-6 text-lg italic text-foreground">
                 "What's the difference between naturopathy and homeopathy?"
               </blockquote>
+              
+              <div className="my-8">
+                <img 
+                  src="/lovable-uploads/d26f132d-21a4-414d-a5e7-633af7b90717.png" 
+                  alt="Naturopathic consultation at NXTLVL Health Brisbane clinic"
+                  className="w-full rounded-lg shadow-md"
+                />
+              </div>
+              
               <p>It's a very fair question. Both sound natural. Both sound gentle. And if you've been feeling tired, stressed, or unwell for a while, you're probably looking at all your options.</p>
               <p>I've been helping people feel better using naturopathy for years, and I often explain the difference in simple terms—because honestly, the two are very different. Let's walk through it together.</p>
             </div>
@@ -118,6 +127,14 @@ const NaturopathyVsHomeopathy = () => {
                 <p className="text-muted-foreground">
                   Say you've been feeling bloated after meals and tired. In naturopathy, I'd want to know: what foods are you eating? Are you digesting well? How's your stress? Are your hormones playing a part? Then we'd build a plan together—maybe some gut healing herbs, changes to your meals, and ways to improve your sleep and your stress levels.
                 </p>
+                
+                <div className="my-6">
+                  <img 
+                    src="/lovable-uploads/f82220da-97e2-4adc-bd59-0d6ca46e1126.png" 
+                    alt="Naturopathic health assessment and vital signs check at NXTLVL Health"
+                    className="w-full rounded-lg shadow-md"
+                  />
+                </div>
               </div>
             </div>
           </section>
@@ -260,6 +277,14 @@ const NaturopathyVsHomeopathy = () => {
             
             <div className="space-y-4 text-muted-foreground mb-6">
               <p>Choosing between a naturopath and a homeopath comes down to what you're really looking for.</p>
+              
+              <div className="my-8">
+                <img 
+                  src="/lovable-uploads/3af8c6b2-c819-4289-8e53-63e15d12d285.png" 
+                  alt="Detailed consultation notes and planning at NXTLVL Health naturopathy clinic"
+                  className="w-full rounded-lg shadow-md"
+                />
+              </div>
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
@@ -310,6 +335,14 @@ const NaturopathyVsHomeopathy = () => {
                 <p className="text-muted-foreground">
                   In naturopathy, we take mental health very seriously. We look at how your stress affects digestion, how poor sleep impacts hormones, and how food affects mood. We might support your nervous system with calming herbs, mindfulness strategies, or simple routines that help your body feel safe again.
                 </p>
+                
+                <div className="my-6">
+                  <img 
+                    src="/lovable-uploads/1c395807-ba22-42e6-b589-6a8498840075.png" 
+                    alt="Naturopathic herbal medicine preparation at NXTLVL Health clinic"
+                    className="w-full rounded-lg shadow-md"
+                  />
+                </div>
               </div>
 
               <div>
@@ -333,6 +366,14 @@ const NaturopathyVsHomeopathy = () => {
             <div className="space-y-4 text-muted-foreground">
               <p>You don't have to pick one forever. Some people start with just one and try the other later. Others use both alongside each other at the same time.</p>
               <p>The best healing path is the one that fits you—your body, your lifestyle, and your personal preference.</p>
+              
+              <div className="my-8">
+                <img 
+                  src="/lovable-uploads/27ddb154-7935-44fe-b8fc-9d5b2c959f0b.png" 
+                  alt="Personalized naturopathic treatment planning and herbal medicine selection at NXTLVL Health"
+                  className="w-full rounded-lg shadow-md"
+                />
+              </div>
               <p>If you're feeling unsure, talk to both kinds of practitioners. Ask questions. Get a feel for their style. And trust your gut.</p>
             </div>
           </section>
