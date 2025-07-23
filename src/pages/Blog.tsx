@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -14,7 +13,7 @@ const blogPosts = [
     readTime: "5 min read",
     date: "March 15, 2024",
     slug: "/blog/gut-health/best-tea-for-stomach-pain-and-bloating",
-    image: "/lovable-uploads/42aef2a5-2c1a-47fd-ad93-e2b0b669ebdc.jpg"
+    image: "/lovable-uploads/6c9b0437-0b15-4a4d-a56a-27d817b40733.png"
   },
   {
     title: "How to Flush Salicylates from Your Body",
@@ -23,7 +22,7 @@ const blogPosts = [
     readTime: "7 min read", 
     date: "March 10, 2024",
     slug: "/blog/naturopathy/how-to-flush-salicylates-from-your-body",
-    image: "/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg"
+    image: "/lovable-uploads/70ff227f-2b16-40e8-8faa-1347ff2a11bf.png"
   },
   {
     title: "7 Worst Foods for Gut Health",
@@ -32,7 +31,7 @@ const blogPosts = [
     readTime: "6 min read",
     date: "March 5, 2024",
     slug: "/blog/gut-health/7-worst-foods-for-gut-health",
-    image: "/lovable-uploads/42aef2a5-2c1a-47fd-ad93-e2b0b669ebdc.jpg"
+    image: "/lovable-uploads/af976508-85da-4ffb-964a-08965755b33f.png"
   },
   {
     title: "Naturopathy for Weight Loss",
@@ -59,7 +58,7 @@ const blogPosts = [
     readTime: "6 min read",
     date: "February 15, 2024",
     slug: "/blog/naturopathy/naturopathy-vs-homeopathy",
-    image: "/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg"
+    image: "/lovable-uploads/e99143e9-961b-428c-aa3a-4035c693dea6.png"
   },
   {
     title: "Embracing Natural Weight Loss with Ozempic: A Naturopath's Approach",
@@ -68,7 +67,7 @@ const blogPosts = [
     readTime: "9 min read",
     date: "February 10, 2024",
     slug: "/blog/weight-loss/embracing-natural-weight-loss-with-ozempic-a-naturopaths-approach",
-    image: "/lovable-uploads/6e297df5-ddda-4561-bd5a-b77a997a6f3b.jpg"
+    image: "/lovable-uploads/9865d605-57bd-4a95-b996-8e08b4b5ca73.png"
   },
   {
     title: "Gut-Brain Connection: How Your Gut Affects Mental Health",
@@ -77,7 +76,7 @@ const blogPosts = [
     readTime: "8 min read",
     date: "February 5, 2024",
     slug: "/blog/gut-health/gut-brain-connection-how-your-gut-affects-mental-health",
-    image: "/lovable-uploads/42aef2a5-2c1a-47fd-ad93-e2b0b669ebdc.jpg"
+    image: "/lovable-uploads/c6f989c7-da21-4d1f-a1e1-bd15ddab89eb.png"
   }
 ];
 
