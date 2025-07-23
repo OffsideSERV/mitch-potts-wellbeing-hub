@@ -129,6 +129,14 @@ const WorstFoodsForGutHealth = () => {
             <div className="max-w-4xl mx-auto prose prose-lg">
               {/* Introduction */}
               <div className="mb-12">
+                <div className="mb-8 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/a8c03301-706e-4461-a273-9cc13abec076.png" 
+                    alt="Healthcare professional consulting with patient about gut health"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+                
                 <div className="text-muted-foreground space-y-4">
                   <p>Hey, it's Mitch here from NXTLVL Health in New Farm.</p>
                   <p>Let's talk gut health.</p>
@@ -152,6 +160,77 @@ const WorstFoodsForGutHealth = () => {
                           {food.title}
                         </h2>
                       </div>
+                      
+                      {/* Add images for specific food types */}
+                      {food.title === "Processed Foods" && (
+                        <div className="mb-6 rounded-lg overflow-hidden">
+                          <img 
+                            src="/lovable-uploads/1cab5668-f274-41f7-b0d6-e336f6bba1b0.png" 
+                            alt="Bowl of instant noodles with fork showing processed food"
+                            className="w-full h-auto object-cover"
+                          />
+                        </div>
+                      )}
+                      
+                      {food.title === "Fried Foods" && (
+                        <div className="mb-6 rounded-lg overflow-hidden">
+                          <img 
+                            src="/lovable-uploads/7d7fd4e0-90db-4027-b9f5-a3e493e4d28d.png" 
+                            alt="French fries on brown paper showing fried foods"
+                            className="w-full h-auto object-cover"
+                          />
+                        </div>
+                      )}
+                      
+                      {food.title === "Artificial Sweeteners" && (
+                        <div className="mb-6 rounded-lg overflow-hidden">
+                          <img 
+                            src="/lovable-uploads/0e7999f3-cf8c-4ca4-8750-a0d4fd0477af.png" 
+                            alt="White packet of artificial sweetener spilling powder"
+                            className="w-full h-auto object-cover"
+                          />
+                        </div>
+                      )}
+                      
+                      {food.title === "Red Meat & Processed Meats" && (
+                        <div className="mb-6 rounded-lg overflow-hidden">
+                          <img 
+                            src="/lovable-uploads/cfee7514-3d73-4e5b-8d6e-b3af8b382798.png" 
+                            alt="Various processed meats including sausages and salami"
+                            className="w-full h-auto object-cover"
+                          />
+                        </div>
+                      )}
+                      
+                      {food.title === "High Fructose Corn Syrup" && (
+                        <div className="mb-6 rounded-lg overflow-hidden">
+                          <img 
+                            src="/lovable-uploads/b2a4c96f-0664-4e74-8bbc-b5ee008a6be3.png" 
+                            alt="Glass bottle of corn syrup with label"
+                            className="w-full h-auto object-cover"
+                          />
+                        </div>
+                      )}
+                      
+                      {food.title === "Dairy (If You're Sensitive)" && (
+                        <div className="mb-6 rounded-lg overflow-hidden">
+                          <img 
+                            src="/lovable-uploads/f2f1ebfc-b694-42ae-bdc6-1ee2dc59e9eb.png" 
+                            alt="Various types of cheese blocks and slices"
+                            className="w-full h-auto object-cover"
+                          />
+                        </div>
+                      )}
+                      
+                      {food.title === "Refined Grains (White Bread & White Rice)" && (
+                        <div className="mb-6 rounded-lg overflow-hidden">
+                          <img 
+                            src="/lovable-uploads/5d1d4cf6-0d94-45d8-b108-d98b40250eac.png" 
+                            alt="Loaf of white bread with slices showing refined grains"
+                            className="w-full h-auto object-cover"
+                          />
+                        </div>
+                      )}
                       
                       <p className="text-red-700 mb-4">{food.description}</p>
                       
@@ -259,6 +338,15 @@ const WorstFoodsForGutHealth = () => {
                 <h2 className="text-3xl font-bold text-foreground mb-6">
                   Where to Start
                 </h2>
+                
+                <div className="mb-8 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/d578aa66-15d8-4fc4-abfb-27018f2e2841.png" 
+                    alt="Healthcare professional in consultation room with patient"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+                
                 <div className="text-muted-foreground space-y-4">
                   <p>You don't have to be perfect.</p>
                   <p>Even small changes like swapping white bread for sourdough or replacing soft drinks with water can have massive health benefits. Your gut wants to heal, it just needs the right foods.</p>
