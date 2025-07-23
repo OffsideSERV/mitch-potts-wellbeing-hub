@@ -1,9 +1,9 @@
-
 import React from 'react';
 import SEO from '@/components/SEO';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, Phone, Leaf, TestTube, Salad, Zap, Target, Heart, Shield, Star } from 'lucide-react';
+import TestimonialCard from "@/components/TestimonialCard";
 
 const Services = () => {
   const services = [
@@ -127,6 +127,33 @@ const Services = () => {
         </div>
       </section>
 
+      {/* Testimonials Section */}
+      <section className="py-16 px-4">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-4">Trusted by Our Clients</h2>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <TestimonialCard
+              name="Kathy Bush"
+              review="A-M-A-Z-I-N-G! I have just had my first appointment with Mitch. He is approachable, knowledgeable and takes the time to explain in detail. I am excited to see what he can tell me about my body and what I can achieve under his guidance."
+              timeAgo="6 days ago"
+            />
+            <TestimonialCard
+              name="michael jaynes"
+              review="Exactly what I have been looking for. Scientific based advice on supplements and eating plan. The first weeks changes to my sleep, mood, focus and motivation have got me excited to see what's next."
+              timeAgo="5 weeks ago"
+            />
+            <TestimonialCard
+              name="Tash K"
+              review="Mitch is certainly a master of his craft. Despite the body being such a complex machine he is able to explain things in a simplistic manner. He takes the time to understand your issues and your goals and carefully works his treatment plan to suit your needs."
+              timeAgo="9 weeks ago"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose NXTLVL Section */}
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
@@ -151,6 +178,20 @@ const Services = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonial before final CTA */}
+      <section className="py-16 px-4">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center">
+            <TestimonialCard
+              name="Tracey Lucock"
+              review="Mitch is extremely thorough and looks at all areas of health in terms of nutrition, movement, lifestyle and medical interactions. With years of auto-immune issues I feel like I am on the right path to builing long-term health with Mitch as my advisor."
+              timeAgo="18 weeks ago"
+              className="max-w-2xl mx-auto"
+            />
           </div>
         </div>
       </section>

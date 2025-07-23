@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import { Button } from '@/components/ui/button';
 import { Phone, Calendar, Apple, Activity, Target, Dna } from 'lucide-react';
+import TestimonialCard from "@/components/TestimonialCard";
 
 const NutritionistBrisbane = () => {
   const services = [
@@ -108,6 +109,24 @@ const NutritionistBrisbane = () => {
           </div>
         </section>
 
+        {/* Testimonial Section */}
+        <section className="py-16 px-4 bg-muted/20">
+          <div className="container mx-auto max-w-6xl">
+            <div className="grid md:grid-cols-2 gap-8">
+              <TestimonialCard
+                name="Thomas Carroll"
+                review="Have gone to see Mitch a few times and he is very knowledgeable and greatly improved my diet."
+                timeAgo="13 weeks ago"
+              />
+              <TestimonialCard
+                name="Suz D"
+                review="Mitch is a brilliant trainer. He's focused, attentive and goal driven. Mitch listened and tailored my program so well I was ahead of target within three weeks. Mitch has nutrition and gut health expertise as well, and takes a holistic approach to wellbeing."
+                timeAgo="25 Mar 2024"
+              />
+            </div>
+          </div>
+        </section>
+
         {/* Services Section */}
         <section className="py-16 bg-muted/20">
           <div className="container mx-auto px-4">
@@ -178,6 +197,20 @@ const NutritionistBrisbane = () => {
                   <p className="text-sm text-muted-foreground">Enjoy all foods without guilt or missing out</p>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Testimonial before About Mitch */}
+        <section className="py-16 px-4">
+          <div className="container mx-auto max-w-4xl">
+            <div className="text-center">
+              <TestimonialCard
+                name="John Boules"
+                review="Super thorough. He only prescribes what he actually recommends for you personally. Tailors everything to you personally. I came so I could optimise my health and we are definitely focussing on that"
+                timeAgo="19 weeks ago"
+                className="max-w-2xl mx-auto"
+              />
             </div>
           </div>
         </section>

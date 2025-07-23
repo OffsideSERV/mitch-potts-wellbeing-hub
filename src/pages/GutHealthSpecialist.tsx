@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Activity, Brain, Target, Leaf, Shield, Microscope } from "lucide-react";
+import TestimonialCard from "@/components/TestimonialCard";
 
 const GutHealthSpecialist = () => {
   return (
@@ -140,6 +141,24 @@ const GutHealthSpecialist = () => {
         </div>
       </section>
 
+      {/* Testimonial Section */}
+      <section className="py-16 px-4 bg-muted/20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="grid md:grid-cols-2 gap-8">
+            <TestimonialCard
+              name="lerryn kearton"
+              review="I cannot recommend Mitch highly enough! His guidance and expertise have been amazing in transforming my gut health. After struggling with gut issues for years, I am so so grateful to have finally found Mitch and have someone so caring and knowledgeable guide me through this journey :)"
+              timeAgo="8 Apr 2024"
+            />
+            <TestimonialCard
+              name="Katie McDougall"
+              review="Mitch has been a game-changer for my gut health. I was struggling with gut problems for a while, and traditional medicine wasn't giving me the relief I needed. Mitch took a holistic approach, listened carefully to my concerns, and developed a personalized plan that really worked for me."
+              timeAgo="2 Apr 2024"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* What Does a Gut Health Specialist Do Section */}
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
@@ -258,6 +277,20 @@ const GutHealthSpecialist = () => {
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
               And that's because 70% of your immune system is in your gut. So if you want better gut health, you need to care for your whole body, too. Untreated digestive conditions can worsen over time, potentially leading to more severe health issues.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonial before Conditions section */}
+      <section className="py-16 px-4">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center">
+            <TestimonialCard
+              name="Kate Brooks"
+              review="Great to have compassionate & thorough support and investigation into causes of my health issues. Mitch is helping me with lowering my stress levels in the body and gut healing. Thanks Mitch."
+              timeAgo="6 weeks ago"
+              className="max-w-2xl mx-auto"
+            />
           </div>
         </div>
       </section>
