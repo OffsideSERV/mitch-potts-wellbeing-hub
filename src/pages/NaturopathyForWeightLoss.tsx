@@ -131,6 +131,14 @@ const NaturopathyForWeightLoss = () => {
               
               {/* What Is Naturopathy */}
               <div className="mb-12">
+                <div className="mb-8 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/a8c03301-706e-4461-a273-9cc13abec076.png" 
+                    alt="NXTLVL Health naturopathy consultation - professional healthcare provider discussing treatment with patient"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+                
                 <div className="flex items-center mb-6">
                   <Leaf className="h-8 w-8 text-green-600 mr-3" />
                   <h2 className="text-3xl font-bold text-foreground">What Is Naturopathy?</h2>
@@ -197,6 +205,15 @@ const NaturopathyForWeightLoss = () => {
               {/* First Visit */}
               <div className="mb-12">
                 <h2 className="text-3xl font-bold text-foreground mb-6">What to Expect in Your First Visit</h2>
+                
+                <div className="mb-8 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/d578aa66-15d8-4fc4-abfb-27018f2e2841.png" 
+                    alt="NXTLVL Health clinic interior - naturopath consulting with patient in modern clinical setting"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+                
                 <div className="text-muted-foreground space-y-4">
                   <p>Your first visit is all about learning. The naturopath really wants to get to know you so they can understand exactly how to help you.</p>
                   
@@ -374,6 +391,14 @@ const NaturopathyForWeightLoss = () => {
 
               {/* CTA Section */}
               <div className="bg-primary/5 rounded-lg p-8 text-center">
+                <div className="mb-6 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/a8c03301-706e-4461-a273-9cc13abec076.png" 
+                    alt="NXTLVL Health naturopathy consultation - ready to start your weight loss journey"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+                
                 <h3 className="text-2xl font-bold text-foreground mb-4">
                   Ready to Start Your Natural Weight Loss Journey?
                 </h3>
