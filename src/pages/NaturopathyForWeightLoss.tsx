@@ -1,83 +1,40 @@
 import SEO from "@/components/SEO";
 import { Button } from '@/components/ui/button';
 import { Calendar, Clock, User, ChevronRight, Leaf, Heart, Scale } from 'lucide-react';
-
 const NaturopathyForWeightLoss = () => {
-  const keyPoints = [
-    "What Is Naturopathy?",
-    "What Is Naturopathic Weight Loss?",
-    "How a Naturopath Helps with Weight Loss",
-    "What to Expect in Your First Visit",
-    "Naturopath Weight Loss Tips",
-    "Supplements and Herbs",
-    "Mind-Body Connection",
-    "Movement and Exercise",
-    "Your Naturopathic Weight Loss Plan",
-    "Naturopath vs. Dietitian",
-    "Pros and Cons",
-    "Is It Right for You?",
-    "Final Thoughts",
-    "FAQs"
-  ];
-
-  const weightLossTips = [
-    {
-      title: "Eat Whole, Real Foods",
-      description: "Foods that come from nature (not boxes) help you feel full and give you real energy."
-    },
-    {
-      title: "Balance Your Gut Health", 
-      description: "Your belly is super smart! A happy gut can help your body burn fat a lot better. Learn more about our approach to naturopathy across Brisbane areas like <a href=\"/areas-we-serve/naturopath-clayfield-brisbane\" className=\"text-primary hover:underline\">Clayfield</a> and <a href=\"/areas-we-serve/naturopath-new-farm\" className=\"text-primary hover:underline\">New Farm</a>."
-    },
-    {
-      title: "Sleep and Stress Matter Too",
-      description: "If you're tired or stressed, your body might hold on to fat. Naturopaths help you find calm and balance."
-    }
-  ];
-
+  const keyPoints = ["What Is Naturopathy?", "What Is Naturopathic Weight Loss?", "How a Naturopath Helps with Weight Loss", "What to Expect in Your First Visit", "Naturopath Weight Loss Tips", "Supplements and Herbs", "Mind-Body Connection", "Movement and Exercise", "Your Naturopathic Weight Loss Plan", "Naturopath vs. Dietitian", "Pros and Cons", "Is It Right for You?", "Final Thoughts", "FAQs"];
+  const weightLossTips = [{
+    title: "Eat Whole, Real Foods",
+    description: "Foods that come from nature (not boxes) help you feel full and give you real energy."
+  }, {
+    title: "Balance Your Gut Health",
+    description: "Your belly is super smart! A happy gut can help your body burn fat a lot better. Learn more about our approach to naturopathy across Brisbane areas like <a href=\"/areas-we-serve/naturopath-clayfield-brisbane\" className=\"text-primary hover:underline\">Clayfield</a> and <a href=\"/areas-we-serve/naturopath-new-farm\" className=\"text-primary hover:underline\">New Farm</a>."
+  }, {
+    title: "Sleep and Stress Matter Too",
+    description: "If you're tired or stressed, your body might hold on to fat. Naturopaths help you find calm and balance."
+  }];
   const prosAndCons = {
-    pros: [
-      "Naturopaths look at your whole life, not just your weight",
-      "They build custom plans just for you", 
-      "They support you at every step"
-    ],
-    cons: [
-      "It takes some time",
-      "It may cost you more than regular doctor visits"
-    ]
+    pros: ["Naturopaths look at your whole life, not just your weight", "They build custom plans just for you", "They support you at every step"],
+    cons: ["It takes some time", "It may cost you more than regular doctor visits"]
   };
-
-  const faqs = [
-    {
-      question: "Can a naturopath help with weight loss if I have a health condition?",
-      answer: "Absolutely, they often work with people who have diabetes, thyroid problems, or other health issues—but you should talk to your doctor too."
-    },
-    {
-      question: "How long until I see results?",
-      answer: "It depends on your body, but most people will feel better in weeks and see weight changes in a few months."
-    },
-    {
-      question: "Will I need to take supplements forever?",
-      answer: "Nope! They are usually for short-term help while your body balances itself out."
-    },
-    {
-      question: "Is it safe for kids or older adults?",
-      answer: "Yes, with the right care. A naturopath will make a safe plan for a patient at any age."
-    },
-    {
-      question: "Can I still see my regular doctor?",
-      answer: "Absolutely! It's best when your naturopath and doctor work together as a team."
-    }
-  ];
-
-  return (
-    <>
-      <SEO 
-        title="Naturopathy for Weight Loss in 2025 | Does It Really Work?"
-        description="Learn all about how effective Naturopathy is for weight loss and how it helps you feel better naturally. Find out how a naturopath can heal your body and mind."
-        canonical="/blog/naturopathy/naturopathy-for-weight-loss"
-        keywords="naturopathy weight loss, naturopath weight loss, natural weight loss, holistic weight loss, naturopathy Brisbane"
-      />
+  const faqs = [{
+    question: "Can a naturopath help with weight loss if I have a health condition?",
+    answer: "Absolutely, they often work with people who have diabetes, thyroid problems, or other health issues—but you should talk to your doctor too."
+  }, {
+    question: "How long until I see results?",
+    answer: "It depends on your body, but most people will feel better in weeks and see weight changes in a few months."
+  }, {
+    question: "Will I need to take supplements forever?",
+    answer: "Nope! They are usually for short-term help while your body balances itself out."
+  }, {
+    question: "Is it safe for kids or older adults?",
+    answer: "Yes, with the right care. A naturopath will make a safe plan for a patient at any age."
+  }, {
+    question: "Can I still see my regular doctor?",
+    answer: "Absolutely! It's best when your naturopath and doctor work together as a team."
+  }];
+  return <>
+      <SEO title="Naturopathy for Weight Loss in 2025 | Does It Really Work?" description="Learn all about how effective Naturopathy is for weight loss and how it helps you feel better naturally. Find out how a naturopath can heal your body and mind." canonical="/blog/naturopathy/naturopathy-for-weight-loss" keywords="naturopathy weight loss, naturopath weight loss, natural weight loss, holistic weight loss, naturopathy Brisbane" />
 
       <div className="min-h-screen bg-background">
         {/* Header */}
@@ -108,12 +65,10 @@ const NaturopathyForWeightLoss = () => {
               <div className="bg-muted/30 rounded-lg p-6 mb-8">
                 <h2 className="text-xl font-semibold text-foreground mb-4">Key Points Covered</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                  {keyPoints.map((point, index) => (
-                    <div key={index} className="flex items-center text-muted-foreground hover:text-primary cursor-pointer">
+                  {keyPoints.map((point, index) => <div key={index} className="flex items-center text-muted-foreground hover:text-primary cursor-pointer">
                       <ChevronRight className="h-4 w-4 mr-2" />
                       {point}
-                    </div>
-                  ))}
+                    </div>)}
                 </div>
               </div>
 
@@ -132,11 +87,7 @@ const NaturopathyForWeightLoss = () => {
               {/* What Is Naturopathy */}
               <div className="mb-12">
                 <div className="mb-8 rounded-lg overflow-hidden">
-                  <img 
-                    src="/lovable-uploads/a8c03301-706e-4461-a273-9cc13abec076.png" 
-                    alt="NXTLVL Health naturopathy consultation - professional healthcare provider discussing treatment with patient"
-                    className="w-full h-auto object-cover"
-                  />
+                  <img src="/lovable-uploads/a8c03301-706e-4461-a273-9cc13abec076.png" alt="NXTLVL Health naturopathy consultation - professional healthcare provider discussing treatment with patient" className="w-full h-auto object-cover" />
                 </div>
                 
                 <div className="flex items-center mb-6">
@@ -207,11 +158,7 @@ const NaturopathyForWeightLoss = () => {
                 <h2 className="text-3xl font-bold text-foreground mb-6">What to Expect in Your First Visit</h2>
                 
                 <div className="mb-8 rounded-lg overflow-hidden">
-                  <img 
-                    src="/lovable-uploads/d578aa66-15d8-4fc4-abfb-27018f2e2841.png" 
-                    alt="NXTLVL Health clinic interior - naturopath consulting with patient in modern clinical setting"
-                    className="w-full h-auto object-cover"
-                  />
+                  <img src="/lovable-uploads/d578aa66-15d8-4fc4-abfb-27018f2e2841.png" alt="NXTLVL Health clinic interior - naturopath consulting with patient in modern clinical setting" className="w-full h-auto object-cover" />
                 </div>
                 
                 <div className="text-muted-foreground space-y-4">
@@ -233,12 +180,10 @@ const NaturopathyForWeightLoss = () => {
               <div className="mb-12">
                 <h2 className="text-3xl font-bold text-foreground mb-6">Naturopath Weight Loss Tips That Actually Work</h2>
                 <div className="space-y-6">
-                  {weightLossTips.map((tip, index) => (
-                    <div key={index} className="bg-emerald-50 border border-emerald-200 rounded-lg p-6">
+                  {weightLossTips.map((tip, index) => <div key={index} className="bg-emerald-50 border border-emerald-200 rounded-lg p-6">
                       <h3 className="text-lg font-semibold text-emerald-800 mb-3">{tip.title}</h3>
                       <p className="text-emerald-700">{tip.description}</p>
-                    </div>
-                  ))}
+                    </div>)}
                 </div>
               </div>
 
@@ -325,24 +270,20 @@ const NaturopathyForWeightLoss = () => {
                   <div className="bg-green-50 border border-green-200 rounded-lg p-6">
                     <h3 className="text-xl font-semibold text-green-800 mb-4">What Works Well</h3>
                     <ul className="space-y-2">
-                      {prosAndCons.pros.map((pro, index) => (
-                        <li key={index} className="flex items-start text-green-700">
+                      {prosAndCons.pros.map((pro, index) => <li key={index} className="flex items-start text-green-700">
                           <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                           {pro}
-                        </li>
-                      ))}
+                        </li>)}
                     </ul>
                   </div>
                   
                   <div className="bg-orange-50 border border-orange-200 rounded-lg p-6">
                     <h3 className="text-xl font-semibold text-orange-800 mb-4">What You Should Know First</h3>
                     <ul className="space-y-2">
-                      {prosAndCons.cons.map((con, index) => (
-                        <li key={index} className="flex items-start text-orange-700">
+                      {prosAndCons.cons.map((con, index) => <li key={index} className="flex items-start text-orange-700">
                           <span className="w-2 h-2 bg-orange-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                           {con}
-                        </li>
-                      ))}
+                        </li>)}
                     </ul>
                   </div>
                 </div>
@@ -378,25 +319,19 @@ const NaturopathyForWeightLoss = () => {
               <div className="mb-12">
                 <h2 className="text-3xl font-bold text-foreground mb-6">FAQs About Naturopathy and Weight Loss</h2>
                 <div className="space-y-6">
-                  {faqs.map((faq, index) => (
-                    <div key={index} className="bg-muted/20 rounded-lg p-6">
+                  {faqs.map((faq, index) => <div key={index} className="bg-muted/20 rounded-lg p-6">
                       <h3 className="text-lg font-semibold text-foreground mb-3">
                         {faq.question}
                       </h3>
                       <p className="text-muted-foreground">{faq.answer}</p>
-                    </div>
-                  ))}
+                    </div>)}
                 </div>
               </div>
 
               {/* CTA Section */}
               <div className="bg-primary/5 rounded-lg p-8 text-center">
                 <div className="mb-6 rounded-lg overflow-hidden">
-                  <img 
-                    src="/lovable-uploads/a8c03301-706e-4461-a273-9cc13abec076.png" 
-                    alt="NXTLVL Health naturopathy consultation - ready to start your weight loss journey"
-                    className="w-full h-auto object-cover"
-                  />
+                  
                 </div>
                 
                 <h3 className="text-2xl font-bold text-foreground mb-4">
@@ -416,8 +351,6 @@ const NaturopathyForWeightLoss = () => {
           </div>
         </section>
       </div>
-    </>
-  );
+    </>;
 };
-
 export default NaturopathyForWeightLoss;
