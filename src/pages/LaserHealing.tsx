@@ -188,8 +188,8 @@ const LaserHealing = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
               <img 
-                src="/lovable-uploads/c8bb9855-7c0b-45b1-8e50-ae2da28905ea.png" 
-                alt="Professional consultation for natural healing" 
+                src="/lovable-uploads/53fd78ad-7f4d-40e9-a50b-a2fe8ba089aa.png" 
+                alt="MLS laser therapy treatment targeting abdominal area for pain relief" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
             </div>
