@@ -166,8 +166,8 @@ const LaserHealing = () => {
             
             <div className="relative">
               <img 
-                src="/lovable-uploads/26dd53ed-236e-42a2-a95c-c505572e08b2.png" 
-                alt="Happy woman after successful natural treatment" 
+                src="/lovable-uploads/53b71ec6-8f6f-4218-aff5-25dd4d2ca61b.png" 
+                alt="Professional MLS laser therapy treatment session in progress" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
             </div>
