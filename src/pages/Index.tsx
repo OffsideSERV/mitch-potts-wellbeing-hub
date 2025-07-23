@@ -155,19 +155,19 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <TestimonialCard
               name="Kathy Bush"
-              content="A-M-A-Z-I-N-G! I have just had my first appointment with Mitch. He is approachable, knowledgeable and takes the time to explain in detail. I am excited to see what he can tell me about my body and what I can achieve under his guidance."
+              content="A-M-A-Z-I-N-G! I have just had my first appointment with Mitch. He is approachable, **knowledgeable** and takes the time to **explain in detail**. I am excited to see what he can tell me about my body and what I can achieve under his guidance."
               timeAgo="6 days ago"
               reviews="Local Guide • 18 reviews"
             />
             <TestimonialCard
               name="S Grant"
-              content="I highly recommend Mitch from NXTLVL Health. His professional yet friendly approach creates the perfect balance, and his holistic methods truly set him apart. Mitch combines science-backed results with personalised nutrition and training plans."
+              content="I highly recommend Mitch from NXTLVL Health. His professional yet friendly approach creates the perfect balance, and his **holistic methods** truly set him apart. Mitch combines **science-backed results** with **personalised** nutrition and training plans."
               timeAgo="4 weeks ago"
               reviews="Local Guide • 18 reviews"
             />
             <TestimonialCard
               name="Janine Laniewski"
-              content="I had a great experience with Mitch. Although I only had a few sessions before moving back to Sydney, I really appreciated how thoroughly he went through my blood test results and explained things I hadn't heard from other practitioners."
+              content="I had a great experience with Mitch. Although I only had a few sessions before moving back to Sydney, I really appreciated how **thoroughly** he went through my **blood test results** and explained things I hadn't heard from other practitioners."
               timeAgo="4 days ago"
               reviews="12 reviews"
             />
@@ -215,13 +215,13 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-6">
             <TestimonialCard
               name="michael jaynes"
-              content="Exactly what I have been looking for. Scientific based advice on supplements and eating plan. The first weeks changes to my sleep, mood, focus and motivation have got me excited to see what's next."
+              content="Exactly what I have been looking for. **Scientific based advice** on supplements and eating plan. The first weeks changes to my **sleep, mood, focus** and motivation have got me excited to see what's next."
               timeAgo="5 weeks ago"
               reviews="2 reviews"
             />
             <TestimonialCard
               name="Shenoa Fox"
-              content="I had an exceptional experience at NXTLVL with Mitch Potts, whose naturopathic approach was both thorough and insightful. After struggling with a persistent cough for over four months, he took the time to explore the potential causes and gave me tangible insights."
+              content="I had an exceptional experience at NXTLVL with Mitch Potts, whose **naturopathic approach** was both **thorough and insightful**. After struggling with a persistent cough for over four months, he took the time to **explore the potential causes** and gave me **tangible insights**."
               timeAgo="6 weeks ago"
               reviews="10 reviews"
             />
@@ -520,19 +520,19 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <TestimonialCard
               name="Kate Brooks"
-              content="Great to have compassionate & thorough support and investigation into causes of my health issues. Mitch is helping me with lowering my stress levels in the body and gut healing. Thanks Mitch."
+              content="Great to have **compassionate & thorough support** and investigation into causes of my health issues. Mitch is helping me with lowering my **stress levels** in the body and **gut healing**. Thanks Mitch."
               timeAgo="6 weeks ago"
               reviews="Local Guide • 48 reviews"
             />
             <TestimonialCard
               name="Dylan-Tane Moore"
-              content="I've been working with Mitch now for just over a month and it's hard to describe in words beneficial this has been for me. I'm the healthiest I've ever been, reaching PB goals in the gym, no more gut issues/bloating and have gained significant weight and muscle mass."
+              content="I've been working with Mitch now for just over a month and it's hard to describe in words beneficial this has been for me. I'm the **healthiest I've ever been**, reaching PB goals in the gym, **no more gut issues/bloating** and have gained significant weight and muscle mass."
               timeAgo="43 weeks ago"
               reviews="2 reviews"
             />
             <TestimonialCard
               name="lerryn kearton"
-              content="I cannot recommend Mitch highly enough! His guidance and expertise have been amazing in transforming my gut health. After struggling with gut issues for years, I am so so grateful to have finally found Mitch and have someone so caring and knowledgeable guide me through this journey."
+              content="I cannot recommend Mitch highly enough! His guidance and expertise have been amazing in **transforming my gut health**. After struggling with gut issues for years, I am so so grateful to have finally found Mitch and have someone so **caring and knowledgeable** guide me through this journey."
               timeAgo="8 Apr 2024"
               reviews="5 reviews"
             />
@@ -660,13 +660,13 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-6">
             <TestimonialCard
               name="Jacques Wade"
-              content="Mitch is helping me work through a health scare because I couldn't find answers elsewhere. His approach is science-based and wholistic. What I appreciate most is just having someone there who can advise me with expertise and knowledge of my history."
+              content="Mitch is helping me work through a health scare because I couldn't find answers elsewhere. His approach is **science-based and wholistic**. What I appreciate most is just having someone there who can advise me with **expertise and knowledge** of my history."
               timeAgo="19 weeks ago"
               reviews="1 review"
             />
             <TestimonialCard
               name="Jazzy Lee"
-              content="Mitch is incredibly knowledgeable and kind, I've felt an overwhelming amount of support since working with him. He takes the time to listen, understand what's going on, and explain things in a way that actually makes sense. Nothing ever feels rushed or generic."
+              content="Mitch is incredibly **knowledgeable and kind**, I've felt an overwhelming amount of support since working with him. He takes the time to **listen, understand** what's going on, and explain things in a way that actually makes sense. Nothing ever feels **rushed or generic**."
               timeAgo="9 weeks ago"
               reviews="5 reviews"
             />
@@ -755,19 +755,19 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <TestimonialCard
               name="Tash K"
-              content="Mitch is certainly a master of his craft. Despite the body being such a complex machine he is able to explain things in a simplistic manner. He takes the time to understand your issues and your goals and carefully works his treatment plan to suit your needs."
+              content="Mitch is certainly a **master of his craft**. Despite the body being such a complex machine he is able to **explain things in a simplistic manner**. He takes the time to understand your issues and your goals and carefully works his **treatment plan to suit your needs**."
               timeAgo="9 weeks ago"
               reviews="1 review"
             />
             <TestimonialCard
               name="Monica Boules"
-              content="Mitch took the time to thoroughly understand my health concerns and provided thoughtful, personalised advice that really resonated with me. If you're looking for a naturopath who truly listens and provides exceptional care, I can't recommend NXTLVL enough."
+              content="Mitch took the time to **thoroughly understand** my health concerns and provided **thoughtful, personalised advice** that really resonated with me. If you're looking for a naturopath who **truly listens** and provides exceptional care, I can't recommend NXTLVL enough."
               timeAgo="32 weeks ago"
               reviews="1 review"
             />
             <TestimonialCard
               name="Rebecca Hayman"
-              content="Mitch's scientific approach to naturopathic medicine is awesome. Highly recommended for those seeking an evidence-based holistic approach."
+              content="Mitch's **scientific approach** to naturopathic medicine is awesome. Highly recommended for those seeking an **evidence-based holistic approach**."
               timeAgo="10 Jun 2024"
               reviews="2 reviews"
             />

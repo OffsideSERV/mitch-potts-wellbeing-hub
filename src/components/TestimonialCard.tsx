@@ -39,7 +39,9 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
         </div>
         
         <blockquote className="text-muted-foreground leading-relaxed mb-4 italic">
-          "{content}"
+          "{content.split('**').map((part, index) => 
+            index % 2 === 1 ? <strong key={index} className="font-semibold text-foreground not-italic">{part}</strong> : part
+          )}"
         </blockquote>
         
         <div className="flex items-center justify-between">
