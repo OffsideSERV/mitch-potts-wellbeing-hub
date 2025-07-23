@@ -42,7 +42,14 @@ const GutBrainConnection = () => {
           </div>
         </div>
 
-        {/* Introduction */}
+        {/* Hero Image */}
+        <div className="mb-12">
+          <img 
+            src="/lovable-uploads/e9c8f3d6-cf87-478a-bd81-62052456133e.png" 
+            alt="Woman experiencing gut health symptoms, highlighting the gut-brain connection"
+            className="w-full max-w-2xl mx-auto rounded-lg shadow-md"
+          />
+        </div>
         <Card className="mb-12 bg-gradient-to-r from-primary/5 to-blue-500/5 border-primary/20">
           <CardContent className="pt-8">
             <p className="text-lg text-muted-foreground leading-relaxed">
