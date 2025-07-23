@@ -61,6 +61,16 @@ const Index = () => {
           <div className="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
             <div className="space-y-8 lg:mt-0 mt-12">
               <div className="space-y-4">
+                {/* Top Rated Badge */}
+                <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">
+                  <span>Top Rated Naturopath in Brisbane</span>
+                  <div className="flex items-center gap-1">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="h-3 w-3 fill-yellow-400 text-yellow-400" />
+                    ))}
+                  </div>
+                </div>
+                
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
                   Best Naturopath Brisbane | <span className="text-primary">Feel Like Yourself Again</span> at NXTLVL Health
                 </h1>
