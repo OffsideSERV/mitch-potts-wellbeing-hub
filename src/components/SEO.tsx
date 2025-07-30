@@ -43,7 +43,7 @@ const SEO = ({
     if (currentPath === '/' || currentPath === '/index.html') {
       return {
         "@context": "https://schema.org",
-        "@type": "NaturopathicPractitioner",
+        "@type": "LocalBusiness",
         "name": "NXTLVL Health",
         "alternateName": "NXTLVL Health Brisbane",
         "description": "Brisbane's leading naturopathic clinic specializing in gut health, hormonal imbalances, chronic fatigue, and natural healing. Led by qualified naturopath Mitch Potts.",
