@@ -44,11 +44,11 @@ const SEO = ({
       return {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": "NXTLVL Health",
+        "name": "NXTLVL Health - Naturopath",
         "alternateName": "NXTLVL Health Brisbane",
         "description": "Brisbane's leading naturopathic clinic specializing in gut health, hormonal imbalances, chronic fatigue, and natural healing. Led by qualified naturopath Mitch Potts.",
         "url": "https://nxtlvlhealth.com.au",
-        "telephone": "+61731808853",
+        "telephone": "(07) 3180 8853",
         "email": "hello@nxtlvlhealth.com.au",
         "image": [
           "https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg"
@@ -59,15 +59,16 @@ const SEO = ({
         },
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Brisbane",
-          "addressRegion": "Queensland",
+          "streetAddress": "Suite 2/665 Brunswick St",
+          "addressLocality": "New Farm",
+          "addressRegion": "QLD",
           "addressCountry": "AU",
-          "postalCode": "4000"
+          "postalCode": "4005"
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": "-27.4698",
-          "longitude": "153.0251"
+          "latitude": "-27.4646",
+          "longitude": "153.0448"
         },
         "openingHours": [
           "Mo-Fr 09:00-17:00",
@@ -80,57 +81,18 @@ const SEO = ({
           "@type": "GeoCircle",
           "geoMidpoint": {
             "@type": "GeoCoordinates",
-            "latitude": "-27.4698",
-            "longitude": "153.0251"
+            "latitude": "-27.4646",
+            "longitude": "153.0448"
           },
           "geoRadius": "50000"
         },
         "areaServed": [
-          {
-            "@type": "City",
-            "name": "Brisbane",
-            "addressRegion": "Queensland",
-            "addressCountry": "AU"
-          },
-          {
-            "@type": "AdministrativeArea",
-            "name": "Queensland",
-            "addressCountry": "AU"
-          }
-        ],
-        "medicalSpecialty": [
-          "Naturopathy",
-          "Nutritional Medicine",
-          "Functional Medicine",
-          "Gut Health",
-          "Hormonal Health"
-        ],
-        "availableService": [
-          {
-            "@type": "MedicalProcedure",
-            "name": "Naturopathic Consultation",
-            "description": "Comprehensive naturopathic assessment and treatment planning"
-          },
-          {
-            "@type": "MedicalProcedure", 
-            "name": "Live Blood Analysis",
-            "description": "Advanced diagnostic tool to assess inflammation, nutrient absorption, and gut health"
-          },
-          {
-            "@type": "MedicalProcedure",
-            "name": "Nutritional Medicine",
-            "description": "Personalized nutrition plans and dietary interventions"
-          },
-          {
-            "@type": "MedicalProcedure",
-            "name": "Functional Testing",
-            "description": "Advanced laboratory testing for hormones, digestive function, and nutrient status"
-          },
-          {
-            "@type": "MedicalProcedure",
-            "name": "MLS Laser Therapy",
-            "description": "Non-invasive laser therapy for pain relief and tissue healing"
-          }
+          "Brisbane",
+          "New Farm",
+          "Fortitude Valley", 
+          "Spring Hill",
+          "Bowen Hills",
+          "Queensland"
         ],
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
@@ -233,9 +195,9 @@ const SEO = ({
       <meta name="author" content="NXTLVL Health" />
       <meta name="language" content="English" />
       <meta name="geo.region" content="AU-QLD" />
-      <meta name="geo.placename" content="Brisbane, Queensland" />
-      <meta name="geo.position" content="-27.4698;153.0251" />
-      <meta name="ICBM" content="-27.4698, 153.0251" />
+      <meta name="geo.placename" content="New Farm, Brisbane, Queensland" />
+      <meta name="geo.position" content="-27.4646;153.0448" />
+      <meta name="ICBM" content="-27.4646, 153.0448" />
       
       {/* LocalBusiness Schema Markup - Only on homepage */}
       {localBusinessSchema && (
