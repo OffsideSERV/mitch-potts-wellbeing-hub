@@ -117,7 +117,7 @@ const App = () => (
               <Route path="/gut-freedom" element={<GutFreedomOptIn />} />
               <Route path="/allergy-naturopath" element={<AllergyNaturopath />} />
               <Route path="/naturopathic-nutritionist" element={<NaturopathicNutritionist />} />
-              <Route path="/indooroopilly-naturopathy" element={<IndooroopillyNaturopathy />} />
+              <Route path="/areas-we-serve/naturopath-indooroopilly" element={<IndooroopillyNaturopathy />} />
               <Route path="/functional-medicine" element={<FunctionalMedicine />} />
               <Route path="/services/live-blood-analysis-brisbane" element={<LiveBloodAnalysisBrisbane />} />
               <Route path="/cancellation-policy" element={<CancellationPolicy />} />

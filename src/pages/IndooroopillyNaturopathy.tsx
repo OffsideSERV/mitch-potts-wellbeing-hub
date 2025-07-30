@@ -10,7 +10,7 @@ const IndooroopillyNaturopathy = () => {
       <SEO 
         title="Naturopath Indooroopilly | Natural Health Clinic Brisbane"
         description="Expert naturopath serving Indooroopilly and surrounding Brisbane areas. Specialising in natural health solutions, gut health, hormones, and holistic wellness."
-        canonical="/indooroopilly-naturopathy"
+        canonical="/areas-we-serve/naturopath-indooroopilly"
         keywords="naturopath Indooroopilly, natural health Indooroopilly, holistic health Brisbane, naturopathy clinic Indooroopilly"
       />
       <div className="min-h-screen bg-background">
