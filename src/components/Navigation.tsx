@@ -170,7 +170,7 @@ const Navigation = () => {
                 <NavigationMenuItem>
                   <NavigationMenuTrigger className="text-sm font-medium">What We Treat</NavigationMenuTrigger>
                   <NavigationMenuContent className="overflow-visible">
-                    <div className="grid gap-3 p-6 w-[600px] overflow-visible">
+                    <div className="grid gap-3 p-8 w-[600px] overflow-visible">
                       <div className="grid grid-cols-2 gap-8 overflow-visible">
                         {/* Left Column */}
                         <div className="space-y-3 overflow-visible">
@@ -198,40 +198,32 @@ const Navigation = () => {
                                   </Link>
                                 </NavigationMenuLink>
                                 
-                                {/* IBS with its own submenu */}
-                                <div className="relative group/ibs">
-                                  <NavigationMenuLink asChild>
-                                    <Link
-                                      to="/what-we-treat/ibs-brisbane"
-                                      className="flex items-center justify-between select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
-                                    >
-                                      IBS
-                                      <ChevronDown className="h-3 w-3" />
-                                    </Link>
-                                  </NavigationMenuLink>
-                                  
-                                  {/* IBS Submenu */}
-                                  <div className="absolute left-full top-0 ml-1 w-52 bg-popover border rounded-md shadow-lg opacity-0 invisible group-hover/ibs:opacity-100 group-hover/ibs:visible transition-all duration-200 z-50">
-                                    <div className="p-2 space-y-1">
-                                      <NavigationMenuLink asChild>
-                                        <Link
-                                          to="/what-we-treat/ibs-naturopath"
-                                          className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
-                                        >
-                                          IBS Naturopathy
-                                        </Link>
-                                      </NavigationMenuLink>
-                                      <NavigationMenuLink asChild>
-                                        <Link
-                                          to="/what-we-treat/ibs-clinic"
-                                          className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
-                                        >
-                                          IBS Clinic
-                                        </Link>
-                                      </NavigationMenuLink>
-                                    </div>
-                                  </div>
-                                </div>
+                                <NavigationMenuLink asChild>
+                                  <Link
+                                    to="/what-we-treat/ibs-brisbane"
+                                    className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                                  >
+                                    IBS
+                                  </Link>
+                                </NavigationMenuLink>
+                                
+                                <NavigationMenuLink asChild>
+                                  <Link
+                                    to="/what-we-treat/ibs-naturopath"
+                                    className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground pl-4"
+                                  >
+                                    IBS Naturopathy
+                                  </Link>
+                                </NavigationMenuLink>
+                                
+                                <NavigationMenuLink asChild>
+                                  <Link
+                                    to="/what-we-treat/ibs-clinic"
+                                    className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground pl-4"
+                                  >
+                                    IBS Clinic
+                                  </Link>
+                                </NavigationMenuLink>
                                 
                                 <NavigationMenuLink asChild>
                                   <Link
