@@ -62,7 +62,7 @@ const GutHealth = () => {
     },
     {
       title: "SMALL INTESTINAL BACTERIAL OVERGROWTH (SIBO)",
-      description: "An overgrowth of bacteria in the small intestine that can cause bloating, gas, diarrhea, and malabsorption.",
+      description: "An overgrowth of bacteria in the small intestine that can cause bloating, gas, diarrhoea, and malabsorption.",
       icon: <TestTube className="h-6 w-6 text-primary" />
     },
     {
