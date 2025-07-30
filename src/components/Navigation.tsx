@@ -187,7 +187,7 @@ const Navigation = () => {
                             </NavigationMenuLink>
                             
                             {/* Gut Health Submenu */}
-                            <div className="absolute left-full top-0 ml-1 w-48 bg-popover border rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                            <div className="absolute left-full top-0 ml-1 w-60 bg-popover border rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                               <div className="p-2 space-y-1">
                                 <NavigationMenuLink asChild>
                                   <Link
@@ -211,7 +211,7 @@ const Navigation = () => {
                                   </NavigationMenuLink>
                                   
                                   {/* IBS Submenu */}
-                                  <div className="absolute left-full top-0 ml-1 w-44 bg-popover border rounded-md shadow-lg opacity-0 invisible group-hover/ibs:opacity-100 group-hover/ibs:visible transition-all duration-200 z-50">
+                                  <div className="absolute left-full top-0 ml-1 w-52 bg-popover border rounded-md shadow-lg opacity-0 invisible group-hover/ibs:opacity-100 group-hover/ibs:visible transition-all duration-200 z-50">
                                     <div className="p-2 space-y-1">
                                       <NavigationMenuLink asChild>
                                         <Link
@@ -276,7 +276,7 @@ const Navigation = () => {
                             </NavigationMenuLink>
                             
                             {/* Skin Conditions Submenu */}
-                            <div className="absolute left-full top-0 ml-1 w-48 bg-popover border rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                            <div className="absolute left-full top-0 ml-1 w-60 bg-popover border rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                               <div className="p-2 space-y-1">
                                 <NavigationMenuLink asChild>
                                   <Link
