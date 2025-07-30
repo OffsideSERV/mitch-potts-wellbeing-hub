@@ -66,6 +66,7 @@ import OzempicNaturalWeightLoss from "./pages/OzempicNaturalWeightLoss";
 import GutBrainConnection from "./pages/GutBrainConnection";
 import SitemapPage from "./pages/SitemapPage";
 import RobotsPage from "./pages/RobotsPage";
+import AboutUs from "./pages/AboutUs";
 import NaturopathForAthletes from "./pages/NaturopathForAthletes";
 import LaserHealing from "./pages/LaserHealing";
 
@@ -138,6 +139,9 @@ const App = () => (
               <Route path="/blog/gut-health/gut-brain-connection-how-your-gut-affects-mental-health" element={<GutBrainConnection />} />
               <Route path="/what-we-treat/naturopath-for-athletes" element={<NaturopathForAthletes />} />
               <Route path="/laser-healing" element={<LaserHealing />} />
+              
+              {/* About Us page */}
+              <Route path="/about-us" element={<AboutUs />} />
               
               {/* SEO essential pages */}
               <Route path="/sitemap.xml" element={<SitemapPage />} />
