@@ -170,10 +170,10 @@ const Navigation = () => {
                 <NavigationMenuItem>
                   <NavigationMenuTrigger className="text-sm font-medium">What We Treat</NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="grid gap-3 p-6 w-[480px]">
-                      <div className="grid grid-cols-2 gap-4">
+                    <div className="grid gap-3 p-6 w-[480px] overflow-visible">
+                      <div className="grid grid-cols-2 gap-4 overflow-visible">
                         {/* Left Column */}
-                        <div className="space-y-3">
+                        <div className="space-y-3 overflow-visible">
                           {/* Gut Health with hover submenu */}
                           <div className="relative group">
                             <NavigationMenuLink asChild>
