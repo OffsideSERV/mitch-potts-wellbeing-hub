@@ -46,7 +46,7 @@ const SEO = ({
         "@type": "LocalBusiness",
         "name": "NXTLVL Health - Naturopath",
         "alternateName": "NXTLVL Health Brisbane",
-        "description": "Brisbane's leading naturopathic clinic specializing in gut health, hormonal imbalances, chronic fatigue, and natural healing. Led by qualified naturopath Mitch Potts.",
+        "description": "Brisbane's leading naturopathic clinic specialising in gut health, hormonal imbalances, chronic fatigue, and natural healing. Led by qualified naturopath Mitch Potts.",
         "url": "https://www.nxtlvlhealth.com.au",
         "telephone": "(07) 3180 8853",
         "email": "hello@nxtlvlhealth.com.au",
@@ -121,7 +121,7 @@ const SEO = ({
           "@type": "Person",
           "name": "Mitch Potts",
           "jobTitle": "Naturopath & Nutritional Medicine Practitioner",
-          "description": "Qualified naturopath specializing in gut health, hormonal imbalances, and natural healing approaches"
+          "description": "Qualified naturopath specialising in gut health, hormonal imbalances, and natural healing approaches"
         },
         "sameAs": [
           "https://www.google.com/maps/place/NXTLVL+Health",
