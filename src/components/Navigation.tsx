@@ -32,6 +32,7 @@ const Navigation = () => {
         { 
           title: "IBS", 
           subItems: [
+            { title: "IBS Treatment Brisbane", href: "/what-we-treat/ibs-brisbane" },
             { title: "IBS Naturopathy", href: "/what-we-treat/ibs-naturopath" },
             { title: "IBS Clinic", href: "/what-we-treat/ibs-clinic" },
           ]
@@ -61,7 +62,7 @@ const Navigation = () => {
     { title: "Newstead", href: "/areas-we-serve/naturopath-newstead" },
     { title: "New Farm", href: "/areas-we-serve/naturopath-new-farm" },
     { title: "North Brisbane", href: "/areas-we-serve/naturopath-north-brisbane" },
-    { title: "Indooroopilly", href: "/indooroopilly-naturopathy" },
+    { title: "Indooroopilly", href: "/areas-we-serve/naturopath-indooroopilly" },
     { title: "Morningside", href: "/areas-we-serve/naturopath-morningside" },
     { title: "Hamilton", href: "/areas-we-serve/naturopath-hamilton" },
     { title: "Clayfield", href: "/areas-we-serve/naturopath-clayfield-brisbane" },
@@ -496,24 +497,31 @@ const Navigation = () => {
                                     • IBS
                                     <ChevronRight className={`h-3 w-3 transition-transform ${expandedSections.ibs ? 'rotate-90' : ''}`} />
                                   </button>
-                                  {expandedSections.ibs && (
-                                    <div className="pl-4 space-y-1 mt-1">
-                                      <Link
-                                        to="/what-we-treat/ibs-naturopath"
-                                        onClick={closeSheet}
-                                        className="block text-xs text-muted-foreground hover:text-primary"
-                                      >
-                                        - IBS Naturopathy
-                                      </Link>
-                                      <Link
-                                        to="/what-we-treat/ibs-clinic"
-                                        onClick={closeSheet}
-                                        className="block text-xs text-muted-foreground hover:text-primary"
-                                      >
-                                        - IBS Clinic
-                                      </Link>
-                                    </div>
-                                  )}
+                                   {expandedSections.ibs && (
+                                     <div className="pl-4 space-y-1 mt-1">
+                                       <Link
+                                         to="/what-we-treat/ibs-brisbane"
+                                         onClick={closeSheet}
+                                         className="block text-xs text-muted-foreground hover:text-primary"
+                                       >
+                                         - IBS Treatment Brisbane
+                                       </Link>
+                                       <Link
+                                         to="/what-we-treat/ibs-naturopath"
+                                         onClick={closeSheet}
+                                         className="block text-xs text-muted-foreground hover:text-primary"
+                                       >
+                                         - IBS Naturopathy
+                                       </Link>
+                                       <Link
+                                         to="/what-we-treat/ibs-clinic"
+                                         onClick={closeSheet}
+                                         className="block text-xs text-muted-foreground hover:text-primary"
+                                       >
+                                         - IBS Clinic
+                                       </Link>
+                                     </div>
+                                   )}
                                 </div>
                                 
                                 <Link
