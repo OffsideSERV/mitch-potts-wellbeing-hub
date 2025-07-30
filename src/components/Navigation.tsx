@@ -169,7 +169,7 @@ const Navigation = () => {
 
                 <NavigationMenuItem>
                   <NavigationMenuTrigger className="text-sm font-medium">What We Treat</NavigationMenuTrigger>
-                  <NavigationMenuContent>
+                  <NavigationMenuContent className="overflow-visible">
                     <div className="grid gap-3 p-6 w-[480px] overflow-visible">
                       <div className="grid grid-cols-2 gap-4 overflow-visible">
                         {/* Left Column */}
