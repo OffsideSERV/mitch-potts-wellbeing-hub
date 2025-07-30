@@ -149,31 +149,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Testimonial Section 1 */}
-      <section className="py-16 px-4 bg-muted/20">
-        <div className="container mx-auto max-w-6xl">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <TestimonialCard
-              name="Kathy Bush"
-              content="A-M-A-Z-I-N-G! I have just had my first appointment with Mitch. He is approachable, **knowledgeable** and takes the time to **explain in detail**. I am excited to see what he can tell me about my body and what I can achieve under his guidance."
-              timeAgo="6 days ago"
-              reviews="Local Guide • 18 reviews"
-            />
-            <TestimonialCard
-              name="S Grant"
-              content="I highly recommend Mitch from NXTLVL Health. His professional yet friendly approach creates the perfect balance, and his **holistic methods** truly set him apart. Mitch combines **science-backed results** with **personalised** nutrition and training plans."
-              timeAgo="4 weeks ago"
-              reviews="Local Guide • 18 reviews"
-            />
-            <TestimonialCard
-              name="Janine Laniewski"
-              content="I had a great experience with Mitch. Although I only had a few sessions before moving back to Sydney, I really appreciated how **thoroughly** he went through my **blood test results** and explained things I hadn't heard from other practitioners."
-              timeAgo="4 days ago"
-              reviews="12 reviews"
-            />
-          </div>
-        </div>
-      </section>
 
       {/* Finally A Brisbane Naturopath Who Gets It */}
       <section className="py-24 px-4 mt-8">
@@ -205,6 +180,32 @@ const Index = () => {
                 Book a Free 15-Min Consult
               </a>
             </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonial Section 1 - Moved from below hero */}
+      <section className="py-16 px-4 bg-muted/20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <TestimonialCard
+              name="Kathy Bush"
+              content="A-M-A-Z-I-N-G! I have just had my first appointment with Mitch. He is approachable, **knowledgeable** and takes the time to **explain in detail**. I am excited to see what he can tell me about my body and what I can achieve under his guidance."
+              timeAgo="6 days ago"
+              reviews="Local Guide • 18 reviews"
+            />
+            <TestimonialCard
+              name="S Grant"
+              content="I highly recommend Mitch from NXTLVL Health. His professional yet friendly approach creates the perfect balance, and his **holistic methods** truly set him apart. Mitch combines **science-backed results** with **personalised** nutrition and training plans."
+              timeAgo="4 weeks ago"
+              reviews="Local Guide • 18 reviews"
+            />
+            <TestimonialCard
+              name="Janine Laniewski"
+              content="I had a great experience with Mitch. Although I only had a few sessions before moving back to Sydney, I really appreciated how **thoroughly** he went through my **blood test results** and explained things I hadn't heard from other practitioners."
+              timeAgo="4 days ago"
+              reviews="12 reviews"
+            />
           </div>
         </div>
       </section>
