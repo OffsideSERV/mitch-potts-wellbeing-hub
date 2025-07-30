@@ -3,16 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { Award, Users, Heart, CheckCircle, Star, BookOpen, Microscope, Brain } from "lucide-react";
-
 const AboutUs = () => {
-  return (
-    <div className="min-h-screen">
-      <SEO 
-        title="About Mitch Potts - Brisbane's Most Trusted Naturopath | NXTLVL Health"
-        description="Meet Mitch Potts, Brisbane's leading naturopath who has helped thousands feel better naturally. Discover his story, qualifications, and why patients trust him with their health journey."
-        canonical="/about-us"
-        keywords="Mitch Potts naturopath, Brisbane naturopath qualifications, trusted naturopath Brisbane, experienced naturopath, natural health practitioner Brisbane"
-      />
+  return <div className="min-h-screen">
+      <SEO title="About Mitch Potts - Brisbane's Most Trusted Naturopath | NXTLVL Health" description="Meet Mitch Potts, Brisbane's leading naturopath who has helped thousands feel better naturally. Discover his story, qualifications, and why patients trust him with their health journey." canonical="/about-us" keywords="Mitch Potts naturopath, Brisbane naturopath qualifications, trusted naturopath Brisbane, experienced naturopath, natural health practitioner Brisbane" />
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-background to-accent/20 py-16 lg:py-24">
@@ -40,11 +33,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div className="order-1 lg:order-2">
-              <img 
-                src="/lovable-uploads/6e318a68-c5c0-4f4a-99c5-45a48e41649f.png" 
-                alt="Mitch Potts naturopath consultation at NXTLVL Health Brisbane" 
-                className="rounded-2xl shadow-2xl w-full h-auto"
-              />
+              <img src="/lovable-uploads/6e318a68-c5c0-4f4a-99c5-45a48e41649f.png" alt="Mitch Potts naturopath consultation at NXTLVL Health Brisbane" className="rounded-2xl shadow-2xl w-full h-auto" />
             </div>
           </div>
         </div>
@@ -99,11 +88,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div>
-              <img 
-                src="/lovable-uploads/48cc100b-f874-40cd-a474-951bb035ed9c.png" 
-                alt="Mitch Potts naturopath providing personalized care at NXTLVL Health Brisbane" 
-                className="rounded-2xl shadow-lg w-full h-auto"
-              />
+              <img src="/lovable-uploads/48cc100b-f874-40cd-a474-951bb035ed9c.png" alt="Mitch Potts naturopath providing personalized care at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -133,7 +118,8 @@ const AboutUs = () => {
             <Card className="border-primary/20">
               <CardContent className="p-6 text-center">
                 <Microscope className="h-12 w-12 text-primary mx-auto mb-4" />
-                <h3 className="text-xl font-semibold mb-2">Advanced Diagnostic Training</h3>
+                <h3 className="text-xl font-semibold mb-2">Advanced Screening 
+Training</h3>
                 <p className="text-muted-foreground">Live blood analysis & functional testing</p>
               </CardContent>
             </Card>
@@ -154,11 +140,7 @@ const AboutUs = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <img 
-                src="/lovable-uploads/284f6d80-2bc3-4ed3-937b-219b575000c5.png" 
-                alt="Mitch Potts naturopath explaining personalized treatment plan to patient" 
-                className="rounded-2xl shadow-lg w-full h-auto"
-              />
+              <img src="/lovable-uploads/284f6d80-2bc3-4ed3-937b-219b575000c5.png" alt="Mitch Potts naturopath explaining personalized treatment plan to patient" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
@@ -212,23 +194,11 @@ const AboutUs = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              "Gut Health & IBS",
-              "Hormonal Imbalances",
-              "Chronic Fatigue",
-              "Anxiety & Stress",
-              "Skin Problems",
-              "Weight Management",
-              "ADHD Support",
-              "Thyroid Issues",
-              "Digestive Problems"
-            ].map((expertise) => (
-              <Card key={expertise} className="border-primary/20 hover:border-primary/40 transition-colors">
+            {["Gut Health & IBS", "Hormonal Imbalances", "Chronic Fatigue", "Anxiety & Stress", "Skin Problems", "Weight Management", "ADHD Support", "Thyroid Issues", "Digestive Problems"].map(expertise => <Card key={expertise} className="border-primary/20 hover:border-primary/40 transition-colors">
                 <CardContent className="p-4 text-center">
                   <p className="font-medium text-foreground">{expertise}</p>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -249,8 +219,6 @@ const AboutUs = () => {
           </Button>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default AboutUs;
