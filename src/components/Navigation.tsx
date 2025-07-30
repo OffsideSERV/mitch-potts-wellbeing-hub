@@ -375,6 +375,14 @@ const Navigation = () => {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
+                  <Link to="/about-us" className={`text-sm font-medium transition-colors hover:text-primary px-4 py-2 ${
+                    isActive("/about-us") ? "text-primary" : "text-muted-foreground"
+                  }`}>
+                    About Us
+                  </Link>
+                </NavigationMenuItem>
+
+                <NavigationMenuItem>
                   <Link to="/blog" className={`text-sm font-medium transition-colors hover:text-primary px-4 py-2 ${
                     isActive("/blog") ? "text-primary" : "text-muted-foreground"
                   }`}>
@@ -655,6 +663,16 @@ const Navigation = () => {
                         </div>
                       )}
                     </div>
+
+                    <Link
+                      to="/about-us"
+                      onClick={closeSheet}
+                      className={`text-base font-medium transition-colors hover:text-primary ${
+                        isActive("/about-us") ? "text-primary" : "text-muted-foreground"
+                      }`}
+                    >
+                      About Us
+                    </Link>
 
                     <Link
                       to="/blog"
