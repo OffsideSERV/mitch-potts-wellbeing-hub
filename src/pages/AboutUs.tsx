@@ -41,7 +41,7 @@ const AboutUs = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src="https://www.nxtlvlhealth.com.au/wp-content/uploads/2025/06/Woman-talking-to-a-naturopath-in-Brisbane-scaled.jpeg" 
+                src="/lovable-uploads/6e318a68-c5c0-4f4a-99c5-45a48e41649f.png" 
                 alt="Mitch Potts naturopath consultation at NXTLVL Health Brisbane" 
                 className="rounded-2xl shadow-2xl w-full h-auto"
               />
@@ -100,7 +100,7 @@ const AboutUs = () => {
             </div>
             <div>
               <img 
-                src="https://www.nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-checking-a-patients-blood-pressure-scaled.jpeg" 
+                src="/lovable-uploads/48cc100b-f874-40cd-a474-951bb035ed9c.png" 
                 alt="Mitch Potts naturopath providing personalized care at NXTLVL Health Brisbane" 
                 className="rounded-2xl shadow-lg w-full h-auto"
               />
@@ -155,7 +155,7 @@ const AboutUs = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://www.nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-showing-patient-results-on-a-computer-scaled.jpeg" 
+                src="/lovable-uploads/284f6d80-2bc3-4ed3-937b-219b575000c5.png" 
                 alt="Mitch Potts naturopath explaining personalized treatment plan to patient" 
                 className="rounded-2xl shadow-lg w-full h-auto"
               />
