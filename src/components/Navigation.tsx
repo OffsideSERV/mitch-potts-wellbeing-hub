@@ -170,7 +170,7 @@ const Navigation = () => {
                 <NavigationMenuItem>
                   <NavigationMenuTrigger className="text-sm font-medium">What We Treat</NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="grid gap-3 p-6 w-80">
+                    <div className="grid gap-3 p-6 w-[480px]">
                       <div className="grid grid-cols-2 gap-4">
                         {/* Left Column */}
                         <div className="space-y-3">
