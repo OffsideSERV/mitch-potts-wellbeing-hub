@@ -15,7 +15,7 @@ const SEO = ({
   title = "Best Naturopath Brisbane | Book a FREE 15-Min Consult!",
   description = "Feel like something's wrong but no one's listening? NXTLVL Health is the best Naturopath in Brisbane and is here to give you the answers you've been looking for",
   canonical,
-  ogImage = "https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg",
+  ogImage = "https://www.nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg",
   ogType = "website",
   keywords = "naturopath Brisbane, best naturopath Brisbane, natural medicine Brisbane, functional medicine Brisbane, gut health Brisbane",
   noindex = false
@@ -26,15 +26,15 @@ const SEO = ({
   let fullCanonical;
   if (canonical) {
     // If canonical is explicitly provided, use it as-is
-    fullCanonical = canonical.startsWith('http') ? canonical : `https://nxtlvlhealth.com.au${canonical}`;
+    fullCanonical = canonical.startsWith('http') ? canonical : `https://www.nxtlvlhealth.com.au${canonical}`;
   } else {
     // For homepage, use clean root URL
     if (currentPath === '/' || currentPath === '/index.html') {
-      fullCanonical = 'https://nxtlvlhealth.com.au';
+      fullCanonical = 'https://www.nxtlvlhealth.com.au';
     } else {
       // For other pages, remove trailing slash and use clean path
       const cleanPath = currentPath.replace(/\/$/, '');
-      fullCanonical = `https://nxtlvlhealth.com.au${cleanPath}`;
+      fullCanonical = `https://www.nxtlvlhealth.com.au${cleanPath}`;
     }
   }
 
@@ -47,15 +47,15 @@ const SEO = ({
         "name": "NXTLVL Health - Naturopath",
         "alternateName": "NXTLVL Health Brisbane",
         "description": "Brisbane's leading naturopathic clinic specializing in gut health, hormonal imbalances, chronic fatigue, and natural healing. Led by qualified naturopath Mitch Potts.",
-        "url": "https://nxtlvlhealth.com.au",
+        "url": "https://www.nxtlvlhealth.com.au",
         "telephone": "(07) 3180 8853",
         "email": "hello@nxtlvlhealth.com.au",
         "image": [
-          "https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg"
+          "https://www.nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg"
         ],
         "logo": {
           "@type": "ImageObject",
-          "url": "https://nxtlvlhealth.com.au/lovable-uploads/e8ea191a-3d17-45b6-b926-fa1ce97867a9.png"
+          "url": "https://www.nxtlvlhealth.com.au/lovable-uploads/e8ea191a-3d17-45b6-b926-fa1ce97867a9.png"
         },
         "address": {
           "@type": "PostalAddress",
