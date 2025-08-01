@@ -130,7 +130,7 @@ const ADHDNaturopathy = () => {
                 </div>
               </div>
               
-              <div className="flex flex-col sm:flex-row gap-4 mt-8 lg:mt-0">
+              <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
                   asChild 
                   size="lg"

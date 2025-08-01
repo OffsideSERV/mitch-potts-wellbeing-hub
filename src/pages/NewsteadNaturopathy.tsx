@@ -43,7 +43,7 @@ const NewsteadNaturopathy = () => {
                 </div>
               </div>
               
-              <div className="flex flex-col sm:flex-row gap-4 mt-8 lg:mt-0">
+              <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
                   asChild 
                   className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight"

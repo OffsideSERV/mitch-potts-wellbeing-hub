@@ -409,7 +409,7 @@ const GutHealth = () => {
                 </div>
               </div>
               
-              <div className="flex flex-col sm:flex-row gap-4 mt-8 lg:mt-0">
+              <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="text-lg px-8 py-6" asChild>
                   <a href="https://nxtlvlhealth.com.au/book-now/">
                     <Calendar className="mr-2 h-5 w-5" />

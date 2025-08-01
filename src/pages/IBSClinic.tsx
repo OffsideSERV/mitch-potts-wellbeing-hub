@@ -44,7 +44,7 @@ const IBSClinic = () => {
                 </div>
               </div>
               
-              <div className="flex flex-col sm:flex-row gap-4 mt-8 lg:mt-0">
+              <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild className="text-base sm:text-lg px-6 py-3 h-auto">
                   <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
                     <Calendar className="mr-2 h-5 w-5" />
