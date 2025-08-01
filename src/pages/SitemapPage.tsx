@@ -52,7 +52,7 @@ const SitemapPage = () => {
   </url>
   
   <url>
-    <loc>https://nxtlvlhealth.com.au/services/personal-trainer-new-farm</loc>
+    <loc>https://nxtlvlhealth.com.au/services/personal-trainer-newstead</loc>
     <lastmod>2025-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

@@ -19,7 +19,7 @@ const Navigation = () => {
     { title: "Functional Medicine", href: "/functional-medicine" },
     { title: "Nutrition", href: "/services/nutritionist-brisbane" },
     { title: "MLS Laser Therapy", href: "/services/mls-laser-therapy-treatment-brisbane" },
-    { title: "Personal Training", href: "/services/personal-trainer-new-farm" },
+    { title: "Personal Training", href: "/services/personal-trainer-newstead" },
     { title: "NXTLVL Tonics", href: "/nxtlvl-tonics" },
   ];
 

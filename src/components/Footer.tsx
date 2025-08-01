@@ -10,7 +10,7 @@ const Footer = () => {
     { title: "Thyroid Naturopathy", href: "/what-we-treat/naturopath-thyroid-brisbane" },
     { title: "ADHD Naturopathy", href: "/what-we-treat/adhd-naturopath" },
     { title: "Anxiety Naturopathy", href: "/what-we-treat/naturopath-anxiety" },
-    { title: "Personal Training", href: "/services/personal-trainer-new-farm" },
+    { title: "Personal Training", href: "/services/personal-trainer-newstead" },
   ];
 
   const areas = [

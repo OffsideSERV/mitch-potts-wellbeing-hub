@@ -12,6 +12,163 @@ const PersonalTraining = () => {
     setOpenDropdown(openDropdown === index ? null : index);
   };
 
+  // Service Schema for Personal Training
+  const personalTrainingServiceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": "https://www.nxtlvlhealth.com.au/services/personal-trainer-newstead#service",
+    "name": "Personal Training in Newstead",
+    "alternateName": ["Personal Fitness Training", "Exercise Therapy", "Strength Training", "Fitness Coaching"],
+    "description": "Expert personal training in Newstead, Brisbane. Specializing in strength training, injury prevention, body composition changes, and functional movement with a dual-qualified naturopath and exercise scientist.",
+    "url": "https://www.nxtlvlhealth.com.au/services/personal-trainer-newstead",
+    "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/dd4ff0ea-d4e7-416c-b0d9-d3a541758d60.png",
+    "provider": {
+      "@type": "LocalBusiness",
+      "@id": "https://www.nxtlvlhealth.com.au/#organization",
+      "name": "NXTLVL Health - Naturopath",
+      "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
+      "telephone": "(07) 3180 8853",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Suite 2/665 Brunswick St",
+        "addressLocality": "New Farm",
+        "addressRegion": "QLD",
+        "addressCountry": "AU",
+        "postalCode": "4005"
+      }
+    },
+    "serviceType": "Fitness and Exercise Training",
+    "category": "Personal Training",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Personal Training Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Individual Personal Training Session",
+            "description": "One-on-one personal training session with qualified exercise scientist and naturopath"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Personal Training Package",
+            "description": "Multiple personal training sessions for ongoing fitness development and goal achievement"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    },
+    "serviceArea": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "-27.4646",
+        "longitude": "153.0448"
+      },
+      "geoRadius": "50000"
+    },
+    "areaServed": [
+      "Brisbane",
+      "Newstead",
+      "New Farm",
+      "Fortitude Valley",
+      "Teneriffe",
+      "Kangaroo Point",
+      "East Brisbane",
+      "Norman Park",
+      "Bulimba",
+      "Hawthorne",
+      "Morningside",
+      "Ascot",
+      "Hamilton",
+      "Clayfield",
+      "Wilston",
+      "Windsor",
+      "Kelvin Grove",
+      "Paddington",
+      "Red Hill",
+      "Auchenflower",
+      "Toowong",
+      "Bowen Hills",
+      "South Brisbane",
+      "Queensland"
+    ],
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "name": "In-Person Training at Function Well",
+      "serviceLocation": {
+        "@type": "Place",
+        "name": "Function Well - Mercedes Benz Building",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Mercedes Benz Building",
+          "addressLocality": "Newstead",
+          "addressRegion": "QLD",
+          "addressCountry": "AU",
+          "postalCode": "4006"
+        },
+        "amenityFeature": [
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Free Parking",
+            "value": "true"
+          },
+          {
+            "@type": "LocationFeatureSpecification", 
+            "name": "Private Gym Facility",
+            "value": "true"
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Professional Equipment",
+            "value": "true"
+          }
+        ]
+      },
+      "servicePhone": "(07) 3180 8853",
+      "serviceUrl": "https://www.nxtlvlhealth.com.au/services/personal-trainer-newstead"
+    },
+    "serviceOutput": [
+      "Strength Building",
+      "Weight Loss",
+      "Body Composition Improvement",
+      "Injury Prevention",
+      "Functional Movement",
+      "Athletic Performance",
+      "Mobility Enhancement",
+      "Exercise Therapy"
+    ],
+    "audience": {
+      "@type": "PeopleAudience",
+      "audienceType": "Fitness Enthusiasts, Athletes, Beginners, Injury Recovery Clients"
+    },
+    "potentialAction": [
+      {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://nxtlvlhealth.com.au/book-now/",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        },
+        "result": {
+          "@type": "Reservation",
+          "name": "Personal Training Session Booking"
+        }
+      }
+    ]
+  };
+
   const trainingIncludes = [
     {
       title: "STRENGTH TRAINING AND PROGRESSIVE OVERLOAD",
@@ -137,10 +294,11 @@ const PersonalTraining = () => {
   return (
     <>
       <SEO 
-        title="5-Star Rated Personal Trainer In New Farm | Mitchell Potts"
-        description="Train right with Mitch, a 5-star personal trainer in New Farm. Build your strength, lose weight, boost energy, and feel confidence that lasts a lifetime."
-        canonical="/services/personal-trainer-new-farm"
-        keywords="personal trainer New Farm, personal trainer Brisbane, fitness trainer, strength training, weight loss trainer"
+        title="5-Star Rated Personal Trainer In Newstead | Mitchell Potts"
+        description="Train right with Mitch, a 5-star personal trainer in Newstead. Build your strength, lose weight, boost energy, and feel confidence that lasts a lifetime."
+        canonical="/services/personal-trainer-newstead"
+        keywords="personal trainer Newstead, personal trainer Brisbane, fitness trainer, strength training, weight loss trainer"
+        serviceSchema={personalTrainingServiceSchema}
       />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
