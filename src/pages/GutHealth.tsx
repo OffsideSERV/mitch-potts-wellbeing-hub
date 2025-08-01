@@ -11,6 +11,181 @@ const GutHealth = () => {
     setOpenDropdown(openDropdown === index ? null : index);
   };
 
+  // Service Schema for Gut Health Naturopath
+  const gutHealthServiceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": "https://www.nxtlvlhealth.com.au/what-we-treat/gut-health-naturopath-brisbane#service",
+    "name": "Gut Health Naturopath Brisbane",
+    "alternateName": ["Digestive Health Naturopath", "IBS Treatment Brisbane", "Gut Healing Brisbane", "Functional Digestive Medicine"],
+    "description": "Expert gut health naturopath services in Brisbane specialising in IBS, SIBO, digestive disorders, and gut healing. Personalised natural treatment plans to restore digestive health and overall wellbeing.",
+    "url": "https://www.nxtlvlhealth.com.au/what-we-treat/gut-health-naturopath-brisbane",
+    "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/8c8b4eb3-73e7-4d27-a130-784ffb35035c.png",
+    "provider": {
+      "@type": "LocalBusiness",
+      "@id": "https://www.nxtlvlhealth.com.au/#organization",
+      "name": "NXTLVL Health - Naturopath",
+      "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
+      "telephone": "(07) 3180 8853",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Suite 2/665 Brunswick St",
+        "addressLocality": "New Farm",
+        "addressRegion": "QLD",
+        "addressCountry": "AU",
+        "postalCode": "4005"
+      }
+    },
+    "serviceType": "Naturopathic Medicine",
+    "category": "Digestive Health Treatment",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Gut Health Naturopathy Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Gut Health Consultation",
+            "description": "Comprehensive assessment and personalised treatment plan for digestive health issues"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Functional Digestive Testing",
+            "description": "Advanced testing including stool analysis, SIBO breath tests, and food intolerance testing"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Personalised Gut Healing Programme",
+            "description": "Tailored treatment plan with herbal medicine, supplements, and dietary recommendations"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    },
+    "serviceArea": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "-27.4646",
+        "longitude": "153.0448"
+      },
+      "geoRadius": "50000"
+    },
+    "areaServed": [
+      "Brisbane",
+      "New Farm",
+      "Fortitude Valley",
+      "Newstead",
+      "Teneriffe",
+      "Kangaroo Point",
+      "East Brisbane",
+      "Norman Park",
+      "Bulimba",
+      "Hawthorne",
+      "Morningside",
+      "Ascot",
+      "Hamilton",
+      "Clayfield",
+      "Wilston",
+      "Windsor",
+      "Kelvin Grove",
+      "Paddington",
+      "Red Hill",
+      "Auchenflower",
+      "Toowong",
+      "Queensland"
+    ],
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "name": "In-Person Naturopathic Consultations",
+      "serviceLocation": {
+        "@type": "Place",
+        "name": "NXTLVL Health",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Suite 2/665 Brunswick St",
+          "addressLocality": "New Farm",
+          "addressRegion": "QLD",
+          "addressCountry": "AU",
+          "postalCode": "4005"
+        }
+      },
+      "servicePhone": "(07) 3180 8853",
+      "serviceUrl": "https://www.nxtlvlhealth.com.au/what-we-treat/gut-health-naturopath-brisbane"
+    },
+    "serviceOutput": [
+      "IBS Treatment",
+      "SIBO Treatment", 
+      "Digestive Disorder Management",
+      "Gut Healing",
+      "Food Intolerance Management",
+      "Inflammatory Bowel Disease Support",
+      "Leaky Gut Treatment",
+      "Microbiome Restoration",
+      "Digestive Enzyme Support",
+      "Anti-inflammatory Nutrition"
+    ],
+    "medicalCondition": [
+      "Irritable Bowel Syndrome (IBS)",
+      "Small Intestinal Bacterial Overgrowth (SIBO)",
+      "Inflammatory Bowel Disease",
+      "Ulcerative Colitis",
+      "Crohn's Disease",
+      "Leaky Gut Syndrome",
+      "Acid Reflux",
+      "Food Allergies and Sensitivities",
+      "Poor Nutrient Absorption",
+      "Autoimmune Conditions",
+      "Digestive-related Skin Conditions",
+      "Chronic Fatigue",
+      "Mental Health Issues related to Gut Health"
+    ],
+    "treatmentApproach": [
+      "Functional Testing and Assessment",
+      "Herbal Medicine Therapy",
+      "Nutritional Supplementation", 
+      "Anti-inflammatory Nutrition Plans",
+      "Probiotic and Prebiotic Therapy",
+      "Stress Management Support",
+      "Gut-Brain Axis Treatment",
+      "Personalised Dietary Modifications"
+    ],
+    "audience": {
+      "@type": "PeopleAudience",
+      "audienceType": "Individuals with digestive disorders, IBS sufferers, SIBO patients, chronic digestive symptoms"
+    },
+    "potentialAction": [
+      {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://nxtlvlhealth.com.au/book-now/",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        },
+        "result": {
+          "@type": "Reservation",
+          "name": "Gut Health Naturopath Consultation"
+        }
+      }
+    ]
+  };
+
   const gutHealthSigns = [
     {
       title: "CONSTANT BLOATING, GAS, OR ABDOMINAL PAIN",
@@ -229,8 +404,9 @@ const GutHealth = () => {
       <SEO
         title="Highly Trusted Gut Health Naturopath | Mitchell Potts"
         description="Feeling tired, bloated, foggy or just flat? Our gut health naturopath will the real cause of your symptoms—so you can finally feel like YOU again."
-        canonical="/gut-health"
+        canonical="/what-we-treat/gut-health-naturopath-brisbane"
         keywords="gut health naturopath Brisbane, digestive health Brisbane, IBS treatment Brisbane, gut healing Brisbane, functional medicine Brisbane"
+        serviceSchema={gutHealthServiceSchema}
       />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
