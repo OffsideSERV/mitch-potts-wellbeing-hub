@@ -196,7 +196,7 @@ const Diabetes = () => {
                   If that sounds familiar, you're not alone. At NXTLVL Health, we help people just like you take back control with natural, simple care that makes sense.
                 </p>
                 <p>
-                  Our <strong>naturopath diabetes</strong> service focuses on treating the root cause of your symptoms—not just managing the numbers. Whether you've been diagnosed with <strong>type 2 diabetes</strong>, <strong>pre-diabetes</strong>, or <strong>insulin resistance</strong>, we'll build a plan that works with your body and your life.
+                  Our <strong>naturopath diabetes</strong> service focuses on treating the root cause of your symptoms—not just managing the numbers. Whether you've been diagnosed with <strong>type 2 diabetes</strong>, <strong>pre-diabetes</strong>, or <strong>insulin resistance</strong>, we'll build a plan that works with your body and your life. Our comprehensive approach also includes <a href="/what-we-treat/naturopath-thyroid-brisbane" className="text-primary hover:underline">thyroid naturopathy</a> (as thyroid issues often impact blood sugar), <a href="/what-we-treat/naturopathy-for-skin" className="text-primary hover:underline">skin naturopathy</a> for diabetes-related skin concerns, and support from our <a href="/what-we-treat/wellness-clinic-brisbane" className="text-primary hover:underline">wellness clinic</a> for complete health management.
                 </p>
                 <p>
                   You'll get personal, professional care from Brisbane naturopath Mitch Potts, who has years of experience helping clients feel stronger, lighter, and more in control.
