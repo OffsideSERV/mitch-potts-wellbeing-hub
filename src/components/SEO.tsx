@@ -9,6 +9,7 @@ interface SEOProps {
   ogType?: string;
   keywords?: string;
   noindex?: boolean;
+  serviceSchema?: any;
 }
 
 const SEO = ({ 
@@ -18,7 +19,8 @@ const SEO = ({
   ogImage = "https://www.nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg",
   ogType = "website",
   keywords = "naturopath Brisbane, best naturopath Brisbane, natural medicine Brisbane, functional medicine Brisbane, gut health Brisbane",
-  noindex = false
+  noindex = false,
+  serviceSchema
 }: SEOProps) => {
   // Fix canonical URL construction to ensure clean URLs and self-canonical pages
   const currentPath = window.location.pathname;
@@ -44,6 +46,7 @@ const SEO = ({
       return {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
+        "@id": "https://www.nxtlvlhealth.com.au/#organization",
         "name": "NXTLVL Health - Naturopath",
         "alternateName": "NXTLVL Health Brisbane",
         "description": "Brisbane's leading naturopathic clinic specialising in gut health, hormonal imbalances, chronic fatigue, and natural healing. Led by qualified naturopath Mitch Potts.",
@@ -219,6 +222,13 @@ const SEO = ({
       {localBusinessSchema && (
         <script type="application/ld+json">
           {JSON.stringify(localBusinessSchema)}
+        </script>
+      )}
+      
+      {/* Service Schema Markup */}
+      {serviceSchema && (
+        <script type="application/ld+json">
+          {JSON.stringify(serviceSchema)}
         </script>
       )}
     </Helmet>

@@ -11,6 +11,203 @@ const MLSLaser = () => {
     setOpenDropdown(openDropdown === index ? null : index);
   };
 
+  // Service Schema for MLS Laser Therapy
+  const mlsLaserServiceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": "https://www.nxtlvlhealth.com.au/services/mls-laser-therapy-treatment-brisbane#service",
+    "name": "MLS Laser Therapy Treatment",
+    "alternateName": ["MLS Laser Therapy", "Multiwave Locked System Laser", "Class IV Laser Therapy"],
+    "description": "Advanced MLS Laser Therapy treatment in Brisbane for pain relief, injury recovery, and accelerated healing. Non-invasive laser treatment for chronic pain, sports injuries, arthritis, and inflammatory conditions.",
+    "url": "https://www.nxtlvlhealth.com.au/services/mls-laser-therapy-treatment-brisbane",
+    "image": [
+      "https://www.nxtlvlhealth.com.au/lovable-uploads/8f5feae9-391d-4644-af47-61593b7bc840.png",
+      "https://www.nxtlvlhealth.com.au/lovable-uploads/41390b79-f1ea-489a-b170-dd7156cf02ee.png",
+      "https://www.nxtlvlhealth.com.au/lovable-uploads/51106bb9-7ee7-49df-9e6f-6507f621c37b.png"
+    ],
+    "provider": {
+      "@type": "LocalBusiness",
+      "@id": "https://www.nxtlvlhealth.com.au/#organization"
+    },
+    "serviceType": "Medical Treatment",
+    "category": [
+      "Pain Management",
+      "Physical Therapy",
+      "Laser Therapy",
+      "Sports Medicine",
+      "Rehabilitation"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "MLS Laser Therapy Treatments",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "MLS Laser Therapy Session",
+            "description": "Individual MLS laser therapy treatment session for pain relief and healing acceleration"
+          },
+          "priceCurrency": "AUD",
+          "availability": "InStock",
+          "validFrom": "2025-01-01"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "MLS Laser Treatment Package",
+            "description": "Complete course of 6-10 MLS laser therapy sessions for optimal healing results"
+          },
+          "priceCurrency": "AUD",
+          "availability": "InStock",
+          "validFrom": "2025-01-01"
+        }
+      ]
+    },
+    "serviceArea": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "-27.4646",
+        "longitude": "153.0448"
+      },
+      "geoRadius": "50000"
+    },
+    "areaServed": [
+      "Brisbane",
+      "New Farm",
+      "Fortitude Valley",
+      "Newstead",
+      "Teneriffe",
+      "Kangaroo Point",
+      "East Brisbane",
+      "Norman Park",
+      "Bulimba",
+      "Hawthorne",
+      "Morningside",
+      "Ascot",
+      "Hamilton",
+      "Clayfield",
+      "Wilston",
+      "Windsor",
+      "Kelvin Grove",
+      "Paddington",
+      "Red Hill",
+      "Auchenflower",
+      "Toowong",
+      "Queensland"
+    ],
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "name": "In-Person Treatment",
+      "serviceLocation": {
+        "@type": "Place",
+        "name": "NXTLVL Health",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Suite 2/665 Brunswick St",
+          "addressLocality": "New Farm",
+          "addressRegion": "QLD",
+          "addressCountry": "AU",
+          "postalCode": "4005"
+        }
+      },
+      "servicePhone": "(07) 3180 8853",
+      "serviceUrl": "https://nxtlvlhealth.com.au/book-now/"
+    },
+    "medicalSpecialty": [
+      "Pain Medicine",
+      "Physical Medicine and Rehabilitation",
+      "Sports Medicine"
+    ],
+    "treatmentIndication": [
+      "Chronic Pain",
+      "Sports Injuries",
+      "Joint Pain",
+      "Arthritis",
+      "Tendinopathy",
+      "Nerve Pain",
+      "Plantar Fasciitis",
+      "Post-Surgery Recovery",
+      "Inflammation",
+      "Musculoskeletal Disorders"
+    ],
+    "procedure": [
+      "Class IV Laser Therapy",
+      "Multiwave Locked System Treatment",
+      "Non-invasive Laser Treatment",
+      "Deep Tissue Laser Therapy"
+    ],
+    "benefits": [
+      "Pain relief from first session",
+      "Improved joint function",
+      "Faster healing post-injury",
+      "Reduced swelling and stiffness",
+      "Improved quality of life",
+      "Non-invasive treatment",
+      "No side effects",
+      "No downtime required"
+    ],
+    "duration": "PT20M",
+    "frequency": "6-10 sessions typically required",
+    "contraindication": [
+      "Pregnancy over treatment area",
+      "Active cancer in treatment area",
+      "Thyroid treatment area"
+    ],
+    "potentialAction": [
+      {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://nxtlvlhealth.com.au/book-now/",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        },
+        "result": {
+          "@type": "Reservation",
+          "name": "MLS Laser Therapy Appointment"
+        }
+      },
+      {
+        "@type": "CommunicateAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "tel:0731808853",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "50",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "MLS Laser Therapy Patient"
+        },
+        "reviewBody": "Experienced significant pain relief from the first session. The treatment is completely non-invasive and comfortable."
+      }
+    ]
+  };
+
   const conditions = [
     {
       title: "SPORTS INJURIES",
@@ -124,6 +321,7 @@ const MLSLaser = () => {
         description="Are you struggling with pains, injury, or slow healing? MLS Laser treatment at NXTLVL Health will help you heal faster, move better, and feel like you again."
         canonical="/services/mls-laser-therapy-treatment-brisbane"
         keywords="MLS laser therapy Brisbane, laser therapy treatment, pain relief Brisbane, injury recovery, sports injury treatment"
+        serviceSchema={mlsLaserServiceSchema}
       />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
