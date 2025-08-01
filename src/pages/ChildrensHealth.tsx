@@ -108,7 +108,7 @@ const ChildrensHealth = () => {
                   <img 
                     alt="Children's naturopath consultation at NXTLVL Health Brisbane" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="/lovable-uploads/6bc3a61d-d439-45ef-a4b6-164d539d1bad.png" 
+                    src="/lovable-uploads/90800552-21cf-4eff-8db7-b48498cc8be0.png" 
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
@@ -159,7 +159,7 @@ const ChildrensHealth = () => {
               <img 
                 alt="Children's naturopath consultation at NXTLVL Health Brisbane" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="/lovable-uploads/6bc3a61d-d439-45ef-a4b6-164d539d1bad.png" 
+                src="/lovable-uploads/90800552-21cf-4eff-8db7-b48498cc8be0.png" 
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
