@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import { Button } from '@/components/ui/button';
 import { Calendar, Clock, User, ChevronRight, Leaf, Heart, Scale } from 'lucide-react';
+import AuthorBio from "@/components/AuthorBio";
 const NaturopathyForWeightLoss = () => {
   const keyPoints = ["What Is Naturopathy?", "What Is Naturopathic Weight Loss?", "How a Naturopath Helps with Weight Loss", "What to Expect in Your First Visit", "Naturopath Weight Loss Tips", "Supplements and Herbs", "Mind-Body Connection", "Movement and Exercise", "Your Naturopathic Weight Loss Plan", "Naturopath vs. Dietitian", "Pros and Cons", "Is It Right for You?", "Final Thoughts", "FAQs"];
   const weightLossTips = [{
@@ -327,6 +328,9 @@ const NaturopathyForWeightLoss = () => {
                     </div>)}
                 </div>
               </div>
+
+              {/* Author Bio */}
+              <AuthorBio />
 
               {/* CTA Section */}
               <div className="bg-primary/5 rounded-lg p-8 text-center">

@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import { Button } from '@/components/ui/button';
 import { Calendar, Clock, User, ChevronRight } from 'lucide-react';
+import AuthorBio from "@/components/AuthorBio";
 
 const BestTeaForStomachPain = () => {
   const tableOfContents = [
@@ -280,6 +281,9 @@ const BestTeaForStomachPain = () => {
                   ))}
                 </div>
               </div>
+
+              {/* Author Bio */}
+              <AuthorBio />
 
               {/* CTA Section */}
               <div className="bg-primary/5 rounded-lg p-8 text-center">

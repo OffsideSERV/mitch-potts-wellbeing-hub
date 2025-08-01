@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Scale, Heart, Dumbbell, Pill, Leaf, Target, ArrowRight, CheckCircle, Users } from "lucide-react";
+import AuthorBio from "@/components/AuthorBio";
 
 const OzempicNaturalWeightLoss = () => {
   return (
@@ -340,6 +341,11 @@ const OzempicNaturalWeightLoss = () => {
               </div>
             </CardContent>
           </Card>
+
+          {/* Author Bio */}
+          <div className="container mx-auto px-4 py-16">
+            <AuthorBio />
+          </div>
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Clock, ArrowRight, CheckCircle, AlertTriangle, Brain, Heart, Zap } from "lucide-react";
+import AuthorBio from "@/components/AuthorBio";
 
 const GutHealth101 = () => {
   return (
@@ -333,6 +334,11 @@ const GutHealth101 = () => {
                 </p>
               </div>
             </div>
+          </section>
+
+          {/* Author Bio */}
+          <section className="container mx-auto px-4 py-16">
+            <AuthorBio />
           </section>
 
           {/* Final Word */}

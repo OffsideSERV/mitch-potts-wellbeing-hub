@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Users, Brain, TestTube, Stethoscope, Leaf, Zap, Heart, CheckCircle, HelpCircle, ArrowRight } from "lucide-react";
+import AuthorBio from "@/components/AuthorBio";
 
 const NaturopathyVsHomeopathy = () => {
   return (
@@ -395,6 +396,11 @@ const NaturopathyVsHomeopathy = () => {
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </div>
+          </section>
+
+          {/* Author Bio */}
+          <section className="container mx-auto px-4 py-16">
+            <AuthorBio />
           </section>
 
           {/* FAQs */}
