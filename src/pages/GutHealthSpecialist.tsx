@@ -4,6 +4,155 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Activity, Brain, Target, Leaf, Shield, Microscope } from "lucide-react";
 
 const GutHealthSpecialist = () => {
+  // Service Schema for Gut Health Specialist
+  const gutHealthSpecialistSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": "https://www.nxtlvlhealth.com.au/what-we-treat/gut-health-specialist#service",
+    "name": "Gut Health Specialist Brisbane",
+    "alternateName": ["Digestive Health Specialist", "Microbiome Specialist", "SIBO Specialist Brisbane", "Gut Health Doctor"],
+    "description": "Leading gut health specialist in Brisbane specialising in digestive disorders, microbiome restoration, SIBO, IBS, and comprehensive gut healing. Expert naturopathic care for optimal digestive health and wellbeing.",
+    "url": "https://www.nxtlvlhealth.com.au/what-we-treat/gut-health-specialist",
+    "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/85472ace-cbc5-4079-9a2e-27bb7dcce090.png",
+    "provider": {
+      "@type": "LocalBusiness",
+      "@id": "https://www.nxtlvlhealth.com.au/#organization",
+      "name": "NXTLVL Health - Naturopath",
+      "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
+      "telephone": "(07) 3180 8853",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Suite 2/665 Brunswick St",
+        "addressLocality": "New Farm",
+        "addressRegion": "QLD",
+        "addressCountry": "AU",
+        "postalCode": "4005"
+      }
+    },
+    "serviceType": "Naturopathic Medicine",
+    "category": "Digestive Health Specialist",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Gut Health Specialist Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Comprehensive Gut Health Assessment",
+            "description": "Detailed evaluation of digestive system function, microbiome analysis, and personalised treatment planning for optimal gut health"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Advanced Gut Microbiome Testing",
+            "description": "Specialised testing including stool analysis, SIBO breath tests, food intolerance testing, and functional digestive assessments"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Personalised Gut Healing Programme",
+            "description": "Customised treatment plans using natural therapies, herbal medicine, nutritional support, and lifestyle modifications for digestive restoration"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    },
+    "serviceArea": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "-27.4646",
+        "longitude": "153.0448"
+      },
+      "geoRadius": "50000"
+    },
+    "areaServed": [
+      "Brisbane",
+      "New Farm",
+      "Fortitude Valley",
+      "Newstead",
+      "Teneriffe",
+      "Kangaroo Point",
+      "East Brisbane",
+      "Norman Park",
+      "Bulimba",
+      "Hawthorne",
+      "Morningside",
+      "Ascot",
+      "Hamilton",
+      "Clayfield",
+      "Wilston",
+      "Windsor",
+      "Kelvin Grove",
+      "Paddington",
+      "Red Hill",
+      "Auchenflower",
+      "Toowong",
+      "Queensland"
+    ],
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "name": "In-Person Gut Health Consultations",
+      "serviceLocation": {
+        "@type": "Place",
+        "name": "NXTLVL Health",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Suite 2/665 Brunswick St",
+          "addressLocality": "New Farm",
+          "addressRegion": "QLD",
+          "addressCountry": "AU",
+          "postalCode": "4005"
+        }
+      },
+      "servicePhone": "(07) 3180 8853",
+      "serviceUrl": "https://www.nxtlvlhealth.com.au/what-we-treat/gut-health-specialist"
+    },
+    "serviceOutput": [
+      "SIBO Treatment",
+      "IBS Management", 
+      "Digestive Disorder Resolution",
+      "Microbiome Restoration",
+      "Leaky Gut Healing",
+      "Food Intolerance Management",
+      "Inflammatory Bowel Disease Support",
+      "Gut-Brain Axis Optimisation",
+      "Digestive Health Education",
+      "Natural Gut Healing Protocols"
+    ],
+    "audience": {
+      "@type": "PeopleAudience",
+      "audienceType": "Individuals with digestive disorders, gut health issues, microbiome imbalances, SIBO, IBS, and chronic digestive symptoms"
+    },
+    "potentialAction": [
+      {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://calendly.com/nxtlvlhealth-info/15-min-consult",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        },
+        "result": {
+          "@type": "Reservation",
+          "name": "Gut Health Specialist Consultation"
+        }
+      }
+    ]
+  };
   return (
     <>
       <SEO 
@@ -11,6 +160,7 @@ const GutHealthSpecialist = () => {
         description="Feeling tired, bloated, foggy or just flat? Our gut health specialist Mitch will the real cause of your symptoms, so you can finally feel like YOU again."
         canonical="/what-we-treat/gut-health-specialist"
         keywords="gut health specialist Brisbane, digestive health Brisbane, gut health doctor, microbiome specialist, SIBO specialist Brisbane"
+        serviceSchema={gutHealthSpecialistSchema}
       />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
