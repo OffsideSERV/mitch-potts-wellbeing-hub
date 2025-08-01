@@ -48,7 +48,7 @@ const GutHealth = () => {
           "itemOffered": {
             "@type": "Service",
             "name": "Gut Health Consultation",
-            "description": "Comprehensive assessment and personalised treatment plan for digestive health issues"
+            "description": "Comprehensive assessment and personalised treatment plan for digestive health issues including IBS, SIBO, inflammatory bowel disease, leaky gut syndrome, acid reflux, food allergies and sensitivities"
           },
           "priceCurrency": "AUD",
           "availability": "https://schema.org/InStock"
@@ -58,7 +58,7 @@ const GutHealth = () => {
           "itemOffered": {
             "@type": "Service",
             "name": "Functional Digestive Testing",
-            "description": "Advanced testing including stool analysis, SIBO breath tests, and food intolerance testing"
+            "description": "Advanced testing including stool analysis, SIBO breath tests, food intolerance testing, and nutrient deficiency assessments"
           },
           "priceCurrency": "AUD",
           "availability": "https://schema.org/InStock"
@@ -68,7 +68,7 @@ const GutHealth = () => {
           "itemOffered": {
             "@type": "Service",
             "name": "Personalised Gut Healing Programme",
-            "description": "Tailored treatment plan with herbal medicine, supplements, and dietary recommendations"
+            "description": "Tailored treatment plan using herbal medicine therapy, nutritional supplementation, anti-inflammatory nutrition plans, probiotic therapy, and stress management support"
           },
           "priceCurrency": "AUD",
           "availability": "https://schema.org/InStock"
@@ -137,31 +137,6 @@ const GutHealth = () => {
       "Microbiome Restoration",
       "Digestive Enzyme Support",
       "Anti-inflammatory Nutrition"
-    ],
-    "medicalCondition": [
-      "Irritable Bowel Syndrome (IBS)",
-      "Small Intestinal Bacterial Overgrowth (SIBO)",
-      "Inflammatory Bowel Disease",
-      "Ulcerative Colitis",
-      "Crohn's Disease",
-      "Leaky Gut Syndrome",
-      "Acid Reflux",
-      "Food Allergies and Sensitivities",
-      "Poor Nutrient Absorption",
-      "Autoimmune Conditions",
-      "Digestive-related Skin Conditions",
-      "Chronic Fatigue",
-      "Mental Health Issues related to Gut Health"
-    ],
-    "treatmentApproach": [
-      "Functional Testing and Assessment",
-      "Herbal Medicine Therapy",
-      "Nutritional Supplementation", 
-      "Anti-inflammatory Nutrition Plans",
-      "Probiotic and Prebiotic Therapy",
-      "Stress Management Support",
-      "Gut-Brain Axis Treatment",
-      "Personalised Dietary Modifications"
     ],
     "audience": {
       "@type": "PeopleAudience",
