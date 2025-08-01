@@ -11,6 +11,93 @@ const NaturopathicSportsMedicine = () => {
         description="Improve recovery, boost performance, and treat the root cause with naturopathic sports medicine in Brisbane. Book your free 15-min consult today."
         canonical="/what-we-treat/naturopathic-sports-medicine"
         keywords="naturopathic sports medicine Brisbane, sports naturopath, athlete recovery, sports performance, natural sports medicine, holistic sports health"
+        serviceSchema={{
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://nxtlvlhealth.com.au/what-we-treat/naturopathic-sports-medicine#service",
+          "name": "Naturopathic Sports Medicine Brisbane",
+          "description": "Natural, science-based sports medicine for athletes. Our holistic approach supports athletic performance, recovery, injury prevention, and overall health using nutritional medicine, herbal therapies, and functional testing to address root causes.",
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://nxtlvlhealth.com.au/#organization"
+          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Brisbane"
+            },
+            {
+              "@type": "City", 
+              "name": "New Farm"
+            },
+            {
+              "@type": "City",
+              "name": "Clayfield"
+            },
+            {
+              "@type": "City",
+              "name": "Hamilton"
+            }
+          ],
+          "category": "Sports Naturopathy",
+          "serviceType": "Athletic Performance and Sports Health",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Free 15-Minute Sports Medicine Consultation",
+              "description": "Complimentary consultation to discuss your athletic performance concerns, recovery challenges, and determine if naturopathic sports medicine is right for you.",
+              "price": "0",
+              "priceCurrency": "AUD",
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer",
+              "name": "Initial Sports Medicine Consultation",
+              "description": "Comprehensive 75-minute consultation including detailed assessment of athletic performance, training history, recovery patterns, and personalised treatment planning for optimal sports health.",
+              "price": "210",
+              "priceCurrency": "AUD",
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer", 
+              "name": "Follow-up Sports Medicine Consultation",
+              "description": "Ongoing support and treatment plan adjustments to monitor athletic progress, optimise performance, and maintain peak health throughout training cycles.",
+              "price": "120",
+              "priceCurrency": "AUD",
+              "availability": "https://schema.org/InStock"
+            }
+          ],
+          "audience": {
+            "@type": "Audience",
+            "audienceType": "Athletes, sports enthusiasts, and active individuals seeking natural performance enhancement and injury prevention"
+          },
+          "availableChannel": [
+            {
+              "@type": "ServiceChannel",
+              "serviceLocation": {
+                "@type": "Place",
+                "@id": "https://nxtlvlhealth.com.au/#location"
+              }
+            },
+            {
+              "@type": "ServiceChannel"
+            }
+          ],
+          "hoursAvailable": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              "opens": "09:00",
+              "closes": "17:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification", 
+              "dayOfWeek": "Saturday",
+              "opens": "09:00",
+              "closes": "13:00"
+            }
+          ]
+        }}
       />
       <div className="min-h-screen bg-background">
         {/* Hero Section */}
