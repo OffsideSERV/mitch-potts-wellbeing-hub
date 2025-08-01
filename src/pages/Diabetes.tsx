@@ -64,15 +64,13 @@ const Diabetes = () => {
           "availableChannel": [
             {
               "@type": "ServiceChannel",
-              "serviceType": "In-person consultation",
               "serviceLocation": {
                 "@type": "Place",
                 "@id": "https://nxtlvlhealth.com.au/#location"
               }
             },
             {
-              "@type": "ServiceChannel", 
-              "serviceType": "Online consultation"
+              "@type": "ServiceChannel"
             }
           ],
           "hoursAvailable": [
