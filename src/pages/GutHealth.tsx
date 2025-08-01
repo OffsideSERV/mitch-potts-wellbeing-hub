@@ -579,7 +579,7 @@ const GutHealth = () => {
 
           <div className="text-center mt-12">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              We look beyond your medical history and symptoms. Instead, we examine your <strong>gut flora</strong>, your <strong>digestive tract</strong>, and your <strong>overall health</strong> from a fresh, evidence-based perspective.
+              We look beyond your medical history and symptoms. Instead, we examine your <strong>gut flora</strong>, your <strong>digestive tract</strong>, and your <strong>overall health</strong> from a fresh, evidence-based perspective. Learn about <a href="/blog/gut-health/7-worst-foods-for-gut-health" className="text-primary hover:underline">foods that harm gut health</a> or discover <a href="/blog/gut-health/best-tea-for-stomach-pain-and-bloating" className="text-primary hover:underline">natural teas for digestive relief</a> while you embark on your healing journey with our <a href="/what-we-treat/ibs-brisbane" className="text-primary hover:underline">comprehensive IBS treatment in Brisbane</a>.
             </p>
           </div>
         </div>
@@ -591,7 +591,7 @@ const GutHealth = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Conditions We Work With</h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-              Our <strong>gut health naturopath</strong> services are ideal for individuals struggling with a <strong>wide range</strong> of digestive disorders and related issues, including:
+              Our <strong>gut health naturopath</strong> services are ideal for individuals struggling with a <strong>wide range</strong> of digestive disorders and related issues. Whether you need specialized <a href="/what-we-treat/ibs-naturopath" className="text-primary hover:underline">IBS naturopathy</a>, comprehensive <a href="/what-we-treat/ibs-clinic" className="text-primary hover:underline">IBS clinic support</a>, expert <a href="/what-we-treat/sibo-naturopath" className="text-primary hover:underline">SIBO treatment</a>, or our dedicated <a href="/what-we-treat/gut-health-specialist" className="text-primary hover:underline">gut health specialist services</a>, including:
             </p>
           </div>
 
