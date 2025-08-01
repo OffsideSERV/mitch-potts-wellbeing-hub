@@ -49,9 +49,9 @@ const SEO = ({
         "description": "Brisbane's leading naturopathic clinic specialising in gut health, hormonal imbalances, chronic fatigue, and natural healing. Led by qualified naturopath Mitch Potts.",
         "url": "https://www.nxtlvlhealth.com.au",
         "telephone": "(07) 3180 8853",
-        "email": "hello@nxtlvlhealth.com.au",
+        "email": "info@nxtlvlhealth.com.au",
         "image": [
-          "https://www.nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg"
+          "https://www.nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -89,9 +89,25 @@ const SEO = ({
         "areaServed": [
           "Brisbane",
           "New Farm",
-          "Fortitude Valley", 
-          "Spring Hill",
-          "Bowen Hills",
+          "Fortitude Valley",
+          "Newstead",
+          "Teneriffe",
+          "Kangaroo Point",
+          "East Brisbane",
+          "Norman Park",
+          "Bulimba",
+          "Hawthorne",
+          "Morningside",
+          "Ascot",
+          "Hamilton",
+          "Clayfield",
+          "Wilston",
+          "Windsor",
+          "Kelvin Grove",
+          "Paddington",
+          "Red Hill",
+          "Auchenflower",
+          "Toowong",
           "Queensland"
         ],
         "hasOfferCatalog": {
