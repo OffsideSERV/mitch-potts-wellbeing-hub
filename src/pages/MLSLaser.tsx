@@ -23,7 +23,19 @@ const MLSLaser = () => {
     "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/8f5feae9-391d-4644-af47-61593b7bc840.png",
     "provider": {
       "@type": "LocalBusiness",
-      "@id": "https://www.nxtlvlhealth.com.au/#organization"
+      "@id": "https://www.nxtlvlhealth.com.au/#organization",
+      "name": "NXTLVL Health - Naturopath",
+      "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
+      "telephone": "(07) 3180 8853",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Suite 2/665 Brunswick St",
+        "addressLocality": "New Farm",
+        "addressRegion": "QLD",
+        "addressCountry": "AU",
+        "postalCode": "4005"
+      }
     },
     "serviceType": "Medical Treatment",
     "category": "Laser Therapy",
