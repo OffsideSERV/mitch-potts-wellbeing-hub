@@ -6,7 +6,7 @@ const NaturopathyForWeightLoss = () => {
   const keyPoints = ["What Is Naturopathy?", "What Is Naturopathic Weight Loss?", "How a Naturopath Helps with Weight Loss", "What to Expect in Your First Visit", "Naturopath Weight Loss Tips", "Supplements and Herbs", "Mind-Body Connection", "Movement and Exercise", "Your Naturopathic Weight Loss Plan", "Naturopath vs. Dietitian", "Pros and Cons", "Is It Right for You?", "Final Thoughts", "FAQs"];
   const weightLossTips = [{
     title: "Eat Whole, Real Foods",
-    description: "Foods that come from nature (not boxes) help you feel full and give you real energy."
+    description: "Foods that come from nature (not boxes) help you feel full and give you real energy. Visit our <a href='/what-we-treat/weight-loss-naturopath-brisbane' className='text-primary hover:underline'>weight loss naturopath</a> for personalized nutrition plans."
   }, {
     title: "Balance Your Gut Health",
     description: "Your belly is super smart! A happy gut can help your body burn fat a lot better. Learn more about our approach to naturopathy across Brisbane areas like <a href=\"/areas-we-serve/naturopath-clayfield-brisbane\" className=\"text-primary hover:underline\">Clayfield</a> and <a href=\"/areas-we-serve/naturopath-new-farm\" className=\"text-primary hover:underline\">New Farm</a>."

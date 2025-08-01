@@ -116,7 +116,7 @@ const HamiltonNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  If you're in Hamilton and searching for a <strong>caring, knowledgeable naturopath</strong>, NXTLVL Health is just a short drive away. While we're not located directly in Hamilton, we proudly support many clients from the area who are looking for <strong>natural ways to feel better, regain energy, and enjoy life again</strong>.
+                  If you're in Hamilton and searching for a <strong>caring, knowledgeable naturopath</strong>, NXTLVL Health is just a short drive away. While we're not located directly in Hamilton, we proudly support many clients from the area as well as nearby suburbs like <a href="/areas-we-serve/naturopath-clayfield-brisbane" className="text-primary hover:underline">Clayfield</a>, <a href="/areas-we-serve/naturopath-new-farm" className="text-primary hover:underline">New Farm</a>, and <a href="/areas-we-serve/naturopath-newstead" className="text-primary hover:underline">Newstead</a> who are looking for <strong>natural ways to feel better, regain energy, and enjoy life again</strong>.
                 </p>
               </div>
             </div>
@@ -204,7 +204,7 @@ const HamiltonNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
             <p>
-              Although we're not in Hamilton itself, our clinic is <strong>very close</strong>—and many Hamilton locals choose NXTLVL Health because they want:
+              Although we're not in Hamilton itself, our clinic is <strong>very close</strong>—and many Hamilton locals choose NXTLVL Health because they want quality care that rivals our services in <a href="/areas-we-serve/naturopath-north-brisbane" className="text-primary hover:underline">North Brisbane</a>, <a href="/areas-we-serve/naturopath-indooroopilly" className="text-primary hover:underline">Indooroopilly</a>, and <a href="/areas-we-serve/naturopath-morningside" className="text-primary hover:underline">Morningside</a>. They choose us because they want:
             </p>
           </div>
 
@@ -245,7 +245,7 @@ const HamiltonNaturopathy = () => {
 
           <div className="text-center mt-12">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              <strong>Your health is personal. That's why our approach is too.</strong>
+              <strong>Your health is personal. That's why our approach is too.</strong> Learn more about our philosophy as <a href="/" className="text-primary hover:underline">Brisbane's trusted naturopaths</a> or explore our approach to <a href="/blog/naturopathy/naturopathy-vs-homeopathy" className="text-primary hover:underline">naturopathy versus homeopathy</a> and <a href="/blog/naturopathy/naturopathy-for-weight-loss" className="text-primary hover:underline">natural weight loss solutions</a>.
             </p>
           </div>
         </div>
@@ -299,7 +299,7 @@ const HamiltonNaturopathy = () => {
 
           <div className="text-center">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Our naturopathic treatments may include <strong>herbs, nutritional supplements, lifestyle changes, and personalised recommendations</strong> to support your body's healing.
+              Our naturopathic treatments may include <strong>herbs, nutritional supplements, lifestyle changes, and personalised recommendations</strong> to support your body's healing. Whether you're looking for a <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">weight loss naturopath</a> or comprehensive <a href="/what-we-treat/wellness-clinic-brisbane" className="text-primary hover:underline">wellness clinic support</a>, we have natural solutions tailored for you.
             </p>
           </div>
         </div>

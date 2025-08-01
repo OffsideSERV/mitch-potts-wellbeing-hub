@@ -169,7 +169,7 @@ const Index = () => {
               Are you feeling <strong>bloated, exhausted, foggy, or just not like yourself</strong>? And yet, every test you get comes back "normal"? Well, you're not alone, and you're definitely not making it up.
             </p>
             <p>
-              At NXTLVL Health, Mitch is here to help you feel better on your <strong>health journey</strong>, naturally. As one of the <strong>best naturopaths in Brisbane</strong>, he brings local expertise and a modern, <strong>holistic approach</strong> to your care. Mitch is extremely knowledgeable in <strong>naturopathy</strong> and <strong>holistic health</strong>, and as a <strong>qualified naturopath</strong>, he listens, he digs deep, and he finds the <strong>root cause</strong> of your <strong>health concerns</strong>, so you can finally feel clear, calm, and in control again.
+              At NXTLVL Health, Mitch is here to help you feel better on your <strong>health journey</strong>, naturally. As one of the <strong>best naturopaths in Brisbane</strong>, he brings local expertise and a modern, <strong>holistic approach</strong> to your care. Our <a href="/what-we-treat/wellness-clinic-brisbane" className="text-primary hover:underline">wellness clinic</a> serves clients from <a href="/areas-we-serve/naturopath-newstead" className="text-primary hover:underline">Newstead</a>, <a href="/areas-we-serve/naturopath-north-brisbane" className="text-primary hover:underline">North Brisbane</a>, and beyond. Mitch is extremely knowledgeable in <strong>naturopathy</strong> and <strong>holistic health</strong>, and as a <strong>qualified naturopath</strong>, he listens, he digs deep, and he finds the <strong>root cause</strong> of your <strong>health concerns</strong>, so you can finally feel clear, calm, and in control again.
             </p>
           </div>
 
@@ -268,9 +268,9 @@ const Index = () => {
                 <CardTitle className="text-xl">You've Tried Everything</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-base">
-                  You've seen doctors. You've tried all the diets. You've read all the blogs. But you still feel like something's not right. Maybe it's time to try a different approach with <a href="/blog/naturopathy/naturopathy-vs-homeopathy" className="text-primary hover:underline">naturopathy</a> or explore <a href="/blog/naturopathy/naturopathy-for-weight-loss" className="text-primary hover:underline">natural weight loss solutions</a>.
-                </CardDescription>
+                 <CardDescription className="text-base">
+                   You've seen doctors. You've tried all the diets. You've read all the blogs. But you still feel like something's not right. Maybe it's time to try a different approach with <a href="/blog/naturopathy/naturopathy-vs-homeopathy" className="text-primary hover:underline">naturopathy</a> or explore <a href="/blog/naturopathy/naturopathy-for-weight-loss" className="text-primary hover:underline">natural weight loss solutions</a>. Many clients from <a href="/areas-we-serve/naturopath-clayfield-brisbane" className="text-primary hover:underline">Clayfield</a>, <a href="/areas-we-serve/naturopath-new-farm" className="text-primary hover:underline">New Farm</a>, and <a href="/areas-we-serve/naturopath-hamilton" className="text-primary hover:underline">Hamilton</a> have found the answers they've been searching for.
+                 </CardDescription>
               </CardContent>
             </Card>
           </div>
@@ -781,9 +781,9 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">This is What You've Been Looking For</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-12">
-              From hormonal imbalances to chronic skin issues, from digestive discomfort to total burnout — we see you. And we've got a plan to help. You don't need to do this alone.
-            </p>
+             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-12">
+               From hormonal imbalances to chronic skin issues, from digestive discomfort to total burnout — we see you. And we've got a plan to help. Whether you're looking for a <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">natural weight loss approach</a> or need support from an <a href="/areas-we-serve/naturopath-indooroopilly" className="text-primary hover:underline">experienced naturopath near Indooroopilly</a> or <a href="/areas-we-serve/naturopath-morningside" className="text-primary hover:underline">Morningside</a>, you don't need to do this alone.
+             </p>
             
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 mt-16">Ready to Get Your Life Back?</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">

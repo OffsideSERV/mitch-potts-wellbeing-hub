@@ -116,7 +116,7 @@ const ClayfieldNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  If you're based in Clayfield and searching for a <strong>kind, experienced naturopath</strong> who takes the time to really listen, NXTLVL Health is just around the corner. While we're not located directly in Clayfield, our clinic is close by—and we regularly see clients from this beautiful Brisbane suburb.
+                  If you're based in Clayfield and searching for a <strong>kind, experienced naturopath</strong> who takes the time to really listen, NXTLVL Health is just around the corner. While we're not located directly in Clayfield, our clinic is close by—and we regularly see clients from this beautiful Brisbane suburb as well as nearby areas like <a href="/areas-we-serve/naturopath-new-farm" className="text-primary hover:underline">New Farm</a>, <a href="/areas-we-serve/naturopath-newstead" className="text-primary hover:underline">Newstead</a>, and <a href="/areas-we-serve/naturopath-hamilton" className="text-primary hover:underline">Hamilton</a>.
                 </p>
                 <p>
                   Whether you're feeling tired, stressed, run-down, or struggling with a chronic health issue, we're here to help you feel your best again—<strong>naturally</strong>.
@@ -158,7 +158,7 @@ const ClayfieldNaturopathy = () => {
                   At NXTLVL Health, we offer a <strong>holistic approach to health and wellbeing</strong>. That means we look at your whole body—not just one symptom or one part. Naturopathy is a holistic approach to healthcare that views the body as a whole. Whether it's your digestion, hormones, skin, or mood, <strong>everything in your body is connected</strong>. And when we support the root cause, your body can begin to heal.
                 </p>
                 <p>
-                  We use <strong>natural therapies, herbal medicine, nutritional medicine, and functional testing</strong> to help you feel more balanced, calm, and full of energy.
+                  We use <strong>natural therapies, herbal medicine, nutritional medicine, and functional testing</strong> to help you feel more balanced, calm, and full of energy. Whether you're seeking general naturopathic support or looking for specific help with <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">natural weight loss</a>, our <a href="/what-we-treat/wellness-clinic-brisbane" className="text-primary hover:underline">wellness clinic</a> is here to guide you.
                 </p>
               </div>
             </div>
@@ -235,7 +235,7 @@ const ClayfieldNaturopathy = () => {
 
           <div className="text-center">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              We believe <strong>every person is unique</strong>. That's why we create tailored support plans that match your body, lifestyle, and goals. Empowering clients with knowledge and tools is a key component of personalized health plans. <strong>No cookie-cutter plans. Just what works for you.</strong>
+              We believe <strong>every person is unique</strong>. That's why we create tailored support plans that match your body, lifestyle, and goals. Empowering clients with knowledge and tools is a key component of personalized health plans. <strong>No cookie-cutter plans. Just what works for you.</strong> Explore more about <a href="/blog/naturopathy/naturopathy-vs-homeopathy" className="text-primary hover:underline">how naturopathy differs from homeopathy</a> or discover our comprehensive approach to <a href="/blog/naturopathy/naturopathy-for-weight-loss" className="text-primary hover:underline">naturopathic weight management</a>.
             </p>
           </div>
         </div>
@@ -247,7 +247,7 @@ const ClayfieldNaturopathy = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Clayfield Locals Trust NXTLVL Health</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto mb-8">
-              Even though our clinic isn't in Clayfield, many of our clients live just around the corner and are happy to make the short trip for <strong>high-quality naturopathic care</strong>.
+              Even though our clinic isn't in Clayfield, many of our clients live just around the corner and are happy to make the short trip for <strong>high-quality naturopathic care</strong>. We also serve families from <a href="/areas-we-serve/naturopath-north-brisbane" className="text-primary hover:underline">North Brisbane</a>, <a href="/areas-we-serve/naturopath-indooroopilly" className="text-primary hover:underline">Indooroopilly</a>, and <a href="/areas-we-serve/naturopath-morningside" className="text-primary hover:underline">Morningside</a> who value our personalized <a href="/" className="text-primary hover:underline">naturopathic services in Brisbane</a>.
             </p>
           </div>
 

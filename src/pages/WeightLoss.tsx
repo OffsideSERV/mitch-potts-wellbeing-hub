@@ -272,7 +272,7 @@ const WeightLoss = () => {
                   Our approach isn't about calorie counting or quick fixes it's about <strong>uncovering the root causes of your weight gain</strong> and treating them with science-backed, natural solutions. Whether you're facing hormonal imbalances, insulin resistance, digestive problems, poor sleep, or chronic stress, we'll help your body work with you, not against you.
                 </p>
                 <p>
-                  With support from <strong>Brisbane naturopath Mitchell Potts</strong>, you'll get a personalised treatment plan that supports sustainable weight loss, improved energy levels, and better overall health.
+                  With support from <strong>Brisbane naturopath Mitchell Potts</strong>, you'll get a personalised treatment plan that supports sustainable weight loss, improved energy levels, and better overall health. Whether you're from <a href="/areas-we-serve/naturopath-clayfield-brisbane" className="text-primary hover:underline">Clayfield</a>, <a href="/areas-we-serve/naturopath-new-farm" className="text-primary hover:underline">New Farm</a>, <a href="/areas-we-serve/naturopath-hamilton" className="text-primary hover:underline">Hamilton</a>, or anywhere across Brisbane, our personalized approach is here to help.
                 </p>
               </div>
             </div>
@@ -298,7 +298,7 @@ const WeightLoss = () => {
                 Forget generic advice. <strong>Naturopathic weight loss focuses on treating the whole person</strong> not just the number on the scale. We consider all the underlying causes of weight gain including your thyroid hormones, gut health, lifestyle factors, and stress hormone levels.
               </p>
               <p>
-                We get to know your full story your medical history, health goals, dietary changes you've tried, and how your body's been responding. Then, we craft a treatment that aligns with your individual needs.
+                We get to know your full story your medical history, health goals, dietary changes you've tried, and how your body's been responding. Then, we craft a treatment that aligns with your individual needs. Our <a href="/what-we-treat/wellness-clinic-brisbane" className="text-primary hover:underline">wellness clinic</a> approach ensures you get holistic support from <a href="/" className="text-primary hover:underline">Brisbane's leading naturopaths</a>. Read more about <a href="/blog/naturopathy/naturopathy-for-weight-loss" className="text-primary hover:underline">naturopathy for weight loss</a> and our <a href="/blog/naturopathy/naturopathy-vs-homeopathy" className="text-primary hover:underline">evidence-based approach</a>.
               </p>
             </div>
           </div>

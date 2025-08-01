@@ -77,7 +77,7 @@ const NaturopathyVsHomeopathy = () => {
             </h2>
             
             <div className="space-y-4 text-muted-foreground">
-              <p>A lot of people who walk into my clinic in Brisbane always ask this one question:</p>
+              <p>A lot of people who walk into my clinic in Brisbane always ask this one question. Whether they're from <a href="/areas-we-serve/naturopath-clayfield-brisbane" className="text-primary hover:underline">Clayfield</a>, <a href="/areas-we-serve/naturopath-new-farm" className="text-primary hover:underline">New Farm</a>, or <a href="/areas-we-serve/naturopath-hamilton" className="text-primary hover:underline">Hamilton</a>, this comes up frequently:</p>
               <blockquote className="border-l-4 border-primary pl-6 text-lg italic text-foreground">
                 "What's the difference between naturopathy and homeopathy?"
               </blockquote>

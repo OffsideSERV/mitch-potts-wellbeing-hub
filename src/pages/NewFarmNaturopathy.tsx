@@ -127,7 +127,7 @@ const NewFarmNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  If you're tired of feeling <strong>"not quite right"</strong> and you're looking for a gentle, natural health solution that actually works, then you've come to the right place. At NXTLVL Health, we help people from <strong>New Farm QLD</strong> and nearby suburbs like <strong>Fortitude Valley, Spring Hill, and Bowen Hills</strong> who are looking for more than just quick fixes. We get to the <strong>root cause of your health problems</strong>.
+                  If you're tired of feeling <strong>"not quite right"</strong> and you're looking for a gentle, natural health solution that actually works, then you've come to the right place. At NXTLVL Health, we help people from <strong>New Farm QLD</strong> and nearby suburbs like <strong>Fortitude Valley, Spring Hill, and Bowen Hills</strong>, as well as <a href="/areas-we-serve/naturopath-newstead" className="text-primary hover:underline">Newstead</a>, <a href="/areas-we-serve/naturopath-hamilton" className="text-primary hover:underline">Hamilton</a>, and <a href="/areas-we-serve/naturopath-clayfield-brisbane" className="text-primary hover:underline">Clayfield</a> who are looking for more than just quick fixes. We get to the <strong>root cause of your health problems</strong>.
                 </p>
                 <p>
                   Our clinic is located right in <strong>New Farm, near Brunswick St, Merthyr Rd, and 187 James Street</strong>. Whether you're dealing with <strong>gut issues, <a href="https://www.haberfieldhealth.com.au/post/7-ways-a-naturopath-can-help-treat-stress" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">chronic stress</a>, or hormonal imbalances</strong>, our friendly, experienced naturopath <strong>Mitchell Potts</strong> is here to help.
@@ -278,7 +278,7 @@ const NewFarmNaturopathy = () => {
                   <strong>Fatigue, skin problems, allergies, joint pain</strong>
                 </p>
                 <p className="text-muted-foreground mt-4 font-medium">
-                  We treat a wide range of health problems by looking at the <strong>underlying imbalances</strong> that may be holding your body back.
+                  We treat a wide range of health problems by looking at the <strong>underlying imbalances</strong> that may be holding your body back. Whether you need specialized <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">naturopathic weight loss support</a> or comprehensive care from our <a href="/what-we-treat/wellness-clinic-brisbane" className="text-primary hover:underline">Brisbane wellness clinic</a>, we're here to help.
                 </p>
               </CardContent>
             </Card>
@@ -294,12 +294,12 @@ const NewFarmNaturopathy = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
-            <div className="bg-white p-6 rounded-xl shadow-lg">
-              <div className="flex items-start space-x-3">
-                <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-base">We're based <strong>right here in New Farm QLD</strong></p>
-              </div>
-            </div>
+               <div className="bg-white p-6 rounded-xl shadow-lg">
+                 <div className="flex items-start space-x-3">
+                   <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                   <p className="text-base">We're based <strong>right here in New Farm QLD</strong> - convenient for clients from <a href="/areas-we-serve/naturopath-north-brisbane" className="text-primary hover:underline">North Brisbane</a>, <a href="/areas-we-serve/naturopath-indooroopilly" className="text-primary hover:underline">Indooroopilly</a>, and <a href="/areas-we-serve/naturopath-morningside" className="text-primary hover:underline">Morningside</a></p>
+                 </div>
+               </div>
             <div className="bg-white p-6 rounded-xl shadow-lg">
               <div className="flex items-start space-x-3">
                 <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
@@ -509,7 +509,7 @@ const NewFarmNaturopathy = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">You Deserve to Feel Better</h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-              Whether you're tired of feeling <strong>sick, overwhelmed, or just not like yourself</strong>, NXTLVL Health is here to help you make sense of it all. We'll work with you to <strong>restore balance in your body</strong> and give you tools for <strong>long-term, natural healing</strong>.
+              Whether you're tired of feeling <strong>sick, overwhelmed, or just not like yourself</strong>, NXTLVL Health is here to help you make sense of it all. We'll work with you to <strong>restore balance in your body</strong> and give you tools for <strong>long-term, natural healing</strong>. Learn more about our <a href="/" className="text-primary hover:underline">naturopathic approach</a> or discover <a href="/blog/naturopathy/naturopathy-vs-homeopathy" className="text-primary hover:underline">how naturopathy differs from homeopathy</a> and our approach to <a href="/blog/naturopathy/naturopathy-for-weight-loss" className="text-primary hover:underline">natural weight management</a>.
             </p>
           </div>
         </div>
