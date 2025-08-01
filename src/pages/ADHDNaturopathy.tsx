@@ -12,6 +12,93 @@ const ADHDNaturopathy = () => {
         description="Mitch from NXTLVL Health is here to help take the stress and confusion out of ADHD. Book a free consult and start getting the answers you've been looking for!"
         canonical="/what-we-treat/adhd-naturopath"
         keywords="ADHD naturopath Brisbane, ADHD treatment, natural ADHD support, holistic ADHD treatment, ADHD specialist"
+        serviceSchema={{
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://nxtlvlhealth.com.au/what-we-treat/adhd-naturopath#service",
+          "name": "ADHD Naturopath Brisbane",
+          "description": "Holistic naturopathic treatment for ADHD in children and adults. Our evidence-based approach addresses root causes through nutrition, herbal medicine, functional testing, and nervous system support to improve focus, behaviour, and quality of life.",
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://nxtlvlhealth.com.au/#organization"
+          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Brisbane"
+            },
+            {
+              "@type": "City", 
+              "name": "New Farm"
+            },
+            {
+              "@type": "City",
+              "name": "Clayfield"
+            },
+            {
+              "@type": "City",
+              "name": "Hamilton"
+            }
+          ],
+          "category": "Naturopathic Medicine",
+          "serviceType": "ADHD and Attention Disorder Support",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Free 15-Minute ADHD Consultation",
+              "description": "Complimentary consultation to discuss your ADHD concerns, understand our approach, and determine if naturopathic treatment is right for you or your child.",
+              "price": "0",
+              "priceCurrency": "AUD",
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer",
+              "name": "Initial ADHD Naturopath Consultation",
+              "description": "Comprehensive 75-minute consultation including detailed health history, ADHD symptom assessment, and personalised treatment planning for natural ADHD support.",
+              "price": "210",
+              "priceCurrency": "AUD",
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer", 
+              "name": "Follow-up ADHD Consultation",
+              "description": "Ongoing support and treatment plan adjustments to monitor progress and optimise ADHD management outcomes for both children and adults.",
+              "price": "120",
+              "priceCurrency": "AUD",
+              "availability": "https://schema.org/InStock"
+            }
+          ],
+          "audience": {
+            "@type": "Audience",
+            "audienceType": "Children and adults with ADHD, attention difficulties, hyperactivity, or focus challenges"
+          },
+          "availableChannel": [
+            {
+              "@type": "ServiceChannel",
+              "serviceLocation": {
+                "@type": "Place",
+                "@id": "https://nxtlvlhealth.com.au/#location"
+              }
+            },
+            {
+              "@type": "ServiceChannel"
+            }
+          ],
+          "hoursAvailable": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              "opens": "09:00",
+              "closes": "17:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification", 
+              "dayOfWeek": "Saturday",
+              "opens": "09:00",
+              "closes": "13:00"
+            }
+          ]
+        }}
       />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
