@@ -198,7 +198,7 @@ const ChildrensHealth = () => {
                   If your child is struggling with skin conditions, digestive issues, mood swings, or poor immunity, you're not alone. At NXTLVL Health in New Farm, our <strong>children's naturopath services</strong> are designed to support your child's health naturally and very gently.
                 </p>
                 <p>
-                  Led by an experienced naturopath by the name of <strong>Mitchell Potts</strong>, we aim to treat the root cause, not just manage the symptoms, so your child can feel healthier, stronger, and more balanced. Whether it's gut health, food intolerances, behavioural issues, or chronic health concerns, we provide safe and effective naturopathic treatment tailored for children of all ages.
+                  Led by an experienced naturopath by the name of <strong>Mitchell Potts</strong>, we aim to treat the root cause, not just manage the symptoms, so your child can feel healthier, stronger, and more balanced. Whether it's gut health, food intolerances, behavioural issues, or chronic health concerns, we provide safe and effective naturopathic treatment tailored for children of all ages. For children with anxiety concerns, our <a href="/what-we-treat/naturopath-anxiety" className="text-primary hover:text-primary/80 underline">anxiety naturopath services</a> can provide gentle, age-appropriate support.
                 </p>
               </div>
             </div>
@@ -253,8 +253,8 @@ const ChildrensHealth = () => {
             {[
               "Digestive complaints and gut health issues",
               "Skin conditions like eczema and chronic rashes",
-              "Food allergies, intolerances, and sensitivities",
-              "Behavioural problems and mood swings",
+               "Food allergies, intolerances, and sensitivities (supported by our specialized <a href='/what-we-treat/allergy-naturopath' className='text-primary hover:text-primary/80 underline'>allergy naturopath services</a>)",
+               "Behavioural problems and mood swings (including support for <a href='/what-we-treat/adhd-naturopath' className='text-primary hover:text-primary/80 underline'>ADHD-related challenges</a>)",
               "Fussy eating and nutritional deficiencies",
               "Chronic fatigue and low immunity",
               "Recurrent infections and ear infections",
@@ -352,7 +352,7 @@ const ChildrensHealth = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  We help parents like you make simple and practical dietary changes for their kids, especially if your child is a fussy eater or dealing with food sensitivities. We focus on improving energy, behaviour, digestion, and immune strength through nutrient-dense, real-world food options.
+                  We help parents like you make simple and practical dietary changes for their kids, especially if your child is a fussy eater or dealing with food sensitivities. We focus on improving energy, behaviour, digestion, and immune strength through nutrient-dense, real-world food options. For young athletes, our <a href="/what-we-treat/naturopath-for-athletes" className="text-primary hover:text-primary/80 underline">naturopath for athletes</a> services can support optimal performance while maintaining healthy development.
                 </p>
                 <a 
                   href="https://www.healthdirect.gov.au/healthy-eating-for-children" 

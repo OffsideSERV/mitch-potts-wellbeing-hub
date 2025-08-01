@@ -115,7 +115,7 @@ const AllergyNaturopath = () => {
                   Do you struggle with <strong>hay fever, itchy skin, food reactions, or chronic congestion</strong>? Are you tired of taking antihistamines that only mask the symptoms but never get to the cause? At NXTLVL Health, we understand how frustrating it can be to live with ongoing allergy symptoms.
                 </p>
                 <p>
-                  Our allergy naturopath, Mitch, offers a <strong>gentle, whole-person approach</strong> that aims to reduce allergy symptoms, support your immune system, and uncover the underlying causes. Using naturopathic medicine, Mitch helps allergy sufferers find <strong>long-lasting relief</strong> from a range of allergic diseases—naturally.
+                  Our allergy naturopath, Mitch, offers a <strong>gentle, whole-person approach</strong> that aims to reduce allergy symptoms, support your immune system, and uncover the underlying causes. Using naturopathic medicine, Mitch helps allergy sufferers find <strong>long-lasting relief</strong> from a range of allergic diseases—naturally. For children with allergies, our <a href="/what-we-treat/childrens-naturopath-brisbane" className="text-primary hover:text-primary/80 underline">children's naturopath services</a> provide specialized care tailored to young immune systems.
                 </p>
               </div>
             </div>

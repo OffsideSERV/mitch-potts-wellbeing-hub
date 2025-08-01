@@ -212,10 +212,10 @@ const NaturopathicSportsMedicine = () => {
 
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-12">
               <p>
-                <strong>Naturopathic sports medicine</strong> is a natural, science-based way of supporting athletes. It looks at the whole person — not just the symptoms. Instead of masking pain or fatigue, it works to find the root cause. <strong>Naturopathic sports medicine doctors</strong> specialize in treating a variety of health complaints specific to athletes, ensuring a tailored approach to their unique needs.
+                  <strong>Naturopathic sports medicine</strong> is a natural, science-based way of supporting athletes. It looks at the whole person — not just the symptoms. Instead of masking pain or fatigue, it works to find the root cause. <strong>Naturopathic sports medicine doctors</strong> specialize in treating a variety of health complaints specific to athletes, ensuring a tailored approach to their unique needs. For athletes looking for personalized guidance and coaching, our <a href="/what-we-treat/naturopath-for-athletes" className="text-primary hover:text-primary/80 underline">naturopath for athletes</a> services provide comprehensive support.
               </p>
               <p>
-                Using tools like <strong>nutritional medicine</strong>, <strong>herbal medicine</strong>, <strong>functional testing</strong>, and lifestyle changes, we support every system in the body — digestion, hormones, immunity, energy, and the mind. Naturopaths create personalized <strong>treatment plans</strong> for athletes based on their specific nutritional needs, sporting goals, and <strong>health conditions</strong>.
+                  Using tools like <strong>nutritional medicine</strong>, <strong>herbal medicine</strong>, <strong>functional testing</strong>, and lifestyle changes, we support every system in the body — digestion, hormones, immunity, energy, and the mind. Naturopaths create personalized <strong>treatment plans</strong> for athletes based on their specific nutritional needs, sporting goals, and <strong>health conditions</strong>. For athletes dealing with focus and concentration challenges, our <a href="/what-we-treat/adhd-naturopath" className="text-primary hover:text-primary/80 underline">ADHD naturopath services</a> can provide additional cognitive support.
               </p>
               <p>
                 It's a <strong>comprehensive approach</strong> that works alongside your training and other therapies, helping your body heal and perform at its best.
@@ -266,7 +266,7 @@ const NaturopathicSportsMedicine = () => {
                   Traditional <strong>sports medicine</strong> often focuses on short-term relief — painkillers, anti-inflammatories, or rest. But these don't always solve the deeper issue.
                 </p>
                 <p>
-                  That's where <strong>naturopathic treatment</strong> comes in. We focus on the <strong>root causes</strong>, not just the symptoms, to help you heal, recover, and feel strong again.
+                  That's where <strong>naturopathic treatment</strong> comes in. We focus on the <strong>root causes</strong>, not just the symptoms, to help you heal, recover, and feel strong again. For athletes experiencing performance anxiety or stress, our <a href="/what-we-treat/naturopath-anxiety" className="text-primary hover:text-primary/80 underline">anxiety naturopath services</a> can provide valuable nervous system support.
                 </p>
               </div>
             </div>
@@ -296,7 +296,7 @@ const NaturopathicSportsMedicine = () => {
                     <strong>Mitchell Potts</strong> is a highly trained <strong>naturopath</strong>, personal trainer, and nutrition specialist based in <strong>New Farm, Brisbane</strong>. He knows what it's like to be an athlete — and he knows how frustrating it is when your body isn't responding like it should.
                   </p>
                   <p>
-                    At <strong>NXTLVL Health</strong>, Mitch combines the latest in <strong>naturopathic sports medicine</strong> with real-world experience to help you achieve your <strong>health goals</strong>. Whether you're a <strong>professional athlete</strong> or just love moving your body, you'll get care that's built for your unique needs.
+                  At <strong>NXTLVL Health</strong>, Mitch combines the latest in <strong>naturopathic sports medicine</strong> with real-world experience to help you achieve your <strong>health goals</strong>. Whether you're a <strong>professional athlete</strong> or just love moving your body, you'll get care that's built for your unique needs. For young athletes, our <a href="/what-we-treat/childrens-naturopath-brisbane" className="text-primary hover:text-primary/80 underline">children's naturopath services</a> provide specialized care tailored to developing bodies and athletic pursuits.
                   </p>
                 </div>
               </div>

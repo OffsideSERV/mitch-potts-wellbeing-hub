@@ -260,7 +260,7 @@ const NaturopathForAthletes = () => {
                     <strong className="text-foreground">Mitch Potts</strong> isn't just a <strong className="text-foreground">naturopath for athletes</strong> — he's also a trained personal trainer who understands the unique pressure athletes face. From elite competitors to weekend warriors, Mitch helps you achieve your <strong className="text-foreground">athletic goals</strong> without burning out your body.
                   </p>
                   <p>
-                    At <strong className="text-foreground">NXTLVL Health</strong>, located in <strong className="text-foreground">New Farm, Brisbane</strong>, we bring together <strong className="text-foreground">natural therapies</strong>, <strong className="text-foreground">nutritional medicine</strong>, <strong className="text-foreground">functional testing</strong>, and <strong className="text-foreground">sports performance</strong> strategies to give athletes the edge they've been looking for.
+                     At <strong className="text-foreground">NXTLVL Health</strong>, located in <strong className="text-foreground">New Farm, Brisbane</strong>, we bring together <strong className="text-foreground">natural therapies</strong>, <strong className="text-foreground">nutritional medicine</strong>, <strong className="text-foreground">functional testing</strong>, and <strong className="text-foreground">sports performance</strong> strategies to give athletes the edge they've been looking for. For athletes dealing with anxiety around performance or competition, our <a href="/what-we-treat/naturopath-anxiety" className="text-primary hover:text-primary/80 underline">anxiety naturopath services</a> can provide valuable nervous system support.
                   </p>
                 </div>
               </div>
@@ -287,7 +287,7 @@ const NaturopathForAthletes = () => {
                   Athletes are different. Your body works harder. It recovers slower. And it demands more from every system — digestion, immunity, hormones, and beyond.
                 </p>
                 <p>
-                  That's where <strong className="text-foreground">sports naturopathy</strong> comes in.
+                  That's where <strong className="text-foreground">sports naturopathy</strong> comes in. For more detailed information about our comprehensive approach, explore our <a href="/what-we-treat/naturopathic-sports-medicine" className="text-primary hover:text-primary/80 underline">naturopathic sports medicine</a> services.
                 </p>
                 <p>
                   Using a blend of <strong className="text-foreground">natural supplements</strong>, <strong className="text-foreground">herbal medicine</strong>, <strong className="text-foreground">nutrition</strong>, and <strong className="text-foreground">functional diagnostics</strong>, we support:

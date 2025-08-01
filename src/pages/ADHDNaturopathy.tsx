@@ -208,7 +208,7 @@ const ADHDNaturopathy = () => {
                   Do you or your child struggle with <strong>focus, impulsivity, mood swings, or restlessness</strong>? Do you feel like you've tried everything, but nothing seems to help long term? Are <strong>stimulant medications causing unwanted side effects</strong>, or just not enough?
                 </p>
                 <p>
-                  At NXTLVL Health, we understand how challenging it can be to live with attention deficit hyperactivity disorder (ADHD). Mitch, a trusted <strong>ADHD naturopath</strong>, works with both children and adults to uncover the real reasons behind ADHD symptoms. Naturopathic doctors excel at treating ADHD by focusing on a <strong>holistic approach</strong> that considers the individual's mind, body, and spirit. Using evidence-based natural treatments, he supports the brain, gut, and nervous system to help improve focus, mood, and overall quality of life.
+                  At NXTLVL Health, we understand how challenging it can be to live with attention deficit hyperactivity disorder (ADHD). Mitch, a trusted <strong>ADHD naturopath</strong>, works with both children and adults to uncover the real reasons behind ADHD symptoms. Naturopathic doctors excel at treating ADHD by focusing on a <strong>holistic approach</strong> that considers the individual's mind, body, and spirit. Using evidence-based natural treatments, he supports the brain, gut, and nervous system to help improve focus, mood, and overall quality of life. For young patients, our <a href="/what-we-treat/childrens-naturopath-brisbane" className="text-primary hover:text-primary/80 underline">children's naturopath services</a> provide specialized, gentle care tailored to developing minds.
                 </p>
               </div>
             </div>
@@ -273,7 +273,7 @@ const ADHDNaturopathy = () => {
                   ))}
                 </div>
                 <p>
-                  While <strong>stimulant medications</strong> are often prescribed, they don't work for everyone—and they don't address the root causes. That's where a naturopathic approach can help. <strong>ADHD treatment plans from naturopathic doctors</strong> are individualised and take into account diet, lifestyle, genetics, and emotional factors. Many people with ADHD also experience <a href="/what-we-treat/naturopath-anxiety" className="text-primary hover:text-primary/80 underline">anxiety and nervous tension</a>, which is why a comprehensive approach to nervous system support is essential.
+                  While <strong>stimulant medications</strong> are often prescribed, they don't work for everyone—and they don't address the root causes. That's where a naturopathic approach can help. <strong>ADHD treatment plans from naturopathic doctors</strong> are individualised and take into account diet, lifestyle, genetics, and emotional factors. Many people with ADHD also experience <a href="/what-we-treat/naturopath-anxiety" className="text-primary hover:text-primary/80 underline">anxiety and nervous tension</a>, which is why a comprehensive approach to nervous system support is essential. Additionally, some individuals may benefit from our <a href="/what-we-treat/allergy-naturopath" className="text-primary hover:text-primary/80 underline">allergy naturopath services</a> if food sensitivities are contributing to their symptoms.
                 </p>
               </div>
             </div>
