@@ -5,6 +5,155 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Scale, Users, Zap, Target } from "lucide-react";
 
 const WeightLoss = () => {
+  // Service Schema for Weight Loss Naturopath
+  const weightLossNaturopathSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": "https://www.nxtlvlhealth.com.au/what-we-treat/weight-loss-naturopath-brisbane#service",
+    "name": "Weight Loss Naturopath Brisbane",
+    "alternateName": ["Natural Weight Loss Brisbane", "Holistic Weight Loss", "Naturopathic Weight Loss", "Sustainable Weight Loss"],
+    "description": "Expert weight loss naturopath in Brisbane specialising in root-cause weight loss solutions. Personalised natural treatment plans addressing hormonal imbalances, metabolic issues, and sustainable healthy weight management.",
+    "url": "https://www.nxtlvlhealth.com.au/what-we-treat/weight-loss-naturopath-brisbane",
+    "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/aeafb801-21a6-4748-a8c0-7cfe86dda52d.png",
+    "provider": {
+      "@type": "LocalBusiness",
+      "@id": "https://www.nxtlvlhealth.com.au/#organization",
+      "name": "NXTLVL Health - Naturopath",
+      "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
+      "telephone": "(07) 3180 8853",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Suite 2/665 Brunswick St",
+        "addressLocality": "New Farm",
+        "addressRegion": "QLD",
+        "addressCountry": "AU",
+        "postalCode": "4005"
+      }
+    },
+    "serviceType": "Naturopathic Medicine",
+    "category": "Weight Loss and Metabolic Health",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Weight Loss Naturopathy Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Comprehensive Weight Loss Assessment",
+            "description": "Detailed health review examining hormonal imbalances, metabolic function, thyroid health, insulin resistance, and lifestyle factors affecting weight management"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Functional Weight Loss Testing",
+            "description": "Advanced testing including hormone panels, food intolerance testing, metabolic assessments, body composition analysis, and nutritional status evaluation"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Personalised Weight Loss Programme",
+            "description": "Customised treatment plans using herbal medicine, natural supplements, sustainable meal planning, stress management, and lifestyle modifications for healthy weight loss"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    },
+    "serviceArea": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "-27.4646",
+        "longitude": "153.0448"
+      },
+      "geoRadius": "50000"
+    },
+    "areaServed": [
+      "Brisbane",
+      "New Farm",
+      "Fortitude Valley",
+      "Newstead",
+      "Teneriffe",
+      "Kangaroo Point",
+      "East Brisbane",
+      "Norman Park",
+      "Bulimba",
+      "Hawthorne",
+      "Morningside",
+      "Ascot",
+      "Hamilton",
+      "Clayfield",
+      "Wilston",
+      "Windsor",
+      "Kelvin Grove",
+      "Paddington",
+      "Red Hill",
+      "Auchenflower",
+      "Toowong",
+      "Queensland"
+    ],
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "name": "In-Person and Online Weight Loss Consultations",
+      "serviceLocation": {
+        "@type": "Place",
+        "name": "NXTLVL Health",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Suite 2/665 Brunswick St",
+          "addressLocality": "New Farm",
+          "addressRegion": "QLD",
+          "addressCountry": "AU",
+          "postalCode": "4005"
+        }
+      },
+      "servicePhone": "(07) 3180 8853",
+      "serviceUrl": "https://www.nxtlvlhealth.com.au/what-we-treat/weight-loss-naturopath-brisbane"
+    },
+    "serviceOutput": [
+      "Sustainable Weight Loss",
+      "Hormonal Balance Restoration",
+      "Metabolic Function Improvement",
+      "Insulin Sensitivity Enhancement", 
+      "Thyroid Health Optimisation",
+      "Stress Management Support",
+      "Nutritional Status Correction",
+      "Body Composition Improvement",
+      "Energy Level Enhancement",
+      "Digestive Health Support"
+    ],
+    "audience": {
+      "@type": "PeopleAudience",
+      "audienceType": "Individuals seeking natural weight loss, those with hormonal imbalances, metabolic dysfunction, PCOS, thyroid issues, and sustainable healthy weight management"
+    },
+    "potentialAction": [
+      {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://nxtlvlhealth.com.au/book-now/",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        },
+        "result": {
+          "@type": "Reservation",
+          "name": "Weight Loss Naturopath Consultation"
+        }
+      }
+    ]
+  };
   return (
     <>
       <SEO 
@@ -12,6 +161,7 @@ const WeightLoss = () => {
         description="Tried everything and still not dropping the weight? Our weight loss naturopath finds out what's really going on—and helps your body transform the way you like."
         canonical="/what-we-treat/weight-loss-naturopath-brisbane"
         keywords="weight loss naturopath Brisbane, natural weight loss, holistic weight loss, naturopathic weight loss"
+        serviceSchema={weightLossNaturopathSchema}
       />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
