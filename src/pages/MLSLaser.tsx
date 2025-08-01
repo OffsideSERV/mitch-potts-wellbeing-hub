@@ -104,7 +104,7 @@ const MLSLaser = () => {
         }
       },
       "servicePhone": "(07) 3180 8853",
-      "serviceUrl": "https://nxtlvlhealth.com.au/book-now/"
+      "serviceUrl": "https://www.nxtlvlhealth.com.au/services/mls-laser-therapy-treatment-brisbane"
     },
     "potentialAction": [
       {
