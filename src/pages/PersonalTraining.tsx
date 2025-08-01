@@ -19,7 +19,7 @@ const PersonalTraining = () => {
     "@id": "https://www.nxtlvlhealth.com.au/services/personal-trainer-newstead#service",
     "name": "Personal Training in Newstead",
     "alternateName": ["Personal Fitness Training", "Exercise Therapy", "Strength Training", "Fitness Coaching"],
-    "description": "Expert personal training in Newstead, Brisbane. Specializing in strength training, injury prevention, body composition changes, and functional movement with a dual-qualified naturopath and exercise scientist.",
+    "description": "Expert personal training in Newstead, Brisbane. Specialising in strength training, injury prevention, body composition changes, and functional movement with a dual-qualified naturopath and exercise scientist.",
     "url": "https://www.nxtlvlhealth.com.au/services/personal-trainer-newstead",
     "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/dd4ff0ea-d4e7-416c-b0d9-d3a541758d60.png",
     "provider": {
