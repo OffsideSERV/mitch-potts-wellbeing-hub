@@ -9,6 +9,147 @@ const Diabetes = () => {
         description="Tired of, or stuck with blood sugar issues? Our naturopath diabetes support will find the root cause of your problems,—so you can be calm and in control again."
         canonical="/what-we-treat/naturopath-diabetes-brisbane"
         keywords="diabetes naturopath Brisbane, blood sugar support, natural diabetes treatment, diabetes specialist Brisbane, naturopathic diabetes care"
+        serviceSchema={{
+          "@context": "https://schema.org",
+          "@type": "MedicalService",
+          "@id": "https://nxtlvlhealth.com.au/what-we-treat/naturopath-diabetes-brisbane#service",
+          "name": "Naturopathic Diabetes Support Brisbane",
+          "description": "Comprehensive naturopathic care for diabetes, pre-diabetes, insulin resistance, and blood sugar management. Our holistic approach addresses root causes to help you achieve better health naturally.",
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://nxtlvlhealth.com.au/#organization"
+          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Brisbane",
+              "addressRegion": "QLD",
+              "addressCountry": "AU"
+            },
+            {
+              "@type": "City", 
+              "name": "New Farm",
+              "addressRegion": "QLD",
+              "addressCountry": "AU"
+            },
+            {
+              "@type": "City",
+              "name": "Clayfield", 
+              "addressRegion": "QLD",
+              "addressCountry": "AU"
+            },
+            {
+              "@type": "City",
+              "name": "Hamilton",
+              "addressRegion": "QLD", 
+              "addressCountry": "AU"
+            }
+          ],
+          "category": "Naturopathic Medicine",
+          "serviceType": "Diabetes and Blood Sugar Support",
+          "hasOfferingCatalog": {
+            "@type": "OfferingCatalog",
+            "name": "Diabetes Naturopathy Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Initial Diabetes Consultation",
+                  "description": "Comprehensive 75-minute consultation including health history, symptom assessment, and personalised treatment planning for diabetes management."
+                },
+                "price": "210",
+                "priceCurrency": "AUD",
+                "availability": "https://schema.org/InStock"
+              },
+              {
+                "@type": "Offer", 
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Follow-up Diabetes Consultation",
+                  "description": "Ongoing support and treatment plan adjustments to monitor progress and optimise diabetes management outcomes."
+                },
+                "price": "120",
+                "priceCurrency": "AUD",
+                "availability": "https://schema.org/InStock"
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service", 
+                  "name": "Functional Testing for Diabetes",
+                  "description": "Comprehensive testing including HbA1c, fasting insulin, nutrient levels, hormone assessment, and gut health analysis."
+                },
+                "priceRange": "$100-$400",
+                "priceCurrency": "AUD",
+                "availability": "https://schema.org/InStock"
+              }
+            ]
+          },
+          "offers": {
+            "@type": "AggregateOffer",
+            "lowPrice": "120",
+            "highPrice": "210", 
+            "priceCurrency": "AUD",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2024-01-01"
+          },
+          "audience": {
+            "@type": "PeopleAudience",
+            "suggestedMinAge": "18",
+            "audienceType": "Individuals with diabetes, pre-diabetes, insulin resistance, or blood sugar concerns"
+          },
+          "medicalSpecialty": "Naturopathic Medicine",
+          "serviceOutput": "Improved blood sugar control, enhanced insulin sensitivity, reduced diabetes complications risk, better energy and mood",
+          "benefits": [
+            "Natural blood sugar regulation",
+            "Improved insulin sensitivity", 
+            "Reduced inflammation",
+            "Enhanced energy and mood",
+            "Weight management support",
+            "Reduced cardiovascular disease risk",
+            "Personalised nutrition guidance",
+            "Stress management techniques"
+          ],
+          "conditions": [
+            "Type 2 Diabetes",
+            "Pre-diabetes", 
+            "Insulin Resistance",
+            "Gestational Diabetes",
+            "Metabolic Syndrome",
+            "Blood Sugar Imbalances"
+          ],
+          "isAvailableLanguage": "en-AU",
+          "availableChannel": [
+            {
+              "@type": "ServiceChannel",
+              "serviceType": "In-person consultation",
+              "serviceLocation": {
+                "@type": "Place",
+                "@id": "https://nxtlvlhealth.com.au/#location"
+              }
+            },
+            {
+              "@type": "ServiceChannel", 
+              "serviceType": "Online consultation",
+              "availableLanguage": "en-AU"
+            }
+          ],
+          "hoursAvailable": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              "opens": "09:00",
+              "closes": "17:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification", 
+              "dayOfWeek": "Saturday",
+              "opens": "09:00",
+              "closes": "13:00"
+            }
+          ]
+        }}
       />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
