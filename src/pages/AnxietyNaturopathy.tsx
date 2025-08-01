@@ -12,6 +12,93 @@ const AnxietyNaturopathy = () => {
         description="Not feeling like yourself lately? Feeling on edge? Not sure what to do? Mitchell is a 5-star Naturopath for Anxiety that will finally give you answers."
         canonical="/what-we-treat/naturopath-anxiety"
         keywords="anxiety naturopath Brisbane, natural anxiety treatment, anxiety support, holistic anxiety treatment, naturopathic anxiety care"
+        serviceSchema={{
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://nxtlvlhealth.com.au/what-we-treat/naturopath-anxiety#service",
+          "name": "Naturopath for Anxiety Brisbane",
+          "description": "Natural, holistic treatment for anxiety disorders, stress, and nervous tension. Our evidence-based naturopathic approach supports your nervous system, improves gut health, and addresses root causes to help you feel calm and in control naturally.",
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://nxtlvlhealth.com.au/#organization"
+          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Brisbane"
+            },
+            {
+              "@type": "City", 
+              "name": "New Farm"
+            },
+            {
+              "@type": "City",
+              "name": "Clayfield"
+            },
+            {
+              "@type": "City",
+              "name": "Hamilton"
+            }
+          ],
+          "category": "Naturopathic Medicine",
+          "serviceType": "Anxiety and Mental Health Support",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Free 15-Minute Anxiety Consultation",
+              "description": "Complimentary consultation to discuss your anxiety concerns, understand our natural approach, and determine if naturopathic treatment is right for you.",
+              "price": "0",
+              "priceCurrency": "AUD",
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer",
+              "name": "Initial Anxiety Naturopath Consultation",
+              "description": "Comprehensive 75-minute consultation including detailed health history, anxiety assessment, and personalised treatment planning for natural anxiety management.",
+              "price": "210",
+              "priceCurrency": "AUD",
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer", 
+              "name": "Follow-up Anxiety Consultation",
+              "description": "Ongoing support and treatment plan adjustments to monitor progress and optimise anxiety management using natural therapies and lifestyle modifications.",
+              "price": "120",
+              "priceCurrency": "AUD",
+              "availability": "https://schema.org/InStock"
+            }
+          ],
+          "audience": {
+            "@type": "Audience",
+            "audienceType": "Individuals experiencing anxiety disorders, stress, panic attacks, social anxiety, or nervous tension"
+          },
+          "availableChannel": [
+            {
+              "@type": "ServiceChannel",
+              "serviceLocation": {
+                "@type": "Place",
+                "@id": "https://nxtlvlhealth.com.au/#location"
+              }
+            },
+            {
+              "@type": "ServiceChannel"
+            }
+          ],
+          "hoursAvailable": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              "opens": "09:00",
+              "closes": "17:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification", 
+              "dayOfWeek": "Saturday",
+              "opens": "09:00",
+              "closes": "13:00"
+            }
+          ]
+        }}
       />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
