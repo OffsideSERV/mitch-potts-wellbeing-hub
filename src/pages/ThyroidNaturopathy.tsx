@@ -3,6 +3,111 @@ import SEO from "@/components/SEO";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const ThyroidNaturopathy = () => {
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": "https://nxtlvlhealth.com.au/what-we-treat/naturopath-thyroid-brisbane#service",
+    "name": "Naturopathic Thyroid Support Services",
+    "description": "Comprehensive naturopathic treatment for thyroid conditions including hypothyroidism, Hashimoto's thyroiditis, Graves' disease, and thyroid dysfunction. Our Brisbane naturopath specialises in holistic thyroid support using natural medicine, nutritional therapy, and lifestyle interventions.",
+    "url": "https://nxtlvlhealth.com.au/what-we-treat/naturopath-thyroid-brisbane",
+    "provider": {
+      "@type": "Organization",
+      "@id": "https://nxtlvlhealth.com.au#organization"
+    },
+    "serviceType": "Naturopathic Thyroid Treatment",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Thyroid Support Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Initial Thyroid Assessment",
+            "description": "Comprehensive 60-75 minute consultation including medical history review, symptom analysis, and thyroid health evaluation"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Functional Thyroid Testing",
+            "description": "Advanced thyroid panel including TSH, Free T3, Free T4, Reverse T3, thyroid antibodies, and nutritional assessments"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Personalised Thyroid Treatment Plans",
+            "description": "Customised naturopathic protocols including herbal medicine, nutritional therapy, and lifestyle interventions for thyroid support"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Hashimoto's Thyroiditis Treatment",
+            "description": "Specialised naturopathic treatment for autoimmune thyroid conditions focusing on immune system modulation and inflammation reduction"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Hypothyroidism Support",
+            "description": "Natural treatment approaches for underactive thyroid including nutritional support, herbal medicine, and metabolic optimisation"
+          }
+        }
+      ]
+    },
+    "areaServed": [
+      {
+        "@type": "Place",
+        "name": "Brisbane",
+        "addressRegion": "Queensland",
+        "addressCountry": "Australia"
+      },
+      {
+        "@type": "Place",
+        "name": "Clayfield",
+        "addressRegion": "Queensland", 
+        "addressCountry": "Australia"
+      },
+      {
+        "@type": "Place",
+        "name": "Hamilton",
+        "addressRegion": "Queensland",
+        "addressCountry": "Australia"
+      },
+      {
+        "@type": "Place",
+        "name": "Newstead", 
+        "addressRegion": "Queensland",
+        "addressCountry": "Australia"
+      },
+      {
+        "@type": "Place",
+        "name": "New Farm",
+        "addressRegion": "Queensland",
+        "addressCountry": "Australia"
+      }
+    ],
+    "availableLanguage": "English",
+    "category": ["Naturopathy", "Thyroid Treatment", "Holistic Health", "Alternative Medicine"],
+    "serviceOutput": {
+      "@type": "Thing",
+      "name": "Improved Thyroid Function and Overall Health"
+    },
+    "additionalType": "https://schema.org/MedicalTherapy",
+    "medicalSpecialty": "Naturopathy",
+    "recognizingAuthority": {
+      "@type": "Organization",
+      "name": "Australian Traditional Medicine Society",
+      "url": "https://www.atms.com.au"
+    }
+  };
+
   return (
     <>
       <SEO 
@@ -10,6 +115,7 @@ const ThyroidNaturopathy = () => {
         description="Feel tired, foggy or stuck with thyroid symptoms? Our naturopath for thyroid problems will find what others have missed—so you can finally heal."
         canonical="/what-we-treat/naturopath-thyroid-brisbane"
         keywords="thyroid naturopath Brisbane, thyroid treatment, hypothyroid naturopath, Hashimoto's treatment, thyroid support"
+        serviceSchema={serviceSchema}
       />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
