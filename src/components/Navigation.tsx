@@ -94,26 +94,21 @@ const Navigation = () => {
                 <strong>40% OFF MLS Laser Therapy Initial Consult!</strong>
               </span>
             </div>
-            <div className="flex flex-col items-center gap-2">
-              <span className="text-xs font-medium leading-tight">
-                Limited Time: Experience Revolutionary Pain Relief & Healing
-              </span>
-              <Button 
-                variant="secondary" 
-                size="sm" 
-                className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold whitespace-nowrap text-xs px-3 py-1"
-                asChild
-              >
-                <Link to="/laser-healing">Book Now - Save 40%</Link>
-              </Button>
-            </div>
+            <Button 
+              variant="secondary" 
+              size="sm" 
+              className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold whitespace-nowrap text-xs px-3 py-1"
+              asChild
+            >
+              <Link to="/laser-healing">Book Now - Save 40%</Link>
+            </Button>
           </div>
           
           {/* Desktop Layout */}
           <div className="hidden sm:flex flex-row items-center justify-center gap-3 text-center">
             <Gift className="h-5 w-5 text-yellow-300 animate-pulse flex-shrink-0" />
             <span className="text-sm md:text-base font-medium leading-tight">
-              <strong>40% OFF MLS Laser Therapy Initial Consult!</strong> Limited Time: Experience Revolutionary Pain Relief & Healing
+              <strong>40% OFF MLS Laser Therapy Initial Consult!</strong>
             </span>
             <Button 
               variant="secondary" 
