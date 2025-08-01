@@ -115,7 +115,7 @@ const App = () => (
               <Route path="/areas-we-serve/naturopath-clayfield-brisbane" element={<ClayfieldNaturopathy />} />
               <Route path="/areas-we-serve/naturopath-windsor" element={<WindsorNaturopathy />} />
               <Route path="/gut-freedom" element={<GutFreedomOptIn />} />
-              <Route path="/allergy-naturopath" element={<AllergyNaturopath />} />
+              <Route path="/what-we-treat/allergy-naturopath" element={<AllergyNaturopath />} />
               <Route path="/naturopathic-nutritionist" element={<NaturopathicNutritionist />} />
               <Route path="/areas-we-serve/naturopath-indooroopilly" element={<IndooroopillyNaturopathy />} />
               <Route path="/functional-medicine" element={<FunctionalMedicine />} />
