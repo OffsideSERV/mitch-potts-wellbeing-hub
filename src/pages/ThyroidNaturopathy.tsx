@@ -152,7 +152,7 @@ const ThyroidNaturopathy = () => {
                 </div>
               </div>
               
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 mt-8 lg:mt-0">
                 <a 
                   href="https://nxtlvlhealth.com.au/book-now/" 
                   className="inline-flex items-center justify-center text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight bg-primary text-primary-foreground hover:bg-primary/90 rounded-md font-medium transition-colors"
