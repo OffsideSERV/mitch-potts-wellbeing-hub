@@ -12,6 +12,85 @@ const ChildrensHealth = () => {
         description="Our gentle children's naturopath Mitchell Potts helps uncover and treat the root causes of your child's gut, skin, mood, and energy problems—safely and easily."
         canonical="/what-we-treat/childrens-naturopath-brisbane"
         keywords="children's naturopath Brisbane, kids naturopath, paediatric naturopath, children's health Brisbane, natural children's medicine"
+        serviceSchema={{
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "@id": "https://nxtlvlhealth.com.au/what-we-treat/childrens-naturopath-brisbane#service",
+          "name": "Children's Naturopath Brisbane",
+          "description": "Gentle, effective naturopathic care for children's health concerns. We specialise in treating digestive issues, skin conditions, behavioural problems, immunity concerns, and food sensitivities in children of all ages using safe, natural therapies.",
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://nxtlvlhealth.com.au/#organization"
+          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Brisbane"
+            },
+            {
+              "@type": "City", 
+              "name": "New Farm"
+            },
+            {
+              "@type": "City",
+              "name": "Clayfield"
+            },
+            {
+              "@type": "City",
+              "name": "Hamilton"
+            }
+          ],
+          "category": "Paediatric Naturopathic Medicine",
+          "serviceType": "Children's Health and Natural Medicine",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Initial Children's Health Consultation",
+              "description": "Comprehensive 75-minute consultation including full health history review, gentle assessment, and personalised treatment planning for your child's specific health needs.",
+              "price": "210",
+              "priceCurrency": "AUD",
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer", 
+              "name": "Follow-up Children's Consultation",
+              "description": "Ongoing support and treatment plan adjustments to monitor your child's progress and ensure optimal health outcomes as they grow and develop.",
+              "price": "120",
+              "priceCurrency": "AUD",
+              "availability": "https://schema.org/InStock"
+            }
+          ],
+          "audience": {
+            "@type": "Audience",
+            "audienceType": "Children with digestive issues, skin conditions, behavioural concerns, immunity problems, or food sensitivities"
+          },
+          "availableChannel": [
+            {
+              "@type": "ServiceChannel",
+              "serviceLocation": {
+                "@type": "Place",
+                "@id": "https://nxtlvlhealth.com.au/#location"
+              }
+            },
+            {
+              "@type": "ServiceChannel"
+            }
+          ],
+          "hoursAvailable": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              "opens": "09:00",
+              "closes": "17:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification", 
+              "dayOfWeek": "Saturday",
+              "opens": "09:00",
+              "closes": "13:00"
+            }
+          ]
+        }}
       />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
