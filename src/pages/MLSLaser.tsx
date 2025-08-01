@@ -334,15 +334,15 @@ const MLSLaser = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
-                <p>
-                  At NXTLVL Health in Brisbane, we use <strong>MLS Laser Therapy</strong> to help your body heal on its own, safely, quickly, and naturally. Whether you're dealing with <strong>chronic pain</strong>, <strong>sports injuries</strong>, or <strong>joint stiffness</strong>, this revolutionary treatment uses <strong>light energy</strong> to reach deep into your body and speed up the healing process at a <strong>cellular level</strong>.
-                </p>
+                 <p>
+                   At NXTLVL Health in Brisbane, we use <strong>MLS Laser Therapy</strong> to help your body heal on its own, safely, quickly, and naturally. Whether you're dealing with <strong>chronic pain</strong>, <strong>sports injuries</strong>, or <strong>joint stiffness</strong>, this revolutionary treatment uses <strong>light energy</strong> to reach deep into your body and speed up the healing process at a <strong>cellular level</strong>. Combined with our <a href="/services/personal-trainer-newstead" className="text-primary hover:underline">specialized personal training</a> and <a href="/functional-medicine" className="text-primary hover:underline">functional medicine approach</a>, we provide comprehensive healing solutions.
+                 </p>
                 <p>
                   Unlike traditional therapies, the <strong>MLS Laser</strong> combines two precise <strong>laser wavelengths</strong> to reduce your pain and inflammation simultaneously. The result? Better mobility, faster recovery, and long-lasting relief from pain, all with zero downtime.
                 </p>
-                <p>
-                  Whether it's your back, shoulders, knees, or ankles—if it hurts, we've got you covered.
-                </p>
+                 <p>
+                   Whether it's your back, shoulders, knees, or ankles—if it hurts, we've got you covered. Our comprehensive approach includes <a href="/services/live-blood-analysis-brisbane" className="text-primary hover:underline">advanced diagnostic tools</a> and <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">holistic weight management</a> to support your healing journey.
+                 </p>
               </div>
             </div>
             {/* Desktop Image */}

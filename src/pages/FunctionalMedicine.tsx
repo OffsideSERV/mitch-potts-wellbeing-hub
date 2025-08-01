@@ -45,15 +45,15 @@ const FunctionalMedicine = () => {
                 </div>
 
                 <div className="text-lg text-muted-foreground leading-relaxed space-y-4">
-                  <p>
-                    At NXTLVL Health, our <strong>Functional Medicine in Brisbane</strong> doesn't just treat your symptoms, it's much more than that. We actually help you find out why you feel tired, bloated, foggy, or just off—then <strong>fix it properly</strong>.
-                  </p>
+                   <p>
+                     At NXTLVL Health, our <strong>Functional Medicine in Brisbane</strong> doesn't just treat your symptoms, it's much more than that. We actually help you find out why you feel tired, bloated, foggy, or just off—then <strong>fix it properly</strong>. Our comprehensive approach includes advanced tools like <a href="/services/live-blood-analysis-brisbane" className="text-primary hover:underline">live blood analysis</a> and <a href="/services/mls-laser-therapy-treatment-brisbane" className="text-primary hover:underline">MLS laser therapy</a> to support your healing journey.
+                   </p>
                   <p>
                     We're a <strong>functional medicine clinic in New Farm</strong> that uses a simple, whole-body approach. Instead of quick fixes like most solutions out there, we look at how your <strong>gut, brain, hormones, skin, and energy all connect together</strong>.
                   </p>
-                  <p>
-                    You'll get a <strong>full health plan that's made just for you</strong>, no one else—using real tests, not guesses. If you're sick of that "not quite right" feeling, <strong>this is where you start feeling like you again</strong>.
-                  </p>
+                   <p>
+                     You'll get a <strong>full health plan that's made just for you</strong>, no one else—using real tests, not guesses. Whether you need <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">sustainable weight loss support</a> or <a href="/services/personal-trainer-newstead" className="text-primary hover:underline">personalized fitness guidance</a>, we have the tools and expertise to help. If you're sick of that "not quite right" feeling, <strong>this is where you start feeling like you again</strong>.
+                   </p>
                 </div>
               </div>
               

@@ -190,9 +190,9 @@ const LiveBloodAnalysisBrisbane = () => {
                 <p>
                   Tired of feeling <strong>bloated, foggy, or low on energy</strong>, and getting no answers?
                 </p>
-                <p>
-                  At NXTLVL Health in New Farm, we offer <strong>live blood analysis Brisbane locals trust</strong> to finally get clarity on their health. With just a few drops of blood, you'll see your own live blood cells on screen, in real time.
-                </p>
+                 <p>
+                   At NXTLVL Health in New Farm, we offer <strong>live blood analysis Brisbane locals trust</strong> to finally get clarity on their health. With just a few drops of blood, you'll see your own live blood cells on screen, in real time. This advanced diagnostic tool works perfectly alongside our <a href="/functional-medicine" className="text-primary hover:underline">functional medicine approach</a> and complements treatments like <a href="/services/mls-laser-therapy-treatment-brisbane" className="text-primary hover:underline">MLS laser therapy</a> for comprehensive healing.
+                 </p>
                 <p>
                   Using dark field microscopy, Mitch, our qualified naturopath and clinical health professional, shows you what your <strong>red blood cells, white blood cells, and overall blood terrain</strong> are really saying about your health. Whether it's signs of oxidative stress, free radical damage, nutritional deficiencies, or maybe even immune system imbalances, you'll walk away with <strong>answers you can actually act on</strong>.
                 </p>
@@ -257,7 +257,7 @@ const LiveBloodAnalysisBrisbane = () => {
 
           <div className="text-center mt-12">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              It's not a standalone test, but when used alongside thorough case taking and other testing, it helps us <strong>treat the root cause of your symptoms</strong>.
+              It's not a standalone test, but when used alongside thorough case taking and other testing, it helps us <strong>treat the root cause of your symptoms</strong>. Whether you're seeking <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">natural weight loss solutions</a> or <a href="/services/personal-trainer-newstead" className="text-primary hover:underline">personalized fitness guidance</a>, this analysis provides valuable insights to optimize your health journey.
             </p>
           </div>
         </div>

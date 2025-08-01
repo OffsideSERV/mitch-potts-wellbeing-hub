@@ -68,10 +68,10 @@ const Services = () => {
                   Tailored for Your Health Journey
                 </h2>
                 <p className="text-lg text-muted-foreground">
-                  Naturopath, PT & functional medicine services for holistic wellness
+                  <a href="/services/personal-trainer-newstead" className="text-primary hover:underline">Naturopath</a>, <a href="/services/personal-trainer-newstead" className="text-primary hover:underline">PT</a> & <a href="/functional-medicine" className="text-primary hover:underline">functional medicine</a> services for holistic wellness
                 </p>
                 <p className="text-lg text-muted-foreground">
-                  With the guidance and expert knowledge of naturopathy Mitch at NXTLVL Health in New Farm your goals are well within reach. Start your journey towards optimal well-being and book an appointment today!
+                  With the guidance and expert knowledge of naturopathy Mitch at NXTLVL Health in New Farm your goals are well within reach. Our comprehensive treatments include <a href="/services/mls-laser-therapy-treatment-brisbane" className="text-primary hover:underline">MLS laser therapy</a>, <a href="/services/live-blood-analysis-brisbane" className="text-primary hover:underline">live blood analysis</a>, and <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">natural weight loss solutions</a>. Start your journey towards optimal well-being and book an appointment today!
                 </p>
                 
                 {/* Mobile Image - placed right after headline */}
@@ -161,7 +161,7 @@ const Services = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">YOUR HEALTH, YOUR FOUNDATION</h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-              We believe that your health is the foundation for a life lived at its absolute peak. Are you ready to pursue a stronger, healthier, and happier you?
+              We believe that your health is the foundation for a life lived at its absolute peak. Whether you're seeking <a href="/services/personal-trainer-newstead" className="text-primary hover:underline">expert personal training</a>, <a href="/services/mls-laser-therapy-treatment-brisbane" className="text-primary hover:underline">advanced laser therapy</a>, or <a href="/functional-medicine" className="text-primary hover:underline">functional medicine solutions</a>, we're here to help. Are you ready to pursue a stronger, healthier, and happier you?
             </p>
           </div>
 
