@@ -4,6 +4,253 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Activity, Brain, Baby } from "lucide-react";
 
 const NorthBrisbaneNaturopathy = () => {
+  // Service Schema for North Brisbane Naturopathy
+  const northBrisbaneNaturopathyServiceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": "https://www.nxtlvlhealth.com.au/areas-we-serve/naturopath-north-brisbane#service",
+    "name": "Naturopathy Services North Brisbane",
+    "alternateName": ["North Brisbane Naturopath", "Naturopathic Care North Brisbane", "Natural Health North Brisbane"],
+    "description": "Comprehensive naturopathic services for residents of North Brisbane and surrounding areas. Our qualified naturopath provides natural health solutions for digestive disorders, hormonal imbalances, chronic fatigue, women's health, children's health, and mental health support through evidence-based natural medicine.",
+    "url": "https://www.nxtlvlhealth.com.au/areas-we-serve/naturopath-north-brisbane",
+    "image": [
+      "https://www.nxtlvlhealth.com.au/lovable-uploads/d8fb55f4-1a1b-4a7f-9aef-fb782c41df21.png",
+      "https://www.nxtlvlhealth.com.au/lovable-uploads/e1f6dd06-164a-425b-bc19-839d603bc5ed.png",
+      "https://www.nxtlvlhealth.com.au/lovable-uploads/d4dfb30d-6da4-42d6-86b4-14b51e4d4a8f.png"
+    ],
+    "provider": {
+      "@type": "LocalBusiness",
+      "@id": "https://www.nxtlvlhealth.com.au/#organization"
+    },
+    "serviceType": "Healthcare Service",
+    "category": ["Naturopathy", "Natural Medicine", "Holistic Health", "Functional Medicine"],
+    "serviceArea": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "-27.4646",
+        "longitude": "153.0448"
+      },
+      "geoRadius": "25000"
+    },
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "North Brisbane",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Queensland",
+          "containedInPlace": {
+            "@type": "Country",
+            "name": "Australia"
+          }
+        }
+      },
+      "Wavell Heights",
+      "Chermside", 
+      "Aspley",
+      "Northgate",
+      "Nundah",
+      "Stafford",
+      "Bridgeman Downs",
+      "Geebung",
+      "Kedron",
+      "Brisbane Northside"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "North Brisbane Naturopathic Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Women's Health Naturopathy",
+            "description": "Natural treatment for hormonal imbalances, PCOS, irregular periods, PMS, and menopause support"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Digestive Health Treatment",
+            "description": "Natural solutions for IBS, gut issues, bloating, constipation, diarrhoea, and SIBO"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Children's Health Naturopathy",
+            "description": "Natural care for food sensitivities, digestive issues, fussy eating, and mood concerns in children"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Mental Health Support",
+            "description": "Natural approach to anxiety, mood disorders, panic attacks, and sleep issues"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Chronic Condition Management",
+            "description": "Natural treatment for chronic fatigue, autoimmune conditions, skin conditions, and chronic pain"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Fertility and Pregnancy Support",
+            "description": "Natural preconception care, pregnancy support, and hormonal health optimisation"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Weight Management Support",
+            "description": "Natural approach to weight concerns, slow metabolism, food intolerance, and insulin resistance"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Initial Naturopathic Consultation",
+            "description": "Comprehensive 75-minute initial consultation including case taking, health assessment, and personalised treatment plan"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    },
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "name": "In-Person and Telehealth Consultations",
+      "serviceLocation": {
+        "@type": "Place",
+        "name": "NXTLVL Health",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Suite 2/665 Brunswick St",
+          "addressLocality": "New Farm",
+          "addressRegion": "QLD",
+          "addressCountry": "AU",
+          "postalCode": "4005"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "-27.4646",
+          "longitude": "153.0448"
+        }
+      },
+      "servicePhone": "(07) 3180 8853",
+      "serviceUrl": "https://www.nxtlvlhealth.com.au/areas-we-serve/naturopath-north-brisbane"
+    },
+    "serviceOutput": [
+      "Personalised treatment plans",
+      "Natural health solutions",
+      "Functional testing recommendations",
+      "Nutritional guidance",
+      "Herbal medicine prescriptions",
+      "Lifestyle recommendations",
+      "Ongoing health monitoring"
+    ],
+    "audience": {
+      "@type": "PeopleAudience",
+      "geographicArea": "North Brisbane, Queensland, Australia",
+      "audienceType": "Patients seeking natural health solutions"
+    },
+    "performer": {
+      "@type": "Person",
+      "name": "Mitchell Potts",
+      "jobTitle": "Naturopath & Nutritional Medicine Practitioner",
+      "description": "Qualified naturopath with extensive experience in natural medicine, specialising in gut health, hormonal imbalances, and chronic health conditions",
+      "worksFor": {
+        "@type": "LocalBusiness",
+        "@id": "https://www.nxtlvlhealth.com.au/#organization"
+      }
+    },
+    "potentialAction": [
+      {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://nxtlvlhealth.com.au/book-now/",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        },
+        "result": {
+          "@type": "Reservation",
+          "name": "Naturopathic Consultation Appointment"
+        }
+      },
+      {
+        "@type": "CommunicateAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "tel:(07) 3180 8853",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      }
+    ],
+    "isRelatedTo": [
+      {
+        "@type": "Service",
+        "name": "Gut Health Specialist",
+        "url": "https://www.nxtlvlhealth.com.au/what-we-treat/gut-health-specialist-brisbane"
+      },
+      {
+        "@type": "Service", 
+        "name": "IBS Treatment",
+        "url": "https://www.nxtlvlhealth.com.au/what-we-treat/ibs-treatment-brisbane"
+      },
+      {
+        "@type": "Service",
+        "name": "Functional Medicine",
+        "url": "https://www.nxtlvlhealth.com.au/functional-medicine"
+      }
+    ],
+    "knows": [
+      "Naturopathy",
+      "Nutritional Medicine",
+      "Herbal Medicine",
+      "Functional Testing",
+      "Gut Health",
+      "Hormonal Health",
+      "Women's Health",
+      "Children's Health",
+      "Mental Health Support",
+      "Chronic Disease Management",
+      "Weight Management",
+      "Natural Health Solutions"
+    ]
+  };
+
   return (
     <>
       <SEO 
@@ -11,220 +258,8 @@ const NorthBrisbaneNaturopathy = () => {
         description="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath in North Brisbane that will find and heal the root cause of your problems."
         canonical="/areas-we-serve/naturopath-north-brisbane"
         keywords="naturopath North Brisbane, naturopathy North Brisbane, natural health North Brisbane, holistic health North Brisbane"
+        serviceSchema={northBrisbaneNaturopathyServiceSchema}
       />
-      
-      {/* Service Schema for North Brisbane Naturopathy */}
-      <script type="application/ld+json">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "Service",
-          "@id": "https://nxtlvlhealth.com.au/areas-we-serve/naturopath-north-brisbane#service",
-          "name": "Naturopathy Services in North Brisbane",
-          "description": "Comprehensive naturopathic care serving North Brisbane residents including Wavell Heights, Chermside, Aspley, and surrounding areas. We provide root-cause focused natural health solutions for digestive disorders, hormonal imbalances, chronic fatigue, and more.",
-          "provider": {
-            "@type": "LocalBusiness",
-            "@id": "https://nxtlvlhealth.com.au/#localbusiness",
-            "name": "NXTLVL Health",
-            "url": "https://nxtlvlhealth.com.au",
-            "telephone": "+61731808853",
-            "email": "info@nxtlvlhealth.com.au",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "Level 1, 6 Duke Street",
-              "addressLocality": "New Farm",
-              "addressRegion": "QLD",
-              "postalCode": "4005",
-              "addressCountry": "AU"
-            }
-          },
-          "serviceType": "Naturopathic Medicine",
-          "category": ["Natural Health", "Functional Medicine", "Holistic Health", "Nutritional Medicine"],
-          "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "North Brisbane Naturopathy Services",
-            "itemListElement": [
-              {
-                "@type": "Offer",
-                "itemOffered": {
-                  "@type": "Service",
-                  "name": "Comprehensive Naturopathic Consultation",
-                  "description": "75-minute initial consultation including detailed health assessment, case taking, and personalised treatment planning"
-                }
-              },
-              {
-                "@type": "Offer",
-                "itemOffered": {
-                  "@type": "Service",
-                  "name": "Digestive Health Support",
-                  "description": "Specialised treatment for IBS, SIBO, bloating, food intolerances, and gut health restoration"
-                }
-              },
-              {
-                "@type": "Offer",
-                "itemOffered": {
-                  "@type": "Service",
-                  "name": "Hormonal Balance Therapy",
-                  "description": "Natural support for PCOS, PMS, thyroid health, menopause, and hormonal imbalances"
-                }
-              },
-              {
-                "@type": "Offer",
-                "itemOffered": {
-                  "@type": "Service",
-                  "name": "Chronic Fatigue Treatment",
-                  "description": "Root-cause approach to addressing adrenal fatigue, energy imbalances, and chronic exhaustion"
-                }
-              },
-              {
-                "@type": "Offer",
-                "itemOffered": {
-                  "@type": "Service",
-                  "name": "Functional Testing",
-                  "description": "Comprehensive health testing including hormone panels, digestive analysis, and nutrient assessments"
-                }
-              }
-            ]
-          },
-          "areaServed": [
-            {
-              "@type": "Place",
-              "name": "North Brisbane",
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": -27.3817,
-                "longitude": 153.0464
-              }
-            },
-            {
-              "@type": "Place",
-              "name": "Wavell Heights"
-            },
-            {
-              "@type": "Place",
-              "name": "Chermside"
-            },
-            {
-              "@type": "Place",
-              "name": "Aspley"
-            },
-            {
-              "@type": "Place",
-              "name": "Northgate"
-            },
-            {
-              "@type": "Place",
-              "name": "Nundah"
-            },
-            {
-              "@type": "Place",
-              "name": "Stafford"
-            },
-            {
-              "@type": "Place",
-              "name": "Bridgeman Downs"
-            },
-            {
-              "@type": "Place",
-              "name": "Geebung"
-            },
-            {
-              "@type": "Place",
-              "name": "Kedron"
-            }
-          ],
-          "audience": {
-            "@type": "PeopleAudience",
-            "audienceType": "Patients seeking natural health solutions",
-            "geographicArea": {
-              "@type": "Place",
-              "name": "North Brisbane and surrounding suburbs"
-            }
-          },
-          "availableChannel": [
-            {
-              "@type": "ServiceChannel",
-              "serviceType": "In-Person Consultation",
-              "availableLanguage": "English",
-              "serviceLocation": {
-                "@type": "Place",
-                "name": "NXTLVL Health Clinic",
-                "address": {
-                  "@type": "PostalAddress",
-                  "streetAddress": "Level 1, 6 Duke Street",
-                  "addressLocality": "New Farm",
-                  "addressRegion": "QLD",
-                  "postalCode": "4005",
-                  "addressCountry": "AU"
-                }
-              }
-            },
-            {
-              "@type": "ServiceChannel",
-              "serviceType": "Telehealth Consultation",
-              "availableLanguage": "English"
-            }
-          ],
-          "termsOfService": "https://nxtlvlhealth.com.au/terms-of-service",
-          "serviceOutput": "Improved health outcomes through natural, root-cause focused treatment approaches",
-          "produces": [
-            "Personalised treatment plans",
-            "Nutritional guidance",
-            "Herbal medicine prescriptions",
-            "Lifestyle recommendations",
-            "Ongoing health support"
-          ],
-          "potentialAction": [
-            {
-              "@type": "ReserveAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://nxtlvlhealth.com.au/book-now/",
-                "actionPlatform": [
-                  "http://schema.org/DesktopWebPlatform",
-                  "http://schema.org/MobileWebPlatform"
-                ]
-              },
-              "result": {
-                "@type": "Reservation",
-                "name": "Naturopathy Consultation Booking"
-              }
-            },
-            {
-              "@type": "CommunicateAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "tel:+61731808853",
-                "actionPlatform": [
-                  "http://schema.org/DesktopWebPlatform",
-                  "http://schema.org/MobileWebPlatform"
-                ]
-              }
-            }
-          ],
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://nxtlvlhealth.com.au/areas-we-serve/naturopath-north-brisbane"
-          },
-          "isRelatedTo": [
-            {
-              "@type": "Service",
-              "@id": "https://nxtlvlhealth.com.au/what-we-treat/gut-health-specialist-brisbane#service",
-              "name": "Gut Health Specialist Brisbane"
-            },
-            {
-              "@type": "Service", 
-              "@id": "https://nxtlvlhealth.com.au/what-we-treat/ibs-naturopathy-brisbane#service",
-              "name": "IBS Naturopathy Brisbane"
-            },
-            {
-              "@type": "Service",
-              "@id": "https://nxtlvlhealth.com.au/what-we-treat/naturopathic-nutritionist#service", 
-              "name": "Naturopathic Nutritionist Brisbane"
-            }
-          ],
-          "keywords": "naturopath North Brisbane, naturopathy North Brisbane, natural health North Brisbane, holistic health North Brisbane, functional medicine North Brisbane, digestive health North Brisbane, hormonal health North Brisbane"
-        })}
-      </script>
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
