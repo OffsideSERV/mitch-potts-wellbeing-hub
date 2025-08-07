@@ -5,6 +5,251 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Activity, Brain, Baby, MapPin, Clock, Shield, Zap, Stethoscope, Target, Leaf, Microscope } from "lucide-react";
 
 const NewsteadNaturopathy = () => {
+  // Service Schema for Newstead Naturopathy
+  const newsteadNaturopathyServiceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": "https://www.nxtlvlhealth.com.au/areas-we-serve/naturopath-newstead#service",
+    "name": "Naturopathy Services Newstead Brisbane",
+    "alternateName": ["Newstead Naturopath", "Naturopathic Care Newstead", "Natural Health Newstead"],
+    "description": "Comprehensive naturopathic services for residents of Newstead and surrounding areas. Our qualified naturopath provides natural health solutions for digestive disorders, hormonal imbalances, chronic fatigue, women's health, children's health, and mental health support through evidence-based natural medicine.",
+    "url": "https://www.nxtlvlhealth.com.au/areas-we-serve/naturopath-newstead",
+    "image": [
+      "https://www.nxtlvlhealth.com.au/lovable-uploads/71b09125-3a64-4d93-934e-f899eab6b427.png",
+      "https://www.nxtlvlhealth.com.au/lovable-uploads/225024a0-804b-437d-aaf9-9d543e7f73e2.png",
+      "https://www.nxtlvlhealth.com.au/lovable-uploads/4ddbff79-0110-49a0-af33-498a6ef47123.png"
+    ],
+    "provider": {
+      "@type": "LocalBusiness",
+      "@id": "https://www.nxtlvlhealth.com.au/#organization",
+      "name": "NXTLVL Health - Naturopath",
+      "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
+      "telephone": "(07) 3180 8853",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Suite 2/665 Brunswick St",
+        "addressLocality": "New Farm",
+        "addressRegion": "QLD",
+        "addressCountry": "AU",
+        "postalCode": "4005"
+      },
+      "priceRange": "$$"
+    },
+    "serviceType": "Healthcare Service",
+    "category": ["Naturopathy", "Natural Medicine", "Holistic Health", "Functional Medicine"],
+    "serviceArea": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "-27.4646",
+        "longitude": "153.0448"
+      },
+      "geoRadius": "25000"
+    },
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Newstead",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Queensland",
+          "containedInPlace": {
+            "@type": "Country",
+            "name": "Australia"
+          }
+        }
+      },
+      "New Farm",
+      "Fortitude Valley",
+      "Teneriffe",
+      "Kangaroo Point",
+      "East Brisbane",
+      "Norman Park",
+      "Bulimba",
+      "Hawthorne",
+      "Morningside",
+      "Brisbane Northside"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Newstead Naturopathic Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Women's Health Naturopathy",
+            "description": "Natural treatment for hormonal imbalances, PCOS, irregular periods, PMS, and menopause support"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Digestive Health Treatment",
+            "description": "Natural solutions for IBS, gut issues, bloating, reflux, and SIBO"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Children's Health Naturopathy",
+            "description": "Natural care for food allergies, mood swings, digestive issues, and fussy eating in children"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Mental Health Support",
+            "description": "Natural approach to anxiety, burnout, and mood changes through targeted nutritional medicine"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Chronic Condition Management",
+            "description": "Natural treatment for chronic fatigue, autoimmune conditions, and inflammatory disorders"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Pregnancy Care & Fertility Support",
+            "description": "Safe, research-backed care for preconception, pregnancy, and post-partum support"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Weight Management Support",
+            "description": "Natural, non-restrictive approach to weight loss tailored to your body and lifestyle"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Initial Naturopathic Consultation",
+            "description": "Comprehensive 75-minute initial consultation including case taking, health assessment, and personalised treatment plan"
+          },
+          "priceCurrency": "AUD",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    },
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "name": "In-Person and Telehealth Consultations",
+      "serviceLocation": {
+        "@type": "Place",
+        "name": "NXTLVL Health",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Suite 2/665 Brunswick St",
+          "addressLocality": "New Farm",
+          "addressRegion": "QLD",
+          "addressCountry": "AU",
+          "postalCode": "4005"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "-27.4646",
+          "longitude": "153.0448"
+        }
+      },
+      "servicePhone": "(07) 3180 8853",
+      "serviceUrl": "https://www.nxtlvlhealth.com.au/areas-we-serve/naturopath-newstead"
+    },
+    "serviceOutput": [
+      "Personalised treatment plans",
+      "Natural health solutions",
+      "Functional testing recommendations",
+      "Nutritional guidance",
+      "Herbal medicine prescriptions",
+      "Lifestyle recommendations",
+      "Ongoing health monitoring"
+    ],
+    "audience": {
+      "@type": "PeopleAudience",
+      "geographicArea": "Newstead, Queensland, Australia",
+      "audienceType": "Patients seeking natural health solutions"
+    },
+    "performer": {
+      "@type": "Person",
+      "name": "Mitchell Potts",
+      "jobTitle": "Naturopath & Nutritional Medicine Practitioner",
+      "description": "Qualified naturopath with extensive experience in natural medicine, specialising in gut health, hormonal imbalances, and chronic health conditions",
+      "worksFor": {
+        "@type": "LocalBusiness",
+        "@id": "https://www.nxtlvlhealth.com.au/#organization"
+      }
+    },
+    "potentialAction": [
+      {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://nxtlvlhealth.com.au/book-now/",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        },
+        "result": {
+          "@type": "Reservation",
+          "name": "Naturopathic Consultation Appointment"
+        }
+      },
+      {
+        "@type": "CommunicateAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "tel:(07) 3180 8853",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      }
+    ],
+    "isRelatedTo": [
+      {
+        "@type": "Service",
+        "name": "Gut Health Specialist",
+        "url": "https://www.nxtlvlhealth.com.au/what-we-treat/gut-health-specialist-brisbane"
+      },
+      {
+        "@type": "Service", 
+        "name": "IBS Treatment",
+        "url": "https://www.nxtlvlhealth.com.au/what-we-treat/ibs-treatment-brisbane"
+      },
+      {
+        "@type": "Service",
+        "name": "Functional Medicine",
+        "url": "https://www.nxtlvlhealth.com.au/functional-medicine"
+      }
+    ]
+  };
+
   return (
     <>
       <SEO 
@@ -12,6 +257,7 @@ const NewsteadNaturopathy = () => {
         description="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath in Newstead Brisbane that will find and heal the root cause of your problems."
         canonical="/areas-we-serve/naturopath-newstead"
         keywords="naturopath Newstead, Newstead naturopathy, natural health Newstead, holistic health Newstead Brisbane"
+        serviceSchema={newsteadNaturopathyServiceSchema}
       />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
