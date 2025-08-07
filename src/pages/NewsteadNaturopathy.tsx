@@ -1,4 +1,3 @@
-
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -192,16 +191,6 @@ const NewsteadNaturopathy = () => {
       "@type": "PeopleAudience",
       "geographicArea": "Newstead, Queensland, Australia",
       "audienceType": "Patients seeking natural health solutions"
-    },
-    "performer": {
-      "@type": "Person",
-      "name": "Mitchell Potts",
-      "jobTitle": "Naturopath & Nutritional Medicine Practitioner",
-      "description": "Qualified naturopath with extensive experience in natural medicine, specialising in gut health, hormonal imbalances, and chronic health conditions",
-      "worksFor": {
-        "@type": "LocalBusiness",
-        "@id": "https://www.nxtlvlhealth.com.au/#organization"
-      }
     },
     "potentialAction": [
       {
