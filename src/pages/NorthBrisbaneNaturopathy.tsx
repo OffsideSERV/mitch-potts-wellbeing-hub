@@ -20,7 +20,19 @@ const NorthBrisbaneNaturopathy = () => {
     ],
     "provider": {
       "@type": "LocalBusiness",
-      "@id": "https://www.nxtlvlhealth.com.au/#organization"
+      "@id": "https://www.nxtlvlhealth.com.au/#organization",
+      "name": "NXTLVL Health - Naturopath",
+      "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
+      "telephone": "(07) 3180 8853",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Suite 2/665 Brunswick St",
+        "addressLocality": "New Farm",
+        "addressRegion": "QLD",
+        "addressCountry": "AU",
+        "postalCode": "4005"
+      },
+      "priceRange": "$$"
     },
     "serviceType": "Healthcare Service",
     "category": ["Naturopathy", "Natural Medicine", "Holistic Health", "Functional Medicine"],
@@ -234,20 +246,6 @@ const NorthBrisbaneNaturopathy = () => {
         "name": "Functional Medicine",
         "url": "https://www.nxtlvlhealth.com.au/functional-medicine"
       }
-    ],
-    "knows": [
-      "Naturopathy",
-      "Nutritional Medicine",
-      "Herbal Medicine",
-      "Functional Testing",
-      "Gut Health",
-      "Hormonal Health",
-      "Women's Health",
-      "Children's Health",
-      "Mental Health Support",
-      "Chronic Disease Management",
-      "Weight Management",
-      "Natural Health Solutions"
     ]
   };
 
