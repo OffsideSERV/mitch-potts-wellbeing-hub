@@ -6,8 +6,6 @@
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
   Referrer-Policy: strict-origin-when-cross-origin
-  # Prerender.io support
-  X-Prerender-Version: 2.0
 
 # Static files caching
 /assets/*
