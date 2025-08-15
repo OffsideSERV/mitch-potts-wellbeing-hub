@@ -1,1 +1,7 @@
 project_id = "cmvowywabqjbijbnypdr"
+
+[functions.prerender-middleware]
+verify_jwt = false
+
+[functions.prerender-proxy]
+verify_jwt = false

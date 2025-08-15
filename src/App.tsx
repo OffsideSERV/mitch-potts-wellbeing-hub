@@ -7,6 +7,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import Layout from "./components/Layout";
 import CriticalCSS from "./components/CriticalCSS";
 import GutHealthPopup from "./components/GutHealthPopup";
+import PrerenderHandler from "./components/PrerenderHandler";
 
 // Import all pages directly for instant navigation
 import Index from "./pages/Index";
@@ -80,9 +81,10 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <GutHealthPopup />
-        <Layout>
-          <Routes>
+        <PrerenderHandler>
+          <GutHealthPopup />
+          <Layout>
+            <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/services" element={<Services />} />
               <Route path="/services/mls-laser-therapy-treatment-brisbane" element={<MLSLaser />} />
@@ -149,8 +151,9 @@ const App = () => (
               
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
-          </Routes>
-        </Layout>
+            </Routes>
+          </Layout>
+        </PrerenderHandler>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
