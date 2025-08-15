@@ -5,6 +5,13 @@
 [build.environment]
   NODE_VERSION = "18"
 
+# Prerender.io integration for SEO bots
+[[redirects]]
+  from = "/*"
+  to = "https://service.prerender.io/QeugJA4NZLtA9fTh4OuK/:splat"
+  status = 200
+  conditions = {User-Agent = ["*googlebot*", "*bingbot*", "*yandex*", "*baiduspider*", "*facebookexternalhit*", "*twitterbot*", "*rogerbot*", "*linkedinbot*", "*embedly*", "*quora*", "*showyoubot*", "*outbrain*", "*pinterest*", "*developers.google.com*", "*slackbot*", "*vkShare*", "*W3C_Validator*", "*redditbot*", "*Applebot*", "*WhatsApp*", "*flipboard*", "*tumblr*", "*bitlybot*", "*SkypeUriPreview*", "*nuzzel*", "*Discordbot*", "*Google Page Speed*", "*Qwantify*", "*pinterestbot*", "*Bitrix link preview*", "*XING-contenttabreceiver*", "*Chrome-Lighthouse*", "*TelegramBot*"]}
+
 [[redirects]]
   from = "/robots.txt"
   to = "/robots.txt"
