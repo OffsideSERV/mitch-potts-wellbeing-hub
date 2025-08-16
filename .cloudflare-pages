@@ -1,0 +1,3 @@
+# Force Cloudflare Pages to use npm instead of bun
+BUILD_COMMAND = "npm run build"
+NODE_VERSION = "18"

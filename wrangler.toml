@@ -1,0 +1,12 @@
+# Cloudflare Pages configuration
+[build]
+command = "npm run build"
+cwd = ""
+destination = "dist"
+
+[build.environment]
+NODE_VERSION = "18"
+NPM_VERSION = "latest"
+
+[[build.env]]
+NODE_ENV = "production"
