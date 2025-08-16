@@ -1,4 +1,7 @@
-# Force Cloudflare Pages to use npm instead of bun
-BUILD_COMMAND = "npm ci && npm run build"
+# Force Cloudflare Pages to use npm exclusively
+[build]
+command = "npm run build"
+[build.environment]
 NODE_VERSION = "18.20.4"
-NPM_FLAGS = "--prefer-offline --no-audit"
+NPM_VERSION = "10.9.2"
+SKIP_INSTALL_DEPS = "true"
