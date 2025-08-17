@@ -1,9 +1,13 @@
 
+import { useState } from 'react';
 import SEO from '@/components/SEO';
 import { Button } from "@/components/ui/button";
 import { Calendar, Zap, Target, Heart, Sparkles, Gift, Clock } from 'lucide-react';
+import BookingModal from '@/components/BookingModal';
 
 const LaserHealing = () => {
+  const [isBookingModalOpen, setIsBookingModalOpen] = useState(false);
+
   return (
     <div className="min-h-screen bg-background">
       <SEO
@@ -72,11 +76,13 @@ const LaserHealing = () => {
                 </p>
               </div>
               
-              <Button size="lg" className="text-lg px-8 py-4 h-auto w-full sm:w-auto bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700" asChild>
-                <a href="/book-now">
-                  <Calendar className="mr-2 h-5 w-5" />
-                  Book Your Healing Session
-                </a>
+              <Button 
+                size="lg" 
+                className="text-lg px-8 py-4 h-auto w-full sm:w-auto bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700"
+                onClick={() => setIsBookingModalOpen(true)}
+              >
+                <Calendar className="mr-2 h-5 w-5" />
+                Book Your Healing Session
               </Button>
             </div>
             
@@ -257,11 +263,13 @@ const LaserHealing = () => {
                 That's what's waiting for you.
               </p>
               
-              <Button size="lg" className="text-xl px-12 py-6 h-auto bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700" asChild>
-                <a href="/book-now">
-                  <Calendar className="mr-3 h-6 w-6" />
-                  Start Your Healing Journey
-                </a>
+              <Button 
+                size="lg" 
+                className="text-xl px-12 py-6 h-auto bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700"
+                onClick={() => setIsBookingModalOpen(true)}
+              >
+                <Calendar className="mr-3 h-6 w-6" />
+                Start Your Healing Journey
               </Button>
             </div>
           </div>
@@ -287,14 +295,22 @@ const LaserHealing = () => {
             </p>
           </div>
           
-          <Button size="lg" variant="secondary" className="text-xl px-12 py-6 h-auto bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white border-0" asChild>
-            <a href="/book-now">
-              <Calendar className="mr-3 h-6 w-6" />
-              Book Your Session Now
-            </a>
+          <Button 
+            size="lg" 
+            variant="secondary" 
+            className="text-xl px-12 py-6 h-auto bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white border-0"
+            onClick={() => setIsBookingModalOpen(true)}
+          >
+            <Calendar className="mr-3 h-6 w-6" />
+            Book Your Session Now
           </Button>
         </div>
       </section>
+
+      <BookingModal 
+        isOpen={isBookingModalOpen}
+        onClose={() => setIsBookingModalOpen(false)}
+      />
     </div>
   );
 };
