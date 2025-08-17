@@ -3,15 +3,12 @@ import { X, Gift, Play, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Link } from "react-router-dom";
-
 const GutHealthPopup = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [hasShown, setHasShown] = useState(false);
-
   useEffect(() => {
     // Check if popup has been shown before in this session
     const popupShown = sessionStorage.getItem('gutHealthPopupShown');
-    
     if (!popupShown && !hasShown) {
       const timer = setTimeout(() => {
         setIsOpen(true);
@@ -22,19 +19,13 @@ const GutHealthPopup = () => {
       return () => clearTimeout(timer);
     }
   }, [hasShown]);
-
   const handleClose = () => {
     setIsOpen(false);
   };
-
-  return (
-    <Dialog open={isOpen} onOpenChange={setIsOpen}>
+  return <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogContent className="sm:max-w-md mx-4 rounded-lg border-0 bg-gradient-to-br from-green-50 to-emerald-50 p-0 overflow-hidden">
         {/* Close Button */}
-        <button
-          onClick={handleClose}
-          className="absolute right-4 top-4 z-10 rounded-full bg-white/80 p-1 text-gray-500 hover:bg-white hover:text-gray-700 transition-colors"
-        >
+        <button onClick={handleClose} className="absolute right-4 top-4 z-10 rounded-full bg-white/80 p-1 text-gray-500 hover:bg-white hover:text-gray-700 transition-colors">
           <X className="h-4 w-4" />
         </button>
 
@@ -63,17 +54,11 @@ const GutHealthPopup = () => {
               <CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0" />
               <span>Learn 3 simple steps to improve digestion</span>
             </div>
-            <div className="flex items-center gap-2 text-sm text-gray-700">
-              <CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0" />
-              <span>Get instant access - no email required!</span>
-            </div>
+            
           </div>
 
           {/* CTA Button */}
-          <Button 
-            asChild
-            className="w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white font-semibold py-3 rounded-lg text-base shadow-lg hover:shadow-xl transition-all duration-200"
-          >
+          <Button asChild className="w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white font-semibold py-3 rounded-lg text-base shadow-lg hover:shadow-xl transition-all duration-200">
             <Link to="/gut-freedom" onClick={handleClose}>
               <Play className="h-4 w-4 mr-2" />
               Watch Free Video Now
@@ -89,8 +74,6 @@ const GutHealthPopup = () => {
         {/* Bottom Accent */}
         <div className="h-2 bg-gradient-to-r from-green-500 to-emerald-500"></div>
       </DialogContent>
-    </Dialog>
-  );
+    </Dialog>;
 };
-
 export default GutHealthPopup;
