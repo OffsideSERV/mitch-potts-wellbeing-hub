@@ -53,7 +53,7 @@ const BookingModal = ({ isOpen, onClose }: BookingModalProps) => {
             <span className="sr-only">Close</span>
           </button>
         </DialogHeader>
-        <div className="flex-1 p-6 pt-0">
+        <div className="flex-1 p-6 pt-0 overflow-y-auto">
           <iframe 
             id='cliniko-25356803' 
             src='https://nxtlvl-health.au2.cliniko.com/bookings?business_id=1258316482023004823&practitioner_id=1258316476444580390&appointment_type_id=1262695176401328440&embedded=true' 
