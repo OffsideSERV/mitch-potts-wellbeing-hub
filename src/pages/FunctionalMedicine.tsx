@@ -121,6 +121,9 @@ const FunctionalMedicine = () => {
               src="/lovable-uploads/0aadec6a-7f1f-4a21-854c-39d8c3a218d0.png" 
               alt="Functional medicine testing and analysis at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
+              width={320}
+              height={240}
+              loading="lazy"
             />
           </div>
 

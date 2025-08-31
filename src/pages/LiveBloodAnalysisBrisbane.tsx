@@ -223,7 +223,7 @@ const LiveBloodAnalysisBrisbane = () => {
 
           {/* Add image after heading and description */}
           <div className="mb-12">
-            <img src="/lovable-uploads/0aadec6a-7f1f-4a21-854c-39d8c3a218d0.png" alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/0aadec6a-7f1f-4a21-854c-39d8c3a218d0.png" alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" width={320} height={240} loading="lazy" />
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto">
