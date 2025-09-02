@@ -2,7 +2,6 @@ import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Activity, Brain, Target, Leaf, Shield, Microscope } from "lucide-react";
-
 const GutHealthSpecialist = () => {
   // Service Schema for Gut Health Specialist
   const gutHealthSpecialistSchema = {
@@ -35,38 +34,34 @@ const GutHealthSpecialist = () => {
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Gut Health Specialist Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Comprehensive Gut Health Assessment",
-            "description": "Detailed evaluation of digestive system function, microbiome analysis, and personalised treatment planning for optimal gut health"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
+      "itemListElement": [{
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Comprehensive Gut Health Assessment",
+          "description": "Detailed evaluation of digestive system function, microbiome analysis, and personalised treatment planning for optimal gut health"
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Advanced Gut Microbiome Testing",
-            "description": "Specialised testing including stool analysis, SIBO breath tests, food intolerance testing, and functional digestive assessments"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }, {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Advanced Gut Microbiome Testing",
+          "description": "Specialised testing including stool analysis, SIBO breath tests, food intolerance testing, and functional digestive assessments"
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Personalised Gut Healing Programme",
-            "description": "Customised treatment plans using natural therapies, herbal medicine, nutritional support, and lifestyle modifications for digestive restoration"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
-        }
-      ]
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }, {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Personalised Gut Healing Programme",
+          "description": "Customised treatment plans using natural therapies, herbal medicine, nutritional support, and lifestyle modifications for digestive restoration"
+        },
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }]
     },
     "serviceArea": {
       "@type": "GeoCircle",
@@ -77,30 +72,7 @@ const GutHealthSpecialist = () => {
       },
       "geoRadius": "50000"
     },
-    "areaServed": [
-      "Brisbane",
-      "New Farm",
-      "Fortitude Valley",
-      "Newstead",
-      "Teneriffe",
-      "Kangaroo Point",
-      "East Brisbane",
-      "Norman Park",
-      "Bulimba",
-      "Hawthorne",
-      "Morningside",
-      "Ascot",
-      "Hamilton",
-      "Clayfield",
-      "Wilston",
-      "Windsor",
-      "Kelvin Grove",
-      "Paddington",
-      "Red Hill",
-      "Auchenflower",
-      "Toowong",
-      "Queensland"
-    ],
+    "areaServed": ["Brisbane", "New Farm", "Fortitude Valley", "Newstead", "Teneriffe", "Kangaroo Point", "East Brisbane", "Norman Park", "Bulimba", "Hawthorne", "Morningside", "Ascot", "Hamilton", "Clayfield", "Wilston", "Windsor", "Kelvin Grove", "Paddington", "Red Hill", "Auchenflower", "Toowong", "Queensland"],
     "availableChannel": {
       "@type": "ServiceChannel",
       "name": "In-Person Gut Health Consultations",
@@ -119,49 +91,26 @@ const GutHealthSpecialist = () => {
       "servicePhone": "(07) 3180 8853",
       "serviceUrl": "https://www.nxtlvlhealth.com.au/what-we-treat/gut-health-specialist"
     },
-    "serviceOutput": [
-      "SIBO Treatment",
-      "IBS Management", 
-      "Digestive Disorder Resolution",
-      "Microbiome Restoration",
-      "Leaky Gut Healing",
-      "Food Intolerance Management",
-      "Inflammatory Bowel Disease Support",
-      "Gut-Brain Axis Optimisation",
-      "Digestive Health Education",
-      "Natural Gut Healing Protocols"
-    ],
+    "serviceOutput": ["SIBO Treatment", "IBS Management", "Digestive Disorder Resolution", "Microbiome Restoration", "Leaky Gut Healing", "Food Intolerance Management", "Inflammatory Bowel Disease Support", "Gut-Brain Axis Optimisation", "Digestive Health Education", "Natural Gut Healing Protocols"],
     "audience": {
       "@type": "PeopleAudience",
       "audienceType": "Individuals with digestive disorders, gut health issues, microbiome imbalances, SIBO, IBS, and chronic digestive symptoms"
     },
-    "potentialAction": [
-      {
-        "@type": "ReserveAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://calendly.com/nxtlvlhealth-info/15-min-consult",
-          "actionPlatform": [
-            "http://schema.org/DesktopWebPlatform",
-            "http://schema.org/MobileWebPlatform"
-          ]
-        },
-        "result": {
-          "@type": "Reservation",
-          "name": "Gut Health Specialist Consultation"
-        }
+    "potentialAction": [{
+      "@type": "ReserveAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://calendly.com/nxtlvlhealth-info/15-min-consult",
+        "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]
+      },
+      "result": {
+        "@type": "Reservation",
+        "name": "Gut Health Specialist Consultation"
       }
-    ]
+    }]
   };
-  return (
-    <>
-      <SEO 
-        title="Best Gut Health Specialist in Brisbane | Book a Free Consult"
-        description="Feeling tired, bloated, foggy or just flat? Our gut health specialist Mitch will the real cause of your symptoms, so you can finally feel like YOU again."
-        canonical="/what-we-treat/gut-health-specialist"
-        keywords="gut health specialist Brisbane, digestive health Brisbane, gut health doctor, microbiome specialist, SIBO specialist Brisbane"
-        serviceSchema={gutHealthSpecialistSchema}
-      />
+  return <>
+      <SEO title="Best Gut Health Specialist in Brisbane | Book a Free Consult" description="Feeling tired, bloated, foggy or just flat? Our gut health specialist Mitch will the real cause of your symptoms, so you can finally feel like YOU again." canonical="/what-we-treat/gut-health-specialist" keywords="gut health specialist Brisbane, digestive health Brisbane, gut health doctor, microbiome specialist, SIBO specialist Brisbane" serviceSchema={gutHealthSpecialistSchema} />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
@@ -175,11 +124,7 @@ const GutHealthSpecialist = () => {
                 
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                   <img 
-                     alt="Gut health specialist consultation at NXTLVL Health" 
-                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                     src="/lovable-uploads/85472ace-cbc5-4079-9a2e-27bb7dcce090.png" 
-                   />
+                   <img alt="Gut health specialist consultation at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/85472ace-cbc5-4079-9a2e-27bb7dcce090.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Activity className="h-6 w-6 text-primary" />
@@ -193,10 +138,7 @@ const GutHealthSpecialist = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button 
-                  asChild 
-                  className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight"
-                >
+                <Button asChild className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight">
                   <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                     <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
@@ -204,11 +146,7 @@ const GutHealthSpecialist = () => {
                     <span className="text-center">Book a Free 15-Min Consult</span>
                   </a>
                 </Button>
-                <Button 
-                  variant="outline" 
-                  asChild 
-                  className="text-base sm:text-lg px-4 py-3 h-auto"
-                >
+                <Button variant="outline" asChild className="text-base sm:text-lg px-4 py-3 h-auto">
                   <a href="tel:0731808853">
                     <svg className="mr-2 h-4 w-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
@@ -226,11 +164,7 @@ const GutHealthSpecialist = () => {
             
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-               <img 
-                 alt="Gut health specialist consultation at NXTLVL Health" 
-                 className="rounded-2xl shadow-2xl w-full h-auto" 
-                 src="/lovable-uploads/85472ace-cbc5-4079-9a2e-27bb7dcce090.png" 
-               />
+               <img alt="Gut health specialist consultation at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/85472ace-cbc5-4079-9a2e-27bb7dcce090.png" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Activity className="h-8 w-8 text-primary" />
@@ -249,30 +183,22 @@ const GutHealthSpecialist = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Not Feeling Right? Your Gut Could Be the Key</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Are You Not Feeling Right? Your Gut Could Be the Key</h2>
           </div>
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-             <img 
-               src="/lovable-uploads/09a6a7fe-ea21-4642-87aa-dad3d0f73026.png" 
-               alt="Woman discussing gut health issues with naturopath at NXTLVL Health" 
-               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
-             />
+             <img src="/lovable-uploads/09a6a7fe-ea21-4642-87aa-dad3d0f73026.png" alt="Woman discussing gut health issues with naturopath at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
-                <p>
-                  Do you feel bloated all of the time? Does your stomach ache after meals? Do you struggle with gas, reflux, or bowel issues?
-                </p>
+                <p>Do you feel bloated all of the time? Does your stomach ache after every meal? Do you struggle with gas, reflux, or bowel issues?</p>
                 <p>
                   You're not alone, and you're definitely not making it up.
                 </p>
-                <p>
-                  Many people live with gut issues that make everyday life hard. And often, they're told it's "just stress" or to try another diet. But at NXTLVL Health, we know the gut is the core of your health, and we treat it accordingly.
-                </p>
+                <p>Many people live with gut issues that make everyday life hard. And often, they're told it's "just stress" or to try another diet. But at NXTLVL Health, we know that the gut is the core of your health, and we treat it accordingly.</p>
                 <p>
                   Mitch, a trusted gut health specialist in Brisbane, helps you find out why your gut isn't feeling quite right. Whether it's <a href="/what-we-treat/sibo-naturopath" className="text-primary hover:underline">small intestinal bacterial overgrowth (SIBO)</a>, <a href="/what-we-treat/ibs-naturopath" className="text-primary hover:underline">irritable bowel syndrome (IBS)</a>, or a sensitive tummy, you'll get real support that helps you feel like yourself again. We also offer specialized care at our <a href="/what-we-treat/ibs-clinic" className="text-primary hover:underline">IBS clinic</a> for comprehensive treatment.
                 </p>
@@ -280,11 +206,7 @@ const GutHealthSpecialist = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-               <img 
-                 src="/lovable-uploads/09a6a7fe-ea21-4642-87aa-dad3d0f73026.png" 
-                 alt="Woman discussing gut health issues with naturopath at NXTLVL Health" 
-                 className="rounded-2xl shadow-lg w-full h-auto" 
-               />
+               <img src="/lovable-uploads/09a6a7fe-ea21-4642-87aa-dad3d0f73026.png" alt="Woman discussing gut health issues with naturopath at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -299,11 +221,7 @@ const GutHealthSpecialist = () => {
 
           {/* Image */}
           <div className="mb-12">
-             <img 
-               src="/lovable-uploads/bed9e40f-2f68-4ae1-8b4a-a0b9a84accbd.png" 
-               alt="Naturopath examining gut health samples under microscope at NXTLVL Health" 
-               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-             />
+             <img src="/lovable-uploads/bed9e40f-2f68-4ae1-8b4a-a0b9a84accbd.png" alt="Naturopath examining gut health samples under microscope at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
@@ -326,32 +244,18 @@ const GutHealthSpecialist = () => {
 
           {/* Image */}
           <div className="mb-12">
-             <img 
-               src="/lovable-uploads/7576859d-ce00-418a-abd7-2ba07fdeb7dc.png" 
-               alt="Gut health consultation and assessment at NXTLVL Health clinic" 
-               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-             />
+             <img src="/lovable-uploads/7576859d-ce00-418a-abd7-2ba07fdeb7dc.png" alt="Gut health consultation and assessment at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
-            {[
-              "You always feel bloated or gassy",
-              "Your belly hurts after every meal",
-              "You have trouble with going to the toilet, either too much or not enough",
-              "You're sensitive to a lot of foods",
-              "You feel tired, foggy, or moody for no reason",
-              "Your skin is breaking out or feels itchy",
-              "You've been told you're \"fine,\" but you don't feel fine"
-            ].map((symptom, index) => (
-              <Card key={index}>
+            {["You always feel bloated or gassy", "Your belly hurts after every meal", "You have trouble with going to the toilet, either too much or not enough", "You're sensitive to a lot of foods", "You feel tired, foggy, or moody for no reason", "Your skin is breaking out or feels itchy", "You've been told you're \"fine,\" but you don't feel fine"].map((symptom, index) => <Card key={index}>
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
                     <span className="text-muted-foreground">{symptom}</span>
                   </div>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
 
           <div className="text-center">
@@ -371,11 +275,7 @@ const GutHealthSpecialist = () => {
 
           {/* Image */}
           <div className="mb-12">
-             <img 
-               src="/lovable-uploads/778efa12-2a50-4463-9137-b9811fb860b1.png" 
-               alt="Holistic gut health approach at NXTLVL Health Brisbane clinic" 
-               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-             />
+             <img src="/lovable-uploads/778efa12-2a50-4463-9137-b9811fb860b1.png" alt="Holistic gut health approach at NXTLVL Health Brisbane clinic" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-12">
@@ -388,20 +288,27 @@ const GutHealthSpecialist = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto mb-12">
-            {[
-              { icon: Brain, title: "Mental health" },
-              { icon: Activity, title: "Energy and sleep" },
-              { icon: Shield, title: "Immune system" },
-              { icon: Heart, title: "Skin and mood" },
-              { icon: Target, title: "Weight" }
-            ].map((item, index) => (
-              <Card key={index}>
+            {[{
+              icon: Brain,
+              title: "Mental health"
+            }, {
+              icon: Activity,
+              title: "Energy and sleep"
+            }, {
+              icon: Shield,
+              title: "Immune system"
+            }, {
+              icon: Heart,
+              title: "Skin and mood"
+            }, {
+              icon: Target,
+              title: "Weight"
+            }].map((item, index) => <Card key={index}>
                 <CardContent className="p-6 text-center">
                   <item.icon className="h-12 w-12 text-primary mx-auto mb-4" />
                   <h3 className="text-lg font-semibold">{item.title}</h3>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
 
           <div className="text-center">
@@ -423,32 +330,43 @@ const GutHealthSpecialist = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
-            {[
-              { text: "Small intestinal bacterial overgrowth (SIBO)", link: "/what-we-treat/sibo-naturopath" },
-              { text: "Irritable bowel syndrome (IBS)", link: "/what-we-treat/ibs-naturopath" },
-              { text: "Leaky gut", link: null },
-              { text: "Ulcerative colitis", link: null },
-              { text: "Inflammatory bowel disease (IBD)", link: null },
-              { text: "Reflux, bloating, constipation, diarrhoea", link: null },
-              { text: "Food intolerances", link: null },
-              { text: "Abdominal pain", link: null },
-              { text: "Digestive issues linked to mental health", link: null }
-            ].map((condition, index) => (
-              <Card key={index}>
+            {[{
+              text: "Small intestinal bacterial overgrowth (SIBO)",
+              link: "/what-we-treat/sibo-naturopath"
+            }, {
+              text: "Irritable bowel syndrome (IBS)",
+              link: "/what-we-treat/ibs-naturopath"
+            }, {
+              text: "Leaky gut",
+              link: null
+            }, {
+              text: "Ulcerative colitis",
+              link: null
+            }, {
+              text: "Inflammatory bowel disease (IBD)",
+              link: null
+            }, {
+              text: "Reflux, bloating, constipation, diarrhoea",
+              link: null
+            }, {
+              text: "Food intolerances",
+              link: null
+            }, {
+              text: "Abdominal pain",
+              link: null
+            }, {
+              text: "Digestive issues linked to mental health",
+              link: null
+            }].map((condition, index) => <Card key={index}>
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                     <span className="text-muted-foreground">
-                      {condition.link ? (
-                        <a href={condition.link} className="text-primary hover:underline">{condition.text}</a>
-                      ) : (
-                        condition.text
-                      )}
+                      {condition.link ? <a href={condition.link} className="text-primary hover:underline">{condition.text}</a> : condition.text}
                     </span>
                   </div>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
 
           <div className="text-center">
@@ -479,11 +397,7 @@ const GutHealthSpecialist = () => {
 
           {/* Image */}
           <div className="mb-12">
-             <img 
-               src="/lovable-uploads/108aecf4-9e98-4025-803d-5e64dbd22b5b.png" 
-               alt="Mitch Potts, gut health specialist at NXTLVL Health Brisbane" 
-               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-             />
+             <img src="/lovable-uploads/108aecf4-9e98-4025-803d-5e64dbd22b5b.png" alt="Mitch Potts, gut health specialist at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -555,11 +469,7 @@ const GutHealthSpecialist = () => {
 
           {/* Image */}
           <div className="mb-12">
-             <img 
-               src="/lovable-uploads/3b9f2e82-d4ec-4e42-8cd1-91f945cdb35e.png" 
-               alt="Gut health specialist explaining treatment plan to patient at NXTLVL Health" 
-               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-             />
+             <img src="/lovable-uploads/3b9f2e82-d4ec-4e42-8cd1-91f945cdb35e.png" alt="Gut health specialist explaining treatment plan to patient at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="space-y-8 max-w-4xl mx-auto">
@@ -653,22 +563,14 @@ const GutHealthSpecialist = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto mb-12">
-            {[
-              "Gut bacteria (both good and bad)",
-              "Inflammation markers",
-              "Digestive enzyme levels",
-              "Nutrient absorption",
-              "Food sensitivities"
-            ].map((test, index) => (
-              <Card key={index}>
+            {["Gut bacteria (both good and bad)", "Inflammation markers", "Digestive enzyme levels", "Nutrient absorption", "Food sensitivities"].map((test, index) => <Card key={index}>
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <Microscope className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
                     <span className="text-muted-foreground">{test}</span>
                   </div>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
 
           <div className="text-center">
@@ -687,29 +589,23 @@ const GutHealthSpecialist = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            {[
-              {
-                icon: Leaf,
-                title: "Herbal Medicine",
-                description: "To calm inflammation, reduce symptoms, and help your gut lining heal"
-              },
-              {
-                icon: Heart,
-                title: "Nutrition & Supplements",
-                description: "To support digestion, energy, and immune function"
-              },
-              {
-                icon: Activity,
-                title: "Diet Changes",
-                description: "Like low-FODMAP or anti-inflammatory food plans that suit your body"
-              },
-              {
-                icon: Brain,
-                title: "Mind-Body Support",
-                description: "To help you handle stress and feel more at peace"
-              }
-            ].map((tool, index) => (
-              <Card key={index}>
+            {[{
+              icon: Leaf,
+              title: "Herbal Medicine",
+              description: "To calm inflammation, reduce symptoms, and help your gut lining heal"
+            }, {
+              icon: Heart,
+              title: "Nutrition & Supplements",
+              description: "To support digestion, energy, and immune function"
+            }, {
+              icon: Activity,
+              title: "Diet Changes",
+              description: "Like low-FODMAP or anti-inflammatory food plans that suit your body"
+            }, {
+              icon: Brain,
+              title: "Mind-Body Support",
+              description: "To help you handle stress and feel more at peace"
+            }].map((tool, index) => <Card key={index}>
                 <CardHeader>
                   <CardTitle className="text-xl text-primary flex items-center gap-2">
                     <tool.icon className="h-6 w-6" />
@@ -719,8 +615,7 @@ const GutHealthSpecialist = () => {
                 <CardContent>
                   <p className="text-muted-foreground">{tool.description}</p>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -739,19 +634,24 @@ const GutHealthSpecialist = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto mb-12">
-            {[
-              { icon: Brain, title: "Stress" },
-              { icon: Activity, title: "Sleep" },
-              { icon: Heart, title: "Movement" },
-              { icon: Target, title: "Hormones" }
-            ].map((factor, index) => (
-              <Card key={index}>
+            {[{
+              icon: Brain,
+              title: "Stress"
+            }, {
+              icon: Activity,
+              title: "Sleep"
+            }, {
+              icon: Heart,
+              title: "Movement"
+            }, {
+              icon: Target,
+              title: "Hormones"
+            }].map((factor, index) => <Card key={index}>
                 <CardContent className="p-6 text-center">
                   <factor.icon className="h-12 w-12 text-primary mx-auto mb-4" />
                   <h3 className="text-lg font-semibold">{factor.title}</h3>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
 
           <div className="text-center">
@@ -770,13 +670,7 @@ const GutHealthSpecialist = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
-            {[
-              "Trying random supplements without testing",
-              "Cutting out lots of foods without knowing why",
-              "Taking probiotics too soon",
-              "Ignoring stress, sleep, or mental health"
-            ].map((mistake, index) => (
-              <Card key={index}>
+            {["Trying random supplements without testing", "Cutting out lots of foods without knowing why", "Taking probiotics too soon", "Ignoring stress, sleep, or mental health"].map((mistake, index) => <Card key={index}>
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center mt-0.5 flex-shrink-0">
@@ -785,8 +679,7 @@ const GutHealthSpecialist = () => {
                     <span className="text-muted-foreground">{mistake}</span>
                   </div>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
 
           <div className="text-center">
@@ -819,23 +712,14 @@ const GutHealthSpecialist = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            {[
-              "Feeling bloated or in pain after meals",
-              "Struggling with chronic digestive issues",
-              "Trying to manage IBS, IBD, or leaky gut",
-              "Looking to heal after antibiotics or food poisoning",
-              "Wanting to reduce inflammation naturally",
-              "Working on mental health or chronic fatigue"
-            ].map((client, index) => (
-              <Card key={index}>
+            {["Feeling bloated or in pain after meals", "Struggling with chronic digestive issues", "Trying to manage IBS, IBD, or leaky gut", "Looking to heal after antibiotics or food poisoning", "Wanting to reduce inflammation naturally", "Working on mental health or chronic fatigue"].map((client, index) => <Card key={index}>
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <Users className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
                     <span className="text-muted-foreground">{client}</span>
                   </div>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -851,13 +735,7 @@ const GutHealthSpecialist = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
-            {[
-              "\"I don't feel bloated anymore\"",
-              "\"My energy is finally back\"",
-              "\"I'm can eat without fear again\"",
-              "\"I feel clearer, lighter, and stronger\""
-            ].map((testimonial, index) => (
-              <Card key={index}>
+            {["\"I don't feel bloated anymore\"", "\"My energy is finally back\"", "\"I'm can eat without fear again\"", "\"I feel clearer, lighter, and stronger\""].map((testimonial, index) => <Card key={index}>
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mt-0.5 flex-shrink-0">
@@ -868,8 +746,7 @@ const GutHealthSpecialist = () => {
                     <span className="text-muted-foreground italic">{testimonial}</span>
                   </div>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
 
           <div className="text-center">
@@ -919,8 +796,6 @@ const GutHealthSpecialist = () => {
         </div>
       </section>
       </div>
-    </>
-  );
+    </>;
 };
-
 export default GutHealthSpecialist;
