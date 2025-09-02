@@ -216,7 +216,7 @@ const NorthBrisbaneNaturopathy = () => {
                 
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/d8fb55f4-1a1b-4a7f-9aef-fb782c41df21.png" />
+                <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/d8fb55f4-1a1b-4a7f-9aef-fb782c41df21.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Heart className="h-6 w-6 text-primary" />
@@ -256,7 +256,7 @@ const NorthBrisbaneNaturopathy = () => {
             
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/d8fb55f4-1a1b-4a7f-9aef-fb782c41df21.png" />
+            <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/d8fb55f4-1a1b-4a7f-9aef-fb782c41df21.png" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Heart className="h-8 w-8 text-primary" />
@@ -280,7 +280,7 @@ const NorthBrisbaneNaturopathy = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/e1f6dd06-164a-425b-bc19-839d603bc5ed.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/e1f6dd06-164a-425b-bc19-839d603bc5ed.png" alt="Professional naturopath in North Brisbane providing natural health consultation to client at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -294,7 +294,7 @@ const NorthBrisbaneNaturopathy = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/e1f6dd06-164a-425b-bc19-839d603bc5ed.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/e1f6dd06-164a-425b-bc19-839d603bc5ed.png" alt="Professional naturopath in North Brisbane providing natural health consultation to client at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -309,7 +309,7 @@ const NorthBrisbaneNaturopathy = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/d4dfb30d-6da4-42d6-86b4-14b51e4d4a8f.png" alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/d4dfb30d-6da4-42d6-86b4-14b51e4d4a8f.png" alt="Experienced naturopath in North Brisbane conducting advanced diagnostic testing for comprehensive health assessment" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -328,7 +328,7 @@ const NorthBrisbaneNaturopathy = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/d4dfb30d-6da4-42d6-86b4-14b51e4d4a8f.png" alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/d4dfb30d-6da4-42d6-86b4-14b51e4d4a8f.png" alt="Experienced naturopath in North Brisbane conducting advanced diagnostic testing for comprehensive health assessment" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -447,7 +447,7 @@ const NorthBrisbaneNaturopathy = () => {
 
           {/* Centered Image */}
           <div className="mb-12">
-            <img src="/lovable-uploads/1bfb1d77-659c-4abb-bf46-dbc9c76fb806.png" alt="Naturopath showing patient results on a computer at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/1bfb1d77-659c-4abb-bf46-dbc9c76fb806.png" alt="Naturopath explaining test results and treatment plan to patient during comprehensive consultation" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
