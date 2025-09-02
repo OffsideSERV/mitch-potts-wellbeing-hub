@@ -292,7 +292,7 @@ const GutHealth = () => {
                 
                 {/* Mobile Image - placed right after headline */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Gut health consultation with naturopath at NXTLVL Health Brisbane" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/8c8b4eb3-73e7-4d27-a130-784ffb35035c.png" />
+                  <img alt="Expert naturopath gut health consultation and functional testing at NXTLVL Health Brisbane clinic" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/8c8b4eb3-73e7-4d27-a130-784ffb35035c.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Activity className="h-6 w-6 text-primary" />
@@ -328,7 +328,7 @@ const GutHealth = () => {
             
             {/* Desktop Image - only visible on large screens */}
             <div className="relative hidden lg:block">
-              <img alt="Gut health consultation with naturopath at NXTLVL Health Brisbane" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/8c8b4eb3-73e7-4d27-a130-784ffb35035c.png" />
+              <img alt="Professional naturopath gut health assessment and digestive disorder treatment at NXTLVL Health Brisbane" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/8c8b4eb3-73e7-4d27-a130-784ffb35035c.png" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Activity className="h-8 w-8 text-primary" />
@@ -352,7 +352,7 @@ const GutHealth = () => {
 
           {/* Mobile Image positioned after heading */}
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/97a7e7b6-599f-4426-96b9-2ce7a68c115d.png" alt="Gut health naturopath consultation at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/97a7e7b6-599f-4426-96b9-2ce7a68c115d.png" alt="Personalised gut naturopath treatment plan for digestive health restoration" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -368,7 +368,7 @@ const GutHealth = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/97a7e7b6-599f-4426-96b9-2ce7a68c115d.png" alt="Gut health naturopath consultation at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/97a7e7b6-599f-4426-96b9-2ce7a68c115d.png" alt="Comprehensive naturopath gut health analysis and IBS treatment at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -429,7 +429,7 @@ const GutHealth = () => {
           </div>
 
           <div className="mb-12">
-            <img src="/lovable-uploads/c8bb9855-7c0b-45b1-8e50-ae2da28905ea.png" alt="Naturopath conducting functional testing for gut health at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/c8bb9855-7c0b-45b1-8e50-ae2da28905ea.png" alt="Advanced functional digestive testing and SIBO breath tests for accurate diagnosis" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="text-center mb-12">
@@ -510,7 +510,7 @@ const GutHealth = () => {
           </div>
 
           <div className="mb-12">
-            <img src="/lovable-uploads/507d386f-e7d8-4e14-a144-56b40f6d528f.png" alt="Gut health consultation process at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/507d386f-e7d8-4e14-a144-56b40f6d528f.png" alt="Step-by-step gut healing process with herbal medicine and natural treatment protocols" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
@@ -701,7 +701,7 @@ const GutHealth = () => {
 
           {/* Add image after heading and description */}
           <div className="mb-12">
-            <img src="/lovable-uploads/39fb88b6-708c-4f0e-95a2-a91eb10c7d5b.png" alt="Mitch Potts, naturopath and gut health specialist at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/39fb88b6-708c-4f0e-95a2-a91eb10c7d5b.png" alt="Mitchell Potts, experienced gut naturopath specialising in digestive disorders and microbiome restoration" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="text-center mb-12">
