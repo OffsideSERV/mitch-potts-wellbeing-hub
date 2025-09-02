@@ -80,7 +80,7 @@ const Diabetes = () => {
                 
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/39b7f717-8cae-400f-8062-def9a15add9b.png" />
+                  <img alt="Professional naturopath for diabetes consultation with patient at NXTLVL Health Brisbane clinic" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/39b7f717-8cae-400f-8062-def9a15add9b.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -118,7 +118,7 @@ const Diabetes = () => {
             
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/39b7f717-8cae-400f-8062-def9a15add9b.png" />
+              <img alt="Professional naturopath for diabetes consultation with patient at NXTLVL Health Brisbane clinic" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/39b7f717-8cae-400f-8062-def9a15add9b.png" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <svg className="h-8 w-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -143,7 +143,7 @@ const Diabetes = () => {
           </div>
 
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/faa446bf-e101-44fd-a31d-5619fbc7ff3e.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/faa446bf-e101-44fd-a31d-5619fbc7ff3e.png" alt="Woman discussing diabetes management with experienced naturopath for diabetes at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -162,7 +162,7 @@ const Diabetes = () => {
               </div>
             </div>
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/faa446bf-e101-44fd-a31d-5619fbc7ff3e.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/faa446bf-e101-44fd-a31d-5619fbc7ff3e.png" alt="Woman discussing diabetes management with experienced naturopath for diabetes at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -184,7 +184,7 @@ const Diabetes = () => {
           </div>
 
           <div className="mb-12">
-            <img src="/lovable-uploads/bd169e16-b7bf-4db3-bf47-e01fffad1dbb.png" alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/bd169e16-b7bf-4db3-bf47-e01fffad1dbb.png" alt="Brisbane naturopath conducting comprehensive live blood analysis for diabetes assessment at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto">
@@ -474,7 +474,7 @@ const Diabetes = () => {
           </div>
 
           <div className="mb-12">
-            <img src="/lovable-uploads/e2d3e454-5ff4-4045-bda9-1c51e346a2b2.png" alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/e2d3e454-5ff4-4045-bda9-1c51e346a2b2.png" alt="NXTLVL Health naturopathic medicine clinic exterior in New Farm Brisbane specializing in diabetes care" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto">
