@@ -224,9 +224,7 @@ const Index = () => {
                 <CardTitle className="text-xl">Your Gut Feels Like a Mess</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-base">
-                  Bloating. Gas. Food reactions. Even healthy meals can set off discomfort. It's unpredictable and exhausting.
-                </CardDescription>
+                <CardDescription className="text-base">Bloating. Gas. Food reactions. Even healthy meals can set off discomfort for you. It's unpredictable and draining.</CardDescription>
               </CardContent>
             </Card>
 
