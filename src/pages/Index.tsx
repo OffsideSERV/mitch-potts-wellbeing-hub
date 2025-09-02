@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, TestTube, BadgeCheck, Target, Shield, Zap, Coffee, Clock, Brain, Phone, Pill, Salad, DollarSign, CheckCircle, Star, Gift, ArrowRight, Video } from 'lucide-react';
-
 const Index = () => {
   const services = useMemo(() => [{
     title: "Naturopathy",
@@ -33,9 +32,7 @@ const Index = () => {
     description: "Workouts and lifestyle coaching that help support both healing and performance – all tailored for your life and schedule.",
     icon: <Target className="h-8 w-8 text-primary" />
   }], []);
-
   const conditions = useMemo(() => ["Digestive disorders (IBS, SIBO, bloating, reflux)", "Hormonal imbalances (PMS, PCOS, peri menopause)", "Chronic fatigue and burnout", "Skin issues (eczema, acne)", "Mental health and stress", "Poor sleep and insomnia", "Autoimmune support", "Food intolerances and allergies", "Weight management", "Immune system support", "Mood disorders like anxiety or low mood"], []);
-
   const whyDifferent = useMemo(() => [{
     title: "We Test, We Don't Guess",
     description: "Our live blood analysis and functional testing show us exactly what's going on in your body. There's no guessing, just real answers.",
@@ -53,15 +50,8 @@ const Index = () => {
     description: "You're not alone. We stay with you the whole time, checking in, making changes, and helping you feel confident in your health journey.",
     icon: <Shield className="h-6 w-6 text-primary" />
   }], []);
-
-  return (
-    <div className="min-h-screen bg-background">
-      <SEO 
-        title="Best Naturopath Brisbane | Book a FREE 15-Min Consult!" 
-        description="Feel like something's wrong but no one's listening? NXTLVL Health is the best Naturopath in Brisbane and is here to give you the answers you've been looking for" 
-        canonical="/" 
-        keywords="naturopath Brisbane, best naturopath Brisbane, natural medicine Brisbane, functional medicine Brisbane, gut health Brisbane" 
-      />
+  return <div className="min-h-screen bg-background">
+      <SEO title="Best Naturopath Brisbane | Book a FREE 15-Min Consult!" description="Feel like something's wrong but no one's listening? NXTLVL Health is the best Naturopath in Brisbane and is here to give you the answers you've been looking for" canonical="/" keywords="naturopath Brisbane, best naturopath Brisbane, natural medicine Brisbane, functional medicine Brisbane, gut health Brisbane" />
       
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
@@ -224,9 +214,7 @@ const Index = () => {
                 <CardTitle className="text-xl">You're Always Tired</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-base">
-                  You sleep, but still feel wrecked. You rely on caffeine just to think straight. And the brain fog? It's making everything harder.
-                </CardDescription>
+                <CardDescription className="text-base">You sleep, but you still feel wrecked. You rely on caffeine just to think straight everyday. And the brain fog? It's making everything harder.</CardDescription>
               </CardContent>
             </Card>
 
@@ -517,8 +505,7 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {whyDifferent.map((item, index) => (
-              <Card key={index} className="border-0 shadow-md text-center">
+            {whyDifferent.map((item, index) => <Card key={index} className="border-0 shadow-md text-center">
                 <CardHeader className="pb-4">
                   <div className="mx-auto mb-4 p-3 bg-primary/10 rounded-full w-fit">
                     {item.icon}
@@ -526,8 +513,7 @@ const Index = () => {
                   <CardTitle className="text-lg">{item.title}</CardTitle>
                   <CardDescription className="text-base pt-2">{item.description}</CardDescription>
                 </CardHeader>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -544,8 +530,7 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {services.map((service, index) => (
-              <Card key={index} className="border-0 shadow-md">
+            {services.map((service, index) => <Card key={index} className="border-0 shadow-md">
                 <CardHeader>
                   <div className="flex items-center space-x-3 mb-3">
                     {service.icon}
@@ -553,8 +538,7 @@ const Index = () => {
                   </div>
                   <CardDescription className="text-base">{service.description}</CardDescription>
                 </CardHeader>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -734,8 +718,6 @@ const Index = () => {
         </div>
       </section>
 
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
