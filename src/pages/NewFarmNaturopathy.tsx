@@ -18,7 +18,7 @@ const NewFarmNaturopathy = () => {
                 
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/84b53da1-9f6d-44e1-83af-7bfa206f9225.png" />
+                  <img alt="Professional naturopath consultation with female patient at NXTLVL Health clinic" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/84b53da1-9f6d-44e1-83af-7bfa206f9225.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Heart className="h-6 w-6 text-primary" />
@@ -54,7 +54,7 @@ const NewFarmNaturopathy = () => {
             
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/84b53da1-9f6d-44e1-83af-7bfa206f9225.png" />
+              <img alt="Professional naturopath consultation with female patient at NXTLVL Health clinic" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/84b53da1-9f6d-44e1-83af-7bfa206f9225.png" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Heart className="h-8 w-8 text-primary" />
@@ -78,7 +78,7 @@ const NewFarmNaturopathy = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/e1bffcd2-1723-4e18-a2c9-90dd88842aa7.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/e1bffcd2-1723-4e18-a2c9-90dd88842aa7.png" alt="Woman discussing health concerns with trusted Naturopath in New Farm at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -94,7 +94,7 @@ const NewFarmNaturopathy = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/e1bffcd2-1723-4e18-a2c9-90dd88842aa7.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/e1bffcd2-1723-4e18-a2c9-90dd88842aa7.png" alt="Woman discussing health concerns with trusted Naturopath in New Farm at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -117,7 +117,7 @@ const NewFarmNaturopathy = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img src="/lovable-uploads/a61f4af0-26d7-4e2a-9676-a409bfb6d550.png" alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/a61f4af0-26d7-4e2a-9676-a409bfb6d550.png" alt="Mitchell Potts naturopath conducting microscope analysis for comprehensive health assessment" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
         </div>
       </section>
