@@ -128,7 +128,7 @@ const ThyroidNaturopathy = () => {
             <div className="space-y-8 lg:mt-0 mt-12">
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Expert Thyroid Support in <span className="text-primary">Brisbane</span> | Personalised Naturopathy for Thyroid Health
+                  Naturopath Thyroid Support in <span className="text-primary">Brisbane</span> | Personalised Naturopathy for Thyroid Health
                 </h1>
                 
                 {/* Mobile Image */}

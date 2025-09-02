@@ -78,7 +78,7 @@ const Index = () => {
                 </div>
                 
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Leading Naturopath Brisbane | <span className="text-primary">Feel Like Yourself Again</span> at NXTLVL Health
+                  Best Naturopath Brisbane | <span className="text-primary">Feel Like Yourself Again</span> at NXTLVL Health
                 </h1>
                 
                 {/* Mobile Image - placed right after headline */}
