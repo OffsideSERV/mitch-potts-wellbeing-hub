@@ -82,7 +82,7 @@ const ChildrensHealth = () => {
                 
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Children's naturopath consultation at NXTLVL Health Brisbane" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/90800552-21cf-4eff-8db7-b48498cc8be0.png" />
+                  <img alt="Professional children's health consultation room at NXTLVL Health Brisbane featuring natural medicine approach for kids" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/90800552-21cf-4eff-8db7-b48498cc8be0.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Baby className="h-6 w-6 text-primary" />
@@ -122,7 +122,7 @@ const ChildrensHealth = () => {
             
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img alt="Children's naturopath consultation at NXTLVL Health Brisbane" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/90800552-21cf-4eff-8db7-b48498cc8be0.png" />
+              <img alt="Professional children's health consultation room at NXTLVL Health Brisbane featuring natural medicine approach for kids" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/90800552-21cf-4eff-8db7-b48498cc8be0.png" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Baby className="h-8 w-8 text-primary" />
@@ -146,7 +146,7 @@ const ChildrensHealth = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/58494e66-018f-4d31-b0b1-119423ae70f9.png" alt="Child with healthy food at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/58494e66-018f-4d31-b0b1-119423ae70f9.png" alt="Happy child eating nutritious foods recommended by childrens naturopath for optimal health and development" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -162,7 +162,7 @@ const ChildrensHealth = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/58494e66-018f-4d31-b0b1-119423ae70f9.png" alt="Child with healthy food at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/58494e66-018f-4d31-b0b1-119423ae70f9.png" alt="Happy child eating nutritious foods recommended by childrens naturopath for optimal health and development" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -217,7 +217,7 @@ const ChildrensHealth = () => {
 
           {/* Centered Image */}
           <div className="mb-12">
-            <img src="/lovable-uploads/26dd53ed-236e-42a2-a95c-c505572e08b2.png" alt="Children's health consultation at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/26dd53ed-236e-42a2-a95c-c505572e08b2.png" alt="Gentle childrens naturopath consultation showing natural health assessment and holistic treatment planning for young patients" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="space-y-8">
@@ -304,7 +304,7 @@ const ChildrensHealth = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img src="/lovable-uploads/3e8138df-4579-4443-838a-2d4275fc12ec.png" alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/3e8138df-4579-4443-838a-2d4275fc12ec.png" alt="NXTLVL Health natural medicine clinic interior in New Farm Brisbane specializing in gentle pediatric healthcare" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
         </div>
       </section>
