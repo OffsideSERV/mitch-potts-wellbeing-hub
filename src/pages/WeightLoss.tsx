@@ -124,7 +124,7 @@ const WeightLoss = () => {
                 
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/aeafb801-21a6-4748-a8c0-7cfe86dda52d.png" />
+                  <img alt="Woman consulting with a qualified weight loss naturopath in Brisbane at NXTLVL Health clinic" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/aeafb801-21a6-4748-a8c0-7cfe86dda52d.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Scale className="h-6 w-6 text-primary" />
@@ -164,7 +164,7 @@ const WeightLoss = () => {
             
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/aeafb801-21a6-4748-a8c0-7cfe86dda52d.png" />
+              <img alt="Woman consulting with a qualified weight loss naturopath in Brisbane at NXTLVL Health clinic" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/aeafb801-21a6-4748-a8c0-7cfe86dda52d.png" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Scale className="h-8 w-8 text-primary" />
@@ -188,7 +188,7 @@ const WeightLoss = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/726dc878-88f1-4c71-b05b-bf998ac39785.png" alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/726dc878-88f1-4c71-b05b-bf998ac39785.png" alt="Weight loss naturopath conducting comprehensive health consultation with patient in Brisbane" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -207,7 +207,7 @@ const WeightLoss = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/726dc878-88f1-4c71-b05b-bf998ac39785.png" alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/726dc878-88f1-4c71-b05b-bf998ac39785.png" alt="Weight loss naturopath conducting comprehensive health consultation with patient in Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -230,7 +230,7 @@ const WeightLoss = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/2020f836-b7f6-4db1-8574-8110e92396a4.png" alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/2020f836-b7f6-4db1-8574-8110e92396a4.png" alt="Brisbane naturopath performing advanced diagnostic testing for weight loss patients using live blood analysis" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -248,7 +248,7 @@ const WeightLoss = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/2020f836-b7f6-4db1-8574-8110e92396a4.png" alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/2020f836-b7f6-4db1-8574-8110e92396a4.png" alt="Brisbane naturopath performing advanced diagnostic testing for weight loss patients using live blood analysis" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -263,7 +263,7 @@ const WeightLoss = () => {
 
           {/* Centered Image */}
           <div className="mb-12">
-            <img src="/lovable-uploads/611cabfc-2300-478c-a789-817b8bac2f8e.png" alt="Naturopath showing patient results on a computer at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/611cabfc-2300-478c-a789-817b8bac2f8e.png" alt="Professional naturopath reviewing personalized weight loss program results with patient at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-8 mb-12">
@@ -351,7 +351,7 @@ const WeightLoss = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img src="/lovable-uploads/fee05240-1244-4024-9a2b-a3742433d32f.png" alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/fee05240-1244-4024-9a2b-a3742433d32f.png" alt="NXTLVL Health modern naturopathic weight loss clinic in New Farm Brisbane offering comprehensive wellness services" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
