@@ -118,7 +118,7 @@ const IBSNaturopathy = () => {
                 If this sounds like you, our IBS Naturopath can help:
               </p>
               <p>
-                Do you feel like your tummy is always upset? Are you tired of the bloating, cramping, and rushing to the toilet—or feeling stuck and unable to go at all? You're not alone. Many people feel this way, and it can be hard. But there's help.
+                Do you feel like your tummy is always upset? Are you tired of the bloating, cramping, and rushing to the toilet—or feeling stuck and not going at all? You're not alone. Many people feel this way, and it can be hard. But there's help.
               </p>
                 <p>
                   At NXTLVL Health, we help people with irritable bowel syndrome (IBS) feel better using natural options. Our specialized <a href="/what-we-treat/ibs-clinic" className="text-primary hover:underline">IBS clinic</a> and dedicated <a href="/what-we-treat/gut-health-specialist" className="text-primary hover:underline">gut health specialist</a> work with you to understand what's really going on in your digestive system and make a plan that helps.

@@ -62,7 +62,7 @@ const WhatWeTreat = () => {
                   </h2>
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
-                  Naturopathy combines cutting-edge scientific research with time-tested traditional medicine to deliver optimal health results. Think of a Naturopath as your dedicated health coach – they work to identify the underlying cause of your health concerns, design a personalised treatment plan, and provide ongoing support to ensure you're achieving the best possible results.
+                  Naturopathy combines cutting-edge scientific research with time-tested traditional medicine to deliver optimal health outcomes. Think of a Naturopath as your dedicated health coach – they work to identify the underlying cause of your health concerns, design a personalised treatment plan, and provide ongoing support to ensure you're achieving the best possible results.
                 </p>
               </div>
 

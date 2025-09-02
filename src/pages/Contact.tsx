@@ -20,7 +20,7 @@ const Contact = () => {
                 Contact Us
               </h1>
               <p className="text-xl text-muted-foreground">
-                Ready to take the first step towards better health? Get in touch with us today.
+                Ready to take the next step towards better health? Get in touch with us today.
               </p>
             </div>
 

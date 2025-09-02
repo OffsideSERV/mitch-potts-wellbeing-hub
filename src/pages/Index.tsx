@@ -9,7 +9,7 @@ import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, Te
 const Index = () => {
   const services = useMemo(() => [{
     title: "Naturopathy",
-    description: "We offer powerful yet gentle assistance for your whole body. We work with chronic fatigue, gut health, hormonal imbalance, and more.",
+    description: "We offer powerful yet gentle support for your whole body. We work with chronic fatigue, gut health, hormonal imbalance, and more.",
     icon: <Leaf className="h-8 w-8 text-primary" />
   }, {
     title: "Nutritional Medicine",

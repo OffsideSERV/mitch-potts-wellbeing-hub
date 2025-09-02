@@ -19,7 +19,7 @@ const AboutUs = () => {
                 Meet Mitch Potts
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                The naturopath who listens when others won't. For over a decade, Mitch has helped thousands of people discover real answers to their health problems using natural medicine.
+                The naturopath who listens when others won't. For over a decade, Mitch has helped thousands of people find real answers to their health problems using natural medicine.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild className="bg-primary hover:bg-primary/90">

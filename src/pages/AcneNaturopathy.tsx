@@ -21,7 +21,7 @@ const AcneNaturopathy = () => {
             <div className="space-y-8 lg:mt-0 mt-12">
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Acne Naturopathy | <span className="text-primary">Transform Your Skin</span> From the Inside Out at NXTLVL Health
+                  Acne Naturopathy | <span className="text-primary">Heal Your Skin</span> From the Inside Out at NXTLVL Health
                 </h1>
                 
                 {/* Mobile Image */}

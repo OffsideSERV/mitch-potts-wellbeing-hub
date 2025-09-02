@@ -20,7 +20,7 @@ const BookNow = () => {
                 Book Your Appointment
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
-                Take the initial step towards better health. Schedule your consultation with our expert naturopath today.
+                Take the first step towards better health. Schedule your consultation with our expert naturopath today.
               </p>
             </div>
           </div>

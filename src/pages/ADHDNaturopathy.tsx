@@ -84,7 +84,7 @@ const ADHDNaturopathy = () => {
             <div className="space-y-8 lg:mt-0 mt-12">
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  ADHD Naturopath | Natural ADHD Care at <span className="text-primary">NXTLVL Health</span>
+                  ADHD Naturopath | Natural ADHD Support at <span className="text-primary">NXTLVL Health</span>
                 </h1>
                 
                 {/* Mobile Image */}

@@ -20,7 +20,7 @@ const AllergyNaturopath = () => {
             <div className="space-y-8 lg:mt-0 mt-12">
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Allergy Naturopath | Natural Relief and <span className="text-primary">Care</span> at NXTLVL Health
+                  Allergy Naturopath | Natural Relief and <span className="text-primary">Support</span> at NXTLVL Health
                 </h1>
                 
                 {/* Mobile Image */}
