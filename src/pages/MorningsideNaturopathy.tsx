@@ -82,7 +82,7 @@ const MorningsideNaturopathy = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/6caf4653-ba09-4b1f-929c-62c5d0e78b84.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/6caf4653-ba09-4b1f-929c-62c5d0e78b84.png" alt="Professional naturopath Morningside consultation providing personalized natural health care at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -95,7 +95,7 @@ const MorningsideNaturopathy = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/6caf4653-ba09-4b1f-929c-62c5d0e78b84.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/6caf4653-ba09-4b1f-929c-62c5d0e78b84.png" alt="Professional naturopath Morningside consultation providing personalized natural health care at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -110,7 +110,7 @@ const MorningsideNaturopathy = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/70956186-692e-4b37-8f6b-21a8b48d2ced.png" alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/70956186-692e-4b37-8f6b-21a8b48d2ced.png" alt="Experienced naturopath Morningside performing detailed live blood analysis for comprehensive health assessment" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -126,7 +126,7 @@ const MorningsideNaturopathy = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/70956186-692e-4b37-8f6b-21a8b48d2ced.png" alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/70956186-692e-4b37-8f6b-21a8b48d2ced.png" alt="Experienced naturopath Morningside performing detailed live blood analysis for comprehensive health assessment" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -156,7 +156,7 @@ const MorningsideNaturopathy = () => {
 
           {/* Centered Image */}
           <div className="mb-12">
-            <img src="/lovable-uploads/782c2cb5-efd2-4857-a69b-0d9109cecd01.png" alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/782c2cb5-efd2-4857-a69b-0d9109cecd01.png" alt="NXTLVL Health natural medicine clinic exterior showing professional naturopathic practice near Morningside Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
@@ -222,7 +222,7 @@ const MorningsideNaturopathy = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/cd75ffc8-9415-45d0-9672-6edf4a641eeb.png" alt="Child with healthy food at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/cd75ffc8-9415-45d0-9672-6edf4a641eeb.png" alt="Family wellness and children's health support at naturopathic practice Brisbane" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -238,7 +238,7 @@ const MorningsideNaturopathy = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/cd75ffc8-9415-45d0-9672-6edf4a641eeb.png" alt="Child with healthy food at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/cd75ffc8-9415-45d0-9672-6edf4a641eeb.png" alt="Family wellness and children's health support at naturopathic practice Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -294,7 +294,7 @@ const MorningsideNaturopathy = () => {
 
           {/* Centered Image */}
           <div className="mb-12">
-            <img src="/lovable-uploads/4b9725be-487a-42cc-bb60-fc545a412113.png" alt="Naturopath showing patient results on a computer at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/4b9725be-487a-42cc-bb60-fc545a412113.png" alt="Naturopath reviewing comprehensive health assessment results and treatment progress with patient" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
@@ -319,7 +319,7 @@ const MorningsideNaturopathy = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/bc3acafc-cc9e-44ef-9e64-44d898e3ac97.png" alt="Mitch - Naturopath working at desk at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/bc3acafc-cc9e-44ef-9e64-44d898e3ac97.png" alt="Mitch - Qualified naturopath and herbalist providing expert natural health care at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -335,7 +335,7 @@ const MorningsideNaturopathy = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/bc3acafc-cc9e-44ef-9e64-44d898e3ac97.png" alt="Mitch - Naturopath working at desk at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/bc3acafc-cc9e-44ef-9e64-44d898e3ac97.png" alt="Mitch - Qualified naturopath and herbalist providing expert natural health care at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
