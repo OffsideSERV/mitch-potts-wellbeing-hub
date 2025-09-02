@@ -30,8 +30,8 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({
         height={height}
         className={className}
         sizes={sizes}
+        loading="lazy"
         decoding="async"
-        fetchPriority="high"
       />
     </picture>
   );
