@@ -1,105 +1,81 @@
-
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Brain, Activity, Shield } from "lucide-react";
-
 const ADHDNaturopathy = () => {
-  return (
-    <>
-      <SEO 
-        title="Top ADHD Naturopath in Brisbane | Book a Free 15-Min Consult"
-        description="Mitch from NXTLVL Health is here to help take the stress and confusion out of ADHD. Book a free consult and start getting the answers you've been looking for!"
-        canonical="/what-we-treat/adhd-naturopath"
-        keywords="ADHD naturopath Brisbane, ADHD treatment, natural ADHD support, holistic ADHD treatment, ADHD specialist"
-        serviceSchema={{
-          "@context": "https://schema.org",
-          "@type": "Service",
-          "@id": "https://nxtlvlhealth.com.au/what-we-treat/adhd-naturopath#service",
-          "name": "ADHD Naturopath Brisbane",
-          "description": "Holistic naturopathic treatment for ADHD in children and adults. Our evidence-based approach addresses root causes through nutrition, herbal medicine, functional testing, and nervous system support to improve focus, behaviour, and quality of life.",
-          "provider": {
-            "@type": "Organization",
-            "@id": "https://nxtlvlhealth.com.au/#organization"
-          },
-          "areaServed": [
-            {
-              "@type": "City",
-              "name": "Brisbane"
-            },
-            {
-              "@type": "City", 
-              "name": "New Farm"
-            },
-            {
-              "@type": "City",
-              "name": "Clayfield"
-            },
-            {
-              "@type": "City",
-              "name": "Hamilton"
-            }
-          ],
-          "category": "Naturopathic Medicine",
-          "serviceType": "ADHD and Attention Disorder Support",
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Free 15-Minute ADHD Consultation",
-              "description": "Complimentary consultation to discuss your ADHD concerns, understand our approach, and determine if naturopathic treatment is right for you or your child.",
-              "price": "0",
-              "priceCurrency": "AUD",
-              "availability": "https://schema.org/InStock"
-            },
-            {
-              "@type": "Offer",
-              "name": "Initial ADHD Naturopath Consultation",
-              "description": "Comprehensive 75-minute consultation including detailed health history, ADHD symptom assessment, and personalised treatment planning for natural ADHD support.",
-              "price": "210",
-              "priceCurrency": "AUD",
-              "availability": "https://schema.org/InStock"
-            },
-            {
-              "@type": "Offer", 
-              "name": "Follow-up ADHD Consultation",
-              "description": "Ongoing support and treatment plan adjustments to monitor progress and optimise ADHD management outcomes for both children and adults.",
-              "price": "120",
-              "priceCurrency": "AUD",
-              "availability": "https://schema.org/InStock"
-            }
-          ],
-          "audience": {
-            "@type": "Audience",
-            "audienceType": "Children and adults with ADHD, attention difficulties, hyperactivity, or focus challenges"
-          },
-          "availableChannel": [
-            {
-              "@type": "ServiceChannel",
-              "serviceLocation": {
-                "@type": "Place",
-                "@id": "https://nxtlvlhealth.com.au/#location"
-              }
-            },
-            {
-              "@type": "ServiceChannel"
-            }
-          ],
-          "hoursAvailable": [
-            {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-              "opens": "09:00",
-              "closes": "17:00"
-            },
-            {
-              "@type": "OpeningHoursSpecification", 
-              "dayOfWeek": "Saturday",
-              "opens": "09:00",
-              "closes": "13:00"
-            }
-          ]
-        }}
-      />
+  return <>
+      <SEO title="Top ADHD Naturopath in Brisbane | Book a Free 15-Min Consult" description="Mitch from NXTLVL Health is here to help take the stress and confusion out of ADHD. Book a free consult and start getting the answers you've been looking for!" canonical="/what-we-treat/adhd-naturopath" keywords="ADHD naturopath Brisbane, ADHD treatment, natural ADHD support, holistic ADHD treatment, ADHD specialist" serviceSchema={{
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://nxtlvlhealth.com.au/what-we-treat/adhd-naturopath#service",
+      "name": "ADHD Naturopath Brisbane",
+      "description": "Holistic naturopathic treatment for ADHD in children and adults. Our evidence-based approach addresses root causes through nutrition, herbal medicine, functional testing, and nervous system support to improve focus, behaviour, and quality of life.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://nxtlvlhealth.com.au/#organization"
+      },
+      "areaServed": [{
+        "@type": "City",
+        "name": "Brisbane"
+      }, {
+        "@type": "City",
+        "name": "New Farm"
+      }, {
+        "@type": "City",
+        "name": "Clayfield"
+      }, {
+        "@type": "City",
+        "name": "Hamilton"
+      }],
+      "category": "Naturopathic Medicine",
+      "serviceType": "ADHD and Attention Disorder Support",
+      "offers": [{
+        "@type": "Offer",
+        "name": "Free 15-Minute ADHD Consultation",
+        "description": "Complimentary consultation to discuss your ADHD concerns, understand our approach, and determine if naturopathic treatment is right for you or your child.",
+        "price": "0",
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }, {
+        "@type": "Offer",
+        "name": "Initial ADHD Naturopath Consultation",
+        "description": "Comprehensive 75-minute consultation including detailed health history, ADHD symptom assessment, and personalised treatment planning for natural ADHD support.",
+        "price": "210",
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }, {
+        "@type": "Offer",
+        "name": "Follow-up ADHD Consultation",
+        "description": "Ongoing support and treatment plan adjustments to monitor progress and optimise ADHD management outcomes for both children and adults.",
+        "price": "120",
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Children and adults with ADHD, attention difficulties, hyperactivity, or focus challenges"
+      },
+      "availableChannel": [{
+        "@type": "ServiceChannel",
+        "serviceLocation": {
+          "@type": "Place",
+          "@id": "https://nxtlvlhealth.com.au/#location"
+        }
+      }, {
+        "@type": "ServiceChannel"
+      }],
+      "hoursAvailable": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }, {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "13:00"
+      }]
+    }} />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
@@ -113,11 +89,7 @@ const ADHDNaturopathy = () => {
                 
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img 
-                    alt="ADHD naturopath consultation at NXTLVL Health Brisbane" 
-                    className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="/lovable-uploads/67cf124d-768d-4538-b395-cfd81826bcba.png" 
-                  />
+                  <img alt="ADHD naturopath consultation at NXTLVL Health Brisbane" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/67cf124d-768d-4538-b395-cfd81826bcba.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Brain className="h-6 w-6 text-primary" />
@@ -131,11 +103,7 @@ const ADHDNaturopathy = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button 
-                  asChild 
-                  size="lg"
-                  className="text-lg px-6 py-4 h-auto"
-                >
+                <Button asChild size="lg" className="text-lg px-6 py-4 h-auto">
                   <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                     <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 002 2v12a2 2 0 002 2z"></path>
@@ -143,12 +111,7 @@ const ADHDNaturopathy = () => {
                     Book a Free 15-Min Consult!
                   </a>
                 </Button>
-                <Button 
-                  variant="outline" 
-                  asChild 
-                  size="lg"
-                  className="text-lg px-6 py-4 h-auto"
-                >
+                <Button variant="outline" asChild size="lg" className="text-lg px-6 py-4 h-auto">
                   <a href="tel:0731808853">
                     <svg className="mr-2 h-4 w-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
@@ -166,11 +129,7 @@ const ADHDNaturopathy = () => {
             
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img 
-                alt="ADHD naturopath consultation at NXTLVL Health Brisbane" 
-                className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="/lovable-uploads/67cf124d-768d-4538-b395-cfd81826bcba.png" 
-              />
+              <img alt="ADHD naturopath consultation at NXTLVL Health Brisbane" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/67cf124d-768d-4538-b395-cfd81826bcba.png" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Brain className="h-8 w-8 text-primary" />
@@ -189,16 +148,12 @@ const ADHDNaturopathy = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Looking for a Natural Way to Support ADHD?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Are You Looking for a Natural Way to Support ADHD?</h2>
           </div>
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img 
-              src="/lovable-uploads/cfe598a0-7186-4051-aaac-837086e04c8d.png" 
-              alt="Child with ADHD support at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
-            />
+            <img src="/lovable-uploads/cfe598a0-7186-4051-aaac-837086e04c8d.png" alt="Child with ADHD support at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -214,11 +169,7 @@ const ADHDNaturopathy = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img 
-                src="/lovable-uploads/cfe598a0-7186-4051-aaac-837086e04c8d.png" 
-                alt="Child with ADHD support at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
-              />
+              <img src="/lovable-uploads/cfe598a0-7186-4051-aaac-837086e04c8d.png" alt="Child with ADHD support at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
 
@@ -245,11 +196,7 @@ const ADHDNaturopathy = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img 
-              src="/lovable-uploads/6e318a68-c5c0-4f4a-99c5-45a48e41649f.png" 
-              alt="Woman discussing ADHD with naturopath at NXTLVL Health Brisbane" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
-            />
+            <img src="/lovable-uploads/6e318a68-c5c0-4f4a-99c5-45a48e41649f.png" alt="Woman discussing ADHD with naturopath at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -259,18 +206,10 @@ const ADHDNaturopathy = () => {
                   <strong>ADHD is a common behavioural disorder</strong> that affects both children and adults. It can show up as:
                 </p>
                 <div className="grid gap-3">
-                  {[
-                    "Poor concentration or focus",
-                    "Impulsivity or acting without thinking",
-                    "Hyperactivity or constant restlessness",
-                    "Emotional regulation challenges",
-                    "Difficulty with memory or executive function"
-                  ].map((symptom, index) => (
-                    <div key={index} className="flex items-start space-x-3">
+                  {["Poor concentration or focus", "Impulsivity or acting without thinking", "Hyperactivity or constant restlessness", "Emotional regulation challenges", "Difficulty with memory or executive function"].map((symptom, index) => <div key={index} className="flex items-start space-x-3">
                       <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-muted-foreground">{symptom}</span>
-                    </div>
-                  ))}
+                    </div>)}
                 </div>
                 <p>
                   While <strong>stimulant medications</strong> are often prescribed, they don't work for everyone—and they don't address the root causes. That's where a naturopathic approach can help. <strong>ADHD treatment plans from naturopathic doctors</strong> are individualised and take into account diet, lifestyle, genetics, and emotional factors. Many people with ADHD also experience <a href="/what-we-treat/naturopath-anxiety" className="text-primary hover:text-primary/80 underline">anxiety and nervous tension</a>, which is why a comprehensive approach to nervous system support is essential. Additionally, some individuals may benefit from our <a href="/what-we-treat/allergy-naturopath" className="text-primary hover:text-primary/80 underline">allergy naturopath services</a> if food sensitivities are contributing to their symptoms.
@@ -279,11 +218,7 @@ const ADHDNaturopathy = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img 
-                src="/lovable-uploads/6e318a68-c5c0-4f4a-99c5-45a48e41649f.png" 
-                alt="Woman discussing ADHD with naturopath at NXTLVL Health Brisbane" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
-              />
+              <img src="/lovable-uploads/6e318a68-c5c0-4f4a-99c5-45a48e41649f.png" alt="Woman discussing ADHD with naturopath at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -298,11 +233,7 @@ const ADHDNaturopathy = () => {
 
           {/* Centered Image */}
           <div className="mb-12">
-            <img 
-              src="/lovable-uploads/48cc100b-f874-40cd-a474-951bb035ed9c.png" 
-              alt="ADHD naturopath explaining treatment plan at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
+            <img src="/lovable-uploads/48cc100b-f874-40cd-a474-951bb035ed9c.png" alt="ADHD naturopath explaining treatment plan at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6 mb-12">
@@ -316,22 +247,14 @@ const ADHDNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-4">
-              {[
-                "Dietary changes and nutritional support",
-                "Improving gut health and the gut-brain axis",
-                "Functional testing to identify nutrient imbalances and food intolerances",
-                "Herbal medicines and natural treatments to support brain function",
-                "Supporting neurotransmitter balance and dopamine activity"
-              ].map((treatment, index) => (
-                <Card key={index}>
+              {["Dietary changes and nutritional support", "Improving gut health and the gut-brain axis", "Functional testing to identify nutrient imbalances and food intolerances", "Herbal medicines and natural treatments to support brain function", "Supporting neurotransmitter balance and dopamine activity"].map((treatment, index) => <Card key={index}>
                   <CardContent className="p-4">
                     <div className="flex items-start space-x-3">
                       <CheckCircle className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                       <span className="text-muted-foreground">{treatment}</span>
                     </div>
                   </CardContent>
-                </Card>
-              ))}
+                </Card>)}
             </div>
           </div>
 
@@ -353,16 +276,12 @@ const ADHDNaturopathy = () => {
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Who We Help</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Who Exactly We Help</h2>
           </div>
 
           {/* Image */}
           <div className="mb-12">
-            <img 
-              src="/lovable-uploads/e7a22f60-791b-4cb4-9cd9-5bf8a08dacbe.png" 
-              alt="ADHD support for children and adults at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
+            <img src="/lovable-uploads/e7a22f60-791b-4cb4-9cd9-5bf8a08dacbe.png" alt="ADHD support for children and adults at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6 mb-8">
@@ -371,22 +290,14 @@ const ADHDNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-4">
-              {[
-                "Diagnosed ADHD or suspected symptoms of ADHD",
-                "Brain fog, poor memory, and attention issues",
-                <>Restlessness, <a href="/what-we-treat/naturopath-anxiety" className="text-primary hover:text-primary/80 underline">anxiety</a>, and emotional ups and downs</>,
-                "Sleep disruption and frequent infections",
-                "Side effects or poor response to stimulant medications"
-              ].map((who, index) => (
-                <Card key={index}>
+              {["Diagnosed ADHD or suspected symptoms of ADHD", "Brain fog, poor memory, and attention issues", <>Restlessness, <a href="/what-we-treat/naturopath-anxiety" className="text-primary hover:text-primary/80 underline">anxiety</a>, and emotional ups and downs</>, "Sleep disruption and frequent infections", "Side effects or poor response to stimulant medications"].map((who, index) => <Card key={index}>
                   <CardContent className="p-4">
                     <div className="flex items-start space-x-3">
                       <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-muted-foreground">{who}</span>
                     </div>
                   </CardContent>
-                </Card>
-              ))}
+                </Card>)}
             </div>
           </div>
         </div>
@@ -401,31 +312,19 @@ const ADHDNaturopathy = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img 
-              src="/lovable-uploads/95c90e9c-b03c-4d6c-b635-14ff6ce00f55.png" 
-              alt="Naturopath analysing ADHD causes through diagnostic testing at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
+            <img src="/lovable-uploads/95c90e9c-b03c-4d6c-b635-14ff6ce00f55.png" alt="Naturopath analysing ADHD causes through diagnostic testing at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-4 mb-12">
-              {[
-                "Trouble sitting still or staying focused",
-                "Acting without thinking",
-                "Big emotions or mood fluctuations",
-                "Struggles at school or work",
-                "Forgetfulness and poor organisation"
-              ].map((symptom, index) => (
-                <Card key={index}>
+              {["Trouble sitting still or staying focused", "Acting without thinking", "Big emotions or mood fluctuations", "Struggles at school or work", "Forgetfulness and poor organisation"].map((symptom, index) => <Card key={index}>
                   <CardContent className="p-4">
                     <div className="flex items-start space-x-3">
                       <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-muted-foreground">{symptom}</span>
                     </div>
                   </CardContent>
-                </Card>
-              ))}
+                </Card>)}
             </div>
 
             <div className="text-center">
@@ -458,11 +357,7 @@ const ADHDNaturopathy = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img 
-              src="/lovable-uploads/284f6d80-2bc3-4ed3-937b-219b575000c5.png" 
-              alt="NXTLVL Health investigating ADHD root causes" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
+            <img src="/lovable-uploads/284f6d80-2bc3-4ed3-937b-219b575000c5.png" alt="NXTLVL Health investigating ADHD root causes" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6 mb-8">
@@ -473,23 +368,14 @@ const ADHDNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-4">
-              {[
-                "Nutritional deficiencies (like vitamin D, zinc, or omega-3s)",
-                "Gut issues and microbial imbalances",
-                "Food intolerances and artificial additives",
-                "Immune system activation and inflammation",
-                "Environmental factors like cigarette smoke or heavy metals",
-                "Genetic factors and DNA methylation patterns"
-              ].map((cause, index) => (
-                <Card key={index}>
+              {["Nutritional deficiencies (like vitamin D, zinc, or omega-3s)", "Gut issues and microbial imbalances", "Food intolerances and artificial additives", "Immune system activation and inflammation", "Environmental factors like cigarette smoke or heavy metals", "Genetic factors and DNA methylation patterns"].map((cause, index) => <Card key={index}>
                   <CardContent className="p-4">
                     <div className="flex items-start space-x-3">
                       <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-muted-foreground">{cause}</span>
                     </div>
                   </CardContent>
-                </Card>
-              ))}
+                </Card>)}
             </div>
           </div>
         </div>
@@ -504,11 +390,7 @@ const ADHDNaturopathy = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img 
-              src="/lovable-uploads/9bf2793b-4233-45eb-a613-6ec4d11d1b66.png" 
-              alt="Naturopath examining gut health connection to ADHD at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
-            />
+            <img src="/lovable-uploads/9bf2793b-4233-45eb-a613-6ec4d11d1b66.png" alt="Naturopath examining gut health connection to ADHD at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -524,11 +406,7 @@ const ADHDNaturopathy = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img 
-                src="/lovable-uploads/9bf2793b-4233-45eb-a613-6ec4d11d1b66.png" 
-                alt="Naturopath examining gut health connection to ADHD at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
-              />
+              <img src="/lovable-uploads/9bf2793b-4233-45eb-a613-6ec4d11d1b66.png" alt="Naturopath examining gut health connection to ADHD at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -543,11 +421,7 @@ const ADHDNaturopathy = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img 
-              src="/lovable-uploads/4748db27-c782-4bc2-b09d-d93a2b5b2433.png" 
-              alt="ADHD consultation preparation at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
+            <img src="/lovable-uploads/4748db27-c782-4bc2-b09d-d93a2b5b2433.png" alt="ADHD consultation preparation at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto space-y-8">
@@ -558,22 +432,14 @@ const ADHDNaturopathy = () => {
             </div>
 
             <div className="grid md:grid-cols-2 gap-4 mb-8">
-              {[
-                "ADHD symptoms and development",
-                "Diet, sleep, and movement",
-                "Stress, emotions, and mood patterns",
-                "Early childhood exposures (birth, antibiotics, etc.)",
-                "Current supplements or medications"
-              ].map((expect, index) => (
-                <Card key={index}>
+              {["ADHD symptoms and development", "Diet, sleep, and movement", "Stress, emotions, and mood patterns", "Early childhood exposures (birth, antibiotics, etc.)", "Current supplements or medications"].map((expect, index) => <Card key={index}>
                   <CardContent className="p-4">
                     <div className="flex items-start space-x-3">
                       <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-muted-foreground">{expect}</span>
                     </div>
                   </CardContent>
-                </Card>
-              ))}
+                </Card>)}
             </div>
 
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6 text-center">
@@ -583,21 +449,14 @@ const ADHDNaturopathy = () => {
             </div>
 
             <div className="grid md:grid-cols-2 gap-4">
-              {[
-                "Gut health and microbiome testing",
-                "Food intolerances or sensitivities",
-                "Vitamin and mineral levels",
-                "Markers of inflammation or oxidative stress"
-              ].map((test, index) => (
-                <Card key={index}>
+              {["Gut health and microbiome testing", "Food intolerances or sensitivities", "Vitamin and mineral levels", "Markers of inflammation or oxidative stress"].map((test, index) => <Card key={index}>
                   <CardContent className="p-4">
                     <div className="flex items-start space-x-3">
                       <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-muted-foreground">{test}</span>
                     </div>
                   </CardContent>
-                </Card>
-              ))}
+                </Card>)}
             </div>
           </div>
         </div>
@@ -651,17 +510,10 @@ const ADHDNaturopathy = () => {
                   <strong>Targeted supplements</strong> may include:
                 </p>
                 <ul className="space-y-2">
-                  {[
-                    "Magnesium (for nervous system support)",
-                    "Omega-3 fatty acids (to support brain health)",
-                    "Zinc and iron (to correct deficiencies)",
-                    "Vitamin D (essential for immune and cognitive function). Studies suggest that low zinc and magnesium levels are associated with ADHD symptoms."
-                  ].map((supplement, index) => (
-                    <li key={index} className="flex items-start space-x-2">
+                  {["Magnesium (for nervous system support)", "Omega-3 fatty acids (to support brain health)", "Zinc and iron (to correct deficiencies)", "Vitamin D (essential for immune and cognitive function). Studies suggest that low zinc and magnesium levels are associated with ADHD symptoms."].map((supplement, index) => <li key={index} className="flex items-start space-x-2">
                       <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-muted-foreground text-sm">{supplement}</span>
-                    </li>
-                  ))}
+                    </li>)}
                 </ul>
                 <p className="text-muted-foreground mt-4">
                   Each supplement is carefully chosen and based on <strong>evidence-based treatments</strong>.
@@ -721,31 +573,19 @@ const ADHDNaturopathy = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img 
-              src="/lovable-uploads/256bf666-d5db-4321-8b3b-b0f2b25a18c2.png" 
-              alt="NXTLVL Health natural ADHD treatment clinic" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
+            <img src="/lovable-uploads/256bf666-d5db-4321-8b3b-b0f2b25a18c2.png" alt="NXTLVL Health natural ADHD treatment clinic" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-6">
-              {[
-                "Root cause approach to ADHD symptoms",
-                "Personalised care and tailored strategies",
-                "Functional testing and real answers",
-                "Natural treatments that work with your body",
-                "Support for both ADHD children and adults"
-              ].map((difference, index) => (
-                <Card key={index}>
+              {["Root cause approach to ADHD symptoms", "Personalised care and tailored strategies", "Functional testing and real answers", "Natural treatments that work with your body", "Support for both ADHD children and adults"].map((difference, index) => <Card key={index}>
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-3">
                       <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
                       <span className="text-muted-foreground">{difference}</span>
                     </div>
                   </CardContent>
-                </Card>
-              ))}
+                </Card>)}
             </div>
           </div>
         </div>
@@ -778,22 +618,14 @@ const ADHDNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-6">
-              {[
-                "Children with ADHD and behavioural disorders",
-                "Teenagers with mood swings or focus challenges",
-                "Adults with undiagnosed or adult ADHD",
-                "Parents looking for safe, natural treatment options",
-                "Families seeking alternatives to stimulant medications"
-              ].map((who, index) => (
-                <Card key={index}>
+              {["Children with ADHD and behavioural disorders", "Teenagers with mood swings or focus challenges", "Adults with undiagnosed or adult ADHD", "Parents looking for safe, natural treatment options", "Families seeking alternatives to stimulant medications"].map((who, index) => <Card key={index}>
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-3">
                       <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
                       <span className="text-muted-foreground">{who}</span>
                     </div>
                   </CardContent>
-                </Card>
-              ))}
+                </Card>)}
             </div>
           </div>
         </div>
@@ -839,8 +671,6 @@ const ADHDNaturopathy = () => {
         </div>
       </section>
       </div>
-    </>
-  );
+    </>;
 };
-
 export default ADHDNaturopathy;
