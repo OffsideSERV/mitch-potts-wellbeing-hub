@@ -206,7 +206,7 @@ const NewsteadNaturopathy = () => {
                 
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/71b09125-3a64-4d93-934e-f899eab6b427.png" />
+                  <img alt="Professional naturopathic consultation at NXTLVL Health clinic" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/71b09125-3a64-4d93-934e-f899eab6b427.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Heart className="h-6 w-6 text-primary" />
@@ -246,7 +246,7 @@ const NewsteadNaturopathy = () => {
             
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/71b09125-3a64-4d93-934e-f899eab6b427.png" />
+              <img alt="Professional naturopathic consultation at NXTLVL Health clinic" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/71b09125-3a64-4d93-934e-f899eab6b427.png" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Heart className="h-8 w-8 text-primary" />
@@ -270,7 +270,7 @@ const NewsteadNaturopathy = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/225024a0-804b-437d-aaf9-9d543e7f73e2.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/225024a0-804b-437d-aaf9-9d543e7f73e2.png" alt="Woman consulting with experienced Naturopath in Newstead Brisbane" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -286,7 +286,7 @@ const NewsteadNaturopathy = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/225024a0-804b-437d-aaf9-9d543e7f73e2.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/225024a0-804b-437d-aaf9-9d543e7f73e2.png" alt="Woman consulting with experienced Naturopath in Newstead Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -468,7 +468,7 @@ const NewsteadNaturopathy = () => {
 
           {/* Centered Image */}
           <div className="mb-12">
-            <img src="/lovable-uploads/4ddbff79-0110-49a0-af33-498a6ef47123.png" alt="Naturopath showing patient results on a computer at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/4ddbff79-0110-49a0-af33-498a6ef47123.png" alt="Naturopath in Newstead explaining test results to patient" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -660,7 +660,7 @@ const NewsteadNaturopathy = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img src="/lovable-uploads/93084f16-17e1-4c12-bcc4-c9affd3dde25.png" alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/93084f16-17e1-4c12-bcc4-c9affd3dde25.png" alt="NXTLVL Health natural medicine clinic with qualified Naturopath in Newstead area" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-1 gap-8">
