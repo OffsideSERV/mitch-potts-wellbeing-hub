@@ -1,60 +1,40 @@
-
 import React from 'react';
 import SEO from '@/components/SEO';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, Phone, Leaf, TestTube, Salad, Zap, Target, Heart, Shield, Star } from 'lucide-react';
-
 const Services = () => {
-  const services = [
-    {
-      title: "NATUROPATHY",
-      icon: <Leaf className="h-8 w-8 text-primary" />
-    },
-    {
-      title: "FUNCTIONAL MEDICINE", 
-      icon: <TestTube className="h-8 w-8 text-primary" />
-    },
-    {
-      title: "NUTRITION",
-      icon: <Salad className="h-8 w-8 text-primary" />
-    },
-    {
-      title: "LASER THERAPY",
-      icon: <Zap className="h-8 w-8 text-primary" />
-    },
-    {
-      title: "PERSONAL TRAINING",
-      icon: <Target className="h-8 w-8 text-primary" />
-    }
-  ];
-
-  const whyChoose = [
-    {
-      title: "PERSONALISED PLANS",
-      description: "We develop tailored plans integrating a range of options including genetic and blood analysis, naturopathic consultations, and comprehensive assessments to understand your body's systems synergistically.",
-      icon: <Heart className="h-8 w-8 text-primary" />
-    },
-    {
-      title: "HOLISTIC APPROACH",
-      description: "Our approach includes nutrition, herbal medicine, targeted supplementation, and customised training programs to boost both mental and physical performance, prevent issues, and promote overall well-being.",
-      icon: <Shield className="h-8 w-8 text-primary" />
-    },
-    {
-      title: "UNLOCK YOUR FULL POTENTIAL",
-      description: "Elevate your fitness, transform your lifestyle, and embrace a future filled with vitality. Experience NXTLVL Health's tailored health plans to unlock your full potential and reach your goals.",
-      icon: <Star className="h-8 w-8 text-primary" />
-    }
-  ];
-
-  return (
-    <div className="min-h-screen bg-background">
-      <SEO
-        title="Naturopathic Services Brisbane | NXTLVL Health"
-        description="Comprehensive naturopathic services including functional medicine, nutrition, laser therapy, and personal training. Tailored health plans for your well-being in Brisbane."
-        canonical="/services"
-        keywords="naturopathic services Brisbane, functional medicine Brisbane, nutrition Brisbane, laser therapy Brisbane, personal training Brisbane"
-      />
+  const services = [{
+    title: "NATUROPATHY",
+    icon: <Leaf className="h-8 w-8 text-primary" />
+  }, {
+    title: "FUNCTIONAL MEDICINE",
+    icon: <TestTube className="h-8 w-8 text-primary" />
+  }, {
+    title: "NUTRITION",
+    icon: <Salad className="h-8 w-8 text-primary" />
+  }, {
+    title: "LASER THERAPY",
+    icon: <Zap className="h-8 w-8 text-primary" />
+  }, {
+    title: "PERSONAL TRAINING",
+    icon: <Target className="h-8 w-8 text-primary" />
+  }];
+  const whyChoose = [{
+    title: "PERSONALISED PLANS",
+    description: "We develop tailored plans integrating a range of options including genetic and blood analysis, naturopathic consultations, and comprehensive assessments to understand your body's systems synergistically.",
+    icon: <Heart className="h-8 w-8 text-primary" />
+  }, {
+    title: "HOLISTIC APPROACH",
+    description: "Our approach includes nutrition, herbal medicine, targeted supplementation, and customised training programs to boost both mental and physical performance, prevent issues, and promote overall well-being.",
+    icon: <Shield className="h-8 w-8 text-primary" />
+  }, {
+    title: "UNLOCK YOUR FULL POTENTIAL",
+    description: "Elevate your fitness, transform your lifestyle, and embrace a future filled with vitality. Experience NXTLVL Health's tailored health plans to unlock your full potential and reach your goals.",
+    icon: <Star className="h-8 w-8 text-primary" />
+  }];
+  return <div className="min-h-screen bg-background">
+      <SEO title="Naturopathic Services Brisbane | NXTLVL Health" description="Comprehensive naturopathic services including functional medicine, nutrition, laser therapy, and personal training. Tailored health plans for your well-being in Brisbane." canonical="/services" keywords="naturopathic services Brisbane, functional medicine Brisbane, nutrition Brisbane, laser therapy Brisbane, personal training Brisbane" />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
@@ -113,16 +93,14 @@ const Services = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            {services.map((service, index) => (
-              <Card key={index} className="text-center border-0 shadow-md hover:shadow-lg transition-shadow duration-300">
+            {services.map((service, index) => <Card key={index} className="text-center border-0 shadow-md hover:shadow-lg transition-shadow duration-300">
                 <CardHeader className="pb-4">
                   <div className="mx-auto mb-4">
                     {service.icon}
                   </div>
                   <CardTitle className="text-xl">{service.title}</CardTitle>
                 </CardHeader>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -132,12 +110,11 @@ const Services = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">WHY CHOOSE NXTLVL?</h2>
-            <p className="text-xl text-muted-foreground">Personalised health plans for your well-being</p>
+            <p className="text-xl text-muted-foreground">Personalised health plans for your well-being here in Brisbane!</p>
           </div>
 
           <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
-            {whyChoose.map((item, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
+            {whyChoose.map((item, index) => <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
                 <CardHeader className="pb-4 text-center">
                   <div className="mx-auto mb-4">
                     {item.icon}
@@ -149,8 +126,7 @@ const Services = () => {
                     {item.description}
                   </CardDescription>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -175,8 +151,6 @@ const Services = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Services;
