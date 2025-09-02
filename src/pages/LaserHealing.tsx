@@ -73,7 +73,7 @@ const LaserHealing = () => {
             
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/48968bce-0083-4fb8-bc0f-6069bc00aead.png" alt="Patient receiving MLS Laser therapy treatment for pain relief" className="rounded-2xl shadow-2xl w-full h-auto" />
+              <img src="/lovable-uploads/48968bce-0083-4fb8-bc0f-6069bc00aead.png" alt="Professional MLS Laser therapy treatment for chronic pain relief and inflammation reduction in Brisbane clinic" className="rounded-2xl shadow-2xl w-full h-auto" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg border-2 border-primary/20">
                 <div className="flex items-center space-x-3">
                   <Target className="h-8 w-8 text-primary" />
@@ -88,7 +88,7 @@ const LaserHealing = () => {
           
           {/* Mobile Image */}
           <div className="relative lg:hidden mt-8">
-            <img src="/lovable-uploads/4748db27-c782-4bc2-b09d-d93a2b5b2433.png" alt="Woman receiving natural MLS Laser treatment for pain relief" className="rounded-2xl shadow-2xl w-full h-auto" />
+            <img src="/lovable-uploads/4748db27-c782-4bc2-b09d-d93a2b5b2433.png" alt="Woman receiving advanced MLS Laser therapy for endometriosis pain relief and hormone balance treatment" className="rounded-2xl shadow-2xl w-full h-auto" />
             <div className="absolute -bottom-4 left-4 right-4 bg-white p-4 rounded-xl shadow-lg border-2 border-primary/20">
               <div className="flex items-center space-x-3">
                 <Target className="h-6 w-6 text-primary" />
@@ -148,7 +148,7 @@ const LaserHealing = () => {
             </div>
             
             <div className="relative">
-              <img src="/lovable-uploads/53b71ec6-8f6f-4218-aff5-25dd4d2ca61b.png" alt="Professional MLS laser therapy treatment session in progress" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/53b71ec6-8f6f-4218-aff5-25dd4d2ca61b.png" alt="MLS laser therapy session targeting PCOS symptoms and chronic fatigue with advanced light healing technology" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -166,7 +166,7 @@ const LaserHealing = () => {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
-              <img src="/lovable-uploads/53fd78ad-7f4d-40e9-a50b-a2fe8ba089aa.png" alt="MLS laser therapy treatment targeting abdominal area for pain relief" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/53fd78ad-7f4d-40e9-a50b-a2fe8ba089aa.png" alt="MLS laser therapy targeting abdominal area for gut health improvement and digestive pain relief treatment" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
             
             <div className="space-y-6">
