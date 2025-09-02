@@ -1,31 +1,10 @@
-
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { 
-  Calendar, 
-  Phone, 
-  CheckCircle, 
-  Heart, 
-  Users, 
-  Target,
-  Leaf,
-  Zap,
-  Shield,
-  Microscope,
-  Stethoscope,
-  Activity
-} from "lucide-react";
-
+import { Calendar, Phone, CheckCircle, Heart, Users, Target, Leaf, Zap, Shield, Microscope, Stethoscope, Activity } from "lucide-react";
 const NewFarmNaturopathy = () => {
-  return (
-    <>
-      <SEO 
-        title="Expert Naturopath in New Farm Brisbane | Mitchell Potts"
-        description="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath in New Farm Brisbane that will find and heal the root cause of your problems."
-        canonical="/areas-we-serve/naturopath-new-farm"
-        keywords="naturopath New Farm, New Farm naturopathy, natural health New Farm, holistic health New Farm Brisbane"
-      />
+  return <>
+      <SEO title="Expert Naturopath in New Farm Brisbane | Mitchell Potts" description="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath in New Farm Brisbane that will find and heal the root cause of your problems." canonical="/areas-we-serve/naturopath-new-farm" keywords="naturopath New Farm, New Farm naturopathy, natural health New Farm, holistic health New Farm Brisbane" />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 via-accent/10 to-primary/5 py-20 px-4">
@@ -39,11 +18,7 @@ const NewFarmNaturopathy = () => {
                 
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img 
-                    alt="Naturopath having consultation with female patient at NXTLVL Health" 
-                    className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="/lovable-uploads/84b53da1-9f6d-44e1-83af-7bfa206f9225.png"
-                  />
+                  <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/84b53da1-9f6d-44e1-83af-7bfa206f9225.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Heart className="h-6 w-6 text-primary" />
@@ -57,22 +32,13 @@ const NewFarmNaturopathy = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button 
-                  asChild 
-                  size="lg" 
-                  className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight"
-                >
+                <Button asChild size="lg" className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight">
                   <a href="https://nxtlvlhealth.com.au/book-now/">
                     <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                     <span className="text-center">Book an Appointment Today</span>
                   </a>
                 </Button>
-                <Button 
-                  variant="outline" 
-                  size="lg" 
-                  asChild 
-                  className="text-base sm:text-lg px-4 py-3 h-auto"
-                >
+                <Button variant="outline" size="lg" asChild className="text-base sm:text-lg px-4 py-3 h-auto">
                   <a href="tel:0731808853">
                     <Phone className="mr-2 h-4 w-4 flex-shrink-0" />
                     Call Mitch
@@ -88,11 +54,7 @@ const NewFarmNaturopathy = () => {
             
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img 
-                alt="Naturopath having consultation with female patient at NXTLVL Health" 
-                className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="/lovable-uploads/84b53da1-9f6d-44e1-83af-7bfa206f9225.png"
-              />
+              <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/84b53da1-9f6d-44e1-83af-7bfa206f9225.png" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Heart className="h-8 w-8 text-primary" />
@@ -111,16 +73,12 @@ const NewFarmNaturopathy = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Looking for a Trusted Naturopath in New Farm?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Are You Looking for a Trusted Naturopath in New Farm?</h2>
           </div>
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img 
-              src="/lovable-uploads/e1bffcd2-1723-4e18-a2c9-90dd88842aa7.png" 
-              alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto"
-            />
+            <img src="/lovable-uploads/e1bffcd2-1723-4e18-a2c9-90dd88842aa7.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -136,11 +94,7 @@ const NewFarmNaturopathy = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img 
-                src="/lovable-uploads/e1bffcd2-1723-4e18-a2c9-90dd88842aa7.png" 
-                alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto"
-              />
+              <img src="/lovable-uploads/e1bffcd2-1723-4e18-a2c9-90dd88842aa7.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -150,7 +104,7 @@ const NewFarmNaturopathy = () => {
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">A Local Naturopath You Can Trust</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Mitchell Potts is a Local Naturopath You Can Trust</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
                 When your body feels off, it's hard to live the life you want. Maybe your <strong>sleep isn't great</strong>, your <strong>tummy feels upset</strong>, or your <strong>mood is low</strong>. Or maybe you've been told <strong>"everything is normal"</strong> from your doctor, but you still don't feel well. That's where we come in.
@@ -163,11 +117,7 @@ const NewFarmNaturopathy = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img 
-              src="/lovable-uploads/a61f4af0-26d7-4e2a-9676-a409bfb6d550.png" 
-              alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
-            />
+            <img src="/lovable-uploads/a61f4af0-26d7-4e2a-9676-a409bfb6d550.png" alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
         </div>
       </section>
@@ -527,22 +477,13 @@ const NewFarmNaturopathy = () => {
               Let's help you feel <strong>clear, calm, and back in control</strong> again.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                asChild 
-                size="lg" 
-                className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3"
-              >
+              <Button asChild size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
                 <a href="https://nxtlvlhealth.com.au/book-now/">
                   <Calendar className="mr-2 h-5 w-5" />
                   Book an Appointment Today
                 </a>
               </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                asChild 
-                className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3"
-              >
+              <Button variant="outline" size="lg" asChild className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
                 <a href="tel:0731808853">
                   <Phone className="mr-2 h-4 w-4" />
                   Call Mitch
@@ -553,8 +494,6 @@ const NewFarmNaturopathy = () => {
         </div>
       </section>
       </div>
-    </>
-  );
+    </>;
 };
-
 export default NewFarmNaturopathy;
