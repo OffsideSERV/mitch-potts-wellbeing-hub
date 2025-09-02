@@ -3,10 +3,8 @@ import SEO from '@/components/SEO';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, Phone, ChevronDown, ChevronUp, Activity, Heart, TestTube, Eye, Beaker, Stethoscope, Brain, Leaf } from 'lucide-react';
-
 const GutHealth = () => {
   const [openDropdown, setOpenDropdown] = useState<number | null>(null);
-
   const toggleDropdown = (index: number) => {
     setOpenDropdown(openDropdown === index ? null : index);
   };
@@ -42,38 +40,34 @@ const GutHealth = () => {
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Gut Health Naturopathy Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Gut Health Consultation",
-            "description": "Comprehensive assessment and personalised treatment plan for digestive health issues including IBS, SIBO, inflammatory bowel disease, leaky gut syndrome, acid reflux, food allergies and sensitivities"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
+      "itemListElement": [{
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Gut Health Consultation",
+          "description": "Comprehensive assessment and personalised treatment plan for digestive health issues including IBS, SIBO, inflammatory bowel disease, leaky gut syndrome, acid reflux, food allergies and sensitivities"
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Functional Digestive Testing",
-            "description": "Advanced testing including stool analysis, SIBO breath tests, food intolerance testing, and nutrient deficiency assessments"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }, {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Functional Digestive Testing",
+          "description": "Advanced testing including stool analysis, SIBO breath tests, food intolerance testing, and nutrient deficiency assessments"
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Personalised Gut Healing Programme",
-            "description": "Tailored treatment plan using herbal medicine therapy, nutritional supplementation, anti-inflammatory nutrition plans, probiotic therapy, and stress management support"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
-        }
-      ]
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }, {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Personalised Gut Healing Programme",
+          "description": "Tailored treatment plan using herbal medicine therapy, nutritional supplementation, anti-inflammatory nutrition plans, probiotic therapy, and stress management support"
+        },
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }]
     },
     "serviceArea": {
       "@type": "GeoCircle",
@@ -84,30 +78,7 @@ const GutHealth = () => {
       },
       "geoRadius": "50000"
     },
-    "areaServed": [
-      "Brisbane",
-      "New Farm",
-      "Fortitude Valley",
-      "Newstead",
-      "Teneriffe",
-      "Kangaroo Point",
-      "East Brisbane",
-      "Norman Park",
-      "Bulimba",
-      "Hawthorne",
-      "Morningside",
-      "Ascot",
-      "Hamilton",
-      "Clayfield",
-      "Wilston",
-      "Windsor",
-      "Kelvin Grove",
-      "Paddington",
-      "Red Hill",
-      "Auchenflower",
-      "Toowong",
-      "Queensland"
-    ],
+    "areaServed": ["Brisbane", "New Farm", "Fortitude Valley", "Newstead", "Teneriffe", "Kangaroo Point", "East Brisbane", "Norman Park", "Bulimba", "Hawthorne", "Morningside", "Ascot", "Hamilton", "Clayfield", "Wilston", "Windsor", "Kelvin Grove", "Paddington", "Red Hill", "Auchenflower", "Toowong", "Queensland"],
     "availableChannel": {
       "@type": "ServiceChannel",
       "name": "In-Person Naturopathic Consultations",
@@ -126,263 +97,188 @@ const GutHealth = () => {
       "servicePhone": "(07) 3180 8853",
       "serviceUrl": "https://www.nxtlvlhealth.com.au/what-we-treat/gut-health-naturopath-brisbane"
     },
-    "serviceOutput": [
-      "IBS Treatment",
-      "SIBO Treatment", 
-      "Digestive Disorder Management",
-      "Gut Healing",
-      "Food Intolerance Management",
-      "Inflammatory Bowel Disease Support",
-      "Leaky Gut Treatment",
-      "Microbiome Restoration",
-      "Digestive Enzyme Support",
-      "Anti-inflammatory Nutrition"
-    ],
+    "serviceOutput": ["IBS Treatment", "SIBO Treatment", "Digestive Disorder Management", "Gut Healing", "Food Intolerance Management", "Inflammatory Bowel Disease Support", "Leaky Gut Treatment", "Microbiome Restoration", "Digestive Enzyme Support", "Anti-inflammatory Nutrition"],
     "audience": {
       "@type": "PeopleAudience",
       "audienceType": "Individuals with digestive disorders, IBS sufferers, SIBO patients, chronic digestive symptoms"
     },
-    "potentialAction": [
-      {
-        "@type": "ReserveAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://nxtlvlhealth.com.au/book-now/",
-          "actionPlatform": [
-            "http://schema.org/DesktopWebPlatform",
-            "http://schema.org/MobileWebPlatform"
-          ]
-        },
-        "result": {
-          "@type": "Reservation",
-          "name": "Gut Health Naturopath Consultation"
-        }
+    "potentialAction": [{
+      "@type": "ReserveAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://nxtlvlhealth.com.au/book-now/",
+        "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]
+      },
+      "result": {
+        "@type": "Reservation",
+        "name": "Gut Health Naturopath Consultation"
       }
-    ]
+    }]
   };
-
-  const gutHealthSigns = [
-    {
-      title: "CONSTANT BLOATING, GAS, OR ABDOMINAL PAIN",
-      description: "Persistent digestive discomfort that affects your daily life and makes you feel uncomfortable after eating.",
-      icon: <Activity className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "TROUBLE WITH BOWEL MOVEMENTS (DIARRHOEA, CONSTIPATION, OR BOTH)", 
-      description: "Irregular bowel patterns that may alternate between loose stools and constipation, indicating digestive imbalance.",
-      icon: <TestTube className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "FOOD INTOLERANCES OR SENSITIVITIES",
-      description: "Reactions to certain foods that cause digestive upset, skin issues, or other systemic symptoms.",
-      icon: <Heart className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "SKIN CONDITIONS LIKE ACNE OR ECZEMA",
-      description: "Skin problems that may be linked to gut inflammation and poor digestive health affecting your body's ability to eliminate toxins.",
-      icon: <Eye className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "LOW ENERGY AND UNEXPLAINED FATIGUE",
-      description: "Persistent tiredness that may be related to poor nutrient absorption and gut dysfunction affecting your overall vitality.",
-      icon: <Activity className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "ANXIETY, DEPRESSION, OR FREQUENT OVERWHELM",
-      description: "Mental health symptoms that may be connected to the gut-brain axis and imbalanced gut bacteria affecting neurotransmitter production.",
-      icon: <Brain className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "A HISTORY OF ANTIBIOTIC USE OR CHRONIC STRESS",
-      description: "Past treatments or lifestyle factors that may have disrupted your natural gut flora balance.",
-      icon: <Beaker className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "BEING TOLD 'YOUR RESULTS ARE FINE,' BUT YOU STILL FEEL OFF",
-      description: "Standard medical tests showing normal results while you continue to experience digestive and health symptoms.",
-      icon: <Stethoscope className="h-6 w-6 text-primary" />
-    }
-  ];
-
-  const conditionsWeWorkWith = [
-    {
-      title: "IRRITABLE BOWEL SYNDROME (IBS)",
-      description: "A common digestive disorder causing cramping, abdominal pain, bloating, gas, and changes in bowel habits.",
-      icon: <Activity className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "SMALL INTESTINAL BACTERIAL OVERGROWTH (SIBO)",
-      description: "An overgrowth of bacteria in the small intestine that can cause bloating, gas, diarrhoea, and malabsorption.",
-      icon: <TestTube className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "ULCERATIVE COLITIS",
-      description: "An inflammatory bowel disease that causes inflammation and ulcers in the digestive tract.",
-      icon: <Heart className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "CROHN'S DISEASE",
-      description: "A type of inflammatory bowel disease that causes inflammation of the digestive tract lining.",
-      icon: <Activity className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "LEAKY GUT SYNDROME",
-      description: "Increased intestinal permeability that allows toxins and bacteria to leak through the intestinal wall.",
-      icon: <Eye className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "ACID REFLUX AND HEARTBURN",
-      description: "Stomach acid flowing back into the esophagus, causing burning sensations and digestive discomfort.",
-      icon: <Beaker className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "FOOD ALLERGIES AND SENSITIVITIES",
-      description: "Immune reactions to specific foods that can cause digestive symptoms and systemic inflammation.",
-      icon: <Heart className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "POOR NUTRIENT ABSORPTION",
-      description: "Difficulty absorbing essential vitamins and minerals from food, leading to deficiencies and health issues.",
-      icon: <TestTube className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "AUTOIMMUNE CONDITIONS",
-      description: "Conditions where the immune system attacks healthy tissues, often linked to gut health imbalances.",
-      icon: <Activity className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "SKIN CONDITIONS LINKED TO GUT IMBALANCES",
-      description: "Skin problems like eczema, acne, and psoriasis that may be connected to digestive health issues.",
-      icon: <Eye className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "CHRONIC FATIGUE, HORMONAL IMBALANCE, AND MENTAL HEALTH ISSUES",
-      description: "Systemic health problems that may be rooted in poor gut health and microbiome imbalances.",
-      icon: <Brain className="h-6 w-6 text-primary" />
-    }
-  ];
-
-  const functionalTestingOptions = [
-    {
-      title: "STOOL TESTS TO ANALYSE GUT FLORA AND PATHOGENS",
-      description: "Comprehensive analysis of your gut microbiome, beneficial bacteria levels, and potential harmful organisms.",
-      icon: <TestTube className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "SIBO BREATH TESTS FOR DETECTING BACTERIAL OVERGROWTH",
-      description: "Specialized testing to identify small intestinal bacterial overgrowth that may be causing digestive symptoms.",
-      icon: <Activity className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "FOOD INTOLERANCE TESTING",
-      description: "Identify specific foods that may be triggering your digestive symptoms and inflammatory responses.",
-      icon: <Heart className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "BLOOD TESTS FOR NUTRIENT DEFICIENCIES AND INFLAMMATION",
-      description: "Assess vitamin and mineral levels, inflammatory markers, and autoimmune indicators affecting your health.",
-      icon: <Beaker className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "HORMONE TESTING TO EXPLORE THE GUT-BRAIN AXIS",
-      description: "Evaluate hormonal imbalances that may be connected to your digestive health and overall wellbeing.",
-      icon: <Brain className="h-6 w-6 text-primary" />
-    }
-  ];
-
-  const healingPlanComponents = [
-    {
-      title: "GUT-SPECIFIC HERBAL MEDICINE",
-      description: "Targeted herbal remedies designed to heal the digestive tract, reduce inflammation, and restore gut function.",
-      icon: <Leaf className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "TARGETED NUTRITIONAL SUPPLEMENTS",
-      description: "Probiotics, prebiotics, digestive enzymes, and other supplements specifically chosen for your gut health needs.",
-      icon: <TestTube className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "ANTI-INFLAMMATORY NUTRITION AND HEALTHY DIET STRATEGIES",
-      description: "Personalized nutrition plans that reduce inflammation and support optimal digestive function.",
-      icon: <Heart className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "NERVOUS SYSTEM SUPPORT AND STRESS MANAGEMENT",
-      description: "Techniques to support the gut-brain connection and manage stress that can impact digestive health.",
-      icon: <Brain className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "SUPPORT FOR IMMUNE FUNCTION, MENTAL HEALTH, AND JOINT PAIN",
-      description: "Holistic approach addressing the interconnected systems affected by gut health imbalances.",
-      icon: <Activity className="h-6 w-6 text-primary" />
-    }
-  ];
-
-  const gutBrainBenefits = [
-    {
-      title: "ANXIETY AND EMOTIONAL STABILITY",
-      description: "Improved gut health can help regulate neurotransmitter production, leading to better emotional balance and reduced anxiety.",
-      icon: <Brain className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "FOCUS, COGNITION, AND CLARITY",
-      description: "A healthy gut supports better brain function, improving mental clarity, focus, and cognitive performance.",
-      icon: <Eye className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "ENERGY LEVELS AND MOTIVATION",
-      description: "Optimal gut health improves nutrient absorption and reduces inflammation, leading to increased energy and motivation.",
-      icon: <Activity className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "RESILIENCE TO CHRONIC STRESS",
-      description: "A balanced gut microbiome helps your body better cope with and recover from chronic stress.",
-      icon: <Heart className="h-6 w-6 text-primary" />
-    }
-  ];
-
-  const naturalTreatmentMethods = [
-    {
-      title: "HIGH-QUALITY DIGESTIVE ENZYMES",
-      description: "Supplemental enzymes to support proper digestion and nutrient absorption when your body's natural production is insufficient.",
-      icon: <TestTube className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "HERBAL ANTIMICROBIALS TO REBALANCE GUT FLORA",
-      description: "Natural antimicrobial herbs that help eliminate harmful bacteria while supporting beneficial microorganisms.",
-      icon: <Leaf className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "ANTI-INFLAMMATORY FOODS TO SUPPORT YOUR DIGESTIVE SYSTEM",
-      description: "Specific foods and nutrients that reduce inflammation in the gut and promote healing of the digestive tract.",
-      icon: <Heart className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "PROBIOTIC AND PREBIOTIC THERAPY",
-      description: "Targeted probiotic strains and prebiotic fibers to restore and maintain a healthy gut microbiome.",
-      icon: <Activity className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "TAILORED DIET PLANS FOR FOOD SENSITIVITIES AND NUTRIENT ABSORPTION",
-      description: "Personalized nutrition strategies that eliminate trigger foods and optimize nutrient uptake for healing.",
-      icon: <Beaker className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "CHINESE MEDICINE PRINCIPLES (IF APPROPRIATE)",
-      description: "Traditional Chinese Medicine approaches that may complement naturopathic treatment for digestive health.",
-      icon: <Eye className="h-6 w-6 text-primary" />
-    }
-  ];
-
-  return (
-    <>
-      <SEO
-        title="Highly Trusted Gut Health Naturopath | Mitchell Potts"
-        description="Feeling tired, bloated, foggy or just flat? Our gut health naturopath will the real cause of your symptoms—so you can finally feel like YOU again."
-        canonical="/what-we-treat/gut-health-naturopath-brisbane"
-        keywords="gut health naturopath Brisbane, digestive health Brisbane, IBS treatment Brisbane, gut healing Brisbane, functional medicine Brisbane"
-        serviceSchema={gutHealthServiceSchema}
-      />
+  const gutHealthSigns = [{
+    title: "CONSTANT BLOATING, GAS, OR ABDOMINAL PAIN",
+    description: "Persistent digestive discomfort that affects your daily life and makes you feel uncomfortable after eating.",
+    icon: <Activity className="h-6 w-6 text-primary" />
+  }, {
+    title: "TROUBLE WITH BOWEL MOVEMENTS (DIARRHOEA, CONSTIPATION, OR BOTH)",
+    description: "Irregular bowel patterns that may alternate between loose stools and constipation, indicating digestive imbalance.",
+    icon: <TestTube className="h-6 w-6 text-primary" />
+  }, {
+    title: "FOOD INTOLERANCES OR SENSITIVITIES",
+    description: "Reactions to certain foods that cause digestive upset, skin issues, or other systemic symptoms.",
+    icon: <Heart className="h-6 w-6 text-primary" />
+  }, {
+    title: "SKIN CONDITIONS LIKE ACNE OR ECZEMA",
+    description: "Skin problems that may be linked to gut inflammation and poor digestive health affecting your body's ability to eliminate toxins.",
+    icon: <Eye className="h-6 w-6 text-primary" />
+  }, {
+    title: "LOW ENERGY AND UNEXPLAINED FATIGUE",
+    description: "Persistent tiredness that may be related to poor nutrient absorption and gut dysfunction affecting your overall vitality.",
+    icon: <Activity className="h-6 w-6 text-primary" />
+  }, {
+    title: "ANXIETY, DEPRESSION, OR FREQUENT OVERWHELM",
+    description: "Mental health symptoms that may be connected to the gut-brain axis and imbalanced gut bacteria affecting neurotransmitter production.",
+    icon: <Brain className="h-6 w-6 text-primary" />
+  }, {
+    title: "A HISTORY OF ANTIBIOTIC USE OR CHRONIC STRESS",
+    description: "Past treatments or lifestyle factors that may have disrupted your natural gut flora balance.",
+    icon: <Beaker className="h-6 w-6 text-primary" />
+  }, {
+    title: "BEING TOLD 'YOUR RESULTS ARE FINE,' BUT YOU STILL FEEL OFF",
+    description: "Standard medical tests showing normal results while you continue to experience digestive and health symptoms.",
+    icon: <Stethoscope className="h-6 w-6 text-primary" />
+  }];
+  const conditionsWeWorkWith = [{
+    title: "IRRITABLE BOWEL SYNDROME (IBS)",
+    description: "A common digestive disorder causing cramping, abdominal pain, bloating, gas, and changes in bowel habits.",
+    icon: <Activity className="h-6 w-6 text-primary" />
+  }, {
+    title: "SMALL INTESTINAL BACTERIAL OVERGROWTH (SIBO)",
+    description: "An overgrowth of bacteria in the small intestine that can cause bloating, gas, diarrhoea, and malabsorption.",
+    icon: <TestTube className="h-6 w-6 text-primary" />
+  }, {
+    title: "ULCERATIVE COLITIS",
+    description: "An inflammatory bowel disease that causes inflammation and ulcers in the digestive tract.",
+    icon: <Heart className="h-6 w-6 text-primary" />
+  }, {
+    title: "CROHN'S DISEASE",
+    description: "A type of inflammatory bowel disease that causes inflammation of the digestive tract lining.",
+    icon: <Activity className="h-6 w-6 text-primary" />
+  }, {
+    title: "LEAKY GUT SYNDROME",
+    description: "Increased intestinal permeability that allows toxins and bacteria to leak through the intestinal wall.",
+    icon: <Eye className="h-6 w-6 text-primary" />
+  }, {
+    title: "ACID REFLUX AND HEARTBURN",
+    description: "Stomach acid flowing back into the esophagus, causing burning sensations and digestive discomfort.",
+    icon: <Beaker className="h-6 w-6 text-primary" />
+  }, {
+    title: "FOOD ALLERGIES AND SENSITIVITIES",
+    description: "Immune reactions to specific foods that can cause digestive symptoms and systemic inflammation.",
+    icon: <Heart className="h-6 w-6 text-primary" />
+  }, {
+    title: "POOR NUTRIENT ABSORPTION",
+    description: "Difficulty absorbing essential vitamins and minerals from food, leading to deficiencies and health issues.",
+    icon: <TestTube className="h-6 w-6 text-primary" />
+  }, {
+    title: "AUTOIMMUNE CONDITIONS",
+    description: "Conditions where the immune system attacks healthy tissues, often linked to gut health imbalances.",
+    icon: <Activity className="h-6 w-6 text-primary" />
+  }, {
+    title: "SKIN CONDITIONS LINKED TO GUT IMBALANCES",
+    description: "Skin problems like eczema, acne, and psoriasis that may be connected to digestive health issues.",
+    icon: <Eye className="h-6 w-6 text-primary" />
+  }, {
+    title: "CHRONIC FATIGUE, HORMONAL IMBALANCE, AND MENTAL HEALTH ISSUES",
+    description: "Systemic health problems that may be rooted in poor gut health and microbiome imbalances.",
+    icon: <Brain className="h-6 w-6 text-primary" />
+  }];
+  const functionalTestingOptions = [{
+    title: "STOOL TESTS TO ANALYSE GUT FLORA AND PATHOGENS",
+    description: "Comprehensive analysis of your gut microbiome, beneficial bacteria levels, and potential harmful organisms.",
+    icon: <TestTube className="h-6 w-6 text-primary" />
+  }, {
+    title: "SIBO BREATH TESTS FOR DETECTING BACTERIAL OVERGROWTH",
+    description: "Specialized testing to identify small intestinal bacterial overgrowth that may be causing digestive symptoms.",
+    icon: <Activity className="h-6 w-6 text-primary" />
+  }, {
+    title: "FOOD INTOLERANCE TESTING",
+    description: "Identify specific foods that may be triggering your digestive symptoms and inflammatory responses.",
+    icon: <Heart className="h-6 w-6 text-primary" />
+  }, {
+    title: "BLOOD TESTS FOR NUTRIENT DEFICIENCIES AND INFLAMMATION",
+    description: "Assess vitamin and mineral levels, inflammatory markers, and autoimmune indicators affecting your health.",
+    icon: <Beaker className="h-6 w-6 text-primary" />
+  }, {
+    title: "HORMONE TESTING TO EXPLORE THE GUT-BRAIN AXIS",
+    description: "Evaluate hormonal imbalances that may be connected to your digestive health and overall wellbeing.",
+    icon: <Brain className="h-6 w-6 text-primary" />
+  }];
+  const healingPlanComponents = [{
+    title: "GUT-SPECIFIC HERBAL MEDICINE",
+    description: "Targeted herbal remedies designed to heal the digestive tract, reduce inflammation, and restore gut function.",
+    icon: <Leaf className="h-6 w-6 text-primary" />
+  }, {
+    title: "TARGETED NUTRITIONAL SUPPLEMENTS",
+    description: "Probiotics, prebiotics, digestive enzymes, and other supplements specifically chosen for your gut health needs.",
+    icon: <TestTube className="h-6 w-6 text-primary" />
+  }, {
+    title: "ANTI-INFLAMMATORY NUTRITION AND HEALTHY DIET STRATEGIES",
+    description: "Personalized nutrition plans that reduce inflammation and support optimal digestive function.",
+    icon: <Heart className="h-6 w-6 text-primary" />
+  }, {
+    title: "NERVOUS SYSTEM SUPPORT AND STRESS MANAGEMENT",
+    description: "Techniques to support the gut-brain connection and manage stress that can impact digestive health.",
+    icon: <Brain className="h-6 w-6 text-primary" />
+  }, {
+    title: "SUPPORT FOR IMMUNE FUNCTION, MENTAL HEALTH, AND JOINT PAIN",
+    description: "Holistic approach addressing the interconnected systems affected by gut health imbalances.",
+    icon: <Activity className="h-6 w-6 text-primary" />
+  }];
+  const gutBrainBenefits = [{
+    title: "ANXIETY AND EMOTIONAL STABILITY",
+    description: "Improved gut health can help regulate neurotransmitter production, leading to better emotional balance and reduced anxiety.",
+    icon: <Brain className="h-6 w-6 text-primary" />
+  }, {
+    title: "FOCUS, COGNITION, AND CLARITY",
+    description: "A healthy gut supports better brain function, improving mental clarity, focus, and cognitive performance.",
+    icon: <Eye className="h-6 w-6 text-primary" />
+  }, {
+    title: "ENERGY LEVELS AND MOTIVATION",
+    description: "Optimal gut health improves nutrient absorption and reduces inflammation, leading to increased energy and motivation.",
+    icon: <Activity className="h-6 w-6 text-primary" />
+  }, {
+    title: "RESILIENCE TO CHRONIC STRESS",
+    description: "A balanced gut microbiome helps your body better cope with and recover from chronic stress.",
+    icon: <Heart className="h-6 w-6 text-primary" />
+  }];
+  const naturalTreatmentMethods = [{
+    title: "HIGH-QUALITY DIGESTIVE ENZYMES",
+    description: "Supplemental enzymes to support proper digestion and nutrient absorption when your body's natural production is insufficient.",
+    icon: <TestTube className="h-6 w-6 text-primary" />
+  }, {
+    title: "HERBAL ANTIMICROBIALS TO REBALANCE GUT FLORA",
+    description: "Natural antimicrobial herbs that help eliminate harmful bacteria while supporting beneficial microorganisms.",
+    icon: <Leaf className="h-6 w-6 text-primary" />
+  }, {
+    title: "ANTI-INFLAMMATORY FOODS TO SUPPORT YOUR DIGESTIVE SYSTEM",
+    description: "Specific foods and nutrients that reduce inflammation in the gut and promote healing of the digestive tract.",
+    icon: <Heart className="h-6 w-6 text-primary" />
+  }, {
+    title: "PROBIOTIC AND PREBIOTIC THERAPY",
+    description: "Targeted probiotic strains and prebiotic fibers to restore and maintain a healthy gut microbiome.",
+    icon: <Activity className="h-6 w-6 text-primary" />
+  }, {
+    title: "TAILORED DIET PLANS FOR FOOD SENSITIVITIES AND NUTRIENT ABSORPTION",
+    description: "Personalized nutrition strategies that eliminate trigger foods and optimize nutrient uptake for healing.",
+    icon: <Beaker className="h-6 w-6 text-primary" />
+  }, {
+    title: "CHINESE MEDICINE PRINCIPLES (IF APPROPRIATE)",
+    description: "Traditional Chinese Medicine approaches that may complement naturopathic treatment for digestive health.",
+    icon: <Eye className="h-6 w-6 text-primary" />
+  }];
+  return <>
+      <SEO title="Highly Trusted Gut Health Naturopath | Mitchell Potts" description="Feeling tired, bloated, foggy or just flat? Our gut health naturopath will the real cause of your symptoms—so you can finally feel like YOU again." canonical="/what-we-treat/gut-health-naturopath-brisbane" keywords="gut health naturopath Brisbane, digestive health Brisbane, IBS treatment Brisbane, gut healing Brisbane, functional medicine Brisbane" serviceSchema={gutHealthServiceSchema} />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
@@ -451,7 +347,7 @@ const GutHealth = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Get to the Root Cause of Your Digestive Issues</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Let's Find the Root Cause of Your Digestive Issues</h2>
           </div>
 
           {/* Mobile Image positioned after heading */}
@@ -482,7 +378,7 @@ const GutHealth = () => {
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Gut Health Matters More Than You Think</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Your Gut Health Matters More Than You Think</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
                 Your gut is more than just a digestive organ. Often called your "second brain," the gut is deeply connected to your <strong>immune system</strong>, <strong>mental health</strong>, hormones, and even your skin. If your gut is out of balance, the effects can show up almost anywhere.
@@ -494,32 +390,22 @@ const GutHealth = () => {
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto">
-            {gutHealthSigns.map((sign, index) => (
-              <Card key={index} className="border-0 shadow-md">
-                <CardHeader 
-                  className="cursor-pointer hover:bg-muted/20 transition-colors"
-                  onClick={() => toggleDropdown(index)}
-                >
+            {gutHealthSigns.map((sign, index) => <Card key={index} className="border-0 shadow-md">
+                <CardHeader className="cursor-pointer hover:bg-muted/20 transition-colors" onClick={() => toggleDropdown(index)}>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-3">
                       {sign.icon}
                       <CardTitle className="text-lg">{sign.title}</CardTitle>
                     </div>
-                    {openDropdown === index ? 
-                      <ChevronUp className="h-5 w-5 text-muted-foreground" /> : 
-                      <ChevronDown className="h-5 w-5 text-muted-foreground" />
-                    }
+                    {openDropdown === index ? <ChevronUp className="h-5 w-5 text-muted-foreground" /> : <ChevronDown className="h-5 w-5 text-muted-foreground" />}
                   </div>
                 </CardHeader>
-                {openDropdown === index && (
-                  <CardContent className="pt-0">
+                {openDropdown === index && <CardContent className="pt-0">
                     <CardDescription className="text-base leading-relaxed">
                       {sign.description}
                     </CardDescription>
-                  </CardContent>
-                )}
-              </Card>
-            ))}
+                  </CardContent>}
+              </Card>)}
           </div>
 
           <div className="text-center mt-12">
@@ -534,7 +420,7 @@ const GutHealth = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">What Makes Our Gut Naturopath Services Different?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">What Makes Our Gut Naturopath Services Different From Others?</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
                 At NXTLVL Health, we don't treat symptoms in isolation. We take a <strong>whole-body approach</strong> to understand how your <strong>digestive function</strong> affects everything else in your life, from your mood to your metabolism.
@@ -547,7 +433,7 @@ const GutHealth = () => {
           </div>
 
           <div className="text-center mb-12">
-            <h3 className="text-2xl font-bold mb-8">What sets us apart:</h3>
+            <h3 className="text-2xl font-bold mb-8">Here's what sets us apart:</h3>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 text-left max-w-4xl mx-auto">
@@ -596,32 +482,22 @@ const GutHealth = () => {
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto">
-            {conditionsWeWorkWith.map((condition, index) => (
-              <Card key={index} className="border-0 shadow-md">
-                <CardHeader 
-                  className="cursor-pointer hover:bg-muted/20 transition-colors"
-                  onClick={() => toggleDropdown(index + 20)}
-                >
+            {conditionsWeWorkWith.map((condition, index) => <Card key={index} className="border-0 shadow-md">
+                <CardHeader className="cursor-pointer hover:bg-muted/20 transition-colors" onClick={() => toggleDropdown(index + 20)}>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-3">
                       {condition.icon}
                       <CardTitle className="text-lg">{condition.title}</CardTitle>
                     </div>
-                    {openDropdown === index + 20 ? 
-                      <ChevronUp className="h-5 w-5 text-muted-foreground" /> : 
-                      <ChevronDown className="h-5 w-5 text-muted-foreground" />
-                    }
+                    {openDropdown === index + 20 ? <ChevronUp className="h-5 w-5 text-muted-foreground" /> : <ChevronDown className="h-5 w-5 text-muted-foreground" />}
                   </div>
                 </CardHeader>
-                {openDropdown === index + 20 && (
-                  <CardContent className="pt-0">
+                {openDropdown === index + 20 && <CardContent className="pt-0">
                     <CardDescription className="text-base leading-relaxed">
                       {condition.description}
                     </CardDescription>
-                  </CardContent>
-                )}
-              </Card>
-            ))}
+                  </CardContent>}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -684,32 +560,22 @@ const GutHealth = () => {
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto">
-            {functionalTestingOptions.map((test, index) => (
-              <Card key={index} className="border-0 shadow-md">
-                <CardHeader 
-                  className="cursor-pointer hover:bg-muted/20 transition-colors"
-                  onClick={() => toggleDropdown(index + 40)}
-                >
+            {functionalTestingOptions.map((test, index) => <Card key={index} className="border-0 shadow-md">
+                <CardHeader className="cursor-pointer hover:bg-muted/20 transition-colors" onClick={() => toggleDropdown(index + 40)}>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-3">
                       {test.icon}
                       <CardTitle className="text-lg">{test.title}</CardTitle>
                     </div>
-                    {openDropdown === index + 40 ? 
-                      <ChevronUp className="h-5 w-5 text-muted-foreground" /> : 
-                      <ChevronDown className="h-5 w-5 text-muted-foreground" />
-                    }
+                    {openDropdown === index + 40 ? <ChevronUp className="h-5 w-5 text-muted-foreground" /> : <ChevronDown className="h-5 w-5 text-muted-foreground" />}
                   </div>
                 </CardHeader>
-                {openDropdown === index + 40 && (
-                  <CardContent className="pt-0">
+                {openDropdown === index + 40 && <CardContent className="pt-0">
                     <CardDescription className="text-base leading-relaxed">
                       {test.description}
                     </CardDescription>
-                  </CardContent>
-                )}
-              </Card>
-            ))}
+                  </CardContent>}
+              </Card>)}
           </div>
 
           <div className="text-center mt-12">
@@ -717,32 +583,22 @@ const GutHealth = () => {
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto">
-            {healingPlanComponents.map((component, index) => (
-              <Card key={index} className="border-0 shadow-md">
-                <CardHeader 
-                  className="cursor-pointer hover:bg-muted/20 transition-colors"
-                  onClick={() => toggleDropdown(index + 50)}
-                >
+            {healingPlanComponents.map((component, index) => <Card key={index} className="border-0 shadow-md">
+                <CardHeader className="cursor-pointer hover:bg-muted/20 transition-colors" onClick={() => toggleDropdown(index + 50)}>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-3">
                       {component.icon}
                       <CardTitle className="text-lg">{component.title}</CardTitle>
                     </div>
-                    {openDropdown === index + 50 ? 
-                      <ChevronUp className="h-5 w-5 text-muted-foreground" /> : 
-                      <ChevronDown className="h-5 w-5 text-muted-foreground" />
-                    }
+                    {openDropdown === index + 50 ? <ChevronUp className="h-5 w-5 text-muted-foreground" /> : <ChevronDown className="h-5 w-5 text-muted-foreground" />}
                   </div>
                 </CardHeader>
-                {openDropdown === index + 50 && (
-                  <CardContent className="pt-0">
+                {openDropdown === index + 50 && <CardContent className="pt-0">
                     <CardDescription className="text-base leading-relaxed">
                       {component.description}
                     </CardDescription>
-                  </CardContent>
-                )}
-              </Card>
-            ))}
+                  </CardContent>}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -764,32 +620,22 @@ const GutHealth = () => {
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto mb-16">
-            {gutBrainBenefits.map((benefit, index) => (
-              <Card key={index} className="border-0 shadow-md">
-                <CardHeader 
-                  className="cursor-pointer hover:bg-muted/20 transition-colors"
-                  onClick={() => toggleDropdown(index + 60)}
-                >
+            {gutBrainBenefits.map((benefit, index) => <Card key={index} className="border-0 shadow-md">
+                <CardHeader className="cursor-pointer hover:bg-muted/20 transition-colors" onClick={() => toggleDropdown(index + 60)}>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-3">
                       {benefit.icon}
                       <CardTitle className="text-lg">{benefit.title}</CardTitle>
                     </div>
-                    {openDropdown === index + 60 ? 
-                      <ChevronUp className="h-5 w-5 text-muted-foreground" /> : 
-                      <ChevronDown className="h-5 w-5 text-muted-foreground" />
-                    }
+                    {openDropdown === index + 60 ? <ChevronUp className="h-5 w-5 text-muted-foreground" /> : <ChevronDown className="h-5 w-5 text-muted-foreground" />}
                   </div>
                 </CardHeader>
-                {openDropdown === index + 60 && (
-                  <CardContent className="pt-0">
+                {openDropdown === index + 60 && <CardContent className="pt-0">
                     <CardDescription className="text-base leading-relaxed">
                       {benefit.description}
                     </CardDescription>
-                  </CardContent>
-                )}
-              </Card>
-            ))}
+                  </CardContent>}
+              </Card>)}
           </div>
 
           <div className="text-center">
@@ -817,32 +663,22 @@ const GutHealth = () => {
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto mb-16">
-            {naturalTreatmentMethods.map((method, index) => (
-              <Card key={index} className="border-0 shadow-md">
-                <CardHeader 
-                  className="cursor-pointer hover:bg-muted/20 transition-colors"
-                  onClick={() => toggleDropdown(index + 70)}
-                >
+            {naturalTreatmentMethods.map((method, index) => <Card key={index} className="border-0 shadow-md">
+                <CardHeader className="cursor-pointer hover:bg-muted/20 transition-colors" onClick={() => toggleDropdown(index + 70)}>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-3">
                       {method.icon}
                       <CardTitle className="text-lg">{method.title}</CardTitle>
                     </div>
-                    {openDropdown === index + 70 ? 
-                      <ChevronUp className="h-5 w-5 text-muted-foreground" /> : 
-                      <ChevronDown className="h-5 w-5 text-muted-foreground" />
-                    }
+                    {openDropdown === index + 70 ? <ChevronUp className="h-5 w-5 text-muted-foreground" /> : <ChevronDown className="h-5 w-5 text-muted-foreground" />}
                   </div>
                 </CardHeader>
-                {openDropdown === index + 70 && (
-                  <CardContent className="pt-0">
+                {openDropdown === index + 70 && <CardContent className="pt-0">
                     <CardDescription className="text-base leading-relaxed">
                       {method.description}
                     </CardDescription>
-                  </CardContent>
-                )}
-              </Card>
-            ))}
+                  </CardContent>}
+              </Card>)}
           </div>
 
           <div className="text-center">
@@ -944,8 +780,6 @@ const GutHealth = () => {
         </div>
       </section>
       </div>
-    </>
-  );
+    </>;
 };
-
 export default GutHealth;
