@@ -210,6 +210,16 @@ const SEO = ({
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />
       
+      {/* Preload critical hero image for LCP optimization */}
+      {(currentPath === '/' || currentPath === '/index.html') && (
+        <link 
+          rel="preload" 
+          as="image" 
+          href="/lovable-uploads/f459679d-99b6-4b58-affb-e2cedb040e6e.png" 
+          fetchPriority="high"
+        />
+      )}
+      
       {/* Additional SEO meta tags */}
       <meta name="author" content="NXTLVL Health" />
       <meta name="language" content="English" />
