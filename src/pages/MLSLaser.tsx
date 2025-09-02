@@ -275,7 +275,7 @@ const MLSLaser = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">What is MLS Laser Therapy?</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
-                <strong>MLS</strong> stands for <strong>Multiwave Locked System</strong>, a <strong>Class IV laser</strong> technology designed to offer <strong>deep tissue penetration</strong> without causing any thermal damage. This advanced system synchronises two <strong>laser beams</strong>: one continuous at <strong>808nm</strong> for inflammation, and one pulsed at 905nm to address pain. Together, they create a powerful <strong>synergistic effect</strong> that's scientifically proven to speed up your body's healing.
+                 <strong>MLS</strong> stands for <strong>Multiwave Locked System</strong>, a <strong>Class IV laser</strong> technology designed to offer <strong>deep tissue penetration</strong> without causing any thermal damage. This advanced system synchronises two <strong>laser beams</strong>: one continuous at <strong>808nm</strong> for inflammation, and one pulsed at 905nm to address pain. Together, they create a powerful <strong>synergistic effect</strong> that's scientifically proven to speed up your body's healing.
               </p>
               <p>
                 It's been widely researched across tons of <strong>clinical studies</strong>, showing consistent benefits for a wide range of conditions, including:
