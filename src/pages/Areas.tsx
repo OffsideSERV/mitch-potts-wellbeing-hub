@@ -15,7 +15,7 @@ const Areas = () => {
   const suburbs = [
     {
       name: "New Farm",
-      description: "This is where our clinic is! Right in the heart of New Farm. If you're nearby, we're just around the corner."
+      description: "This is where our clinic is! Right in the center of New Farm. If you're nearby, we're just around the corner."
     },
     {
       name: "Fortitude Valley",

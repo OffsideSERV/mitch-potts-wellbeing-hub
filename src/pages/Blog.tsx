@@ -112,7 +112,7 @@ const Blog = () => {
                 Health & Wellness Blog
               </h1>
               <p className="text-xl text-muted-foreground">
-                Expert insights, natural health tips, and holistic wellness guidance from our experienced practitioners
+                Expert insights, natural health tips, and holistic wellness guidance from our skilled practitioners
               </p>
             </div>
           </div>

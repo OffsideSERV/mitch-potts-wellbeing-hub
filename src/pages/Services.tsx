@@ -22,7 +22,7 @@ const Services = () => {
   }];
   const whyChoose = [{
     title: "PERSONALISED PLANS",
-    description: "We develop tailored plans integrating a range of options including genetic and blood analysis, naturopathic consultations, and comprehensive assessments to understand your body's systems synergistically.",
+    description: "We develop tailored plans integrating a range of options including genetic and blood analysis, naturopathic consultations, and comprehensive assessments to understand your body's functions synergistically.",
     icon: <Heart className="h-8 w-8 text-primary" />
   }, {
     title: "HOLISTIC APPROACH",

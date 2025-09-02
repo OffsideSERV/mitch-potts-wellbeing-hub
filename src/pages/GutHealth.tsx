@@ -117,7 +117,7 @@ const GutHealth = () => {
   };
   const gutHealthSigns = [{
     title: "CONSTANT BLOATING, GAS, OR ABDOMINAL PAIN",
-    description: "Persistent digestive discomfort that affects your daily life and makes you feel uncomfortable after eating.",
+    description: "Persistent digestive discomfort that affects your daily routine and makes you feel uncomfortable after eating.",
     icon: <Activity className="h-6 w-6 text-primary" />
   }, {
     title: "TROUBLE WITH BOWEL MOVEMENTS (DIARRHOEA, CONSTIPATION, OR BOTH)",

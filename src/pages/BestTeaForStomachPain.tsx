@@ -18,7 +18,7 @@ const BestTeaForStomachPain = () => {
     {
       name: "Peppermint Tea",
       bestFor: "Gas, cramps, trapped wind",
-      description: "Peppermint relaxes your gut muscles and helps move gas through more easily. It's a go-to for tight, crampy bellies.",
+      description: "Peppermint relaxes your gut muscles and helps move gas through more smoothly. It's a go-to for tight, crampy bellies.",
       quote: "I feel like there's air stuck in my belly.",
       recommendation: "This is the tea I'd recommend first."
     },

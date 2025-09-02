@@ -159,7 +159,7 @@ const AnxietyNaturopathy = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
-                <p>Do you always feel nervous, unsettled, or stuck in a loop of worry that just won't go away? Is your mind racing at night, making it hard to fall asleep? Do you feel tight in your chest, short of breath, or exhausted from trying to manage stress everyday?</p>
+                <p>Do you always feel nervous, unsettled, or stuck in a loop of worry that just won't stop? Is your mind racing at night, making it hard to fall asleep? Do you feel tight in your chest, short of breath, or exhausted from trying to manage stress everyday?</p>
                 <p>
                   You're not alone. <strong>Anxiety symptoms affect millions of people</strong>, and for many, they're not just in the mind. They show up in the body too: through tension, gut issues, poor sleep, and low energy. Many people who struggle with anxiety also find themselves dealing with <a href="/what-we-treat/adhd-naturopath" className="text-primary hover:text-primary/80 underline">attention and focus challenges</a>, as these nervous system conditions often overlap. For athletes experiencing anxiety around performance, our <a href="/what-we-treat/naturopathic-sports-medicine" className="text-primary hover:text-primary/80 underline">naturopathic sports medicine</a> approach can provide comprehensive support.
                 </p>
