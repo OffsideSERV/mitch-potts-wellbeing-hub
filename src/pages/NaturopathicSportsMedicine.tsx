@@ -89,7 +89,7 @@ const NaturopathicSportsMedicine = () => {
                   
                   {/* Mobile Image */}
                   <div className="relative lg:hidden mb-8 -mx-4">
-                    <img alt="Mitchell Potts, naturopathic sports medicine practitioner consulting with athlete at NXTLVL Health Brisbane" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/39b7f717-8cae-400f-8062-def9a15add9b.png" />
+                    <img alt="Professional naturopathic sports medicine consultation demonstrating holistic athletic performance enhancement at Brisbane clinic" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/39b7f717-8cae-400f-8062-def9a15add9b.png" />
                     <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                       <div className="flex items-center space-x-3">
                         <Target className="h-6 w-6 text-primary" />
@@ -129,7 +129,7 @@ const NaturopathicSportsMedicine = () => {
               
               {/* Desktop Image */}
               <div className="relative hidden lg:block">
-                <img alt="Mitchell Potts, naturopathic sports medicine practitioner consulting with athlete at NXTLVL Health Brisbane" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/39b7f717-8cae-400f-8062-def9a15add9b.png" />
+                <img alt="Professional naturopathic sports medicine consultation demonstrating holistic athletic performance enhancement at Brisbane clinic" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/39b7f717-8cae-400f-8062-def9a15add9b.png" />
                 <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                   <div className="flex items-center space-x-3">
                     <Target className="h-8 w-8 text-primary" />
@@ -231,7 +231,7 @@ const NaturopathicSportsMedicine = () => {
 
             {/* Mobile Image */}
             <div className="lg:hidden mb-12">
-              <img src="/lovable-uploads/778efa12-2a50-4463-9137-b9811fb860b1.png" alt="Mitchell Potts, qualified naturopath and personal trainer, preparing herbal medicines for athletes at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+              <img src="/lovable-uploads/778efa12-2a50-4463-9137-b9811fb860b1.png" alt="Experienced naturopathic sports medicine practitioner preparing personalized herbal treatments for athlete recovery and performance" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
             </div>
 
             <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -247,7 +247,7 @@ const NaturopathicSportsMedicine = () => {
               </div>
               {/* Desktop Image */}
               <div className="relative hidden lg:block">
-                <img src="/lovable-uploads/778efa12-2a50-4463-9137-b9811fb860b1.png" alt="Mitchell Potts, qualified naturopath and personal trainer, preparing herbal medicines for athletes at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
+                <img src="/lovable-uploads/778efa12-2a50-4463-9137-b9811fb860b1.png" alt="Experienced naturopathic sports medicine practitioner preparing personalized herbal treatments for athlete recovery and performance" className="rounded-2xl shadow-lg w-full h-auto" />
               </div>
             </div>
           </div>
@@ -383,14 +383,14 @@ const NaturopathicSportsMedicine = () => {
                   </CardContent>
                 </Card>
                 <div>
-                  <img src="/lovable-uploads/778efa12-2a50-4463-9137-b9811fb860b1.png" alt="Herbal medicine preparation at NXTLVL Health for athletes and sports performance" className="rounded-2xl shadow-lg w-full h-auto" />
+                  <img src="/lovable-uploads/778efa12-2a50-4463-9137-b9811fb860b1.png" alt="Comprehensive naturopathic sports medicine herbal treatment protocol designed for optimal athletic recovery" className="rounded-2xl shadow-lg w-full h-auto" />
                 </div>
               </div>
 
               {/* Live Blood Analysis */}
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div>
-                  <img src="/lovable-uploads/c932dabd-3ac9-4dd4-b8f6-9e2595151e1a.png" alt="Live blood analysis microscope examination at NXTLVL Health for sports medicine assessment" className="rounded-2xl shadow-lg w-full h-auto" />
+                  <img src="/lovable-uploads/c932dabd-3ac9-4dd4-b8f6-9e2595151e1a.png" alt="Advanced live blood analysis technology enabling precise diagnostic insights for athletic performance optimization" className="rounded-2xl shadow-lg w-full h-auto" />
                 </div>
                 <div className="space-y-6">
                   <Card>
@@ -439,7 +439,7 @@ const NaturopathicSportsMedicine = () => {
                   </CardContent>
                 </Card>
                 <div>
-                  <img src="/lovable-uploads/8f5feae9-391d-4644-af47-61593b7bc840.png" alt="MLS laser therapy treatment for sports injury recovery at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
+                  <img src="/lovable-uploads/8f5feae9-391d-4644-af47-61593b7bc840.png" alt="State-of-the-art MLS laser therapy device for accelerated healing and pain management in sports injuries" className="rounded-2xl shadow-lg w-full h-auto" />
                 </div>
               </div>
 
@@ -530,7 +530,7 @@ const NaturopathicSportsMedicine = () => {
 
             {/* Centered Image */}
             <div className="mb-12">
-              <img src="/lovable-uploads/108aecf4-9e98-4025-803d-5e64dbd22b5b.png" alt="Professional naturopathic consultation process at NXTLVL Health Brisbane for athletes" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+              <img src="/lovable-uploads/108aecf4-9e98-4025-803d-5e64dbd22b5b.png" alt="Structured consultation pathway for naturopathic sports medicine treatment plans at Brisbane wellness clinic" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
             </div>
 
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
