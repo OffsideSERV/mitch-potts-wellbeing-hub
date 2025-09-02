@@ -3,10 +3,8 @@ import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, Phone, ChevronDown, ChevronUp, Zap, Activity, Heart, Shield, Target, CheckCircle } from 'lucide-react';
-
 const MLSLaser = () => {
   const [openDropdown, setOpenDropdown] = useState<number | null>(null);
-
   const toggleDropdown = (index: number) => {
     setOpenDropdown(openDropdown === index ? null : index);
   };
@@ -42,18 +40,16 @@ const MLSLaser = () => {
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "MLS Laser Therapy Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "MLS Laser Therapy Session",
-            "description": "Individual MLS laser therapy treatment session for pain relief and healing acceleration"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
-        }
-      ]
+      "itemListElement": [{
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "MLS Laser Therapy Session",
+          "description": "Individual MLS laser therapy treatment session for pain relief and healing acceleration"
+        },
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }]
     },
     "serviceArea": {
       "@type": "GeoCircle",
@@ -64,30 +60,7 @@ const MLSLaser = () => {
       },
       "geoRadius": "50000"
     },
-    "areaServed": [
-      "Brisbane",
-      "New Farm",
-      "Fortitude Valley",
-      "Newstead",
-      "Teneriffe",
-      "Kangaroo Point",
-      "East Brisbane",
-      "Norman Park",
-      "Bulimba",
-      "Hawthorne",
-      "Morningside",
-      "Ascot",
-      "Hamilton",
-      "Clayfield",
-      "Wilston",
-      "Windsor",
-      "Kelvin Grove",
-      "Paddington",
-      "Red Hill",
-      "Auchenflower",
-      "Toowong",
-      "Queensland"
-    ],
+    "areaServed": ["Brisbane", "New Farm", "Fortitude Valley", "Newstead", "Teneriffe", "Kangaroo Point", "East Brisbane", "Norman Park", "Bulimba", "Hawthorne", "Morningside", "Ascot", "Hamilton", "Clayfield", "Wilston", "Windsor", "Kelvin Grove", "Paddington", "Red Hill", "Auchenflower", "Toowong", "Queensland"],
     "availableChannel": {
       "@type": "ServiceChannel",
       "name": "In-Person Treatment",
@@ -106,140 +79,96 @@ const MLSLaser = () => {
       "servicePhone": "(07) 3180 8853",
       "serviceUrl": "https://www.nxtlvlhealth.com.au/services/mls-laser-therapy-treatment-brisbane"
     },
-    "potentialAction": [
-      {
-        "@type": "ReserveAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://nxtlvlhealth.com.au/book-now/",
-          "actionPlatform": [
-            "http://schema.org/DesktopWebPlatform",
-            "http://schema.org/MobileWebPlatform"
-          ]
-        },
-        "result": {
-          "@type": "Reservation",
-          "name": "MLS Laser Therapy Appointment"
-        }
+    "potentialAction": [{
+      "@type": "ReserveAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://nxtlvlhealth.com.au/book-now/",
+        "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]
+      },
+      "result": {
+        "@type": "Reservation",
+        "name": "MLS Laser Therapy Appointment"
       }
-    ]
+    }]
   };
-
-  const conditions = [
-    {
-      title: "SPORTS INJURIES",
-      description: "Sprains, strains, and overuse injuries recover faster with targeted laser therapy that reaches deep into affected tissues.",
-      icon: <Activity className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "JOINT PAIN",
-      description: "Whether it's knees, shoulders, elbows, or hips, MLS laser helps reduce inflammation and improve mobility in arthritic joints.",
-      icon: <Target className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "TENDINOPATHY AND ARTICULAR DISEASES",
-      description: "Chronic tendon issues and joint diseases respond well to the dual-wavelength approach of MLS therapy.",
-      icon: <Heart className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "ARTHRITIS & ARTHRITIC JOINT PAIN",
-      description: (
-        <>
+  const conditions = [{
+    title: "SPORTS INJURIES",
+    description: "Sprains, strains, and overuse injuries recover faster with targeted laser therapy that reaches deep into affected tissues.",
+    icon: <Activity className="h-6 w-6 text-primary" />
+  }, {
+    title: "JOINT PAIN",
+    description: "Whether it's knees, shoulders, elbows, or hips, MLS laser helps reduce inflammation and improve mobility in arthritic joints.",
+    icon: <Target className="h-6 w-6 text-primary" />
+  }, {
+    title: "TENDINOPATHY AND ARTICULAR DISEASES",
+    description: "Chronic tendon issues and joint diseases respond well to the dual-wavelength approach of MLS therapy.",
+    icon: <Heart className="h-6 w-6 text-primary" />
+  }, {
+    title: "ARTHRITIS & ARTHRITIC JOINT PAIN",
+    description: <>
           Reduce inflammation and pain in arthritic joints while improving function and quality of life. {" "}
-          <a 
-            href="https://www.healwithlaser.com.au/blog/managing-arthritis-pain-with-non-invasive-mls-laser-therapy/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-primary hover:underline"
-          >
+          <a href="https://www.healwithlaser.com.au/blog/managing-arthritis-pain-with-non-invasive-mls-laser-therapy/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
             Learn more
           </a>
-        </>
-      ),
-      icon: <Shield className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "CHRONIC CONDITIONS",
-      description: "Including Bursitis, Chronic Fatigue Syndrome, and other long-standing inflammatory conditions.",
-      icon: <Activity className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "POST-SURGERY RECOVERY",
-      description: "Speed up healing after surgery and reduce scar tissue formation with targeted laser therapy.",
-      icon: <Heart className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "NERVE PAIN & INJURIES",
-      description: "Including neuropathic pain, nerve injuries, and conditions affecting nerve function.",
-      icon: <Zap className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "PLANTAR FASCIITIS & ACHILLES ISSUES",
-      description: "Targeted treatment for foot and ankle conditions that often resist traditional therapy approaches.",
-      icon: <Target className="h-6 w-6 text-primary" />
-    }
-  ];
-
-  const benefits = [
-    {
-      title: "PAIN RELIEF FROM THE VERY FIRST SESSION",
-      description: "Many clients experience noticeable pain reduction after their initial treatment session.",
-      icon: <CheckCircle className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "BETTER JOINT FUNCTION OVER TIME",
-      description: "Improved mobility and range of motion as inflammation reduces and healing progresses.",
-      icon: <Activity className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "FASTER HEALING POST-INJURY OR SURGERY",
-      description: "Accelerated tissue repair and recovery through enhanced cellular activity and blood flow.",
-      icon: <Heart className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "REDUCED SWELLING AND STIFFNESS",
-      description: "Noticeable improvements in inflammation and joint mobility throughout the treatment course.",
-      icon: <Shield className="h-6 w-6 text-primary" />
-    },
-    {
-      title: "IMPROVED QUALITY OF LIFE",
-      description: "Long-lasting relief for chronic pain sufferers without the side effects of invasive treatments.",
-      icon: <Target className="h-6 w-6 text-primary" />
-    }
-  ];
-
-  const faqs = [
-    {
-      question: "Is MLS Laser Therapy safe?",
-      answer: "Yes. It's FDA-cleared and backed by rigorous clinical studies. It uses non-ionising light and has no known side effects."
-    },
-    {
-      question: "Does the treatment hurt?",
-      answer: "Not at all. It's completely non-invasive and most clients describe it as relaxing or neutral."
-    },
-    {
-      question: "How many treatments will I need?",
-      answer: "Usually 6–10 sessions depending on your specific condition. Progress is reviewed as we go."
-    },
-    {
-      question: "Can MLS be combined with other treatments?",
-      answer: "Yes. We often combine it with naturopathic care, natural supplements, and functional diagnostics."
-    },
-    {
-      question: "Is MLS Laser right for me?",
-      answer: "If you're experiencing joint pain, nerve injuries, or recovery issues, it's likely to help. We'll assess during your initial consultation."
-    }
-  ];
-
-  return (
-    <>
-      <SEO 
-        title="#1 MLS Laser Therapy Treatment In Brisbane | NXTLVL Health"
-        description="Are you struggling with pains, injury, or slow healing? MLS Laser treatment at NXTLVL Health will help you heal faster, move better, and feel like you again."
-        canonical="/services/mls-laser-therapy-treatment-brisbane"
-        keywords="MLS laser therapy Brisbane, laser therapy treatment, pain relief Brisbane, injury recovery, sports injury treatment"
-        serviceSchema={mlsLaserServiceSchema}
-      />
+        </>,
+    icon: <Shield className="h-6 w-6 text-primary" />
+  }, {
+    title: "CHRONIC CONDITIONS",
+    description: "Including Bursitis, Chronic Fatigue Syndrome, and other long-standing inflammatory conditions.",
+    icon: <Activity className="h-6 w-6 text-primary" />
+  }, {
+    title: "POST-SURGERY RECOVERY",
+    description: "Speed up healing after surgery and reduce scar tissue formation with targeted laser therapy.",
+    icon: <Heart className="h-6 w-6 text-primary" />
+  }, {
+    title: "NERVE PAIN & INJURIES",
+    description: "Including neuropathic pain, nerve injuries, and conditions affecting nerve function.",
+    icon: <Zap className="h-6 w-6 text-primary" />
+  }, {
+    title: "PLANTAR FASCIITIS & ACHILLES ISSUES",
+    description: "Targeted treatment for foot and ankle conditions that often resist traditional therapy approaches.",
+    icon: <Target className="h-6 w-6 text-primary" />
+  }];
+  const benefits = [{
+    title: "PAIN RELIEF FROM THE VERY FIRST SESSION",
+    description: "Many clients experience noticeable pain reduction after their initial treatment session.",
+    icon: <CheckCircle className="h-6 w-6 text-primary" />
+  }, {
+    title: "BETTER JOINT FUNCTION OVER TIME",
+    description: "Improved mobility and range of motion as inflammation reduces and healing progresses.",
+    icon: <Activity className="h-6 w-6 text-primary" />
+  }, {
+    title: "FASTER HEALING POST-INJURY OR SURGERY",
+    description: "Accelerated tissue repair and recovery through enhanced cellular activity and blood flow.",
+    icon: <Heart className="h-6 w-6 text-primary" />
+  }, {
+    title: "REDUCED SWELLING AND STIFFNESS",
+    description: "Noticeable improvements in inflammation and joint mobility throughout the treatment course.",
+    icon: <Shield className="h-6 w-6 text-primary" />
+  }, {
+    title: "IMPROVED QUALITY OF LIFE",
+    description: "Long-lasting relief for chronic pain sufferers without the side effects of invasive treatments.",
+    icon: <Target className="h-6 w-6 text-primary" />
+  }];
+  const faqs = [{
+    question: "Is MLS Laser Therapy safe?",
+    answer: "Yes. It's FDA-cleared and backed by rigorous clinical studies. It uses non-ionising light and has no known side effects."
+  }, {
+    question: "Does the treatment hurt?",
+    answer: "Not at all. It's completely non-invasive and most clients describe it as relaxing or neutral."
+  }, {
+    question: "How many treatments will I need?",
+    answer: "Usually 6–10 sessions depending on your specific condition. Progress is reviewed as we go."
+  }, {
+    question: "Can MLS be combined with other treatments?",
+    answer: "Yes. We often combine it with naturopathic care, natural supplements, and functional diagnostics."
+  }, {
+    question: "Is MLS Laser right for me?",
+    answer: "If you're experiencing joint pain, nerve injuries, or recovery issues, it's likely to help. We'll assess during your initial consultation."
+  }];
+  return <>
+      <SEO title="#1 MLS Laser Therapy Treatment In Brisbane | NXTLVL Health" description="Are you struggling with pains, injury, or slow healing? MLS Laser treatment at NXTLVL Health will help you heal faster, move better, and feel like you again." canonical="/services/mls-laser-therapy-treatment-brisbane" keywords="MLS laser therapy Brisbane, laser therapy treatment, pain relief Brisbane, injury recovery, sports injury treatment" serviceSchema={mlsLaserServiceSchema} />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
@@ -250,17 +179,11 @@ const MLSLaser = () => {
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
                   MLS Laser Therapy <span className="text-primary">Brisbane</span>
                 </h1>
-                <h2 className="text-2xl lg:text-3xl font-semibold text-muted-foreground">
-                  Feel Better. Heal Faster. Naturally.
-                </h2>
+                <h2 className="text-2xl lg:text-3xl font-semibold text-muted-foreground">Feel Better. Heal Faster. The Natural Way</h2>
                 
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img 
-                    src="/lovable-uploads/8f5feae9-391d-4644-af47-61593b7bc840.png"
-                    alt="Naturopath doing MLS laser therapy treatment with patient at NXTLVL Health"
-                    className="rounded-2xl shadow-2xl w-full h-96 object-cover"
-                  />
+                  <img src="/lovable-uploads/8f5feae9-391d-4644-af47-61593b7bc840.png" alt="Naturopath doing MLS laser therapy treatment with patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-96 object-cover" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Zap className="h-6 w-6 text-primary" />
@@ -296,11 +219,7 @@ const MLSLaser = () => {
             
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img 
-                src="/lovable-uploads/8f5feae9-391d-4644-af47-61593b7bc840.png"
-                alt="Naturopath doing MLS laser therapy treatment with patient at NXTLVL Health"
-                className="rounded-2xl shadow-2xl w-full h-96 object-cover"
-              />
+              <img src="/lovable-uploads/8f5feae9-391d-4644-af47-61593b7bc840.png" alt="Naturopath doing MLS laser therapy treatment with patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-96 object-cover" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Zap className="h-8 w-8 text-primary" />
@@ -324,11 +243,7 @@ const MLSLaser = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img 
-              src="/lovable-uploads/41390b79-f1ea-489a-b170-dd7156cf02ee.png"
-              alt="Woman getting MLS laser therapy treatment for neck pain at NXTLVL Health"
-              className="rounded-2xl shadow-lg w-full h-64 object-cover mx-auto"
-            />
+            <img src="/lovable-uploads/41390b79-f1ea-489a-b170-dd7156cf02ee.png" alt="Woman getting MLS laser therapy treatment for neck pain at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-64 object-cover mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -347,11 +262,7 @@ const MLSLaser = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img 
-                src="/lovable-uploads/41390b79-f1ea-489a-b170-dd7156cf02ee.png"
-                alt="Woman getting MLS laser therapy treatment for neck pain at NXTLVL Health"
-                className="rounded-2xl shadow-lg w-full h-64 object-cover"
-              />
+              <img src="/lovable-uploads/41390b79-f1ea-489a-b170-dd7156cf02ee.png" alt="Woman getting MLS laser therapy treatment for neck pain at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-64 object-cover" />
             </div>
           </div>
         </div>
@@ -374,11 +285,7 @@ const MLSLaser = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img 
-              src="/lovable-uploads/51106bb9-7ee7-49df-9e6f-6507f621c37b.png"
-              alt="Naturopath doing MLS laser treatment for female patient at NXTLVL Health"
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover"
-            />
+            <img src="/lovable-uploads/51106bb9-7ee7-49df-9e6f-6507f621c37b.png" alt="Naturopath doing MLS laser treatment for female patient at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover" />
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 text-left max-w-4xl mx-auto mb-8">
@@ -451,16 +358,11 @@ const MLSLaser = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img 
-              src="/lovable-uploads/4bea3af7-ceb4-4aa3-b780-303ccd82e237.png"
-              alt="MLS laser treatment equipment and therapy session at NXTLVL Health"
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover"
-            />
+            <img src="/lovable-uploads/4bea3af7-ceb4-4aa3-b780-303ccd82e237.png" alt="MLS laser treatment equipment and therapy session at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover" />
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto">
-            {benefits.map((benefit, index) => (
-              <Card key={index} className="border-0 shadow-md">
+            {benefits.map((benefit, index) => <Card key={index} className="border-0 shadow-md">
                 <CardHeader className="pb-3">
                   <div className="flex items-center space-x-3">
                     {benefit.icon}
@@ -472,8 +374,7 @@ const MLSLaser = () => {
                     {benefit.description}
                   </CardDescription>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
 
           <div className="text-center mt-12">
@@ -496,40 +397,26 @@ const MLSLaser = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img 
-              src="/lovable-uploads/97e4214e-6a74-4542-bfa2-19292540f721.png"
-              alt="Naturopath showing patient MLS laser therapy results on computer at NXTLVL Health"
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover"
-            />
+            <img src="/lovable-uploads/97e4214e-6a74-4542-bfa2-19292540f721.png" alt="Naturopath showing patient MLS laser therapy results on computer at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover" />
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto">
-            {conditions.map((condition, index) => (
-              <Card key={index} className="border-0 shadow-md">
-                <CardHeader 
-                  className="cursor-pointer hover:bg-muted/20 transition-colors"
-                  onClick={() => toggleDropdown(index)}
-                >
+            {conditions.map((condition, index) => <Card key={index} className="border-0 shadow-md">
+                <CardHeader className="cursor-pointer hover:bg-muted/20 transition-colors" onClick={() => toggleDropdown(index)}>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-3">
                       {condition.icon}
                       <CardTitle className="text-lg">{condition.title}</CardTitle>
                     </div>
-                    {openDropdown === index ? 
-                      <ChevronUp className="h-5 w-5 text-muted-foreground" /> : 
-                      <ChevronDown className="h-5 w-5 text-muted-foreground" />
-                    }
+                    {openDropdown === index ? <ChevronUp className="h-5 w-5 text-muted-foreground" /> : <ChevronDown className="h-5 w-5 text-muted-foreground" />}
                   </div>
                 </CardHeader>
-                {openDropdown === index && (
-                  <CardContent className="pt-0">
+                {openDropdown === index && <CardContent className="pt-0">
                     <CardDescription className="text-base leading-relaxed">
                       {condition.description}
                     </CardDescription>
-                  </CardContent>
-                )}
-              </Card>
-            ))}
+                  </CardContent>}
+              </Card>)}
           </div>
 
           <div className="text-center mt-12">
@@ -554,11 +441,7 @@ const MLSLaser = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img 
-              src="/lovable-uploads/052147da-fc73-4f16-965c-adcf6069e31e.png"
-              alt="Naturopath having consultation with female patient at NXTLVL Health"
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover"
-            />
+            <img src="/lovable-uploads/052147da-fc73-4f16-965c-adcf6069e31e.png" alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover" />
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 text-center mb-12">
@@ -607,11 +490,7 @@ const MLSLaser = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img 
-              src="/lovable-uploads/94a596d0-3d49-4629-85b5-0293916509a6.png"
-              alt="Woman talking to naturopath in Brisbane at NXTLVL Health clinic"
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover"
-            />
+            <img src="/lovable-uploads/94a596d0-3d49-4629-85b5-0293916509a6.png" alt="Woman talking to naturopath in Brisbane at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-64 object-cover" />
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 text-left">
@@ -720,29 +599,19 @@ const MLSLaser = () => {
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto">
-            {faqs.map((faq, index) => (
-              <Card key={index} className="border-0 shadow-md">
-                <CardHeader 
-                  className="cursor-pointer hover:bg-muted/20 transition-colors"
-                  onClick={() => toggleDropdown(index + 20)}
-                >
+            {faqs.map((faq, index) => <Card key={index} className="border-0 shadow-md">
+                <CardHeader className="cursor-pointer hover:bg-muted/20 transition-colors" onClick={() => toggleDropdown(index + 20)}>
                   <div className="flex items-center justify-between">
                     <CardTitle className="text-lg text-left">{faq.question}</CardTitle>
-                    {openDropdown === index + 20 ? 
-                      <ChevronUp className="h-5 w-5 text-muted-foreground" /> : 
-                      <ChevronDown className="h-5 w-5 text-muted-foreground" />
-                    }
+                    {openDropdown === index + 20 ? <ChevronUp className="h-5 w-5 text-muted-foreground" /> : <ChevronDown className="h-5 w-5 text-muted-foreground" />}
                   </div>
                 </CardHeader>
-                {openDropdown === index + 20 && (
-                  <CardContent className="pt-0">
+                {openDropdown === index + 20 && <CardContent className="pt-0">
                     <CardDescription className="text-base leading-relaxed">
                       {faq.answer}
                     </CardDescription>
-                  </CardContent>
-                )}
-              </Card>
-            ))}
+                  </CardContent>}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -776,8 +645,6 @@ const MLSLaser = () => {
         </div>
       </section>
       </div>
-    </>
-  );
+    </>;
 };
-
 export default MLSLaser;
