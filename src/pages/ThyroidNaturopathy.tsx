@@ -111,7 +111,7 @@ const ThyroidNaturopathy = () => {
                 
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/7bab2257-f140-4812-88c0-b910038ff849.png" />
+                  <img alt="Experienced naturopath consulting with patient about thyroid health at NXTLVL Health clinic in Brisbane" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/7bab2257-f140-4812-88c0-b910038ff849.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -149,7 +149,7 @@ const ThyroidNaturopathy = () => {
             
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/7bab2257-f140-4812-88c0-b910038ff849.png" />
+              <img alt="Experienced naturopath consulting with patient about thyroid health at NXTLVL Health clinic in Brisbane" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/7bab2257-f140-4812-88c0-b910038ff849.png" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <svg className="h-8 w-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -170,7 +170,7 @@ const ThyroidNaturopathy = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/98dc86b9-d19c-4674-90b5-465183ac0c06.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/98dc86b9-d19c-4674-90b5-465183ac0c06.png" alt="Professional naturopath thyroid consultation discussing treatment options with female patient at Brisbane clinic" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -185,7 +185,7 @@ const ThyroidNaturopathy = () => {
               </div>
             </div>
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/98dc86b9-d19c-4674-90b5-465183ac0c06.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/98dc86b9-d19c-4674-90b5-465183ac0c06.png" alt="Professional naturopath thyroid consultation discussing treatment options with female patient at Brisbane clinic" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -202,7 +202,7 @@ const ThyroidNaturopathy = () => {
           </div>
 
           <div className="mb-12">
-            <img src="/lovable-uploads/c932dabd-3ac9-4dd4-b8f6-9e2595151e1a.png" alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/c932dabd-3ac9-4dd4-b8f6-9e2595151e1a.png" alt="Naturopath conducting advanced laboratory testing to assess thyroid function and health markers" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto">
@@ -461,7 +461,7 @@ const ThyroidNaturopathy = () => {
           </div>
 
           <div className="mb-12">
-            <img src="/lovable-uploads/c3e9d0bc-b8cf-4e44-81d0-11a9a0213d4b.png" alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/c3e9d0bc-b8cf-4e44-81d0-11a9a0213d4b.png" alt="Professional naturopath thyroid treatment centre at NXTLVL Health in New Farm Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto">
