@@ -21,7 +21,7 @@ const EczemaNaturopathy = () => {
             <div className="space-y-8 lg:mt-0 mt-12">
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Naturopath Eczema | Calm, Clearer Skin with Help from <span className="text-primary">NXTLVL Health</span>
+                  Expert Eczema Naturopath | Calm, Clearer Skin with Help from <span className="text-primary">NXTLVL Health</span>
                 </h1>
                 
                 {/* Mobile Image */}

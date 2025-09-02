@@ -391,7 +391,7 @@ const GutHealth = () => {
             <div className="space-y-8 lg:mt-0 mt-12">
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Gut Health Naturopath in <span className="text-primary">Brisbane</span> | Personalised Digestive Care That Works
+                  Expert Gut Health Naturopath in <span className="text-primary">Brisbane</span> | Personalised Digestive Care That Works
                 </h1>
                 
                 {/* Mobile Image - placed right after headline */}

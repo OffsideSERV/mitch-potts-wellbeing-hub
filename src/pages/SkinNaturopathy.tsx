@@ -21,7 +21,7 @@ const SkinNaturopathy = () => {
             <div className="space-y-8 lg:mt-0 mt-12">
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Skin Naturopath | Clearer, Calmer Skin Starts at <span className="text-primary">NXTLVL Health</span>
+                  Expert Skin Naturopath | Clearer, Calmer Skin Starts at <span className="text-primary">NXTLVL Health</span>
                 </h1>
                 
                 {/* Mobile Image */}

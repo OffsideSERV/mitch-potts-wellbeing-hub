@@ -62,7 +62,7 @@ const Services = () => {
             <div className="space-y-8 lg:mt-0 mt-12">
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Our <span className="text-primary">Naturopathic Services</span>
+                  Comprehensive <span className="text-primary">Naturopathic Services</span>
                 </h1>
                 <h2 className="text-2xl lg:text-3xl font-semibold text-muted-foreground">
                   Tailored for Your Health Journey

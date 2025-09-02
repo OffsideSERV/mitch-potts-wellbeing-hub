@@ -21,7 +21,7 @@ const IBSNaturopathy = () => {
             <div className="space-y-8 lg:mt-0 mt-12">
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  IBS Naturopath | <span className="text-primary">Natural Relief</span> for Irritable Bowel Syndrome
+                  Leading IBS Naturopath | <span className="text-primary">Natural Relief</span> for Irritable Bowel Syndrome
                 </h1>
                 
                 {/* Mobile Image */}

@@ -8,7 +8,7 @@ const ChildrensHealth = () => {
   return (
     <>
       <SEO 
-        title="Top-Rated Children's Naturopath in Brisbane"
+        title="Trusted Children's Naturopath in Brisbane"
         description="Our gentle children's naturopath Mitchell Potts helps uncover and treat the root causes of your child's gut, skin, mood, and energy problems—safely and easily."
         canonical="/what-we-treat/childrens-naturopath-brisbane"
         keywords="children's naturopath Brisbane, kids naturopath, paediatric naturopath, children's health Brisbane, natural children's medicine"

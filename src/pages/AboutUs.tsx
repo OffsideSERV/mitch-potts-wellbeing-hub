@@ -16,7 +16,7 @@ const AboutUs = () => {
                 Brisbane's Most Trusted Naturopath
               </Badge>
               <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-foreground">
-                Meet Mitch Potts
+                Get to Know Mitch Potts
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
                 The naturopath who listens when others won't. For over a decade, Mitch has helped thousands of people find real answers to their health problems using natural medicine.

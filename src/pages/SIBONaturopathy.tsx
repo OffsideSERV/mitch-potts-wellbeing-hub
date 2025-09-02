@@ -21,7 +21,7 @@ const SIBONaturopathy = () => {
             <div className="space-y-8 lg:mt-0 mt-12">
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  SIBO Naturopath | <span className="text-primary">Natural Help</span> for Small Intestinal Bacterial Overgrowth
+                  Expert SIBO Naturopath | <span className="text-primary">Natural Help</span> for Small Intestinal Bacterial Overgrowth
                 </h1>
                 
                 {/* Mobile Image */}

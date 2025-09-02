@@ -8,7 +8,7 @@ const ADHDNaturopathy = () => {
   return (
     <>
       <SEO 
-        title="Top ADHD Naturopath in Brisbane | Book a Free 15-Min Consult"
+        title="Leading ADHD Naturopath in Brisbane | Book a Free 15-Min Consult"
         description="Mitch from NXTLVL Health is here to help take the stress and confusion out of ADHD. Book a free consult and start getting the answers you've been looking for!"
         canonical="/what-we-treat/adhd-naturopath"
         keywords="ADHD naturopath Brisbane, ADHD treatment, natural ADHD support, holistic ADHD treatment, ADHD specialist"

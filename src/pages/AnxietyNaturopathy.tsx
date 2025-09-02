@@ -8,7 +8,7 @@ const AnxietyNaturopathy = () => {
   return (
     <>
       <SEO 
-        title="Naturopath for Anxiety | Best in Brisbane | Free Consult!"
+        title="Naturopath for Anxiety | Leading in Brisbane | Free Consult!"
         description="Not feeling like yourself lately? Feeling on edge? Not sure what to do? Mitchell is a 5-star Naturopath for Anxiety that will finally give you answers."
         canonical="/what-we-treat/naturopath-anxiety"
         keywords="anxiety naturopath Brisbane, natural anxiety treatment, anxiety support, holistic anxiety treatment, naturopathic anxiety care"
