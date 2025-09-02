@@ -2,7 +2,6 @@ import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Activity, Brain, Baby, MapPin, Clock, Shield, Zap, Stethoscope, Target, Leaf, Microscope } from "lucide-react";
-
 const NewsteadNaturopathy = () => {
   // Service Schema for Newstead Naturopathy
   const newsteadNaturopathyServiceSchema = {
@@ -13,11 +12,7 @@ const NewsteadNaturopathy = () => {
     "alternateName": ["Newstead Naturopath", "Naturopathic Care Newstead", "Natural Health Newstead"],
     "description": "Comprehensive naturopathic services for residents of Newstead and surrounding areas. Our qualified naturopath provides natural health solutions for digestive disorders, hormonal imbalances, chronic fatigue, women's health, children's health, and mental health support through evidence-based natural medicine.",
     "url": "https://www.nxtlvlhealth.com.au/areas-we-serve/naturopath-newstead",
-    "image": [
-      "https://www.nxtlvlhealth.com.au/lovable-uploads/71b09125-3a64-4d93-934e-f899eab6b427.png",
-      "https://www.nxtlvlhealth.com.au/lovable-uploads/225024a0-804b-437d-aaf9-9d543e7f73e2.png",
-      "https://www.nxtlvlhealth.com.au/lovable-uploads/4ddbff79-0110-49a0-af33-498a6ef47123.png"
-    ],
+    "image": ["https://www.nxtlvlhealth.com.au/lovable-uploads/71b09125-3a64-4d93-934e-f899eab6b427.png", "https://www.nxtlvlhealth.com.au/lovable-uploads/225024a0-804b-437d-aaf9-9d543e7f73e2.png", "https://www.nxtlvlhealth.com.au/lovable-uploads/4ddbff79-0110-49a0-af33-498a6ef47123.png"],
     "provider": {
       "@type": "LocalBusiness",
       "@id": "https://www.nxtlvlhealth.com.au/#organization",
@@ -45,115 +40,94 @@ const NewsteadNaturopathy = () => {
       },
       "geoRadius": "25000"
     },
-    "areaServed": [
-      {
-        "@type": "City",
-        "name": "Newstead",
+    "areaServed": [{
+      "@type": "City",
+      "name": "Newstead",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "Queensland",
         "containedInPlace": {
-          "@type": "State",
-          "name": "Queensland",
-          "containedInPlace": {
-            "@type": "Country",
-            "name": "Australia"
-          }
+          "@type": "Country",
+          "name": "Australia"
         }
-      },
-      "New Farm",
-      "Fortitude Valley",
-      "Teneriffe",
-      "Kangaroo Point",
-      "East Brisbane",
-      "Norman Park",
-      "Bulimba",
-      "Hawthorne",
-      "Morningside",
-      "Brisbane Northside"
-    ],
+      }
+    }, "New Farm", "Fortitude Valley", "Teneriffe", "Kangaroo Point", "East Brisbane", "Norman Park", "Bulimba", "Hawthorne", "Morningside", "Brisbane Northside"],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Newstead Naturopathic Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Women's Health Naturopathy",
-            "description": "Natural treatment for hormonal imbalances, PCOS, irregular periods, PMS, and menopause support"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
+      "itemListElement": [{
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Women's Health Naturopathy",
+          "description": "Natural treatment for hormonal imbalances, PCOS, irregular periods, PMS, and menopause support"
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Digestive Health Treatment",
-            "description": "Natural solutions for IBS, gut issues, bloating, reflux, and SIBO"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }, {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Digestive Health Treatment",
+          "description": "Natural solutions for IBS, gut issues, bloating, reflux, and SIBO"
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Children's Health Naturopathy",
-            "description": "Natural care for food allergies, mood swings, digestive issues, and fussy eating in children"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }, {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Children's Health Naturopathy",
+          "description": "Natural care for food allergies, mood swings, digestive issues, and fussy eating in children"
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Mental Health Support",
-            "description": "Natural approach to anxiety, burnout, and mood changes through targeted nutritional medicine"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }, {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Mental Health Support",
+          "description": "Natural approach to anxiety, burnout, and mood changes through targeted nutritional medicine"
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Chronic Condition Management",
-            "description": "Natural treatment for chronic fatigue, autoimmune conditions, and inflammatory disorders"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }, {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Chronic Condition Management",
+          "description": "Natural treatment for chronic fatigue, autoimmune conditions, and inflammatory disorders"
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Pregnancy Care & Fertility Support",
-            "description": "Safe, research-backed care for preconception, pregnancy, and post-partum support"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }, {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pregnancy Care & Fertility Support",
+          "description": "Safe, research-backed care for preconception, pregnancy, and post-partum support"
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Weight Management Support",
-            "description": "Natural, non-restrictive approach to weight loss tailored to your body and lifestyle"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }, {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Weight Management Support",
+          "description": "Natural, non-restrictive approach to weight loss tailored to your body and lifestyle"
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Initial Naturopathic Consultation",
-            "description": "Comprehensive 75-minute initial consultation including case taking, health assessment, and personalised treatment plan"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
-        }
-      ]
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }, {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Initial Naturopathic Consultation",
+          "description": "Comprehensive 75-minute initial consultation including case taking, health assessment, and personalised treatment plan"
+        },
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }]
     },
     "availableChannel": {
       "@type": "ServiceChannel",
@@ -178,76 +152,47 @@ const NewsteadNaturopathy = () => {
       "servicePhone": "(07) 3180 8853",
       "serviceUrl": "https://www.nxtlvlhealth.com.au/areas-we-serve/naturopath-newstead"
     },
-    "serviceOutput": [
-      "Personalised treatment plans",
-      "Natural health solutions",
-      "Functional testing recommendations",
-      "Nutritional guidance",
-      "Herbal medicine prescriptions",
-      "Lifestyle recommendations",
-      "Ongoing health monitoring"
-    ],
+    "serviceOutput": ["Personalised treatment plans", "Natural health solutions", "Functional testing recommendations", "Nutritional guidance", "Herbal medicine prescriptions", "Lifestyle recommendations", "Ongoing health monitoring"],
     "audience": {
       "@type": "PeopleAudience",
       "geographicArea": "Newstead, Queensland, Australia",
       "audienceType": "Patients seeking natural health solutions"
     },
-    "potentialAction": [
-      {
-        "@type": "ReserveAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://nxtlvlhealth.com.au/book-now/",
-          "actionPlatform": [
-            "http://schema.org/DesktopWebPlatform",
-            "http://schema.org/MobileWebPlatform"
-          ]
-        },
-        "result": {
-          "@type": "Reservation",
-          "name": "Naturopathic Consultation Appointment"
-        }
+    "potentialAction": [{
+      "@type": "ReserveAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://nxtlvlhealth.com.au/book-now/",
+        "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]
       },
-      {
-        "@type": "CommunicateAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "tel:(07) 3180 8853",
-          "actionPlatform": [
-            "http://schema.org/DesktopWebPlatform",
-            "http://schema.org/MobileWebPlatform"
-          ]
-        }
+      "result": {
+        "@type": "Reservation",
+        "name": "Naturopathic Consultation Appointment"
       }
-    ],
-    "isRelatedTo": [
-      {
-        "@type": "Service",
-        "name": "Gut Health Specialist",
-        "url": "https://www.nxtlvlhealth.com.au/what-we-treat/gut-health-specialist-brisbane"
-      },
-      {
-        "@type": "Service", 
-        "name": "IBS Treatment",
-        "url": "https://www.nxtlvlhealth.com.au/what-we-treat/ibs-treatment-brisbane"
-      },
-      {
-        "@type": "Service",
-        "name": "Functional Medicine",
-        "url": "https://www.nxtlvlhealth.com.au/functional-medicine"
+    }, {
+      "@type": "CommunicateAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "tel:(07) 3180 8853",
+        "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]
       }
-    ]
+    }],
+    "isRelatedTo": [{
+      "@type": "Service",
+      "name": "Gut Health Specialist",
+      "url": "https://www.nxtlvlhealth.com.au/what-we-treat/gut-health-specialist-brisbane"
+    }, {
+      "@type": "Service",
+      "name": "IBS Treatment",
+      "url": "https://www.nxtlvlhealth.com.au/what-we-treat/ibs-treatment-brisbane"
+    }, {
+      "@type": "Service",
+      "name": "Functional Medicine",
+      "url": "https://www.nxtlvlhealth.com.au/functional-medicine"
+    }]
   };
-
-  return (
-    <>
-      <SEO 
-        title="Top Naturopath in Newstead Brisbane | Mitchell Potts"
-        description="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath in Newstead Brisbane that will find and heal the root cause of your problems."
-        canonical="/areas-we-serve/naturopath-newstead"
-        keywords="naturopath Newstead, Newstead naturopathy, natural health Newstead, holistic health Newstead Brisbane"
-        serviceSchema={newsteadNaturopathyServiceSchema}
-      />
+  return <>
+      <SEO title="Top Naturopath in Newstead Brisbane | Mitchell Potts" description="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath in Newstead Brisbane that will find and heal the root cause of your problems." canonical="/areas-we-serve/naturopath-newstead" keywords="naturopath Newstead, Newstead naturopathy, natural health Newstead, holistic health Newstead Brisbane" serviceSchema={newsteadNaturopathyServiceSchema} />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
@@ -261,11 +206,7 @@ const NewsteadNaturopathy = () => {
                 
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img 
-                    alt="Naturopath having consultation with female patient at NXTLVL Health" 
-                    className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="/lovable-uploads/71b09125-3a64-4d93-934e-f899eab6b427.png"
-                  />
+                  <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/71b09125-3a64-4d93-934e-f899eab6b427.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Heart className="h-6 w-6 text-primary" />
@@ -279,10 +220,7 @@ const NewsteadNaturopathy = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button 
-                  asChild 
-                  className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight"
-                >
+                <Button asChild className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight">
                   <a href="https://nxtlvlhealth.com.au/book-now/">
                     <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
@@ -290,11 +228,7 @@ const NewsteadNaturopathy = () => {
                     <span className="text-center">Book an Appointment Today</span>
                   </a>
                 </Button>
-                <Button 
-                  variant="outline" 
-                  asChild 
-                  className="text-base sm:text-lg px-4 py-3 h-auto"
-                >
+                <Button variant="outline" asChild className="text-base sm:text-lg px-4 py-3 h-auto">
                   <a href="tel:0731808853">
                     <svg className="mr-2 h-4 w-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
@@ -312,11 +246,7 @@ const NewsteadNaturopathy = () => {
             
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img 
-                alt="Naturopath having consultation with female patient at NXTLVL Health" 
-                className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="/lovable-uploads/71b09125-3a64-4d93-934e-f899eab6b427.png"
-              />
+              <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/71b09125-3a64-4d93-934e-f899eab6b427.png" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Heart className="h-8 w-8 text-primary" />
@@ -335,16 +265,12 @@ const NewsteadNaturopathy = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Looking for a Trusted Naturopath Near Newstead?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Are You Looking for a Trusted Naturopath Near Newstead?</h2>
           </div>
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img 
-              src="/lovable-uploads/225024a0-804b-437d-aaf9-9d543e7f73e2.png" 
-              alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto"
-            />
+            <img src="/lovable-uploads/225024a0-804b-437d-aaf9-9d543e7f73e2.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -360,11 +286,7 @@ const NewsteadNaturopathy = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img 
-                src="/lovable-uploads/225024a0-804b-437d-aaf9-9d543e7f73e2.png" 
-                alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto"
-              />
+              <img src="/lovable-uploads/225024a0-804b-437d-aaf9-9d543e7f73e2.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -374,7 +296,7 @@ const NewsteadNaturopathy = () => {
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Clients From Newstead Choose NXTLVL Health</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Patients From Newstead Choose NXTLVL Health</h2>
           </div>
 
           <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
@@ -457,12 +379,7 @@ const NewsteadNaturopathy = () => {
                   <p>
                     From Irritable Bowel Syndrome (IBS) to bloating, reflux, and SIBO, we create <strong>gut-healing protocols for you that fix the root cause</strong> of your discomfort.
                   </p>
-                  <a 
-                    href="https://www.kathleenmcfarlane.com.au/health-and-wellness/irritable-bowel-syndrome-ibs-help/" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-primary hover:text-primary/80 underline inline-block"
-                  >
+                  <a href="https://www.kathleenmcfarlane.com.au/health-and-wellness/irritable-bowel-syndrome-ibs-help/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline inline-block">
                     Find out how effective Naturopathy is for IBS
                   </a>
                 </div>
@@ -551,11 +468,7 @@ const NewsteadNaturopathy = () => {
 
           {/* Centered Image */}
           <div className="mb-12">
-            <img 
-              src="/lovable-uploads/4ddbff79-0110-49a0-af33-498a6ef47123.png" 
-              alt="Naturopath showing patient results on a computer at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
-            />
+            <img src="/lovable-uploads/4ddbff79-0110-49a0-af33-498a6ef47123.png" alt="Naturopath showing patient results on a computer at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -747,11 +660,7 @@ const NewsteadNaturopathy = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img 
-              src="/lovable-uploads/93084f16-17e1-4c12-bcc4-c9affd3dde25.png" 
-              alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
-            />
+            <img src="/lovable-uploads/93084f16-17e1-4c12-bcc4-c9affd3dde25.png" alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-1 gap-8">
@@ -808,23 +717,14 @@ const NewsteadNaturopathy = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            {[
-              "Irritable Bowel Syndrome (IBS), Gas & Bloating",
-              "Hormonal Imbalances & Irregular Cycles",
-              "Chronic Fatigue & Low Energy",
-              "Skin Conditions Like Eczema, Acne & Psoriasis",
-              "Joint Pain, Muscle Tension & Inflammation",
-              "Allergy Testing & Food Sensitivities"
-            ].map((condition, index) => (
-              <Card key={index}>
+            {["Irritable Bowel Syndrome (IBS), Gas & Bloating", "Hormonal Imbalances & Irregular Cycles", "Chronic Fatigue & Low Energy", "Skin Conditions Like Eczema, Acne & Psoriasis", "Joint Pain, Muscle Tension & Inflammation", "Allergy Testing & Food Sensitivities"].map((condition, index) => <Card key={index}>
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                     <span className="text-muted-foreground">{condition}</span>
                   </div>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -905,8 +805,6 @@ const NewsteadNaturopathy = () => {
         </div>
       </section>
       </div>
-    </>
-  );
+    </>;
 };
-
 export default NewsteadNaturopathy;
