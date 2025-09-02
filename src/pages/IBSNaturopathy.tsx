@@ -1,18 +1,10 @@
-
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Activity, Brain, Shield } from "lucide-react";
-
 const IBSNaturopathy = () => {
-  return (
-    <>
-      <SEO 
-        title="Best IBS Naturopath in Brisbane | Book a Free 15-Min Consult"
-        description="Feeling tired, bloated, foggy or just flat? Our IBS naturopath will the real cause of your symptoms, so you can finally feel like YOU again. Book a free consult"
-        canonical="/what-we-treat/ibs-naturopath"
-        keywords="IBS naturopath Brisbane, irritable bowel syndrome treatment, natural IBS treatment, IBS specialist Brisbane, digestive health Brisbane"
-      />
+  return <>
+      <SEO title="Best IBS Naturopath in Brisbane | Book a Free 15-Min Consult" description="Feeling tired, bloated, foggy or just flat? Our IBS naturopath will the real cause of your symptoms, so you can finally feel like YOU again. Book a free consult" canonical="/what-we-treat/ibs-naturopath" keywords="IBS naturopath Brisbane, irritable bowel syndrome treatment, natural IBS treatment, IBS specialist Brisbane, digestive health Brisbane" />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
@@ -26,11 +18,7 @@ const IBSNaturopathy = () => {
                 
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img 
-                    alt="Woman consulting with naturopath for IBS" 
-                    className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="/lovable-uploads/7c559226-37b5-4d6f-bcc4-f1a42d7a0b6b.png"
-                  />
+                  <img alt="Woman consulting with naturopath for IBS" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/7c559226-37b5-4d6f-bcc4-f1a42d7a0b6b.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Activity className="h-6 w-6 text-primary" />
@@ -44,10 +32,7 @@ const IBSNaturopathy = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button 
-                  asChild 
-                  className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight"
-                >
+                <Button asChild className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight">
                   <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
                     <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
@@ -55,11 +40,7 @@ const IBSNaturopathy = () => {
                     <span className="text-center">Book a Free 15-Min Consult!</span>
                   </a>
                 </Button>
-                <Button 
-                  variant="outline" 
-                  asChild 
-                  className="text-base sm:text-lg px-4 py-3 h-auto"
-                >
+                <Button variant="outline" asChild className="text-base sm:text-lg px-4 py-3 h-auto">
                   <a href="tel:0731808853">
                     <svg className="mr-2 h-4 w-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
@@ -77,11 +58,7 @@ const IBSNaturopathy = () => {
             
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img 
-                alt="Woman consulting with naturopath for IBS" 
-                className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="/lovable-uploads/7c559226-37b5-4d6f-bcc4-f1a42d7a0b6b.png"
-              />
+              <img alt="Woman consulting with naturopath for IBS" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/7c559226-37b5-4d6f-bcc4-f1a42d7a0b6b.png" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Activity className="h-8 w-8 text-primary" />
@@ -100,16 +77,12 @@ const IBSNaturopathy = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Feel Like Yourself Again With Natural IBS Support</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Finally Feel Like Yourself Again With Natural IBS Support</h2>
           </div>
 
           {/* Image right under heading */}
           <div className="mb-16">
-            <img 
-              src="/lovable-uploads/42bb449d-ce28-4105-a633-de7940727b20.png" 
-              alt="Woman sitting on her coach sad about IBS problems" 
-              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto"
-            />
+            <img src="/lovable-uploads/42bb449d-ce28-4105-a633-de7940727b20.png" alt="Woman sitting on her coach sad about IBS problems" className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto">
@@ -140,11 +113,7 @@ const IBSNaturopathy = () => {
 
           {/* Image right under heading */}
           <div className="mb-16">
-            <img 
-              src="/lovable-uploads/ed9e3662-e868-43a7-bf63-ca6b9508fe6b.png" 
-              alt="Naturopath having a consult with patient for gut problems" 
-              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto"
-            />
+            <img src="/lovable-uploads/ed9e3662-e868-43a7-bf63-ca6b9508fe6b.png" alt="Naturopath having a consult with patient for gut problems" className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto space-y-8">
@@ -157,18 +126,10 @@ const IBSNaturopathy = () => {
             <Card className="bg-white shadow-lg">
               <CardContent className="p-8">
                 <div className="space-y-4">
-                  {[
-                    "Abdominal pain",
-                    "Bloating and gas",
-                    "Irregular bowel movements (diarrhoea, constipation, or both)",
-                    "Cramping",
-                    "Feeling like you haven't finished going"
-                  ].map((symptom, index) => (
-                    <div key={index} className="flex items-start space-x-4">
+                  {["Abdominal pain", "Bloating and gas", "Irregular bowel movements (diarrhoea, constipation, or both)", "Cramping", "Feeling like you haven't finished going"].map((symptom, index) => <div key={index} className="flex items-start space-x-4">
                       <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-lg text-muted-foreground">{symptom}</span>
-                    </div>
-                  ))}
+                    </div>)}
                 </div>
               </CardContent>
             </Card>
@@ -194,32 +155,19 @@ const IBSNaturopathy = () => {
 
           {/* Image right under heading */}
           <div className="mb-16">
-            <img 
-              src="/lovable-uploads/9d537cd9-cb50-487f-8c01-fcb353738f68.png" 
-              alt="Naturopath showing test results to patient on a computer" 
-              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto"
-            />
+            <img src="/lovable-uploads/9d537cd9-cb50-487f-8c01-fcb353738f68.png" alt="Naturopath showing test results to patient on a computer" className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="grid gap-6">
-              {[
-                "Gut issues like <a href=\"/what-we-treat/sibo-naturopath\" className=\"text-primary hover:underline\">small intestinal bacterial overgrowth (SIBO)</a>, which is commonly found in patients with IBS",
-                "Food sensitivities or food intolerances",
-                "Stress hormones and nervous system imbalances",
-                "Gut motility problems (how food moves through your gut)",
-                "Hormonal imbalances (especially in women)",
-                "Inflammatory markers and low-grade inflammation"
-              ].map((cause, index) => (
-                <Card key={index} className="bg-white shadow-md hover:shadow-lg transition-shadow">
+              {["Gut issues like <a href=\"/what-we-treat/sibo-naturopath\" className=\"text-primary hover:underline\">small intestinal bacterial overgrowth (SIBO)</a>, which is commonly found in patients with IBS", "Food sensitivities or food intolerances", "Stress hormones and nervous system imbalances", "Gut motility problems (how food moves through your gut)", "Hormonal imbalances (especially in women)", "Inflammatory markers and low-grade inflammation"].map((cause, index) => <Card key={index} className="bg-white shadow-md hover:shadow-lg transition-shadow">
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-4">
                       <Activity className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                       <span className="text-muted-foreground text-lg">{cause}</span>
                     </div>
                   </CardContent>
-                </Card>
-              ))}
+                </Card>)}
             </div>
 
             <div className="text-lg text-muted-foreground text-center">
@@ -231,10 +179,7 @@ const IBSNaturopathy = () => {
 
           {/* CTA Button */}
           <div className="text-center mt-12">
-            <Button 
-              asChild 
-              className="text-base sm:text-lg px-6 py-4 h-auto"
-            >
+            <Button asChild className="text-base sm:text-lg px-6 py-4 h-auto">
               <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
                 <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
@@ -255,11 +200,7 @@ const IBSNaturopathy = () => {
 
           {/* Image right under heading */}
           <div className="mb-16">
-            <img 
-              src="/lovable-uploads/9727d25c-44a3-4c65-9bdd-9ead72af59d5.png" 
-              alt="Naturopath smiling while doing paperwork at his desk" 
-              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto"
-            />
+            <img src="/lovable-uploads/9727d25c-44a3-4c65-9bdd-9ead72af59d5.png" alt="Naturopath smiling while doing paperwork at his desk" className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto space-y-8">
@@ -279,21 +220,26 @@ const IBSNaturopathy = () => {
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
-              {[
-                { icon: Brain, text: "What foods trigger symptoms?" },
-                { icon: Heart, text: "Are there hormonal or stress-related patterns?" },
-                { icon: Activity, text: "Is your gut flora balanced?" },
-                { icon: Shield, text: "Do you have intestinal permeability, also known as 'leaky gut', or signs of inflammatory bowel diseases like ulcerative colitis?" }
-              ].map((question, index) => (
-                <Card key={index} className="bg-white shadow-md hover:shadow-lg transition-shadow">
+              {[{
+                icon: Brain,
+                text: "What foods trigger symptoms?"
+              }, {
+                icon: Heart,
+                text: "Are there hormonal or stress-related patterns?"
+              }, {
+                icon: Activity,
+                text: "Is your gut flora balanced?"
+              }, {
+                icon: Shield,
+                text: "Do you have intestinal permeability, also known as 'leaky gut', or signs of inflammatory bowel diseases like ulcerative colitis?"
+              }].map((question, index) => <Card key={index} className="bg-white shadow-md hover:shadow-lg transition-shadow">
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-4">
                       <question.icon className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                       <span className="text-muted-foreground">{question.text}</span>
                     </div>
                   </CardContent>
-                </Card>
-              ))}
+                </Card>)}
             </div>
 
             <div className="text-center space-y-4">
@@ -301,10 +247,7 @@ const IBSNaturopathy = () => {
                 Once we understand what's going on, we create a <strong>tailored treatment plan</strong> that fits your life.
               </p>
                 <p className="text-lg">
-                  <a 
-                    href="/what-we-treat/gut-health-naturopath-brisbane" 
-                    className="text-primary hover:text-primary/80 underline"
-                  >
+                  <a href="/what-we-treat/gut-health-naturopath-brisbane" className="text-primary hover:text-primary/80 underline">
                     Learn more about our Gut Health Naturopathy
                   </a> or discover <a href="/what-we-treat/ibs-brisbane" className="text-primary hover:underline">comprehensive IBS treatment options</a> available at our clinic.
                 </p>
@@ -325,11 +268,7 @@ const IBSNaturopathy = () => {
 
           {/* Image right under heading */}
           <div className="mb-16">
-            <img 
-              src="/lovable-uploads/60cace91-a809-4181-8c6d-083ba8fd5389.png" 
-              alt="Naturopath talking to female patient with 3 bottles of natural tonics and herbs in his hands" 
-              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto"
-            />
+            <img src="/lovable-uploads/60cace91-a809-4181-8c6d-083ba8fd5389.png" alt="Naturopath talking to female patient with 3 bottles of natural tonics and herbs in his hands" className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto space-y-8">
@@ -392,12 +331,7 @@ const IBSNaturopathy = () => {
 
             <div className="text-center mt-12">
               <p className="text-lg text-muted-foreground">
-                <a 
-                  href="https://nxtlvlhealth.com.au/what-we-treat/gut-health-specialist/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-primary hover:text-primary/80 underline"
-                >
+                <a href="https://nxtlvlhealth.com.au/what-we-treat/gut-health-specialist/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">
                   Click here to learn more about our Gut Health Specialist, Mitch
                 </a>
               </p>
@@ -418,31 +352,19 @@ const IBSNaturopathy = () => {
 
           {/* Image right under heading */}
           <div className="mb-16">
-            <img 
-              src="/lovable-uploads/73ae9c32-eb11-46ba-a42a-284c0061317f.png" 
-              alt="Woman holding her gut in pain" 
-              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto"
-            />
+            <img src="/lovable-uploads/73ae9c32-eb11-46ba-a42a-284c0061317f.png" alt="Woman holding her gut in pain" className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto space-y-8">
             <Card className="bg-white shadow-lg">
               <CardContent className="p-8">
                 <div className="space-y-6">
-                  {[
-                    "You eat something.",
-                    "You feel pain or bloated.",
-                    "You feel anxious about symptoms.",
-                    "Your stress hormones rise.",
-                    "That makes the symptoms worse."
-                  ].map((step, index) => (
-                    <div key={index} className="flex items-center space-x-4">
+                  {["You eat something.", "You feel pain or bloated.", "You feel anxious about symptoms.", "Your stress hormones rise.", "That makes the symptoms worse."].map((step, index) => <div key={index} className="flex items-center space-x-4">
                       <div className="w-10 h-10 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
                         {index + 1}
                       </div>
                       <span className="text-lg text-muted-foreground">{step}</span>
-                    </div>
-                  ))}
+                    </div>)}
                 </div>
               </CardContent>
             </Card>
@@ -456,10 +378,7 @@ const IBSNaturopathy = () => {
 
           {/* CTA Button */}
           <div className="text-center mt-12">
-            <Button 
-              asChild 
-              className="text-base sm:text-lg px-6 py-4 h-auto"
-            >
+            <Button asChild className="text-base sm:text-lg px-6 py-4 h-auto">
               <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
                 <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
@@ -480,11 +399,7 @@ const IBSNaturopathy = () => {
 
           {/* Image right under heading */}
           <div className="mb-16">
-            <img 
-              src="/lovable-uploads/6a563de7-3442-45e7-813f-2d08425b5f71.png" 
-              alt="Naturopath looking through microscope" 
-              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto"
-            />
+            <img src="/lovable-uploads/6a563de7-3442-45e7-813f-2d08425b5f71.png" alt="Naturopath looking through microscope" className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto space-y-8">
@@ -539,12 +454,7 @@ const IBSNaturopathy = () => {
                 You'll feel heard. You'll feel understood. And you'll feel supported.
               </p>
               <p className="text-lg">
-                <a 
-                  href="https://nxtlvlhealth.com.au/what-we-treat/ibs-clinic/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-primary hover:text-primary/80 underline"
-                >
+                <a href="https://nxtlvlhealth.com.au/what-we-treat/ibs-clinic/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">
                   Learn more about our IBS Clinic
                 </a>
               </p>
@@ -562,31 +472,19 @@ const IBSNaturopathy = () => {
 
           {/* Image right under heading */}
           <div className="mb-16">
-            <img 
-              src="/lovable-uploads/a78839ee-9ca6-4087-b9b3-b68e08636b33.png" 
-              alt="Naturopath doing paperwork at desk" 
-              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto"
-            />
+            <img src="/lovable-uploads/a78839ee-9ca6-4087-b9b3-b68e08636b33.png" alt="Naturopath doing paperwork at desk" className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto">
             <div className="grid gap-6">
-              {[
-                "We're known for helping with digestive disorders, especially irritable bowel syndrome IBS.",
-                "Our approach is grounded in naturopathic medicine and guided by scientific research.",
-                "We take our time. You're not rushed.",
-                "Our goal is to improve your quality of life, not just reduce symptoms.",
-                "We're local, friendly, and deeply caring."
-              ].map((benefit, index) => (
-                <Card key={index} className="bg-white shadow-md">
+              {["We're known for helping with digestive disorders, especially irritable bowel syndrome IBS.", "Our approach is grounded in naturopathic medicine and guided by scientific research.", "We take our time. You're not rushed.", "Our goal is to improve your quality of life, not just reduce symptoms.", "We're local, friendly, and deeply caring."].map((benefit, index) => <Card key={index} className="bg-white shadow-md">
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-4">
                       <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
                       <p className="text-lg text-muted-foreground">{benefit}</p>
                     </div>
                   </CardContent>
-                </Card>
-              ))}
+                </Card>)}
             </div>
           </div>
         </div>
@@ -601,11 +499,7 @@ const IBSNaturopathy = () => {
 
           {/* Image right under heading */}
           <div className="mb-16">
-            <img 
-              src="/lovable-uploads/d3467fd2-1425-445a-afcc-e1e474d769bd.png" 
-              alt="Naturopath checking blood pressure of a female patient" 
-              className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto"
-            />
+            <img src="/lovable-uploads/d3467fd2-1425-445a-afcc-e1e474d769bd.png" alt="Naturopath checking blood pressure of a female patient" className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto space-y-8">
@@ -625,19 +519,10 @@ const IBSNaturopathy = () => {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-semibold mb-6 text-center">With the right support, you can:</h3>
                 <div className="grid md:grid-cols-2 gap-6">
-                  {[
-                    "Reduce bloating and abdominal pain",
-                    "Improve your bowel movements",
-                    "Heal your digestive system",
-                    "Feel more energy",
-                    "Regain trust in your body",
-                    "Benefit from probiotics, which can improve digestion for some people with IBS"
-                  ].map((benefit, index) => (
-                    <div key={index} className="flex items-start space-x-3">
+                  {["Reduce bloating and abdominal pain", "Improve your bowel movements", "Heal your digestive system", "Feel more energy", "Regain trust in your body", "Benefit from probiotics, which can improve digestion for some people with IBS"].map((benefit, index) => <div key={index} className="flex items-start space-x-3">
                       <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
                       <span className="text-muted-foreground">{benefit}</span>
-                    </div>
-                  ))}
+                    </div>)}
                 </div>
               </CardContent>
             </Card>
@@ -645,10 +530,7 @@ const IBSNaturopathy = () => {
 
           {/* CTA Button */}
           <div className="text-center mt-12">
-            <Button 
-              asChild 
-              className="text-base sm:text-lg px-6 py-4 h-auto"
-            >
+            <Button asChild className="text-base sm:text-lg px-6 py-4 h-auto">
               <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
                 <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
@@ -702,8 +584,6 @@ const IBSNaturopathy = () => {
         </div>
       </section>
       </div>
-    </>
-  );
+    </>;
 };
-
 export default IBSNaturopathy;
