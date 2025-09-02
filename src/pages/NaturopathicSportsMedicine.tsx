@@ -2,103 +2,80 @@ import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Activity, Brain, Zap, Target, Users, Shield } from "lucide-react";
-
 const NaturopathicSportsMedicine = () => {
-  return (
-    <>
-      <SEO 
-        title="Naturopathic Sports Medicine in Brisbane | Book a FREE 15-Min Consult!"
-        description="Improve recovery, boost performance, and treat the root cause with naturopathic sports medicine in Brisbane. Book your free 15-min consult today."
-        canonical="/what-we-treat/naturopathic-sports-medicine"
-        keywords="naturopathic sports medicine Brisbane, sports naturopath, athlete recovery, sports performance, natural sports medicine, holistic sports health"
-        serviceSchema={{
-          "@context": "https://schema.org",
-          "@type": "Service",
-          "@id": "https://nxtlvlhealth.com.au/what-we-treat/naturopathic-sports-medicine#service",
-          "name": "Naturopathic Sports Medicine Brisbane",
-          "description": "Natural, science-based sports medicine for athletes. Our holistic approach supports athletic performance, recovery, injury prevention, and overall health using nutritional medicine, herbal therapies, and functional testing to address root causes.",
-          "provider": {
-            "@type": "Organization",
-            "@id": "https://nxtlvlhealth.com.au/#organization"
-          },
-          "areaServed": [
-            {
-              "@type": "City",
-              "name": "Brisbane"
-            },
-            {
-              "@type": "City", 
-              "name": "New Farm"
-            },
-            {
-              "@type": "City",
-              "name": "Clayfield"
-            },
-            {
-              "@type": "City",
-              "name": "Hamilton"
-            }
-          ],
-          "category": "Sports Naturopathy",
-          "serviceType": "Athletic Performance and Sports Health",
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Free 15-Minute Sports Medicine Consultation",
-              "description": "Complimentary consultation to discuss your athletic performance concerns, recovery challenges, and determine if naturopathic sports medicine is right for you.",
-              "price": "0",
-              "priceCurrency": "AUD",
-              "availability": "https://schema.org/InStock"
-            },
-            {
-              "@type": "Offer",
-              "name": "Initial Sports Medicine Consultation",
-              "description": "Comprehensive 75-minute consultation including detailed assessment of athletic performance, training history, recovery patterns, and personalised treatment planning for optimal sports health.",
-              "price": "210",
-              "priceCurrency": "AUD",
-              "availability": "https://schema.org/InStock"
-            },
-            {
-              "@type": "Offer", 
-              "name": "Follow-up Sports Medicine Consultation",
-              "description": "Ongoing support and treatment plan adjustments to monitor athletic progress, optimise performance, and maintain peak health throughout training cycles.",
-              "price": "120",
-              "priceCurrency": "AUD",
-              "availability": "https://schema.org/InStock"
-            }
-          ],
-          "audience": {
-            "@type": "Audience",
-            "audienceType": "Athletes, sports enthusiasts, and active individuals seeking natural performance enhancement and injury prevention"
-          },
-          "availableChannel": [
-            {
-              "@type": "ServiceChannel",
-              "serviceLocation": {
-                "@type": "Place",
-                "@id": "https://nxtlvlhealth.com.au/#location"
-              }
-            },
-            {
-              "@type": "ServiceChannel"
-            }
-          ],
-          "hoursAvailable": [
-            {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-              "opens": "09:00",
-              "closes": "17:00"
-            },
-            {
-              "@type": "OpeningHoursSpecification", 
-              "dayOfWeek": "Saturday",
-              "opens": "09:00",
-              "closes": "13:00"
-            }
-          ]
-        }}
-      />
+  return <>
+      <SEO title="Naturopathic Sports Medicine in Brisbane | Book a FREE 15-Min Consult!" description="Improve recovery, boost performance, and treat the root cause with naturopathic sports medicine in Brisbane. Book your free 15-min consult today." canonical="/what-we-treat/naturopathic-sports-medicine" keywords="naturopathic sports medicine Brisbane, sports naturopath, athlete recovery, sports performance, natural sports medicine, holistic sports health" serviceSchema={{
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://nxtlvlhealth.com.au/what-we-treat/naturopathic-sports-medicine#service",
+      "name": "Naturopathic Sports Medicine Brisbane",
+      "description": "Natural, science-based sports medicine for athletes. Our holistic approach supports athletic performance, recovery, injury prevention, and overall health using nutritional medicine, herbal therapies, and functional testing to address root causes.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://nxtlvlhealth.com.au/#organization"
+      },
+      "areaServed": [{
+        "@type": "City",
+        "name": "Brisbane"
+      }, {
+        "@type": "City",
+        "name": "New Farm"
+      }, {
+        "@type": "City",
+        "name": "Clayfield"
+      }, {
+        "@type": "City",
+        "name": "Hamilton"
+      }],
+      "category": "Sports Naturopathy",
+      "serviceType": "Athletic Performance and Sports Health",
+      "offers": [{
+        "@type": "Offer",
+        "name": "Free 15-Minute Sports Medicine Consultation",
+        "description": "Complimentary consultation to discuss your athletic performance concerns, recovery challenges, and determine if naturopathic sports medicine is right for you.",
+        "price": "0",
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }, {
+        "@type": "Offer",
+        "name": "Initial Sports Medicine Consultation",
+        "description": "Comprehensive 75-minute consultation including detailed assessment of athletic performance, training history, recovery patterns, and personalised treatment planning for optimal sports health.",
+        "price": "210",
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }, {
+        "@type": "Offer",
+        "name": "Follow-up Sports Medicine Consultation",
+        "description": "Ongoing support and treatment plan adjustments to monitor athletic progress, optimise performance, and maintain peak health throughout training cycles.",
+        "price": "120",
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Athletes, sports enthusiasts, and active individuals seeking natural performance enhancement and injury prevention"
+      },
+      "availableChannel": [{
+        "@type": "ServiceChannel",
+        "serviceLocation": {
+          "@type": "Place",
+          "@id": "https://nxtlvlhealth.com.au/#location"
+        }
+      }, {
+        "@type": "ServiceChannel"
+      }],
+      "hoursAvailable": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }, {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "13:00"
+      }]
+    }} />
       <div className="min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
@@ -112,11 +89,7 @@ const NaturopathicSportsMedicine = () => {
                   
                   {/* Mobile Image */}
                   <div className="relative lg:hidden mb-8 -mx-4">
-                    <img 
-                      alt="Mitchell Potts, naturopathic sports medicine practitioner consulting with athlete at NXTLVL Health Brisbane" 
-                      className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                      src="/lovable-uploads/39b7f717-8cae-400f-8062-def9a15add9b.png" 
-                    />
+                    <img alt="Mitchell Potts, naturopathic sports medicine practitioner consulting with athlete at NXTLVL Health Brisbane" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/39b7f717-8cae-400f-8062-def9a15add9b.png" />
                     <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                       <div className="flex items-center space-x-3">
                         <Target className="h-6 w-6 text-primary" />
@@ -130,10 +103,7 @@ const NaturopathicSportsMedicine = () => {
                 </div>
                 
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Button 
-                    asChild 
-                    className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight"
-                  >
+                  <Button asChild className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight">
                     <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                       <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 002 2v12a2 2 0 002 2z"></path>
@@ -141,11 +111,7 @@ const NaturopathicSportsMedicine = () => {
                       <span className="text-center">Book a FREE 15-Min Consult!</span>
                     </a>
                   </Button>
-                  <Button 
-                    variant="outline" 
-                    asChild 
-                    className="text-base sm:text-lg px-4 py-3 h-auto"
-                  >
+                  <Button variant="outline" asChild className="text-base sm:text-lg px-4 py-3 h-auto">
                     <a href="tel:0731808853">
                       <svg className="mr-2 h-4 w-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
@@ -163,11 +129,7 @@ const NaturopathicSportsMedicine = () => {
               
               {/* Desktop Image */}
               <div className="relative hidden lg:block">
-                <img 
-                  alt="Mitchell Potts, naturopathic sports medicine practitioner consulting with athlete at NXTLVL Health Brisbane" 
-                  className="rounded-2xl shadow-2xl w-full h-auto" 
-                  src="/lovable-uploads/39b7f717-8cae-400f-8062-def9a15add9b.png" 
-                />
+                <img alt="Mitchell Potts, naturopathic sports medicine practitioner consulting with athlete at NXTLVL Health Brisbane" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/39b7f717-8cae-400f-8062-def9a15add9b.png" />
                 <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                   <div className="flex items-center space-x-3">
                     <Target className="h-8 w-8 text-primary" />
@@ -186,13 +148,11 @@ const NaturopathicSportsMedicine = () => {
         <section className="py-20 px-4">
           <div className="container mx-auto max-w-6xl">
             <div className="text-center mb-16">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-6">Feel Like Your Body's Not Keeping Up With Your Training?</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6">Do You Feel Like Your Body's Not Keeping Up With Your Training?</h2>
             </div>
 
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground text-center mb-16">
-              <p>
-                You train hard. You eat right. But something still feels off. Maybe your energy is low, you're not recovering fast enough, or small injuries keep coming back. You're doing all the right things — so why don't you feel your best?
-              </p>
+              <p>You train hard consistently. You eat right. But something still feels off. Maybe your energy is low, you're not recovering fast enough, or small injuries keep coming back. You're doing all the right things — so why don't you feel your best?</p>
               <p>
                 At <strong>NXTLVL Health</strong> in Brisbane, we offer <strong>naturopathic sports medicine</strong> that helps athletes like you perform better, recover faster, and feel stronger — naturally. Our goal is to treat the whole body and give you the tools to stay active, pain-free, and at your best.
               </p>
@@ -237,25 +197,14 @@ const NaturopathicSportsMedicine = () => {
               </p>
 
               <div className="grid md:grid-cols-2 gap-4 mb-12">
-                {[
-                  "Chronic fatigue or burnout",
-                  "Repeated injuries",
-                  "Muscle soreness that won't go away",
-                  "Digestive problems",
-                  "Low energy or motivation",
-                  "Poor sleep",
-                  "Hormone imbalances",
-                  "Weakened immunity"
-                ].map((issue, index) => (
-                  <Card key={index}>
+                {["Chronic fatigue or burnout", "Repeated injuries", "Muscle soreness that won't go away", "Digestive problems", "Low energy or motivation", "Poor sleep", "Hormone imbalances", "Weakened immunity"].map((issue, index) => <Card key={index}>
                     <CardContent className="p-4">
                       <div className="flex items-center space-x-3">
                         <div className="w-2 h-2 bg-destructive rounded-full flex-shrink-0"></div>
                         <span className="text-muted-foreground">{issue}</span>
                       </div>
                     </CardContent>
-                  </Card>
-                ))}
+                  </Card>)}
               </div>
 
               <div className="space-y-6 text-lg text-muted-foreground">
@@ -282,11 +231,7 @@ const NaturopathicSportsMedicine = () => {
 
             {/* Mobile Image */}
             <div className="lg:hidden mb-12">
-              <img 
-                src="/lovable-uploads/778efa12-2a50-4463-9137-b9811fb860b1.png" 
-                alt="Mitchell Potts, qualified naturopath and personal trainer, preparing herbal medicines for athletes at NXTLVL Health Brisbane" 
-                className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
-              />
+              <img src="/lovable-uploads/778efa12-2a50-4463-9137-b9811fb860b1.png" alt="Mitchell Potts, qualified naturopath and personal trainer, preparing herbal medicines for athletes at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
             </div>
 
             <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -302,11 +247,7 @@ const NaturopathicSportsMedicine = () => {
               </div>
               {/* Desktop Image */}
               <div className="relative hidden lg:block">
-                <img 
-                  src="/lovable-uploads/778efa12-2a50-4463-9137-b9811fb860b1.png" 
-                  alt="Mitchell Potts, qualified naturopath and personal trainer, preparing herbal medicines for athletes at NXTLVL Health Brisbane" 
-                  className="rounded-2xl shadow-lg w-full h-auto" 
-                />
+                <img src="/lovable-uploads/778efa12-2a50-4463-9137-b9811fb860b1.png" alt="Mitchell Potts, qualified naturopath and personal trainer, preparing herbal medicines for athletes at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
               </div>
             </div>
           </div>
@@ -326,17 +267,39 @@ const NaturopathicSportsMedicine = () => {
             </div>
 
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
-              {[
-                { icon: Zap, title: "Energy support", description: "Fix fatigue and boost stamina" },
-                { icon: Shield, title: "Injury prevention & recovery", description: "Heal faster, train better" },
-                { icon: Heart, title: "Hormone balance", description: "For mood, motivation, and stress control" },
-                { icon: Activity, title: "Digestive health", description: "Improve nutrient absorption and reduce bloating" },
-                { icon: Shield, title: "Immunity", description: "Stay healthy and avoid illness" },
-                { icon: Brain, title: "Mental clarity", description: "Focus better, reduce overwhelm" },
-                { icon: Users, title: "Dietary advice", description: "Fuel your body the right way" },
-                { icon: Heart, title: "Stress management", description: "Tools for calming the nervous system" }
-              ].map((item, index) => (
-                <Card key={index}>
+              {[{
+              icon: Zap,
+              title: "Energy support",
+              description: "Fix fatigue and boost stamina"
+            }, {
+              icon: Shield,
+              title: "Injury prevention & recovery",
+              description: "Heal faster, train better"
+            }, {
+              icon: Heart,
+              title: "Hormone balance",
+              description: "For mood, motivation, and stress control"
+            }, {
+              icon: Activity,
+              title: "Digestive health",
+              description: "Improve nutrient absorption and reduce bloating"
+            }, {
+              icon: Shield,
+              title: "Immunity",
+              description: "Stay healthy and avoid illness"
+            }, {
+              icon: Brain,
+              title: "Mental clarity",
+              description: "Focus better, reduce overwhelm"
+            }, {
+              icon: Users,
+              title: "Dietary advice",
+              description: "Fuel your body the right way"
+            }, {
+              icon: Heart,
+              title: "Stress management",
+              description: "Tools for calming the nervous system"
+            }].map((item, index) => <Card key={index}>
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-3">
                       <item.icon className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
@@ -346,8 +309,7 @@ const NaturopathicSportsMedicine = () => {
                       </div>
                     </div>
                   </CardContent>
-                </Card>
-              ))}
+                </Card>)}
             </div>
 
             <div className="text-center">
@@ -421,22 +383,14 @@ const NaturopathicSportsMedicine = () => {
                   </CardContent>
                 </Card>
                 <div>
-                  <img 
-                    src="/lovable-uploads/778efa12-2a50-4463-9137-b9811fb860b1.png" 
-                    alt="Herbal medicine preparation at NXTLVL Health for athletes and sports performance" 
-                    className="rounded-2xl shadow-lg w-full h-auto" 
-                  />
+                  <img src="/lovable-uploads/778efa12-2a50-4463-9137-b9811fb860b1.png" alt="Herbal medicine preparation at NXTLVL Health for athletes and sports performance" className="rounded-2xl shadow-lg w-full h-auto" />
                 </div>
               </div>
 
               {/* Live Blood Analysis */}
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div>
-                  <img 
-                    src="/lovable-uploads/c932dabd-3ac9-4dd4-b8f6-9e2595151e1a.png" 
-                    alt="Live blood analysis microscope examination at NXTLVL Health for sports medicine assessment" 
-                    className="rounded-2xl shadow-lg w-full h-auto" 
-                  />
+                  <img src="/lovable-uploads/c932dabd-3ac9-4dd4-b8f6-9e2595151e1a.png" alt="Live blood analysis microscope examination at NXTLVL Health for sports medicine assessment" className="rounded-2xl shadow-lg w-full h-auto" />
                 </div>
                 <div className="space-y-6">
                   <Card>
@@ -485,11 +439,7 @@ const NaturopathicSportsMedicine = () => {
                   </CardContent>
                 </Card>
                 <div>
-                  <img 
-                    src="/lovable-uploads/8f5feae9-391d-4644-af47-61593b7bc840.png" 
-                    alt="MLS laser therapy treatment for sports injury recovery at NXTLVL Health Brisbane" 
-                    className="rounded-2xl shadow-lg w-full h-auto" 
-                  />
+                  <img src="/lovable-uploads/8f5feae9-391d-4644-af47-61593b7bc840.png" alt="MLS laser therapy treatment for sports injury recovery at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
                 </div>
               </div>
 
@@ -524,26 +474,14 @@ const NaturopathicSportsMedicine = () => {
               </p>
 
               <div className="grid md:grid-cols-2 gap-4 mb-12">
-                {[
-                  "Low energy or post-training burnout",
-                  "Ongoing gut problems like bloating or poor digestion",
-                  "Hormonal imbalances (e.g., low testosterone, high cortisol)",
-                  "Stress-related fatigue",
-                  "Repeated soft tissue injuries",
-                  "Joint pain and inflammation",
-                  "Frequent colds or low immunity",
-                  "Anxiety or low mood from overtraining",
-                  "Blood sugar crashes during workouts"
-                ].map((condition, index) => (
-                  <Card key={index}>
+                {["Low energy or post-training burnout", "Ongoing gut problems like bloating or poor digestion", "Hormonal imbalances (e.g., low testosterone, high cortisol)", "Stress-related fatigue", "Repeated soft tissue injuries", "Joint pain and inflammation", "Frequent colds or low immunity", "Anxiety or low mood from overtraining", "Blood sugar crashes during workouts"].map((condition, index) => <Card key={index}>
                     <CardContent className="p-4">
                       <div className="flex items-center space-x-3">
                         <CheckCircle className="h-5 w-5 text-primary flex-shrink-0" />
                         <span className="text-muted-foreground">{condition}</span>
                       </div>
                     </CardContent>
-                  </Card>
-                ))}
+                  </Card>)}
               </div>
 
               <p className="text-lg text-muted-foreground text-center">
@@ -566,24 +504,14 @@ const NaturopathicSportsMedicine = () => {
               </p>
 
               <div className="grid md:grid-cols-2 gap-4 mb-12">
-                {[
-                  "Gym-goers and weekend warriors",
-                  "Marathon runners and endurance athletes",
-                  "CrossFit and HIIT athletes",
-                  "Combat sports competitors",
-                  "Dancers and performers",
-                  "Sports parents and busy professionals",
-                  "Anyone looking to improve their training results or recover better"
-                ].map((group, index) => (
-                  <Card key={index}>
+                {["Gym-goers and weekend warriors", "Marathon runners and endurance athletes", "CrossFit and HIIT athletes", "Combat sports competitors", "Dancers and performers", "Sports parents and busy professionals", "Anyone looking to improve their training results or recover better"].map((group, index) => <Card key={index}>
                     <CardContent className="p-4">
                       <div className="flex items-center space-x-3">
                         <Target className="h-5 w-5 text-primary flex-shrink-0" />
                         <span className="text-muted-foreground">{group}</span>
                       </div>
                     </CardContent>
-                  </Card>
-                ))}
+                  </Card>)}
               </div>
 
               <p className="text-lg text-muted-foreground text-center">
@@ -602,39 +530,28 @@ const NaturopathicSportsMedicine = () => {
 
             {/* Centered Image */}
             <div className="mb-12">
-              <img 
-                src="/lovable-uploads/108aecf4-9e98-4025-803d-5e64dbd22b5b.png" 
-                alt="Professional naturopathic consultation process at NXTLVL Health Brisbane for athletes" 
-                className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-              />
+              <img src="/lovable-uploads/108aecf4-9e98-4025-803d-5e64dbd22b5b.png" alt="Professional naturopathic consultation process at NXTLVL Health Brisbane for athletes" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
             </div>
 
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              {[
-                {
-                  step: "Step 1: Free Discovery Call",
-                  description: "We start with a 15-minute phone chat to learn about your symptoms, goals, and whether we're the right fit."
-                },
-                {
-                  step: "Step 2: Comprehensive Testing and Assessment",
-                  description: "We use live blood analysis and functional testing to build a complete picture of your current health."
-                },
-                {
-                  step: "Step 3: Custom Treatment Plan",
-                  description: "You'll receive a clear, step-by-step plan built around your sport, lifestyle, and body. This may include nutrition, herbs, testing, and movement strategies."
-                },
-                {
-                  step: "Step 4: Ongoing Support and Adjustments",
-                  description: "We'll check in regularly to assess progress and adjust your treatment plan as your training evolves or health changes."
-                }
-              ].map((item, index) => (
-                <Card key={index}>
+              {[{
+              step: "Step 1: Free Discovery Call",
+              description: "We start with a 15-minute phone chat to learn about your symptoms, goals, and whether we're the right fit."
+            }, {
+              step: "Step 2: Comprehensive Testing and Assessment",
+              description: "We use live blood analysis and functional testing to build a complete picture of your current health."
+            }, {
+              step: "Step 3: Custom Treatment Plan",
+              description: "You'll receive a clear, step-by-step plan built around your sport, lifestyle, and body. This may include nutrition, herbs, testing, and movement strategies."
+            }, {
+              step: "Step 4: Ongoing Support and Adjustments",
+              description: "We'll check in regularly to assess progress and adjust your treatment plan as your training evolves or health changes."
+            }].map((item, index) => <Card key={index}>
                   <CardContent className="p-6">
                     <h3 className="font-semibold text-lg mb-3 text-primary">{item.step}</h3>
                     <p className="text-muted-foreground">{item.description}</p>
                   </CardContent>
-                </Card>
-              ))}
+                </Card>)}
             </div>
           </div>
         </section>
@@ -647,23 +564,14 @@ const NaturopathicSportsMedicine = () => {
             </div>
 
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              {[
-                "Trained in naturopathic medicine and personal training",
-                "Years of experience working with athletes of all levels",
-                "Combines science, compassion, and clear results",
-                "Focused on finding and treating the root cause — not just masking the symptoms",
-                "Offers virtual and in-person consultations across Brisbane and Australia",
-                "Known for making complex health challenges easy to understand and fix"
-              ].map((benefit, index) => (
-                <Card key={index}>
+              {["Trained in naturopathic medicine and personal training", "Years of experience working with athletes of all levels", "Combines science, compassion, and clear results", "Focused on finding and treating the root cause — not just masking the symptoms", "Offers virtual and in-person consultations across Brisbane and Australia", "Known for making complex health challenges easy to understand and fix"].map((benefit, index) => <Card key={index}>
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-3">
                       <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
                       <span className="text-muted-foreground">{benefit}</span>
                     </div>
                   </CardContent>
-                </Card>
-              ))}
+                </Card>)}
             </div>
           </div>
         </section>
@@ -697,22 +605,14 @@ const NaturopathicSportsMedicine = () => {
               <p className="text-lg text-muted-foreground mb-8 text-center">Ask yourself:</p>
 
               <div className="grid md:grid-cols-1 gap-4 mb-12">
-                {[
-                  "Am I doing everything \"right\" but still feel off?",
-                  "Do I recover slower than I used to?",
-                  "Do I want to prevent injury instead of constantly chasing recovery?",
-                  "Do I feel mentally or emotionally drained from training?",
-                  "Do I feel like no one's actually listening to what I'm saying?"
-                ].map((question, index) => (
-                  <Card key={index}>
+                {["Am I doing everything \"right\" but still feel off?", "Do I recover slower than I used to?", "Do I want to prevent injury instead of constantly chasing recovery?", "Do I feel mentally or emotionally drained from training?", "Do I feel like no one's actually listening to what I'm saying?"].map((question, index) => <Card key={index}>
                     <CardContent className="p-4">
                       <div className="flex items-center space-x-3">
                         <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
                         <span className="text-muted-foreground">{question}</span>
                       </div>
                     </CardContent>
-                  </Card>
-                ))}
+                  </Card>)}
               </div>
 
               <p className="text-lg text-muted-foreground text-center">
@@ -762,8 +662,6 @@ const NaturopathicSportsMedicine = () => {
           </div>
         </section>
       </div>
-    </>
-  );
+    </>;
 };
-
 export default NaturopathicSportsMedicine;
