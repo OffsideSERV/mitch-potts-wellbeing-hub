@@ -1,7 +1,5 @@
-
 import SEO from "@/components/SEO";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-
 const ThyroidNaturopathy = () => {
   // Service Schema for Thyroid Naturopath
   const thyroidNaturopathSchema = {
@@ -34,92 +32,72 @@ const ThyroidNaturopathy = () => {
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Thyroid Naturopathy Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Comprehensive Thyroid Assessment",
-            "description": "Detailed thyroid health evaluation including symptom analysis, medical history review, and functional thyroid testing recommendations"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
+      "itemListElement": [{
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Comprehensive Thyroid Assessment",
+          "description": "Detailed thyroid health evaluation including symptom analysis, medical history review, and functional thyroid testing recommendations"
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Functional Thyroid Testing",
-            "description": "Advanced thyroid panel including TSH, Free T3, Free T4, Reverse T3, thyroid antibodies, and nutritional assessments for comprehensive thyroid evaluation"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }, {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Functional Thyroid Testing",
+          "description": "Advanced thyroid panel including TSH, Free T3, Free T4, Reverse T3, thyroid antibodies, and nutritional assessments for comprehensive thyroid evaluation"
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Personalised Thyroid Treatment Plans",
-            "description": "Customised naturopathic protocols including herbal medicine, nutritional therapy, dietary modifications, and lifestyle interventions for optimal thyroid function"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }, {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Personalised Thyroid Treatment Plans",
+          "description": "Customised naturopathic protocols including herbal medicine, nutritional therapy, dietary modifications, and lifestyle interventions for optimal thyroid function"
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Hashimoto's Thyroiditis Treatment",
-            "description": "Specialised naturopathic treatment for autoimmune thyroid conditions focusing on immune system modulation, inflammation reduction, and gut health optimisation"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }, {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Hashimoto's Thyroiditis Treatment",
+          "description": "Specialised naturopathic treatment for autoimmune thyroid conditions focusing on immune system modulation, inflammation reduction, and gut health optimisation"
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Hypothyroidism Support",
-            "description": "Natural treatment approaches for underactive thyroid including nutritional support, herbal medicine, metabolic optimisation, and energy restoration"
-          },
-          "priceCurrency": "AUD",
-          "availability": "https://schema.org/InStock"
-        }
-      ]
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }, {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Hypothyroidism Support",
+          "description": "Natural treatment approaches for underactive thyroid including nutritional support, herbal medicine, metabolic optimisation, and energy restoration"
+        },
+        "priceCurrency": "AUD",
+        "availability": "https://schema.org/InStock"
+      }]
     },
-    "areaServed": [
-      {
-        "@type": "City",
-        "name": "Brisbane"
-      },
-      {
-        "@type": "City", 
-        "name": "Clayfield"
-      },
-      {
-        "@type": "City",
-        "name": "Hamilton" 
-      },
-      {
-        "@type": "City",
-        "name": "Newstead"
-      },
-      {
-        "@type": "City",
-        "name": "New Farm"
-      }
-    ]
+    "areaServed": [{
+      "@type": "City",
+      "name": "Brisbane"
+    }, {
+      "@type": "City",
+      "name": "Clayfield"
+    }, {
+      "@type": "City",
+      "name": "Hamilton"
+    }, {
+      "@type": "City",
+      "name": "Newstead"
+    }, {
+      "@type": "City",
+      "name": "New Farm"
+    }]
   };
-
-  return (
-    <>
-      <SEO 
-        title="#1 Naturopath for Thyroid Support in Brisbane"
-        description="Feel tired, foggy or stuck with thyroid symptoms? Our naturopath for thyroid problems will find what others have missed—so you can finally heal."
-        canonical="/what-we-treat/naturopath-thyroid-brisbane"
-        keywords="thyroid naturopath Brisbane, thyroid treatment, hypothyroid naturopath, Hashimoto's treatment, thyroid support"
-        serviceSchema={thyroidNaturopathSchema}
-      />
+  return <>
+      <SEO title="#1 Naturopath for Thyroid Support in Brisbane" description="Feel tired, foggy or stuck with thyroid symptoms? Our naturopath for thyroid problems will find what others have missed—so you can finally heal." canonical="/what-we-treat/naturopath-thyroid-brisbane" keywords="thyroid naturopath Brisbane, thyroid treatment, hypothyroid naturopath, Hashimoto's treatment, thyroid support" serviceSchema={thyroidNaturopathSchema} />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
@@ -133,11 +111,7 @@ const ThyroidNaturopathy = () => {
                 
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img 
-                    alt="Naturopath having consultation with female patient at NXTLVL Health" 
-                    className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
-                    src="/lovable-uploads/7bab2257-f140-4812-88c0-b910038ff849.png" 
-                  />
+                  <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/7bab2257-f140-4812-88c0-b910038ff849.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -153,19 +127,13 @@ const ThyroidNaturopathy = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <a 
-                  href="https://nxtlvlhealth.com.au/book-now/" 
-                  className="inline-flex items-center justify-center text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight bg-primary text-primary-foreground hover:bg-primary/90 rounded-md font-medium transition-colors"
-                >
+                <a href="https://nxtlvlhealth.com.au/book-now/" className="inline-flex items-center justify-center text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight bg-primary text-primary-foreground hover:bg-primary/90 rounded-md font-medium transition-colors">
                   <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                   </svg>
                   <span className="text-center">Book an Appointment Today</span>
                 </a>
-                <a 
-                  href="tel:0731808853" 
-                  className="inline-flex items-center justify-center text-base sm:text-lg px-4 py-3 h-auto border border-border bg-background hover:bg-muted rounded-md font-medium transition-colors"
-                >
+                <a href="tel:0731808853" className="inline-flex items-center justify-center text-base sm:text-lg px-4 py-3 h-auto border border-border bg-background hover:bg-muted rounded-md font-medium transition-colors">
                   <svg className="mr-2 h-4 w-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                   </svg>
@@ -181,11 +149,7 @@ const ThyroidNaturopathy = () => {
             
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img 
-                alt="Naturopath having consultation with female patient at NXTLVL Health" 
-                className="rounded-2xl shadow-2xl w-full h-auto" 
-                src="/lovable-uploads/7bab2257-f140-4812-88c0-b910038ff849.png" 
-              />
+              <img alt="Naturopath having consultation with female patient at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/7bab2257-f140-4812-88c0-b910038ff849.png" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <svg className="h-8 w-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -206,11 +170,7 @@ const ThyroidNaturopathy = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="lg:hidden mb-12">
-            <img 
-              src="/lovable-uploads/98dc86b9-d19c-4674-90b5-465183ac0c06.png" 
-              alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
-            />
+            <img src="/lovable-uploads/98dc86b9-d19c-4674-90b5-465183ac0c06.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -225,11 +185,7 @@ const ThyroidNaturopathy = () => {
               </div>
             </div>
             <div className="relative hidden lg:block">
-              <img 
-                src="/lovable-uploads/98dc86b9-d19c-4674-90b5-465183ac0c06.png" 
-                alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" 
-                className="rounded-2xl shadow-lg w-full h-auto" 
-              />
+              <img src="/lovable-uploads/98dc86b9-d19c-4674-90b5-465183ac0c06.png" alt="Woman talking to a naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -239,20 +195,14 @@ const ThyroidNaturopathy = () => {
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Thyroid Health Affects Everything</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Your Thyroid Health Affects Everything</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
-              <p>
-                Your thyroid gland is small, but mighty. This butterfly-shaped gland sits in your neck and helps regulate nearly every function in your body, from temperature and heart rate to mental clarity and hormonal balance. If your thyroid isn't producing enough hormones, or if your immune system attacks it, the effects ripple through your entire body.
-              </p>
+              <p>Your thyroid gland may be small, but it's mighty. This butterfly-shaped gland sits in your neck and helps regulate nearly every function in your body, from temperature and heart rate to mental clarity and hormonal balance. If your thyroid isn't producing enough hormones, or if your immune system attacks it, the effects ripple through your entire body.</p>
             </div>
           </div>
 
           <div className="mb-12">
-            <img 
-              src="/lovable-uploads/c932dabd-3ac9-4dd4-b8f6-9e2595151e1a.png" 
-              alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
+            <img src="/lovable-uploads/c932dabd-3ac9-4dd4-b8f6-9e2595151e1a.png" alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto">
@@ -511,11 +461,7 @@ const ThyroidNaturopathy = () => {
           </div>
 
           <div className="mb-12">
-            <img 
-              src="/lovable-uploads/c3e9d0bc-b8cf-4e44-81d0-11a9a0213d4b.png" 
-              alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" 
-              className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
-            />
+            <img src="/lovable-uploads/c3e9d0bc-b8cf-4e44-81d0-11a9a0213d4b.png" alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto">
@@ -644,19 +590,13 @@ const ThyroidNaturopathy = () => {
               If you're tired of the guesswork, feeling dismissed, or just want a new path forward NXTLVL Health is here to help. With holistic, science-backed care, we'll help you finally feel like yourself again.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a 
-                href="https://nxtlvlhealth.com.au/book-now/" 
-                className="inline-flex items-center justify-center text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3 bg-primary text-primary-foreground hover:bg-primary/90 rounded-md font-medium transition-colors"
-              >
+              <a href="https://nxtlvlhealth.com.au/book-now/" className="inline-flex items-center justify-center text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3 bg-primary text-primary-foreground hover:bg-primary/90 rounded-md font-medium transition-colors">
                 <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                 </svg>
                 Book an Appointment Today
               </a>
-              <a 
-                href="tel:0731808853" 
-                className="inline-flex items-center justify-center text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3 border border-border bg-background hover:bg-muted rounded-md font-medium transition-colors"
-              >
+              <a href="tel:0731808853" className="inline-flex items-center justify-center text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3 border border-border bg-background hover:bg-muted rounded-md font-medium transition-colors">
                 <svg className="mr-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                 </svg>
@@ -667,8 +607,6 @@ const ThyroidNaturopathy = () => {
         </div>
       </section>
       </div>
-    </>
-  );
+    </>;
 };
-
 export default ThyroidNaturopathy;
