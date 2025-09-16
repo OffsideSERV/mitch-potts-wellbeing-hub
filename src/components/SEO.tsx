@@ -13,7 +13,7 @@ interface SEOProps {
 }
 
 const SEO = ({ 
-  title = "Best Naturopath Brisbane | Book a FREE 15-Min Consult!",
+  title = "NXTLVL Health - Naturopath | Best Naturopath Brisbane | Book a FREE 15-Min Consult!",
   description = "Feel like something's wrong but no one's listening? NXTLVL Health is the best Naturopath in Brisbane and is here to give you the answers you've been looking for",
   canonical,
   ogImage = "https://www.nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg",
@@ -202,7 +202,7 @@ const SEO = ({
       <meta property="og:type" content={ogType} />
       <meta property="og:url" content={fullCanonical} />
       <meta property="og:image" content={ogImage} />
-      <meta property="og:site_name" content="NXTLVL Health" />
+      <meta property="og:site_name" content="NXTLVL Health - Naturopath" />
       
       {/* Twitter Card tags */}
       <meta name="twitter:card" content="summary_large_image" />
@@ -211,7 +211,7 @@ const SEO = ({
       <meta name="twitter:image" content={ogImage} />
       
       {/* Additional SEO meta tags */}
-      <meta name="author" content="NXTLVL Health" />
+      <meta name="author" content="NXTLVL Health - Naturopath" />
       <meta name="language" content="English" />
       <meta name="geo.region" content="AU-QLD" />
       <meta name="geo.placename" content="New Farm, Brisbane, Queensland" />
