@@ -23,8 +23,8 @@ const AmIFatOrBloated = () => {
   return (
     <>
       <SEO
-        title="Am I Fat Or Bloated? How to Tell the Difference | NXTLVL Health"
-        description="Confused about whether your belly is fat or bloating? Brisbane naturopath Mitch Potts explains the key differences and how to tell what's causing your symptoms."
+        title="Am I Fat Or Bloated? | Let's Take a Look"
+        description="Wondering 'am I fat or bloated'? Learn how to spot the difference, what causes belly changes, and how to reduce bloating fast. Click to read."
         canonical="/am-i-fat-or-bloated"
         keywords="fat vs bloating, belly bloating, stomach bloating vs fat, digestive health Brisbane, naturopath Brisbane"
       />
@@ -39,9 +39,13 @@ const AmIFatOrBloated = () => {
             The question I get asked most in clinic. Learn how to tell the difference between belly fat and bloating, plus what to do about each one.
           </p>
           
-          {/* Hero Image Placeholder */}
-          <div className="mt-8 bg-muted rounded-lg h-64 flex items-center justify-center">
-            <p className="text-muted-foreground">[Hero Image: Person looking confused in mirror examining belly]</p>
+          {/* Hero Image */}
+          <div className="mt-8">
+            <img 
+              src="/lovable-uploads/consultation-discussion.png" 
+              alt="Naturopath consultation discussing digestive health concerns"
+              className="w-full h-64 object-cover rounded-lg shadow-lg"
+            />
           </div>
         </header>
 
@@ -94,9 +98,13 @@ const AmIFatOrBloated = () => {
           </p>
         </div>
 
-        {/* Image Placeholder */}
-        <div className="bg-muted rounded-lg h-48 flex items-center justify-center mb-12">
-          <p className="text-muted-foreground">[Image: Before/after comparison showing flat vs bloated belly]</p>
+        {/* Professional consultation image */}
+        <div className="mb-12">
+          <img 
+            src="/lovable-uploads/naturopath-consultation.png" 
+            alt="Professional naturopath consultation in modern clinic setting"
+            className="w-full h-48 object-cover rounded-lg shadow-lg"
+          />
         </div>
 
         {/* Main Content Sections */}
@@ -159,9 +167,13 @@ const AmIFatOrBloated = () => {
             ))}
           </div>
 
-          {/* Image Placeholder */}
-          <div className="bg-muted rounded-lg h-48 flex items-center justify-center">
-            <p className="text-muted-foreground">[Image: Timeline showing belly changes throughout the day]</p>
+          {/* Bloating timeline image */}
+          <div>
+            <img 
+              src="/lovable-uploads/belly-bloating-timeline.png" 
+              alt="Timeline showing how belly bloating changes throughout the day from morning to evening"
+              className="w-full h-48 object-contain rounded-lg shadow-lg bg-white"
+            />
           </div>
         </section>
 
@@ -209,9 +221,13 @@ const AmIFatOrBloated = () => {
             This is less common than gut-driven bloating, but worth checking out.
           </p>
 
-          {/* Image Placeholder */}
-          <div className="bg-muted rounded-lg h-48 flex items-center justify-center mt-6">
-            <p className="text-muted-foreground">[Image: Comparison of different types of belly swelling]</p>
+          {/* Health assessment image */}
+          <div className="mt-6">
+            <img 
+              src="/lovable-uploads/health-assessment.png" 
+              alt="Health professional conducting detailed assessment and documentation"
+              className="w-full h-48 object-cover rounded-lg shadow-lg"
+            />
           </div>
         </section>
 
@@ -290,9 +306,13 @@ const AmIFatOrBloated = () => {
             ))}
           </div>
 
-          {/* Image Placeholder */}
-          <div className="bg-muted rounded-lg h-48 flex items-center justify-center mt-8">
-            <p className="text-muted-foreground">[Image: Foods that commonly cause bloating]</p>
+          {/* Digestive-friendly foods image */}
+          <div className="mt-8">
+            <img 
+              src="/lovable-uploads/warm-soup-digestion.png" 
+              alt="Warm, digestive-friendly soup with healing ingredients like ginger and carrots"
+              className="w-full h-48 object-cover rounded-lg shadow-lg"
+            />
           </div>
         </section>
 
@@ -316,10 +336,6 @@ const AmIFatOrBloated = () => {
             ))}
           </div>
 
-          {/* Image Placeholder */}
-          <div className="bg-muted rounded-lg h-48 flex items-center justify-center mt-6">
-            <p className="text-muted-foreground">[Image: Person doing breathing exercises or gentle movement]</p>
-          </div>
         </section>
 
         <section id="long-term" className="mb-12">
@@ -353,10 +369,6 @@ const AmIFatOrBloated = () => {
             </p>
           </div>
 
-          {/* Image Placeholder */}
-          <div className="bg-muted rounded-lg h-48 flex items-center justify-center mt-6">
-            <p className="text-muted-foreground">[Image: Functional medicine testing or consultation]</p>
-          </div>
         </section>
 
         <section id="how-to-tell" className="mb-12">
@@ -412,10 +424,6 @@ const AmIFatOrBloated = () => {
             It can feel like a double-whammy. But when we work on digestion, people often notice they drop a clothing size just from less bloating, <strong>before even touching fat loss</strong>.
           </p>
 
-          {/* Image Placeholder */}
-          <div className="bg-muted rounded-lg h-48 flex items-center justify-center mt-6">
-            <p className="text-muted-foreground">[Image: Before/after showing combined fat + bloating reduction]</p>
-          </div>
         </section>
 
         <section id="reduce" className="mb-12">
@@ -484,10 +492,6 @@ const AmIFatOrBloated = () => {
             And when fat loss is also a goal, <strong>combining gut health + smart training makes the results stick</strong>.
           </p>
 
-          {/* Image Placeholder */}
-          <div className="bg-muted rounded-lg h-48 flex items-center justify-center mt-6">
-            <p className="text-muted-foreground">[Image: Happy patient testimonial or success story]</p>
-          </div>
         </section>
 
         {/* Final Thoughts */}
