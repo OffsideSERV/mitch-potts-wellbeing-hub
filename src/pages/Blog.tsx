@@ -77,6 +77,15 @@ const blogPosts = [
     date: "February 5, 2024",
     slug: "/blog/gut-health/gut-brain-connection-how-your-gut-affects-mental-health",
     image: "/lovable-uploads/c6f989c7-da21-4d1f-a1e1-bd15ddab89eb.png"
+  },
+  {
+    title: "Am I Fat Or Bloated?",
+    description: "Confused about whether your belly is fat or bloating? Learn the key differences and what to do about each one.",
+    category: "Gut Health",
+    readTime: "8 min read",
+    date: "September 2025",
+    slug: "/am-i-fat-or-bloated",
+    image: "/lovable-uploads/629b9330-8bcf-44db-8889-18509024f856.png"
   }
 ];
 
