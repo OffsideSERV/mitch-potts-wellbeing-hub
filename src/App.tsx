@@ -71,6 +71,7 @@ import NaturopathForAthletes from "./pages/NaturopathForAthletes";
 import LaserHealing from "./pages/LaserHealing";
 import ThankYou from "./pages/ThankYou";
 import AmIFatOrBloated from "./pages/AmIFatOrBloated";
+import PathologyTestingPrices from "./pages/PathologyTestingPrices";
 
 const queryClient = new QueryClient();
 
@@ -147,6 +148,7 @@ const App = () => (
                 <Route path="/blog/weight-loss/embracing-natural-weight-loss-with-ozempic-a-naturopaths-approach" element={<OzempicNaturalWeightLoss />} />
                 <Route path="/blog/gut-health/gut-brain-connection-how-your-gut-affects-mental-health" element={<GutBrainConnection />} />
                 <Route path="/am-i-fat-or-bloated" element={<AmIFatOrBloated />} />
+                <Route path="/pathology-testing-prices" element={<PathologyTestingPrices />} />
                 <Route path="/what-we-treat/naturopath-for-athletes" element={<NaturopathForAthletes />} />
                 
                 {/* About Us page */}
