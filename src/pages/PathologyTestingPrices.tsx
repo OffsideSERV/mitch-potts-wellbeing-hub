@@ -1,11 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import SEO from "@/components/SEO";
-import Layout from "@/components/Layout";
 
 const PathologyTestingPrices = () => {
   return (
-    <Layout>
+    <>
       <SEO 
         title="Pathology Testing Prices | NXTLVL Health Brisbane"
         description="Simple, clear pricing for comprehensive pathology testing. Food allergies, gut health, hormones, and more. Get accurate results with trusted labs."
@@ -451,7 +450,7 @@ const PathologyTestingPrices = () => {
           </div>
         </div>
       </div>
-    </Layout>
+    </>
   );
 };
 
