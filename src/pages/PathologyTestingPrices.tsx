@@ -47,7 +47,7 @@ const PathologyTestingPrices = () => {
             <CardContent>
               <ul className="space-y-2 text-amber-700">
                 <li>• Prices are an indication only and can change.</li>
-                <li>• Some blood tests attract a collection fee at the draw centre (approx. $30–$40).</li>
+                <li>• Some blood tests attract a collection fee at the draw centre (approx. $30-$40).</li>
                 <li>• A small postage/handling fee may apply from the lab.</li>
                 <li>• Turnaround times are business days from lab receipt.</li>
               </ul>
@@ -67,14 +67,14 @@ const PathologyTestingPrices = () => {
               </p>
               <div className="grid gap-4">
                 {[
-                  { test: "IgG 96 Foods", method: "Spot card", price: "$291–$316", time: "12–15 days" },
-                  { test: "IgG + IgA 96 Foods (Combo)", method: "Spot card", price: "$381", time: "12–15 days" },
-                  { test: "IgG 144 Foods", method: "Spot card", price: "$371", time: "12–15 days" },
-                  { test: "IgG + IgA 144 Foods (Combo)", method: "Spot card", price: "$531", time: "12–15 days" },
-                  { test: "IgG 240 Foods", method: "Serum/spot", price: "$568", time: "12–15 days" },
-                  { test: "IgG + IgA 240 Foods (Combo)", method: "Serum", price: "$663", time: "12–15 days" },
-                  { test: "IgE 27 Foods (True Allergy)", method: "Serum", price: "$291", time: "12–15 days" },
-                  { test: "IgE 50 Inhalants", method: "Serum", price: "$286", time: "12–15 days" },
+                  { test: "IgG 96 Foods", method: "Spot card", price: "$291-$316", time: "12-15 days" },
+                  { test: "IgG + IgA 96 Foods (Combo)", method: "Spot card", price: "$381", time: "12-15 days" },
+                  { test: "IgG 144 Foods", method: "Spot card", price: "$371", time: "12-15 days" },
+                  { test: "IgG + IgA 144 Foods (Combo)", method: "Spot card", price: "$531", time: "12-15 days" },
+                  { test: "IgG 240 Foods", method: "Serum/spot", price: "$568", time: "12-15 days" },
+                  { test: "IgG + IgA 240 Foods (Combo)", method: "Serum", price: "$663", time: "12-15 days" },
+                  { test: "IgE 27 Foods (True Allergy)", method: "Serum", price: "$291", time: "12-15 days" },
+                  { test: "IgE 50 Inhalants", method: "Serum", price: "$286", time: "12-15 days" },
                   { test: "ALCAT 100 Foods", method: "ALCAT kit (cell response)", price: "$376", time: "48 hours" },
                   { test: "ALCAT 200 Foods", method: "ALCAT kit", price: "$621", time: "48 hours" },
                 ].map((item, index) => (
@@ -101,8 +101,8 @@ const PathologyTestingPrices = () => {
               <div className="grid gap-4">
                 {[
                   { test: "Complete Microbiome Mapping (qPCR + markers)", method: "Stool", price: "$399", time: "5 days" },
-                  { test: "Advanced Microbiome Mapping (+ sensitivities)", method: "Stool", price: "$460", time: "5–7 days" },
-                  { test: "Microbiomix Metagenomic Mapping (28,000+ species)", method: "Stool", price: "$416", time: "12–15 days" },
+                  { test: "Advanced Microbiome Mapping (+ sensitivities)", method: "Stool", price: "$460", time: "5-7 days" },
+                  { test: "Microbiomix Metagenomic Mapping (28,000+ species)", method: "Stool", price: "$416", time: "12-15 days" },
                   { test: "CDSA Level 2 (Digestion/Absorption/Inflammation)", method: "Stool", price: "$246", time: "5 days" },
                   { test: "CDSA Level 3+ (incl. sIgA, Calprotectin, H. pylori Ag)", method: "Stool", price: "$396", time: "5 days" },
                   { test: "SIBO Breath Test – Lactulose", method: "Breath kit", price: "$196", time: "24 hours" },
@@ -110,10 +110,10 @@ const PathologyTestingPrices = () => {
                   { test: "SIBO Combo (Fructose + Lactulose)", method: "Breath kit", price: "$326", time: "24 hours" },
                   { test: "SIBO Triple (Fructose + Lactulose + Glucose)", method: "Breath kit", price: "$465", time: "24 hours" },
                   { test: "Intestinal Permeability (Leaky Gut)", method: "Urine", price: "$141", time: "5 days" },
-                  { test: "Zonulin (faecal)", method: "Stool", price: "$60", time: "3–5 days" },
-                  { test: "Calprotectin (faecal; IBS vs IBD marker)", method: "Stool", price: "$60", time: "3–5 days" },
-                  { test: "Pancreatic Elastase (faecal; enzyme output)", method: "Stool", price: "$60", time: "3–5 days" },
-                  { test: "H. pylori Antigen (faecal)", method: "Stool", price: "$60", time: "3–5 days" },
+                  { test: "Zonulin (faecal)", method: "Stool", price: "$60", time: "3-5 days" },
+                  { test: "Calprotectin (faecal; IBS vs IBD marker)", method: "Stool", price: "$60", time: "3-5 days" },
+                  { test: "Pancreatic Elastase (faecal; enzyme output)", method: "Stool", price: "$60", time: "3-5 days" },
+                  { test: "H. pylori Antigen (faecal)", method: "Stool", price: "$60", time: "3-5 days" },
                 ].map((item, index) => (
                   <Card key={index} className="p-4">
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-2">
@@ -139,11 +139,11 @@ const PathologyTestingPrices = () => {
               <h3 className="text-2xl font-semibold text-primary mb-4">Saliva (easy at-home collection)</h3>
               <div className="grid gap-4 mb-8">
                 {[
-                  { test: "Adrenocortex Stress Profile (Cortisol x4 + DHEAs)", method: "Saliva", price: "$118", time: "3–5 days" },
-                  { test: "Female Hormone Profile – Basic (E1, E2, E3, Prog, Testo, DHEAs)", method: "Saliva", price: "$156", time: "3–5 days" },
-                  { test: "Male Hormone Profile – Basic (E1, E2, Testo, DHEAs)", method: "Saliva", price: "$106", time: "3–5 days" },
-                  { test: "Sleep Profile – Basic (Melatonin + Cortisol midnight)", method: "Saliva", price: "$66", time: "3–5 days" },
-                  { test: "Female Cycle 28-Day Mapping (E2/Prog panel)", method: "Saliva", price: "$276", time: "3–5 days" },
+                  { test: "Adrenocortex Stress Profile (Cortisol x4 + DHEAs)", method: "Saliva", price: "$118", time: "3-5 days" },
+                  { test: "Female Hormone Profile - Basic (E1, E2, E3, Prog, Testo, DHEAs)", method: "Saliva", price: "$156", time: "3-5 days" },
+                  { test: "Male Hormone Profile - Basic (E1, E2, Testo, DHEAs)", method: "Saliva", price: "$106", time: "3-5 days" },
+                  { test: "Sleep Profile - Basic (Melatonin + Cortisol midnight)", method: "Saliva", price: "$66", time: "3-5 days" },
+                  { test: "Female Cycle 28-Day Mapping (E2/Prog panel)", method: "Saliva", price: "$276", time: "3-5 days" },
                 ].map((item, index) => (
                   <Card key={index} className="p-4">
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-2">
@@ -159,8 +159,8 @@ const PathologyTestingPrices = () => {
               <h3 className="text-2xl font-semibold text-primary mb-4">Serum (blood draw)</h3>
               <div className="grid gap-4 mb-8">
                 {[
-                  { test: "Thyroid Profile – Basic (TSH, fT4, fT3)", method: "Serum", price: "$62", time: "24 hours" },
-                  { test: "Thyroid Profile – Extensive (TSH, fT4, fT3, rT3, TPO, TgAb, TRAb)", method: "Serum", price: "$171", time: "3–5 days" },
+                  { test: "Thyroid Profile - Basic (TSH, fT4, fT3)", method: "Serum", price: "$62", time: "24 hours" },
+                  { test: "Thyroid Profile - Extensive (TSH, fT4, fT3, rT3, TPO, TgAb, TRAb)", method: "Serum", price: "$171", time: "3-5 days" },
                   { test: "Female Hormone Profile (E2, FSH, LH, Prog, Prolactin, DHEAs, SHBG, Testo, calc-free Testo)", method: "Serum", price: "$188", time: "24 hours" },
                   { test: "Male Hormone Profile (Testo, free Testo calc, E2, SHBG, DHEAs, Albumin)", method: "Serum", price: "$101", time: "24 hours" },
                   { test: "AMH (Ovarian Reserve)", method: "Serum", price: "$61", time: "72 hours" },
@@ -235,8 +235,8 @@ const PathologyTestingPrices = () => {
               </p>
               <div className="grid gap-4">
                 {[
-                  { test: "Omega-3 Index (RBC)", method: "EDTA/Blood spot", price: "$116–$131", time: "12–14 days" },
-                  { test: "Essential Fatty Acids (RBC full profile)", method: "EDTA/Blood spot", price: "$131", time: "12–14 days" },
+                  { test: "Omega-3 Index (RBC)", method: "EDTA/Blood spot", price: "$116-$131", time: "12-14 days" },
+                  { test: "Essential Fatty Acids (RBC full profile)", method: "EDTA/Blood spot", price: "$131", time: "12-14 days" },
                   { test: "Vitamin B12 & Folate (Active B12 + Folate)", method: "Serum", price: "$86", time: "48 hours" },
                   { test: "Amino Acids (Plasma, 40 markers)", method: "Plasma", price: "$301", time: "up to 14 days" },
                   { test: "Nutri-STAT (big integrative panel)", method: "Mixed + urine", price: "$726", time: "~21 days" },
@@ -265,8 +265,8 @@ const PathologyTestingPrices = () => {
               <div className="grid gap-4">
                 {[
                   { test: "Organic Acids Metabolomic Mapping (63 markers)", method: "Urine", price: "$330", time: "up to 14 days" },
-                  { test: "Neurotransmitters – Intermediate (Serotonin, GABA, Dopamine, etc.)", method: "Urine", price: "$301", time: "14 days" },
-                  { test: "Pfeiffer Profile – Basic (Copper/Zinc balance, histamine, Vit D, etc.)", method: "Mixed", price: "$211", time: "~5 days" },
+                  { test: "Neurotransmitters - Intermediate (Serotonin, GABA, Dopamine, etc.)", method: "Urine", price: "$301", time: "14 days" },
+                  { test: "Pfeiffer Profile - Basic (Copper/Zinc balance, histamine, Vit D, etc.)", method: "Mixed", price: "$211", time: "~5 days" },
                 ].map((item, index) => (
                   <Card key={index} className="p-4">
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-2">
@@ -290,10 +290,10 @@ const PathologyTestingPrices = () => {
               </p>
               <div className="grid gap-4">
                 {[
-                  { test: "Urine Mycotoxins – Initial (OTA, Aflatoxins, Trichothecenes, ZEA, Gliotoxin)", method: "Urine", price: "$295", time: "12–15 days" },
-                  { test: "Mycotoxins + Environmental Pollutants (incl. Glyphosate)", method: "Urine", price: "$496", time: "12–15 days" },
+                  { test: "Urine Mycotoxins - Initial (OTA, Aflatoxins, Trichothecenes, ZEA, Gliotoxin)", method: "Urine", price: "$295", time: "12-15 days" },
+                  { test: "Mycotoxins + Environmental Pollutants (incl. Glyphosate)", method: "Urine", price: "$496", time: "12-15 days" },
                   { test: "MCAS Profile (Tryptase, Chromogranin A, Histamine)", method: "Blood", price: "$271", time: "~10 days" },
-                  { test: "Nasopharyngeal Culture (MARCoNS)", method: "Swab", price: "$176", time: "5–7 days" },
+                  { test: "Nasopharyngeal Culture (MARCoNS)", method: "Swab", price: "$176", time: "5-7 days" },
                 ].map((item, index) => (
                   <Card key={index} className="p-4">
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-2">
@@ -317,8 +317,8 @@ const PathologyTestingPrices = () => {
               </p>
               <div className="grid gap-4">
                 {[
-                  { test: "Hair Mineral Analysis – Level 1 (8 minerals + 8 toxic metals)", method: "Hair", price: "$151", time: "7 days" },
-                  { test: "Hair Mineral Analysis – Level 2 (expanded)", method: "Hair", price: "$226", time: "7 days" },
+                  { test: "Hair Mineral Analysis - Level 1 (8 minerals + 8 toxic metals)", method: "Hair", price: "$151", time: "7 days" },
+                  { test: "Hair Mineral Analysis - Level 2 (expanded)", method: "Hair", price: "$226", time: "7 days" },
                   { test: "Pre-Chelation Heavy Metals (Urine)", method: "Urine", price: "$186", time: "7 days" },
                   { test: "Post-Chelation Heavy Metals (Urine)", method: "Urine", price: "$186", time: "7 days" },
                   { test: "Red Cell/Whole Blood Metals (15 metals)", method: "EDTA (navy)", price: "$186", time: "7 days" },
@@ -346,10 +346,10 @@ const PathologyTestingPrices = () => {
               </p>
               <div className="grid gap-4">
                 {[
-                  { test: "myDNA Comprehensive Health Report (92 genes/113 SNPs)", method: "Swab", price: "$260", time: "18–21 days" },
-                  { test: "myDNA Pharmacogenomics (Med response)", method: "Swab", price: "$199", time: "18–21 days" },
-                  { test: "myDNA Methylation / Longevity / Detox / Fertility Reports", method: "Swab", price: "$260 each", time: "18–21 days" },
-                  { test: "Telomere / Biological Age", method: "EDTA", price: "$210", time: "18–21 days" },
+                  { test: "myDNA Comprehensive Health Report (92 genes/113 SNPs)", method: "Swab", price: "$260", time: "18-21 days" },
+                  { test: "myDNA Pharmacogenomics (Med response)", method: "Swab", price: "$199", time: "18-21 days" },
+                  { test: "myDNA Methylation / Longevity / Detox / Fertility Reports", method: "Swab", price: "$260 each", time: "18-21 days" },
+                  { test: "Telomere / Biological Age", method: "EDTA", price: "$210", time: "18-21 days" },
                 ].map((item, index) => (
                   <Card key={index} className="p-4">
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-2">
