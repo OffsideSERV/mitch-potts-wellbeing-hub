@@ -30,6 +30,15 @@ const PathologyTestingPrices = () => {
             </p>
           </div>
 
+          {/* Hero Image */}
+          <div className="mb-8">
+            <img 
+              src="/lovable-uploads/pathology-testing-hero.jpg" 
+              alt="DNA testing and pathology laboratory with microscope and test tubes"
+              className="w-full h-64 md:h-80 object-cover rounded-lg shadow-lg"
+            />
+          </div>
+
           {/* Important Information */}
           <Card className="mb-8 border-amber-200 bg-amber-50">
             <CardHeader>
