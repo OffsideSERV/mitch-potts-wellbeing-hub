@@ -7,6 +7,15 @@ import SEO from "@/components/SEO";
 
 const blogPosts = [
   {
+    title: "#1 Homemade Remedy for Bloated Stomach",
+    description: "Discover the best homemade remedies for bloated stomach relief. Learn natural, safe, and effective ways to reduce bloating fast with expert naturopathic advice.",
+    category: "Gut Health",
+    readTime: "8 min read",
+    date: "September 21, 2025",
+    slug: "/blog/gut-health/homemade-remedy-for-bloated-stomach",
+    image: "/lovable-uploads/warm-soup-digestion.png"
+  },
+  {
     title: "Best Tea for Stomach Pain and Bloating",
     description: "Discover the most effective herbal teas that can naturally soothe stomach discomfort and reduce bloating symptoms.",
     category: "Gut Health",

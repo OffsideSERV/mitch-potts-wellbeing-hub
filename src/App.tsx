@@ -73,6 +73,7 @@ import ThankYou from "./pages/ThankYou";
 import AmIFatOrBloated from "./pages/AmIFatOrBloated";
 import PathologyTestingPrices from "./pages/PathologyTestingPrices";
 import CardiovascularHealth from "./pages/CardiovascularHealth";
+import HomemadeRemedyBloatedStomach from "./pages/HomemadeRemedyBloatedStomach";
 
 const queryClient = new QueryClient();
 
@@ -148,6 +149,7 @@ const App = () => (
                 <Route path="/blog/naturopathy/naturopathy-vs-homeopathy" element={<NaturopathyVsHomeopathy />} />
                 <Route path="/blog/weight-loss/embracing-natural-weight-loss-with-ozempic-a-naturopaths-approach" element={<OzempicNaturalWeightLoss />} />
                 <Route path="/blog/gut-health/gut-brain-connection-how-your-gut-affects-mental-health" element={<GutBrainConnection />} />
+                <Route path="/blog/gut-health/homemade-remedy-for-bloated-stomach" element={<HomemadeRemedyBloatedStomach />} />
                 <Route path="/am-i-fat-or-bloated" element={<AmIFatOrBloated />} />
                 <Route path="/pathology-testing-prices" element={<PathologyTestingPrices />} />
                 <Route path="/what-we-treat/cardiovascular-health-naturopath-brisbane" element={<CardiovascularHealth />} />
