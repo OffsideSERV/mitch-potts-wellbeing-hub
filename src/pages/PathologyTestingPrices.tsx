@@ -201,7 +201,7 @@ const PathologyTestingPrices = () => {
                 Routine Pathology (Core Health Panels)
               </h2>
               <p className="text-muted-foreground mb-6">
-                (Great starting point for energy, thyroid, iron, lipids)
+                (Great starting point for energy, thyroid, iron, lipids - not an exhaustive list. We have other ways of getting blood tests done that are much cheaper, ask a practitioner to learn more.)
               </p>
               <div className="grid gap-4">
                 {[
