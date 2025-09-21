@@ -99,6 +99,9 @@ const PathologyTestingPrices = () => {
               </p>
               <div className="grid gap-4">
                 {[
+                  { test: "MetaXplore™ (Functional Gut Microbiome Profile)", method: "Stool", price: "$369", time: "3-4 weeks" },
+                  { test: "MetaXplore™ GI (Gastrointestinal Health Markers + Functional Gut Microbiome Profile)", method: "Stool", price: "$425", time: "3-4 weeks" },
+                  { test: "MetaXplore™ GI Plus (Gastrointestinal Health Markers + Targeted Pathogen & Parasite Panels + Functional Gut Microbiome Profile)", method: "Stool", price: "$485", time: "3-4 weeks" },
                   { test: "Complete Microbiome Mapping (qPCR + markers)", method: "Stool", price: "$399", time: "5 days" },
                   { test: "Advanced Microbiome Mapping (+ sensitivities)", method: "Stool", price: "$460", time: "5-7 days" },
                   { test: "Microbiomix Metagenomic Mapping (28,000+ species)", method: "Stool", price: "$416", time: "12-15 days" },
