@@ -337,7 +337,7 @@ const Navigation = () => {
                           
                           <NavigationMenuLink asChild>
                             <Link
-                              to="/cardiovascular-health-naturopath-brisbane"
+                              to="/what-we-treat/cardiovascular-health-naturopath-brisbane"
                               className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
                             >
                               Cardiovascular Health
