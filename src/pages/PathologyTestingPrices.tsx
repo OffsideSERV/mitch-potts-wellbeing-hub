@@ -179,6 +179,7 @@ const PathologyTestingPrices = () => {
               <h3 className="text-2xl font-semibold text-primary mb-4">Dried Urine (advanced mapping)</h3>
               <div className="grid gap-4">
                 {[
+                  { test: "DUTCH Complete", method: "Dried Urine", price: "$399", time: "3-4 weeks" },
                   { test: "EndoMAP (hormones + metabolites + disruptors + key OAs)", method: "Dried Urine", price: "$299", time: "14 days" },
                   { test: "AdrenoSCAN (adrenal hormone patterns)", method: "Dried Urine", price: "$199", time: "14 days" },
                 ].map((item, index) => (
