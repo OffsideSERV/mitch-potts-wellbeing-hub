@@ -3,31 +3,46 @@ import AuthorBio from "@/components/AuthorBio";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { CheckCircle, AlertCircle, TrendingUp, Clock, Zap, Heart } from "lucide-react";
-
 const AmIFatOrBloated = () => {
-  const tableOfContents = [
-    { id: "difference", title: "Fat or Just Bloating? What's the Difference" },
-    { id: "signs-bloating", title: "Signs It's Likely Bloating (Not Fat)" },
-    { id: "signs-fat", title: "Signs It's More Likely Belly Fat" },
-    { id: "fluid-retention", title: "The Tricky Middle Ground: Fluid Retention" },
-    { id: "pregnant-look", title: "Why Do I Look Pregnant Instead of Just Fat?" },
-    { id: "causes", title: "Common Causes of Bloating" },
-    { id: "quick-fixes", title: "Quick Fixes for Bloating" },
-    { id: "long-term", title: "Longer-Term Solutions for Bloating" },
-    { id: "how-to-tell", title: "How to Tell If It's Belly Fat or Bloating" },
-    { id: "both", title: "Why Do Some People Get Both?" },
-    { id: "reduce", title: "How to Reduce Bloating Quickly (and Fat Long-Term)" },
-    { id: "patient-reports", title: "What Patients Often Report After Working on This" }
-  ];
-
-  return (
-    <>
-      <SEO
-        title="Am I Fat Or Bloated? | Let's Take a Look"
-        description="Wondering 'am I fat or bloated'? Learn how to spot the difference, what causes belly changes, and how to reduce bloating fast. Click to read."
-        canonical="/am-i-fat-or-bloated"
-        keywords="fat vs bloating, belly bloating, stomach bloating vs fat, digestive health Brisbane, naturopath Brisbane"
-      />
+  const tableOfContents = [{
+    id: "difference",
+    title: "Fat or Just Bloating? What's the Difference"
+  }, {
+    id: "signs-bloating",
+    title: "Signs It's Likely Bloating (Not Fat)"
+  }, {
+    id: "signs-fat",
+    title: "Signs It's More Likely Belly Fat"
+  }, {
+    id: "fluid-retention",
+    title: "The Tricky Middle Ground: Fluid Retention"
+  }, {
+    id: "pregnant-look",
+    title: "Why Do I Look Pregnant Instead of Just Fat?"
+  }, {
+    id: "causes",
+    title: "Common Causes of Bloating"
+  }, {
+    id: "quick-fixes",
+    title: "Quick Fixes for Bloating"
+  }, {
+    id: "long-term",
+    title: "Longer-Term Solutions for Bloating"
+  }, {
+    id: "how-to-tell",
+    title: "How to Tell If It's Belly Fat or Bloating"
+  }, {
+    id: "both",
+    title: "Why Do Some People Get Both?"
+  }, {
+    id: "reduce",
+    title: "How to Reduce Bloating Quickly (and Fat Long-Term)"
+  }, {
+    id: "patient-reports",
+    title: "What Patients Often Report After Working on This"
+  }];
+  return <>
+      <SEO title="Am I Fat Or Bloated? | Let's Take a Look" description="Wondering 'am I fat or bloated'? Learn how to spot the difference, what causes belly changes, and how to reduce bloating fast. Click to read." canonical="/am-i-fat-or-bloated" keywords="fat vs bloating, belly bloating, stomach bloating vs fat, digestive health Brisbane, naturopath Brisbane" />
 
       <article className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Hero Section */}
@@ -41,11 +56,7 @@ const AmIFatOrBloated = () => {
           
           {/* Hero Image */}
           <div className="mt-8">
-            <img 
-              src="/lovable-uploads/consultation-discussion.png" 
-              alt="Naturopath consultation discussing digestive health concerns"
-              className="w-full h-64 object-cover rounded-lg shadow-lg"
-            />
+            <img src="/lovable-uploads/consultation-discussion.png" alt="Naturopath consultation discussing digestive health concerns" className="w-full h-64 object-cover rounded-lg shadow-lg" />
           </div>
         </header>
 
@@ -68,15 +79,9 @@ const AmIFatOrBloated = () => {
               Table of Contents
             </h2>
             <div className="grid md:grid-cols-2 gap-2">
-              {tableOfContents.map((item, index) => (
-                <a
-                  key={index}
-                  href={`#${item.id}`}
-                  className="text-primary hover:text-primary/80 transition-colors text-sm py-1 block"
-                >
+              {tableOfContents.map((item, index) => <a key={index} href={`#${item.id}`} className="text-primary hover:text-primary/80 transition-colors text-sm py-1 block">
                   {index + 1}. {item.title}
-                </a>
-              ))}
+                </a>)}
             </div>
           </CardContent>
         </Card>
@@ -100,11 +105,7 @@ const AmIFatOrBloated = () => {
 
         {/* Professional consultation image */}
         <div className="mb-12">
-          <img 
-            src="/lovable-uploads/naturopath-consultation.png" 
-            alt="Professional naturopath consultation in modern clinic setting"
-            className="w-full h-48 object-cover rounded-lg shadow-lg"
-          />
+          <img src="/lovable-uploads/naturopath-consultation.png" alt="Professional naturopath consultation in modern clinic setting" className="w-full h-48 object-cover rounded-lg shadow-lg" />
         </div>
 
         {/* Main Content Sections */}
@@ -148,32 +149,46 @@ const AmIFatOrBloated = () => {
           <p className="mb-6">When I see patients, I look for patterns. Here are some classic signs:</p>
 
           <div className="space-y-4 mb-6">
-            {[
-              { icon: CheckCircle, text: "Fluctuating belly size", detail: "Flat in the morning, swollen at night." },
-              { icon: CheckCircle, text: "Tightness or pressure", detail: "Belly feels firm, stretched, or uncomfortable." },
-              { icon: CheckCircle, text: "Gas, burping, or reflux", detail: "Linked with food reactions or gut bugs." },
-              { icon: CheckCircle, text: "\"Why do my pants feel tight sometimes?\"", detail: "They fit one day, but not the next." },
-              { icon: CheckCircle, text: "Digestive triggers", detail: "Meals with dairy, gluten, beans, onions, or fizzy drinks often set it off." },
-              { icon: CheckCircle, text: "Stomach distension after meals", detail: "Looks like weight gain, but changes within hours." },
-              { icon: CheckCircle, text: "Bloating related to menstrual cycle", detail: "Many women notice swelling just before their period." }
-            ].map((item, index) => (
-              <div key={index} className="flex gap-3 p-4 bg-green-50 rounded-lg">
+            {[{
+            icon: CheckCircle,
+            text: "Fluctuating belly size",
+            detail: "Flat in the morning, swollen at night."
+          }, {
+            icon: CheckCircle,
+            text: "Tightness or pressure",
+            detail: "Belly feels firm, stretched, or uncomfortable."
+          }, {
+            icon: CheckCircle,
+            text: "Gas, burping, or reflux",
+            detail: "Linked with food reactions or gut bugs."
+          }, {
+            icon: CheckCircle,
+            text: "\"Why do my pants feel tight sometimes?\"",
+            detail: "They fit one day, but not the next."
+          }, {
+            icon: CheckCircle,
+            text: "Digestive triggers",
+            detail: "Meals with dairy, gluten, beans, onions, or fizzy drinks often set it off."
+          }, {
+            icon: CheckCircle,
+            text: "Stomach distension after meals",
+            detail: "Looks like weight gain, but changes within hours."
+          }, {
+            icon: CheckCircle,
+            text: "Bloating related to menstrual cycle",
+            detail: "Many women notice swelling just before their period."
+          }].map((item, index) => <div key={index} className="flex gap-3 p-4 bg-green-50 rounded-lg">
                 <item.icon className="h-5 w-5 text-green-600 mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-green-800">{item.text}</p>
                   <p className="text-green-700 text-sm">{item.detail}</p>
                 </div>
-              </div>
-            ))}
+              </div>)}
           </div>
 
           {/* Bloating timeline image */}
           <div>
-            <img 
-              src="/lovable-uploads/belly-bloating-timeline.png" 
-              alt="Timeline showing how belly bloating changes throughout the day from morning to evening"
-              className="w-full h-48 object-contain rounded-lg shadow-lg bg-white"
-            />
+            <img src="/lovable-uploads/belly-bloating-timeline.png" alt="Timeline showing how belly bloating changes throughout the day from morning to evening" className="w-full h-48 object-contain rounded-lg shadow-lg bg-white" />
           </div>
         </section>
 
@@ -183,21 +198,33 @@ const AmIFatOrBloated = () => {
           <p className="mb-6">On the other hand, here's what I see when it's fat gain:</p>
 
           <div className="space-y-4 mb-6">
-            {[
-              { icon: AlertCircle, text: "Consistent belly size", detail: "It doesn't shrink overnight." },
-              { icon: AlertCircle, text: "Softness", detail: "Fat feels soft and squishy, not tight and swollen." },
-              { icon: AlertCircle, text: "Fat accumulation vs temporary swelling", detail: "Slowly grows with time, especially with poor sleep, stress, or excess calories." },
-              { icon: AlertCircle, text: "Other areas affected", detail: "Hips, thighs, arms, and face may also look fuller." },
-              { icon: AlertCircle, text: "No link with meals", detail: "Belly doesn't change much before or after eating." }
-            ].map((item, index) => (
-              <div key={index} className="flex gap-3 p-4 bg-orange-50 rounded-lg">
+            {[{
+            icon: AlertCircle,
+            text: "Consistent belly size",
+            detail: "It doesn't shrink overnight."
+          }, {
+            icon: AlertCircle,
+            text: "Softness",
+            detail: "Fat feels soft and squishy, not tight and swollen."
+          }, {
+            icon: AlertCircle,
+            text: "Fat accumulation vs temporary swelling",
+            detail: "Slowly grows with time, especially with poor sleep, stress, or excess calories."
+          }, {
+            icon: AlertCircle,
+            text: "Other areas affected",
+            detail: "Hips, thighs, arms, and face may also look fuller."
+          }, {
+            icon: AlertCircle,
+            text: "No link with meals",
+            detail: "Belly doesn't change much before or after eating."
+          }].map((item, index) => <div key={index} className="flex gap-3 p-4 bg-orange-50 rounded-lg">
                 <item.icon className="h-5 w-5 text-orange-600 mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-orange-800">{item.text}</p>
                   <p className="text-orange-700 text-sm">{item.detail}</p>
                 </div>
-              </div>
-            ))}
+              </div>)}
           </div>
         </section>
 
@@ -223,11 +250,7 @@ const AmIFatOrBloated = () => {
 
           {/* Health assessment image */}
           <div className="mt-6">
-            <img 
-              src="/lovable-uploads/health-assessment.png" 
-              alt="Health professional conducting detailed assessment and documentation"
-              className="w-full h-48 object-cover rounded-lg shadow-lg"
-            />
+            <img src="/lovable-uploads/health-assessment.png" alt="Health professional conducting detailed assessment and documentation" className="w-full h-48 object-cover rounded-lg shadow-lg" />
           </div>
         </section>
 
@@ -273,46 +296,34 @@ const AmIFatOrBloated = () => {
           <p className="mb-6">Here are the patterns I see most often in clinic:</p>
 
           <div className="space-y-6">
-            {[
-              {
-                title: "Food reactions",
-                description: "Dairy, gluten, beans, onions, garlic, fizzy drinks.",
-                detail: "These ferment in the gut → gas → belly distension."
-              },
-              {
-                title: "Low stomach acid or enzymes",
-                description: "If you don't break food down properly, it ferments instead."
-              },
-              {
-                title: "Gut bugs (SIBO, candida, imbalance)",
-                description: "Overgrowths cause bloating after meals."
-              },
-              {
-                title: "Hormonal changes",
-                description: "Bloating related to menstrual cycle is very real."
-              },
-              {
-                title: "Stress and nervous system overload",
-                description: "When you're \"wired but tired,\" digestion shuts down."
-              }
-            ].map((cause, index) => (
-              <Card key={index}>
+            {[{
+            title: "Food reactions",
+            description: "Dairy, gluten, beans, onions, garlic, fizzy drinks.",
+            detail: "These ferment in the gut → gas → belly distension."
+          }, {
+            title: "Low stomach acid or enzymes",
+            description: "If you don't break food down properly, it ferments instead."
+          }, {
+            title: "Gut bugs (SIBO, candida, imbalance)",
+            description: "Overgrowths cause bloating after meals."
+          }, {
+            title: "Hormonal changes",
+            description: "Bloating related to menstrual cycle is very real."
+          }, {
+            title: "Stress and nervous system overload",
+            description: "When you're \"wired but tired,\" digestion shuts down."
+          }].map((cause, index) => <Card key={index}>
                 <CardContent className="p-6">
                   <h3 className="text-xl font-semibold mb-2 text-primary">{cause.title}</h3>
                   <p className="mb-2">{cause.description}</p>
                   {cause.detail && <p className="text-sm text-muted-foreground">{cause.detail}</p>}
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
 
           {/* Digestive-friendly foods image */}
           <div className="mt-8">
-            <img 
-              src="/lovable-uploads/warm-soup-digestion.png" 
-              alt="Warm, digestive-friendly soup with healing ingredients like ginger and carrots"
-              className="w-full h-48 object-cover rounded-lg shadow-lg"
-            />
+            <img src="/lovable-uploads/warm-soup-digestion.png" alt="Warm, digestive-friendly soup with healing ingredients like ginger and carrots" className="w-full h-48 object-cover rounded-lg shadow-lg" />
           </div>
         </section>
 
@@ -322,18 +333,10 @@ const AmIFatOrBloated = () => {
           <p className="mb-6">Sometimes you just want fast relief. Here are a few <strong>quick fixes for bloating</strong> I share:</p>
 
           <div className="grid md:grid-cols-2 gap-4">
-            {[
-              "Chew slowly (20–30 chews per bite)",
-              "Don't chug water with meals → small sips only",
-              "Gentle walking after meals helps gas move through",
-              "Warm foods (soups, stews) instead of cold raw foods when digestion is weak",
-              "Breathing rituals → 3 deep breaths before eating. This calms the nervous system"
-            ].map((tip, index) => (
-              <div key={index} className="flex items-start gap-3 p-4 bg-green-50 rounded-lg">
+            {["Chew slowly (20–30 chews per bite)", "Don't chug water with meals → small sips only", "Gentle walking after meals helps gas move through", "Warm foods (soups, stews) instead of cold raw foods when digestion is weak", "Breathing rituals → 3 deep breaths before eating. This calms the nervous system"].map((tip, index) => <div key={index} className="flex items-start gap-3 p-4 bg-green-50 rounded-lg">
                 <Zap className="h-5 w-5 text-green-600 mt-1 flex-shrink-0" />
                 <p className="text-green-800">{tip}</p>
-              </div>
-            ))}
+              </div>)}
           </div>
 
         </section>
@@ -346,17 +349,10 @@ const AmIFatOrBloated = () => {
           <p className="mb-6">This is where <strong>naturopathy and functional medicine</strong> shine. I often test for:</p>
 
           <div className="grid md:grid-cols-2 gap-4 mb-6">
-            {[
-              "Food intolerances",
-              "Stomach acid, enzymes, bile flow",
-              "Gut microbiome balance",
-              "Inflammation and immune markers"
-            ].map((test, index) => (
-              <div key={index} className="flex items-center gap-3 p-3 bg-primary/10 rounded-lg">
+            {["Food intolerances", "Stomach acid, enzymes, bile flow", "Gut microbiome balance", "Inflammation and immune markers"].map((test, index) => <div key={index} className="flex items-center gap-3 p-3 bg-primary/10 rounded-lg">
                 <Heart className="h-4 w-4 text-primary" />
                 <span>{test}</span>
-              </div>
-            ))}
+              </div>)}
           </div>
 
           <p className="mb-4">
@@ -379,18 +375,25 @@ const AmIFatOrBloated = () => {
           <Card>
             <CardContent className="p-6">
               <div className="space-y-4">
-                {[
-                  { question: "Does your belly change size during the day?", answer: "Likely bloating" },
-                  { question: "Does it feel firm and tight or soft and squishy?", answer: "Firm = bloating, soft = fat" },
-                  { question: "Do certain foods trigger it?", answer: "Bloating" },
-                  { question: "Has it built up slowly over months?", answer: "Fat" },
-                  { question: "Does it come with gas, reflux, or pain?", answer: "Bloating" }
-                ].map((item, index) => (
-                  <div key={index} className="border-l-4 border-primary pl-4">
+                {[{
+                question: "Does your belly change size during the day?",
+                answer: "Likely bloating"
+              }, {
+                question: "Does it feel firm and tight or soft and squishy?",
+                answer: "Firm = bloating, soft = fat"
+              }, {
+                question: "Do certain foods trigger it?",
+                answer: "Bloating"
+              }, {
+                question: "Has it built up slowly over months?",
+                answer: "Fat"
+              }, {
+                question: "Does it come with gas, reflux, or pain?",
+                answer: "Bloating"
+              }].map((item, index) => <div key={index} className="border-l-4 border-primary pl-4">
                     <p className="font-medium">{item.question}</p>
                     <p className="text-primary text-sm">→ {item.answer}</p>
-                  </div>
-                ))}
+                  </div>)}
               </div>
             </CardContent>
           </Card>
@@ -474,17 +477,10 @@ const AmIFatOrBloated = () => {
 
           <div className="bg-gradient-to-r from-green-50 to-blue-50 p-6 rounded-lg">
             <div className="space-y-3">
-              {[
-                "\"I don't look 6 months pregnant after dinner anymore.\"",
-                "\"My belly feels flatter and lighter.\"",
-                "\"My pants fit all day instead of just in the morning.\"",
-                "\"I finally know the difference between fat gain and bloat.\""
-              ].map((quote, index) => (
-                <div key={index} className="flex items-start gap-3">
+              {["\"I don't look 6 months pregnant after dinner anymore.\"", "\"My belly feels flatter and lighter.\"", "\"My pants fit all day instead of just in the morning.\"", "\"I finally know the difference between fat gain and bloat.\""].map((quote, index) => <div key={index} className="flex items-start gap-3">
                   <CheckCircle className="h-5 w-5 text-green-600 mt-1 flex-shrink-0" />
                   <p className="italic text-green-800">{quote}</p>
-                </div>
-              ))}
+                </div>)}
             </div>
           </div>
 
@@ -533,12 +529,8 @@ const AmIFatOrBloated = () => {
         <AuthorBio />
 
         {/* Final Image Placeholder */}
-        <div className="bg-muted rounded-lg h-48 flex items-center justify-center mt-8">
-          <p className="text-muted-foreground">[Image: NXTLVL Health clinic or consultation room]</p>
-        </div>
+        
       </article>
-    </>
-  );
+    </>;
 };
-
 export default AmIFatOrBloated;
