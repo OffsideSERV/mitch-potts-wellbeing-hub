@@ -61,15 +61,7 @@ const AmIFatOrBloated = () => {
         </header>
 
         {/* Author and Reading Info */}
-        <div className="flex items-center justify-between mb-8 p-4 bg-muted/50 rounded-lg">
-          <div className="flex items-center gap-2">
-            <Clock className="h-4 w-4 text-primary" />
-            <span className="text-sm text-muted-foreground">8 min read</span>
-          </div>
-          <div className="text-sm text-muted-foreground">
-            Published: September 2025
-          </div>
-        </div>
+        
 
         {/* Table of Contents */}
         <Card className="mb-12">
