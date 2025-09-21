@@ -147,6 +147,108 @@ export default function AntiAging() {
         </div>
       </section>
 
+      {/* Inside-Out Approach */}
+      <section className="py-16 px-4">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-6">True Anti-Aging: Supporting Inside & Outside</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Real anti-aging requires addressing both your internal health and external appearance. 
+              We combine naturopathic medicine with cosmetic approaches for comprehensive results.
+            </p>
+          </div>
+          
+          <div className="grid lg:grid-cols-2 gap-12">
+            {/* Inside - Naturopathic Approach */}
+            <Card className="border-2 border-primary/20">
+              <CardContent className="p-8">
+                <div className="text-center mb-6">
+                  <Heart className="w-16 h-16 text-primary mx-auto mb-4" />
+                  <h3 className="text-2xl font-bold mb-3">Supporting from the Inside</h3>
+                  <p className="text-muted-foreground">Naturopathic Medicine Approach</p>
+                </div>
+                
+                <div className="space-y-4">
+                  {[
+                    "Cellular health optimization and mitochondrial support",
+                    "Hormone balancing for healthy aging",
+                    "Advanced nutritional therapy and supplementation",
+                    "Gut health restoration for better nutrient absorption",
+                    "Stress management and nervous system support",
+                    "Sleep optimization protocols",
+                    "Detoxification and liver support",
+                    "Inflammation reduction through natural medicine"
+                  ].map((item, index) => (
+                    <div key={index} className="flex gap-3">
+                      <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                      <span className="text-sm">{item}</span>
+                    </div>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Outside - Cosmetic Approach */}
+            <Card className="border-2 border-secondary/20">
+              <CardContent className="p-8">
+                <div className="text-center mb-6">
+                  <Sparkles className="w-16 h-16 text-secondary mx-auto mb-4" />
+                  <h3 className="text-2xl font-bold mb-3">Supporting from the Outside</h3>
+                  <p className="text-muted-foreground">Cosmetic Medicine Approach</p>
+                </div>
+                
+                <div className="space-y-4">
+                  {[
+                    "Professional-grade skincare treatments",
+                    "Advanced anti-aging facial treatments",
+                    "Skin rejuvenation and resurfacing options",
+                    "Targeted treatments for age spots and wrinkles",
+                    "Collagen-boosting therapies",
+                    "Natural skincare product recommendations",
+                    "Sun damage repair and prevention",
+                    "Customized skincare routines for your skin type"
+                  ].map((item, index) => (
+                    <div key={index} className="flex gap-3">
+                      <CheckCircle className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
+                      <span className="text-sm">{item}</span>
+                    </div>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Combined Approach Benefits */}
+          <div className="mt-12 text-center">
+            <Card className="border-2 border-accent/20 bg-accent/5">
+              <CardContent className="p-8">
+                <h3 className="text-2xl font-bold mb-4">Why the Combined Approach Works Best</h3>
+                <p className="text-lg text-muted-foreground mb-6">
+                  When we address aging from both angles, you get deeper, longer-lasting results that truly turn back the clock.
+                </p>
+                <div className="grid md:grid-cols-3 gap-6 text-center">
+                  <div>
+                    <Zap className="w-8 h-8 text-primary mx-auto mb-3" />
+                    <h4 className="font-semibold mb-2">Faster Results</h4>
+                    <p className="text-sm text-muted-foreground">Internal support enhances external treatments</p>
+                  </div>
+                  <div>
+                    <Shield className="w-8 h-8 text-primary mx-auto mb-3" />
+                    <h4 className="font-semibold mb-2">Longer Lasting</h4>
+                    <p className="text-sm text-muted-foreground">Healthy foundations prevent future aging</p>
+                  </div>
+                  <div>
+                    <Heart className="w-8 h-8 text-primary mx-auto mb-3" />
+                    <h4 className="font-semibold mb-2">Total Wellness</h4>
+                    <p className="text-sm text-muted-foreground">Look good and feel amazing at any age</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Benefits */}
       <section className="py-16 px-4">
         <div className="container mx-auto max-w-6xl">
