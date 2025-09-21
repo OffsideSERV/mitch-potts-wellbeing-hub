@@ -84,7 +84,7 @@ const Navigation = () => {
 
   return (
     <>
-      {/* MLS Laser Therapy Promotion Header */}
+      {/* Naturopathy Promotion Header */}
       <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white py-2 md:py-3 px-4">
         <div className="container mx-auto">
           {/* Mobile Layout */}
@@ -92,7 +92,7 @@ const Navigation = () => {
             <div className="flex items-center gap-2">
               <Gift className="h-4 w-4 text-yellow-300 animate-pulse flex-shrink-0" />
               <span className="text-xs font-medium leading-tight">
-                <strong>40% OFF MLS Laser Therapy Initial Consult!</strong>
+                <strong>15% off Naturopathy Initial Consults until the end of October</strong>
               </span>
             </div>
             <Button 
