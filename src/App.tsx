@@ -152,7 +152,7 @@ const App = () => (
                 <Route path="/blog/gut-health/homemade-remedy-for-bloated-stomach" element={<HomemadeRemedyBloatedStomach />} />
                 <Route path="/am-i-fat-or-bloated" element={<AmIFatOrBloated />} />
                 <Route path="/pathology-testing-prices" element={<PathologyTestingPrices />} />
-                <Route path="/what-we-treat/cardiovascular-health-naturopath-brisbane" element={<CardiovascularHealth />} />
+                <Route path="/cardiovascular-health-naturopath-brisbane" element={<CardiovascularHealth />} />
                 <Route path="/what-we-treat/naturopath-for-athletes" element={<NaturopathForAthletes />} />
                 
                 {/* About Us page */}
