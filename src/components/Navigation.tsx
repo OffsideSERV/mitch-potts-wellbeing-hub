@@ -56,7 +56,8 @@ const Navigation = () => {
     { title: "ADHD", href: "/what-we-treat/adhd-naturopath" },
     { title: "Anxiety", href: "/what-we-treat/naturopath-anxiety" },
     { title: "Diabetes", href: "/what-we-treat/naturopath-diabetes-brisbane" },
-    { title: "Cardiovascular Health", href: "/cardiovascular-health-naturopath-brisbane" },
+    { title: "Cardiovascular Health", href: "/what-we-treat/cardiovascular-health-naturopath-brisbane" },
+    { title: "Anti-Aging", href: "/what-we-treat/anti-aging-naturopath-brisbane" },
     { title: "Children's Health", href: "/what-we-treat/childrens-naturopath-brisbane" },
   ];
 
