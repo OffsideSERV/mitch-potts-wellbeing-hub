@@ -3,6 +3,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Shield, Clock, Sparkles, Heart, Brain, Zap, CheckCircle, Users, Award, Phone } from "lucide-react";
+import antiAgingConsultation from "@/assets/anti-aging-consultation.jpg";
+import naturalAntiAgingTreatments from "@/assets/natural-anti-aging-treatments.jpg";
 
 const antiAgingSchema = {
   "@context": "https://schema.org",
@@ -60,11 +62,13 @@ export default function AntiAging() {
           </div>
         </div>
 
-        {/* Image Placeholder */}
+        {/* Hero Image */}
         <div className="container mx-auto max-w-4xl px-4 mb-16">
-          <div className="bg-muted/30 border-2 border-dashed border-muted-foreground/20 rounded-lg h-64 flex items-center justify-center">
-            <p className="text-muted-foreground">Anti-aging consultation image placeholder</p>
-          </div>
+          <img 
+            src={antiAgingConsultation} 
+            alt="Professional anti-aging naturopathy consultation"
+            className="w-full h-64 object-cover rounded-lg shadow-lg"
+          />
         </div>
       </section>
 
@@ -133,10 +137,12 @@ export default function AntiAging() {
               </div>
             </div>
             
-            {/* Image Placeholder */}
-            <div className="bg-muted/30 border-2 border-dashed border-muted-foreground/20 rounded-lg h-80 flex items-center justify-center">
-              <p className="text-muted-foreground">Natural anti-aging treatments image placeholder</p>
-            </div>
+            {/* Natural Treatments Image */}
+            <img 
+              src={naturalAntiAgingTreatments} 
+              alt="Natural anti-aging treatments and supplements"
+              className="w-full h-80 object-cover rounded-lg shadow-lg"
+            />
           </div>
         </div>
       </section>
