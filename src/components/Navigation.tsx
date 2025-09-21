@@ -101,7 +101,7 @@ const Navigation = () => {
               className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold whitespace-nowrap text-xs px-3 py-1"
               asChild
             >
-              <Link to="/laser-healing">Book Now - Save 40%</Link>
+              <a href="https://nxtlvlhealth.com.au/book-now" target="_blank" rel="noopener noreferrer">Book Now</a>
             </Button>
           </div>
           
@@ -109,7 +109,7 @@ const Navigation = () => {
           <div className="hidden sm:flex flex-row items-center justify-center gap-3 text-center">
             <Gift className="h-5 w-5 text-yellow-300 animate-pulse flex-shrink-0" />
             <span className="text-sm md:text-base font-medium leading-tight">
-              <strong>40% OFF MLS Laser Therapy Initial Consult!</strong>
+              <strong>15% off Naturopathy Initial Consults until the end of October</strong>
             </span>
             <Button 
               variant="secondary" 
@@ -117,7 +117,7 @@ const Navigation = () => {
               className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold whitespace-nowrap text-sm px-4 py-2"
               asChild
             >
-              <Link to="/laser-healing">Book Now - Save 40%</Link>
+              <a href="https://nxtlvlhealth.com.au/book-now" target="_blank" rel="noopener noreferrer">Book Now</a>
             </Button>
           </div>
         </div>
