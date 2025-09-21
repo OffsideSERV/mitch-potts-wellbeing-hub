@@ -125,7 +125,7 @@ const PersonalTraining = () => {
     icon: <Dumbbell className="h-6 w-6 text-primary" />
   }, {
     title: "BODY COMPOSITION TRACKING AND COACHING",
-    description: "Monitor your progress with detailed body composition analysis and receive expert coaching to optimize your results and stay motivated.",
+    description: "Monitor your progress with detailed body composition analysis and receive expert coaching to optimise your results and stay motivated.",
     icon: <Target className="h-6 w-6 text-primary" />
   }, {
     title: "MOBILITY TRAINING AND REHAB-STYLE MOVEMENT",
@@ -299,7 +299,7 @@ const PersonalTraining = () => {
                   All sessions are held at <a href="https://functionwell.com.au" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Why Clients Choose Mitch From NXTLVL Health</a>, a premium private gym in the Mercedes Benz Building, Newstead QLD 4006. It's an inspiring space—free from the crowds and chaos of commercial gyms—giving you room to move freely and train with purpose.
                 </p>
                  <p>
-                   Forget cookie-cutter workouts. This is <strong>training designed for your unique body and real goals</strong>, delivered by one of the best personal trainers in Brisbane. We also offer <a href="/services/mls-laser-therapy-treatment-brisbane" className="text-primary hover:underline">MLS laser therapy</a> for injury recovery and <a href="/services/live-blood-analysis-brisbane" className="text-primary hover:underline">live blood analysis</a> to optimize your health from the inside out.
+                   Forget cookie-cutter workouts. This is <strong>training designed for your unique body and real goals</strong>, delivered by one of the best personal trainers in Brisbane. We also offer <a href="/services/mls-laser-therapy-treatment-brisbane" className="text-primary hover:underline">MLS laser therapy</a> for injury recovery and <a href="/services/live-blood-analysis-brisbane" className="text-primary hover:underline">live blood analysis</a> to optimise your health from the inside out.
                  </p>
               </div>
             </div>

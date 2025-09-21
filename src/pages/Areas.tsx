@@ -264,7 +264,7 @@ const Areas = () => {
           <div className="mb-12">
             <img 
               src="/lovable-uploads/d515fc10-3cc2-4062-adf8-2638cee1c7bc.png" 
-              alt="Naturopath preparing personalized herbal medicine treatments" 
+              alt="Naturopath preparing personalised herbal medicine treatments" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
           </div>
@@ -310,7 +310,7 @@ const Areas = () => {
           <div className="text-center">
             <img 
               src="/lovable-uploads/629b9330-8bcf-44db-8889-18509024f856.png" 
-              alt="Professional naturopath consultation showing personalized care approach" 
+              alt="Professional naturopath consultation showing personalised care approach" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
           </div>

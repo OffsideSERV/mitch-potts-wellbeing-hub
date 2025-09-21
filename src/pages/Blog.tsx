@@ -80,7 +80,7 @@ const blogPosts = [
   },
   {
     title: "Gut-Brain Connection: How Your Gut Affects Mental Health",
-    description: "Explore the fascinating relationship between gut health and mental wellbeing, and how to optimize both.",
+    description: "Explore the fascinating relationship between gut health and mental wellbeing, and how to optimise both.",
     category: "Gut Health",
     readTime: "8 min read",
     date: "February 5, 2024",
@@ -199,7 +199,7 @@ const Blog = () => {
               Ready to Start Your Health Journey?
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Book a consultation with our experienced practitioners to get personalized health advice and treatment plans.
+              Book a consultation with our experienced practitioners to get personalised health advice and treatment plans.
             </p>
             <Link 
               to="/book-now"

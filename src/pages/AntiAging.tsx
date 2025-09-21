@@ -106,12 +106,12 @@ export default function AntiAging() {
               <div className="space-y-6">
                 {[
                   {
-                    title: "Cellular Health Optimization",
+                    title: "Cellular Health Optimisation",
                     description: "Supporting mitochondrial function and cellular repair mechanisms"
                   },
                   {
                     title: "Hormone Balance",
-                    description: "Naturally optimizing hormone levels for healthy aging"
+                    description: "Naturally optimising hormone levels for healthy aging"
                   },
                   {
                     title: "Oxidative Stress Reduction",
@@ -170,12 +170,12 @@ export default function AntiAging() {
                 
                 <div className="space-y-4">
                   {[
-                    "Cellular health optimization and mitochondrial support",
+                    "Cellular health optimisation and mitochondrial support",
                     "Hormone balancing for healthy aging",
                     "Advanced nutritional therapy and supplementation",
                     "Gut health restoration for better nutrient absorption",
                     "Stress management and nervous system support",
-                    "Sleep optimization protocols",
+                    "Sleep optimisation protocols",
                     "Detoxification and liver support",
                     "Inflammation reduction through natural medicine"
                   ].map((item, index) => (
@@ -206,7 +206,7 @@ export default function AntiAging() {
                     "Collagen-boosting therapies",
                     "Natural skincare product recommendations",
                     "Sun damage repair and prevention",
-                    "Customized skincare routines for your skin type"
+                    "Customised skincare routines for your skin type"
                   ].map((item, index) => (
                     <div key={index} className="flex gap-3">
                       <CheckCircle className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
@@ -281,7 +281,7 @@ export default function AntiAging() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-6">Advanced Anti-Aging Testing</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              We use comprehensive testing to assess your biological age and create personalized anti-aging protocols.
+              We use comprehensive testing to assess your biological age and create personalised anti-aging protocols.
             </p>
           </div>
           
@@ -319,12 +319,12 @@ export default function AntiAging() {
               {
                 icon: Award,
                 title: "Expert Anti-Aging Practitioner",
-                description: "Specialized training in naturopathic anti-aging medicine and longevity protocols"
+                description: "Specialised training in naturopathic anti-aging medicine and longevity protocols"
               },
               {
                 icon: Users,
-                title: "Personalized Protocols",
-                description: "Individualized treatment plans based on your unique aging patterns and goals"
+                title: "Personalised Protocols",
+                description: "Individualised treatment plans based on your unique aging patterns and goals"
               },
               {
                 icon: Shield,

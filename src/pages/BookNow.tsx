@@ -144,10 +144,10 @@ const BookNow = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-foreground mb-2">
-                    Personalized Plan
+                    Personalised Plan
                   </h3>
                   <p className="text-muted-foreground text-sm">
-                    Customized treatment plan designed specifically for your needs.
+                    Customised treatment plan designed specifically for your needs.
                   </p>
                 </div>
                 <div>

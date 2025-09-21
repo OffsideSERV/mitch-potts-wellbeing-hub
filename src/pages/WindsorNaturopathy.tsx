@@ -331,7 +331,7 @@ const WindsorNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  <strong>Naturopathy is all about treating the whole person</strong>—not just the symptoms. At NXTLVL Health, we use a combination of natural therapies designed to restore balance, reduce stress, and promote lasting wellness. This approach recognizes that <strong>the body has the capacity for self-regulation</strong>, which is central to achieving optimal health.
+                  <strong>Naturopathy is all about treating the whole person</strong>—not just the symptoms. At NXTLVL Health, we use a combination of natural therapies designed to restore balance, reduce stress, and promote lasting wellness. This approach recognises that <strong>the body has the capacity for self-regulation</strong>, which is central to achieving optimal health.
                 </p>
                 <p>Some of our therapies include:</p>
                 <ul className="space-y-2 ml-6">

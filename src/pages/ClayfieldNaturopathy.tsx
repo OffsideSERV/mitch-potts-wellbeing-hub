@@ -235,7 +235,7 @@ const ClayfieldNaturopathy = () => {
 
           <div className="text-center">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              We believe <strong>every person is unique</strong>. That's why we create tailored support plans that match your body, lifestyle, and goals. Empowering clients with knowledge and tools is a key component of personalized health plans. <strong>No cookie-cutter plans. Just what works for you.</strong> Explore more about <a href="/blog/naturopathy/naturopathy-vs-homeopathy" className="text-primary hover:underline">how naturopathy differs from homeopathy</a> or discover our comprehensive approach to <a href="/blog/naturopathy/naturopathy-for-weight-loss" className="text-primary hover:underline">naturopathic weight management</a>.
+              We believe <strong>every person is unique</strong>. That's why we create tailored support plans that match your body, lifestyle, and goals. Empowering clients with knowledge and tools is a key component of personalised health plans. <strong>No cookie-cutter plans. Just what works for you.</strong> Explore more about <a href="/blog/naturopathy/naturopathy-vs-homeopathy" className="text-primary hover:underline">how naturopathy differs from homeopathy</a> or discover our comprehensive approach to <a href="/blog/naturopathy/naturopathy-for-weight-loss" className="text-primary hover:underline">naturopathic weight management</a>.
             </p>
           </div>
         </div>
@@ -247,7 +247,7 @@ const ClayfieldNaturopathy = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Clayfield Locals Trust NXTLVL Health</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto mb-8">
-              Even though our clinic isn't in Clayfield, many of our clients live just around the corner and are happy to make the short trip for <strong>high-quality naturopathic care</strong>. We also serve families from <a href="/areas-we-serve/naturopath-north-brisbane" className="text-primary hover:underline">North Brisbane</a>, <a href="/areas-we-serve/naturopath-indooroopilly" className="text-primary hover:underline">Indooroopilly</a>, and <a href="/areas-we-serve/naturopath-morningside" className="text-primary hover:underline">Morningside</a> who value our personalized <a href="/" className="text-primary hover:underline">naturopathic services in Brisbane</a>.
+              Even though our clinic isn't in Clayfield, many of our clients live just around the corner and are happy to make the short trip for <strong>high-quality naturopathic care</strong>. We also serve families from <a href="/areas-we-serve/naturopath-north-brisbane" className="text-primary hover:underline">North Brisbane</a>, <a href="/areas-we-serve/naturopath-indooroopilly" className="text-primary hover:underline">Indooroopilly</a>, and <a href="/areas-we-serve/naturopath-morningside" className="text-primary hover:underline">Morningside</a> who value our personalised <a href="/" className="text-primary hover:underline">naturopathic services in Brisbane</a>.
             </p>
           </div>
 

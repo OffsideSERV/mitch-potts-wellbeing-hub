@@ -224,7 +224,7 @@ const GutHealth = () => {
     icon: <TestTube className="h-6 w-6 text-primary" />
   }, {
     title: "ANTI-INFLAMMATORY NUTRITION AND HEALTHY DIET STRATEGIES",
-    description: "Personalized nutrition plans that reduce inflammation and support optimal digestive function.",
+    description: "Personalised nutrition plans that reduce inflammation and support optimal digestive function.",
     icon: <Heart className="h-6 w-6 text-primary" />
   }, {
     title: "NERVOUS SYSTEM SUPPORT AND STRESS MANAGEMENT",
@@ -270,7 +270,7 @@ const GutHealth = () => {
     icon: <Activity className="h-6 w-6 text-primary" />
   }, {
     title: "TAILORED DIET PLANS FOR FOOD SENSITIVITIES AND NUTRIENT ABSORPTION",
-    description: "Personalized nutrition strategies that eliminate trigger foods and optimize nutrient uptake for healing.",
+    description: "Personalised nutrition strategies that eliminate trigger foods and optimise nutrient uptake for healing.",
     icon: <Beaker className="h-6 w-6 text-primary" />
   }, {
     title: "CHINESE MEDICINE PRINCIPLES (IF APPROPRIATE)",

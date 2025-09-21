@@ -325,7 +325,7 @@ const HamiltonNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  At NXTLVL Health, we know that health is more than just feeling "okay." Our <strong>integrative healthcare approach</strong> means we work alongside your other medical professionals (if needed), bringing together the best of natural and conventional care to get to the root of what's really going on. Naturopathy recognizes the importance of <strong>combining conventional therapies with naturopathic medicine</strong>.
+                  At NXTLVL Health, we know that health is more than just feeling "okay." Our <strong>integrative healthcare approach</strong> means we work alongside your other medical professionals (if needed), bringing together the best of natural and conventional care to get to the root of what's really going on. Naturopathy recognises the importance of <strong>combining conventional therapies with naturopathic medicine</strong>.
                 </p>
                 <p>
                   Mitch has an <strong>Advanced Diploma in Naturopathy and years of clinical experience</strong>. He offers expert advice with real empathy, helping you feel supported from your very first visit. Sarah, who graduated with a Bachelor of Naturopathy in 2010, also offers <strong>expert naturopathic advice</strong> at our clinic.

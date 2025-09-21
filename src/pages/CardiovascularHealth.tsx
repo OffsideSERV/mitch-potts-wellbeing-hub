@@ -285,7 +285,7 @@ const CardiovascularHealth = () => {
                         "Heart-healthy Mediterranean diet planning",
                         "Exercise prescription for cardiovascular fitness",
                         "Stress management techniques",
-                        "Sleep optimization for metabolic health",
+                        "Sleep optimisation for metabolic health",
                         "Weight management strategies",
                         "Smoking cessation support"
                       ].map((lifestyle, index) => (

@@ -368,7 +368,7 @@ const GutBrainConnection = () => {
                   </div>
 
                   <p>
-                    If you're looking to optimize your gut health and, by extension, your mental health, consider consulting a <strong className="text-primary">naturopath in New Farm</strong> who specializes in the gut-brain connection and functional medicine. Together, we can create a personalized plan that addresses your unique needs and promotes holistic well-being.
+                    If you're looking to optimise your gut health and, by extension, your mental health, consider consulting a <strong className="text-primary">naturopath in New Farm</strong> who specialises in the gut-brain connection and functional medicine. Together, we can create a personalised plan that addresses your unique needs and promotes holistic well-being.
                   </p>
                 </div>
               </CardContent>
@@ -416,7 +416,7 @@ const GutBrainConnection = () => {
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
                 <p className="text-sm text-muted-foreground mt-2">
-                  Discover your personalized path to better gut and mental health
+                  Discover your personalised path to better gut and mental health
                 </p>
               </div>
             </div>

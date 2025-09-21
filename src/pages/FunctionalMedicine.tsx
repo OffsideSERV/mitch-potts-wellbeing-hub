@@ -52,7 +52,7 @@ const FunctionalMedicine = () => {
                     We're a <strong>functional medicine clinic in New Farm</strong> that uses a simple, whole-body approach. Instead of quick fixes like most solutions out there, we look at how your <strong>gut, brain, hormones, skin, and energy all connect together</strong>.
                   </p>
                    <p>
-                     You'll get a <strong>full health plan that's made just for you</strong>, no one else—using real tests, not guesses. Whether you need <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">sustainable weight loss support</a> or <a href="/services/personal-trainer-newstead" className="text-primary hover:underline">personalized fitness guidance</a>, we have the tools and expertise to help. If you're sick of that "not quite right" feeling, <strong>this is where you start feeling like you again</strong>.
+                     You'll get a <strong>full health plan that's made just for you</strong>, no one else—using real tests, not guesses. Whether you need <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">sustainable weight loss support</a> or <a href="/services/personal-trainer-newstead" className="text-primary hover:underline">personalised fitness guidance</a>, we have the tools and expertise to help. If you're sick of that "not quite right" feeling, <strong>this is where you start feeling like you again</strong>.
                    </p>
                 </div>
               </div>

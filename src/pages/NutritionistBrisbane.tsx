@@ -11,7 +11,7 @@ const NutritionistBrisbane = () => {
     },
     {
       title: "BODY COMPOSITION", 
-      description: "Comprehensive body composition analysis to track your progress and optimize your nutrition plan.",
+      description: "Comprehensive body composition analysis to track your progress and optimise your nutrition plan.",
       icon: Target
     },
     {
@@ -155,7 +155,7 @@ const NutritionistBrisbane = () => {
                 
                 <div className="bg-muted/30 rounded-lg p-6 text-center">
                   <h3 className="font-semibold text-foreground mb-2">Brain Function</h3>
-                  <p className="text-sm text-muted-foreground">Optimize cognitive performance and mental clarity</p>
+                  <p className="text-sm text-muted-foreground">Optimise cognitive performance and mental clarity</p>
                 </div>
                 
                 <div className="bg-muted/30 rounded-lg p-6 text-center">

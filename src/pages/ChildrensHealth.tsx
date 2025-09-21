@@ -196,7 +196,7 @@ const ChildrensHealth = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            {["Digestive complaints and gut health issues", "Skin conditions like eczema and chronic rashes", "Food allergies, intolerances, and sensitivities (supported by our specialized <a href='/what-we-treat/allergy-naturopath' className='text-primary hover:text-primary/80 underline'>allergy naturopath services</a>)", "Behavioural problems and mood swings (including support for <a href='/what-we-treat/adhd-naturopath' className='text-primary hover:text-primary/80 underline'>ADHD-related challenges</a>)", "Fussy eating and nutritional deficiencies", "Chronic fatigue and low immunity", "Recurrent infections and ear infections", "Health concerns linked to Autism Spectrum Disorder"].map((condition, index) => <Card key={index}>
+            {["Digestive complaints and gut health issues", "Skin conditions like eczema and chronic rashes", "Food allergies, intolerances, and sensitivities (supported by our specialised <a href='/what-we-treat/allergy-naturopath' className='text-primary hover:text-primary/80 underline'>allergy naturopath services</a>)", "Behavioural problems and mood swings (including support for <a href='/what-we-treat/adhd-naturopath' className='text-primary hover:text-primary/80 underline'>ADHD-related challenges</a>)", "Fussy eating and nutritional deficiencies", "Chronic fatigue and low immunity", "Recurrent infections and ear infections", "Health concerns linked to Autism Spectrum Disorder"].map((condition, index) => <Card key={index}>
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
@@ -304,7 +304,7 @@ const ChildrensHealth = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img src="/lovable-uploads/3e8138df-4579-4443-838a-2d4275fc12ec.png" alt="NXTLVL Health natural medicine clinic interior in New Farm Brisbane specializing in gentle pediatric healthcare" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/3e8138df-4579-4443-838a-2d4275fc12ec.png" alt="NXTLVL Health natural medicine clinic interior in New Farm Brisbane specialising in gentle pediatric healthcare" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
         </div>
       </section>

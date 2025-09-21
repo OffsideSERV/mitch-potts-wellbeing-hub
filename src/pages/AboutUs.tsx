@@ -88,7 +88,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div>
-              <img src="/lovable-uploads/48cc100b-f874-40cd-a474-951bb035ed9c.png" alt="Mitch Potts naturopath providing personalized care at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/48cc100b-f874-40cd-a474-951bb035ed9c.png" alt="Mitch Potts naturopath providing personalised care at NXTLVL Health Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -140,7 +140,7 @@ Training</h3>
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <img src="/lovable-uploads/284f6d80-2bc3-4ed3-937b-219b575000c5.png" alt="Mitch Potts naturopath explaining personalized treatment plan to patient" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/284f6d80-2bc3-4ed3-937b-219b575000c5.png" alt="Mitch Potts naturopath explaining personalised treatment plan to patient" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
