@@ -74,6 +74,7 @@ import AmIFatOrBloated from "./pages/AmIFatOrBloated";
 import PathologyTestingPrices from "./pages/PathologyTestingPrices";
 import CardiovascularHealth from "./pages/CardiovascularHealth";
 import HomemadeRemedyBloatedStomach from "./pages/HomemadeRemedyBloatedStomach";
+import AntiAging from "./pages/AntiAging";
 
 const queryClient = new QueryClient();
 
@@ -153,6 +154,7 @@ const App = () => (
                 <Route path="/am-i-fat-or-bloated" element={<AmIFatOrBloated />} />
                 <Route path="/pathology-testing-prices" element={<PathologyTestingPrices />} />
         <Route path="/what-we-treat/cardiovascular-health-naturopath-brisbane" element={<CardiovascularHealth />} />
+        <Route path="/what-we-treat/anti-aging-naturopath-brisbane" element={<AntiAging />} />
                 <Route path="/what-we-treat/naturopath-for-athletes" element={<NaturopathForAthletes />} />
                 
                 {/* About Us page */}

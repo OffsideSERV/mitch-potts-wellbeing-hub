@@ -346,6 +346,15 @@ const Navigation = () => {
                           
                           <NavigationMenuLink asChild>
                             <Link
+                              to="/what-we-treat/anti-aging-naturopath-brisbane"
+                              className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
+                            >
+                              Anti-Aging
+                            </Link>
+                          </NavigationMenuLink>
+                          
+                          <NavigationMenuLink asChild>
+                            <Link
                               to="/what-we-treat/childrens-naturopath-brisbane"
                               className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
                             >
