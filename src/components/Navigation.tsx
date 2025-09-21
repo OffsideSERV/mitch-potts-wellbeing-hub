@@ -296,10 +296,7 @@ const Navigation = () => {
                               </div>
                             </div>
                           </div>
-                        </div>
-                        
-                        {/* Right Column */}
-                        <div className="space-y-3">
+                          
                           <NavigationMenuLink asChild>
                             <Link
                               to="/what-we-treat/naturopath-thyroid-brisbane"
@@ -317,7 +314,10 @@ const Navigation = () => {
                               ADHD
                             </Link>
                           </NavigationMenuLink>
-                          
+                        </div>
+                        
+                        {/* Right Column */}
+                        <div className="space-y-3">
                           <NavigationMenuLink asChild>
                             <Link
                               to="/what-we-treat/naturopath-anxiety"
