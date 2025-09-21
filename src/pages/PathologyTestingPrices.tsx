@@ -18,9 +18,9 @@ const PathologyTestingPrices = () => {
             <h1 className="text-4xl font-bold text-primary mb-4">
               Pathology Testing Prices
             </h1>
-            <p className="text-xl text-muted-foreground mb-6">
-              Simple, clear pricing for the most-used tests at NXTLVL Health (via NutriPATH)
-            </p>
+          <p className="text-xl text-muted-foreground mb-6">
+            Simple, clear pricing for the most-used tests at NXTLVL Health
+          </p>
             <p className="text-lg mb-4">
               We use trusted labs (Australia & international) to get accurate, fast results.
             </p>
