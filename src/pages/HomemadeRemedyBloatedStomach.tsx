@@ -57,8 +57,12 @@ const HomemadeRemedyBloatedStomach = () => {
         <section className="py-8">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <div className="bg-muted/30 rounded-lg p-8 text-center border-2 border-dashed border-muted-foreground/20">
-                <p className="text-muted-foreground">📸 Image Placeholder: Bloated stomach relief herbs and ginger tea setup</p>
+              <div className="rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/bloated-stomach-illustration.png" 
+                  alt="Illustration of person holding bloated stomach with hands showing abdominal discomfort"
+                  className="w-full h-auto object-cover"
+                />
               </div>
             </div>
           </div>
@@ -87,9 +91,13 @@ const HomemadeRemedyBloatedStomach = () => {
               </p>
 
               {/* Image Placeholder */}
-              <div className="bg-muted/30 rounded-lg p-8 text-center border-2 border-dashed border-muted-foreground/20 my-12">
-                <p className="text-muted-foreground">📸 Image Placeholder: Before and after bloating comparison</p>
-              </div>
+               <div className="rounded-lg overflow-hidden my-12">
+                 <img 
+                   src="/lovable-uploads/naturopath-consultation-bloating.png" 
+                   alt="Female naturopath consulting with patient about bloating concerns in clinical setting"
+                   className="w-full h-auto object-cover"
+                 />
+               </div>
 
               <h2 className="text-3xl font-bold text-foreground mb-6 mt-12">
                 Why Do We Get a Bloated Stomach?
@@ -156,9 +164,13 @@ const HomemadeRemedyBloatedStomach = () => {
               </div>
 
               {/* Image Placeholder */}
-              <div className="bg-muted/30 rounded-lg p-8 text-center border-2 border-dashed border-muted-foreground/20 my-12">
-                <p className="text-muted-foreground">📸 Image Placeholder: Fresh ginger tea being prepared</p>
-              </div>
+               <div className="rounded-lg overflow-hidden my-12">
+                 <img 
+                   src="/lovable-uploads/ginger-tea-remedy.png" 
+                   alt="Fresh ginger tea in glass mug with lemon slices and ginger root on wooden table"
+                   className="w-full h-auto object-cover"
+                 />
+               </div>
 
               <h3 className="text-2xl font-semibold text-foreground mb-4">
                 Here's why:
@@ -219,9 +231,13 @@ const HomemadeRemedyBloatedStomach = () => {
               </p>
 
               {/* Image Placeholder */}
-              <div className="bg-muted/30 rounded-lg p-8 text-center border-2 border-dashed border-muted-foreground/20 my-12">
-                <p className="text-muted-foreground">📸 Image Placeholder: Array of natural herbs and teas for bloating</p>
-              </div>
+               <div className="rounded-lg overflow-hidden my-12">
+                 <img 
+                   src="/lovable-uploads/fennel-seeds-remedy.png" 
+                   alt="Pile of fennel seeds spread on white surface showing natural digestive remedy"
+                   className="w-full h-auto object-cover"
+                 />
+               </div>
 
               <div className="grid md:grid-cols-2 gap-6 mb-12">
                 <Card>
@@ -325,9 +341,13 @@ const HomemadeRemedyBloatedStomach = () => {
               </p>
 
               {/* Image Placeholder */}
-              <div className="bg-muted/30 rounded-lg p-8 text-center border-2 border-dashed border-muted-foreground/20 my-12">
-                <p className="text-muted-foreground">📸 Image Placeholder: Woman holding stomach with relief expression</p>
-              </div>
+               <div className="rounded-lg overflow-hidden my-12">
+                 <img 
+                   src="/lovable-uploads/happy-woman-walking.png" 
+                   alt="Happy woman walking outdoors in denim jacket showing relief from bloating symptoms"
+                   className="w-full h-auto object-cover"
+                 />
+               </div>
 
               <h2 className="text-3xl font-bold text-foreground mb-6 mt-12">
                 Home Remedies for Bloated Stomach During Period
@@ -419,9 +439,13 @@ const HomemadeRemedyBloatedStomach = () => {
               </p>
 
               {/* Image Placeholder */}
-              <div className="bg-muted/30 rounded-lg p-8 text-center border-2 border-dashed border-muted-foreground/20 my-12">
-                <p className="text-muted-foreground">📸 Image Placeholder: Fennel seeds and peppermint tea setup</p>
-              </div>
+               <div className="rounded-lg overflow-hidden my-12">
+                 <img 
+                   src="/lovable-uploads/peppermint-tea-remedy.png" 
+                   alt="Glass mug of peppermint tea with fresh mint leaves on wooden surface for bloating relief"
+                   className="w-full h-auto object-cover"
+                 />
+               </div>
 
               <Card className="mb-8">
                 <CardContent className="p-6">
@@ -522,9 +546,13 @@ const HomemadeRemedyBloatedStomach = () => {
               </p>
 
               {/* Image Placeholder */}
-              <div className="bg-muted/30 rounded-lg p-8 text-center border-2 border-dashed border-muted-foreground/20 my-12">
-                <p className="text-muted-foreground">📸 Image Placeholder: Step-by-step remedy infographic</p>
-              </div>
+               <div className="rounded-lg overflow-hidden my-12">
+                 <img 
+                   src="/lovable-uploads/woman-chewing-fennel.png" 
+                   alt="Close-up of woman eating fennel seeds as natural remedy for bloating and gas relief"
+                   className="w-full h-auto object-cover"
+                 />
+               </div>
 
               <Card className="mb-8">
                 <CardContent className="p-6">
@@ -592,9 +620,13 @@ const HomemadeRemedyBloatedStomach = () => {
               </div>
 
               {/* Image Placeholder */}
-              <div className="bg-muted/30 rounded-lg p-8 text-center border-2 border-dashed border-muted-foreground/20 my-12">
-                <p className="text-muted-foreground">📸 Image Placeholder: Happy patients with flat, comfortable bellies</p>
-              </div>
+               <div className="rounded-lg overflow-hidden my-12">
+                 <img 
+                   src="/lovable-uploads/naturopath-consultation-mitch.png" 
+                   alt="Naturopath Mitch consulting with patient in modern clinic setting with medical equipment"
+                   className="w-full h-auto object-cover"
+                 />
+               </div>
 
               <h2 className="text-3xl font-bold text-foreground mb-6 mt-12">
                 Final Thoughts: Homemade Remedies Do Work
