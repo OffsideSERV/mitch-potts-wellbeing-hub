@@ -62,7 +62,7 @@ const Services = () => {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight" asChild>
-                  <a href="https://nxtlvlhealth.com.au/book-now/">
+                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                     <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                     <span className="text-center">BOOK NOW</span>
                   </a>
@@ -143,7 +143,7 @@ const Services = () => {
 
           <div className="text-center">
             <Button size="lg" className="text-base sm:text-lg px-6 py-4 h-auto" asChild>
-              <a href="https://nxtlvlhealth.com.au/book-now/">
+              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
                 <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                 BOOK NOW
               </a>

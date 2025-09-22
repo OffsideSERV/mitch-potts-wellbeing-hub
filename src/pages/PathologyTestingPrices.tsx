@@ -440,7 +440,7 @@ const PathologyTestingPrices = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" asChild>
-                  <a href="https://nxtlvlhealth.com.au/book-now" target="_blank" rel="noopener noreferrer">
+                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
                     Book Initial Consult
                   </a>
                 </Button>
