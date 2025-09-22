@@ -102,8 +102,12 @@ const DoesGumMakeYouBloated = () => {
               
               {/* Introduction */}
               <div className="mb-12">
-                <div className="mb-8 rounded-lg overflow-hidden bg-muted/30 p-4 text-center">
-                  <p className="text-muted-foreground text-sm">📸 Image placeholder: Person chewing gum looking uncomfortable with hand on stomach</p>
+                <div className="mb-8">
+                  <img 
+                    src="/lovable-uploads/white-chewing-gum.png" 
+                    alt="White chewing gum pieces that can cause bloating and digestive issues"
+                    className="w-full h-64 sm:h-80 object-cover rounded-lg shadow-lg"
+                  />
                 </div>
                 
                 <div className="text-muted-foreground space-y-4">
@@ -142,8 +146,12 @@ const DoesGumMakeYouBloated = () => {
                       
                       {reason.title === "Sugar Alcohols in Gum" && (
                         <div className="mt-4">
-                          <div className="mb-4 rounded-lg overflow-hidden bg-muted/30 p-4 text-center">
-                            <p className="text-muted-foreground text-sm">📸 Image placeholder: Sugar-free gum packages showing sorbitol, xylitol ingredients</p>
+                          <div className="mb-4">
+                            <img 
+                              src="/lovable-uploads/white-chewing-gum.png" 
+                              alt="Sugar-free chewing gum containing sorbitol and xylitol that can cause bloating"
+                              className="w-full h-48 object-cover rounded-lg shadow-md"
+                            />
                           </div>
                           <p className="text-blue-700">
                             I've seen many patients who are fine with one stick, but after three or four sticks, they complain of <strong>sugar-free gum bloating</strong> or cramping.
@@ -183,8 +191,12 @@ const DoesGumMakeYouBloated = () => {
                   How I Spot Gum-Linked Bloating in Patients
                 </h2>
                 
-                <div className="mb-6 rounded-lg overflow-hidden bg-muted/30 p-4 text-center">
-                  <p className="text-muted-foreground text-sm">📸 Image placeholder: Naturopath consultation scene with patient discussing symptoms</p>
+                <div className="mb-6">
+                  <img 
+                    src="/lovable-uploads/naturopath-consultation-bloating.png" 
+                    alt="Naturopath consultation discussing bloating issues with patient"
+                    className="w-full h-48 sm:h-64 object-cover rounded-lg shadow-md"
+                  />
                 </div>
                 
                 <div className="text-muted-foreground space-y-4">
@@ -263,8 +275,12 @@ const DoesGumMakeYouBloated = () => {
                   How to Stop Gum Bloating Fast
                 </h2>
                 
-                <div className="mb-6 rounded-lg overflow-hidden bg-muted/30 p-4 text-center">
-                  <p className="text-muted-foreground text-sm">📸 Image placeholder: Person walking outdoors for natural bloating relief</p>
+                <div className="mb-6">
+                  <img 
+                    src="/lovable-uploads/peppermint-tea-remedy.png" 
+                    alt="Peppermint tea natural remedy for bloating relief from chewing gum"
+                    className="w-full h-48 sm:h-64 object-cover rounded-lg shadow-md"
+                  />
                 </div>
                 
                 <div className="text-muted-foreground space-y-4">
@@ -306,8 +322,12 @@ const DoesGumMakeYouBloated = () => {
                   Gum and IBS: A Hidden Trigger
                 </h2>
                 
-                <div className="mb-6 rounded-lg overflow-hidden bg-muted/30 p-4 text-center">
-                  <p className="text-muted-foreground text-sm">📸 Image placeholder: Person holding stomach with IBS symptoms illustration</p>
+                <div className="mb-6">
+                  <img 
+                    src="/lovable-uploads/chewing-gum-ibs-illustration.png" 
+                    alt="Illustration showing connection between chewing gum and IBS symptoms"
+                    className="w-full h-48 sm:h-64 object-contain rounded-lg shadow-md bg-gradient-to-br from-blue-50 to-blue-100"
+                  />
                 </div>
                 
                 <div className="text-muted-foreground space-y-4">
@@ -347,8 +367,12 @@ const DoesGumMakeYouBloated = () => {
                   My Patients' Experiences
                 </h2>
                 
-                <div className="mb-6 rounded-lg overflow-hidden bg-muted/30 p-4 text-center">
-                  <p className="text-muted-foreground text-sm">📸 Image placeholder: Before and after comparison showing reduced bloating</p>
+                <div className="mb-6">
+                  <img 
+                    src="/lovable-uploads/naturopath-consultation-mitch.png" 
+                    alt="Mitchell Potts naturopath helping patient with bloating concerns"
+                    className="w-full h-48 sm:h-64 object-cover rounded-lg shadow-md"
+                  />
                 </div>
                 
                 <div className="space-y-6">
