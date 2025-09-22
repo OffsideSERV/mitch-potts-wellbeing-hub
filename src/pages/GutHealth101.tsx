@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { Clock, ArrowRight, CheckCircle, AlertTriangle, Brain, Heart, Zap } from "lucide-react";
 import AuthorBio from "@/components/AuthorBio";
 
@@ -325,9 +326,11 @@ const GutHealth101 = () => {
               </p>
               
               <div className="text-center">
-                <Button size="lg" className="bg-primary hover:bg-primary/90">
-                  Book a Free Discovery Call
-                  <ArrowRight className="w-4 h-4 ml-2" />
+                <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
+                  <Link to="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                    Book a Free Discovery Call
+                    <ArrowRight className="w-4 h-4 ml-2" />
+                  </Link>
                 </Button>
                 <p className="text-sm text-muted-foreground mt-2">
                   Speak with a practitioner who can help you decide your next step—without pressure or complexity.

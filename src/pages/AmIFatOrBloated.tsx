@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import AuthorBio from "@/components/AuthorBio";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { CheckCircle, AlertCircle, TrendingUp, Clock, Zap, Heart } from "lucide-react";
 const AmIFatOrBloated = () => {
   const tableOfContents = [{
@@ -507,8 +508,10 @@ const AmIFatOrBloated = () => {
               <p className="mb-6 text-lg">
                 If you're tired of guessing, I'd love to help.
               </p>
-              <Button size="lg" className="mb-4">
-                Book Your Free 15-Minute Discovery Call
+              <Button asChild size="lg" className="mb-4">
+                <Link to="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                  Book Your Free 15-Minute Discovery Call
+                </Link>
               </Button>
               <p className="text-sm text-muted-foreground">
                 Bring your symptoms, your story, and your questions. Together we'll map out your first steps — whether it's bloating, fat gain, or both.
