@@ -690,7 +690,7 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">This is What You've Been Looking For</h2>
              <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-12">
-               From hormonal imbalances to chronic skin issues, from digestive discomfort to total burnout — we see you. And we've got a plan to help. Whether you're looking for a <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">natural weight loss approach</a> or need support from an <a href="/areas-we-serve/naturopath-indooroopilly" className="text-primary hover:underline">experienced naturopath near Indooroopilly</a> or <a href="/areas-we-serve/naturopath-morningside" className="text-primary hover:underline">Morningside</a>, you don't need to do this alone.
+               From hormonal imbalances to chronic skin issues, from digestive discomfort to total burnout we see you. And we've got a plan to help. Whether you're looking for a <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">natural weight loss approach</a> or need support from an <a href="/areas-we-serve/naturopath-north-brisbane" className="text-primary hover:underline">experienced naturopath near North Brisbane</a> or <a href="/areas-we-serve/naturopath-new-farm" className="text-primary hover:underline">New Farm</a>, you don't need to do this alone.
              </p>
             
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 mt-16">Ready to Get Your Life Back?</h2>
