@@ -96,7 +96,7 @@ const Diabetes = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" className="inline-flex items-center justify-center text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight bg-primary text-primary-foreground hover:bg-primary/90 rounded-md font-medium transition-colors">
+                <a href="https://nxtlvlhealth.com.au/book-now/" className="inline-flex items-center justify-center text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight bg-primary text-primary-foreground hover:bg-primary/90 rounded-md font-medium transition-colors">
                   <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                   </svg>
@@ -566,7 +566,7 @@ const Diabetes = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" className="inline-flex items-center justify-center text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3 bg-primary text-primary-foreground hover:bg-primary/90 rounded-md font-medium transition-colors">
+              <a href="https://nxtlvlhealth.com.au/book-now/" className="inline-flex items-center justify-center text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3 bg-primary text-primary-foreground hover:bg-primary/90 rounded-md font-medium transition-colors">
                 <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                 </svg>

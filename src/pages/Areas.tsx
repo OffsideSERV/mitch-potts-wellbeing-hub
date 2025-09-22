@@ -139,7 +139,7 @@ const Areas = () => {
                   size="lg" 
                   className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight"
                 >
-                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                  <a href="https://nxtlvlhealth.com.au/book-now/">
                     <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                     <span className="text-center">Book a Consult</span>
                   </a>
@@ -332,7 +332,7 @@ const Areas = () => {
                 size="lg" 
                 className="text-base sm:text-lg px-6 py-4"
               >
-                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <a href="https://nxtlvlhealth.com.au/book-now/">
                   <Calendar className="mr-2 h-5 w-5" />
                   Book a Consult
                 </a>

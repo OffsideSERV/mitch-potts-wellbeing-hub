@@ -241,7 +241,7 @@ const PersonalTraining = () => {
               
               <div className="flex flex-col gap-4 mt-8 lg:mt-0">
                 <Button size="lg" className="text-lg px-10 py-6 h-auto w-full lg:w-auto" asChild>
-                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                  <a href="https://nxtlvlhealth.com.au/book-now/">
                     <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                     Book Your Personal Training Session
                   </a>
@@ -562,7 +562,7 @@ const PersonalTraining = () => {
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-lg px-8 py-6 w-full sm:w-auto" asChild>
-                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <a href="https://nxtlvlhealth.com.au/book-now/">
                   <Calendar className="mr-2 h-5 w-5" />
                   Book Your Personal Training Session
                 </a>

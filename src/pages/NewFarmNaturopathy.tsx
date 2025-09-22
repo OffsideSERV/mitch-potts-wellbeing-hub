@@ -33,7 +33,7 @@ const NewFarmNaturopathy = () => {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight">
-                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                  <a href="https://nxtlvlhealth.com.au/book-now/">
                     <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                     <span className="text-center">Book an Appointment Today</span>
                   </a>
@@ -478,7 +478,7 @@ const NewFarmNaturopathy = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
-                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <a href="https://nxtlvlhealth.com.au/book-now/">
                   <Calendar className="mr-2 h-5 w-5" />
                   Book an Appointment Today
                 </a>

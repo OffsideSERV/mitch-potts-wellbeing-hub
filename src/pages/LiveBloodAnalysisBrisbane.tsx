@@ -136,7 +136,7 @@ const LiveBloodAnalysisBrisbane = () => {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight" asChild>
-                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                  <a href="https://nxtlvlhealth.com.au/book-now/">
                     <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                     <span className="text-center">Book an Appointment Today</span>
                   </a>
@@ -376,7 +376,7 @@ const LiveBloodAnalysisBrisbane = () => {
               This whole-body approach helps you understand and heal the root causes of your symptoms so you can <strong>feel amazing again</strong>.
             </p>
             <Button size="lg" className="text-base sm:text-lg px-6 py-4 h-auto" asChild>
-              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+              <a href="https://nxtlvlhealth.com.au/book-now/">
                 <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                 Book an Appointment Today
               </a>
@@ -403,7 +403,7 @@ const LiveBloodAnalysisBrisbane = () => {
           <div className="text-center space-y-6">
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-base sm:text-lg px-6 py-4 h-auto" asChild>
-                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <a href="https://nxtlvlhealth.com.au/book-now/">
                   <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                   Book an Appointment Today
                 </a>

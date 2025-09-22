@@ -676,7 +676,7 @@ const HomemadeRemedyBloatedStomach = () => {
                     Together we'll map your first 1–3 steps so you can feel lighter, more comfortable, and back in control.
                   </p>
                   <Button asChild size="lg" className="text-lg px-8 py-3">
-                    <Link to="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                    <Link to="https://nxtlvlhealth.com.au/book-now" target="_blank" rel="noopener noreferrer">
                       Book Free Discovery Call
                     </Link>
                   </Button>
