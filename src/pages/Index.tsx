@@ -32,7 +32,7 @@ const Index = () => {
     description: "Workouts and lifestyle coaching that help support both healing and performance – all tailored for your life and schedule.",
     icon: <Target className="h-8 w-8 text-primary" />
   }], []);
-  const conditions = useMemo(() => ["Digestive disorders (IBS, SIBO, bloating, reflux)", "Hormonal imbalances (PMS, PCOS, peri menopause)", "Chronic fatigue and burnout", "Skin issues (eczema, acne)", "Mental health and stress", "Poor sleep and insomnia", "Autoimmune support", "Food intolerances and allergies", "Weight management", "Immune system support", "Mood disorders like anxiety or low mood"], []);
+  const conditions = useMemo(() => ["Digestive disorders (IBS, SIBO, bloating, reflux)", "Hormonal imbalances (PMS, PCOS, peri menopause)", "Chronic fatigue and burnout", "Skin issues (eczema, acne)", "Mental health and stress", "Poor sleep and insomnia", "Autoimmune support", "Food intolerances and allergies", "Weight management", "Immune system support", "Mood disorders like anxiety or low mood", "Cardiovascular Health (blood pressure & cholesterol)"], []);
   const whyDifferent = useMemo(() => [{
     title: "We Test, We Don't Guess",
     description: "Our live blood analysis and functional testing show us exactly what's going on in your body. There's no guessing, just real answers.",
