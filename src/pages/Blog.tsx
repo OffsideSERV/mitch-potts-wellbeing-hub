@@ -7,6 +7,15 @@ import SEO from "@/components/SEO";
 
 const blogPosts = [
   {
+    title: "Does Gum Make You Bloated? | Let's Take a Look",
+    description: "Patients ask me all the time: 'Mitch, does gum make you bloated?' The short answer is yes - chewing gum can cause gas and bloating in some people. Let's break it down.",
+    category: "Gut Health",
+    readTime: "8 min read",
+    date: "September 22, 2025",
+    slug: "/blog/gut-health/does-gum-make-you-bloated",
+    image: "/lovable-uploads/gum-bloating-cover.png"
+  },
+  {
     title: "#1 Homemade Remedy for Bloated Stomach",
     description: "Discover the best homemade remedies for bloated stomach relief. Learn natural, safe, and effective ways to reduce bloating fast with expert naturopathic advice.",
     category: "Gut Health",
