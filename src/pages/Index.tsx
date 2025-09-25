@@ -249,11 +249,11 @@ const Index = () => {
           <div className="text-center mb-8 lg:mb-16">
             <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-3 py-2 md:px-4 md:py-2 rounded-full text-sm font-medium mb-6">
               <Gift className="h-4 w-4" />
-              FREE VIDEO GUIDE
+              FREE DOWNLOADABLE GUIDE
             </div>
             
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-6">
-              Stop Feeling Bloated After Every Meal
+              Get 4 Simple Fixes for a Bloated Belly
             </h2>
           </div>
           
