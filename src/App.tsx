@@ -77,6 +77,7 @@ import CardiovascularHealth from "./pages/CardiovascularHealth";
 import HomemadeRemedyBloatedStomach from "./pages/HomemadeRemedyBloatedStomach";
 import DoesGumMakeYouBloated from "./pages/DoesGumMakeYouBloated";
 import AntiAging from "./pages/AntiAging";
+import GutMicrobiomeMentalHealth from "./pages/GutMicrobiomeMentalHealth";
 
 const queryClient = new QueryClient();
 
@@ -153,6 +154,7 @@ const App = () => (
                 <Route path="/blog/naturopathy/naturopathy-vs-homeopathy" element={<NaturopathyVsHomeopathy />} />
                 <Route path="/blog/weight-loss/embracing-natural-weight-loss-with-ozempic-a-naturopaths-approach" element={<OzempicNaturalWeightLoss />} />
                 <Route path="/blog/gut-health/gut-brain-connection-how-your-gut-affects-mental-health" element={<GutBrainConnection />} />
+                <Route path="/blog/gut-health/gut-microbiome-and-mental-health" element={<GutMicrobiomeMentalHealth />} />
                 <Route path="/blog/gut-health/homemade-remedy-for-bloated-stomach" element={<HomemadeRemedyBloatedStomach />} />
                 <Route path="/blog/gut-health/does-gum-make-you-bloated" element={<DoesGumMakeYouBloated />} />
                 <Route path="/am-i-fat-or-bloated" element={<AmIFatOrBloated />} />
