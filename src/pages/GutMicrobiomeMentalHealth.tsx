@@ -589,8 +589,8 @@ const GutMicrobiomeMentalHealth = () => {
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg" onClick={() => window.open('https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2FER0ii_FeUy91jVq2erEqzKqY3KIZKSGgJz5ew8nKvnRLPrzpJx0TSZSUGlOcq1F98jY5wjAZ', '_blank')}>
                   Book Free Discovery Call
                 </Button>
-                <Button variant="outline" size="lg" className="px-8 py-4 text-lg" onClick={() => window.open('tel:+61732520645', '_blank')}>
-                  Call (07) 3252 0645
+                <Button variant="outline" size="lg" className="px-8 py-4 text-lg" onClick={() => window.open('tel:+61731808853', '_blank')}>
+                  Call (07) 3180 8853
                 </Button>
               </div>
             </div>
