@@ -5,6 +5,12 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import AuthorBio from '@/components/AuthorBio';
 import SEO from '@/components/SEO';
+import gutBrainConnection from '../assets/gut-brain-connection-illustration.png';
+import naturopathConsultation from '../assets/naturopath-consultation-clinic.png';
+import gutBrainAxis from '../assets/gut-brain-axis-diagram.png';
+import womanStress from '../assets/woman-stress-headache.png';
+import colorfulFruits from '../assets/colorful-fruits-vegetables.png';
+import mitchConsultation from '../assets/mitch-consultation-patient.png';
 const GutMicrobiomeMentalHealth = () => {
   return <>
       <SEO title="Gut Microbiome and Mental Health | What's The Link? - NXTLVL Health" description="Discover how your gut microbiome affects mental health. Learn about the gut-brain axis, depression, anxiety, and natural ways to improve mood through gut health." canonical="https://www.nxtlvlhealth.com.au/gut-microbiome-mental-health" keywords="gut microbiome, mental health, gut-brain axis, depression, anxiety, probiotics, gut health, microbiome diversity, psychobiotics" />
@@ -28,12 +34,13 @@ const GutMicrobiomeMentalHealth = () => {
               What's The Link Between Your Gut Bacteria and Your Mood?
             </p>
 
-            {/* Hero Image Placeholder */}
-            <div className="w-full h-64 md:h-80 bg-muted/50 rounded-xl border-2 border-dashed border-muted-foreground/30 flex items-center justify-center mb-8">
-              <div className="text-center">
-                <Brain className="w-16 h-16 mx-auto mb-4 text-muted-foreground/50" />
-                <p className="text-muted-foreground">Hero Image: Brain-Gut Connection Illustration</p>
-              </div>
+            {/* Hero Image */}
+            <div className="w-full mb-8">
+              <img 
+                src={gutBrainConnection} 
+                alt="Brain-gut connection illustration showing the communication between brain and digestive system" 
+                className="w-full max-w-2xl mx-auto h-auto rounded-xl shadow-lg"
+              />
             </div>
 
             <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
@@ -69,12 +76,13 @@ const GutMicrobiomeMentalHealth = () => {
                 <strong>The gut microbiome and mental health are closely linked.</strong> Your gut bacteria don't just digest food. They send signals to your brain, make neurotransmitters, and even shape mood and resilience. Let's take a closer look at the brain-gut-microbiome relationship.
               </p>
 
-              {/* Image Placeholder */}
-              <div className="w-full h-48 bg-muted/50 rounded-xl border-2 border-dashed border-muted-foreground/30 flex items-center justify-center my-8">
-                <div className="text-center">
-                  <Heart className="w-12 h-12 mx-auto mb-2 text-muted-foreground/50" />
-                  <p className="text-muted-foreground text-sm">Image: Patient consultation scene</p>
-                </div>
+              {/* Patient Consultation Image */}
+              <div className="w-full my-8">
+                <img 
+                  src={naturopathConsultation} 
+                  alt="Naturopath consultation - patient discussing gut health and mental health connection" 
+                  className="w-full max-w-3xl mx-auto h-auto rounded-xl shadow-md"
+                />
               </div>
             </div>
           </div>
@@ -156,12 +164,13 @@ const GutMicrobiomeMentalHealth = () => {
                 </p>
               </div>
 
-              {/* Image Placeholder */}
-              <div className="w-full h-48 bg-muted/50 rounded-xl border-2 border-dashed border-muted-foreground/30 flex items-center justify-center">
-                <div className="text-center">
-                  <Brain className="w-12 h-12 mx-auto mb-2 text-muted-foreground/50" />
-                  <p className="text-muted-foreground text-sm">Image: Gut-Brain Axis Diagram</p>
-                </div>
+              {/* Gut-Brain Axis Diagram */}
+              <div className="w-full">
+                <img 
+                  src={gutBrainAxis} 
+                  alt="Gut-brain axis diagram showing bidirectional communication between the gut and brain" 
+                  className="w-full max-w-2xl mx-auto h-auto rounded-xl shadow-md"
+                />
               </div>
 
               {/* 2. Depression */}
@@ -218,12 +227,13 @@ const GutMicrobiomeMentalHealth = () => {
               I've seen patients break this loop by working on <strong>gut microbiome influence on stress.</strong> The result? <strong>Calmer mind, better sleep, and more resilience.</strong>
             </p>
 
-            {/* Image Placeholder */}
-            <div className="w-full h-48 bg-muted/50 rounded-xl border-2 border-dashed border-muted-foreground/30 flex items-center justify-center mt-8">
-              <div className="text-center">
-                <Heart className="w-12 h-12 mx-auto mb-2 text-muted-foreground/50" />
-                <p className="text-muted-foreground text-sm">Image: Stress cycle diagram</p>
-              </div>
+            {/* Stress and Mental Health Image */}
+            <div className="w-full mt-8">
+              <img 
+                src={womanStress} 
+                alt="Woman experiencing stress and headache - illustrating the connection between gut health and mental symptoms" 
+                className="w-full max-w-2xl mx-auto h-auto rounded-xl shadow-md"
+              />
             </div>
           </div>
         </section>
@@ -364,12 +374,13 @@ const GutMicrobiomeMentalHealth = () => {
                 </ul>
               </div>
 
-              {/* Image Placeholder */}
-              <div className="w-full h-48 bg-muted/50 rounded-xl border-2 border-dashed border-muted-foreground/30 flex items-center justify-center">
-                <div className="text-center">
-                  <Heart className="w-12 h-12 mx-auto mb-2 text-muted-foreground/50" />
-                  <p className="text-muted-foreground text-sm">Image: Diverse healthy foods</p>
-                </div>
+              {/* Diverse Healthy Foods Image */}
+              <div className="w-full">
+                <img 
+                  src={colorfulFruits} 
+                  alt="Diverse colorful fruits and vegetables promoting gut microbiome diversity and mental health" 
+                  className="w-full max-w-3xl mx-auto h-auto rounded-xl shadow-md"
+                />
               </div>
 
               {/* 2. Probiotics */}
@@ -506,12 +517,13 @@ const GutMicrobiomeMentalHealth = () => {
               </Card>
             </div>
 
-            {/* Image Placeholder */}
-            <div className="w-full h-48 bg-muted/50 rounded-xl border-2 border-dashed border-muted-foreground/30 flex items-center justify-center mt-12">
-              <div className="text-center">
-                <Users className="w-12 h-12 mx-auto mb-2 text-muted-foreground/50" />
-                <p className="text-muted-foreground text-sm">Image: Happy patient testimonials</p>
-              </div>
+            {/* Mitch Consultation Image */}
+            <div className="w-full mt-12">
+              <img 
+                src={mitchConsultation} 
+                alt="Mitch conducting a consultation with patient - professional naturopathic care for gut and mental health" 
+                className="w-full max-w-3xl mx-auto h-auto rounded-xl shadow-md"
+              />
             </div>
           </div>
         </section>
