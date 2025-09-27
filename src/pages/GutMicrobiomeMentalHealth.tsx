@@ -5,16 +5,9 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import AuthorBio from '@/components/AuthorBio';
 import SEO from '@/components/SEO';
-
 const GutMicrobiomeMentalHealth = () => {
-  return (
-    <>
-      <SEO
-        title="Gut Microbiome and Mental Health | What's The Link? - NXTLVL Health"
-        description="Discover how your gut microbiome affects mental health. Learn about the gut-brain axis, depression, anxiety, and natural ways to improve mood through gut health."
-        canonical="https://www.nxtlvlhealth.com.au/gut-microbiome-mental-health"
-        keywords="gut microbiome, mental health, gut-brain axis, depression, anxiety, probiotics, gut health, microbiome diversity, psychobiotics"
-      />
+  return <>
+      <SEO title="Gut Microbiome and Mental Health | What's The Link? - NXTLVL Health" description="Discover how your gut microbiome affects mental health. Learn about the gut-brain axis, depression, anxiety, and natural ways to improve mood through gut health." canonical="https://www.nxtlvlhealth.com.au/gut-microbiome-mental-health" keywords="gut microbiome, mental health, gut-brain axis, depression, anxiety, probiotics, gut health, microbiome diversity, psychobiotics" />
 
       <article className="min-h-screen bg-gradient-to-br from-background via-background to-muted/30">
         {/* Hero Section */}
@@ -581,39 +574,23 @@ const GutMicrobiomeMentalHealth = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button 
-                  size="lg" 
-                  className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg"
-                  onClick={() => window.open('https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2FER0ii_FeUy91jVq2erEqzKqY3KIZKSGgJz5ew8nKvnRLPrzpJx0TSZSUGlOcq1F98jY5wjAZ', '_blank')}
-                >
+                <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg" onClick={() => window.open('https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2FER0ii_FeUy91jVq2erEqzKqY3KIZKSGgJz5ew8nKvnRLPrzpJx0TSZSUGlOcq1F98jY5wjAZ', '_blank')}>
                   Book Free Discovery Call
                 </Button>
-                <Button 
-                  variant="outline" 
-                  size="lg"
-                  className="px-8 py-4 text-lg"
-                  onClick={() => window.open('tel:+61732520645', '_blank')}
-                >
+                <Button variant="outline" size="lg" className="px-8 py-4 text-lg" onClick={() => window.open('tel:+61732520645', '_blank')}>
                   Call (07) 3252 0645
                 </Button>
               </div>
             </div>
 
             {/* Image Placeholder */}
-            <div className="w-full h-48 bg-muted/50 rounded-xl border-2 border-dashed border-muted-foreground/30 flex items-center justify-center">
-              <div className="text-center">
-                <Users className="w-12 h-12 mx-auto mb-2 text-muted-foreground/50" />
-                <p className="text-muted-foreground text-sm">Image: Consultation booking</p>
-              </div>
-            </div>
+            
           </div>
         </section>
 
         {/* Author Bio */}
         <AuthorBio />
       </article>
-    </>
-  );
+    </>;
 };
-
 export default GutMicrobiomeMentalHealth;
