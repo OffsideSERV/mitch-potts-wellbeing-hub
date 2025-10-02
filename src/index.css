@@ -45,6 +45,13 @@
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+    
+    /* NXTLVL Reset colors */
+    --nxt-orange: 26 100% 55%;
+    --nxt-orange-light: 26 100% 65%;
+    --nxt-black: 0 0% 13%;
+    --nxt-white: 0 0% 100%;
+    --nxt-grey: 0 0% 45%;
   }
 
   .dark {
@@ -108,5 +115,26 @@
   
   .contain-paint {
     contain: paint;
+  }
+  
+  /* NXTLVL Reset utilities */
+  .gradient-hero {
+    background: linear-gradient(135deg, hsl(var(--nxt-black)), hsl(var(--nxt-black) / 0.95));
+  }
+  
+  .gradient-subtle {
+    background: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted) / 0.3));
+  }
+  
+  .transition-nxt {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .shadow-nxt {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .shadow-orange {
+    box-shadow: 0 4px 14px 0 hsl(var(--nxt-orange) / 0.4);
   }
 }

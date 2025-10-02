@@ -78,6 +78,7 @@ import HomemadeRemedyBloatedStomach from "./pages/HomemadeRemedyBloatedStomach";
 import DoesGumMakeYouBloated from "./pages/DoesGumMakeYouBloated";
 import AntiAging from "./pages/AntiAging";
 import GutMicrobiomeMentalHealth from "./pages/GutMicrobiomeMentalHealth";
+import NXTLVLReset from "./pages/NXTLVLReset";
 
 const queryClient = new QueryClient();
 
@@ -93,8 +94,9 @@ const App = () => (
         <GutHealthPopup />
         <Routes>
           {/* Landing pages without Layout (no nav/footer) */}
-          <Route path="/laser-healing" element={<LaserHealing />} />
-          <Route path="/thank-you" element={<ThankYou />} />
+            <Route path="/laser-healing" element={<LaserHealing />} />
+            <Route path="/thank-you" element={<ThankYou />} />
+            <Route path="/nxtlvl-reset" element={<NXTLVLReset />} />
           
           {/* Regular pages with Layout */}
           <Route path="/*" element={
