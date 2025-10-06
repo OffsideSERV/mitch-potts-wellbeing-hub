@@ -410,28 +410,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Location Section with Google Maps */}
-      <section className="py-20 px-4 bg-muted/30">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Based In New Farm, Serving All Of Brisbane</h2>
-          </div>
-          
-          <div className="rounded-2xl overflow-hidden shadow-lg max-w-4xl mx-auto">
-            <iframe 
-              src="https://maps.google.com/maps?q=Suite+2/665+Brunswick+St,+New+Farm+QLD+4005&output=embed"
-              width="100%" 
-              height="450" 
-              style={{ border: 0 }}
-              allowFullScreen={true}
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="NXTLVL Health Location - New Farm Brisbane"
-            ></iframe>
-          </div>
-        </div>
-      </section>
-
       {/* Why People Say NXTLVL Health is the Best */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
@@ -702,6 +680,28 @@ const Index = () => {
             <TestimonialCard name="Tash K" content="Mitch is certainly a **master of his craft**. Despite the body being such a complex machine he is able to **explain things in a simplistic manner**. He takes the time to understand your issues and your goals and carefully works his **treatment plan to suit your needs**." timeAgo="9 weeks ago" reviews="1 review" />
             <TestimonialCard name="Monica Boules" content="Mitch took the time to **thoroughly understand** my health concerns and provided **thoughtful, personalised advice** that really resonated with me. If you're looking for a naturopath who **truly listens** and provides exceptional care, I can't recommend NXTLVL enough." timeAgo="32 weeks ago" reviews="1 review" />
             <TestimonialCard name="Rebecca Hayman" content="Mitch's **scientific approach** to naturopathic medicine is awesome. Highly recommended for those seeking an **evidence-based holistic approach**." timeAgo="10 Jun 2024" reviews="2 reviews" />
+          </div>
+        </div>
+      </section>
+
+      {/* Location Section with Google Maps */}
+      <section className="py-20 px-4 bg-muted/30">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Based In New Farm, Serving All Of Brisbane</h2>
+          </div>
+          
+          <div className="rounded-2xl overflow-hidden shadow-lg max-w-4xl mx-auto">
+            <iframe 
+              src="https://maps.google.com/maps?q=Suite+2/665+Brunswick+St,+New+Farm+QLD+4005&output=embed"
+              width="100%" 
+              height="450" 
+              style={{ border: 0 }}
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="NXTLVL Health Location - New Farm Brisbane"
+            ></iframe>
           </div>
         </div>
       </section>
