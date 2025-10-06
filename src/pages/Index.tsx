@@ -410,6 +410,28 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Location Section with Google Maps */}
+      <section className="py-20 px-4 bg-muted/30">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Based In New Farm, Serving All Of Brisbane</h2>
+          </div>
+          
+          <div className="rounded-2xl overflow-hidden shadow-lg max-w-4xl mx-auto">
+            <iframe 
+              src="https://maps.google.com/maps?q=Suite+2/665+Brunswick+St,+New+Farm+QLD+4005&output=embed"
+              width="100%" 
+              height="450" 
+              style={{ border: 0 }}
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="NXTLVL Health Location - New Farm Brisbane"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
       {/* Why People Say NXTLVL Health is the Best */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
