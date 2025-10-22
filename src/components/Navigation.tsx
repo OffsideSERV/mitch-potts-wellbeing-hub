@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from "@/components/ui/navigation-menu";
+
 import { Menu, X, Phone, Calendar, ChevronDown, ChevronRight, Gift } from "lucide-react";
 import { cn } from "@/lib/utils";
 import nxtlvlLogo from "/lovable-uploads/0aadec6a-7f1f-4a21-854c-39d8c3a218d0.png";
@@ -134,287 +134,237 @@ const Navigation = () => {
             </Link>
 
             {/* Desktop Navigation */}
-            <NavigationMenu className="hidden lg:flex">
-              <NavigationMenuList>
-                <NavigationMenuItem>
-                  <Link to="/" className={`text-sm font-medium transition-colors hover:text-primary px-4 py-2 ${
-                    isActive("/") ? "text-primary" : "text-muted-foreground"
-                  }`}>
-                    Home
-                  </Link>
-                </NavigationMenuItem>
-                
-                <NavigationMenuItem>
-                  <NavigationMenuTrigger className="text-sm font-medium">Services</NavigationMenuTrigger>
-                  <NavigationMenuContent>
-                    <ul className="grid gap-3 p-6 w-80">
+            <nav className="hidden lg:flex items-center space-x-1">
+              <Link to="/" className={`text-sm font-medium transition-colors hover:text-primary px-4 py-2 ${
+                isActive("/") ? "text-primary" : "text-muted-foreground"
+              }`}>
+                Home
+              </Link>
+              
+              {/* Services Dropdown */}
+              <div className="relative group">
+                <button className="flex items-center text-sm font-medium text-muted-foreground hover:text-primary px-4 py-2 transition-colors">
+                  Services
+                  <ChevronDown className="ml-1 h-3 w-3" />
+                </button>
+                <div className="absolute left-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                  <div className="bg-popover border rounded-md shadow-lg p-4 w-80">
+                    <div className="space-y-1">
                       {servicesItems.map((item) => (
-                        <li key={item.href}>
-                          <NavigationMenuLink asChild>
-                            <Link
-                              to={item.href}
-                              className={cn(
-                                "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                              )}
-                            >
-                              <div className="text-sm font-medium leading-none">{item.title}</div>
-                            </Link>
-                          </NavigationMenuLink>
-                        </li>
+                        <Link
+                          key={item.href}
+                          to={item.href}
+                          className="block rounded-md p-3 text-sm font-medium leading-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                        >
+                          {item.title}
+                        </Link>
                       ))}
-                    </ul>
-                  </NavigationMenuContent>
-                </NavigationMenuItem>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-                <NavigationMenuItem>
-                  <NavigationMenuTrigger className="text-sm font-medium">What We Treat</NavigationMenuTrigger>
-                  <NavigationMenuContent className="overflow-visible">
-                    <div className="grid gap-3 p-8 w-[600px] overflow-visible">
-                      <div className="grid grid-cols-2 gap-8 overflow-visible">
-                        {/* Left Column */}
-                        <div className="space-y-3 overflow-visible">
-                          {/* Gut Health with hover submenu */}
-                          <div className="relative group">
-                            <NavigationMenuLink asChild>
+              {/* What We Treat Dropdown */}
+              <div className="relative group">
+                <button className="flex items-center text-sm font-medium text-muted-foreground hover:text-primary px-4 py-2 transition-colors">
+                  What We Treat
+                  <ChevronDown className="ml-1 h-3 w-3" />
+                </button>
+                <div className="absolute left-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                  <div className="bg-popover border rounded-md shadow-lg p-6 w-[600px]">
+                    <div className="grid grid-cols-2 gap-8">
+                      {/* Left Column */}
+                      <div className="space-y-2">
+                        {/* Gut Health with submenu */}
+                        <div className="relative group/sub">
+                          <Link
+                            to="/what-we-treat/gut-health-naturopath-brisbane"
+                            className="flex items-center justify-between rounded-md p-2 text-sm font-medium leading-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                          >
+                            Gut Health
+                            <ChevronRight className="h-3 w-3" />
+                          </Link>
+                          <div className="absolute left-full top-0 ml-1 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200 z-50">
+                            <div className="bg-popover border rounded-md shadow-lg p-2 w-60">
                               <Link
-                                to="/what-we-treat/gut-health-naturopath-brisbane"
-                                className="flex items-center justify-between select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
+                                to="/what-we-treat/sibo-naturopath"
+                                className="block rounded-md p-2 text-sm leading-none transition-colors hover:bg-accent hover:text-accent-foreground"
                               >
-                                Gut Health
-                                <ChevronDown className="h-3 w-3" />
+                                SIBO
                               </Link>
-                            </NavigationMenuLink>
-                            
-                            {/* Gut Health Submenu */}
-                            <div className="absolute left-full top-0 ml-1 w-60 bg-popover border rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                              <div className="p-2 space-y-1">
-                                <NavigationMenuLink asChild>
-                                  <Link
-                                    to="/what-we-treat/sibo-naturopath"
-                                    className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
-                                  >
-                                    SIBO
-                                  </Link>
-                                </NavigationMenuLink>
-                                
-                                <NavigationMenuLink asChild>
-                                  <Link
-                                    to="/what-we-treat/ibs-brisbane"
-                                    className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
-                                  >
-                                    IBS
-                                  </Link>
-                                </NavigationMenuLink>
-                                
-                                <NavigationMenuLink asChild>
-                                  <Link
-                                    to="/what-we-treat/ibs-naturopath"
-                                    className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground pl-4"
-                                  >
-                                    IBS Naturopathy
-                                  </Link>
-                                </NavigationMenuLink>
-                                
-                                <NavigationMenuLink asChild>
-                                  <Link
-                                    to="/what-we-treat/ibs-clinic"
-                                    className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground pl-4"
-                                  >
-                                    IBS Clinic
-                                  </Link>
-                                </NavigationMenuLink>
-                                
-                                <NavigationMenuLink asChild>
-                                  <Link
-                                    to="/what-we-treat/gut-health-specialist"
-                                    className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
-                                  >
-                                    Gut Health Specialist
-                                  </Link>
-                                </NavigationMenuLink>
-                              </div>
+                              <Link
+                                to="/what-we-treat/ibs-brisbane"
+                                className="block rounded-md p-2 text-sm leading-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                              >
+                                IBS
+                              </Link>
+                              <Link
+                                to="/what-we-treat/ibs-naturopath"
+                                className="block rounded-md p-2 text-sm leading-none transition-colors hover:bg-accent hover:text-accent-foreground pl-4"
+                              >
+                                IBS Naturopathy
+                              </Link>
+                              <Link
+                                to="/what-we-treat/ibs-clinic"
+                                className="block rounded-md p-2 text-sm leading-none transition-colors hover:bg-accent hover:text-accent-foreground pl-4"
+                              >
+                                IBS Clinic
+                              </Link>
+                              <Link
+                                to="/what-we-treat/gut-health-specialist"
+                                className="block rounded-md p-2 text-sm leading-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                              >
+                                Gut Health Specialist
+                              </Link>
                             </div>
                           </div>
-                          
-                          <NavigationMenuLink asChild>
-                            <Link
-                              to="/what-we-treat/weight-loss-naturopath-brisbane"
-                              className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
-                            >
-                              Weight Loss
-                            </Link>
-                          </NavigationMenuLink>
-                          
-                          <NavigationMenuLink asChild>
-                            <Link
-                              to="/what-we-treat/wellness-clinic-brisbane"
-                              className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
-                            >
-                              Overall Wellness
-                            </Link>
-                          </NavigationMenuLink>
-                          
-                          {/* Skin Conditions with hover submenu */}
-                          <div className="relative group">
-                            <NavigationMenuLink asChild>
-                              <Link
-                                to="/what-we-treat/naturopathy-for-skin"
-                                className="flex items-center justify-between select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
-                              >
-                                Skin Conditions
-                                <ChevronDown className="h-3 w-3" />
-                              </Link>
-                            </NavigationMenuLink>
-                            
-                            {/* Skin Conditions Submenu */}
-                            <div className="absolute left-full top-0 ml-1 w-60 bg-popover border rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                              <div className="p-2 space-y-1">
-                                <NavigationMenuLink asChild>
-                                  <Link
-                                    to="/what-we-treat/hormonal-acne-naturopath"
-                                    className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
-                                  >
-                                    Hormonal Acne
-                                  </Link>
-                                </NavigationMenuLink>
-                                <NavigationMenuLink asChild>
-                                  <Link
-                                    to="/what-we-treat/acne-naturopathy"
-                                    className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
-                                  >
-                                    Acne
-                                  </Link>
-                                </NavigationMenuLink>
-                                <NavigationMenuLink asChild>
-                                  <Link
-                                    to="/what-we-treat/naturopath-eczema"
-                                    className="block select-none rounded-md p-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
-                                  >
-                                    Eczema
-                                  </Link>
-                                </NavigationMenuLink>
-                              </div>
-                            </div>
-                          </div>
-                          
-                          <NavigationMenuLink asChild>
-                            <Link
-                              to="/what-we-treat/naturopath-thyroid-brisbane"
-                              className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
-                            >
-                              Thyroid
-                            </Link>
-                          </NavigationMenuLink>
-                          
-                          <NavigationMenuLink asChild>
-                            <Link
-                              to="/what-we-treat/adhd-naturopath"
-                              className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
-                            >
-                              ADHD
-                            </Link>
-                          </NavigationMenuLink>
                         </div>
                         
-                        {/* Right Column */}
-                        <div className="space-y-3">
-                          <NavigationMenuLink asChild>
-                            <Link
-                              to="/what-we-treat/naturopath-anxiety"
-                              className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
-                            >
-                              Anxiety
-                            </Link>
-                          </NavigationMenuLink>
-                          
-                          <NavigationMenuLink asChild>
-                            <Link
-                              to="/what-we-treat/naturopath-diabetes-brisbane"
-                              className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
-                            >
-                              Diabetes
-                            </Link>
-                          </NavigationMenuLink>
-                          
-                          <NavigationMenuLink asChild>
-                            <Link
-                              to="/what-we-treat/cardiovascular-health-naturopath-brisbane"
-                              className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
-                            >
-                              Cardiovascular Health
-                            </Link>
-                          </NavigationMenuLink>
-                          
-                          <NavigationMenuLink asChild>
-                            <Link
-                              to="/what-we-treat/anti-aging-naturopath-brisbane"
-                              className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
-                            >
-                              Anti-Aging
-                            </Link>
-                          </NavigationMenuLink>
-                          
-                          <NavigationMenuLink asChild>
-                            <Link
-                              to="/what-we-treat/childrens-naturopath-brisbane"
-                              className="block select-none rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground font-medium text-sm"
-                            >
-                              Children's Health
-                            </Link>
-                          </NavigationMenuLink>
+                        <Link
+                          to="/what-we-treat/weight-loss-naturopath-brisbane"
+                          className="block rounded-md p-2 text-sm font-medium leading-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                        >
+                          Weight Loss
+                        </Link>
+                        
+                        <Link
+                          to="/what-we-treat/wellness-clinic-brisbane"
+                          className="block rounded-md p-2 text-sm font-medium leading-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                        >
+                          Overall Wellness
+                        </Link>
+                        
+                        {/* Skin Conditions with submenu */}
+                        <div className="relative group/sub">
+                          <Link
+                            to="/what-we-treat/naturopathy-for-skin"
+                            className="flex items-center justify-between rounded-md p-2 text-sm font-medium leading-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                          >
+                            Skin Conditions
+                            <ChevronRight className="h-3 w-3" />
+                          </Link>
+                          <div className="absolute left-full top-0 ml-1 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200 z-50">
+                            <div className="bg-popover border rounded-md shadow-lg p-2 w-60">
+                              <Link
+                                to="/what-we-treat/hormonal-acne-naturopath"
+                                className="block rounded-md p-2 text-sm leading-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                              >
+                                Hormonal Acne
+                              </Link>
+                              <Link
+                                to="/what-we-treat/acne-naturopathy"
+                                className="block rounded-md p-2 text-sm leading-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                              >
+                                Acne
+                              </Link>
+                              <Link
+                                to="/what-we-treat/naturopath-eczema"
+                                className="block rounded-md p-2 text-sm leading-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                              >
+                                Eczema
+                              </Link>
+                            </div>
+                          </div>
                         </div>
+                        
+                        <Link
+                          to="/what-we-treat/naturopath-thyroid-brisbane"
+                          className="block rounded-md p-2 text-sm font-medium leading-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                        >
+                          Thyroid
+                        </Link>
+                        
+                        <Link
+                          to="/what-we-treat/adhd-naturopath"
+                          className="block rounded-md p-2 text-sm font-medium leading-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                        >
+                          ADHD
+                        </Link>
+                      </div>
+                      
+                      {/* Right Column */}
+                      <div className="space-y-2">
+                        <Link
+                          to="/what-we-treat/naturopath-anxiety"
+                          className="block rounded-md p-2 text-sm font-medium leading-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                        >
+                          Anxiety
+                        </Link>
+                        
+                        <Link
+                          to="/what-we-treat/naturopath-diabetes-brisbane"
+                          className="block rounded-md p-2 text-sm font-medium leading-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                        >
+                          Diabetes
+                        </Link>
+                        
+                        <Link
+                          to="/what-we-treat/cardiovascular-health-naturopath-brisbane"
+                          className="block rounded-md p-2 text-sm font-medium leading-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                        >
+                          Cardiovascular Health
+                        </Link>
+                        
+                        <Link
+                          to="/what-we-treat/anti-aging-naturopath-brisbane"
+                          className="block rounded-md p-2 text-sm font-medium leading-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                        >
+                          Anti-Aging
+                        </Link>
+                        
+                        <Link
+                          to="/what-we-treat/childrens-naturopath-brisbane"
+                          className="block rounded-md p-2 text-sm font-medium leading-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                        >
+                          Children's Health
+                        </Link>
                       </div>
                     </div>
-                  </NavigationMenuContent>
-                </NavigationMenuItem>
+                  </div>
+                </div>
+              </div>
 
-                <NavigationMenuItem>
-                  <NavigationMenuTrigger className="text-sm font-medium">Areas We Serve</NavigationMenuTrigger>
-                  <NavigationMenuContent>
-                    <ul className="grid gap-3 p-6 w-64">
+              {/* Areas We Serve Dropdown */}
+              <div className="relative group">
+                <button className="flex items-center text-sm font-medium text-muted-foreground hover:text-primary px-4 py-2 transition-colors">
+                  Areas We Serve
+                  <ChevronDown className="ml-1 h-3 w-3" />
+                </button>
+                <div className="absolute left-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                  <div className="bg-popover border rounded-md shadow-lg p-4 w-64">
+                    <div className="space-y-1">
                       {areasItems.map((item) => (
-                        <li key={item.href}>
-                          <NavigationMenuLink asChild>
-                            <Link
-                              to={item.href}
-                              className={cn(
-                                "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                              )}
-                            >
-                              <div className="text-sm font-medium leading-none">{item.title}</div>
-                            </Link>
-                          </NavigationMenuLink>
-                        </li>
+                        <Link
+                          key={item.href}
+                          to={item.href}
+                          className="block rounded-md p-3 text-sm font-medium leading-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                        >
+                          {item.title}
+                        </Link>
                       ))}
-                    </ul>
-                  </NavigationMenuContent>
-                </NavigationMenuItem>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-                <NavigationMenuItem>
-                  <Link to="/about-us" className={`text-sm font-medium transition-colors hover:text-primary px-4 py-2 ${
-                    isActive("/about-us") ? "text-primary" : "text-muted-foreground"
-                  }`}>
-                    About Us
-                  </Link>
-                </NavigationMenuItem>
+              <Link to="/about-us" className={`text-sm font-medium transition-colors hover:text-primary px-4 py-2 ${
+                isActive("/about-us") ? "text-primary" : "text-muted-foreground"
+              }`}>
+                About Us
+              </Link>
 
-                <NavigationMenuItem>
-                  <Link to="/blog" className={`text-sm font-medium transition-colors hover:text-primary px-4 py-2 ${
-                    isActive("/blog") ? "text-primary" : "text-muted-foreground"
-                  }`}>
-                    Blog
-                  </Link>
-                </NavigationMenuItem>
+              <Link to="/blog" className={`text-sm font-medium transition-colors hover:text-primary px-4 py-2 ${
+                isActive("/blog") ? "text-primary" : "text-muted-foreground"
+              }`}>
+                Blog
+              </Link>
 
-                <NavigationMenuItem>
-                  <Link to="/contact" className={`text-sm font-medium transition-colors hover:text-primary px-4 py-2 ${
-                    isActive("/contact") ? "text-primary" : "text-muted-foreground"
-                  }`}>
-                    Contact
-                  </Link>
-                </NavigationMenuItem>
-              </NavigationMenuList>
-            </NavigationMenu>
+              <Link to="/contact" className={`text-sm font-medium transition-colors hover:text-primary px-4 py-2 ${
+                isActive("/contact") ? "text-primary" : "text-muted-foreground"
+              }`}>
+                Contact
+              </Link>
+            </nav>
 
             {/* Desktop CTA Buttons */}
             <div className="hidden lg:flex items-center space-x-2">
