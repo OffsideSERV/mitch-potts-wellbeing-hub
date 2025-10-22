@@ -112,7 +112,7 @@ const blogPosts = [
     readTime: "8 min read",
     date: "January 30, 2024",
     slug: "/gut-microbiome-mental-health",
-    image: "/lovable-uploads/c6f989c7-da21-4d1f-a1e1-bd15ddab89eb.png"
+    image: "/lovable-uploads/gut-brain-axis-blog-cover.png"
   }
 ];
 
