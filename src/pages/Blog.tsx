@@ -104,6 +104,15 @@ const blogPosts = [
     date: "September 2025",
     slug: "/am-i-fat-or-bloated",
     image: "/lovable-uploads/629b9330-8bcf-44db-8889-18509024f856.png"
+  },
+  {
+    title: "Gut Microbiome and Mental Health: What's The Link?",
+    description: "Discover how your gut microbiome affects mental health. Learn about the gut-brain axis, depression, anxiety, and natural ways to improve mood through gut health.",
+    category: "Gut Health",
+    readTime: "8 min read",
+    date: "January 30, 2024",
+    slug: "/gut-microbiome-mental-health",
+    image: "/lovable-uploads/c6f989c7-da21-4d1f-a1e1-bd15ddab89eb.png"
   }
 ];
 
