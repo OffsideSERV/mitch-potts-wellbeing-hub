@@ -83,78 +83,78 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl relative z-10">
           <div className="space-y-8 text-center">
             {/* Headline */}
-            <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight px-2">
               We'll Give You <span className="text-primary">Energy</span> That <span className="text-primary">Never Dies</span>, Skin That <span className="text-primary">Never Breaks Out</span>, & a <span className="text-primary">Gut</span> That <span className="text-primary">Never Bloats</span> In As Little As <span className="text-primary">21 Days!</span>
             </h1>
             
             {/* Testimonial */}
-            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 max-w-3xl mx-auto">
-              <div className="flex items-center justify-center gap-3 mb-4">
-                <img src={googleIcon} alt="Google" className="h-8 w-8 object-contain" />
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 md:p-6 max-w-3xl mx-auto">
+              <div className="flex items-center justify-center gap-2 md:gap-3 mb-3 md:mb-4 flex-wrap">
+                <img src={googleIcon} alt="Google" className="h-5 w-5 md:h-8 md:w-8 object-contain" />
                 <div className="flex gap-1">
-                  <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
-                  <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
-                  <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
-                  <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
-                  <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
+                  <Star className="h-4 w-4 md:h-5 md:w-5 fill-yellow-400 text-yellow-400" />
+                  <Star className="h-4 w-4 md:h-5 md:w-5 fill-yellow-400 text-yellow-400" />
+                  <Star className="h-4 w-4 md:h-5 md:w-5 fill-yellow-400 text-yellow-400" />
+                  <Star className="h-4 w-4 md:h-5 md:w-5 fill-yellow-400 text-yellow-400" />
+                  <Star className="h-4 w-4 md:h-5 md:w-5 fill-yellow-400 text-yellow-400" />
                 </div>
-                <img src={verifiedIcon} alt="Verified" className="h-8 w-8 object-contain" />
+                <img src={verifiedIcon} alt="Verified" className="h-5 w-5 md:h-8 md:w-8 object-contain" />
               </div>
-              <p className="text-lg text-white italic mb-2">
+              <p className="text-base md:text-lg text-white italic mb-2 px-2">
                 "From the very first appointment, I instantly felt like I was getting to the bottom of my issues that no GP could figure out"
               </p>
-              <p className="text-white/80 font-semibold">- Daniel Morton</p>
+              <p className="text-sm md:text-base text-white/80 font-semibold">- Daniel Morton</p>
             </div>
             
             {/* Sub-Headline */}
-            <p className="text-xl lg:text-2xl text-white/90 max-w-3xl mx-auto">
+            <p className="text-lg sm:text-xl lg:text-2xl text-white/90 max-w-3xl mx-auto px-2">
               We Don't Focus On Fixing Just Symptoms, We Heal What's Really Going On Inside.
             </p>
             
             {/* Call Button */}
-            <div className="flex justify-center">
-              <Button size="lg" className="text-base sm:text-lg px-8 py-6 h-auto bg-primary hover:bg-primary/90 text-white font-bold" asChild>
-                <a href="tel:0731808853">
-                  <Phone className="mr-2 h-5 w-5" />
-                  Call Mitch (Brisbane's #1 Most Wanted Bloat Killer)
+            <div className="flex justify-center px-4">
+              <Button size="lg" className="text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-4 md:py-6 h-auto bg-primary hover:bg-primary/90 text-white font-bold w-full sm:w-auto" asChild>
+                <a href="tel:0731808853" className="flex items-center justify-center">
+                  <Phone className="mr-2 h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
+                  <span className="text-center">Call Mitch (Brisbane's #1 Most Wanted Bloat Killer)</span>
                 </a>
               </Button>
             </div>
             
             {/* Trust Boosters */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 max-w-4xl mx-auto">
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6 text-center">
-                <CheckCircle className="h-8 w-8 text-primary mx-auto mb-2" />
-                <p className="text-white font-semibold">947+ Patients Healed</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 mt-8 md:mt-12 max-w-4xl mx-auto px-4">
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 md:p-6 text-center">
+                <CheckCircle className="h-6 w-6 md:h-8 md:w-8 text-primary mx-auto mb-2" />
+                <p className="text-white font-semibold text-sm md:text-base">947+ Patients Healed</p>
               </div>
               
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6 text-center">
-                <Clock className="h-8 w-8 text-primary mx-auto mb-2" />
-                <p className="text-white font-semibold">90% of Patients See Results In Just 3 Weeks!</p>
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 md:p-6 text-center">
+                <Clock className="h-6 w-6 md:h-8 md:w-8 text-primary mx-auto mb-2" />
+                <p className="text-white font-semibold text-sm md:text-base">90% of Patients See Results In Just 3 Weeks!</p>
               </div>
               
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6 text-center">
-                <Gift className="h-8 w-8 text-primary mx-auto mb-2" />
-                <p className="text-white font-semibold">Free 15-Minute Consult for New Patients!</p>
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 md:p-6 text-center">
+                <Gift className="h-6 w-6 md:h-8 md:w-8 text-primary mx-auto mb-2" />
+                <p className="text-white font-semibold text-sm md:text-base">Free 15-Minute Consult for New Patients!</p>
               </div>
               
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6 text-center">
-                <Users className="h-8 w-8 text-primary mx-auto mb-2" />
-                <p className="text-white font-semibold">Normal Consults Last 1hr, Not 5mins</p>
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 md:p-6 text-center">
+                <Users className="h-6 w-6 md:h-8 md:w-8 text-primary mx-auto mb-2" />
+                <p className="text-white font-semibold text-sm md:text-base">Normal Consults Last 1hr, Not 5mins</p>
               </div>
               
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6 text-center md:col-span-2">
-                <Heart className="h-8 w-8 text-primary mx-auto mb-2" />
-                <p className="text-white font-semibold">Your Plan Will Be Made Just for You, Not Recycled Like Trash</p>
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 md:p-6 text-center md:col-span-2">
+                <Heart className="h-6 w-6 md:h-8 md:w-8 text-primary mx-auto mb-2" />
+                <p className="text-white font-semibold text-sm md:text-base">Your Plan Will Be Made Just for You, Not Recycled Like Trash</p>
               </div>
             </div>
             
             {/* Calendly Embed */}
-            <div className="mt-12 bg-white rounded-2xl p-4 shadow-2xl max-w-4xl mx-auto">
+            <div className="mt-8 md:mt-12 bg-white rounded-2xl p-2 md:p-4 shadow-2xl max-w-4xl mx-auto">
               <div 
                 className="calendly-inline-widget" 
                 data-url="https://calendly.com/nxtlvlhealth-info/15-min-consult?primary_color=3fd3b5" 
-                style={{ minWidth: '320px', height: '700px' }}
+                style={{ minWidth: '320px', height: '700px', width: '100%' }}
               ></div>
             </div>
           </div>
