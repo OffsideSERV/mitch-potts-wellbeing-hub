@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useEffect } from 'react';
 import SEO from '@/components/SEO';
 import LazyImage from '@/components/LazyImage';
 import TestimonialCard from '@/components/TestimonialCard';
@@ -6,7 +6,20 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, TestTube, BadgeCheck, Target, Shield, Zap, Coffee, Clock, Brain, Phone, Pill, Salad, DollarSign, CheckCircle, Star, Gift, ArrowRight, Video } from 'lucide-react';
+import googleIcon from '@/assets/google-icon.png';
+import verifiedIcon from '@/assets/verified-icon.png';
 const Index = () => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://assets.calendly.com/assets/external/widget.js';
+    script.async = true;
+    document.body.appendChild(script);
+    
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   const services = useMemo(() => [{
     title: "Naturopathy",
     description: "We offer powerful yet gentle support for your whole body. We work with chronic fatigue, gut health, hormonal imbalance, and more.",
@@ -71,11 +84,22 @@ const Index = () => {
           <div className="space-y-8 text-center">
             {/* Headline */}
             <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight">
-              We'll Give You Energy That Never Dies, Skin That Never Breaks Out, & a Gut That Never Bloats In As Little As 21 Days!
+              We'll Give You <span className="text-primary">Energy</span> That <span className="text-primary">Never Dies</span>, Skin That <span className="text-primary">Never Breaks Out</span>, & a <span className="text-primary">Gut</span> That <span className="text-primary">Never Bloats</span> In As Little As <span className="text-primary">21 Days!</span>
             </h1>
             
             {/* Testimonial */}
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 max-w-3xl mx-auto">
+              <div className="flex items-center justify-center gap-3 mb-4">
+                <img src={googleIcon} alt="Google" className="h-8 w-8 object-contain" />
+                <div className="flex gap-1">
+                  <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
+                  <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
+                  <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
+                  <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
+                  <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
+                </div>
+                <img src={verifiedIcon} alt="Verified" className="h-8 w-8 object-contain" />
+              </div>
               <p className="text-lg text-white italic mb-2">
                 "From the very first appointment, I instantly felt like I was getting to the bottom of my issues that no GP could figure out"
               </p>
@@ -98,30 +122,30 @@ const Index = () => {
             </div>
             
             {/* Trust Boosters */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mt-12 max-w-5xl mx-auto">
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 text-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 max-w-4xl mx-auto">
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6 text-center">
                 <CheckCircle className="h-8 w-8 text-primary mx-auto mb-2" />
-                <p className="text-white font-semibold text-sm">947+ Patients Healed</p>
+                <p className="text-white font-semibold">947+ Patients Healed</p>
               </div>
               
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 text-center">
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6 text-center">
                 <Clock className="h-8 w-8 text-primary mx-auto mb-2" />
-                <p className="text-white font-semibold text-sm">90% of Patients See Results In Just 3 Weeks!</p>
+                <p className="text-white font-semibold">90% of Patients See Results In Just 3 Weeks!</p>
               </div>
               
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 text-center">
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6 text-center">
                 <Gift className="h-8 w-8 text-primary mx-auto mb-2" />
-                <p className="text-white font-semibold text-sm">Free 15-Minute Consult for New Patients!</p>
+                <p className="text-white font-semibold">Free 15-Minute Consult for New Patients!</p>
               </div>
               
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 text-center">
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6 text-center">
                 <Users className="h-8 w-8 text-primary mx-auto mb-2" />
-                <p className="text-white font-semibold text-sm">Normal Consults Last 1hr, Not 5mins</p>
+                <p className="text-white font-semibold">Normal Consults Last 1hr, Not 5mins</p>
               </div>
               
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 text-center">
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6 text-center md:col-span-2">
                 <Heart className="h-8 w-8 text-primary mx-auto mb-2" />
-                <p className="text-white font-semibold text-sm">Your Plan Will Be Made Just for You, Not Recycled Like Trash</p>
+                <p className="text-white font-semibold">Your Plan Will Be Made Just for You, Not Recycled Like Trash</p>
               </div>
             </div>
             
@@ -132,7 +156,6 @@ const Index = () => {
                 data-url="https://calendly.com/nxtlvlhealth-info/15-min-consult?primary_color=3fd3b5" 
                 style={{ minWidth: '320px', height: '700px' }}
               ></div>
-              <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
             </div>
           </div>
         </div>
