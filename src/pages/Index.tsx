@@ -54,92 +54,85 @@ const Index = () => {
       <SEO title="Best Naturopath Brisbane | Book a FREE 15-Min Consult!" description="Feel like something's wrong but no one's listening? NXTLVL Health is the best Naturopath in Brisbane and is here to give you the answers you've been looking for" canonical="/" keywords="naturopath Brisbane, best naturopath Brisbane, natural medicine Brisbane, functional medicine Brisbane, gut health Brisbane" />
       
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
-        <div className="container mx-auto max-w-6xl">
-          <div className="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
-            <div className="space-y-8 lg:mt-0 mt-12">
-              <div className="space-y-4">
-                {/* Top Rated Badge */}
-                <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">
-                  <span>Top Rated Naturopath in Brisbane</span>
-                  <div className="flex items-center gap-1">
-                    {[...Array(5)].map((_, i) => <Star key={i} className="h-3 w-3 fill-yellow-400 text-yellow-400" />)}
-                  </div>
-                </div>
-                
-                <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Best Naturopath Brisbane | <span className="text-primary">Feel Like Yourself Again</span> at NXTLVL Health
-                </h1>
-                
-                {/* Mobile Image - placed right after headline */}
-                <div className="relative lg:hidden mb-20 -mx-4">
-                  <LazyImage alt="Best naturopath Brisbane Mitchell Potts consulting with female patient at NXTLVL Health clinic" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/f459679d-99b6-4b58-affb-e2cedb040e6e.png" width={520} height={347} />
-                  <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
-                    <div className="flex items-center space-x-3">
-                      <Microscope className="h-6 w-6 text-primary" />
-                      <div>
-                        <p className="font-semibold text-sm">Advanced Screening Method</p>
-                        <p className="text-xs text-muted-foreground">Live Blood Analysis • Natural Medicine</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+      <section 
+        className="relative py-20 px-4 min-h-screen flex items-center"
+        style={{
+          backgroundImage: 'url(/lovable-uploads/f459679d-99b6-4b58-affb-e2cedb040e6e.png)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-black/60"></div>
+        
+        {/* Content */}
+        <div className="container mx-auto max-w-4xl relative z-10">
+          <div className="space-y-8 text-center">
+            {/* Headline */}
+            <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight">
+              We'll Give You Energy That Never Dies, Skin That Never Breaks Out, & a Gut That Never Bloats In As Little As 21 Days!
+            </h1>
+            
+            {/* Testimonial */}
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 max-w-3xl mx-auto">
+              <p className="text-lg text-white italic mb-2">
+                "From the very first appointment, I instantly felt like I was getting to the bottom of my issues that no GP could figure out"
+              </p>
+              <p className="text-white/80 font-semibold">- Daniel Morton</p>
+            </div>
+            
+            {/* Sub-Headline */}
+            <p className="text-xl lg:text-2xl text-white/90 max-w-3xl mx-auto">
+              We Don't Focus On Fixing Just Symptoms, We Heal What's Really Going On Inside.
+            </p>
+            
+            {/* Call Button */}
+            <div className="flex justify-center">
+              <Button size="lg" className="text-base sm:text-lg px-8 py-6 h-auto bg-primary hover:bg-primary/90 text-white font-bold" asChild>
+                <a href="tel:0731808853">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Call Mitch (Brisbane's #1 Most Wanted Bloat Killer)
+                </a>
+              </Button>
+            </div>
+            
+            {/* Trust Boosters */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mt-12 max-w-5xl mx-auto">
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 text-center">
+                <CheckCircle className="h-8 w-8 text-primary mx-auto mb-2" />
+                <p className="text-white font-semibold text-sm">947+ Patients Healed</p>
               </div>
               
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight" asChild>
-                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
-                    <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
-                    <span className="text-center">Book a Free 15-Min Consult</span>
-                  </a>
-                </Button>
-                <Button variant="outline" size="lg" className="text-base sm:text-lg px-4 py-3 h-auto" asChild>
-                  <a href="tel:0731808853">
-                    <Phone className="mr-2 h-4 w-4 flex-shrink-0" />
-                    Call Mitch Now
-                  </a>
-                </Button>
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 text-center">
+                <Clock className="h-8 w-8 text-primary mx-auto mb-2" />
+                <p className="text-white font-semibold text-sm">90% of Patients See Results In Just 3 Weeks!</p>
               </div>
               
-              {/* Google 5 Star Badge */}
-              <div className="mt-6">
-                <script defer async src='https://cdn.trustindex.io/loader.js?7985f8c47d89745a18661502ab0'></script>
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 text-center">
+                <Gift className="h-8 w-8 text-primary mx-auto mb-2" />
+                <p className="text-white font-semibold text-sm">Free 15-Minute Consult for New Patients!</p>
+              </div>
+              
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 text-center">
+                <Users className="h-8 w-8 text-primary mx-auto mb-2" />
+                <p className="text-white font-semibold text-sm">Normal Consults Last 1hr, Not 5mins</p>
+              </div>
+              
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 text-center">
+                <Heart className="h-8 w-8 text-primary mx-auto mb-2" />
+                <p className="text-white font-semibold text-sm">Your Plan Will Be Made Just for You, Not Recycled Like Trash</p>
               </div>
             </div>
             
-            {/* Desktop Image - only visible on large screens */}
-            <div className="relative hidden lg:block">
-              <LazyImage alt="Best naturopath Brisbane consultation at NXTLVL Health natural medicine clinic" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/f459679d-99b6-4b58-affb-e2cedb040e6e.png" width={600} height={400} />
-              <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
-                <div className="flex items-center space-x-3">
-                  <Microscope className="h-8 w-8 text-primary" />
-                  <div>
-                    <p className="font-semibold">Advanced Screening Method</p>
-                    <p className="text-sm text-muted-foreground">Live Blood Analysis • Natural Medicine</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Trust Boosters */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 justify-between">
-            <div className="text-center">
-              <Users className="h-12 w-12 text-primary mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-foreground mb-1">1000+</h3>
-              <p className="text-sm text-muted-foreground">Patients Helped</p>
-            </div>
-            
-            <div className="text-center">
-              <CheckCircle className="h-12 w-12 text-primary mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-foreground mb-1">Real Testing</h3>
-              <p className="text-sm text-muted-foreground">No Guessing</p>
-            </div>
-            
-            <div className="text-center">
-              <TestTube className="h-12 w-12 text-primary mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-foreground mb-1">90% of Patients</h3>
-              <p className="text-sm text-muted-foreground">See Results in Just 3 Weeks</p>
+            {/* Calendly Embed */}
+            <div className="mt-12 bg-white rounded-2xl p-4 shadow-2xl max-w-4xl mx-auto">
+              <div 
+                className="calendly-inline-widget" 
+                data-url="https://calendly.com/nxtlvlhealth-info/15-min-consult?primary_color=3fd3b5" 
+                style={{ minWidth: '320px', height: '700px' }}
+              ></div>
+              <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
             </div>
           </div>
         </div>
