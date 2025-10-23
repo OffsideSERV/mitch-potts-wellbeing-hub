@@ -88,22 +88,22 @@ const Index = () => {
             </h1>
             
             {/* Testimonial */}
-            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 md:p-6 max-w-3xl mx-auto">
-              <div className="flex items-center justify-center gap-2 md:gap-3 mb-3 md:mb-4 flex-wrap">
-                <img src={googleIcon} alt="Google" className="h-5 w-5 md:h-8 md:w-8 object-contain" />
-                <div className="flex gap-1">
-                  <Star className="h-4 w-4 md:h-5 md:w-5 fill-yellow-400 text-yellow-400" />
-                  <Star className="h-4 w-4 md:h-5 md:w-5 fill-yellow-400 text-yellow-400" />
-                  <Star className="h-4 w-4 md:h-5 md:w-5 fill-yellow-400 text-yellow-400" />
-                  <Star className="h-4 w-4 md:h-5 md:w-5 fill-yellow-400 text-yellow-400" />
-                  <Star className="h-4 w-4 md:h-5 md:w-5 fill-yellow-400 text-yellow-400" />
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-3 md:p-6 max-w-3xl mx-auto">
+              <div className="flex items-center justify-center gap-2 md:gap-3 mb-2 md:mb-4 flex-wrap">
+                <img src={googleIcon} alt="Google" className="h-4 w-4 md:h-8 md:w-8 object-contain" />
+                <div className="flex gap-0.5 md:gap-1">
+                  <Star className="h-3 w-3 md:h-5 md:w-5 fill-yellow-400 text-yellow-400" />
+                  <Star className="h-3 w-3 md:h-5 md:w-5 fill-yellow-400 text-yellow-400" />
+                  <Star className="h-3 w-3 md:h-5 md:w-5 fill-yellow-400 text-yellow-400" />
+                  <Star className="h-3 w-3 md:h-5 md:w-5 fill-yellow-400 text-yellow-400" />
+                  <Star className="h-3 w-3 md:h-5 md:w-5 fill-yellow-400 text-yellow-400" />
                 </div>
-                <img src={verifiedIcon} alt="Verified" className="h-5 w-5 md:h-8 md:w-8 object-contain" />
+                <img src={verifiedIcon} alt="Verified" className="h-4 w-4 md:h-8 md:w-8 object-contain" />
               </div>
-              <p className="text-base md:text-lg text-white italic mb-2 px-2">
+              <p className="text-sm md:text-lg text-white italic mb-1.5 md:mb-2">
                 "From the very first appointment, I instantly felt like I was getting to the bottom of my issues that no GP could figure out"
               </p>
-              <p className="text-sm md:text-base text-white/80 font-semibold">- Daniel Morton</p>
+              <p className="text-xs md:text-base text-white/80 font-semibold">- Daniel Morton</p>
             </div>
             
             {/* Sub-Headline */}
@@ -113,10 +113,13 @@ const Index = () => {
             
             {/* Call Button */}
             <div className="flex justify-center px-4">
-              <Button size="lg" className="text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-4 md:py-6 h-auto bg-primary hover:bg-primary/90 text-white font-bold w-full sm:w-auto" asChild>
-                <a href="tel:0731808853" className="flex items-center justify-center">
-                  <Phone className="mr-2 h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
-                  <span className="text-center">Call Mitch (Brisbane's #1 Most Wanted Bloat Killer)</span>
+              <Button size="lg" className="text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-5 md:py-6 h-auto bg-primary hover:bg-primary/90 text-white font-bold w-full sm:w-auto min-h-[80px] md:min-h-0" asChild>
+                <a href="tel:0731808853" className="flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2">
+                  <div className="flex items-center gap-2">
+                    <Phone className="h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
+                    <span>Call Mitch</span>
+                  </div>
+                  <span className="text-xs sm:text-sm md:text-base">(Brisbane's #1 Most Wanted Bloat Killer)</span>
                 </a>
               </Button>
             </div>
@@ -150,11 +153,11 @@ const Index = () => {
             </div>
             
             {/* Calendly Embed */}
-            <div className="mt-8 md:mt-12 bg-white rounded-2xl p-2 md:p-4 shadow-2xl max-w-4xl mx-auto">
+            <div className="mt-8 md:mt-12 bg-white rounded-2xl p-2 md:p-4 shadow-2xl max-w-4xl mx-auto overflow-hidden">
               <div 
-                className="calendly-inline-widget" 
+                className="calendly-inline-widget w-full" 
                 data-url="https://calendly.com/nxtlvlhealth-info/15-min-consult?primary_color=3fd3b5" 
-                style={{ minWidth: '320px', height: '700px', width: '100%' }}
+                style={{ minWidth: '280px', height: '700px', width: '100%', maxWidth: '100%' }}
               ></div>
             </div>
           </div>
