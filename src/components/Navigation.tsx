@@ -90,17 +90,17 @@ const Navigation = () => {
       <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white py-2 md:py-3 px-4">
         <div className="container mx-auto">
           {/* Mobile Layout */}
-          <div className="flex flex-col sm:hidden items-center justify-center gap-2 text-center">
-            <div className="flex items-center gap-2">
-              <Gift className="h-4 w-4 text-yellow-300 animate-pulse flex-shrink-0" />
-              <span className="text-xs font-medium leading-tight">
-                <strong>15% off Naturopathy Initial Consults until the end of October</strong>
+          <div className="flex flex-col sm:hidden items-center justify-center gap-2 text-center px-2">
+            <div className="flex items-start gap-2 justify-center">
+              <Gift className="h-3.5 w-3.5 text-yellow-300 animate-pulse flex-shrink-0 mt-0.5" />
+              <span className="text-[11px] font-medium leading-snug max-w-[85%]">
+                <strong>15% off Naturopathy Initial Consults<br />until the end of October</strong>
               </span>
             </div>
             <Button 
               variant="secondary" 
               size="sm" 
-              className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold whitespace-nowrap text-xs px-3 py-1"
+              className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold whitespace-nowrap text-xs px-4 py-1.5 h-auto"
               asChild
             >
               <a href="https://nxtlvlhealth.com.au/book-now" target="_blank" rel="noopener noreferrer">Book Now</a>
