@@ -8,6 +8,8 @@ import { Badge } from "@/components/ui/badge";
 import { Calendar, Heart, Leaf, Book, Thermometer, Weight, Microscope, Users, TestTube, BadgeCheck, Target, Shield, Zap, Coffee, Clock, Brain, Phone, Pill, Salad, DollarSign, CheckCircle, Star, Gift, ArrowRight, Video } from 'lucide-react';
 import googleIcon from '@/assets/google-icon.png';
 import verifiedIcon from '@/assets/verified-icon.png';
+import danielMortonProfile from '@/assets/daniel-morton-profile.png';
+import consultationHeroBg from '@/assets/consultation-hero-bg.webp';
 const Index = () => {
   useEffect(() => {
     const script = document.createElement('script');
@@ -70,14 +72,14 @@ const Index = () => {
       <section 
         className="relative py-20 px-4 min-h-screen flex items-center"
         style={{
-          backgroundImage: 'url(/lovable-uploads/f459679d-99b6-4b58-affb-e2cedb040e6e.png)',
+          backgroundImage: `url(${consultationHeroBg})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
         }}
       >
         {/* Dark Overlay */}
-        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="absolute inset-0 bg-black/70"></div>
         
         {/* Content */}
         <div className="container mx-auto max-w-4xl relative z-10">
@@ -101,15 +103,22 @@ const Index = () => {
                 <img src={verifiedIcon} alt="Verified" className="h-4 w-4 md:h-8 md:w-8 object-contain" />
               </div>
               <p className="text-sm md:text-lg text-white italic mb-1.5 md:mb-2">
-                "From the very first appointment, I instantly felt like I was getting to the bottom of my issues that no GP could figure out"
+                "From the <strong>very first appointment</strong>, I instantly felt like I was <strong>getting to the bottom of my issues</strong> that <strong>no GP could figure out</strong>"
               </p>
-              <p className="text-xs md:text-base text-white/80 font-semibold">- Daniel Morton</p>
+              <div className="flex items-center justify-center gap-2">
+                <img 
+                  src={danielMortonProfile} 
+                  alt="Daniel Morton" 
+                  className="w-8 h-8 md:w-10 md:h-10 rounded-full object-cover"
+                />
+                <p className="text-xs md:text-base text-white/80 font-semibold">Daniel Morton</p>
+              </div>
             </div>
             
             {/* Sub-Headline */}
-            <p className="text-lg sm:text-xl lg:text-2xl text-white/90 max-w-3xl mx-auto px-2">
-              We Don't Focus On Fixing Just Symptoms, We Heal What's Really Going On Inside.
-            </p>
+            <h2 className="text-lg sm:text-xl lg:text-2xl text-white font-bold max-w-3xl mx-auto px-2">
+              We <span className="text-primary">Don't</span> Focus On Fixing Just <span className="text-primary">Symptoms</span>, We <span className="text-primary">Heal</span> What's Really Going On <span className="text-primary">Inside</span>.
+            </h2>
             
             {/* Call Button */}
             <div className="flex justify-center px-4">
