@@ -86,7 +86,9 @@ const Index = () => {
           <div className="space-y-8 text-center">
             {/* Headline */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight px-2">
-              We'll Give You Energy That <span className="text-primary">Never Dies</span>, Skin That <span className="text-primary">Never Breaks Out</span>, & a Gut That <span className="text-primary">Never Bloats</span> In As Little As <span className="text-primary">21 Days!</span>
+              We'll Give You Energy That <span className="text-primary">Never Dies</span>, Skin That <span className="text-primary">Never Breaks Out</span>,{" "}
+              <span className="inline sm:hidden"><br /></span>
+              & a Gut That <span className="text-primary">Never Bloats</span> In As Little As <span className="text-primary">21 Days!</span>
             </h1>
             
             {/* Testimonial */}
@@ -122,7 +124,7 @@ const Index = () => {
             
             {/* Call Button */}
             <div className="flex justify-center px-4">
-              <Button size="lg" className="text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-5 md:py-6 h-auto bg-primary hover:bg-primary/90 text-white font-bold w-full sm:w-auto min-h-[80px] md:min-h-0" asChild>
+              <Button size="lg" className="text-sm sm:text-base md:text-lg px-8 sm:px-6 md:px-8 py-5 md:py-6 h-auto bg-primary hover:bg-primary/90 text-white font-bold w-full sm:w-auto min-h-[80px] md:min-h-0" asChild>
                 <a href="tel:0731808853" className="flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2">
                   <div className="flex items-center gap-2">
                     <Phone className="h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
