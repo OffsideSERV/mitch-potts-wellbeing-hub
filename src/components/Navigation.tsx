@@ -15,6 +15,7 @@ const Navigation = () => {
   const isActive = (path: string) => location.pathname === path;
 
   const servicesItems = [
+    { title: "NXTLVL Reset - 12 Week Program", href: "/nxtlvl-reset" },
     { title: "Live Blood Analysis in Brisbane", href: "/services/live-blood-analysis-brisbane" },
     { title: "Functional Medicine", href: "/functional-medicine" },
     { title: "Nutrition", href: "/services/nutritionist-brisbane" },
