@@ -79,6 +79,7 @@ import DoesGumMakeYouBloated from "./pages/DoesGumMakeYouBloated";
 import AntiAging from "./pages/AntiAging";
 import GutMicrobiomeMentalHealth from "./pages/GutMicrobiomeMentalHealth";
 import NXTLVLReset from "./pages/NXTLVLReset";
+import HealthPackages from "./pages/HealthPackages";
 
 const queryClient = new QueryClient();
 
@@ -164,6 +165,9 @@ const App = () => (
         <Route path="/what-we-treat/cardiovascular-health-naturopath-brisbane" element={<CardiovascularHealth />} />
         <Route path="/what-we-treat/anti-aging-naturopath-brisbane" element={<AntiAging />} />
                 <Route path="/what-we-treat/naturopath-for-athletes" element={<NaturopathForAthletes />} />
+                
+                {/* Health Packages */}
+                <Route path="/health-packages" element={<HealthPackages />} />
                 
                 {/* About Us page */}
                 <Route path="/about-us" element={<AboutUs />} />
