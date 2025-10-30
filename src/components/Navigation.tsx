@@ -89,22 +89,22 @@ const Navigation = () => {
   return (
     <>
       {/* Naturopathy Promotion Header */}
-      <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white py-2 md:py-3 px-4">
+      <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white py-3 md:py-3 px-6">
         <div className="container mx-auto">
           {/* Mobile Layout */}
-          <div className="flex flex-col sm:hidden items-center justify-center gap-2.5 text-center px-2">
-            <div className="flex items-center gap-2 justify-center">
-              <Gift className="h-4 w-4 text-yellow-300 animate-pulse flex-shrink-0" />
-              <div className="text-xs font-medium leading-relaxed">
+          <div className="flex flex-col sm:hidden items-center justify-center gap-3 text-center">
+            <div className="flex items-center gap-3 justify-center w-full">
+              <Gift className="h-5 w-5 text-yellow-300 animate-pulse flex-shrink-0" />
+              <div className="text-sm font-medium leading-relaxed">
                 <div className="font-bold">15% off Naturopathy</div>
                 <div className="font-bold">Initial Consults</div>
-                <div className="text-[11px] mt-0.5">until the end of October</div>
+                <div className="text-xs mt-1">until the end of October</div>
               </div>
             </div>
             <Button 
               variant="secondary" 
               size="sm" 
-              className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold whitespace-nowrap text-xs px-4 py-1.5 h-auto"
+              className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold whitespace-nowrap text-sm px-6 py-2 h-auto"
               asChild
             >
               <a href="https://nxtlvlhealth.com.au/book-now" target="_blank" rel="noopener noreferrer">Book Now</a>
