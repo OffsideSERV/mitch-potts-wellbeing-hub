@@ -85,10 +85,11 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl relative z-10">
           <div className="space-y-8 text-center">
             {/* Headline */}
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight px-2">
-              We'll Give You Energy That <span className="text-primary">Never Dies</span>, Skin That <span className="text-primary">Never Breaks Out</span>,{" "}
-              <span className="inline sm:hidden"><br /></span>
-              & a Gut That <span className="text-primary">Never Bloats</span> In As Little As <span className="text-primary">21 Days!</span>
+            <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-snug sm:leading-tight px-2">
+              We'll Give You <span className="block sm:inline">Energy That <span className="text-primary">Never Dies</span>,</span>{" "}
+              <span className="block sm:inline">Skin That <span className="text-primary">Never Breaks Out</span>,</span>{" "}
+              <span className="block sm:inline">& a Gut That <span className="text-primary">Never Bloats</span></span>{" "}
+              <span className="block sm:inline">In As Little As <span className="text-primary">21 Days!</span></span>
             </h1>
             
             {/* Testimonial */}
