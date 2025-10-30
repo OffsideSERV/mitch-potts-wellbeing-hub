@@ -1,4 +1,34 @@
+import { Check } from "lucide-react";
+
 const WhatYouGet = () => {
+  const coreInclusions = [
+    "Phase-by-phase supplement protocol",
+    "Practitioner grade supplements",
+    "Nutrition plans & guidance",
+    "Private fitness app access",
+    "Exercise programming with video demos",
+    "Strength & fitness testing",
+    "Recovery tools",
+    "Group coaching"
+  ];
+
+  const additionalInclusions = [
+    "1:1 Naturopathic consultations",
+    "Group coaching calls",
+    "Accountability check-ins",
+    "Online support",
+    "Health optimisation testing",
+    "Symptom tracking",
+    "Educational modules",
+    "Wellness webinars",
+    "Mental strength and confidence coaching",
+    "Weekly habit-building protocols",
+    "Community support",
+    "Stress management tools",
+    "Access to further testing and analysis of genetics, gut health, hormones, heavy metals and more",
+    "Continued discounts on ongoing supplementation"
+  ];
+
   const features = [
     {
       icon: "💊",
@@ -49,12 +79,24 @@ const WhatYouGet = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-nxt-black mb-6">
             Everything You Need to Succeed
           </h2>
-          <p className="text-xl text-nxt-grey max-w-3xl mx-auto">
-            A comprehensive support system designed to ensure your transformation success.
+          <p className="text-xl text-nxt-grey max-w-3xl mx-auto mb-8">
+            The 12 Week NXTLVL Reset is packed with everything you need to reset, rebuild and reclaim your health. From supplements and nutrition to movement and support, it's all here for you.
           </p>
+          
+          {/* Core Inclusions */}
+          <div className="bg-card border border-border rounded-2xl p-8 max-w-4xl mx-auto mb-12">
+            <div className="grid sm:grid-cols-2 gap-4 text-left">
+              {coreInclusions.map((item, index) => (
+                <div key={index} className="flex items-start gap-3">
+                  <Check className="h-5 w-5 text-nxt-red shrink-0 mt-0.5" />
+                  <span className="text-nxt-black font-medium">{item}</span>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
         
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto mb-16">
           {features.map((feature, index) => (
             <div 
               key={index}
@@ -76,6 +118,23 @@ const WhatYouGet = () => {
               </p>
             </div>
           ))}
+        </div>
+
+        {/* Also Included Section */}
+        <div className="max-w-5xl mx-auto">
+          <h3 className="text-2xl md:text-3xl font-bold text-nxt-black mb-8 text-center">
+            Also Included
+          </h3>
+          <div className="bg-card border border-border rounded-2xl p-8">
+            <div className="grid sm:grid-cols-2 gap-4">
+              {additionalInclusions.map((item, index) => (
+                <div key={index} className="flex items-start gap-3">
+                  <div className="h-1.5 w-1.5 rounded-full bg-nxt-red shrink-0 mt-2" />
+                  <span className="text-nxt-grey">{item}</span>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>
