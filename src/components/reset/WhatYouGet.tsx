@@ -1,79 +1,41 @@
 import { Check } from "lucide-react";
-
 const WhatYouGet = () => {
-  const coreInclusions = [
-    "Phase-by-phase supplement protocol",
-    "Practitioner grade supplements",
-    "Nutrition plans & guidance",
-    "Private fitness app access",
-    "Exercise programming with video demos",
-    "Strength & fitness testing",
-    "Recovery tools",
-    "Group coaching"
-  ];
-
-  const additionalInclusions = [
-    "1:1 Naturopathic consultations",
-    "Group coaching calls",
-    "Accountability check-ins",
-    "Online support",
-    "Health optimisation testing",
-    "Symptom tracking",
-    "Educational modules",
-    "Wellness webinars",
-    "Mental strength and confidence coaching",
-    "Weekly habit-building protocols",
-    "Community support",
-    "Stress management tools",
-    "Access to further testing and analysis of genetics, gut health, hormones, heavy metals and more",
-    "Continued discounts on ongoing supplementation"
-  ];
-
-  const features = [
-    {
-      icon: "💊",
-      title: "Professional Supplement Protocol",
-      description: "High-quality supplements included to support detox, gut health, and optimisation."
-    },
-    {
-      icon: "👥", 
-      title: "1:1 Consultations & Group Support",
-      description: "Personal guidance, group coaching calls, and ongoing accountability check-ins."
-    },
-    {
-      icon: "🧬",
-      title: "Advanced Health Testing", 
-      description: "Online health optimisation testing with access to genetic, GI, and hormone testing."
-    },
-    {
-      icon: "📱",
-      title: "Fitness App Access",
-      description: "Complete exercise demonstrations and customised workout protocols."
-    },
-    {
-      icon: "🥗",
-      title: "Customised Nutrition Protocols",
-      description: "Personalised food guidelines, recipes, and meal planning support."
-    },
-    {
-      icon: "📊",
-      title: "Comprehensive Tracking",
-      description: "Symptom monitoring, progress tracking, and health education modules."
-    },
-    {
-      icon: "🧘",
-      title: "Stress Management Tools",
-      description: "Lifestyle protocols, breathwork, and nervous system optimisation techniques."
-    },
-    {
-      icon: "🤝",
-      title: "Community Support",
-      description: "Connect with like-minded individuals on the same transformation journey."
-    }
-  ];
-
-  return (
-    <section className="py-20 bg-background">
+  const coreInclusions = ["Phase-by-phase supplement protocol", "Practitioner grade supplements", "Nutrition plans & guidance", "Private fitness app access", "Exercise programming with video demos", "Strength & fitness testing", "Recovery tools", "Group coaching"];
+  const additionalInclusions = ["1:1 Naturopathic consultations", "Group coaching calls", "Accountability check-ins", "Online support", "Health optimisation testing", "Symptom tracking", "Educational modules", "Wellness webinars", "Mental strength and confidence coaching", "Weekly habit-building protocols", "Community support", "Stress management tools", "Access to further testing and analysis of genetics, gut health, hormones, heavy metals and more", "Continued discounts on ongoing supplementation"];
+  const features = [{
+    icon: "💊",
+    title: "Professional Supplement Protocol",
+    description: "High-quality supplements included to support detox, gut health, and optimisation."
+  }, {
+    icon: "👥",
+    title: "1:1 Consultations & Group Support",
+    description: "Personal guidance, group coaching calls, and ongoing accountability check-ins."
+  }, {
+    icon: "🧬",
+    title: "Advanced Health Testing",
+    description: "Online health optimisation testing with access to genetic, GI, and hormone testing."
+  }, {
+    icon: "📱",
+    title: "Fitness App Access",
+    description: "Complete exercise demonstrations and customised workout protocols."
+  }, {
+    icon: "🥗",
+    title: "Customised Nutrition Protocols",
+    description: "Personalised food guidelines, recipes, and meal planning support."
+  }, {
+    icon: "📊",
+    title: "Comprehensive Tracking",
+    description: "Symptom monitoring, progress tracking, and health education modules."
+  }, {
+    icon: "🧘",
+    title: "Stress Management Tools",
+    description: "Lifestyle protocols, breathwork, and nervous system optimisation techniques."
+  }, {
+    icon: "🤝",
+    title: "Community Support",
+    description: "Connect with like-minded individuals on the same transformation journey."
+  }];
+  return <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-nxt-black mb-6">
@@ -84,24 +46,11 @@ const WhatYouGet = () => {
           </p>
           
           {/* Core Inclusions */}
-          <div className="bg-card border border-border rounded-2xl p-8 max-w-4xl mx-auto mb-12">
-            <div className="grid sm:grid-cols-2 gap-4 text-left">
-              {coreInclusions.map((item, index) => (
-                <div key={index} className="flex items-start gap-3">
-                  <Check className="h-5 w-5 text-nxt-red shrink-0 mt-0.5" />
-                  <span className="text-nxt-black font-medium">{item}</span>
-                </div>
-              ))}
-            </div>
-          </div>
+          
         </div>
         
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto mb-16">
-          {features.map((feature, index) => (
-            <div 
-              key={index}
-              className="bg-card rounded-xl p-6 text-center hover:shadow-nxt transition-nxt border border-border group"
-            >
+          {features.map((feature, index) => <div key={index} className="bg-card rounded-xl p-6 text-center hover:shadow-nxt transition-nxt border border-border group">
               {/* Icon */}
               <div className="text-4xl mb-4 group-hover:scale-110 transition-nxt">
                 {feature.icon}
@@ -116,8 +65,7 @@ const WhatYouGet = () => {
               <p className="text-nxt-grey text-sm leading-relaxed">
                 {feature.description}
               </p>
-            </div>
-          ))}
+            </div>)}
         </div>
 
         {/* Also Included Section */}
@@ -127,18 +75,14 @@ const WhatYouGet = () => {
           </h3>
           <div className="bg-card border border-border rounded-2xl p-8">
             <div className="grid sm:grid-cols-2 gap-4">
-              {additionalInclusions.map((item, index) => (
-                <div key={index} className="flex items-start gap-3">
+              {additionalInclusions.map((item, index) => <div key={index} className="flex items-start gap-3">
                   <div className="h-1.5 w-1.5 rounded-full bg-nxt-red shrink-0 mt-2" />
                   <span className="text-nxt-grey">{item}</span>
-                </div>
-              ))}
+                </div>)}
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default WhatYouGet;
