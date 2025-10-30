@@ -6,7 +6,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from 'react-helmet-async';
 import Layout from "./components/Layout";
 import CriticalCSS from "./components/CriticalCSS";
-import GutHealthPopup from "./components/GutHealthPopup";
 import ScrollToTop from "./components/ScrollToTop";
 
 // Import all pages directly for instant navigation
@@ -92,7 +91,6 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <ScrollToTop />
-        <GutHealthPopup />
         <Routes>
           {/* Landing pages without Layout (no nav/footer) */}
             <Route path="/laser-healing" element={<LaserHealing />} />
