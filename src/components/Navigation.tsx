@@ -92,12 +92,14 @@ const Navigation = () => {
       <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white py-2 md:py-3 px-4">
         <div className="container mx-auto">
           {/* Mobile Layout */}
-          <div className="flex flex-col sm:hidden items-center justify-center gap-2 text-center px-2">
-            <div className="flex items-start gap-2 justify-center">
-              <Gift className="h-3.5 w-3.5 text-yellow-300 animate-pulse flex-shrink-0 mt-0.5" />
-              <span className="text-[11px] font-medium leading-snug max-w-[85%]">
-                <strong>15% off Naturopathy Initial Consults<br />until the end of October</strong>
-              </span>
+          <div className="flex flex-col sm:hidden items-center justify-center gap-2.5 text-center px-2">
+            <div className="flex items-center gap-2 justify-center">
+              <Gift className="h-4 w-4 text-yellow-300 animate-pulse flex-shrink-0" />
+              <div className="text-xs font-medium leading-relaxed">
+                <div className="font-bold">15% off Naturopathy</div>
+                <div className="font-bold">Initial Consults</div>
+                <div className="text-[11px] mt-0.5">until the end of October</div>
+              </div>
             </div>
             <Button 
               variant="secondary" 
