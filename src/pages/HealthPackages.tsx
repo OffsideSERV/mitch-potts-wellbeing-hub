@@ -60,18 +60,18 @@ const HealthPackages = () => {
 
   const weightLossPackage = {
     name: "NXTLVL Transform - 6 Month Weight Loss",
-    price: "$2,500",
+    price: "$4,250",
+    savings: "Save $750",
     duration: "6 months",
     features: [
       "Weekly 1-on-1 coaching calls (24 sessions)",
-      "Personalised meal plans updated fortnightly",
+      "Personalised meal plans",
       "Custom training programs (gym & home options)",
       "Initial body composition analysis",
       "Monthly progress assessments",
       "Supplement recommendations",
       "24/7 WhatsApp support",
       "Access to NXTLVL training app",
-      "Recipe database with 100+ healthy meals",
       "Mindset & habit coaching",
       "Nutritional education modules",
       "Final transformation photoshoot",
@@ -213,7 +213,7 @@ const HealthPackages = () => {
                   <CardDescription className="text-base">{weightLossPackage.duration} of dedicated 1-on-1 coaching</CardDescription>
                   <div className="mt-6">
                     <div className="text-5xl font-bold text-foreground">{weightLossPackage.price}</div>
-                    <div className="text-sm text-muted-foreground mt-2">Complete online coaching program</div>
+                    <div className="text-sm text-primary font-semibold mt-1">{weightLossPackage.savings}</div>
                   </div>
                 </CardHeader>
                 <CardContent>
