@@ -1,7 +1,7 @@
 import { Check } from "lucide-react";
 const WhatYouGet = () => {
   const coreInclusions = ["Phase-by-phase supplement protocol", "Practitioner grade supplements", "Nutrition plans & guidance", "Private fitness app access", "Exercise programming with video demos", "Strength & fitness testing", "Recovery tools", "Group coaching"];
-  const additionalInclusions = ["1:1 Naturopathic consultations", "Group coaching calls", "Accountability check-ins", "Online support", "Health optimisation testing", "Symptom tracking", "Educational modules", "Wellness webinars", "Mental strength and confidence coaching", "Weekly habit-building protocols", "Community support", "Stress management tools", "Access to further testing and analysis of genetics, gut health, hormones, heavy metals and more", "Continued discounts on ongoing supplementation"];
+  const additionalInclusions = ["1:1 Naturopathic consultations", "Group coaching calls", "Accountability check-ins", "Online support", "Health optimisation testing", "Symptom tracking", "Educational modules", "Wellness webinars", "Mental strength and confidence coaching", "Weekly habit-building protocols", "Community support", "Access to further testing and analysis of genetics, gut health, hormones, heavy metals and more", "Continued discounts on ongoing supplementation"];
   const features = [{
     icon: "💊",
     title: "Professional Supplement Protocol",
@@ -69,17 +69,17 @@ const WhatYouGet = () => {
         </div>
 
         {/* Also Included Section */}
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <h3 className="text-2xl md:text-3xl font-bold text-nxt-black mb-8 text-center">
             Also Included
           </h3>
-          <div className="bg-card border border-border rounded-2xl p-8">
-            <div className="grid sm:grid-cols-2 gap-4">
-              {additionalInclusions.map((item, index) => <div key={index} className="flex items-start gap-3">
-                  <div className="h-1.5 w-1.5 rounded-full bg-nxt-red shrink-0 mt-2" />
-                  <span className="text-nxt-grey">{item}</span>
-                </div>)}
-            </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {additionalInclusions.map((item, index) => <div key={index} className="bg-gradient-to-br from-nxt-red/5 to-transparent border border-nxt-red/20 rounded-xl p-5 hover:shadow-md transition-nxt group hover:border-nxt-red/40">
+                <div className="flex items-start gap-3">
+                  <Check className="h-5 w-5 text-nxt-red shrink-0 mt-0.5 group-hover:scale-110 transition-nxt" />
+                  <span className="text-nxt-grey text-sm leading-relaxed">{item}</span>
+                </div>
+              </div>)}
           </div>
         </div>
       </div>
