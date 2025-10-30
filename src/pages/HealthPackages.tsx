@@ -7,7 +7,7 @@ const HealthPackages = () => {
   const gutHealthPackages = [
     {
       name: "Gut Reset - 3 Month",
-      price: "$1,500",
+      price: "$1,750",
       savings: "Save $200",
       duration: "3 months",
       features: [
