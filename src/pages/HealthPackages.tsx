@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check } from "lucide-react";
 import SEO from "@/components/SEO";
+import consultationImage from "@/assets/naturopath-consultation-supplements.jpg";
 
 const HealthPackages = () => {
   const gutHealthPackages = [
@@ -121,7 +122,7 @@ const HealthPackages = () => {
               </div>
               <div className="flex justify-center">
                 <img 
-                  src="/lovable-uploads/naturopath-consultation-clinic.png"
+                  src={consultationImage}
                   alt="Naturopath consultation at NXTLVL Health clinic"
                   className="rounded-2xl shadow-2xl max-w-md w-full object-cover"
                 />
