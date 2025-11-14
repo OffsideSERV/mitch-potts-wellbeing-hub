@@ -139,34 +139,49 @@ const Navigation = () => {
     }));
   };
   return <>
-      {/* Naturopathy Promotion Header */}
-      <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white py-2 md:py-3 px-4">
+      {/* Health Quiz Promotion Header */}
+      <a 
+        href="https://nxtlvl-health.scoreapp.com" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="block bg-gradient-to-r from-orange-500 to-red-500 text-white py-2 md:py-3 px-4 hover:from-orange-600 hover:to-red-600 transition-colors cursor-pointer"
+      >
         <div className="container mx-auto">
           {/* Mobile Layout */}
-          <div className="flex sm:hidden items-center justify-between gap-3 px-2">
-            <div className="flex items-center gap-2 flex-1 min-w-0">
-              <Gift className="h-4 w-4 text-yellow-300 animate-pulse flex-shrink-0" />
-              <div className="text-[11px] font-bold leading-tight">
-                15% off Naturopathy Initial Consults until end of October
-              </div>
+          <div className="flex sm:hidden items-center justify-center gap-2">
+            <Gift className="h-4 w-4 text-yellow-300 animate-pulse flex-shrink-0" />
+            <div className="text-[11px] font-bold leading-tight text-center">
+              Find out your Health Score - Take our Quiz!
             </div>
-            <Button variant="secondary" size="sm" className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold whitespace-nowrap text-xs px-3 py-1.5 h-auto flex-shrink-0" asChild>
-              <a href="https://nxtlvlhealth.com.au/book-now" target="_blank" rel="noopener noreferrer">Book</a>
+            <Button 
+              variant="secondary" 
+              size="sm" 
+              className="bg-yellow-400 text-black hover:bg-yellow-500 font-semibold whitespace-nowrap text-xs px-3 py-1.5 h-auto flex-shrink-0" 
+              asChild
+              onClick={(e: React.MouseEvent) => e.stopPropagation()}
+            >
+              <a href="https://nxtlvl-health.scoreapp.com" target="_blank" rel="noopener noreferrer">Start</a>
             </Button>
           </div>
           
           {/* Desktop Layout */}
-          <div className="hidden sm:flex flex-row items-center justify-center gap-3 text-center">
+          <div className="hidden sm:flex flex-row items-center justify-center gap-4 text-center">
             <Gift className="h-5 w-5 text-yellow-300 animate-pulse flex-shrink-0" />
-            <span className="text-sm md:text-base font-medium leading-tight">
-              <strong>Want to find out your Health Score? Do our Optimal Health Quiz!                                                                                          </strong>
+            <span className="text-sm md:text-base font-medium">
+              <strong>Want to find out your Health Score? Do our Optimal Health Quiz!</strong>
             </span>
-            <Button variant="secondary" size="sm" className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold whitespace-nowrap text-sm px-4 py-2" asChild>
-              <a href="https://nxtlvlhealth.com.au/book-now" target="_blank" rel="noopener noreferrer">Start Quiz   </a>
+            <Button 
+              variant="secondary" 
+              size="sm" 
+              className="bg-yellow-400 text-black hover:bg-yellow-500 font-semibold whitespace-nowrap text-sm px-6 py-2" 
+              asChild
+              onClick={(e: React.MouseEvent) => e.stopPropagation()}
+            >
+              <a href="https://nxtlvl-health.scoreapp.com" target="_blank" rel="noopener noreferrer">Start Quiz</a>
             </Button>
           </div>
         </div>
-      </div>
+      </a>
 
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto px-4">
