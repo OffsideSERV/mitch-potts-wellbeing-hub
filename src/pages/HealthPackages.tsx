@@ -31,7 +31,7 @@ const HealthPackages = () => {
       features: [
         "1 × Initial Naturopathic Consultation (60 mins)",
         "1 × Comprehensive Report Analysis & Treatment Consultation (60 mins)",
-        "6 × Follow-Up Consultations (30 mins each)",
+        "7 × Follow-Up Consultations (30 mins each)",
         "Comprehensive Gut Microbiome Test (RRP $485)",
         "SIBO Breath Test (RRP $270)",
         "12-Month Nerva App Subscription (RRP $250)",
@@ -54,7 +54,6 @@ const HealthPackages = () => {
         "12-Month Nerva App Subscription (RRP $250)",
         "Full access to the 10-Module NXTLVL Optimal Nutrition Course (RRP $99)",
         "Email support between sessions",
-        "Long-term planning for sustainable gut and immune health",
       ],
     },
   ];
