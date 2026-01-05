@@ -113,7 +113,7 @@ const DoesGumMakeYouBloated = () => {
                 <div className="text-muted-foreground space-y-4">
                   <p>Patients ask me all the time in my New Farm clinic:</p>
                   <p className="text-xl italic font-medium">"Mitch, does gum make you bloated?"</p>
-                  <p><strong>And the short answer is: Yes, chewing gum can cause gas and bloating in some people.</strong></p>
+                  <p><strong>And the brief answer is: Yes, chewing gum can cause gas and bloating in some people.</strong></p>
                   <p>Not everyone reacts the same way, but I've seen many patients come in with that bloated feeling after chewing gum, wondering if it's food, gut issues, or something else. <strong>More often than not, gum is a hidden trigger.</strong> Let's break it down together.</p>
                 </div>
               </div>

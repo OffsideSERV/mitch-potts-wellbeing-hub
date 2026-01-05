@@ -151,7 +151,7 @@ const HowToFlushSalicylates = () => {
                   What Are Salicylates?
                 </h2>
                 <div className="text-muted-foreground space-y-4">
-                  <p>Let's keep this simple. Salicylates are natural chemicals found in lots of healthy foods—like fruits, herbs, spices, and even some skincare.</p>
+                  <p>Let's keep this straightforward. Salicylates are natural chemicals found in lots of healthy foods—like fruits, herbs, spices, and even some skincare.</p>
                   <p>They're part of a plant's defence system. For most people, they're no problem. But for others, they can cause big trouble.</p>
                 </div>
                 

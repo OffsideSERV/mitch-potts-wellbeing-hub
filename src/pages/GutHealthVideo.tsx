@@ -16,7 +16,7 @@ const GutHealthVideo = () => {
                   Learn How to Fix Your Gut Health
                 </h1>
               </div>
-              <p className="text-xl text-muted-foreground mb-8">Watch this very comprehensive video to discover the root causes of digestive issues and learn our proven natural approach to healing your gut.</p>
+              <p className="text-xl text-muted-foreground mb-8">Watch this highly comprehensive video to discover the root causes of digestive issues and learn our proven natural approach to healing your gut.</p>
             </div>
           </div>
         </section>

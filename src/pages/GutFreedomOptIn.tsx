@@ -30,7 +30,7 @@ const GutFreedomOptIn = () => {
                 </h1>
                 
                 <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed">
-                  Stop living with bloating, pain, and digestive chaos. Discover the simple steps that Brisbane's leading naturopath uses to help his patients finally fix their gut health - in just 15 minutes.
+                  Stop living with bloating, pain, and digestive chaos. Discover the straightforward steps that Brisbane's leading naturopath uses to help his patients finally fix their gut health - in just 15 minutes.
                 </p>
 
                 <div className="flex items-center space-x-2 text-primary">

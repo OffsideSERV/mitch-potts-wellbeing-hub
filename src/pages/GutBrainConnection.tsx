@@ -54,7 +54,7 @@ const GutBrainConnection = () => {
         <Card className="mb-12 bg-gradient-to-r from-primary/5 to-blue-500/5 border-primary/20">
           <CardContent className="pt-8">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              When it comes to maintaining overall well-being, the gut often takes centre stage. Emerging research highlights a fascinating link between gut health and mental health, underscoring the importance of a balanced gut for a balanced mind. As a <strong className="text-primary">naturopath in New Farm</strong>, I've seen firsthand the profound impact that gut health can have on emotional and psychological well-being. In this post, we'll delve into the gut-brain connection and explore how nurturing your gut can lead to improved mental health.
+              When it comes to sustaining overall well-being, the gut often takes centre stage. Emerging research highlights a fascinating link between gut health and mental health, underscoring the importance of a balanced gut for a balanced mind. As a <strong className="text-primary">naturopath in New Farm</strong>, I've seen firsthand the profound impact that gut health can have on emotional and psychological well-being. In this post, we'll delve into the gut-brain connection and explore how nurturing your gut can lead to improved mental health.
             </p>
           </CardContent>
         </Card>
