@@ -65,7 +65,7 @@ const GutMicrobiomeMentalHealth = () => {
           <div className="max-w-4xl mx-auto">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg leading-relaxed mb-6">
-                In my New Farm clinic, I often hear patients ask: <strong>"Mitch, what does my gut have to do with my mood?"</strong>
+                In my New Farm clinic, I frequently hear patients ask: <strong>"Mitch, what does my gut have to do with my mood?"</strong>
               </p>
               
               <p className="text-lg leading-relaxed mb-6">
