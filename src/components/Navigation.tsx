@@ -356,10 +356,10 @@ const Navigation = () => {
                 </a>
               </Button>
               <Button size="sm" asChild>
-                <Link to="/book-now">
+                <a href="https://www.nxtlvlhealth.com.au/book-now" target="_blank" rel="noopener noreferrer">
                   <Calendar className="h-4 w-4 mr-2" />
                   Book Consult
-                </Link>
+                </a>
               </Button>
             </div>
 
@@ -522,10 +522,10 @@ const Navigation = () => {
                       </a>
                     </Button>
                     <Button className="w-full" asChild>
-                      <Link to="/book-now">
+                      <a href="https://www.nxtlvlhealth.com.au/book-now" target="_blank" rel="noopener noreferrer">
                         <Calendar className="h-4 w-4 mr-2" />
                         Book Consult
-                      </Link>
+                      </a>
                     </Button>
                   </div>
                 </div>
