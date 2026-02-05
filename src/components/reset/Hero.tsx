@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -26,7 +27,7 @@ const Hero = () => {
           </p>
           
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center flex-wrap">
             <Button size="lg" className="bg-nxt-orange hover:bg-nxt-orange-light text-nxt-black font-semibold px-8 py-4 text-lg transition-nxt shadow-orange" asChild>
               <a href="https://nxtlvl-health-quiz.scoreapp.com" target="_blank" rel="noopener noreferrer">Take the 5-minute Health Quiz</a>
             </Button>
@@ -34,6 +35,11 @@ const Hero = () => {
               <a href="https://calendly.com/nxtlvlhealth-info/nxtlvl-30-15-min-call" target="_blank" rel="noopener noreferrer">
                 Book Your Discovery Call
               </a>
+            </Button>
+            <Button variant="outline" size="lg" className="border-nxt-orange bg-transparent text-nxt-orange hover:bg-nxt-orange hover:text-nxt-black px-8 py-4 text-lg transition-nxt" asChild>
+              <Link to="/nxtlvl-reset/learn-more">
+                Learn More
+              </Link>
             </Button>
           </div>
           
