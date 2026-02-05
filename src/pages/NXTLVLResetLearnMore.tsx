@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Check, ArrowLeft, Calendar, Brain, Heart, Dumbbell, Moon, Zap, Users, BookOpen, MessageCircle, Target, Activity, Sparkles } from "lucide-react";
 import Footer from "@/components/Footer";
+import mitchPottsProfile from "@/assets/mitch-potts-profile.png";
 
 const NXTLVLResetLearnMore = () => {
   return (
@@ -144,8 +145,12 @@ const NXTLVLResetLearnMore = () => {
                 </div>
                 
                 <div className="bg-gradient-to-br from-nxt-orange/20 to-nxt-orange/5 rounded-2xl p-8 text-center">
-                  <div className="w-48 h-48 mx-auto bg-nxt-black rounded-full flex items-center justify-center mb-6">
-                    <span className="text-6xl font-bold text-nxt-orange">MP</span>
+                  <div className="w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
+                    <img 
+                      src={mitchPottsProfile} 
+                      alt="Mitchell Potts - Naturopath" 
+                      className="w-full h-full object-cover object-top"
+                    />
                   </div>
                   <p className="text-lg font-semibold text-nxt-black">Mitchell Potts</p>
                   <p className="text-nxt-grey">Bachelor of Health Science (Naturopathy)</p>
