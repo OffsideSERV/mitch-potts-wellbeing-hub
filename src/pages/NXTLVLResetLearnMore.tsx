@@ -42,7 +42,7 @@ const NXTLVLResetLearnMore = () => {
                     Take the Health Quiz
                   </a>
                 </Button>
-                <Button variant="outline" size="lg" className="border-nxt-white text-nxt-white hover:bg-nxt-white hover:text-nxt-black px-8 py-4 text-lg" asChild>
+                <Button variant="outline" size="lg" className="border-nxt-white bg-nxt-white text-nxt-black hover:bg-nxt-orange hover:border-nxt-orange px-8 py-4 text-lg" asChild>
                   <a href="https://calendly.com/nxtlvlhealth-info/nxtlvl-30-15-min-call" target="_blank" rel="noopener noreferrer">
                     <Calendar className="mr-2 h-5 w-5" />
                     Book Discovery Call
