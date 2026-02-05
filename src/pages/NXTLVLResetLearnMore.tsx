@@ -149,7 +149,7 @@ const NXTLVLResetLearnMore = () => {
                     <img 
                       src={mitchPottsProfile} 
                       alt="Mitchell Potts - Naturopath" 
-                      className="w-full h-full object-cover object-top"
+                      className="w-full h-full object-cover object-center"
                     />
                   </div>
                   <p className="text-lg font-semibold text-nxt-black">Mitchell Potts</p>
