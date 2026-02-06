@@ -57,18 +57,18 @@ const ProgramPhases = () => {
           {phases.map((phase, index) => (
             <div 
               key={index}
-              className="bg-card rounded-2xl p-8 shadow-nxt hover:shadow-orange transition-nxt border border-border"
+              className="bg-card rounded-2xl p-8 shadow-nxt hover:shadow-teal transition-nxt border border-border"
             >
               {/* Phase Number */}
               <div className="flex items-center mb-6">
-                <span className="text-6xl font-bold text-nxt-orange/20 mr-4">
+                <span className="text-6xl font-bold text-nxt-teal/20 mr-4">
                   {phase.number}
                 </span>
                 <div>
                   <h3 className="text-2xl font-bold text-nxt-black mb-1">
                     {phase.title}
                   </h3>
-                  <span className="text-nxt-orange font-semibold">
+                  <span className="text-nxt-teal font-semibold">
                     {phase.weeks}
                   </span>
                 </div>
@@ -83,7 +83,7 @@ const ProgramPhases = () => {
               <ul className="space-y-3">
                 {phase.features.map((feature, featureIndex) => (
                   <li key={featureIndex} className="flex items-start gap-3">
-                    <span className="text-nxt-orange mt-1 flex-shrink-0">✓</span>
+                    <span className="text-nxt-teal mt-1 flex-shrink-0">✓</span>
                     <span className="text-nxt-black/80">{feature}</span>
                   </li>
                 ))}
