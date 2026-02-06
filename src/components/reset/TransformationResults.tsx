@@ -55,13 +55,13 @@ const TransformationResults = () => {
           {results.map((result, index) => (
             <div 
               key={index}
-              className="bg-background rounded-xl p-6 border border-border hover:shadow-orange transition-nxt"
+              className="bg-background rounded-xl p-6 border border-border hover:shadow-teal transition-nxt"
             >
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-lg font-bold text-nxt-black">
                   {result.metric}
                 </h3>
-                <span className="bg-nxt-orange text-nxt-black px-3 py-1 rounded-full text-sm font-semibold">
+                <span className="bg-nxt-teal text-nxt-black px-3 py-1 rounded-full text-sm font-semibold">
                   {result.improvement}
                 </span>
               </div>
@@ -82,7 +82,7 @@ const TransformationResults = () => {
         </div>
 
         <div className="text-center mt-12">
-          <div className="bg-nxt-orange/10 border border-nxt-orange/20 rounded-xl p-8 max-w-4xl mx-auto">
+          <div className="bg-nxt-teal/10 border border-nxt-teal/20 rounded-xl p-8 max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-nxt-black mb-4">
               Real Results, Real Timeline
             </h3>

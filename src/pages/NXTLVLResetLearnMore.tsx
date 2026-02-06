@@ -21,9 +21,9 @@ const NXTLVLResetLearnMore = () => {
       <div className="min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative py-20 overflow-hidden" style={{ background: 'linear-gradient(135deg, #1a1a1a, #2d2d2d)' }}>
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,hsl(var(--nxt-orange))_0%,transparent_50%)] opacity-5"></div>
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,hsl(var(--nxt-teal))_0%,transparent_50%)] opacity-10"></div>
           <div className="container mx-auto px-4 relative z-10 text-center">
-            <Link to="/nxtlvl-reset" className="inline-flex items-center text-nxt-white/70 hover:text-nxt-orange mb-8 transition-colors">
+            <Link to="/nxtlvl-reset" className="inline-flex items-center text-nxt-white/70 hover:text-nxt-teal mb-8 transition-colors">
               <ArrowLeft className="h-4 w-4 mr-2" />
               Back to NXTLVL Reset
             </Link>
@@ -31,18 +31,18 @@ const NXTLVLResetLearnMore = () => {
             <div className="max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-6xl font-bold text-nxt-white mb-6 leading-tight">
                 12 Weeks to Rebuild and
-                <span className="block text-nxt-orange">Reclaim Your Health</span>
+                <span className="block text-nxt-teal">Reclaim Your Health</span>
               </h1>
               <p className="text-xl md:text-2xl text-nxt-white/80 mb-8 leading-relaxed">
                 A guided reset to fuel your body, rebuild your energy and take back control of your gut, stress, sleep and performance.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" className="bg-nxt-orange hover:bg-nxt-orange-light text-nxt-black font-semibold px-8 py-4 text-lg" asChild>
+                <Button size="lg" className="bg-nxt-teal hover:bg-nxt-teal-light text-nxt-black font-semibold px-8 py-4 text-lg" asChild>
                   <a href="https://nxtlvl-health-quiz.scoreapp.com" target="_blank" rel="noopener noreferrer">
                     Take the Health Quiz
                   </a>
                 </Button>
-                <Button variant="outline" size="lg" className="border-nxt-white bg-nxt-white text-nxt-black hover:bg-nxt-orange hover:border-nxt-orange px-8 py-4 text-lg" asChild>
+                <Button variant="outline" size="lg" className="border-nxt-white bg-nxt-white text-nxt-black hover:bg-nxt-teal hover:border-nxt-teal px-8 py-4 text-lg" asChild>
                   <a href="https://calendly.com/nxtlvlhealth-info/nxtlvl-30-15-min-call" target="_blank" rel="noopener noreferrer">
                     <Calendar className="mr-2 h-5 w-5" />
                     Book Discovery Call
@@ -57,7 +57,7 @@ const NXTLVLResetLearnMore = () => {
         <section className="py-20 bg-gradient-to-b from-slate-50 to-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <p className="text-nxt-orange font-medium mb-2">Be honest...</p>
+              <p className="text-nxt-teal font-medium mb-2">Be honest...</p>
               <h2 className="text-3xl md:text-5xl font-bold text-nxt-black mb-8">
                 Does this feel familiar?
               </h2>
@@ -71,8 +71,8 @@ const NXTLVLResetLearnMore = () => {
                   { icon: Target, text: "Your weight, mood or energy will not shift no matter what you try" },
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-4 p-6 bg-white rounded-xl shadow-sm border border-slate-100">
-                    <div className="p-2 bg-nxt-orange/10 rounded-lg">
-                      <item.icon className="h-6 w-6 text-nxt-orange" />
+                    <div className="p-2 bg-nxt-teal/10 rounded-lg">
+                      <item.icon className="h-6 w-6 text-nxt-teal" />
                     </div>
                     <p className="text-lg text-nxt-grey">{item.text}</p>
                   </div>
@@ -81,7 +81,7 @@ const NXTLVLResetLearnMore = () => {
               
               <div className="text-center p-8 bg-nxt-black rounded-2xl">
                 <h3 className="text-2xl md:text-3xl font-bold text-nxt-white mb-4">
-                  Your body is asking for a <span className="text-nxt-orange">RESET</span>
+                  Your body is asking for a <span className="text-nxt-teal">RESET</span>
                 </h3>
                 <p className="text-xl text-nxt-white/80">
                   You can feel better than this.
@@ -96,7 +96,7 @@ const NXTLVLResetLearnMore = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-3xl md:text-5xl font-bold text-nxt-black mb-6">
-                Feel <span className="text-nxt-orange">Lighter</span>, Clearer and More Energised
+                Feel <span className="text-nxt-teal">Lighter</span>, Clearer and More Energised
               </h2>
               <p className="text-xl text-nxt-grey mb-8">
                 in just <strong>12 weeks</strong>
@@ -116,7 +116,7 @@ const NXTLVLResetLearnMore = () => {
             <div className="max-w-5xl mx-auto">
               <div className="grid md:grid-cols-2 gap-12 items-center">
                 <div>
-                  <p className="text-nxt-orange font-medium mb-2">Led by Naturopath</p>
+                  <p className="text-nxt-teal font-medium mb-2">Led by Naturopath</p>
                   <h2 className="text-3xl md:text-4xl font-bold text-nxt-black mb-6">
                     Mitchell Potts (BHSc)
                   </h2>
@@ -135,7 +135,7 @@ const NXTLVLResetLearnMore = () => {
                       "Create sustainable routines that last long-term",
                     ].map((item, index) => (
                       <div key={index} className="flex items-center gap-3">
-                        <div className="p-1 bg-nxt-orange rounded-full">
+                        <div className="p-1 bg-nxt-teal rounded-full">
                           <Check className="h-4 w-4 text-nxt-black" />
                         </div>
                         <span className="text-nxt-grey">{item}</span>
@@ -144,7 +144,7 @@ const NXTLVLResetLearnMore = () => {
                   </div>
                 </div>
                 
-                <div className="bg-gradient-to-br from-nxt-orange/20 to-nxt-orange/5 rounded-2xl p-8 text-center">
+                <div className="bg-gradient-to-br from-nxt-teal/20 to-nxt-teal/5 rounded-2xl p-8 text-center">
                   <div className="w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
                     <img 
                       src={mitchPottsProfile} 
@@ -187,7 +187,7 @@ const NXTLVLResetLearnMore = () => {
                     phase: "Phase 2",
                     title: "Gut & Nervous System Reset",
                     description: "Repair the gut lining, support digestion and rebuild stress balance. Your energy begins to lift and your body starts to feel lighter.",
-                    color: "from-nxt-orange to-orange-500",
+                    color: "from-nxt-teal to-teal-600",
                     icon: Heart,
                   },
                   {
@@ -238,8 +238,8 @@ const NXTLVLResetLearnMore = () => {
                 {/* Core Inclusions */}
                 <div className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100">
                   <h3 className="text-2xl font-bold text-nxt-black mb-6 flex items-center gap-3">
-                    <div className="p-2 bg-nxt-orange/10 rounded-lg">
-                      <Dumbbell className="h-6 w-6 text-nxt-orange" />
+                    <div className="p-2 bg-nxt-teal/10 rounded-lg">
+                      <Dumbbell className="h-6 w-6 text-nxt-teal" />
                     </div>
                     Core Program
                   </h3>
@@ -255,7 +255,7 @@ const NXTLVLResetLearnMore = () => {
                       "Group coaching sessions",
                     ].map((item, index) => (
                       <li key={index} className="flex items-center gap-3">
-                        <Check className="h-5 w-5 text-nxt-orange flex-shrink-0" />
+                        <Check className="h-5 w-5 text-nxt-teal flex-shrink-0" />
                         <span className="text-nxt-grey">{item}</span>
                       </li>
                     ))}
@@ -374,12 +374,12 @@ const NXTLVLResetLearnMore = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-                <Button size="lg" className="bg-nxt-orange hover:bg-nxt-orange-light text-nxt-black font-semibold px-8 py-4 text-lg" asChild>
+                <Button size="lg" className="bg-nxt-teal hover:bg-nxt-teal-light text-nxt-black font-semibold px-8 py-4 text-lg" asChild>
                   <a href="https://nxtlvl-health-quiz.scoreapp.com" target="_blank" rel="noopener noreferrer">
                     Start With A 5-minute Health Quiz
                   </a>
                 </Button>
-                <Button variant="outline" size="lg" className="border-nxt-white bg-nxt-white text-nxt-black hover:bg-nxt-orange hover:border-nxt-orange px-8 py-4 text-lg" asChild>
+                <Button variant="outline" size="lg" className="border-nxt-white bg-nxt-white text-nxt-black hover:bg-nxt-teal hover:border-nxt-teal px-8 py-4 text-lg" asChild>
                   <a href="https://calendly.com/nxtlvlhealth-info/nxtlvl-30-15-min-call" target="_blank" rel="noopener noreferrer">
                     <Calendar className="mr-2 h-5 w-5" />
                     Book Your Free Discovery Call

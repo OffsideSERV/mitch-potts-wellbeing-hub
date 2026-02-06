@@ -52,6 +52,11 @@
     --nxt-black: 0 0% 12%;
     --nxt-white: 0 0% 100%;
     --nxt-grey: 0 0% 70%;
+    
+    /* NXTLVL Reset teal colors - from brochure */
+    --nxt-teal: 180 45% 55%;
+    --nxt-teal-light: 180 50% 65%;
+    --nxt-teal-dark: 180 40% 45%;
   }
 
   .dark {
@@ -136,5 +141,9 @@
   
   .shadow-orange {
     box-shadow: 0 4px 14px 0 hsl(var(--nxt-orange) / 0.4);
+  }
+  
+  .shadow-teal {
+    box-shadow: 0 4px 14px 0 hsl(var(--nxt-teal) / 0.4);
   }
 }
