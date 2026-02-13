@@ -15,13 +15,13 @@ const CTA = () => {
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button size="lg" className="bg-nxt-teal hover:bg-nxt-teal-light text-nxt-black font-semibold px-8 py-4 text-lg transition-nxt shadow-teal" asChild>
+            <Button size="lg" className="bg-nxt-orange hover:bg-nxt-orange-light text-nxt-black font-semibold px-8 py-4 text-lg transition-nxt shadow-orange" asChild>
               <a href="https://nxtlvl-health-quiz.scoreapp.com" target="_blank" rel="noopener noreferrer">
                 Start With A 5-minute Health Quiz
               </a>
             </Button>
             <Button variant="outline" size="lg" className="border-nxt-black text-nxt-black hover:bg-nxt-black hover:text-nxt-white px-8 py-4 text-lg transition-nxt" asChild>
-              <a href="https://calendly.com/nxtlvlhealth-info/nxtlvl-30-15-min-call" target="_blank" rel="noopener noreferrer">
+              <a href="https://calendly.com/nxtlvlhealth-info/nxtlvl-reset?back=1&month=2025-10" target="_blank" rel="noopener noreferrer">
                 Book Your Free Discovery Call
               </a>
             </Button>
@@ -35,10 +35,10 @@ const CTA = () => {
             <p className="text-nxt-grey mb-6">
               Ready to take the next level? Get in touch to learn more about the program and see if NXTLVL Reset is right for you by{" "}
               <a 
-                href="https://calendly.com/nxtlvlhealth-info/nxtlvl-30-15-min-call" 
+                href="https://calendly.com/nxtlvlhealth-info/nxtlvl-reset?back=1&month=2025-10" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="text-nxt-teal hover:text-nxt-teal-light underline transition-nxt"
+                className="text-nxt-orange hover:text-nxt-orange-light underline transition-nxt"
               >
                 Booking Your Free Discovery Call
               </a>

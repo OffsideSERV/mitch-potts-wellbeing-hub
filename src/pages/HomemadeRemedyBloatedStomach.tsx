@@ -81,7 +81,7 @@ const HomemadeRemedyBloatedStomach = () => {
               </div>
 
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                Bloating can feel terrible. One moment your belly is flat, the next it's swollen, tight, and uncomfortable. 
+                Bloating can feel awful. One moment your belly is flat, the next it's swollen, tight, and uncomfortable. 
                 Patients tell me it feels like they've gained weight overnight or that their pants won't fit by the evening.
               </p>
 

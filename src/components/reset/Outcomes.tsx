@@ -23,9 +23,9 @@ const Outcomes = () => {
   ];
 
   return (
-    <section className="py-20 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, hsl(180 45% 45%), hsl(180 50% 55%))' }}>
+    <section className="py-20 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #1a1a1a, #2d2d2d)' }}>
       {/* Background Pattern */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_70%,rgba(255,255,255,0.1)_0%,transparent_50%)]"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_70%,hsl(var(--nxt-orange))_0%,transparent_50%)] opacity-5"></div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
@@ -60,7 +60,7 @@ const Outcomes = () => {
         </div>
         
         {/* Long-term Benefits */}
-        <div className="text-center rounded-2xl p-8 max-w-4xl mx-auto" style={{ background: 'rgba(255, 255, 255, 0.1)' }}>
+        <div className="text-center rounded-2xl p-8 max-w-4xl mx-auto" style={{ background: 'rgba(255, 255, 255, 0.05)' }}>
           <h3 className="text-2xl font-bold text-nxt-white mb-4">
             Plus, You'll Gain a Lifetime Toolkit
           </h3>

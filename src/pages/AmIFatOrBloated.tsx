@@ -92,7 +92,7 @@ const AmIFatOrBloated = () => {
           </p>
 
           <p>
-            The reality is, it's not always easy to tell. But there are some clear signs I look for when helping people work it out.
+            The truth is, it's not always easy to tell. But there are some clear signs I look for when helping people work it out.
           </p>
         </div>
 

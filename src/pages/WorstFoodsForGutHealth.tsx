@@ -141,7 +141,7 @@ const WorstFoodsForGutHealth = () => {
                 <div className="text-muted-foreground space-y-4">
                   <p>Hey, it's Mitch here from NXTLVL Health in New Farm.</p>
                   <p>Let's talk gut health.</p>
-                  <p>If you're feeling bloated, constipated, tired, moody, or just not quite right, your gut could be the reason why. I see it every week in clinic, gut health affects everything. And one of the biggest things that hurts your gut? The food you're eating.</p>
+                  <p>If you're feeling bloated, constipated, tired, moody, or just not quite right, your gut might be the reason why. I see it every week in clinic, gut health affects everything. And one of the biggest things that hurts your gut? The food you're eating.</p>
                   <p>Some foods help your gut grow strong and full of good bacteria. Other foods? They do the exact opposite. In fact, there are certain foods I always ask my clients to avoid first because they can hurt how you digest food and your overall health, even if they look "normal."</p>
                   <p>So today, I want to share the 7 worst foods for gut health, and what you can eat instead to start healing.</p>
                   <p className="font-medium text-lg">Let's jump in.</p>

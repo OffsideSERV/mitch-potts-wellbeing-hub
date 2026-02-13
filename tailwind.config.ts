@@ -66,10 +66,7 @@ export default {
 				'nxt-orange-light': 'hsl(var(--nxt-orange-light))',
 				'nxt-black': 'hsl(var(--nxt-black))',
 				'nxt-white': 'hsl(var(--nxt-white))',
-				'nxt-grey': 'hsl(var(--nxt-grey))',
-				'nxt-teal': 'hsl(var(--nxt-teal))',
-				'nxt-teal-light': 'hsl(var(--nxt-teal-light))',
-				'nxt-teal-dark': 'hsl(var(--nxt-teal-dark))'
+				'nxt-grey': 'hsl(var(--nxt-grey))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

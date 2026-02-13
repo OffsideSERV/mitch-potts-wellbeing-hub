@@ -71,7 +71,7 @@ const GutHealth101 = () => {
             </h2>
             
             <div className="space-y-4 text-muted-foreground mb-6">
-              <p className="text-lg">Much more than most people realise.</p>
+              <p className="text-lg">A lot more than most people realise.</p>
               <p>Your gut is home to over 100 trillion microbes that control everything from digestion to dopamine production.</p>
               <p>When this system is out of balance (aka dysbiosis), your body goes into survival mode:</p>
             </div>

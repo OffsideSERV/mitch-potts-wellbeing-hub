@@ -132,7 +132,7 @@ const BestTeaForStomachPain = () => {
                   Why Your Stomach Feels Sore and Bloated
                 </h2>
                 <div className="text-muted-foreground space-y-4">
-                  <p>Let's be real—bloating is the worst.</p>
+                  <p>Let's be honest—bloating is the worst.</p>
                   <p>You eat something "healthy" and suddenly feel heavy, puffed, or like your belly is about to pop.</p>
                   <blockquote className="border-l-4 border-primary pl-4 italic text-lg">
                     "I feel bloated after every meal, and I don't even know why."
