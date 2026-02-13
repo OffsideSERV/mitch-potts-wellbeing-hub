@@ -79,6 +79,7 @@ import AntiAging from "./pages/AntiAging";
 import GutMicrobiomeMentalHealth from "./pages/GutMicrobiomeMentalHealth";
 import NXTLVLReset from "./pages/NXTLVLReset";
 import NXTLVLResetLearnMore from "./pages/NXTLVLResetLearnMore";
+import NXTLVLResetBrochure from "./pages/NXTLVLResetBrochure";
 import HealthPackages from "./pages/HealthPackages";
 
 const queryClient = new QueryClient();
@@ -98,6 +99,7 @@ const App = () => (
             <Route path="/thank-you" element={<ThankYou />} />
             <Route path="/nxtlvl-reset" element={<NXTLVLReset />} />
             <Route path="/nxtlvl-reset/learn-more" element={<NXTLVLResetLearnMore />} />
+            <Route path="/nxtlvl-reset/brochure" element={<NXTLVLResetBrochure />} />
           
           {/* Regular pages with Layout */}
           <Route path="/*" element={
