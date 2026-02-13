@@ -44,24 +44,16 @@ const WhatYouGet = () => {
           <p className="text-xl text-nxt-grey max-w-3xl mx-auto mb-8">
             The 12 Week NXTLVL Reset is packed with everything you need to reset, rebuild and reclaim your health. From supplements and nutrition to movement and support, it's all here for you.
           </p>
-          
-          {/* Core Inclusions */}
-          
         </div>
         
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto mb-16">
           {features.map((feature, index) => <div key={index} className="bg-card rounded-xl p-6 text-center hover:shadow-nxt transition-nxt border border-border group">
-              {/* Icon */}
               <div className="text-4xl mb-4 group-hover:scale-110 transition-nxt">
                 {feature.icon}
               </div>
-              
-              {/* Title */}
               <h3 className="text-lg font-semibold text-nxt-black mb-3">
                 {feature.title}
               </h3>
-              
-              {/* Description */}
               <p className="text-nxt-grey text-sm leading-relaxed">
                 {feature.description}
               </p>
@@ -74,9 +66,9 @@ const WhatYouGet = () => {
             Also Included
           </h3>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {additionalInclusions.map((item, index) => <div key={index} className="bg-gradient-to-br from-nxt-red/5 to-transparent border border-nxt-red/20 rounded-xl p-5 hover:shadow-md transition-nxt group hover:border-nxt-red/40">
+            {additionalInclusions.map((item, index) => <div key={index} className="bg-gradient-to-br from-nxt-teal/5 to-transparent border border-nxt-teal/20 rounded-xl p-5 hover:shadow-md transition-nxt group hover:border-nxt-teal/40">
                 <div className="flex items-start gap-3">
-                  <Check className="h-5 w-5 text-nxt-red shrink-0 mt-0.5 group-hover:scale-110 transition-nxt" />
+                  <Check className="h-5 w-5 text-nxt-teal shrink-0 mt-0.5 group-hover:scale-110 transition-nxt" />
                   <span className="text-nxt-grey text-sm leading-relaxed">{item}</span>
                 </div>
               </div>)}

@@ -15,7 +15,7 @@ const CTA = () => {
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button size="lg" className="bg-nxt-orange hover:bg-nxt-orange-light text-nxt-black font-semibold px-8 py-4 text-lg transition-nxt shadow-orange" asChild>
+            <Button size="lg" className="bg-nxt-teal hover:bg-nxt-teal-light text-nxt-white font-semibold px-8 py-4 text-lg transition-nxt shadow-teal" asChild>
               <a href="https://nxtlvl-health-quiz.scoreapp.com" target="_blank" rel="noopener noreferrer">
                 Start With A 5-minute Health Quiz
               </a>
@@ -38,7 +38,7 @@ const CTA = () => {
                 href="https://calendly.com/nxtlvlhealth-info/nxtlvl-30-15-min-call" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="text-nxt-orange hover:text-nxt-orange-light underline transition-nxt"
+                className="text-nxt-teal hover:text-nxt-teal-light underline transition-nxt"
               >
                 Booking Your Free Discovery Call
               </a>
