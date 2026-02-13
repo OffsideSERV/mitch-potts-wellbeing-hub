@@ -11,7 +11,7 @@ const antiAgingSchema = {
   "@type": "MedicalBusiness",
   "name": "NXTLVL Health - Anti-Aging Naturopath Brisbane",
   "description": "Professional naturopathic anti-aging treatments in Brisbane. Natural approaches to slow aging, improve vitality, and enhance longevity.",
-  "url": "https://www.nxtlvlhealth.com.au/what-we-treat/anti-aging-naturopath-brisbane",
+  "url": "https://nxtlvlhealth.com.au/what-we-treat/anti-aging-naturopath-brisbane",
   "telephone": "07 3256 6886",
   "address": {
     "@type": "PostalAddress",
@@ -32,7 +32,7 @@ export default function AntiAging() {
         title="Anti-Aging Naturopath Brisbane | Natural Longevity Medicine | NXTLVL Health"
         description="Expert naturopathic anti-aging treatments in Brisbane. Natural approaches to slow aging, boost vitality, and enhance longevity. Book your consultation today."
         keywords="anti-aging naturopath Brisbane, longevity medicine, natural anti-aging, vitality enhancement, healthy aging, naturopathic anti-aging treatment"
-        canonical="https://www.nxtlvlhealth.com.au/what-we-treat/anti-aging-naturopath-brisbane"
+        canonical="/what-we-treat/anti-aging-naturopath-brisbane"
       />
       
       {/* Hero Section */}

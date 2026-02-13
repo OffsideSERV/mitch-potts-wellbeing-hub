@@ -7,17 +7,17 @@ const GutHealthSpecialist = () => {
   const gutHealthSpecialistSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": "https://www.nxtlvlhealth.com.au/what-we-treat/gut-health-specialist#service",
+    "@id": "https://nxtlvlhealth.com.au/what-we-treat/gut-health-specialist#service",
     "name": "Gut Health Specialist Brisbane",
     "alternateName": ["Digestive Health Specialist", "Microbiome Specialist", "SIBO Specialist Brisbane", "Gut Health Doctor"],
     "description": "Leading gut health specialist in Brisbane specialising in digestive disorders, microbiome restoration, SIBO, IBS, and comprehensive gut healing. Expert naturopathic care for optimal digestive health and wellbeing.",
-    "url": "https://www.nxtlvlhealth.com.au/what-we-treat/gut-health-specialist",
-    "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/85472ace-cbc5-4079-9a2e-27bb7dcce090.png",
+    "url": "https://nxtlvlhealth.com.au/what-we-treat/gut-health-specialist",
+    "image": "https://nxtlvlhealth.com.au/lovable-uploads/85472ace-cbc5-4079-9a2e-27bb7dcce090.png",
     "provider": {
       "@type": "LocalBusiness",
-      "@id": "https://www.nxtlvlhealth.com.au/#organization",
+      "@id": "https://nxtlvlhealth.com.au/#organization",
       "name": "NXTLVL Health - Naturopath",
-      "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
+      "image": "https://nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
       "telephone": "(07) 3180 8853",
       "priceRange": "$$",
       "address": {
@@ -89,7 +89,7 @@ const GutHealthSpecialist = () => {
         }
       },
       "servicePhone": "(07) 3180 8853",
-      "serviceUrl": "https://www.nxtlvlhealth.com.au/what-we-treat/gut-health-specialist"
+      "serviceUrl": "https://nxtlvlhealth.com.au/what-we-treat/gut-health-specialist"
     },
     "serviceOutput": ["SIBO Treatment", "IBS Management", "Digestive Disorder Resolution", "Microbiome Restoration", "Leaky Gut Healing", "Food Intolerance Management", "Inflammatory Bowel Disease Support", "Gut-Brain Axis Optimisation", "Digestive Health Education", "Natural Gut Healing Protocols"],
     "audience": {

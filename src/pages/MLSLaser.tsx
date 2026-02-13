@@ -13,17 +13,17 @@ const MLSLaser = () => {
   const mlsLaserServiceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": "https://www.nxtlvlhealth.com.au/services/mls-laser-therapy-treatment-brisbane#service",
+    "@id": "https://nxtlvlhealth.com.au/services/mls-laser-therapy-treatment-brisbane#service",
     "name": "MLS Laser Therapy Treatment",
     "alternateName": ["MLS Laser Therapy", "Multiwave Locked System Laser", "Class IV Laser Therapy"],
     "description": "Advanced MLS Laser Therapy treatment in Brisbane for pain relief, injury recovery, and accelerated healing. Non-invasive laser treatment for chronic pain, sports injuries, arthritis, and inflammatory conditions.",
-    "url": "https://www.nxtlvlhealth.com.au/services/mls-laser-therapy-treatment-brisbane",
-    "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/8f5feae9-391d-4644-af47-61593b7bc840.png",
+    "url": "https://nxtlvlhealth.com.au/services/mls-laser-therapy-treatment-brisbane",
+    "image": "https://nxtlvlhealth.com.au/lovable-uploads/8f5feae9-391d-4644-af47-61593b7bc840.png",
     "provider": {
       "@type": "LocalBusiness",
-      "@id": "https://www.nxtlvlhealth.com.au/#organization",
+      "@id": "https://nxtlvlhealth.com.au/#organization",
       "name": "NXTLVL Health - Naturopath",
-      "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
+      "image": "https://nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
       "telephone": "(07) 3180 8853",
       "priceRange": "$$",
       "address": {
@@ -77,7 +77,7 @@ const MLSLaser = () => {
         }
       },
       "servicePhone": "(07) 3180 8853",
-      "serviceUrl": "https://www.nxtlvlhealth.com.au/services/mls-laser-therapy-treatment-brisbane"
+      "serviceUrl": "https://nxtlvlhealth.com.au/services/mls-laser-therapy-treatment-brisbane"
     },
     "potentialAction": [{
       "@type": "ReserveAction",

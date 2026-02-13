@@ -8,17 +8,17 @@ const CardiovascularHealth = () => {
   const cardiovascularHealthSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": "https://www.nxtlvlhealth.com.au/what-we-treat/cardiovascular-health-naturopath-brisbane#service",
+    "@id": "https://nxtlvlhealth.com.au/what-we-treat/cardiovascular-health-naturopath-brisbane#service",
     "name": "Cardiovascular Health Naturopath Brisbane",
     "alternateName": ["High Cholesterol Naturopath", "Heart Health Brisbane", "Natural Cholesterol Treatment", "Cardiovascular Naturopathy"],
     "description": "Expert cardiovascular health naturopath in Brisbane specialising in high cholesterol, hypertension, and heart health. Natural treatments to support cardiovascular wellness and reduce heart disease risk.",
-    "url": "https://www.nxtlvlhealth.com.au/what-we-treat/cardiovascular-health-naturopath-brisbane",
-    "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/consultation-discussion.png",
+    "url": "https://nxtlvlhealth.com.au/what-we-treat/cardiovascular-health-naturopath-brisbane",
+    "image": "https://nxtlvlhealth.com.au/lovable-uploads/consultation-discussion.png",
     "provider": {
       "@type": "LocalBusiness",
-      "@id": "https://www.nxtlvlhealth.com.au/#organization",
+      "@id": "https://nxtlvlhealth.com.au/#organization",
       "name": "NXTLVL Health - Naturopath",
-      "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
+      "image": "https://nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
       "telephone": "(07) 3180 8853",
       "priceRange": "$$",
       "address": {
@@ -62,7 +62,7 @@ const CardiovascularHealth = () => {
     }],
     "availableChannel": {
       "@type": "ServiceChannel",
-      "serviceUrl": "https://www.nxtlvlhealth.com.au/book-now",
+      "serviceUrl": "https://nxtlvlhealth.com.au/book-now",
       "servicePhone": "(07) 3180 8853"
     }
   };

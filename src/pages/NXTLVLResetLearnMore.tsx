@@ -14,7 +14,7 @@ const NXTLVLResetLearnMore = () => {
           content="Discover how the NXTLVL Reset 12-week program helps busy professionals overcome fatigue, gut issues, and stress through evidence-based nutrition, supplements, and structured lifestyle strategies."
         />
         <meta name="keywords" content="NXTLVL Reset program details, 12 week health reset, naturopath Brisbane, gut reset program, stress management program, energy restoration" />
-        <link rel="canonical" href="https://www.nxtlvlhealth.com.au/nxtlvl-reset/learn-more" />
+        <link rel="canonical" href="https://nxtlvlhealth.com.au/nxtlvl-reset/learn-more" />
       </Helmet>
 
       <div className="min-h-screen" style={{ background: 'linear-gradient(135deg, #1a1a1a, #2d2d2d)' }}>

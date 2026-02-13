@@ -10,7 +10,7 @@ const NXTLVLResetBrochure = () => {
       <Helmet>
         <title>NXTLVL Reset Brochure | 12 Week Health Program</title>
         <meta name="description" content="View the NXTLVL Reset 12-week health transformation program brochure. Learn about our structured approach to restoring energy, gut health, and performance." />
-        <link rel="canonical" href="https://www.nxtlvlhealth.com.au/nxtlvl-reset/brochure" />
+        <link rel="canonical" href="https://nxtlvlhealth.com.au/nxtlvl-reset/brochure" />
       </Helmet>
 
       <div className="min-h-screen" style={{ background: 'linear-gradient(135deg, #1a1a1a, #2d2d2d)' }}>
