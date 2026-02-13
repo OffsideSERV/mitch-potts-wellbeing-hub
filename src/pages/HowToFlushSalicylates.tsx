@@ -375,7 +375,7 @@ const HowToFlushSalicylates = () => {
                   Don't let salicylate sensitivity control your life. Get the personalized support you need to feel better naturally.
                 </p>
                 <Button size="lg" asChild>
-                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                  <a href="/book-now">
                     <Calendar className="h-5 w-5 mr-2" />
                     Start Your Journey Today
                   </a>
