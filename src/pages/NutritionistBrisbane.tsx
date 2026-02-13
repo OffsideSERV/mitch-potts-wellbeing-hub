@@ -48,7 +48,7 @@ const NutritionistBrisbane = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" asChild>
-                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                  <a href="/book-now">
                     <Calendar className="h-5 w-5 mr-2" />
                     BOOK NOW
                   </a>
@@ -98,7 +98,7 @@ const NutritionistBrisbane = () => {
 
               <div className="text-center mt-8">
                 <Button size="lg" asChild>
-                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                  <a href="/book-now">
                     <Calendar className="h-5 w-5 mr-2" />
                     BOOK NOW
                   </a>
@@ -194,7 +194,7 @@ const NutritionistBrisbane = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" asChild>
-                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                  <a href="/book-now">
                     <Calendar className="h-5 w-5 mr-2" />
                     Book Your Consultation
                   </a>
