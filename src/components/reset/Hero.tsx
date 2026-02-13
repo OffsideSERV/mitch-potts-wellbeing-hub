@@ -35,6 +35,11 @@ const Hero = () => {
                 Book Your Discovery Call
               </a>
             </Button>
+            <Button variant="outline" size="lg" className="border-nxt-orange bg-transparent text-nxt-orange hover:bg-nxt-orange hover:text-nxt-black px-8 py-4 text-lg transition-nxt" asChild>
+              <a href="/nxtlvl-reset/learn-more">
+                Learn More
+              </a>
+            </Button>
           </div>
           
           {/* Trust Indicators */}
