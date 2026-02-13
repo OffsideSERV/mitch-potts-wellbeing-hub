@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "include": ["/*"],
+  "exclude": [
+    "/robots.txt",
+    "/sitemap.xml",
+    "/favicon.ico",
+    "/placeholder.svg",
+    "/nxtlvl-reset-logo.jpeg",
+    "/Reduce_Your_Bloat_-_NXTLVL_Health-2.pdf",
+    "/lovable-uploads/*",
+    "/assets/*"
+  ]
+}
