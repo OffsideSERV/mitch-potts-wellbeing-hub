@@ -64,6 +64,8 @@ export default {
 				},
 				'nxt-orange': 'hsl(var(--nxt-orange))',
 				'nxt-orange-light': 'hsl(var(--nxt-orange-light))',
+				'nxt-teal': 'hsl(var(--nxt-teal))',
+				'nxt-teal-light': 'hsl(var(--nxt-teal-light))',
 				'nxt-black': 'hsl(var(--nxt-black))',
 				'nxt-white': 'hsl(var(--nxt-white))',
 				'nxt-grey': 'hsl(var(--nxt-grey))'

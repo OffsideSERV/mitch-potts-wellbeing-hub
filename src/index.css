@@ -49,6 +49,8 @@
     /* NXTLVL Reset colors - matching reference design */
     --nxt-orange: 15 100% 60%;
     --nxt-orange-light: 15 100% 70%;
+    --nxt-teal: 185 38% 50%;
+    --nxt-teal-light: 185 42% 60%;
     --nxt-black: 0 0% 12%;
     --nxt-white: 0 0% 100%;
     --nxt-grey: 0 0% 70%;
@@ -136,5 +138,9 @@
   
   .shadow-orange {
     box-shadow: 0 4px 14px 0 hsl(var(--nxt-orange) / 0.4);
+  }
+  
+  .shadow-teal {
+    box-shadow: 0 4px 14px 0 hsl(var(--nxt-teal) / 0.4);
   }
 }
