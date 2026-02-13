@@ -7,109 +7,14 @@ export type Json =
   | Json[]
 
 export type Database = {
-  // Allows to automatically instanciate createClient with right options
+  // Allows to automatically instantiate createClient with right options
   // instead of createClient<Database, { PostgrestVersion: 'XX' }>(URL, KEY)
   __InternalSupabase: {
-    PostgrestVersion: "12.2.12 (cd3cf9e)"
+    PostgrestVersion: "14.1"
   }
   public: {
     Tables: {
-      excellent_roofing_quotes: {
-        Row: {
-          address: string
-          created_at: string
-          email: string
-          id: number
-          message: string | null
-          name: string
-          phone: string
-        }
-        Insert: {
-          address?: string
-          created_at?: string
-          email?: string
-          id?: number
-          message?: string | null
-          name?: string
-          phone?: string
-        }
-        Update: {
-          address?: string
-          created_at?: string
-          email?: string
-          id?: number
-          message?: string | null
-          name?: string
-          phone?: string
-        }
-        Relationships: []
-      }
-      topline_roofing_quote_requests: {
-        Row: {
-          address: string
-          created_at: string
-          email: string
-          id: string
-          message: string | null
-          name: string
-          phone: string
-          updated_at: string
-        }
-        Insert: {
-          address: string
-          created_at?: string
-          email: string
-          id?: string
-          message?: string | null
-          name: string
-          phone: string
-          updated_at?: string
-        }
-        Update: {
-          address?: string
-          created_at?: string
-          email?: string
-          id?: string
-          message?: string | null
-          name?: string
-          phone?: string
-          updated_at?: string
-        }
-        Relationships: []
-      }
-      weathertech_quote_requests: {
-        Row: {
-          address: string
-          created_at: string
-          email: string
-          id: string
-          message: string | null
-          name: string
-          phone: string
-          updated_at: string
-        }
-        Insert: {
-          address: string
-          created_at?: string
-          email: string
-          id?: string
-          message?: string | null
-          name: string
-          phone: string
-          updated_at?: string
-        }
-        Update: {
-          address?: string
-          created_at?: string
-          email?: string
-          id?: string
-          message?: string | null
-          name?: string
-          phone?: string
-          updated_at?: string
-        }
-        Relationships: []
-      }
+      [_ in never]: never
     }
     Views: {
       [_ in never]: never
