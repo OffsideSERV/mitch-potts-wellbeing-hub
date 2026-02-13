@@ -1,4 +1,3 @@
-import { lazy, Suspense } from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -9,89 +8,81 @@ import Layout from "./components/Layout";
 import CriticalCSS from "./components/CriticalCSS";
 import ScrollToTop from "./components/ScrollToTop";
 
-// Eagerly load the homepage for instant first paint
+// Import all pages directly for instant navigation
 import Index from "./pages/Index";
-
-// Lazy load all other pages for code splitting
-const NotFound = lazy(() => import("./pages/NotFound"));
-const Services = lazy(() => import("./pages/Services"));
-const MLSLaser = lazy(() => import("./pages/MLSLaser"));
-const PersonalTraining = lazy(() => import("./pages/PersonalTraining"));
-const GutHealth = lazy(() => import("./pages/GutHealth"));
-const GutHealthSpecialist = lazy(() => import("./pages/GutHealthSpecialist"));
-const GutHealthVideo = lazy(() => import("./pages/GutHealthVideo"));
-const WeightLoss = lazy(() => import("./pages/WeightLoss"));
-const ThyroidNaturopathy = lazy(() => import("./pages/ThyroidNaturopathy"));
-const Diabetes = lazy(() => import("./pages/Diabetes"));
-const ChildrensHealth = lazy(() => import("./pages/ChildrensHealth"));
-const ADHDNaturopathy = lazy(() => import("./pages/ADHDNaturopathy"));
-const AnxietyNaturopathy = lazy(() => import("./pages/AnxietyNaturopathy"));
-const NaturopathicSportsMedicine = lazy(() => import("./pages/NaturopathicSportsMedicine"));
-const NorthBrisbaneNaturopathy = lazy(() => import("./pages/NorthBrisbaneNaturopathy"));
-const NewsteadNaturopathy = lazy(() => import("./pages/NewsteadNaturopathy"));
-const NewFarmNaturopathy = lazy(() => import("./pages/NewFarmNaturopathy"));
-const MorningsideNaturopathy = lazy(() => import("./pages/MorningsideNaturopathy"));
-const IBSNaturopathy = lazy(() => import("./pages/IBSNaturopathy"));
-const SIBONaturopathy = lazy(() => import("./pages/SIBONaturopathy"));
-const WellnessClinic = lazy(() => import("./pages/WellnessClinic"));
-const Areas = lazy(() => import("./pages/Areas"));
-const IBSTreatmentBrisbane = lazy(() => import("./pages/IBSTreatmentBrisbane"));
-const IBSClinic = lazy(() => import("./pages/IBSClinic"));
-const SkinNaturopathy = lazy(() => import("./pages/SkinNaturopathy"));
-const EczemaNaturopathy = lazy(() => import("./pages/EczemaNaturopathy"));
-const AcneNaturopathy = lazy(() => import("./pages/AcneNaturopathy"));
-const HormonalAcneNaturopathy = lazy(() => import("./pages/HormonalAcneNaturopathy"));
-const HamiltonNaturopathy = lazy(() => import("./pages/HamiltonNaturopathy"));
-const ClayfieldNaturopathy = lazy(() => import("./pages/ClayfieldNaturopathy"));
-const WindsorNaturopathy = lazy(() => import("./pages/WindsorNaturopathy"));
-const GutFreedomOptIn = lazy(() => import("./pages/GutFreedomOptIn"));
-const AllergyNaturopath = lazy(() => import("./pages/AllergyNaturopath"));
-const NaturopathicNutritionist = lazy(() => import("./pages/NaturopathicNutritionist"));
-const IndooroopillyNaturopathy = lazy(() => import("./pages/IndooroopillyNaturopathy"));
-const FunctionalMedicine = lazy(() => import("./pages/FunctionalMedicine"));
-const LiveBloodAnalysisBrisbane = lazy(() => import("./pages/LiveBloodAnalysisBrisbane"));
-const CancellationPolicy = lazy(() => import("./pages/CancellationPolicy"));
-const Contact = lazy(() => import("./pages/Contact"));
-const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy"));
-const WebsiteDisclaimer = lazy(() => import("./pages/WebsiteDisclaimer"));
-const WhatWeTreat = lazy(() => import("./pages/WhatWeTreat"));
-const NXTLVLTonics = lazy(() => import("./pages/NXTLVLTonics"));
-const NutritionistBrisbane = lazy(() => import("./pages/NutritionistBrisbane"));
-const BookNow = lazy(() => import("./pages/BookNow"));
-const Blog = lazy(() => import("./pages/Blog"));
-const BestTeaForStomachPain = lazy(() => import("./pages/BestTeaForStomachPain"));
-const HowToFlushSalicylates = lazy(() => import("./pages/HowToFlushSalicylates"));
-const WorstFoodsForGutHealth = lazy(() => import("./pages/WorstFoodsForGutHealth"));
-const NaturopathyForWeightLoss = lazy(() => import("./pages/NaturopathyForWeightLoss"));
-const GutHealth101 = lazy(() => import("./pages/GutHealth101"));
-const NaturopathyVsHomeopathy = lazy(() => import("./pages/NaturopathyVsHomeopathy"));
-const OzempicNaturalWeightLoss = lazy(() => import("./pages/OzempicNaturalWeightLoss"));
-const GutBrainConnection = lazy(() => import("./pages/GutBrainConnection"));
-const SitemapPage = lazy(() => import("./pages/SitemapPage"));
-const RobotsPage = lazy(() => import("./pages/RobotsPage"));
-const AboutUs = lazy(() => import("./pages/AboutUs"));
-const NaturopathForAthletes = lazy(() => import("./pages/NaturopathForAthletes"));
-const LaserHealing = lazy(() => import("./pages/LaserHealing"));
-const ThankYou = lazy(() => import("./pages/ThankYou"));
-const AmIFatOrBloated = lazy(() => import("./pages/AmIFatOrBloated"));
-const PathologyTestingPrices = lazy(() => import("./pages/PathologyTestingPrices"));
-const CardiovascularHealth = lazy(() => import("./pages/CardiovascularHealth"));
-const HomemadeRemedyBloatedStomach = lazy(() => import("./pages/HomemadeRemedyBloatedStomach"));
-const DoesGumMakeYouBloated = lazy(() => import("./pages/DoesGumMakeYouBloated"));
-const AntiAging = lazy(() => import("./pages/AntiAging"));
-const GutMicrobiomeMentalHealth = lazy(() => import("./pages/GutMicrobiomeMentalHealth"));
-const NXTLVLReset = lazy(() => import("./pages/NXTLVLReset"));
-const NXTLVLResetLearnMore = lazy(() => import("./pages/NXTLVLResetLearnMore"));
-const NXTLVLResetBrochure = lazy(() => import("./pages/NXTLVLResetBrochure"));
-const HealthPackages = lazy(() => import("./pages/HealthPackages"));
+import NotFound from "./pages/NotFound";
+import Services from "./pages/Services";
+import MLSLaser from "./pages/MLSLaser";
+import PersonalTraining from "./pages/PersonalTraining";
+import GutHealth from "./pages/GutHealth";
+import GutHealthSpecialist from "./pages/GutHealthSpecialist";
+import GutHealthVideo from "./pages/GutHealthVideo";
+import WeightLoss from "./pages/WeightLoss";
+import ThyroidNaturopathy from "./pages/ThyroidNaturopathy";
+import Diabetes from "./pages/Diabetes";
+import ChildrensHealth from "./pages/ChildrensHealth";
+import ADHDNaturopathy from "./pages/ADHDNaturopathy";
+import AnxietyNaturopathy from "./pages/AnxietyNaturopathy";
+import NaturopathicSportsMedicine from "./pages/NaturopathicSportsMedicine";
+import NorthBrisbaneNaturopathy from "./pages/NorthBrisbaneNaturopathy";
+import NewsteadNaturopathy from "./pages/NewsteadNaturopathy";
+import NewFarmNaturopathy from "./pages/NewFarmNaturopathy";
+import MorningsideNaturopathy from "./pages/MorningsideNaturopathy";
+import IBSNaturopathy from "./pages/IBSNaturopathy";
+import SIBONaturopathy from "./pages/SIBONaturopathy";
+import WellnessClinic from "./pages/WellnessClinic";
+import Areas from "./pages/Areas";
+import IBSTreatmentBrisbane from "./pages/IBSTreatmentBrisbane";
+import IBSClinic from "./pages/IBSClinic";
+import SkinNaturopathy from "./pages/SkinNaturopathy";
+import EczemaNaturopathy from "./pages/EczemaNaturopathy";
+import AcneNaturopathy from "./pages/AcneNaturopathy";
+import HormonalAcneNaturopathy from "./pages/HormonalAcneNaturopathy";
+import HamiltonNaturopathy from "./pages/HamiltonNaturopathy";
+import ClayfieldNaturopathy from "./pages/ClayfieldNaturopathy";
+import WindsorNaturopathy from "./pages/WindsorNaturopathy";
+import GutFreedomOptIn from "./pages/GutFreedomOptIn";
+import AllergyNaturopath from "./pages/AllergyNaturopath";
+import NaturopathicNutritionist from "./pages/NaturopathicNutritionist";
+import IndooroopillyNaturopathy from "./pages/IndooroopillyNaturopathy";
+import FunctionalMedicine from "./pages/FunctionalMedicine";
+import LiveBloodAnalysisBrisbane from "./pages/LiveBloodAnalysisBrisbane";
+import CancellationPolicy from "./pages/CancellationPolicy";
+import Contact from "./pages/Contact";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import WebsiteDisclaimer from "./pages/WebsiteDisclaimer";
+import WhatWeTreat from "./pages/WhatWeTreat";
+import NXTLVLTonics from "./pages/NXTLVLTonics";
+import NutritionistBrisbane from "./pages/NutritionistBrisbane";
+import BookNow from "./pages/BookNow";
+import Blog from "./pages/Blog";
+import BestTeaForStomachPain from "./pages/BestTeaForStomachPain";
+import HowToFlushSalicylates from "./pages/HowToFlushSalicylates";
+import WorstFoodsForGutHealth from "./pages/WorstFoodsForGutHealth";
+import NaturopathyForWeightLoss from "./pages/NaturopathyForWeightLoss";
+import GutHealth101 from "./pages/GutHealth101";
+import NaturopathyVsHomeopathy from "./pages/NaturopathyVsHomeopathy";
+import OzempicNaturalWeightLoss from "./pages/OzempicNaturalWeightLoss";
+import GutBrainConnection from "./pages/GutBrainConnection";
+import SitemapPage from "./pages/SitemapPage";
+import RobotsPage from "./pages/RobotsPage";
+import AboutUs from "./pages/AboutUs";
+import NaturopathForAthletes from "./pages/NaturopathForAthletes";
+import LaserHealing from "./pages/LaserHealing";
+import ThankYou from "./pages/ThankYou";
+import AmIFatOrBloated from "./pages/AmIFatOrBloated";
+import PathologyTestingPrices from "./pages/PathologyTestingPrices";
+import CardiovascularHealth from "./pages/CardiovascularHealth";
+import HomemadeRemedyBloatedStomach from "./pages/HomemadeRemedyBloatedStomach";
+import DoesGumMakeYouBloated from "./pages/DoesGumMakeYouBloated";
+import AntiAging from "./pages/AntiAging";
+import GutMicrobiomeMentalHealth from "./pages/GutMicrobiomeMentalHealth";
+import NXTLVLReset from "./pages/NXTLVLReset";
+import NXTLVLResetLearnMore from "./pages/NXTLVLResetLearnMore";
+import NXTLVLResetBrochure from "./pages/NXTLVLResetBrochure";
+import HealthPackages from "./pages/HealthPackages";
 
 const queryClient = new QueryClient();
-
-const PageLoader = () => (
-  <div className="min-h-screen flex items-center justify-center">
-    <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
-  </div>
-);
 
 const App = () => (
   <HelmetProvider>
@@ -102,7 +93,6 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <ScrollToTop />
-        <Suspense fallback={<PageLoader />}>
         <Routes>
           {/* Landing pages without Layout (no nav/footer) */}
             <Route path="/laser-healing" element={<LaserHealing />} />
@@ -114,7 +104,6 @@ const App = () => (
           {/* Regular pages with Layout */}
           <Route path="/*" element={
             <Layout>
-              <Suspense fallback={<PageLoader />}>
               <Routes>
                 <Route path="/" element={<Index />} />
                 <Route path="/services" element={<Services />} />
@@ -175,8 +164,8 @@ const App = () => (
                 <Route path="/blog/gut-health/does-gum-make-you-bloated" element={<DoesGumMakeYouBloated />} />
                 <Route path="/am-i-fat-or-bloated" element={<AmIFatOrBloated />} />
                 <Route path="/pathology-testing-prices" element={<PathologyTestingPrices />} />
-                <Route path="/what-we-treat/cardiovascular-health-naturopath-brisbane" element={<CardiovascularHealth />} />
-                <Route path="/what-we-treat/anti-aging-naturopath-brisbane" element={<AntiAging />} />
+        <Route path="/what-we-treat/cardiovascular-health-naturopath-brisbane" element={<CardiovascularHealth />} />
+        <Route path="/what-we-treat/anti-aging-naturopath-brisbane" element={<AntiAging />} />
                 <Route path="/what-we-treat/naturopath-for-athletes" element={<NaturopathForAthletes />} />
                 
                 {/* Health Packages */}
@@ -192,11 +181,9 @@ const App = () => (
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
               </Routes>
-              </Suspense>
             </Layout>
           } />
         </Routes>
-        </Suspense>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>

@@ -1,7 +1,7 @@
 
+# SPA fallback for client-side routing
+/*    /index.html   200
+
 # Static files should be served directly
 /robots.txt   /robots.txt   200
 /sitemap.xml  /sitemap.xml  200
-
-# SPA fallback for client-side routing
-/*    /index.html   200

@@ -140,11 +140,10 @@ const Navigation = () => {
   };
   return <>
       {/* Health Quiz Promotion Header */}
-      <div 
-        onClick={() => window.open('https://nxtlvl-health.scoreapp.com', '_blank', 'noopener,noreferrer')}
-        role="link"
-        tabIndex={0}
-        onKeyDown={(e) => { if (e.key === 'Enter') window.open('https://nxtlvl-health.scoreapp.com', '_blank', 'noopener,noreferrer'); }}
+      <a 
+        href="https://nxtlvl-health.scoreapp.com" 
+        target="_blank" 
+        rel="noopener noreferrer"
         className="block bg-gradient-to-r from-orange-500 to-red-500 text-white py-2 md:py-3 px-4 hover:from-orange-600 hover:to-red-600 transition-colors cursor-pointer"
       >
         <div className="container mx-auto">
@@ -157,9 +156,11 @@ const Navigation = () => {
             <Button 
               variant="secondary" 
               size="sm" 
-              className="bg-yellow-400 text-black hover:bg-yellow-500 font-semibold whitespace-nowrap text-xs px-3 py-1.5 h-auto flex-shrink-0"
+              className="bg-yellow-400 text-black hover:bg-yellow-500 font-semibold whitespace-nowrap text-xs px-3 py-1.5 h-auto flex-shrink-0" 
+              asChild
+              onClick={(e: React.MouseEvent) => e.stopPropagation()}
             >
-              Start
+              <a href="https://nxtlvl-health.scoreapp.com" target="_blank" rel="noopener noreferrer">Start</a>
             </Button>
           </div>
           
@@ -172,13 +173,15 @@ const Navigation = () => {
             <Button 
               variant="secondary" 
               size="sm" 
-              className="bg-yellow-400 text-black hover:bg-yellow-500 font-semibold whitespace-nowrap text-sm px-6 py-2"
+              className="bg-yellow-400 text-black hover:bg-yellow-500 font-semibold whitespace-nowrap text-sm px-6 py-2" 
+              asChild
+              onClick={(e: React.MouseEvent) => e.stopPropagation()}
             >
-              Start Quiz
+              <a href="https://nxtlvl-health.scoreapp.com" target="_blank" rel="noopener noreferrer">Start Quiz</a>
             </Button>
           </div>
         </div>
-      </div>
+      </a>
 
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto px-4">
