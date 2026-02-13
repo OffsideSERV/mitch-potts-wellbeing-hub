@@ -21,7 +21,7 @@ const CTA = () => {
               </a>
             </Button>
             <Button variant="outline" size="lg" className="border-nxt-black text-nxt-black hover:bg-nxt-black hover:text-nxt-white px-8 py-4 text-lg transition-nxt" asChild>
-              <a href="https://calendly.com/nxtlvlhealth-info/nxtlvl-reset?back=1&month=2025-10" target="_blank" rel="noopener noreferrer">
+              <a href="https://calendly.com/nxtlvlhealth-info/nxtlvl-30-15-min-call" target="_blank" rel="noopener noreferrer">
                 Book Your Free Discovery Call
               </a>
             </Button>
@@ -35,7 +35,7 @@ const CTA = () => {
             <p className="text-nxt-grey mb-6">
               Ready to take the next level? Get in touch to learn more about the program and see if NXTLVL Reset is right for you by{" "}
               <a 
-                href="https://calendly.com/nxtlvlhealth-info/nxtlvl-reset?back=1&month=2025-10" 
+                href="https://calendly.com/nxtlvlhealth-info/nxtlvl-30-15-min-call" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-nxt-orange hover:text-nxt-orange-light underline transition-nxt"

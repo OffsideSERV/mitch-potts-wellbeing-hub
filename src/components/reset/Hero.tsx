@@ -31,7 +31,7 @@ const Hero = () => {
               <a href="https://nxtlvl-health-quiz.scoreapp.com" target="_blank" rel="noopener noreferrer">Take the 5-minute Health Quiz</a>
             </Button>
             <Button variant="outline" size="lg" className="border-nxt-white bg-transparent text-nxt-white hover:bg-nxt-white hover:text-nxt-black px-8 py-4 text-lg transition-nxt" asChild>
-              <a href="https://calendly.com/nxtlvlhealth-info/nxtlvl-reset?back=1&month=2025-10" target="_blank" rel="noopener noreferrer">
+              <a href="https://calendly.com/nxtlvlhealth-info/nxtlvl-30-15-min-call" target="_blank" rel="noopener noreferrer">
                 Book Your Discovery Call
               </a>
             </Button>
