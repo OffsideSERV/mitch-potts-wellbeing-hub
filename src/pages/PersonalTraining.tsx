@@ -13,17 +13,17 @@ const PersonalTraining = () => {
   const personalTrainingServiceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": "https://www.nxtlvlhealth.com.au/services/personal-trainer-newstead#service",
+    "@id": "https://nxtlvlhealth.com.au/services/personal-trainer-newstead#service",
     "name": "Personal Training in Newstead",
     "alternateName": ["Personal Fitness Training", "Exercise Therapy", "Strength Training", "Fitness Coaching"],
     "description": "Expert personal training in Newstead, Brisbane. Specialising in strength training, injury prevention, body composition changes, and functional movement with a dual-qualified naturopath and exercise scientist.",
-    "url": "https://www.nxtlvlhealth.com.au/services/personal-trainer-newstead",
-    "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/dd4ff0ea-d4e7-416c-b0d9-d3a541758d60.png",
+    "url": "https://nxtlvlhealth.com.au/services/personal-trainer-newstead",
+    "image": "https://nxtlvlhealth.com.au/lovable-uploads/dd4ff0ea-d4e7-416c-b0d9-d3a541758d60.png",
     "provider": {
       "@type": "LocalBusiness",
-      "@id": "https://www.nxtlvlhealth.com.au/#organization",
+      "@id": "https://nxtlvlhealth.com.au/#organization",
       "name": "NXTLVL Health - Naturopath",
-      "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
+      "image": "https://nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
       "telephone": "(07) 3180 8853",
       "priceRange": "$$",
       "address": {
@@ -99,7 +99,7 @@ const PersonalTraining = () => {
         }]
       },
       "servicePhone": "(07) 3180 8853",
-      "serviceUrl": "https://www.nxtlvlhealth.com.au/services/personal-trainer-newstead"
+      "serviceUrl": "https://nxtlvlhealth.com.au/services/personal-trainer-newstead"
     },
     "serviceOutput": ["Strength Building", "Weight Loss", "Body Composition Improvement", "Injury Prevention", "Functional Movement", "Athletic Performance", "Mobility Enhancement", "Exercise Therapy"],
     "audience": {

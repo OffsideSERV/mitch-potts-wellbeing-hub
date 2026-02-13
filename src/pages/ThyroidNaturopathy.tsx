@@ -5,17 +5,17 @@ const ThyroidNaturopathy = () => {
   const thyroidNaturopathSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": "https://www.nxtlvlhealth.com.au/what-we-treat/naturopath-thyroid-brisbane#service",
+    "@id": "https://nxtlvlhealth.com.au/what-we-treat/naturopath-thyroid-brisbane#service",
     "name": "Thyroid Naturopath Brisbane",
     "alternateName": ["Hypothyroid Naturopath", "Hashimoto's Treatment Brisbane", "Thyroid Support Brisbane", "Natural Thyroid Treatment"],
     "description": "Expert thyroid naturopath in Brisbane specialising in hypothyroidism, Hashimoto's thyroiditis, Graves' disease, and thyroid dysfunction. Comprehensive naturopathic treatment for optimal thyroid health and hormone balance.",
-    "url": "https://www.nxtlvlhealth.com.au/what-we-treat/naturopath-thyroid-brisbane",
-    "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/7bab2257-f140-4812-88c0-b910038ff849.png",
+    "url": "https://nxtlvlhealth.com.au/what-we-treat/naturopath-thyroid-brisbane",
+    "image": "https://nxtlvlhealth.com.au/lovable-uploads/7bab2257-f140-4812-88c0-b910038ff849.png",
     "provider": {
       "@type": "LocalBusiness",
-      "@id": "https://www.nxtlvlhealth.com.au/#organization",
+      "@id": "https://nxtlvlhealth.com.au/#organization",
       "name": "NXTLVL Health - Naturopath",
-      "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
+      "image": "https://nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
       "telephone": "(07) 3180 8853",
       "priceRange": "$$",
       "address": {

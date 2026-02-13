@@ -7,17 +7,17 @@ const NewsteadNaturopathy = () => {
   const newsteadNaturopathyServiceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": "https://www.nxtlvlhealth.com.au/areas-we-serve/naturopath-newstead#service",
+    "@id": "https://nxtlvlhealth.com.au/areas-we-serve/naturopath-newstead#service",
     "name": "Naturopathy Services Newstead Brisbane",
     "alternateName": ["Newstead Naturopath", "Naturopathic Care Newstead", "Natural Health Newstead"],
     "description": "Comprehensive naturopathic services for residents of Newstead and surrounding areas. Our qualified naturopath provides natural health solutions for digestive disorders, hormonal imbalances, chronic fatigue, women's health, children's health, and mental health support through evidence-based natural medicine.",
-    "url": "https://www.nxtlvlhealth.com.au/areas-we-serve/naturopath-newstead",
-    "image": ["https://www.nxtlvlhealth.com.au/lovable-uploads/71b09125-3a64-4d93-934e-f899eab6b427.png", "https://www.nxtlvlhealth.com.au/lovable-uploads/225024a0-804b-437d-aaf9-9d543e7f73e2.png", "https://www.nxtlvlhealth.com.au/lovable-uploads/4ddbff79-0110-49a0-af33-498a6ef47123.png"],
+    "url": "https://nxtlvlhealth.com.au/areas-we-serve/naturopath-newstead",
+    "image": ["https://nxtlvlhealth.com.au/lovable-uploads/71b09125-3a64-4d93-934e-f899eab6b427.png", "https://nxtlvlhealth.com.au/lovable-uploads/225024a0-804b-437d-aaf9-9d543e7f73e2.png", "https://nxtlvlhealth.com.au/lovable-uploads/4ddbff79-0110-49a0-af33-498a6ef47123.png"],
     "provider": {
       "@type": "LocalBusiness",
-      "@id": "https://www.nxtlvlhealth.com.au/#organization",
+      "@id": "https://nxtlvlhealth.com.au/#organization",
       "name": "NXTLVL Health - Naturopath",
-      "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
+      "image": "https://nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
       "telephone": "(07) 3180 8853",
       "address": {
         "@type": "PostalAddress",
@@ -150,7 +150,7 @@ const NewsteadNaturopathy = () => {
         }
       },
       "servicePhone": "(07) 3180 8853",
-      "serviceUrl": "https://www.nxtlvlhealth.com.au/areas-we-serve/naturopath-newstead"
+      "serviceUrl": "https://nxtlvlhealth.com.au/areas-we-serve/naturopath-newstead"
     },
     "serviceOutput": ["Personalised treatment plans", "Natural health solutions", "Functional testing recommendations", "Nutritional guidance", "Herbal medicine prescriptions", "Lifestyle recommendations", "Ongoing health monitoring"],
     "audience": {
@@ -180,15 +180,15 @@ const NewsteadNaturopathy = () => {
     "isRelatedTo": [{
       "@type": "Service",
       "name": "Gut Health Specialist",
-      "url": "https://www.nxtlvlhealth.com.au/what-we-treat/gut-health-specialist-brisbane"
+      "url": "https://nxtlvlhealth.com.au/what-we-treat/gut-health-specialist-brisbane"
     }, {
       "@type": "Service",
       "name": "IBS Treatment",
-      "url": "https://www.nxtlvlhealth.com.au/what-we-treat/ibs-treatment-brisbane"
+      "url": "https://nxtlvlhealth.com.au/what-we-treat/ibs-treatment-brisbane"
     }, {
       "@type": "Service",
       "name": "Functional Medicine",
-      "url": "https://www.nxtlvlhealth.com.au/functional-medicine"
+      "url": "https://nxtlvlhealth.com.au/functional-medicine"
     }]
   };
   return <>

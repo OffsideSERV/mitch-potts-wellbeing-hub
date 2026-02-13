@@ -16,7 +16,7 @@ const SEO = ({
   title = "NXTLVL Health - Naturopath | Best Naturopath Brisbane | Book a FREE 15-Min Consult!",
   description = "Feel like something's wrong but no one's listening? NXTLVL Health is the best Naturopath in Brisbane and is here to give you the answers you've been looking for",
   canonical,
-  ogImage = "https://www.nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg",
+  ogImage = "https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg",
   ogType = "website",
   keywords = "naturopath Brisbane, best naturopath Brisbane, natural medicine Brisbane, functional medicine Brisbane, gut health Brisbane",
   noindex = false,
@@ -28,15 +28,15 @@ const SEO = ({
   let fullCanonical;
   if (canonical) {
     // If canonical is explicitly provided, use it as-is
-    fullCanonical = canonical.startsWith('http') ? canonical : `https://www.nxtlvlhealth.com.au${canonical}`;
+    fullCanonical = canonical.startsWith('http') ? canonical : `https://nxtlvlhealth.com.au${canonical}`;
   } else {
     // For homepage, use clean root URL
     if (currentPath === '/' || currentPath === '/index.html') {
-      fullCanonical = 'https://www.nxtlvlhealth.com.au';
+      fullCanonical = 'https://nxtlvlhealth.com.au';
     } else {
       // For other pages, remove trailing slash and use clean path
       const cleanPath = currentPath.replace(/\/$/, '');
-      fullCanonical = `https://www.nxtlvlhealth.com.au${cleanPath}`;
+      fullCanonical = `https://nxtlvlhealth.com.au${cleanPath}`;
     }
   }
 
@@ -46,19 +46,19 @@ const SEO = ({
       return {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://www.nxtlvlhealth.com.au/#organization",
+        "@id": "https://nxtlvlhealth.com.au/#organization",
         "name": "NXTLVL Health - Naturopath",
         "alternateName": "NXTLVL Health Brisbane",
         "description": "Brisbane's leading naturopathic clinic specialising in gut health, hormonal imbalances, chronic fatigue, and natural healing. Led by qualified naturopath Mitch Potts.",
-        "url": "https://www.nxtlvlhealth.com.au",
+        "url": "https://nxtlvlhealth.com.au",
         "telephone": "(07) 3180 8853",
         "email": "info@nxtlvlhealth.com.au",
         "image": [
-          "https://www.nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png"
+          "https://nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png"
         ],
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.nxtlvlhealth.com.au/lovable-uploads/e8ea191a-3d17-45b6-b926-fa1ce97867a9.png"
+          "url": "https://nxtlvlhealth.com.au/lovable-uploads/e8ea191a-3d17-45b6-b926-fa1ce97867a9.png"
         },
         "address": {
           "@type": "PostalAddress",

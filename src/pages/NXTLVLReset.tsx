@@ -17,7 +17,7 @@ const NXTLVLReset = () => {
           content="Transform your health in 12 weeks with NXTLVL Reset. Overcome fatigue, digestive issues, and stress with our structured health optimization program for busy professionals in Brisbane."
         />
         <meta name="keywords" content="health transformation, 12 week program, naturopath Brisbane, gut health reset, stress management, energy optimization" />
-        <link rel="canonical" href="https://www.nxtlvlhealth.com.au/nxtlvl-reset" />
+        <link rel="canonical" href="https://nxtlvlhealth.com.au/nxtlvl-reset" />
       </Helmet>
       
       <div className="min-h-screen">

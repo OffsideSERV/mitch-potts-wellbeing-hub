@@ -7,17 +7,17 @@ const WeightLoss = () => {
   const weightLossNaturopathSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": "https://www.nxtlvlhealth.com.au/what-we-treat/weight-loss-naturopath-brisbane#service",
+    "@id": "https://nxtlvlhealth.com.au/what-we-treat/weight-loss-naturopath-brisbane#service",
     "name": "Weight Loss Naturopath Brisbane",
     "alternateName": ["Natural Weight Loss Brisbane", "Holistic Weight Loss", "Naturopathic Weight Loss", "Sustainable Weight Loss"],
     "description": "Expert weight loss naturopath in Brisbane specialising in root-cause weight loss solutions. Personalised natural treatment plans addressing hormonal imbalances, metabolic issues, and sustainable healthy weight management.",
-    "url": "https://www.nxtlvlhealth.com.au/what-we-treat/weight-loss-naturopath-brisbane",
-    "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/aeafb801-21a6-4748-a8c0-7cfe86dda52d.png",
+    "url": "https://nxtlvlhealth.com.au/what-we-treat/weight-loss-naturopath-brisbane",
+    "image": "https://nxtlvlhealth.com.au/lovable-uploads/aeafb801-21a6-4748-a8c0-7cfe86dda52d.png",
     "provider": {
       "@type": "LocalBusiness",
-      "@id": "https://www.nxtlvlhealth.com.au/#organization",
+      "@id": "https://nxtlvlhealth.com.au/#organization",
       "name": "NXTLVL Health - Naturopath",
-      "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
+      "image": "https://nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
       "telephone": "(07) 3180 8853",
       "priceRange": "$$",
       "address": {
@@ -89,7 +89,7 @@ const WeightLoss = () => {
         }
       },
       "servicePhone": "(07) 3180 8853",
-      "serviceUrl": "https://www.nxtlvlhealth.com.au/what-we-treat/weight-loss-naturopath-brisbane"
+      "serviceUrl": "https://nxtlvlhealth.com.au/what-we-treat/weight-loss-naturopath-brisbane"
     },
     "serviceOutput": ["Sustainable Weight Loss", "Hormonal Balance Restoration", "Metabolic Function Improvement", "Insulin Sensitivity Enhancement", "Thyroid Health Optimisation", "Stress Management Support", "Nutritional Status Correction", "Body Composition Improvement", "Energy Level Enhancement", "Digestive Health Support"],
     "audience": {

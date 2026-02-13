@@ -13,7 +13,7 @@ import colorfulFruits from '../assets/colorful-fruits-vegetables.png';
 import mitchConsultation from '../assets/mitch-consultation-patient.png';
 const GutMicrobiomeMentalHealth = () => {
   return <>
-      <SEO title="Gut Microbiome and Mental Health | What's The Link? - NXTLVL Health" description="Discover how your gut microbiome affects mental health. Learn about the gut-brain axis, depression, anxiety, and natural ways to improve mood through gut health." canonical="https://www.nxtlvlhealth.com.au/gut-microbiome-mental-health" keywords="gut microbiome, mental health, gut-brain axis, depression, anxiety, probiotics, gut health, microbiome diversity, psychobiotics" />
+      <SEO title="Gut Microbiome and Mental Health | What's The Link? - NXTLVL Health" description="Discover how your gut microbiome affects mental health. Learn about the gut-brain axis, depression, anxiety, and natural ways to improve mood through gut health." canonical="/gut-microbiome-mental-health" keywords="gut microbiome, mental health, gut-brain axis, depression, anxiety, probiotics, gut health, microbiome diversity, psychobiotics" />
 
       <article className="min-h-screen bg-gradient-to-br from-background via-background to-muted/30">
         {/* Hero Section */}

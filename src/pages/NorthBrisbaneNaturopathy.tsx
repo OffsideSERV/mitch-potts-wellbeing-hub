@@ -7,17 +7,17 @@ const NorthBrisbaneNaturopathy = () => {
   const northBrisbaneNaturopathyServiceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": "https://www.nxtlvlhealth.com.au/areas-we-serve/naturopath-north-brisbane#service",
+    "@id": "https://nxtlvlhealth.com.au/areas-we-serve/naturopath-north-brisbane#service",
     "name": "Naturopathy Services North Brisbane",
     "alternateName": ["North Brisbane Naturopath", "Naturopathic Care North Brisbane", "Natural Health North Brisbane"],
     "description": "Comprehensive naturopathic services for residents of North Brisbane and surrounding areas. Our qualified naturopath provides natural health solutions for digestive disorders, hormonal imbalances, chronic fatigue, women's health, children's health, and mental health support through evidence-based natural medicine.",
-    "url": "https://www.nxtlvlhealth.com.au/areas-we-serve/naturopath-north-brisbane",
-    "image": ["https://www.nxtlvlhealth.com.au/lovable-uploads/d8fb55f4-1a1b-4a7f-9aef-fb782c41df21.png", "https://www.nxtlvlhealth.com.au/lovable-uploads/e1f6dd06-164a-425b-bc19-839d603bc5ed.png", "https://www.nxtlvlhealth.com.au/lovable-uploads/d4dfb30d-6da4-42d6-86b4-14b51e4d4a8f.png"],
+    "url": "https://nxtlvlhealth.com.au/areas-we-serve/naturopath-north-brisbane",
+    "image": ["https://nxtlvlhealth.com.au/lovable-uploads/d8fb55f4-1a1b-4a7f-9aef-fb782c41df21.png", "https://nxtlvlhealth.com.au/lovable-uploads/e1f6dd06-164a-425b-bc19-839d603bc5ed.png", "https://nxtlvlhealth.com.au/lovable-uploads/d4dfb30d-6da4-42d6-86b4-14b51e4d4a8f.png"],
     "provider": {
       "@type": "LocalBusiness",
-      "@id": "https://www.nxtlvlhealth.com.au/#organization",
+      "@id": "https://nxtlvlhealth.com.au/#organization",
       "name": "NXTLVL Health - Naturopath",
-      "image": "https://www.nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
+      "image": "https://nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
       "telephone": "(07) 3180 8853",
       "address": {
         "@type": "PostalAddress",
@@ -150,7 +150,7 @@ const NorthBrisbaneNaturopathy = () => {
         }
       },
       "servicePhone": "(07) 3180 8853",
-      "serviceUrl": "https://www.nxtlvlhealth.com.au/areas-we-serve/naturopath-north-brisbane"
+      "serviceUrl": "https://nxtlvlhealth.com.au/areas-we-serve/naturopath-north-brisbane"
     },
     "serviceOutput": ["Personalised treatment plans", "Natural health solutions", "Functional testing recommendations", "Nutritional guidance", "Herbal medicine prescriptions", "Lifestyle recommendations", "Ongoing health monitoring"],
     "audience": {
@@ -165,7 +165,7 @@ const NorthBrisbaneNaturopathy = () => {
       "description": "Qualified naturopath with extensive experience in natural medicine, specialising in gut health, hormonal imbalances, and chronic health conditions",
       "worksFor": {
         "@type": "LocalBusiness",
-        "@id": "https://www.nxtlvlhealth.com.au/#organization"
+        "@id": "https://nxtlvlhealth.com.au/#organization"
       }
     },
     "potentialAction": [{
@@ -190,15 +190,15 @@ const NorthBrisbaneNaturopathy = () => {
     "isRelatedTo": [{
       "@type": "Service",
       "name": "Gut Health Specialist",
-      "url": "https://www.nxtlvlhealth.com.au/what-we-treat/gut-health-specialist-brisbane"
+      "url": "https://nxtlvlhealth.com.au/what-we-treat/gut-health-specialist-brisbane"
     }, {
       "@type": "Service",
       "name": "IBS Treatment",
-      "url": "https://www.nxtlvlhealth.com.au/what-we-treat/ibs-treatment-brisbane"
+      "url": "https://nxtlvlhealth.com.au/what-we-treat/ibs-treatment-brisbane"
     }, {
       "@type": "Service",
       "name": "Functional Medicine",
-      "url": "https://www.nxtlvlhealth.com.au/functional-medicine"
+      "url": "https://nxtlvlhealth.com.au/functional-medicine"
     }]
   };
   return <>
