@@ -299,8 +299,8 @@ const NXTLVLResetLearnMore = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 };
