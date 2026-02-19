@@ -20,159 +20,237 @@ const PrivacyPolicy = () => {
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-8">
               <section>
                 <p>
-                  Welcome to NXT LVL Health, operated by Mitchell Potts Pty Ltd (ABN: 34 377 382 272). If you have any inquiries about our Privacy Policy, please contact us at office@nxtlvlhealth.com.au. This policy outlines how we manage your personal information in compliance with the Australian Privacy Principles set out in the Privacy Act 1988.
+                  NXT LVL Health is operated by Mitchell Potts Pty Ltd (ABN: 34 377 382 272). We are committed to protecting your privacy and handling your personal information in an open and transparent manner. This Privacy Policy explains how we collect, use, disclose, and safeguard your information in accordance with the Australian Privacy Principles under the Privacy Act 1988 (Cth).
+                </p>
+                <p>
+                  If you have any questions about this policy or our data handling practices, please contact us at{" "}
+                  <a href="mailto:info@nxtlvlhealth.com.au" className="text-primary hover:underline">info@nxtlvlhealth.com.au</a>
                 </p>
               </section>
 
               <section>
                 <h2 className="text-2xl font-semibold text-foreground mb-4">
-                  Personal Information
+                  1. Personal Information We Collect
                 </h2>
                 <p>
-                  When you engage with us through our website or become our client, we may collect the following personal information:
+                  We may collect personal information when you interact with us online, in person, or as a client. This may include:
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li>Your name, address, email address, and phone number.</li>
-                  <li>Information for customising our content based on your preferences when you attend webinars, seminars, or events, including your IP address and browsing history to enhance our website's usability and appeal.</li>
+                  <li>Name, address, email address, and telephone number</li>
+                  <li>Health information, medical history, symptoms, and test results</li>
+                  <li>Appointment and consultation records</li>
+                  <li>Payment and transaction details</li>
+                  <li>Information you provide when attending webinars, events, or completing forms</li>
+                  <li>Website usage data such as IP address, browser type, and browsing activity</li>
                 </ul>
-              </section>
-
-              <section>
-                <h2 className="text-2xl font-semibold text-foreground mb-4">
-                  Collection and Use
-                </h2>
-                <p>
-                  We collect personal information through various means, including:
-                </p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li>When you email us.</li>
-                  <li>When you sign up for our free downloads, newsletter, webinars, or events.</li>
-                  <li>When you make online purchases (e.g., e-books, video content, recipes).</li>
-                  <li>When you provide testimonials.</li>
-                  <li>When you choose to be our client or make purchases.</li>
-                  <li>Automatically through cookies.</li>
-                  <li>When referred by someone else.</li>
-                </ul>
-
-                <p className="mt-6">
-                  We use this information to:
-                </p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li>Respond to your inquiries.</li>
-                  <li>Provide updates on our services.</li>
-                  <li>Monitor visitor and client satisfaction.</li>
-                  <li>Improve our website and services.</li>
-                  <li>Provide the services you request.</li>
-                </ul>
-
-                <p className="mt-6">
-                  We will only collect your personal information:
-                </p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li>With your explicit consent.</li>
-                  <li>If needed to provide requested information or services.</li>
-                  <li>For necessary administrative processes if you become our client.</li>
-                  <li>If we have a legitimate interest in using your data for marketing, giving you the option to opt out.</li>
-                </ul>
-              </section>
-
-              <section>
-                <h2 className="text-2xl font-semibold text-foreground mb-4">
-                  Sensitive Information
-                </h2>
-                <p>
-                  We understand the sensitivity of certain information and ensure its secure collection through methods like:
-                </p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li>Intake forms in Cliniko</li>
-                  <li>Online telehealth consultations or in-person meetings.</li>
-                  <li>Secure email communications.</li>
-                  <li>Lab portals.</li>
-                  <li>Pathology reports and test results.</li>
-                </ul>
-                <p>
-                  This information is collected to provide you with contracted services and ensure the most appropriate care.
+                <p className="mt-4">
+                  Health information is considered sensitive information under Australian law and is handled with additional care and confidentiality.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-2xl font-semibold text-foreground mb-4">
-                  Disclosure of Information
+                  2. How We Collect Information
                 </h2>
                 <p>
-                  We may disclose your information to:
+                  We collect information directly from you and through automated technologies, including:
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li>Provide requested services or information.</li>
-                  <li>Carry out your instructions.</li>
-                  <li>Facilitate referrals or testing (with your permission).</li>
+                  <li>When you contact us by email or forms</li>
+                  <li>When you register for downloads, newsletters, webinars, or events</li>
+                  <li>When you purchase digital or physical products</li>
+                  <li>When you submit testimonials or feedback</li>
+                  <li>When you become a client</li>
+                  <li>Through cookies and analytics technologies</li>
+                  <li>From referrals where you have provided consent</li>
+                </ul>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-semibold text-foreground mb-4">
+                  3. Why We Collect Your Information
+                </h2>
+                <p>
+                  We collect and use your information to:
+                </p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li>Provide clinical and health services</li>
+                  <li>Communicate with you about your care or inquiries</li>
+                  <li>Process payments and manage bookings</li>
+                  <li>Improve our services, programs, and website experience</li>
+                  <li>Monitor client satisfaction and outcomes</li>
+                  <li>Meet legal and regulatory obligations</li>
+                  <li>Send marketing communications where permitted by law</li>
                 </ul>
 
                 <p className="mt-6">
-                  We may share relevant information on a need-to-know basis with:
+                  We only collect information where:
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li>Email marketing provider.</li>
-                  <li>Practice management system.</li>
-                  <li>Independent contractors (e.g., virtual assistants, receptionists).</li>
-                  <li>Legal and financial advisors.</li>
-                  <li>Website maintenance and technical support teams.</li>
+                  <li>You have provided consent</li>
+                  <li>It is necessary to deliver requested services</li>
+                  <li>It is required for administrative or clinical purposes</li>
+                  <li>We have a legitimate business interest that does not override your rights</li>
+                </ul>
+
+                <p className="mt-4">
+                  You may opt out of marketing communications at any time.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-semibold text-foreground mb-4">
+                  4. Sensitive Health Information
+                </h2>
+                <p>
+                  Because we provide health services, we may collect sensitive information such as medical history, pathology results, and clinical notes. This information is collected only where necessary to deliver appropriate care and may be gathered through:
+                </p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li>Secure intake forms</li>
+                  <li>Consultations (online or in person)</li>
+                  <li>Laboratory portals</li>
+                  <li>Clinical testing platforms</li>
+                  <li>Secure communications</li>
+                </ul>
+                <p className="mt-4">
+                  Sensitive information is never used for marketing without explicit consent.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-semibold text-foreground mb-4">
+                  5. Disclosure of Personal Information
+                </h2>
+                <p>
+                  We may disclose your information where reasonably necessary to:
+                </p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li>Deliver services you have requested</li>
+                  <li>Carry out your instructions</li>
+                  <li>Facilitate referrals or testing with your consent</li>
+                  <li>Meet legal obligations</li>
                 </ul>
 
                 <p className="mt-6">
-                  We will also disclose information if required by law or permitted by the Privacy Act.
+                  Your information may be shared on a strictly limited and confidential basis with authorised service providers, including:
                 </p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li>Practice management software providers</li>
+                  <li>Email and communication platforms</li>
+                  <li>Payment processors</li>
+                  <li>Website and IT support providers</li>
+                  <li>Laboratory and diagnostic providers</li>
+                  <li>Legal, accounting, or compliance advisers</li>
+                  <li>Administrative support personnel and contractors</li>
+                </ul>
+              </section>
 
-                <p className="mt-6">
-                  By utilising this website, you signify your agreement with the terms outlined in this disclaimer. If you do not concur with these terms, kindly refrain from using this website.
+              <section>
+                <h2 className="text-2xl font-semibold text-foreground mb-4">
+                  6. Overseas Access to Information
+                </h2>
+                <p>
+                  Some authorised contractors and service providers who support our administrative, technical, or operational functions may be located outside Australia. This may include administrative assistants or support personnel.
+                </p>
+                <p>
+                  Where this occurs, access is limited strictly to information required to perform their role, and all authorised recipients are contractually required to maintain confidentiality and comply with privacy and data protection obligations. We take reasonable steps to ensure overseas recipients handle personal information in a manner consistent with Australian privacy standards.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-2xl font-semibold text-foreground mb-4">
-                  Security
+                  7. Data Security
                 </h2>
                 <p>
-                  We employ physical, technical, and administrative safeguards to protect your information from unauthorised access, modification, disclosure, and loss. We conduct regular security audits to manage risks.
+                  We take reasonable technical, administrative, and physical steps to protect your information from misuse, interference, loss, unauthorised access, modification, or disclosure. These safeguards include:
+                </p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li>Secure platforms and encrypted systems</li>
+                  <li>Restricted access controls</li>
+                  <li>Password-protected databases</li>
+                  <li>Confidentiality agreements with personnel</li>
+                  <li>Regular system monitoring and risk management procedures</li>
+                </ul>
+                <p className="mt-4">
+                  While we take all reasonable precautions, no system can guarantee absolute security.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-2xl font-semibold text-foreground mb-4">
-                  Access to Information
+                  8. Access and Correction
                 </h2>
                 <p>
-                  You can contact us at any time to access, correct, or update your personal information. We aim to make your information available within 7 days, unless prevented by a legal obligation.
+                  You may request access to the personal information we hold about you and request corrections if it is inaccurate, incomplete, or outdated. We aim to respond within 7 business days, unless prevented by law or regulatory obligations.
                 </p>
                 <p>
-                  For inquiries, contact us at office@nxtlvlhealth.com.au.
-                </p>
-              </section>
-
-              <section>
-                <h2 className="text-2xl font-semibold text-foreground mb-4">
-                  Complaints
-                </h2>
-                <p>
-                  If you have concerns or wish to request changes to your information, email us at office@nxtlvlhealth.com.au. If unsatisfied with our response, you can seek a review from the Office of the Australian Information Commissioner.
+                  Requests can be made by contacting{" "}
+                  <a href="mailto:info@nxtlvlhealth.com.au" className="text-primary hover:underline">info@nxtlvlhealth.com.au</a>
                 </p>
               </section>
 
               <section>
                 <h2 className="text-2xl font-semibold text-foreground mb-4">
-                  Notification of Breach
+                  9. Complaints
                 </h2>
                 <p>
-                  In the event of a serious data breach, we will assess and take remedial action. If you are at risk, we will notify you directly or, if not possible, publicise the breach on this website and inform the Information Commissioner.
+                  If you believe your privacy has been breached or you have concerns about how your information has been handled, please contact us first so we can investigate.
+                </p>
+                <p>
+                  If you are not satisfied with our response, you may contact the{" "}
+                  <a href="https://www.oaic.gov.au" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                    Office of the Australian Information Commissioner (OAIC)
+                  </a>
                 </p>
               </section>
 
               <section>
                 <h2 className="text-2xl font-semibold text-foreground mb-4">
-                  Cookies and Google Analytics
+                  10. Data Breach Notification
                 </h2>
                 <p>
-                  Our website uses cookies to enhance user experience and collect statistics. You can configure your browser not to accept cookies, but this may affect the site's functionality. We use advertising cookies from Facebook and performance cookies from Stripe and Cliniko. Additionally, we use Google Analytics to gather strategic insights into our website's usage and improve its functionality. You can learn more about Google's data collection and usage here. Google also offers an add-on to opt out of data usage by Google Analytics.
+                  If a data breach occurs that is likely to result in serious harm, we will investigate promptly and comply with our obligations under the Notifiable Data Breaches Scheme. Where required, affected individuals and the relevant regulator will be notified.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-semibold text-foreground mb-4">
+                  11. Cookies and Analytics
+                </h2>
+                <p>
+                  Our website uses cookies and analytics tools to improve functionality, personalise content, and analyse traffic. These may include services provided by platforms such as:
+                </p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li>Google Analytics</li>
+                  <li>Payment processors</li>
+                  <li>Social media advertising platforms</li>
+                  <li>Website performance tools</li>
+                </ul>
+                <p className="mt-4">
+                  You can disable cookies through your browser settings, although this may affect site functionality.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-semibold text-foreground mb-4">
+                  12. Changes to This Policy
+                </h2>
+                <p>
+                  We may update this Privacy Policy from time to time to reflect changes in legal requirements, technology, or business operations. The latest version will always be published on our website.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-semibold text-foreground mb-4">
+                  13. Contact
+                </h2>
+                <p>
+                  For any privacy-related enquiries, please contact
+                </p>
+                <p>
+                  <strong className="text-foreground">NXT LVL Health</strong><br />
+                  Email:{" "}
+                  <a href="mailto:info@nxtlvlhealth.com.au" className="text-primary hover:underline">info@nxtlvlhealth.com.au</a>
                 </p>
               </section>
             </div>
