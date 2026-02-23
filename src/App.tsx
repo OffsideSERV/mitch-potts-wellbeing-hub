@@ -81,7 +81,6 @@ import NXTLVLReset from "./pages/NXTLVLReset";
 import NXTLVLResetLearnMore from "./pages/NXTLVLResetLearnMore";
 import NXTLVLResetBrochure from "./pages/NXTLVLResetBrochure";
 import HealthPackages from "./pages/HealthPackages";
-import ThankYouBooking from "./pages/ThankYouBooking";
 
 const queryClient = new QueryClient();
 
@@ -98,7 +97,6 @@ const App = () => (
           {/* Landing pages without Layout (no nav/footer) */}
             <Route path="/laser-healing" element={<LaserHealing />} />
             <Route path="/thank-you" element={<ThankYou />} />
-            <Route path="/thank-you-booking" element={<ThankYouBooking />} />
             <Route path="/nxtlvl-reset" element={<NXTLVLReset />} />
             <Route path="/nxtlvl-reset/learn-more" element={<NXTLVLResetLearnMore />} />
             <Route path="/nxtlvl-reset/brochure" element={<NXTLVLResetBrochure />} />
