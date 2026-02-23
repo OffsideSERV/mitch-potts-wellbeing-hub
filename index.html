@@ -13,6 +13,31 @@
       gtag('config', 'AW-17970944922');
     </script>
     
+    <!-- Event snippet for Phone Call Button Clicks conversion -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-17970944922/WdtaCMSJrv0bEJq3m_lC',
+        'value': 36.66,
+        'currency': 'AUD',
+        'event_callback': callback
+      });
+      return false;
+    }
+    document.addEventListener('click', function(e) {
+      var link = e.target.closest('a[href^="tel:"]');
+      if (link) {
+        e.preventDefault();
+        gtag_report_conversion(link.href);
+      }
+    });
+    </script>
+    
     <!-- Meta Pixel Code -->
     <script>
     !function(f,b,e,v,n,t,s)
