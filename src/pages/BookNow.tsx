@@ -1,7 +1,43 @@
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import SEO from "@/components/SEO";
 import { Phone, Mail, Clock, MapPin } from 'lucide-react';
 
 const BookNow = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const handleMessage = (e: MessageEvent) => {
+      if (typeof e.data !== 'string') return;
+
+      // Resize the iframe when Cliniko sends a resize message
+      if (e.data.includes('cliniko-bookings-resize')) {
+        const height = Number(e.data.split(':')[1]);
+        const iframe = document.getElementById('cliniko-60843051') as HTMLIFrameElement;
+        if (iframe && height) {
+          iframe.style.height = height + 'px';
+        }
+      }
+
+      // Scroll to iframe on page change
+      if (e.data.includes('cliniko-bookings-page')) {
+        const iframe = document.getElementById('cliniko-60843051');
+        iframe?.scrollIntoView({ behavior: 'smooth' });
+      }
+
+      // Redirect on booking completion
+      if (e.data.includes('cliniko-bookings-complete') ||
+          e.data.includes('booking-complete') ||
+          e.data.includes('appointment-booked')) {
+        setTimeout(() => {
+          navigate('/thank-you-booking');
+        }, 1000);
+      }
+    };
+
+    window.addEventListener('message', handleMessage);
+    return () => window.removeEventListener('message', handleMessage);
+  }, [navigate]);
   return (
     <>
       <SEO 
