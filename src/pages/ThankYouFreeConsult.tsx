@@ -1,10 +1,12 @@
 import SEO from '@/components/SEO';
+import Layout from '@/components/Layout';
 import { CheckCircle, Phone, Clock, Calendar } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
 const ThankYouFreeConsult = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary/10 to-accent/10">
+    <Layout>
+      <div className="bg-gradient-to-br from-primary/10 to-accent/10">
       <SEO
         title="Thank You for Booking Your Free Consult | NXTLVL Health"
         description="Thank you for booking your free 15-minute consultation with NXTLVL Health. We look forward to speaking with you."
@@ -84,6 +86,7 @@ const ThankYouFreeConsult = () => {
         </div>
       </div>
     </div>
+    </Layout>
   );
 };
 
