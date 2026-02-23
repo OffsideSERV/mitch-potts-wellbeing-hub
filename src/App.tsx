@@ -80,6 +80,7 @@ import GutMicrobiomeMentalHealth from "./pages/GutMicrobiomeMentalHealth";
 import NXTLVLReset from "./pages/NXTLVLReset";
 import NXTLVLResetLearnMore from "./pages/NXTLVLResetLearnMore";
 import NXTLVLResetBrochure from "./pages/NXTLVLResetBrochure";
+import ThankYouFreeConsult from "./pages/ThankYouFreeConsult";
 import HealthPackages from "./pages/HealthPackages";
 
 const queryClient = new QueryClient();
@@ -97,6 +98,7 @@ const App = () => (
           {/* Landing pages without Layout (no nav/footer) */}
             <Route path="/laser-healing" element={<LaserHealing />} />
             <Route path="/thank-you" element={<ThankYou />} />
+            <Route path="/thank-you-free-consult" element={<ThankYouFreeConsult />} />
             <Route path="/nxtlvl-reset" element={<NXTLVLReset />} />
             <Route path="/nxtlvl-reset/learn-more" element={<NXTLVLResetLearnMore />} />
             <Route path="/nxtlvl-reset/brochure" element={<NXTLVLResetBrochure />} />
