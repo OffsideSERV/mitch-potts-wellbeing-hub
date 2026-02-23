@@ -1,9 +1,19 @@
+import { useEffect } from 'react';
 import SEO from '@/components/SEO';
 import Layout from '@/components/Layout';
 import { CheckCircle, Phone, Clock, Calendar } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
 const ThankYouFreeConsult = () => {
+  useEffect(() => {
+    const w = window as any;
+    if (typeof w.gtag === 'function') {
+      w.gtag('event', 'conversion', {
+        'send_to': 'AW-17970944922/0IS4CIWJq_0bEJq3m_lC'
+      });
+    }
+  }, []);
+
   return (
     <Layout>
       <div className="bg-gradient-to-br from-primary/10 to-accent/10">
