@@ -28,8 +28,8 @@ const BookNow = () => {
           lowerData.includes('booked')
         ))
       ) {
-        console.log('[BookNow] Booking completed, redirecting to /thank-you');
-        navigate('/thank-you');
+        console.log('[BookNow] Booking completed, redirecting to /thank-you-appointment');
+        navigate('/thank-you-appointment');
       }
     };
     window.addEventListener('message', handleMessage);

@@ -81,6 +81,7 @@ import NXTLVLReset from "./pages/NXTLVLReset";
 import NXTLVLResetLearnMore from "./pages/NXTLVLResetLearnMore";
 import NXTLVLResetBrochure from "./pages/NXTLVLResetBrochure";
 import ThankYouFreeConsult from "./pages/ThankYouFreeConsult";
+import ThankYouAppointment from "./pages/ThankYouAppointment";
 import HealthPackages from "./pages/HealthPackages";
 
 const queryClient = new QueryClient();
@@ -99,6 +100,7 @@ const App = () => (
             <Route path="/laser-healing" element={<LaserHealing />} />
             <Route path="/thank-you" element={<ThankYou />} />
             <Route path="/thank-you-free-consult" element={<ThankYouFreeConsult />} />
+            <Route path="/thank-you-appointment" element={<ThankYouAppointment />} />
             <Route path="/nxtlvl-reset" element={<NXTLVLReset />} />
             <Route path="/nxtlvl-reset/learn-more" element={<NXTLVLResetLearnMore />} />
             <Route path="/nxtlvl-reset/brochure" element={<NXTLVLResetBrochure />} />
