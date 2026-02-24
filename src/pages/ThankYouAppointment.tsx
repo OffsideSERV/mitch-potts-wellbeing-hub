@@ -1,8 +1,17 @@
+import { useEffect } from 'react';
 import SEO from '@/components/SEO';
 import { CheckCircle, Calendar, Phone, Mail } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
 const ThankYouAppointment = () => {
+  useEffect(() => {
+    if (typeof (window as any).gtag === 'function') {
+      (window as any).gtag('event', 'conversion', {
+        'send_to': 'AW-17970944922/6TxJCNbE5P0bEJq3m_lC'
+      });
+    }
+  }, []);
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary/10 to-accent/10">
       <SEO
