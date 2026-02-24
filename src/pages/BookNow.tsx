@@ -1,7 +1,22 @@
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import SEO from "@/components/SEO";
 import { Phone, Mail, Clock, MapPin } from 'lucide-react';
 
 const BookNow = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const handleMessage = (e: MessageEvent) => {
+      if (typeof e.data !== 'string') return;
+      if (e.data.includes('cliniko-bookings-complete')) {
+        navigate('/thank-you');
+      }
+    };
+    window.addEventListener('message', handleMessage);
+    return () => window.removeEventListener('message', handleMessage);
+  }, [navigate]);
+
   return (
     <>
       <SEO 
