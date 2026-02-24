@@ -9,7 +9,26 @@ const BookNow = () => {
   useEffect(() => {
     const handleMessage = (e: MessageEvent) => {
       if (typeof e.data !== 'string') return;
-      if (e.data.includes('cliniko-bookings-complete')) {
+      
+      // Debug: log all Cliniko messages to console
+      if (e.data.includes('cliniko')) {
+        console.log('[BookNow] Cliniko message:', e.data);
+      }
+
+      // Cliniko sends 'cliniko-bookings-page' with the current page URL
+      // The confirmation page typically contains these keywords
+      const lowerData = e.data.toLowerCase();
+      if (
+        lowerData.includes('cliniko-bookings-complete') ||
+        (lowerData.includes('cliniko-bookings-page') && (
+          lowerData.includes('confirmation') ||
+          lowerData.includes('confirmed') ||
+          lowerData.includes('thank') ||
+          lowerData.includes('success') ||
+          lowerData.includes('booked')
+        ))
+      ) {
+        console.log('[BookNow] Booking completed, redirecting to /thank-you');
         navigate('/thank-you');
       }
     };
