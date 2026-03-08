@@ -151,7 +151,7 @@ const Navigation = () => {
           <div className="flex sm:hidden items-center justify-center gap-2">
             <Gift className="h-4 w-4 text-yellow-300 animate-pulse flex-shrink-0" />
             <div className="text-[11px] font-bold leading-tight text-center">
-              Find out your Health Score - Take our Quiz!
+              Not sure what's causing your symptoms? Take our Health Quiz!
             </div>
             <Button 
               variant="secondary" 
@@ -160,7 +160,7 @@ const Navigation = () => {
               asChild
               onClick={(e: React.MouseEvent) => e.stopPropagation()}
             >
-              <a href="https://nxtlvl-health.scoreapp.com" target="_blank" rel="noopener noreferrer">Start</a>
+              <a href="https://nxtlvl-health.scoreapp.com" target="_blank" rel="noopener noreferrer">Start Health Quiz</a>
             </Button>
           </div>
           
@@ -168,7 +168,7 @@ const Navigation = () => {
           <div className="hidden sm:flex flex-row items-center justify-center gap-4 text-center">
             <Gift className="h-5 w-5 text-yellow-300 animate-pulse flex-shrink-0" />
             <span className="text-sm md:text-base font-medium">
-              <strong>Want to find out your Health Score? Do our Optimal Health Quiz!</strong>
+              <strong>Not sure what's causing your symptoms?</strong> Take the NXTLVL Health Quiz to identify what system in your body needs support.
             </span>
             <Button 
               variant="secondary" 
@@ -177,7 +177,7 @@ const Navigation = () => {
               asChild
               onClick={(e: React.MouseEvent) => e.stopPropagation()}
             >
-              <a href="https://nxtlvl-health.scoreapp.com" target="_blank" rel="noopener noreferrer">Start Quiz</a>
+              <a href="https://nxtlvl-health.scoreapp.com" target="_blank" rel="noopener noreferrer">Start Health Quiz</a>
             </Button>
           </div>
         </div>
