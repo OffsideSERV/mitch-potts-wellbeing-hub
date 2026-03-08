@@ -122,15 +122,12 @@ const Index = () => {
               We <span className="text-primary">Don't</span> Focus On Fixing Just <span className="text-primary">Symptoms</span>, We <span className="text-primary">Heal</span> What's Really Going On <span className="text-primary">Inside</span>.
             </h2>
             
-            {/* Call Button */}
+            {/* CTA Button */}
             <div className="flex justify-center px-4">
-              <Button size="lg" className="text-sm sm:text-base md:text-lg px-8 sm:px-6 md:px-8 py-5 md:py-6 h-auto bg-primary hover:bg-primary/90 text-white font-bold w-full sm:w-auto min-h-[80px] md:min-h-0" asChild>
-                <a href="tel:0731808853" className="flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2">
-                  <div className="flex items-center gap-2">
-                    <Phone className="h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
-                    <span>Call Mitch</span>
-                  </div>
-                  <span className="text-xs sm:text-sm md:text-base">(Brisbane's #1 Most Wanted Bloat Killer)</span>
+              <Button size="lg" className="text-sm sm:text-base md:text-lg px-8 py-5 md:py-6 h-auto bg-primary hover:bg-primary/90 text-white font-bold" asChild>
+                <a href="https://calendly.com/nxtlvlhealth-info/nxtlvl-30-15-min-call" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
+                  <Calendar className="h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
+                  <span>Book Free 15 Minute Discovery Call</span>
                 </a>
               </Button>
             </div>
