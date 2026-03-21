@@ -23,7 +23,7 @@ const AboutUs = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild className="bg-primary hover:bg-primary/90">
-                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                  <a href="/#free-consult" target="_blank" rel="noopener noreferrer">
                     Book Your Free 15-Min Chat
                   </a>
                 </Button>
@@ -213,7 +213,7 @@ Training</h3>
             Book a free 15-minute chat with Mitch. No pressure, no sales talk - just a friendly conversation about how he might be able to help you feel better.
           </p>
           <Button size="lg" variant="secondary" asChild className="bg-white text-primary hover:bg-white/90">
-            <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+            <a href="/#free-consult" target="_blank" rel="noopener noreferrer">
               Book Your Free 15-Min Chat
             </a>
           </Button>

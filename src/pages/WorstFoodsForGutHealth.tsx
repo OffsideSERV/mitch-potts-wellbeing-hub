@@ -377,7 +377,7 @@ const WorstFoodsForGutHealth = () => {
                   If you're struggling with gut issues and need personalized guidance, I'm here to help. Let's work together to get your digestive health back on track.
                 </p>
                 <Button size="lg" asChild>
-                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                  <a href="/#free-consult">
                     <Calendar className="h-5 w-5 mr-2" />
                     Book a Free 15-Min Consultation
                   </a>

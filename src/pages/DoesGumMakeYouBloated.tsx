@@ -443,7 +443,7 @@ const DoesGumMakeYouBloated = () => {
                   👉 Book your Free 15-Minute Discovery Call today. We'll take a look at your symptoms and map your first steps to a calmer, lighter belly.
                 </p>
                 <Button size="lg" asChild>
-                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                  <a href="/#free-consult">
                     <Calendar className="h-5 w-5 mr-2" />
                     Book a Free 15-Min Discovery Call
                   </a>

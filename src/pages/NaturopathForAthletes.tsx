@@ -170,7 +170,7 @@ const NaturopathForAthletes = () => {
                 
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button size="lg" className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight" asChild>
-                    <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                    <a href="/#free-consult">
                       <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                       <span className="text-center">Book Free 15-Min Consult</span>
                     </a>
@@ -670,7 +670,7 @@ const NaturopathForAthletes = () => {
               </CardHeader>
               <CardContent className="text-center space-y-4">
                 <Button size="lg" className="text-lg w-full" asChild>
-                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                  <a href="/#free-consult">
                     <Calendar className="mr-2 h-5 w-5" />
                     👉 Book Free Consult
                   </a>

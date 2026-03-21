@@ -92,7 +92,7 @@ const Footer = () => {
             <h3 className="font-semibold text-foreground">Get Started</h3>
             <div className="space-y-3">
               <Button className="w-full" asChild>
-                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                <a href="/#free-consult">
                   <Calendar className="h-4 w-4 mr-2" />
                   Book Free Consult
                 </a>
