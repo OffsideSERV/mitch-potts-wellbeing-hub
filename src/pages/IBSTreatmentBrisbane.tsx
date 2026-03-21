@@ -46,7 +46,7 @@ const IBSTreatmentBrisbane = () => {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild className="text-base sm:text-lg px-6 py-3 h-auto">
-                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                  <a href="/#free-consult">
                     <Calendar className="mr-2 h-5 w-5" />
                     Book a Free 15-Min Consult
                   </a>
@@ -290,7 +290,7 @@ const IBSTreatmentBrisbane = () => {
           {/* CTA Button */}
           <div className="text-center mt-12">
             <Button asChild className="text-base sm:text-lg px-6 py-4">
-              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+              <a href="/#free-consult">
                 <Calendar className="mr-2 h-5 w-5" />
                 Book a Free 15-Min Consult
               </a>
@@ -620,7 +620,7 @@ const IBSTreatmentBrisbane = () => {
 
           <div className="text-center mt-8">
             <Button asChild className="text-base sm:text-lg px-6 py-4">
-              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+              <a href="/#free-consult">
                 <Calendar className="mr-2 h-5 w-5" />
                 Book a Free 15-Min Consult
               </a>
@@ -668,7 +668,7 @@ const IBSTreatmentBrisbane = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild className="text-base sm:text-lg px-6 py-4">
-                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                <a href="/#free-consult">
                   <Calendar className="mr-2 h-5 w-5" />
                   Book a Free 15-Min Consult
                 </a>

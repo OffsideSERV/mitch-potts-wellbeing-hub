@@ -345,7 +345,7 @@ const NaturopathyForWeightLoss = () => {
                   Discover how naturopathy can help you achieve sustainable weight loss while improving your overall health and wellbeing.
                 </p>
                 <Button size="lg" asChild>
-                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                  <a href="/#free-consult">
                     <Calendar className="h-5 w-5 mr-2" />
                     Book Your Free 15-Min Consultation
                   </a>

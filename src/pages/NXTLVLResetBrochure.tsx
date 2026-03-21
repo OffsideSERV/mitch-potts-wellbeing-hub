@@ -47,7 +47,7 @@ const NXTLVLResetBrochure = () => {
             </h2>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button size="lg" className="bg-nxt-teal hover:bg-nxt-teal-light text-nxt-white font-semibold px-8 py-4 text-lg transition-nxt shadow-teal" asChild>
-                <a href="https://calendly.com/nxtlvlhealth-info/nxtlvl-30-15-min-call" target="_blank" rel="noopener noreferrer">
+                <a href="/#free-consult">
                   Book Your Discovery Call
                 </a>
               </Button>

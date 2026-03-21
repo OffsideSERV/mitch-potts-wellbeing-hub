@@ -74,7 +74,7 @@ const WhatWeTreat = () => {
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button size="lg" asChild>
-                    <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                    <a href="/#free-consult">
                       <Calendar className="h-5 w-5 mr-2" />
                       Book Free 15-Min Consult
                     </a>
@@ -159,7 +159,7 @@ const WhatWeTreat = () => {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button size="lg" asChild>
-                    <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                    <a href="/#free-consult">
                       <Calendar className="h-5 w-5 mr-2" />
                       Book Your Free Consultation
                     </a>

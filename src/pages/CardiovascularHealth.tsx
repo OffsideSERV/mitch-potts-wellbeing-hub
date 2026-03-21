@@ -96,7 +96,7 @@ const CardiovascularHealth = () => {
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                <a href="/#free-consult">
                   Free 15-min Call
                 </a>
               </Button>
@@ -405,7 +405,7 @@ const CardiovascularHealth = () => {
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                <a href="/#free-consult">
                   Free 15-min Health Assessment
                 </a>
               </Button>

@@ -108,7 +108,7 @@ const Contact = () => {
                 
                 <div className="space-y-4">
                   <Button size="lg" className="w-full" asChild>
-                    <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                    <a href="/#free-consult">
                       <Calendar className="h-5 w-5 mr-2" />
                       Book Free 15-Min Consult
                     </a>

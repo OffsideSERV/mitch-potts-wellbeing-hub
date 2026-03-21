@@ -341,7 +341,7 @@ const HowToFlushSalicylates = () => {
                     Click here to book a completely free 15 minute consult with me, let's talk about what you've been going through.
                   </p>
                   <Button size="lg" asChild>
-                    <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult">
+                    <a href="/#free-consult">
                       <Calendar className="h-5 w-5 mr-2" />
                       Book Your Free 15-Min Consultation
                     </a>

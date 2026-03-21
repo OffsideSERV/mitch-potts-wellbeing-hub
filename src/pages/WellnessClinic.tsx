@@ -38,7 +38,7 @@ const WellnessClinic = () => {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight">
-                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                  <a href="/#free-consult">
                     <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                     <span className="text-center">Book a Free 15-Min Consult</span>
                   </a>
@@ -170,7 +170,7 @@ const WellnessClinic = () => {
 
               <div className="flex justify-center pt-4">
                 <Button asChild className="text-base px-6 py-3">
-                  <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                  <a href="/#free-consult">
                     <Calendar className="mr-2 h-5 w-5" />
                     Book a Free 15-Min Consult
                   </a>
@@ -346,7 +346,7 @@ const WellnessClinic = () => {
 
           <div className="flex justify-center">
             <Button asChild className="text-base px-6 py-3">
-              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+              <a href="/#free-consult">
                 <Calendar className="mr-2 h-5 w-5" />
                 Book a Free 15-Min Consult
               </a>
@@ -668,7 +668,7 @@ const WellnessClinic = () => {
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
-                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                <a href="/#free-consult">
                   <Calendar className="mr-2 h-5 w-5" />
                   Book a Free 15-Min Consult
                 </a>
