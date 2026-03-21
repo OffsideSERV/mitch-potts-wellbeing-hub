@@ -31,7 +31,7 @@ const Hero = () => {
               <a href="https://nxtlvl-health-quiz.scoreapp.com" target="_blank" rel="noopener noreferrer">Take the 5-minute Health Quiz</a>
             </Button>
             <Button variant="outline" size="lg" className="border-nxt-white bg-transparent text-nxt-white hover:bg-nxt-white hover:text-nxt-black px-8 py-4 text-lg transition-nxt" asChild>
-              <a href="/#free-consult" target="_blank" rel="noopener noreferrer">
+              <a href="/#free-consult">
                 Book Your Discovery Call
               </a>
             </Button>

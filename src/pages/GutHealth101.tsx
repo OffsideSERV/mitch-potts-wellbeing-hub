@@ -327,7 +327,7 @@ const GutHealth101 = () => {
               
               <div className="text-center">
                 <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
-                  <Link to="/#free-consult" target="_blank" rel="noopener noreferrer">
+                  <Link to="/#free-consult">
                     Book a Free Discovery Call
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Link>

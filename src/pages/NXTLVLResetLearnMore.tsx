@@ -36,7 +36,7 @@ const NXTLVLResetLearnMore = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-8">
                 <Button size="lg" className="bg-nxt-teal hover:bg-nxt-teal-light text-nxt-white font-semibold px-8 py-4 text-lg transition-nxt shadow-teal" asChild>
-                  <a href="/#free-consult" target="_blank" rel="noopener noreferrer">
+                  <a href="/#free-consult">
                     Book Your Discovery Call
                   </a>
                 </Button>
@@ -269,7 +269,7 @@ const NXTLVLResetLearnMore = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-10">
                 <Button size="lg" className="bg-nxt-teal hover:bg-nxt-teal-light text-nxt-white font-semibold px-8 py-4 text-lg transition-nxt shadow-teal" asChild>
-                  <a href="/#free-consult" target="_blank" rel="noopener noreferrer">
+                  <a href="/#free-consult">
                     Book Your Discovery Call
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </a>

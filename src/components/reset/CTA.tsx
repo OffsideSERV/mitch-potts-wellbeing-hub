@@ -21,7 +21,7 @@ const CTA = () => {
               </a>
             </Button>
             <Button variant="outline" size="lg" className="border-nxt-black text-nxt-black hover:bg-nxt-black hover:text-nxt-white px-8 py-4 text-lg transition-nxt" asChild>
-              <a href="/#free-consult" target="_blank" rel="noopener noreferrer">
+              <a href="/#free-consult">
                 Book Your Free Discovery Call
               </a>
             </Button>
