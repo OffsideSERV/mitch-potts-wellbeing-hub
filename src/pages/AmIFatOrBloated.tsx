@@ -509,7 +509,7 @@ const AmIFatOrBloated = () => {
                 If you're tired of guessing, I'd love to help.
               </p>
               <Button asChild size="lg" className="mb-4">
-                <Link to="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                <Link to="/#free-consult" target="_blank" rel="noopener noreferrer">
                   Book Your Free 15-Minute Discovery Call
                 </Link>
               </Button>
