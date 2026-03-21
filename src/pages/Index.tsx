@@ -125,7 +125,7 @@ const Index = () => {
             {/* CTA Button */}
             <div className="flex justify-center px-4">
               <Button size="lg" className="text-sm sm:text-base md:text-lg px-8 py-5 md:py-6 h-auto bg-primary hover:bg-primary/90 text-white font-bold" asChild>
-                <a href="https://calendly.com/nxtlvlhealth-info/nxtlvl-30-15-min-call" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
+                <a href="#free-consult" onClick={(e) => { e.preventDefault(); document.getElementById('free-consult')?.scrollIntoView({ behavior: 'smooth' }); }} className="flex items-center justify-center gap-2">
                   <Calendar className="h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
                   <span>Book Free 15 Minute Discovery Call</span>
                 </a>
@@ -197,7 +197,7 @@ const Index = () => {
 
           <div className="text-center mt-12">
             <Button size="lg" className="text-base sm:text-lg px-6 py-4 h-auto" asChild>
-              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+              <a href="#free-consult" onClick={(e) => { e.preventDefault(); document.getElementById('free-consult')?.scrollIntoView({ behavior: 'smooth' }); }}>
                 <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                 Book a Free 15-Min Consult
               </a>
@@ -477,7 +477,7 @@ const Index = () => {
 
           <div className="text-center">
             <Button size="lg" className="text-base sm:text-lg px-6 py-4 h-auto" asChild>
-              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+              <a href="#free-consult" onClick={(e) => { e.preventDefault(); document.getElementById('free-consult')?.scrollIntoView({ behavior: 'smooth' }); }}>
                 <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                 Book a Free 15-Min Consult
               </a>
@@ -587,7 +587,7 @@ const Index = () => {
 
           <div className="text-center">
             <Button size="lg" className="text-base sm:text-lg px-6 py-4 h-auto" asChild>
-              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+              <a href="#free-consult" onClick={(e) => { e.preventDefault(); document.getElementById('free-consult')?.scrollIntoView({ behavior: 'smooth' }); }}>
                 <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                 Book a Free 15-Min Consult
               </a>
@@ -676,7 +676,7 @@ const Index = () => {
 
           <div className="text-center">
             <Button size="lg" className="text-base sm:text-lg px-6 py-4 h-auto" asChild>
-              <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+              <a href="#free-consult" onClick={(e) => { e.preventDefault(); document.getElementById('free-consult')?.scrollIntoView({ behavior: 'smooth' }); }}>
                 <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                 Book a Free 15-Min Consult
               </a>
@@ -749,7 +749,7 @@ const Index = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3" asChild>
-                <a href="https://calendly.com/nxtlvlhealth-info/15-min-consult" target="_blank" rel="noopener noreferrer">
+                <a href="#free-consult" onClick={(e) => { e.preventDefault(); document.getElementById('free-consult')?.scrollIntoView({ behavior: 'smooth' }); }}>
                   <Calendar className="mr-2 h-5 w-5" />
                   Book a Free 15-Min Consult
                 </a>
