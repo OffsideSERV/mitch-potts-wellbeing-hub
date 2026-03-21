@@ -161,7 +161,7 @@ const Index = () => {
             </div>
             
             {/* Calendly Embed */}
-            <div className="mt-8 md:mt-12 bg-white rounded-2xl p-2 md:p-4 shadow-2xl max-w-4xl mx-auto overflow-hidden">
+            <div id="free-consult" className="mt-8 md:mt-12 bg-white rounded-2xl p-2 md:p-4 shadow-2xl max-w-4xl mx-auto overflow-hidden scroll-mt-24">
               <div 
                 className="calendly-inline-widget w-full" 
                 data-url="https://calendly.com/nxtlvlhealth-info/15-min-consult?primary_color=3fd3b5" 
