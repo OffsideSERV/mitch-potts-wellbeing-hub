@@ -22,6 +22,14 @@ const Index = () => {
     };
   }, []);
 
+  useEffect(() => {
+    if (window.location.hash === '#free-consult') {
+      setTimeout(() => {
+        document.getElementById('free-consult')?.scrollIntoView({ behavior: 'smooth' });
+      }, 500);
+    }
+  }, []);
+
   const services = useMemo(() => [{
     title: "Naturopathy",
     description: "We offer powerful yet gentle support for your whole body. We work with chronic fatigue, gut health, hormonal imbalance, and more.",
