@@ -80,6 +80,7 @@ import GutMicrobiomeMentalHealth from "./pages/GutMicrobiomeMentalHealth";
 import NXTLVLReset from "./pages/NXTLVLReset";
 import NXTLVLResetLearnMore from "./pages/NXTLVLResetLearnMore";
 import NXTLVLResetBrochure from "./pages/NXTLVLResetBrochure";
+import NaturopathyBrisbane from "./pages/NaturopathyBrisbane";
 import ThankYouFreeConsult from "./pages/ThankYouFreeConsult";
 import ThankYouAppointment from "./pages/ThankYouAppointment";
 import HealthPackages from "./pages/HealthPackages";
@@ -104,6 +105,7 @@ const App = () => (
             <Route path="/nxtlvl-reset" element={<NXTLVLReset />} />
             <Route path="/nxtlvl-reset/learn-more" element={<NXTLVLResetLearnMore />} />
             <Route path="/nxtlvl-reset/brochure" element={<NXTLVLResetBrochure />} />
+            <Route path="/naturopathy-brisbane" element={<NaturopathyBrisbane />} />
           
           {/* Regular pages with Layout */}
           <Route path="/*" element={
