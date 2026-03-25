@@ -14,6 +14,7 @@ import {
 import consultationHeroBg from '@/assets/consultation-hero-bg.webp';
 import googleIcon from '@/assets/google-icon.png';
 import verifiedIcon from '@/assets/verified-icon.png';
+import verifiedCheck from '@/assets/verified-check.png';
 import danielMortonProfile from '@/assets/daniel-morton-profile.png';
 import mitchConsultation from '@/assets/mitch-consultation.png';
 import mitchSupplements from '@/assets/mitch-supplements.png';
@@ -224,8 +225,8 @@ const NaturopathyBrisbane = () => {
         />
         <div className="absolute inset-0 bg-black/75" />
         
-        <div className="relative z-10 max-w-4xl mx-auto px-4 py-20 text-center">
-          <h1 className="scroll-animate inline-block bg-cyan-500 text-white text-sm md:text-base font-semibold px-4 py-1.5 rounded-full mb-6">
+        <div className="relative z-10 max-w-4xl mx-auto px-4 py-20 text-center flex flex-col items-center">
+          <h1 className="scroll-animate inline-block bg-primary text-primary-foreground text-sm md:text-base font-semibold px-4 py-1.5 rounded-full mb-6">
             #1 Naturopath In Brisbane
           </h1>
 
