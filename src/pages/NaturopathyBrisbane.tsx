@@ -3,7 +3,7 @@ import SEO from '@/components/SEO';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import TestimonialCard from '@/components/TestimonialCard';
+
 import { 
   Heart, Leaf, Zap, Brain, Shield, Target, Microscope, TestTube, 
   Users, Clock, CheckCircle, Star, ArrowRight, MapPin, Phone,
