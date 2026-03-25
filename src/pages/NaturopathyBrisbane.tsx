@@ -8,12 +8,17 @@ import {
   Users, Clock, CheckCircle, Star, ArrowRight, MapPin, Phone,
   Frown, Coffee, Stethoscope, Flame, CloudRain, Ghost,
   Salad, Dumbbell, Sparkles, ChevronRight, BadgeCheck,
-  X, Check, CircleDot
+  X, Check, CircleDot, Mail
 } from 'lucide-react';
 import consultationHeroBg from '@/assets/consultation-hero-bg.webp';
 import googleIcon from '@/assets/google-icon.png';
 import verifiedIcon from '@/assets/verified-icon.png';
 import danielMortonProfile from '@/assets/daniel-morton-profile.png';
+import mitchConsultation from '@/assets/mitch-consultation.png';
+import mitchSupplements from '@/assets/mitch-supplements.png';
+import mitchMicroscope from '@/assets/mitch-microscope.png';
+import mitchAnalysis from '@/assets/mitch-analysis.png';
+import nxtlvlLogo from '/lovable-uploads/0aadec6a-7f1f-4a21-854c-39d8c3a218d0.png';
 
 const useScrollAnimation = () => {
   const ref = useRef<HTMLDivElement>(null);
@@ -92,8 +97,22 @@ const NaturopathyBrisbane = () => {
         .scroll-animate.delay-5 { transition-delay: 0.5s; }
       `}</style>
 
+      {/* LANDING PAGE HEADER */}
+      <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
+        <div className="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
+          <a href="/" className="flex items-center">
+            <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-14 w-14" />
+          </a>
+          <a href="tel:0731913367" className="flex items-center gap-2 text-primary font-bold hover:text-primary/80 transition-colors">
+            <Phone className="w-5 h-5" />
+            <span className="hidden sm:inline">(07) 3191 3367</span>
+            <span className="sm:hidden">Call Us</span>
+          </a>
+        </div>
+      </header>
+
       {/* HERO SECTION */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative flex flex-col items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: `url(${consultationHeroBg})` }}
@@ -144,7 +163,7 @@ const NaturopathyBrisbane = () => {
           </div>
 
           {/* Trust Boosters */}
-          <div className="scroll-animate delay-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 max-w-3xl mx-auto">
+          <div className="scroll-animate delay-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 max-w-3xl mx-auto mb-12">
             {[
               { icon: <Users className="w-5 h-5 text-primary" />, text: "947+ Patients Healed" },
               { icon: <Zap className="w-5 h-5 text-primary" />, text: "90% See Results In 3 Weeks!" },
@@ -158,19 +177,19 @@ const NaturopathyBrisbane = () => {
               </div>
             ))}
           </div>
-        </div>
-      </section>
 
-      {/* Calendly Embed */}
-      <section id="free-consult-lp" className="scroll-mt-8 bg-muted py-16">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="scroll-animate text-2xl md:text-3xl font-bold text-foreground mb-2">Book Your FREE 15-Minute Consult</h2>
-          <p className="scroll-animate delay-1 text-muted-foreground mb-8">Pick a time that works for you. No pressure. No obligations.</p>
-          <div 
-            className="calendly-inline-widget scroll-animate delay-2" 
-            data-url="https://calendly.com/nxtlvlhealth-info/nxtlvl-30-15-min-call?hide_gdpr_banner=1" 
-            style={{ minWidth: '320px', height: '700px' }}
-          />
+          {/* Calendly Embed inside Hero */}
+          <div id="free-consult-lp" className="scroll-mt-24 scroll-animate delay-5">
+            <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">Book Your FREE 15-Minute Consult</h3>
+            <p className="text-white/70 mb-6">Pick a time that works for you. No pressure. No obligations.</p>
+            <div className="bg-white rounded-2xl overflow-hidden">
+              <div 
+                className="calendly-inline-widget" 
+                data-url="https://calendly.com/nxtlvlhealth-info/nxtlvl-30-15-min-call?hide_gdpr_banner=1" 
+                style={{ minWidth: '320px', height: '700px' }}
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -189,9 +208,9 @@ const NaturopathyBrisbane = () => {
               { icon: <CloudRain className="w-8 h-8" />, title: "Your Mood Is All Over The Place", desc: "You feel anxious for no reason. Small things make you feel overwhelmed and teary. You don't feel like the happy, calm person you used to be." },
               { icon: <Ghost className="w-8 h-8" />, title: "You Feel Lost In Your Own Body", desc: "You look in the mirror and don't recognize the tired person with dark circles under their eyes. You just want to feel like yourself again." },
             ].map((item, i) => (
-              <Card key={i} className={`scroll-animate delay-${(i % 3) + 1} group hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-2 border-transparent hover:border-primary/20`}>
+              <Card key={i} className={`scroll-animate delay-${(i % 3) + 1} group hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-2 border-transparent hover:border-destructive/20`}>
                 <CardContent className="p-6">
-                  <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-4 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300">
+                  <div className="w-14 h-14 bg-destructive/10 rounded-2xl flex items-center justify-center mb-4 text-destructive group-hover:bg-destructive group-hover:text-white transition-colors duration-300">
                     {item.icon}
                   </div>
                   <h3 className="text-xl font-bold text-foreground mb-3">{item.title}</h3>
@@ -220,6 +239,12 @@ const NaturopathyBrisbane = () => {
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="scroll-animate text-3xl md:text-4xl font-extrabold text-foreground text-center mb-4">What We Treat</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6 scroll-animate delay-1" />
+
+          {/* Section Image */}
+          <div className="scroll-animate delay-1 max-w-3xl mx-auto mb-10 rounded-2xl overflow-hidden shadow-lg">
+            <img src={mitchConsultation} alt="Mitch consulting with a patient at NXTLVL Health" className="w-full h-auto object-cover" loading="lazy" />
+          </div>
+
           <p className="scroll-animate delay-1 text-center text-muted-foreground text-lg max-w-3xl mx-auto mb-12">
             We help people in Brisbane find the real reason behind their health problems. We don't just put a band-aid on them. We focus on healing you from the inside out.
           </p>
@@ -254,7 +279,12 @@ const NaturopathyBrisbane = () => {
       <section className="py-20 bg-background">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="scroll-animate text-3xl md:text-4xl font-extrabold text-foreground text-center mb-4">What Is Naturopathy & Why Should You Care?</h2>
-          <div className="w-20 h-1 bg-primary mx-auto mb-12 scroll-animate delay-1" />
+          <div className="w-20 h-1 bg-primary mx-auto mb-6 scroll-animate delay-1" />
+
+          {/* Section Image */}
+          <div className="scroll-animate delay-1 max-w-3xl mx-auto mb-10 rounded-2xl overflow-hidden shadow-lg">
+            <img src={mitchSupplements} alt="Mitch selecting natural supplements for patient treatment" className="w-full h-auto object-cover" loading="lazy" />
+          </div>
 
           <div className="scroll-animate delay-2 space-y-6 text-lg text-muted-foreground leading-relaxed">
             <p className="text-foreground font-semibold text-xl">Imagine your body is a car.</p>
@@ -289,6 +319,12 @@ const NaturopathyBrisbane = () => {
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="scroll-animate text-3xl md:text-4xl font-extrabold text-foreground text-center mb-4">The Tools We Use To Heal You</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6 scroll-animate delay-1" />
+
+          {/* Section Image */}
+          <div className="scroll-animate delay-1 max-w-3xl mx-auto mb-10 rounded-2xl overflow-hidden shadow-lg">
+            <img src={mitchMicroscope} alt="Mitch performing live blood analysis with microscope" className="w-full h-auto object-cover" loading="lazy" />
+          </div>
+
           <p className="scroll-animate delay-1 text-center text-muted-foreground text-lg max-w-3xl mx-auto mb-12">
             We use a mix of modern science and natural medicine to create a plan that is perfect for you.
           </p>
@@ -320,7 +356,12 @@ const NaturopathyBrisbane = () => {
       {/* WHY US SECTION - Comparison Table */}
       <section className="py-20 bg-background">
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="scroll-animate text-3xl md:text-4xl font-extrabold text-foreground text-center mb-12">Why Choose Us Over Other Naturopaths?</h2>
+          <h2 className="scroll-animate text-3xl md:text-4xl font-extrabold text-foreground text-center mb-6">Why Choose Us Over Other Naturopaths?</h2>
+
+          {/* Section Image */}
+          <div className="scroll-animate delay-1 max-w-3xl mx-auto mb-12 rounded-2xl overflow-hidden shadow-lg">
+            <img src={mitchAnalysis} alt="Mitch reviewing functional test results on screen" className="w-full h-auto object-cover" loading="lazy" />
+          </div>
 
           <div className="scroll-animate delay-1 overflow-hidden rounded-2xl border border-border shadow-lg">
             {/* Header */}
@@ -455,7 +496,7 @@ const NaturopathyBrisbane = () => {
 
       {/* FINAL CTA SECTION */}
       <section className="py-20 bg-foreground text-background">
-        <div className="max-w-4xl mx-auto px-4">
+        <div className="max-w-4xl mx-auto px-4 overflow-hidden">
           <h2 className="scroll-animate text-3xl md:text-4xl font-extrabold text-center mb-12">You Have Three Choices Now...</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
@@ -501,10 +542,10 @@ const NaturopathyBrisbane = () => {
             <Button 
               onClick={scrollToConsult}
               size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg md:text-xl px-10 py-7 rounded-full font-bold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground text-base md:text-xl px-6 md:px-10 py-7 rounded-full font-bold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 max-w-full"
             >
               Book My FREE 15-Minute Consult Now!
-              <ArrowRight className="ml-2 w-5 h-5" />
+              <ArrowRight className="ml-2 w-5 h-5 flex-shrink-0" />
             </Button>
           </div>
         </div>
@@ -512,6 +553,17 @@ const NaturopathyBrisbane = () => {
 
       {/* Simple Footer */}
       <footer className="bg-foreground border-t border-white/10 py-8 text-center">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4 text-white/60 text-sm">
+          <a href="tel:0731913367" className="flex items-center gap-2 hover:text-white/90 transition-colors">
+            <Phone className="w-4 h-4" />
+            (07) 3191 3367
+          </a>
+          <span className="hidden sm:inline text-white/20">|</span>
+          <div className="flex items-center gap-2">
+            <MapPin className="w-4 h-4" />
+            Suite 2/665 Brunswick St, New Farm QLD 4005
+          </div>
+        </div>
         <p className="text-white/40 text-sm">© {new Date().getFullYear()} NXTLVL Health. All rights reserved.</p>
         <div className="flex items-center justify-center gap-4 mt-3">
           <a href="/privacy-policy" className="text-white/40 hover:text-white/70 text-sm transition-colors">Privacy Policy</a>
