@@ -3,7 +3,7 @@ import SEO from '@/components/SEO';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import TestimonialCard from '@/components/TestimonialCard';
+
 import { 
   Heart, Leaf, Zap, Brain, Shield, Target, Microscope, TestTube, 
   Users, Clock, CheckCircle, Star, ArrowRight, MapPin, Phone,
@@ -14,6 +14,7 @@ import {
 import consultationHeroBg from '@/assets/consultation-hero-bg.webp';
 import googleIcon from '@/assets/google-icon.png';
 import verifiedIcon from '@/assets/verified-icon.png';
+import verifiedCheck from '@/assets/verified-check.png';
 import danielMortonProfile from '@/assets/daniel-morton-profile.png';
 import mitchConsultation from '@/assets/mitch-consultation.png';
 import mitchSupplements from '@/assets/mitch-supplements.png';
@@ -64,6 +65,59 @@ const allReviews = [
   { name: "Rebecca Hayman", content: "Mitch's **scientific approach** to naturopathic medicine is awesome. Highly recommended for those seeking an **evidence-based holistic approach**.", timeAgo: "10 Jun 2024", reviews: "2 reviews" },
 ];
 
+const TruncatedReview: React.FC<{ content: string }> = ({ content }) => {
+  const [expanded, setExpanded] = useState(false);
+  const words = content.split(' ');
+  const truncated = words.length > 25;
+  const displayText = !expanded && truncated ? words.slice(0, 25).join(' ') + '...' : content;
+
+  return (
+    <>
+      <blockquote className="text-muted-foreground leading-relaxed mb-4 italic text-sm">
+        "{displayText.split('**').map((part, index) =>
+          index % 2 === 1 ? <strong key={index} className="font-semibold text-foreground not-italic">{part}</strong> : part
+        )}"
+      </blockquote>
+      {truncated && (
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className="text-primary text-sm font-semibold hover:underline mb-3"
+        >
+          {expanded ? 'Read Less' : 'Read More'}
+        </button>
+      )}
+    </>
+  );
+};
+
+const LPReviewCard: React.FC<{ name: string; content: string; timeAgo: string; reviews?: string }> = ({ name, content, timeAgo, reviews }) => (
+  <Card className="border-0 shadow-md h-full">
+    <CardContent className="p-6 flex flex-col h-full">
+      <div className="flex items-center justify-between mb-3">
+        <div className="flex items-center gap-2">
+          <img src={googleIcon} alt="Google" className="w-5 h-5 object-contain" />
+          <div className="flex gap-0.5">
+            {[...Array(5)].map((_, i) => (
+              <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+            ))}
+          </div>
+          <img src={verifiedCheck} alt="Verified" className="w-5 h-5 object-contain" />
+        </div>
+      </div>
+      <div className="flex-1">
+        <TruncatedReview content={content} />
+      </div>
+      <div className="flex items-center justify-between mt-auto pt-2">
+        <div>
+          <div className="font-semibold text-foreground">{name}</div>
+          {reviews && <div className="text-xs text-muted-foreground">{reviews}</div>}
+        </div>
+        <div className="text-xs text-muted-foreground">{timeAgo}</div>
+      </div>
+    </CardContent>
+  </Card>
+);
+
 const ReviewsSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [slidesPerView, setSlidesPerView] = useState(3);
@@ -94,7 +148,6 @@ const ReviewsSlider = () => {
         <div className="w-20 h-1 bg-primary mx-auto mb-12" />
 
         <div className="relative">
-          {/* Navigation Arrows */}
           <button
             onClick={goPrev}
             disabled={currentIndex === 0}
@@ -112,7 +165,6 @@ const ReviewsSlider = () => {
             <ChevronRight className="w-5 h-5 text-foreground" />
           </button>
 
-          {/* Slider Track */}
           <div className="overflow-hidden mx-4 md:mx-2">
             <div
               className="flex transition-transform duration-500 ease-in-out"
@@ -124,7 +176,7 @@ const ReviewsSlider = () => {
                   className="flex-shrink-0 px-2"
                   style={{ width: `${100 / slidesPerView}%` }}
                 >
-                  <TestimonialCard
+                  <LPReviewCard
                     name={review.name}
                     content={review.content}
                     timeAgo={review.timeAgo}
@@ -135,7 +187,6 @@ const ReviewsSlider = () => {
             </div>
           </div>
 
-          {/* Dots */}
           <div className="flex items-center justify-center gap-1.5 mt-8">
             {Array.from({ length: maxIndex + 1 }).map((_, i) => (
               <button
@@ -224,8 +275,8 @@ const NaturopathyBrisbane = () => {
         />
         <div className="absolute inset-0 bg-black/75" />
         
-        <div className="relative z-10 max-w-4xl mx-auto px-4 py-20 text-center">
-          <h1 className="scroll-animate inline-block bg-cyan-500 text-white text-sm md:text-base font-semibold px-4 py-1.5 rounded-full mb-6">
+        <div className="relative z-10 max-w-4xl mx-auto px-4 py-20 text-center flex flex-col items-center">
+          <h1 className="scroll-animate inline-block bg-primary text-primary-foreground text-sm md:text-base font-semibold px-4 py-1.5 rounded-full mb-6">
             #1 Naturopath In Brisbane
           </h1>
 
