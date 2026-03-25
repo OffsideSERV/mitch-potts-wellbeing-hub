@@ -1,14 +1,15 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState, useCallback } from 'react';
 import SEO from '@/components/SEO';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import TestimonialCard from '@/components/TestimonialCard';
 import { 
   Heart, Leaf, Zap, Brain, Shield, Target, Microscope, TestTube, 
   Users, Clock, CheckCircle, Star, ArrowRight, MapPin, Phone,
   Frown, Coffee, Stethoscope, Flame, CloudRain, Ghost,
   Salad, Dumbbell, Sparkles, ChevronRight, BadgeCheck,
-  X, Check, CircleDot, Mail
+  X, Check, CircleDot, Mail, ChevronLeft
 } from 'lucide-react';
 import consultationHeroBg from '@/assets/consultation-hero-bg.webp';
 import googleIcon from '@/assets/google-icon.png';
@@ -120,9 +121,13 @@ const NaturopathyBrisbane = () => {
         <div className="absolute inset-0 bg-black/75" />
         
         <div className="relative z-10 max-w-4xl mx-auto px-4 py-20 text-center">
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-8 scroll-animate">
-            We'll Give You Energy That <span className="text-primary">Never Dies</span>, Skin That <span className="text-primary">Never Breaks Out</span>, & a Gut That <span className="text-primary">Never Bloats</span> In As Little As <span className="text-primary">21 Days!</span>
+          <h1 className="scroll-animate inline-block bg-cyan-500 text-white text-sm md:text-base font-semibold px-4 py-1.5 rounded-full mb-6">
+            #1 Naturopath In Brisbane
           </h1>
+
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-8 scroll-animate delay-1">
+            We'll Give You Energy That <span className="text-primary">Never Dies</span>, Skin That <span className="text-primary">Never Breaks Out</span>, & a Gut That <span className="text-primary">Never Bloats</span> In As Little As <span className="text-primary">21 Days!</span>
+          </h2>
 
           {/* Testimonial */}
           <div className="scroll-animate delay-1 max-w-2xl mx-auto mb-8">
@@ -396,8 +401,8 @@ const NaturopathyBrisbane = () => {
         </div>
       </section>
 
-      {/* REVIEWS SECTION - Placeholder */}
-      {/* Left blank as requested */}
+      {/* REVIEWS SECTION */}
+      <ReviewsSlider />
 
       {/* OUR PROCESS SECTION */}
       <section className="py-20 bg-muted">
