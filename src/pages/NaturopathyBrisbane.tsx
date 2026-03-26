@@ -345,7 +345,7 @@ const NaturopathyBrisbane = () => {
             <div className="bg-white rounded-2xl overflow-hidden">
               <div 
                 className="calendly-inline-widget" 
-                data-url="https://calendly.com/nxtlvlhealth-info/nxtlvl-30-15-min-call?hide_gdpr_banner=1" 
+                data-url="https://calendly.com/nxtlvlhealth-info/15-min-consult?primary_color=009485" 
                 style={{ minWidth: '320px', height: '700px' }}
               />
             </div>
