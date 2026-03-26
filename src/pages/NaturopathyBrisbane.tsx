@@ -339,7 +339,7 @@ const NaturopathyBrisbane = () => {
           </div>
 
           {/* Calendly Embed inside Hero */}
-          <div id="free-consult-lp" className="scroll-mt-24 scroll-animate delay-5">
+          <div id="free-consult-lp" className="scroll-mt-24 scroll-animate delay-5 w-full max-w-full lg:max-w-5xl lg:mx-auto">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">Book Your FREE 15-Minute Consult</h3>
             <p className="text-white/70 mb-6">Pick a time that works for you. No pressure. No obligations.</p>
             <div className="bg-white rounded-2xl overflow-hidden">
