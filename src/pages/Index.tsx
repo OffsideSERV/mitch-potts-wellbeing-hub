@@ -78,7 +78,7 @@ const Index = () => {
       
       {/* Hero Section */}
       <section 
-        className="relative py-20 px-4 min-h-screen flex items-center"
+        className="relative py-20 px-2 sm:px-4 min-h-screen flex items-center"
         style={{
           backgroundImage: `url(${consultationHeroBg})`,
           backgroundSize: 'cover',
@@ -96,7 +96,7 @@ const Index = () => {
             <h1 className="inline-block bg-primary text-white text-sm sm:text-base font-semibold px-4 py-1.5 rounded-full mb-1">
               The Best Naturopath In Brisbane
             </h1>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight px-2">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight px-0 sm:px-2">
               We'll Give You Energy That <span className="text-primary">Never Dies</span>, Skin That <span className="text-primary">Never Breaks Out</span>,{" "}
               <span className="inline sm:hidden"><br /></span>
               & a Gut That <span className="text-primary">Never Bloats</span> In As Little As <span className="text-primary">21 Days!</span>
@@ -129,12 +129,12 @@ const Index = () => {
             </div>
             
             {/* Sub-Headline */}
-            <h2 className="text-lg sm:text-xl lg:text-2xl text-white font-bold max-w-3xl mx-auto px-2">
+            <h2 className="text-lg sm:text-xl lg:text-2xl text-white font-bold max-w-3xl mx-auto px-0 sm:px-2">
               We <span className="text-primary">Don't</span> Focus On Fixing Just <span className="text-primary">Symptoms</span>, We <span className="text-primary">Heal</span> What's Really Going On <span className="text-primary">Inside</span>.
             </h2>
             
             {/* CTA Button */}
-            <div className="flex justify-center px-4">
+            <div className="flex justify-center px-0 sm:px-4">
               <Button size="lg" className="text-sm sm:text-base md:text-lg px-8 py-5 md:py-6 h-auto bg-primary hover:bg-primary/90 text-white font-bold" asChild>
                 <a href="#free-consult" onClick={(e) => { e.preventDefault(); document.getElementById('free-consult')?.scrollIntoView({ behavior: 'smooth' }); }} className="flex items-center justify-center gap-2">
                   <Calendar className="h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
@@ -144,7 +144,7 @@ const Index = () => {
             </div>
             
             {/* Trust Boosters */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 mt-8 md:mt-12 max-w-4xl mx-auto px-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 mt-8 md:mt-12 max-w-4xl mx-auto px-0 sm:px-4">
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 md:p-6 text-center">
                 <CheckCircle className="h-6 w-6 md:h-8 md:w-8 text-primary mx-auto mb-2" />
                 <p className="text-white font-semibold text-sm md:text-base">947+ Patients Healed</p>
