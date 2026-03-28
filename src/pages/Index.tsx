@@ -78,7 +78,7 @@ const Index = () => {
       
       {/* Hero Section */}
       <section 
-        className="relative py-20 px-2 sm:px-4 min-h-screen flex items-center"
+        className="relative pt-10 pb-20 px-2 sm:px-4 min-h-screen flex items-center"
         style={{
           backgroundImage: `url(${consultationHeroBg})`,
           backgroundSize: 'cover',
