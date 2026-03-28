@@ -93,7 +93,7 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl relative z-10">
           <div className="space-y-8 text-center">
             {/* Headline */}
-            <h1 className="inline-block bg-primary text-white text-sm sm:text-base font-semibold px-4 py-1.5 rounded-full mb-4">
+            <h1 className="inline-block bg-primary text-white text-sm sm:text-base font-semibold px-4 py-1.5 rounded-full mb-1">
               The Best Naturopath In Brisbane
             </h1>
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight px-2">
