@@ -90,7 +90,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-black/70"></div>
         
         {/* Content */}
-        <div className="container mx-auto max-w-4xl relative z-10">
+        <div className="mx-auto max-w-4xl relative z-10 px-0 sm:container sm:px-4">
           <div className="space-y-8 text-center">
             {/* Headline */}
             <div>
