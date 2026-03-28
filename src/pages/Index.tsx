@@ -170,15 +170,19 @@ const Index = () => {
                 <p className="text-white font-semibold text-sm md:text-base">Your Plan Will Be Made Just for You, Not Recycled Like Trash</p>
               </div>
             </div>
-            
-            {/* Calendly Embed */}
-            <div id="free-consult" className="mt-8 md:mt-12 bg-white rounded-2xl p-2 md:p-4 shadow-2xl max-w-4xl mx-auto overflow-hidden scroll-mt-24">
-              <div 
-                className="calendly-inline-widget w-full" 
-                data-url="https://calendly.com/nxtlvlhealth-info/15-min-consult?primary_color=3fd3b5" 
-                style={{ minWidth: '280px', height: '700px', width: '100%', maxWidth: '100%' }}
-              ></div>
-            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Calendly Embed - Outside hero section */}
+      <section className="bg-background py-8 md:py-12">
+        <div className="container mx-auto max-w-4xl px-4">
+          <div id="free-consult" className="bg-white rounded-2xl p-2 md:p-4 shadow-2xl overflow-hidden scroll-mt-24">
+            <div 
+              className="calendly-inline-widget w-full" 
+              data-url="https://calendly.com/nxtlvlhealth-info/15-min-consult?primary_color=009485" 
+              style={{ minWidth: '280px', height: '700px', width: '100%', maxWidth: '100%' }}
+            ></div>
           </div>
         </div>
       </section>
