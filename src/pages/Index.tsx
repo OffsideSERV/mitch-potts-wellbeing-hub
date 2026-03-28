@@ -102,7 +102,7 @@ const Index = () => {
               We'll Give You Energy That <span className="text-primary">Never Dies</span>, Skin That <span className="text-primary">Never Breaks Out</span>,{" "}
               <span className="inline sm:hidden"><br /></span>
               & a Gut That <span className="text-primary">Never Bloats</span> In As Little As <span className="text-primary">21 Days!</span>
-            </h1>
+            </h2>
             
             {/* Testimonial */}
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-3 md:p-6 max-w-3xl mx-auto">
