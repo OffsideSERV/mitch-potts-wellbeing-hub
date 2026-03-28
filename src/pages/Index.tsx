@@ -93,11 +93,14 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl relative z-10">
           <div className="space-y-8 text-center">
             {/* Headline */}
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight px-2">
+            <h1 className="inline-block bg-primary text-white text-sm sm:text-base font-semibold px-4 py-1.5 rounded-full mb-4">
+              The Best Naturopath In Brisbane
+            </h1>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight px-2">
               We'll Give You Energy That <span className="text-primary">Never Dies</span>, Skin That <span className="text-primary">Never Breaks Out</span>,{" "}
               <span className="inline sm:hidden"><br /></span>
               & a Gut That <span className="text-primary">Never Bloats</span> In As Little As <span className="text-primary">21 Days!</span>
-            </h1>
+            </h2>
             
             {/* Testimonial */}
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-3 md:p-6 max-w-3xl mx-auto">
