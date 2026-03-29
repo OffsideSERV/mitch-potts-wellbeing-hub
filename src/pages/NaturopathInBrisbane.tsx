@@ -281,7 +281,7 @@ const NaturopathInBrisbane = () => {
           </h1>
 
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-8 scroll-animate delay-1">
-            We'll Give You Energy That <span className="text-primary">Never Dies</span>, Skin That <span className="text-primary">Never Breaks Out</span>, & a Gut That <span className="text-primary">Never Bloats</span> In As Little As <span className="text-primary">21 Days!</span>
+            Feel <span className="text-primary">Drained All Day?</span> Tummy <span className="text-primary">Bloating</span> Non-Stop? <span className="text-primary">Doctors</span> Telling You There's <span className="text-primary">Nothing Wrong?</span> You've Come To The <span className="text-primary">Right Place.</span>
           </h2>
 
           {/* Testimonial */}
@@ -308,7 +308,7 @@ const NaturopathInBrisbane = () => {
 
           {/* Sub-headline */}
           <h2 className="scroll-animate delay-2 text-xl md:text-2xl font-bold text-white/90 mb-8 max-w-3xl mx-auto">
-            We <span className="text-primary">Don't</span> Focus On Fixing Just <span className="text-primary">Symptoms</span>, We <span className="text-primary">Heal</span> What's Really Going On <span className="text-primary">Inside</span>.
+            Our Naturopathy Will Give You <span className="text-primary">Energy</span> That <span className="text-primary">Never Dies,</span> Skin That <span className="text-primary">Never Breaks Out,</span> & a Gut That <span className="text-primary">Never Bloats</span>, In As Little As <span className="text-primary">21 Days!</span>
           </h2>
 
           {/* CTA */}
