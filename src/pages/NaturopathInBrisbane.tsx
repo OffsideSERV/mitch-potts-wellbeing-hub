@@ -511,6 +511,11 @@ const NaturopathInBrisbane = () => {
             ))}
           </div>
           <p className="scroll-animate text-center text-primary font-semibold text-lg mt-8">And much more...</p>
+          <div className="scroll-animate text-center mt-10">
+            <Button size="lg" className="text-base sm:text-lg px-8 py-4 h-auto" asChild>
+              <a href="#free-consult-lp">Book Your Free Consult!</a>
+            </Button>
+          </div>
         </div>
       </section>
 
@@ -553,6 +558,11 @@ const NaturopathInBrisbane = () => {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="scroll-animate text-center mt-10">
+            <Button size="lg" className="text-base sm:text-lg px-8 py-4 h-auto" asChild>
+              <a href="#free-consult-lp">I'm Choosing You, Let's Do This!</a>
+            </Button>
           </div>
         </div>
       </section>
