@@ -294,7 +294,7 @@ const NaturopathInBrisbane = () => {
                     <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                   ))}
                 </div>
-                <img src={verifiedIcon} alt="Verified" className="w-5 h-5" loading="eager" />
+                <img src={verifiedIcon} alt="Verified" className="w-5 h-auto" loading="eager" />
               </div>
               <p className="text-white/90 italic text-lg mb-3">
                 "From the very first appointment, I instantly felt like I was getting to the bottom of my issues that no GP could figure out"
@@ -307,7 +307,7 @@ const NaturopathInBrisbane = () => {
           </div>
 
           {/* Sub-headline */}
-          <h2 className="scroll-animate delay-2 text-xl md:text-2xl font-bold text-white/90 mb-8 max-w-3xl mx-auto">
+          <h2 className="scroll-animate delay-2 text-2xl md:text-3xl font-bold text-white/90 mb-8 max-w-3xl mx-auto">
             Our Naturopathy Will Give You <span className="text-primary">Energy</span> That <span className="text-primary">Never Dies,</span> Skin That <span className="text-primary">Never Breaks Out,</span> & a Gut That <span className="text-primary">Never Bloats</span>, In As Little As <span className="text-primary">21 Days!</span>
           </h2>
 
@@ -329,7 +329,8 @@ const NaturopathInBrisbane = () => {
               { icon: <Zap className="w-5 h-5 text-primary" />, text: "90% See Results In 3 Weeks!" },
               { icon: <CheckCircle className="w-5 h-5 text-primary" />, text: "Free 15-Min Consult for New Patients!" },
               { icon: <Clock className="w-5 h-5 text-primary" />, text: "Consults Last 1hr, Not 5mins" },
-              { icon: <Target className="w-5 h-5 text-primary" />, text: "Your Plan Is Made Just for You" },
+              { icon: <Target className="w-5 h-5 text-primary" />, text: "Your Health Plan Is Made Just for You" },
+              { icon: <Star className="w-5 h-5 text-primary" />, text: "5-Star Rated Naturopath" },
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-lg px-4 py-3 border border-white/10">
                 {item.icon}
