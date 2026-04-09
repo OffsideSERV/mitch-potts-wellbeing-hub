@@ -684,7 +684,7 @@ const NaturopathyBrisbane = () => {
               </div>
               <h3 className="text-xl font-bold mb-3">Do Nothing</h3>
               <p className="text-white/60 text-sm leading-relaxed">
-                You can click away from this page and keep doing what you're doing. Keep going back to the doctors who rush you and tell you "it's all in your head." Keep feeling tired, bloated, and in pain. Keep missing out on your life.
+                You can click away from this page and <strong>keep doing what you're doing</strong>. Keep going back to the doctors who rush you and tell you "it's all in your head." Keep feeling <strong>tired, bloated, and in pain</strong>. Keep <strong>missing out on your life</strong>.
               </p>
             </div>
 
