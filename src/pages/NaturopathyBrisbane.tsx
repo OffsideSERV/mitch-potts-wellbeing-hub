@@ -511,7 +511,7 @@ const NaturopathyBrisbane = () => {
                     {item.icon}
                   </div>
                   <h3 className="text-lg font-bold text-foreground mb-2">{item.title}</h3>
-                  <p className="text-muted-foreground">{item.desc}</p>
+                  <p className="text-muted-foreground">{renderBold(item.desc)}</p>
                 </CardContent>
               </Card>
             ))}
