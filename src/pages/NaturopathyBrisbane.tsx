@@ -368,12 +368,12 @@ const NaturopathyBrisbane = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
             {[
-              { icon: <Coffee className="w-8 h-8" />, title: "You're \"Bone Tired\"", desc: "You wake up feeling like you haven't slept at all. Your body feels heavy, and just getting out of bed is a struggle. You rely on coffee to get through the day, but it just leaves you feeling jittery and anxious." },
-              { icon: <Flame className="w-8 h-8" />, title: "Your Tummy Hurts", desc: "After you eat, your stomach blows up like a balloon. It's painful and uncomfortable. You're scared to eat out with friends because you don't know what will set it off." },
-              { icon: <Stethoscope className="w-8 h-8" />, title: "Doctors Don't Listen", desc: "You wait weeks for a doctor's appointment, only to be rushed out in 5 minutes. They tell you \"your tests are normal\" and \"it's just stress.\" You leave feeling unheard, hopeless, and a little bit crazy." },
-              { icon: <Frown className="w-8 h-8" />, title: "Your Skin Is Angry", desc: "Painful pimples show up on your face at the worst times. Or you have dry, itchy patches of eczema that just won't go away, no matter what cream you use." },
-              { icon: <CloudRain className="w-8 h-8" />, title: "Your Mood Is All Over The Place", desc: "You feel anxious for no reason. Small things make you feel overwhelmed and teary. You don't feel like the happy, calm person you used to be." },
-              { icon: <Ghost className="w-8 h-8" />, title: "You Feel Lost In Your Own Body", desc: "You look in the mirror and don't recognize the tired person with dark circles under their eyes. You just want to feel like yourself again." },
+              { icon: <Coffee className="w-8 h-8" />, title: "You're \"Bone Tired\"", desc: "You wake up feeling like you **haven't slept at all**. Your body feels heavy, and just getting out of bed is a struggle. You rely on **coffee to get through the day**, but it just leaves you feeling jittery and anxious." },
+              { icon: <Flame className="w-8 h-8" />, title: "Your Tummy Hurts", desc: "After you eat, your stomach **blows up like a balloon**. It's painful and uncomfortable. You're **scared to eat out** with friends because you don't know what will set it off." },
+              { icon: <Stethoscope className="w-8 h-8" />, title: "Doctors Don't Listen", desc: "You wait weeks for a doctor's appointment, only to be **rushed out in 5 minutes**. They tell you \"your tests are normal\" and \"**it's just stress**.\" You leave feeling **unheard, hopeless**, and a little bit crazy." },
+              { icon: <Frown className="w-8 h-8" />, title: "Your Skin Is Angry", desc: "**Painful pimples** show up on your face at the worst times. Or you have **dry, itchy patches of eczema** that just won't go away, no matter what cream you use." },
+              { icon: <CloudRain className="w-8 h-8" />, title: "Your Mood Is All Over The Place", desc: "You feel **anxious for no reason**. Small things make you feel **overwhelmed and teary**. You don't feel like the happy, calm person you used to be." },
+              { icon: <Ghost className="w-8 h-8" />, title: "You Feel Lost In Your Own Body", desc: "You look in the mirror and **don't recognize** the tired person with dark circles under their eyes. You just want to **feel like yourself again**." },
             ].map((item, i) => (
               <Card key={i} className={`scroll-animate delay-${(i % 3) + 1} group hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-2 border-transparent hover:border-destructive/20`}>
                 <CardContent className="p-6">
