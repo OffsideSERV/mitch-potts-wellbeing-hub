@@ -37,6 +37,7 @@ const useScrollAnimation = () => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add('animate-in');
+            observer.unobserve(entry.target);
           }
         });
       },
@@ -234,14 +235,22 @@ const NaturopathyBrisbane = () => {
   const heroRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
-    const handleScroll = () => {
-      if (heroRef.current) {
-        const heroBottom = heroRef.current.getBoundingClientRect().bottom;
-        setShowStickyCta(heroBottom < 0);
+    const hero = heroRef.current;
+    if (!hero) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setShowStickyCta(!entry.isIntersecting);
+      },
+      {
+        threshold: 0,
+        rootMargin: '-64px 0px 0px 0px',
       }
-    };
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
+    );
+
+    observer.observe(hero);
+
+    return () => observer.disconnect();
   }, []);
 
   useEffect(() => {
@@ -279,7 +288,6 @@ const NaturopathyBrisbane = () => {
           opacity: 0;
           transform: translate3d(0, 30px, 0);
           transition: opacity 0.7s ease-out, transform 0.7s ease-out;
-          will-change: opacity, transform;
         }
         .scroll-animate.animate-in {
           opacity: 1;
@@ -290,6 +298,20 @@ const NaturopathyBrisbane = () => {
         .scroll-animate.delay-3 { transition-delay: 0.3s; }
         .scroll-animate.delay-4 { transition-delay: 0.4s; }
         .scroll-animate.delay-5 { transition-delay: 0.5s; }
+
+        @media (prefers-reduced-motion: reduce), (max-width: 767px) {
+          .scroll-animate,
+          .scroll-animate.animate-in,
+          .scroll-animate.delay-1,
+          .scroll-animate.delay-2,
+          .scroll-animate.delay-3,
+          .scroll-animate.delay-4,
+          .scroll-animate.delay-5 {
+            opacity: 1;
+            transform: none;
+            transition: none;
+          }
+        }
       `}</style>
 
       {/* LANDING PAGE HEADER */}
@@ -851,7 +873,7 @@ const NaturopathyBrisbane = () => {
 
       {/* Sticky CTA */}
       <div
-        className={`fixed bottom-0 left-0 right-0 z-50 transition-all duration-500 ease-in-out ${showStickyCta ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'}`}
+        className={`fixed bottom-0 left-0 right-0 z-50 transform-gpu transition-all duration-500 ease-in-out ${showStickyCta ? 'translate-y-0 opacity-100 pointer-events-auto' : 'translate-y-full opacity-0 pointer-events-none'}`}
       >
         <div className="bg-background/95 border-t border-border shadow-[0_-4px_20px_-4px_rgba(0,0,0,0.15)] px-4 py-3">
           <div className="max-w-xl mx-auto">
