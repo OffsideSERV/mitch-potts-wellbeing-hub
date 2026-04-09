@@ -434,7 +434,7 @@ const NaturopathInBrisbane = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-foreground mb-1">{item.title}</h3>
-                  <p className="text-muted-foreground text-sm">{item.desc}</p>
+                  <p className="text-muted-foreground text-sm">{renderBold(item.desc)}</p>
                 </div>
               </div>
             ))}
