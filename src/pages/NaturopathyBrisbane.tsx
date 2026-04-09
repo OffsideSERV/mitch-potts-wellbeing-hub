@@ -521,8 +521,7 @@ const NaturopathyBrisbane = () => {
         </div>
       </section>
 
-      {/* OUR SERVICES SECTION */}
-      <section className="py-20 bg-muted">
+      <section id="services" className="py-20 bg-muted scroll-mt-20">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="scroll-animate text-3xl md:text-4xl font-extrabold text-foreground text-center mb-4">The Tools We Use To Heal You</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6 scroll-animate delay-1" />
