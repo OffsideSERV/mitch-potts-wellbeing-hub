@@ -277,12 +277,13 @@ const NaturopathyBrisbane = () => {
       <style>{`
         .scroll-animate {
           opacity: 0;
-          transform: translateY(30px);
+          transform: translate3d(0, 30px, 0);
           transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+          will-change: opacity, transform;
         }
         .scroll-animate.animate-in {
           opacity: 1;
-          transform: translateY(0);
+          transform: translate3d(0, 0, 0);
         }
         .scroll-animate.delay-1 { transition-delay: 0.1s; }
         .scroll-animate.delay-2 { transition-delay: 0.2s; }
