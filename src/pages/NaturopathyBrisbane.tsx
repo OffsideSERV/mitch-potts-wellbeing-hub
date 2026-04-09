@@ -479,6 +479,11 @@ const NaturopathyBrisbane = () => {
               </div>
             ))}
           </div>
+          <div className="scroll-animate text-center mt-10">
+            <Button size="lg" className="text-base sm:text-lg px-8 py-4 h-auto" asChild>
+              <a href="#free-consult-lp">Book Your Free 15-Min Consult!</a>
+            </Button>
+          </div>
         </div>
       </section>
 
@@ -641,6 +646,11 @@ const NaturopathyBrisbane = () => {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="scroll-animate text-center mt-10">
+            <Button size="lg" className="text-base sm:text-lg px-8 py-4 h-auto" asChild>
+              <a href="#free-consult-lp">Book Your Free 15-Min Consult!</a>
+            </Button>
           </div>
         </div>
       </section>
