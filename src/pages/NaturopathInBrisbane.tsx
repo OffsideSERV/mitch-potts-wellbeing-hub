@@ -413,7 +413,7 @@ const NaturopathInBrisbane = () => {
           </div>
 
           <p className="scroll-animate delay-1 text-center text-muted-foreground text-lg max-w-3xl mx-auto mb-12">
-            We help people in Brisbane find the real reason behind their health problems. We don't just put a band-aid on them. We focus on healing you from the inside out.
+            We help people in Brisbane find the <strong className="text-foreground">real reason</strong> behind their health problems. We don't just put a band-aid on them. We focus on <strong className="text-foreground">healing you from the inside out</strong>.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
