@@ -127,6 +127,8 @@ const LPReviewCard: React.FC<{ name: string; content: string; timeAgo: string; r
 const ReviewsSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [slidesPerView, setSlidesPerView] = useState(3);
+  const touchStartX = useRef(0);
+  const touchEndX = useRef(0);
 
   useEffect(() => {
     const updateSlidesPerView = () => {
@@ -146,6 +148,22 @@ const ReviewsSlider = () => {
   const goPrev = useCallback(() => {
     setCurrentIndex(prev => Math.max(prev - 1, 0));
   }, []);
+
+  const handleTouchStart = useCallback((e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+  }, []);
+
+  const handleTouchMove = useCallback((e: React.TouchEvent) => {
+    touchEndX.current = e.touches[0].clientX;
+  }, []);
+
+  const handleTouchEnd = useCallback(() => {
+    const diff = touchStartX.current - touchEndX.current;
+    if (Math.abs(diff) > 50) {
+      if (diff > 0) goNext();
+      else goPrev();
+    }
+  }, [goNext, goPrev]);
 
   return (
     <section className="py-20 bg-background">
