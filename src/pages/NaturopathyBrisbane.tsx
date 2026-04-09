@@ -430,7 +430,7 @@ const NaturopathyBrisbane = () => {
               { icon: <Target className="w-5 h-5 text-primary" />, text: "Your Health Plan Is Made Just for You" },
               { icon: <Star className="w-5 h-5 text-primary" />, text: "5-Star Rated Naturopath" },
             ].map((item, i) => (
-              <div key={i} className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-lg px-4 py-3 border border-white/10">
+              <div key={i} className="flex items-center gap-2 bg-white/15 rounded-lg px-4 py-3 border border-white/10">
                 {item.icon}
                 <span className="text-white/90 text-sm font-medium">{item.text}</span>
               </div>
