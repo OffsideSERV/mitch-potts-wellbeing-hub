@@ -695,7 +695,7 @@ const NaturopathyBrisbane = () => {
               </div>
               <h3 className="text-xl font-bold mb-3">Choose Another Naturopath</h3>
               <p className="text-white/60 text-sm leading-relaxed">
-                You can take a gamble on another naturopath who might give you the same recycled plan they give to everyone else, leaving you with a bag of expensive supplements and no real answers.
+                You can take a gamble on another naturopath who might give you the <strong>same recycled plan</strong> they give to everyone else, leaving you with a bag of <strong>expensive supplements</strong> and <strong>no real answers</strong>.
               </p>
             </div>
 
