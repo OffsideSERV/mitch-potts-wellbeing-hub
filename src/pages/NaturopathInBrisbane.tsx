@@ -260,7 +260,7 @@ const NaturopathInBrisbane = () => {
       `}</style>
 
       {/* LANDING PAGE HEADER */}
-      <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
+      <header className="sticky top-0 z-50 bg-background border-b border-border">
         <div className="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
           <a href="/" className="flex items-center">
             <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-14 w-14" />
