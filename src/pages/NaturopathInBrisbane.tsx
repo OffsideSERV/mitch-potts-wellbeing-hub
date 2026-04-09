@@ -327,7 +327,7 @@ const NaturopathInBrisbane = () => {
       </header>
 
       {/* HERO SECTION */}
-      <section className="relative flex flex-col items-center justify-center overflow-hidden">
+      <section ref={heroRef} className="relative flex flex-col items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: `url(${consultationHeroBg})` }}
