@@ -22,6 +22,12 @@ import mitchMicroscope from '@/assets/mitch-microscope.png';
 import mitchAnalysis from '@/assets/mitch-analysis.png';
 import nxtlvlLogo from '/lovable-uploads/0aadec6a-7f1f-4a21-854c-39d8c3a218d0.png';
 
+const renderBold = (text: string) => {
+  return text.split('**').map((part, index) =>
+    index % 2 === 1 ? <strong key={index} className="font-semibold text-foreground">{part}</strong> : part
+  );
+};
+
 const useScrollAnimation = () => {
   const ref = useRef<HTMLDivElement>(null);
   
