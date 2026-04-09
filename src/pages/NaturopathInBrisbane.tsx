@@ -166,7 +166,7 @@ const ReviewsSlider = () => {
   }, [goNext, goPrev]);
 
   return (
-    <section className="py-20 bg-background">
+    <section id="reviews" className="py-20 bg-background scroll-mt-20">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-extrabold text-foreground text-center mb-4">Hear What Our Patients Say</h2>
         <div className="w-20 h-1 bg-primary mx-auto mb-12" />
@@ -283,6 +283,28 @@ const NaturopathInBrisbane = () => {
           <a href="/" className="flex items-center">
             <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-14 w-14" />
           </a>
+          <nav className="hidden md:flex items-center gap-6">
+            {[
+              { label: "What We Treat", id: "what-we-treat" },
+              { label: "Services", id: "services" },
+              { label: "Why Us?", id: "why-us" },
+              { label: "Reviews", id: "reviews" },
+              { label: "FAQs", id: "faqs" },
+              { label: "Location", id: "location" },
+            ].map((link) => (
+              <a
+                key={link.id}
+                href={`#${link.id}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById(link.id)?.scrollIntoView({ behavior: 'smooth' });
+                }}
+                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+              >
+                {link.label}
+              </a>
+            ))}
+          </nav>
           <a href="tel:0731913367" className="flex items-center gap-2 text-primary font-bold hover:text-primary/80 transition-colors">
             <Phone className="w-5 h-5" />
             <span className="hidden sm:inline">(07) 3191 3367</span>
@@ -420,7 +442,7 @@ const NaturopathInBrisbane = () => {
       </section>
 
       {/* WHAT WE TREAT SECTION */}
-      <section className="py-20 bg-muted">
+      <section id="what-we-treat" className="py-20 bg-muted scroll-mt-20">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="scroll-animate text-3xl md:text-4xl font-extrabold text-foreground text-center mb-4">What We Treat</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6 scroll-animate delay-1" />
@@ -500,7 +522,7 @@ const NaturopathInBrisbane = () => {
       </section>
 
       {/* OUR SERVICES SECTION */}
-      <section className="py-20 bg-muted">
+      <section id="services" className="py-20 bg-muted scroll-mt-20">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="scroll-animate text-3xl md:text-4xl font-extrabold text-foreground text-center mb-4">The Tools We Use To Heal You</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6 scroll-animate delay-1" />
@@ -544,7 +566,7 @@ const NaturopathInBrisbane = () => {
       </section>
 
       {/* WHY US SECTION - Comparison Table */}
-      <section className="py-20 bg-background">
+      <section id="why-us" className="py-20 bg-background scroll-mt-20">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="scroll-animate text-3xl md:text-4xl font-extrabold text-foreground text-center mb-6">Why Choose Us Over Other Naturopaths?</h2>
 
@@ -625,7 +647,7 @@ const NaturopathInBrisbane = () => {
       </section>
 
       {/* FAQs SECTION */}
-      <section className="py-20 bg-background">
+      <section id="faqs" className="py-20 bg-background scroll-mt-20">
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="scroll-animate text-3xl md:text-4xl font-extrabold text-foreground text-center mb-4">Questions You Might Be Asking</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-12 scroll-animate delay-1" />
@@ -654,7 +676,7 @@ const NaturopathInBrisbane = () => {
       </section>
 
       {/* LOCATION SECTION */}
-      <section className="py-20 bg-muted">
+      <section id="location" className="py-20 bg-muted scroll-mt-20">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="scroll-animate text-3xl md:text-4xl font-extrabold text-foreground text-center mb-12">Come See Us In New Farm, Brisbane</h2>
 
