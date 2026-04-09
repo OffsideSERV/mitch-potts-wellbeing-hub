@@ -418,15 +418,15 @@ const NaturopathyBrisbane = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {[
-              { icon: <Heart className="w-6 h-6" />, title: "Gut Health", desc: "Stop the bloating, gas, pain, and running to the toilet." },
-              { icon: <Zap className="w-6 h-6" />, title: "Low Energy & Fatigue", desc: "Get your energy back so you can live your life." },
-              { icon: <Sparkles className="w-6 h-6" />, title: "Skin Conditions", desc: "Heal acne, eczema, and psoriasis for good." },
-              { icon: <CircleDot className="w-6 h-6" />, title: "Hormone Problems", desc: "Fix painful periods, PMS, and menopause symptoms." },
-              { icon: <Target className="w-6 h-6" />, title: "Weight Loss", desc: "Lose weight without starving yourself." },
-              { icon: <Brain className="w-6 h-6" />, title: "Anxiety & Depression", desc: "Feel calm, happy, and in control again." },
-              { icon: <Shield className="w-6 h-6" />, title: "Thyroid Problems", desc: "Get your metabolism and energy back on track." },
-              { icon: <Leaf className="w-6 h-6" />, title: "Autoimmune Conditions", desc: "Calm down your immune system and reduce flare-ups." },
-              { icon: <Clock className="w-6 h-6" />, title: "Sleep Problems", desc: "Fall asleep easily and wake up feeling refreshed." },
+              { icon: <Heart className="w-6 h-6" />, title: "Gut Health", desc: "Stop the **bloating, gas, pain**, and running to the toilet." },
+              { icon: <Zap className="w-6 h-6" />, title: "Low Energy & Fatigue", desc: "Get your **energy back** so you can live your life." },
+              { icon: <Sparkles className="w-6 h-6" />, title: "Skin Conditions", desc: "Heal **acne, eczema, and psoriasis** for good." },
+              { icon: <CircleDot className="w-6 h-6" />, title: "Hormone Problems", desc: "Fix **painful periods, PMS**, and menopause symptoms." },
+              { icon: <Target className="w-6 h-6" />, title: "Weight Loss", desc: "Lose weight **without starving yourself**." },
+              { icon: <Brain className="w-6 h-6" />, title: "Anxiety & Depression", desc: "Feel **calm, happy, and in control** again." },
+              { icon: <Shield className="w-6 h-6" />, title: "Thyroid Problems", desc: "Get your **metabolism and energy** back on track." },
+              { icon: <Leaf className="w-6 h-6" />, title: "Autoimmune Conditions", desc: "Calm down your immune system and **reduce flare-ups**." },
+              { icon: <Clock className="w-6 h-6" />, title: "Sleep Problems", desc: "Fall asleep easily and **wake up feeling refreshed**." },
             ].map((item, i) => (
               <div key={i} className={`scroll-animate delay-${(i % 3) + 1} flex items-start gap-4 bg-card rounded-xl p-5 shadow-sm hover:shadow-md transition-shadow duration-300`}>
                 <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary flex-shrink-0">
