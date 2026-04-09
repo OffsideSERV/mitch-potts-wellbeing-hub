@@ -280,7 +280,7 @@ const NaturopathyBrisbane = () => {
         description="We'll give you energy that never dies, skin that never breaks out, and a gut that never bloats in as little as 21 days. Book your free 15-minute consult now." 
         canonical="/naturopathy-brisbane"
         keywords="naturopath Brisbane, naturopathy Brisbane, natural medicine Brisbane, gut health Brisbane, holistic health Brisbane"
-        noindex={false}
+        noindex={true}
       />
 
       <style>{`
