@@ -706,7 +706,7 @@ const NaturopathyBrisbane = () => {
               </div>
               <h3 className="text-xl font-bold mb-3 text-primary">Choose Us and Finally Heal</h3>
               <p className="text-white/70 text-sm leading-relaxed">
-                You can choose to work with a team that is obsessed with getting to the root cause of your problems. A team that will listen to you, support you, and give you a plan that is made just for you. You can choose to finally get your energy, your health, and your life back.
+                You can choose to work with a team that is obsessed with getting to the <strong>root cause</strong> of your problems. A team that will <strong>listen to you, support you</strong>, and give you a plan that is <strong>made just for you</strong>. You can choose to finally get your <strong>energy, your health, and your life back</strong>.
               </p>
             </div>
           </div>
