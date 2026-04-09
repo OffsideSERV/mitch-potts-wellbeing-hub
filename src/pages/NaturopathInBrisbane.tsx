@@ -230,6 +230,7 @@ const ReviewsSlider = () => {
 const NaturopathInBrisbane = () => {
   const pageRef = useScrollAnimation();
   const [showStickyCta, setShowStickyCta] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const heroRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
