@@ -303,7 +303,7 @@ const NaturopathyBrisbane = () => {
                 <img src={verifiedIcon} alt="Verified" className="w-5 h-auto" loading="eager" />
               </div>
               <p className="text-white/90 italic text-lg mb-3">
-                "From the very first appointment, I instantly felt like I was getting to the bottom of my issues that no GP could figure out"
+                "From the very first appointment, I <strong>instantly</strong> felt like I was getting to the <strong>bottom of my issues</strong> that <strong>no GP could figure out</strong>"
               </p>
               <div className="flex items-center justify-center gap-3">
                 <img src={danielMortonProfile} alt="Daniel Morton" className="w-10 h-10 rounded-full" loading="eager" />
