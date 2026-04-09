@@ -277,12 +277,13 @@ const NaturopathyBrisbane = () => {
       <style>{`
         .scroll-animate {
           opacity: 0;
-          transform: translateY(30px);
+          transform: translate3d(0, 30px, 0);
           transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+          will-change: opacity, transform;
         }
         .scroll-animate.animate-in {
           opacity: 1;
-          transform: translateY(0);
+          transform: translate3d(0, 0, 0);
         }
         .scroll-animate.delay-1 { transition-delay: 0.1s; }
         .scroll-animate.delay-2 { transition-delay: 0.2s; }
@@ -384,7 +385,7 @@ const NaturopathyBrisbane = () => {
 
           {/* Testimonial */}
           <div className="scroll-animate delay-1 max-w-2xl mx-auto mb-8">
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
+            <div className="bg-white/15 rounded-2xl p-6 border border-white/10">
               <div className="flex items-center justify-center gap-3 mb-3">
                 <img src={googleIcon} alt="Google" className="w-5 h-5" loading="eager" />
                 <div className="flex gap-0.5">
@@ -430,7 +431,7 @@ const NaturopathyBrisbane = () => {
               { icon: <Target className="w-5 h-5 text-primary" />, text: "Your Health Plan Is Made Just for You" },
               { icon: <Star className="w-5 h-5 text-primary" />, text: "5-Star Rated Naturopath" },
             ].map((item, i) => (
-              <div key={i} className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-lg px-4 py-3 border border-white/10">
+              <div key={i} className="flex items-center gap-2 bg-white/15 rounded-lg px-4 py-3 border border-white/10">
                 {item.icon}
                 <span className="text-white/90 text-sm font-medium">{item.text}</span>
               </div>
