@@ -498,12 +498,12 @@ const NaturopathyBrisbane = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { icon: <Salad className="w-7 h-7" />, title: "Nutritional Medicine", desc: "Using food as medicine to heal your body." },
-              { icon: <TestTube className="w-7 h-7" />, title: "Functional Testing", desc: "Advanced tests to find the hidden cause of your problems." },
-              { icon: <Microscope className="w-7 h-7" />, title: "Live Blood Analysis", desc: "A drop of blood on a big screen shows us what's happening inside your body right now." },
-              { icon: <Heart className="w-7 h-7" />, title: "Lifestyle Coaching", desc: "Helping you build healthy habits that last a lifetime." },
-              { icon: <Dumbbell className="w-7 h-7" />, title: "Personal Training", desc: "Creating a fitness plan that works for your body." },
-              { icon: <Zap className="w-7 h-7" />, title: "MLS Laser Therapy", desc: "A special light that helps reduce pain and swelling." },
+              { icon: <Salad className="w-7 h-7" />, title: "Nutritional Medicine", desc: "Using **food as medicine** to heal your body." },
+              { icon: <TestTube className="w-7 h-7" />, title: "Functional Testing", desc: "**Advanced tests** to find the **hidden cause** of your problems." },
+              { icon: <Microscope className="w-7 h-7" />, title: "Live Blood Analysis", desc: "A drop of blood on a big screen shows us **what's happening inside your body** right now." },
+              { icon: <Heart className="w-7 h-7" />, title: "Lifestyle Coaching", desc: "Helping you build **healthy habits** that last a lifetime." },
+              { icon: <Dumbbell className="w-7 h-7" />, title: "Personal Training", desc: "Creating a **fitness plan** that works for your body." },
+              { icon: <Zap className="w-7 h-7" />, title: "MLS Laser Therapy", desc: "A special light that helps **reduce pain and swelling**." },
             ].map((item, i) => (
               <Card key={i} className={`scroll-animate delay-${(i % 3) + 1} group hover:shadow-xl transition-all duration-300 hover:-translate-y-1`}>
                 <CardContent className="p-6 text-center">
