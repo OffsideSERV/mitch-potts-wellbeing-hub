@@ -493,7 +493,7 @@ const NaturopathyBrisbane = () => {
           </div>
 
           <p className="scroll-animate delay-1 text-center text-muted-foreground text-lg max-w-3xl mx-auto mb-12">
-            We use a mix of modern science and natural medicine to create a plan that is perfect for you.
+            We use a mix of <strong className="text-foreground">modern science</strong> and <strong className="text-foreground">natural medicine</strong> to create a plan that is <strong className="text-foreground">perfect for you</strong>.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
