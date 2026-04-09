@@ -587,10 +587,10 @@ const NaturopathyBrisbane = () => {
 
           <div className="space-y-8">
             {[
-              { step: 1, title: "Book Your FREE 15-Minute Consult", desc: "This is a quick, easy chat with our head naturopath, Mitch. You can tell him what's going on. He will listen. He will let you know if we are the right place to help you. There is no pressure." },
-              { step: 2, title: "Your First Real Appointment (1 Hour)", desc: "This is where the real healing begins. You will sit down with Mitch (in our clinic or online). You will have a full hour to tell him everything. He will listen to your whole story. By the end, you will have a clear, custom health plan made just for you." },
-              { step: 3, title: "Your Monthly Check-ins", desc: "We don't just give you a plan and say goodbye. You will come back each month so Mitch can see how you are doing. We will check in, make sure you are on the right track, and support you every step of the way." },
-              { step: 4, title: "Get Your Life Back", desc: "Slowly, you will start to feel the changes. The bloating will go down. The tiredness will lift. You will start to feel lighter, brighter, and more like your old self. You will feel comfortable and happy in your body again." },
+              { step: 1, title: "Book Your FREE 15-Minute Consult", desc: "This is a **quick, easy chat** with our head naturopath, Mitch. You can tell him what's going on. He will **listen**. He will let you know if we are the right place to help you. There is **no pressure**." },
+              { step: 2, title: "Your First Real Appointment (1 Hour)", desc: "This is where the **real healing begins**. You will sit down with Mitch (in our clinic or online). You will have a **full hour** to tell him everything. He will listen to your whole story. By the end, you will have a **clear, custom health plan** made just for you." },
+              { step: 3, title: "Your Monthly Check-ins", desc: "We don't just give you a plan and say goodbye. You will come back each month so Mitch can see how you are doing. We will **check in**, make sure you are **on the right track**, and **support you every step of the way**." },
+              { step: 4, title: "Get Your Life Back", desc: "Slowly, you will start to feel the changes. The **bloating will go down**. The **tiredness will lift**. You will start to feel **lighter, brighter**, and more like your old self. You will feel **comfortable and happy** in your body again." },
             ].map((item, i) => (
               <div key={i} className={`scroll-animate delay-${i + 1} flex gap-6 items-start`}>
                 <div className="w-14 h-14 bg-primary rounded-2xl flex items-center justify-center text-primary-foreground font-extrabold text-xl flex-shrink-0 shadow-lg">
