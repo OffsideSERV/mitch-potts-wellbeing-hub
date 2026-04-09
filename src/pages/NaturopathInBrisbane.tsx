@@ -283,6 +283,28 @@ const NaturopathInBrisbane = () => {
           <a href="/" className="flex items-center">
             <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-14 w-14" />
           </a>
+          <nav className="hidden md:flex items-center gap-6">
+            {[
+              { label: "What We Treat", id: "what-we-treat" },
+              { label: "Services", id: "services" },
+              { label: "Why Us?", id: "why-us" },
+              { label: "Reviews", id: "reviews" },
+              { label: "FAQs", id: "faqs" },
+              { label: "Location", id: "location" },
+            ].map((link) => (
+              <a
+                key={link.id}
+                href={`#${link.id}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById(link.id)?.scrollIntoView({ behavior: 'smooth' });
+                }}
+                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+              >
+                {link.label}
+              </a>
+            ))}
+          </nav>
           <a href="tel:0731913367" className="flex items-center gap-2 text-primary font-bold hover:text-primary/80 transition-colors">
             <Phone className="w-5 h-5" />
             <span className="hidden sm:inline">(07) 3191 3367</span>
