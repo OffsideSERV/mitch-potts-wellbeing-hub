@@ -384,7 +384,7 @@ const NaturopathInBrisbane = () => {
 
           {/* Testimonial */}
           <div className="scroll-animate delay-1 max-w-2xl mx-auto mb-8">
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
+            <div className="bg-white/15 rounded-2xl p-6 border border-white/10">
               <div className="flex items-center justify-center gap-3 mb-3">
                 <img src={googleIcon} alt="Google" className="w-5 h-5" loading="eager" />
                 <div className="flex gap-0.5">
