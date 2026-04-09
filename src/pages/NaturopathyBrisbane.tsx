@@ -189,7 +189,7 @@ const ReviewsSlider = () => {
             <ChevronRight className="w-5 h-5 text-foreground" />
           </button>
 
-          <div className="overflow-hidden mx-4 md:mx-2">
+          <div className="overflow-hidden mx-4 md:mx-2" onTouchStart={handleTouchStart} onTouchMove={handleTouchMove} onTouchEnd={handleTouchEnd}>
             <div
               className="flex transition-transform duration-500 ease-in-out"
               style={{ transform: `translateX(-${currentIndex * (100 / slidesPerView)}%)` }}
