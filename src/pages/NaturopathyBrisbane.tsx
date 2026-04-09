@@ -565,7 +565,7 @@ const NaturopathyBrisbane = () => {
       </section>
 
       {/* WHY US SECTION - Comparison Table */}
-      <section className="py-20 bg-background">
+      <section id="why-us" className="py-20 bg-background scroll-mt-20">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="scroll-animate text-3xl md:text-4xl font-extrabold text-foreground text-center mb-6">Why Choose Us Over Other Naturopaths?</h2>
 
