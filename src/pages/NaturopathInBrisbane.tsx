@@ -22,6 +22,12 @@ import mitchMicroscope from '@/assets/mitch-microscope.png';
 import mitchAnalysis from '@/assets/mitch-analysis.png';
 import nxtlvlLogo from '/lovable-uploads/0aadec6a-7f1f-4a21-854c-39d8c3a218d0.png';
 
+const renderBold = (text: string) => {
+  return text.split('**').map((part, index) =>
+    index % 2 === 1 ? <strong key={index} className="font-semibold text-foreground">{part}</strong> : part
+  );
+};
+
 const useScrollAnimation = () => {
   const ref = useRef<HTMLDivElement>(null);
   
@@ -297,7 +303,7 @@ const NaturopathInBrisbane = () => {
                 <img src={verifiedIcon} alt="Verified" className="w-5 h-auto" loading="eager" />
               </div>
               <p className="text-white/90 italic text-lg mb-3">
-                "From the very first appointment, I instantly felt like I was getting to the bottom of my issues that no GP could figure out"
+                "From the very first appointment, I <strong>instantly</strong> felt like I was getting to the <strong>bottom of my issues</strong> that <strong>no GP could figure out</strong>"
               </p>
               <div className="flex items-center justify-center gap-3">
                 <img src={danielMortonProfile} alt="Daniel Morton" className="w-10 h-10 rounded-full" loading="eager" />
@@ -362,12 +368,12 @@ const NaturopathInBrisbane = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
             {[
-              { icon: <Coffee className="w-8 h-8" />, title: "You're \"Bone Tired\"", desc: "You wake up feeling like you haven't slept at all. Your body feels heavy, and just getting out of bed is a struggle. You rely on coffee to get through the day, but it just leaves you feeling jittery and anxious." },
-              { icon: <Flame className="w-8 h-8" />, title: "Your Tummy Hurts", desc: "After you eat, your stomach blows up like a balloon. It's painful and uncomfortable. You're scared to eat out with friends because you don't know what will set it off." },
-              { icon: <Stethoscope className="w-8 h-8" />, title: "Doctors Don't Listen", desc: "You wait weeks for a doctor's appointment, only to be rushed out in 5 minutes. They tell you \"your tests are normal\" and \"it's just stress.\" You leave feeling unheard, hopeless, and a little bit crazy." },
-              { icon: <Frown className="w-8 h-8" />, title: "Your Skin Is Angry", desc: "Painful pimples show up on your face at the worst times. Or you have dry, itchy patches of eczema that just won't go away, no matter what cream you use." },
-              { icon: <CloudRain className="w-8 h-8" />, title: "Your Mood Is All Over The Place", desc: "You feel anxious for no reason. Small things make you feel overwhelmed and teary. You don't feel like the happy, calm person you used to be." },
-              { icon: <Ghost className="w-8 h-8" />, title: "You Feel Lost In Your Own Body", desc: "You look in the mirror and don't recognize the tired person with dark circles under their eyes. You just want to feel like yourself again." },
+              { icon: <Coffee className="w-8 h-8" />, title: "You're \"Bone Tired\"", desc: "You wake up feeling like you **haven't slept at all**. Your body feels heavy, and just getting out of bed is a struggle. You rely on **coffee to get through the day**, but it just leaves you feeling jittery and anxious." },
+              { icon: <Flame className="w-8 h-8" />, title: "Your Tummy Hurts", desc: "After you eat, your stomach **blows up like a balloon**. It's painful and uncomfortable. You're **scared to eat out** with friends because you don't know what will set it off." },
+              { icon: <Stethoscope className="w-8 h-8" />, title: "Doctors Don't Listen", desc: "You wait weeks for a doctor's appointment, only to be **rushed out in 5 minutes**. They tell you \"your tests are normal\" and \"**it's just stress**.\" You leave feeling **unheard, hopeless**, and a little bit crazy." },
+              { icon: <Frown className="w-8 h-8" />, title: "Your Skin Is Angry", desc: "**Painful pimples** show up on your face at the worst times. Or you have **dry, itchy patches of eczema** that just won't go away, no matter what cream you use." },
+              { icon: <CloudRain className="w-8 h-8" />, title: "Your Mood Is All Over The Place", desc: "You feel **anxious for no reason**. Small things make you feel **overwhelmed and teary**. You don't feel like the happy, calm person you used to be." },
+              { icon: <Ghost className="w-8 h-8" />, title: "You Feel Lost In Your Own Body", desc: "You look in the mirror and **don't recognize** the tired person with dark circles under their eyes. You just want to **feel like yourself again**." },
             ].map((item, i) => (
               <Card key={i} className={`scroll-animate delay-${(i % 3) + 1} group hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-2 border-transparent hover:border-destructive/20`}>
                 <CardContent className="p-6">
@@ -375,7 +381,7 @@ const NaturopathInBrisbane = () => {
                     {item.icon}
                   </div>
                   <h3 className="text-xl font-bold text-foreground mb-3">{item.title}</h3>
-                  <p className="text-muted-foreground leading-relaxed">{item.desc}</p>
+                  <p className="text-muted-foreground leading-relaxed">{renderBold(item.desc)}</p>
                 </CardContent>
               </Card>
             ))}
@@ -407,20 +413,20 @@ const NaturopathInBrisbane = () => {
           </div>
 
           <p className="scroll-animate delay-1 text-center text-muted-foreground text-lg max-w-3xl mx-auto mb-12">
-            We help people in Brisbane find the real reason behind their health problems. We don't just put a band-aid on them. We focus on healing you from the inside out.
+            We help people in Brisbane find the <strong className="text-foreground">real reason</strong> behind their health problems. We don't just put a band-aid on them. We focus on <strong className="text-foreground">healing you from the inside out</strong>.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {[
-              { icon: <Heart className="w-6 h-6" />, title: "Gut Health", desc: "Stop the bloating, gas, pain, and running to the toilet." },
-              { icon: <Zap className="w-6 h-6" />, title: "Low Energy & Fatigue", desc: "Get your energy back so you can live your life." },
-              { icon: <Sparkles className="w-6 h-6" />, title: "Skin Conditions", desc: "Heal acne, eczema, and psoriasis for good." },
-              { icon: <CircleDot className="w-6 h-6" />, title: "Hormone Problems", desc: "Fix painful periods, PMS, and menopause symptoms." },
-              { icon: <Target className="w-6 h-6" />, title: "Weight Loss", desc: "Lose weight without starving yourself." },
-              { icon: <Brain className="w-6 h-6" />, title: "Anxiety & Depression", desc: "Feel calm, happy, and in control again." },
-              { icon: <Shield className="w-6 h-6" />, title: "Thyroid Problems", desc: "Get your metabolism and energy back on track." },
-              { icon: <Leaf className="w-6 h-6" />, title: "Autoimmune Conditions", desc: "Calm down your immune system and reduce flare-ups." },
-              { icon: <Clock className="w-6 h-6" />, title: "Sleep Problems", desc: "Fall asleep easily and wake up feeling refreshed." },
+              { icon: <Heart className="w-6 h-6" />, title: "Gut Health", desc: "Stop the **bloating, gas, pain**, and running to the toilet." },
+              { icon: <Zap className="w-6 h-6" />, title: "Low Energy & Fatigue", desc: "Get your **energy back** so you can live your life." },
+              { icon: <Sparkles className="w-6 h-6" />, title: "Skin Conditions", desc: "Heal **acne, eczema, and psoriasis** for good." },
+              { icon: <CircleDot className="w-6 h-6" />, title: "Hormone Problems", desc: "Fix **painful periods, PMS**, and menopause symptoms." },
+              { icon: <Target className="w-6 h-6" />, title: "Weight Loss", desc: "Lose weight **without starving yourself**." },
+              { icon: <Brain className="w-6 h-6" />, title: "Anxiety & Depression", desc: "Feel **calm, happy, and in control** again." },
+              { icon: <Shield className="w-6 h-6" />, title: "Thyroid Problems", desc: "Get your **metabolism and energy** back on track." },
+              { icon: <Leaf className="w-6 h-6" />, title: "Autoimmune Conditions", desc: "Calm down your immune system and **reduce flare-ups**." },
+              { icon: <Clock className="w-6 h-6" />, title: "Sleep Problems", desc: "Fall asleep easily and **wake up feeling refreshed**." },
             ].map((item, i) => (
               <div key={i} className={`scroll-animate delay-${(i % 3) + 1} flex items-start gap-4 bg-card rounded-xl p-5 shadow-sm hover:shadow-md transition-shadow duration-300`}>
                 <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary flex-shrink-0">
@@ -428,7 +434,7 @@ const NaturopathInBrisbane = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-foreground mb-1">{item.title}</h3>
-                  <p className="text-muted-foreground text-sm">{item.desc}</p>
+                  <p className="text-muted-foreground text-sm">{renderBold(item.desc)}</p>
                 </div>
               </div>
             ))}
@@ -487,17 +493,17 @@ const NaturopathInBrisbane = () => {
           </div>
 
           <p className="scroll-animate delay-1 text-center text-muted-foreground text-lg max-w-3xl mx-auto mb-12">
-            We use a mix of modern science and natural medicine to create a plan that is perfect for you.
+            We use a mix of <strong className="text-foreground">modern science</strong> and <strong className="text-foreground">natural medicine</strong> to create a plan that is <strong className="text-foreground">perfect for you</strong>.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { icon: <Salad className="w-7 h-7" />, title: "Nutritional Medicine", desc: "Using food as medicine to heal your body." },
-              { icon: <TestTube className="w-7 h-7" />, title: "Functional Testing", desc: "Advanced tests to find the hidden cause of your problems." },
-              { icon: <Microscope className="w-7 h-7" />, title: "Live Blood Analysis", desc: "A drop of blood on a big screen shows us what's happening inside your body right now." },
-              { icon: <Heart className="w-7 h-7" />, title: "Lifestyle Coaching", desc: "Helping you build healthy habits that last a lifetime." },
-              { icon: <Dumbbell className="w-7 h-7" />, title: "Personal Training", desc: "Creating a fitness plan that works for your body." },
-              { icon: <Zap className="w-7 h-7" />, title: "MLS Laser Therapy", desc: "A special light that helps reduce pain and swelling." },
+              { icon: <Salad className="w-7 h-7" />, title: "Nutritional Medicine", desc: "Using **food as medicine** to heal your body." },
+              { icon: <TestTube className="w-7 h-7" />, title: "Functional Testing", desc: "**Advanced tests** to find the **hidden cause** of your problems." },
+              { icon: <Microscope className="w-7 h-7" />, title: "Live Blood Analysis", desc: "A drop of blood on a big screen shows us **what's happening inside your body** right now." },
+              { icon: <Heart className="w-7 h-7" />, title: "Lifestyle Coaching", desc: "Helping you build **healthy habits** that last a lifetime." },
+              { icon: <Dumbbell className="w-7 h-7" />, title: "Personal Training", desc: "Creating a **fitness plan** that works for your body." },
+              { icon: <Zap className="w-7 h-7" />, title: "MLS Laser Therapy", desc: "A special light that helps **reduce pain and swelling**." },
             ].map((item, i) => (
               <Card key={i} className={`scroll-animate delay-${(i % 3) + 1} group hover:shadow-xl transition-all duration-300 hover:-translate-y-1`}>
                 <CardContent className="p-6 text-center">
@@ -505,7 +511,7 @@ const NaturopathInBrisbane = () => {
                     {item.icon}
                   </div>
                   <h3 className="text-lg font-bold text-foreground mb-2">{item.title}</h3>
-                  <p className="text-muted-foreground">{item.desc}</p>
+                  <p className="text-muted-foreground">{renderBold(item.desc)}</p>
                 </CardContent>
               </Card>
             ))}
@@ -576,15 +582,15 @@ const NaturopathInBrisbane = () => {
           <h2 className="scroll-animate text-3xl md:text-4xl font-extrabold text-foreground text-center mb-4">Our Simple, Step-by-Step Process</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6 scroll-animate delay-1" />
           <p className="scroll-animate delay-1 text-center text-muted-foreground text-lg max-w-3xl mx-auto mb-12">
-            We make it simple to finally get the help you need. Here is what your journey with us looks like.
+            We make it <strong className="text-foreground">simple</strong> to finally get the help you need. Here is what your journey with us looks like.
           </p>
 
           <div className="space-y-8">
             {[
-              { step: 1, title: "Book Your FREE 15-Minute Consult", desc: "This is a quick, easy chat with our head naturopath, Mitch. You can tell him what's going on. He will listen. He will let you know if we are the right place to help you. There is no pressure." },
-              { step: 2, title: "Your First Real Appointment (1 Hour)", desc: "This is where the real healing begins. You will sit down with Mitch (in our clinic or online). You will have a full hour to tell him everything. He will listen to your whole story. By the end, you will have a clear, custom health plan made just for you." },
-              { step: 3, title: "Your Monthly Check-ins", desc: "We don't just give you a plan and say goodbye. You will come back each month so Mitch can see how you are doing. We will check in, make sure you are on the right track, and support you every step of the way." },
-              { step: 4, title: "Get Your Life Back", desc: "Slowly, you will start to feel the changes. The bloating will go down. The tiredness will lift. You will start to feel lighter, brighter, and more like your old self. You will feel comfortable and happy in your body again." },
+              { step: 1, title: "Book Your FREE 15-Minute Consult", desc: "This is a **quick, easy chat** with our head naturopath, Mitch. You can tell him what's going on. He will **listen**. He will let you know if we are the right place to help you. There is **no pressure**." },
+              { step: 2, title: "Your First Real Appointment (1 Hour)", desc: "This is where the **real healing begins**. You will sit down with Mitch (in our clinic or online). You will have a **full hour** to tell him everything. He will listen to your whole story. By the end, you will have a **clear, custom health plan** made just for you." },
+              { step: 3, title: "Your Monthly Check-ins", desc: "We don't just give you a plan and say goodbye. You will come back each month so Mitch can see how you are doing. We will **check in**, make sure you are **on the right track**, and **support you every step of the way**." },
+              { step: 4, title: "Get Your Life Back", desc: "Slowly, you will start to feel the changes. The **bloating will go down**. The **tiredness will lift**. You will start to feel **lighter, brighter**, and more like your old self. You will feel **comfortable and happy** in your body again." },
             ].map((item, i) => (
               <div key={i} className={`scroll-animate delay-${i + 1} flex gap-6 items-start`}>
                 <div className="w-14 h-14 bg-primary rounded-2xl flex items-center justify-center text-primary-foreground font-extrabold text-xl flex-shrink-0 shadow-lg">
@@ -592,7 +598,7 @@ const NaturopathInBrisbane = () => {
                 </div>
                 <div className="flex-1 bg-card rounded-2xl p-6 shadow-sm">
                   <h3 className="text-xl font-bold text-foreground mb-2">{item.title}</h3>
-                  <p className="text-muted-foreground leading-relaxed">{item.desc}</p>
+                  <p className="text-muted-foreground leading-relaxed">{renderBold(item.desc)}</p>
                 </div>
               </div>
             ))}
@@ -609,18 +615,18 @@ const NaturopathInBrisbane = () => {
           <div className="scroll-animate delay-2">
             <Accordion type="single" collapsible className="space-y-4">
               {[
-                { q: "How is this different from a doctor?", a: "Your doctor is great for emergencies. But for long-term health problems, they often only have 5-10 minutes and a prescription pad. We spend a full hour with you to find the real cause of your problem, and then we use natural ways to help your body heal itself." },
-                { q: "I've tried a naturopath before and it didn't work.", a: "We hear this a lot. Many naturopaths give the same recycled plan to everyone. At NXTLVL Health, we use advanced functional testing to get real data about your body. Your plan is 100% custom to you. This is why we get results when others don't." },
-                { q: "Is it expensive?", a: "Your health is the best thing you can ever spend money on. Think about how much your health problems are already costing you in lost energy, missed fun, and feeling terrible. We have payment plans to make it easier, and your first 15-minute consult is completely FREE." },
-                { q: "Will I have to stop eating everything I love?", a: "No! This is not about starving yourself or eating boring food. It's about finding delicious foods that heal your body. We will work with you to create a plan that you can actually enjoy and stick to." },
-                { q: "How long will it take to see results?", a: "Everyone is different. But most of our patients start to feel a real, noticeable change in as little as 3 weeks. Some feel a difference in just a few days!" },
+                { q: "How is this different from a doctor?", a: "Your doctor is great for emergencies. But for long-term health problems, they often only have **5-10 minutes** and a prescription pad. We spend a **full hour** with you to find the **real cause** of your problem, and then we use **natural ways** to help your body heal itself." },
+                { q: "I've tried a naturopath before and it didn't work.", a: "We hear this a lot. Many naturopaths give the **same recycled plan** to everyone. At NXTLVL Health, we use **advanced functional testing** to get real data about your body. Your plan is **100% custom to you**. This is why we get results when others don't." },
+                { q: "Is it expensive?", a: "Your health is the **best thing you can ever spend money on**. Think about how much your health problems are already costing you in lost energy, missed fun, and feeling terrible. We have **payment plans** to make it easier, and your first **15-minute consult is completely FREE**." },
+                { q: "Will I have to stop eating everything I love?", a: "No! This is **not about starving yourself** or eating boring food. It's about finding **delicious foods that heal your body**. We will work with you to create a plan that you can actually **enjoy and stick to**." },
+                { q: "How long will it take to see results?", a: "Everyone is different. But most of our patients start to feel a real, noticeable change in as little as **3 weeks**. Some feel a difference in just **a few days**!" },
               ].map((item, i) => (
                 <AccordionItem key={i} value={`faq-${i}`} className="bg-card rounded-xl border border-border px-6 shadow-sm">
                   <AccordionTrigger className="text-left text-foreground font-semibold text-lg hover:no-underline py-5">
                     "{item.q}"
                   </AccordionTrigger>
                   <AccordionContent className="text-muted-foreground text-base leading-relaxed pb-5">
-                    {item.a}
+                    {renderBold(item.a)}
                   </AccordionContent>
                 </AccordionItem>
               ))}
@@ -678,7 +684,7 @@ const NaturopathInBrisbane = () => {
               </div>
               <h3 className="text-xl font-bold mb-3">Do Nothing</h3>
               <p className="text-white/60 text-sm leading-relaxed">
-                You can click away from this page and keep doing what you're doing. Keep going back to the doctors who rush you and tell you "it's all in your head." Keep feeling tired, bloated, and in pain. Keep missing out on your life.
+                You can click away from this page and <strong>keep doing what you're doing</strong>. Keep going back to the doctors who rush you and tell you "it's all in your head." Keep feeling <strong>tired, bloated, and in pain</strong>. Keep <strong>missing out on your life</strong>.
               </p>
             </div>
 
@@ -689,7 +695,7 @@ const NaturopathInBrisbane = () => {
               </div>
               <h3 className="text-xl font-bold mb-3">Choose Another Naturopath</h3>
               <p className="text-white/60 text-sm leading-relaxed">
-                You can take a gamble on another naturopath who might give you the same recycled plan they give to everyone else, leaving you with a bag of expensive supplements and no real answers.
+                You can take a gamble on another naturopath who might give you the <strong>same recycled plan</strong> they give to everyone else, leaving you with a bag of <strong>expensive supplements</strong> and <strong>no real answers</strong>.
               </p>
             </div>
 
@@ -700,7 +706,7 @@ const NaturopathInBrisbane = () => {
               </div>
               <h3 className="text-xl font-bold mb-3 text-primary">Choose Us and Finally Heal</h3>
               <p className="text-white/70 text-sm leading-relaxed">
-                You can choose to work with a team that is obsessed with getting to the root cause of your problems. A team that will listen to you, support you, and give you a plan that is made just for you. You can choose to finally get your energy, your health, and your life back.
+                You can choose to work with a team that is obsessed with getting to the <strong>root cause</strong> of your problems. A team that will <strong>listen to you, support you</strong>, and give you a plan that is <strong>made just for you</strong>. You can choose to finally get your <strong>energy, your health, and your life back</strong>.
               </p>
             </div>
           </div>
@@ -708,7 +714,7 @@ const NaturopathInBrisbane = () => {
           <div className="scroll-animate text-center space-y-6">
             <p className="text-white/80 text-lg font-medium">The choice is yours.</p>
             <p className="text-white/60 text-lg">
-              If you are ready to feel great again, book your free 15-minute consult now. You have nothing to lose, and a whole new life to gain.
+              If you are ready to <strong>feel great again</strong>, book your free 15-minute consult now. You have <strong>nothing to lose</strong>, and a <strong>whole new life to gain</strong>.
             </p>
             <Button 
               onClick={scrollToConsult}
