@@ -229,6 +229,19 @@ const ReviewsSlider = () => {
 
 const NaturopathyBrisbane = () => {
   const pageRef = useScrollAnimation();
+  const [showStickyCta, setShowStickyCta] = useState(false);
+  const heroRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (heroRef.current) {
+        const heroBottom = heroRef.current.getBoundingClientRect().bottom;
+        setShowStickyCta(heroBottom < 0);
+      }
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   useEffect(() => {
     const script = document.createElement('script');
@@ -314,7 +327,7 @@ const NaturopathyBrisbane = () => {
       </header>
 
       {/* HERO SECTION */}
-      <section className="relative flex flex-col items-center justify-center overflow-hidden">
+      <section ref={heroRef} className="relative flex flex-col items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: `url(${consultationHeroBg})` }}
@@ -795,6 +808,24 @@ const NaturopathyBrisbane = () => {
           <a href="/website-disclaimer" className="text-white/40 hover:text-white/70 text-sm transition-colors">Disclaimer</a>
         </div>
       </footer>
+
+      {/* Sticky CTA */}
+      <div
+        className={`fixed bottom-0 left-0 right-0 z-50 transition-all duration-500 ease-in-out ${showStickyCta ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'}`}
+      >
+        <div className="bg-background/95 border-t border-border shadow-[0_-4px_20px_-4px_rgba(0,0,0,0.15)] px-4 py-3">
+          <div className="max-w-xl mx-auto">
+            <Button
+              onClick={scrollToConsult}
+              size="lg"
+              className="w-full bg-primary hover:bg-primary/90 text-primary-foreground text-base font-bold py-5 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+            >
+              Book Your Free 15-Minute Consult!
+              <ArrowRight className="ml-2 w-4 h-4" />
+            </Button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
