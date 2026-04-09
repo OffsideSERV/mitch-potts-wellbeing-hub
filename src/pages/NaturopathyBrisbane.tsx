@@ -9,7 +9,7 @@ import {
   Users, Clock, CheckCircle, Star, ArrowRight, MapPin, Phone,
   Frown, Coffee, Stethoscope, Flame, CloudRain, Ghost,
   Salad, Dumbbell, Sparkles, ChevronRight, BadgeCheck,
-  X, Check, CircleDot, Mail, ChevronLeft
+  X, Check, CircleDot, Mail, ChevronLeft, Menu
 } from 'lucide-react';
 import consultationHeroBg from '@/assets/consultation-hero-bg.webp';
 import googleIcon from '@/assets/google-icon.png';
