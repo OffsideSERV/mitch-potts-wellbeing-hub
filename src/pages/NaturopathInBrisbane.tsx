@@ -714,7 +714,7 @@ const NaturopathInBrisbane = () => {
           <div className="scroll-animate text-center space-y-6">
             <p className="text-white/80 text-lg font-medium">The choice is yours.</p>
             <p className="text-white/60 text-lg">
-              If you are ready to feel great again, book your free 15-minute consult now. You have nothing to lose, and a whole new life to gain.
+              If you are ready to <strong>feel great again</strong>, book your free 15-minute consult now. You have <strong>nothing to lose</strong>, and a <strong>whole new life to gain</strong>.
             </p>
             <Button 
               onClick={scrollToConsult}
