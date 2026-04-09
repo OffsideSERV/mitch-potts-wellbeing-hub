@@ -9,7 +9,7 @@ import {
   Users, Clock, CheckCircle, Star, ArrowRight, MapPin, Phone,
   Frown, Coffee, Stethoscope, Flame, CloudRain, Ghost,
   Salad, Dumbbell, Sparkles, ChevronRight, BadgeCheck,
-  X, Check, CircleDot, Mail, ChevronLeft
+  X, Check, CircleDot, Mail, ChevronLeft, Menu
 } from 'lucide-react';
 import consultationHeroBg from '@/assets/consultation-hero-bg.webp';
 import googleIcon from '@/assets/google-icon.png';
@@ -230,6 +230,7 @@ const ReviewsSlider = () => {
 const NaturopathyBrisbane = () => {
   const pageRef = useScrollAnimation();
   const [showStickyCta, setShowStickyCta] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const heroRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
@@ -296,7 +297,7 @@ const NaturopathyBrisbane = () => {
           <a href="/" className="flex items-center">
             <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-14 w-14" />
           </a>
-          <nav className="hidden md:flex items-center gap-6">
+          <nav className="hidden lg:flex items-center gap-8">
             {[
               { label: "What We Treat", id: "what-we-treat" },
               { label: "Services", id: "services" },
@@ -312,17 +313,55 @@ const NaturopathyBrisbane = () => {
                   e.preventDefault();
                   document.getElementById(link.id)?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+                className="text-sm font-semibold text-muted-foreground hover:text-primary transition-colors"
               >
                 {link.label}
               </a>
             ))}
           </nav>
-          <a href="tel:0731913367" className="flex items-center gap-2 text-primary font-bold hover:text-primary/80 transition-colors">
-            <Phone className="w-5 h-5" />
-            <span className="hidden sm:inline">(07) 3191 3367</span>
-            <span className="sm:hidden">Call Us</span>
-          </a>
+          <div className="flex items-center gap-3">
+            <a href="tel:0731913367" className="flex items-center gap-2 text-primary font-bold hover:text-primary/80 transition-colors">
+              <Phone className="w-5 h-5" />
+              <span className="hidden sm:inline">(07) 3191 3367</span>
+              <span className="sm:hidden">Call Us</span>
+            </a>
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="lg:hidden w-10 h-10 flex items-center justify-center rounded-lg hover:bg-muted transition-colors"
+              aria-label="Toggle menu"
+            >
+              {mobileMenuOpen ? <X className="w-5 h-5 text-foreground" /> : <Menu className="w-5 h-5 text-foreground" />}
+            </button>
+          </div>
+        </div>
+
+        {/* Mobile Menu */}
+        <div
+          className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${mobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}
+        >
+          <nav className="flex flex-col border-t border-border bg-background">
+            {[
+              { label: "What We Treat", id: "what-we-treat" },
+              { label: "Services", id: "services" },
+              { label: "Why Us?", id: "why-us" },
+              { label: "Reviews", id: "reviews" },
+              { label: "FAQs", id: "faqs" },
+              { label: "Location", id: "location" },
+            ].map((link) => (
+              <a
+                key={link.id}
+                href={`#${link.id}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  setMobileMenuOpen(false);
+                  document.getElementById(link.id)?.scrollIntoView({ behavior: 'smooth' });
+                }}
+                className="px-6 py-3.5 text-sm font-semibold text-muted-foreground hover:text-primary hover:bg-muted/50 transition-colors border-b border-border/50 last:border-b-0"
+              >
+                {link.label}
+              </a>
+            ))}
+          </nav>
         </div>
       </header>
 
