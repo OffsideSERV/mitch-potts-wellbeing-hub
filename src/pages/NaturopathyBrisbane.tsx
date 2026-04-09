@@ -582,7 +582,7 @@ const NaturopathyBrisbane = () => {
           <h2 className="scroll-animate text-3xl md:text-4xl font-extrabold text-foreground text-center mb-4">Our Simple, Step-by-Step Process</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6 scroll-animate delay-1" />
           <p className="scroll-animate delay-1 text-center text-muted-foreground text-lg max-w-3xl mx-auto mb-12">
-            We make it simple to finally get the help you need. Here is what your journey with us looks like.
+            We make it <strong className="text-foreground">simple</strong> to finally get the help you need. Here is what your journey with us looks like.
           </p>
 
           <div className="space-y-8">
