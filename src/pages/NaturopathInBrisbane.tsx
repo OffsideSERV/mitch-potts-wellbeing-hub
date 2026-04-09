@@ -626,7 +626,7 @@ const NaturopathInBrisbane = () => {
                     "{item.q}"
                   </AccordionTrigger>
                   <AccordionContent className="text-muted-foreground text-base leading-relaxed pb-5">
-                    {item.a}
+                    {renderBold(item.a)}
                   </AccordionContent>
                 </AccordionItem>
               ))}
