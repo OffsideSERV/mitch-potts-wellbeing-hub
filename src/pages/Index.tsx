@@ -97,7 +97,7 @@ const Index = () => {
               <h1 className="inline-block bg-primary text-white text-sm sm:text-base font-semibold px-4 py-1.5 rounded-full mb-4">
                 The Best Naturopath In Brisbane
               </h1>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight px-4 sm:px-2 md:px-12 lg:px-16">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight px-0 sm:px-2 md:px-12 lg:px-16">
               We'll Give You Energy That <span className="text-primary">Never Dies</span>, Skin That <span className="text-primary">Never Breaks Out</span>,{" "}
               <span className="inline sm:hidden"><br /></span>
               & a Gut That <span className="text-primary">Never Bloats</span> In As Little As <span className="text-primary">21 Days!</span>
