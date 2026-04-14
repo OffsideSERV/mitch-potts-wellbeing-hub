@@ -433,14 +433,15 @@ const NaturopathInBrisbane = () => {
           </h2>
 
           {/* CTA */}
-          <div className="scroll-animate delay-3 mb-10">
+          <div className="scroll-animate delay-3 mb-10 flex flex-col items-center gap-1.5">
             <Button 
               onClick={scrollToConsult}
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg md:text-xl px-10 py-7 rounded-full font-bold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
             >
-              Book a FREE 15-Minute Consult!
+              Book a FREE 15-Minute Consult With Mitch!
             </Button>
+            <p className="text-xs text-white/70 font-medium">Brisbane's #1 Most Wanted Bloat Killer</p>
           </div>
 
           {/* Trust Boosters */}
