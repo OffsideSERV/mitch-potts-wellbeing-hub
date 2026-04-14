@@ -90,7 +90,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-black/70"></div>
         
         {/* Content */}
-        <div className="mx-auto max-w-4xl relative z-10 px-0 sm:container sm:px-4">
+        <div className="mx-auto max-w-4xl relative z-10 px-4 sm:container sm:px-4">
           <div className="space-y-8 text-center">
             {/* Headline */}
             <div>
@@ -137,12 +137,15 @@ const Index = () => {
             
             {/* CTA Button */}
             <div className="flex justify-center px-0 sm:px-4">
-              <Button size="lg" className="text-sm sm:text-base md:text-lg px-8 py-5 md:py-6 h-auto bg-primary hover:bg-primary/90 text-white font-bold" asChild>
-                <a href="#free-consult" onClick={(e) => { e.preventDefault(); document.getElementById('free-consult')?.scrollIntoView({ behavior: 'smooth' }); }} className="flex items-center justify-center gap-2">
-                  <Calendar className="h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
-                  <span>Book Free 15 Minute Discovery Call</span>
-                </a>
-              </Button>
+              <div className="flex flex-col items-center gap-1.5">
+                <Button size="lg" className="text-sm sm:text-base md:text-lg px-8 py-5 md:py-6 h-auto bg-primary hover:bg-primary/90 text-white font-bold" asChild>
+                  <a href="#free-consult" onClick={(e) => { e.preventDefault(); document.getElementById('free-consult')?.scrollIntoView({ behavior: 'smooth' }); }} className="flex items-center justify-center gap-2">
+                    <Calendar className="h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
+                    <span>Book Free Consult With Mitch</span>
+                  </a>
+                </Button>
+                <p className="text-xs text-white/70 font-medium">Brisbane's #1 Most Wanted Bloat Killer</p>
+              </div>
             </div>
             
             {/* Trust Boosters */}
