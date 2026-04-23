@@ -396,17 +396,17 @@ const NaturopathInBrisbane = () => {
         />
         <div className="absolute inset-0 bg-black/75" />
         
-        <div className="relative z-10 max-w-4xl mx-auto px-4 py-20 text-center flex flex-col items-center">
-          <h1 className="scroll-animate inline-block bg-primary text-primary-foreground text-sm md:text-base font-semibold px-4 py-1.5 rounded-full mb-6">
+        <div className="relative z-10 w-full max-w-4xl mx-auto px-4 py-20 text-center flex flex-col items-center overflow-hidden md:overflow-visible">
+          <h1 className="scroll-animate inline-block max-w-full bg-primary text-primary-foreground text-sm md:text-base font-semibold px-4 py-1.5 rounded-full mb-6">
             #1 Naturopath In Brisbane
           </h1>
 
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-8 scroll-animate delay-1">
+          <h2 className="w-full max-w-full text-3xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-8 scroll-animate delay-1">
             Feel <span className="text-primary">Drained All Day?</span> Tummy <span className="text-primary">Bloating</span> Non-Stop? <span className="text-primary">Doctors</span> Telling You There's <span className="text-primary">Nothing Wrong?</span> You've Come To The <span className="text-primary">Right Place.</span>
           </h2>
 
           {/* Testimonial */}
-          <div className="scroll-animate delay-1 max-w-2xl mx-auto mb-8">
+          <div className="scroll-animate delay-1 w-full max-w-2xl mx-auto mb-8">
             <div className="bg-white/15 rounded-2xl p-6 border border-white/10">
               <div className="flex items-center justify-center gap-3 mb-3">
                 <img src={googleIcon} alt="Google" className="w-5 h-5" loading="eager" />
@@ -433,11 +433,11 @@ const NaturopathInBrisbane = () => {
           </h2>
 
           {/* CTA */}
-          <div className="scroll-animate delay-3 mb-10 flex flex-col items-center gap-1.5">
+          <div className="scroll-animate delay-3 mb-10 flex w-full flex-col items-center gap-1.5">
             <Button 
               onClick={scrollToConsult}
               size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg md:text-xl px-10 py-7 rounded-full font-bold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+              className="w-full max-w-[340px] whitespace-normal text-center bg-primary hover:bg-primary/90 text-primary-foreground text-base md:text-xl px-5 md:px-10 py-6 md:py-7 rounded-full font-bold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
             >
               Book a FREE 15-Minute Consult With Mitch!
             </Button>
@@ -445,7 +445,7 @@ const NaturopathInBrisbane = () => {
           </div>
 
           {/* Trust Boosters */}
-          <div className="scroll-animate delay-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 max-w-3xl mx-auto mb-12">
+          <div className="scroll-animate delay-4 grid w-full grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 max-w-3xl mx-auto mb-12">
             {[
               { icon: <Users className="w-5 h-5 text-primary" />, text: "947+ Patients Healed" },
               { icon: <Zap className="w-5 h-5 text-primary" />, text: "90% See Results In 3 Weeks!" },
@@ -465,11 +465,11 @@ const NaturopathInBrisbane = () => {
           <div id="free-consult-lp" className="scroll-mt-24 scroll-animate delay-5 w-full max-w-full lg:max-w-5xl lg:mx-auto">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">Book Your FREE 15-Minute Consult</h3>
             <p className="text-white/70 mb-6">Pick a time that works for you. No pressure. No obligations.</p>
-            <div className="bg-white rounded-2xl overflow-hidden">
+            <div className="bg-white rounded-2xl overflow-hidden w-full">
               <div 
                 className="calendly-inline-widget" 
                 data-url="https://calendly.com/nxtlvlhealth-info/15-min-consult?primary_color=009485" 
-                style={{ minWidth: '320px', height: '700px' }}
+                style={{ minWidth: '0', width: '100%', height: '700px' }}
               />
             </div>
           </div>
