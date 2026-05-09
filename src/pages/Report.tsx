@@ -291,7 +291,7 @@ const Report = () => {
                   {/* Habit header card */}
                   <div className="relative bg-card rounded-3xl shadow-xl border border-border overflow-hidden">
                     {/* Top stripe */}
-                    <div className="h-2 bg-gradient-to-r from-[hsl(15_100%_60%)] via-primary to-[hsl(174_60%_45%)]" />
+                    <div className="h-2 bg-primary" />
 
                     <div className="p-6 sm:p-10">
                       <div className="flex items-start gap-5 sm:gap-7 mb-6">
@@ -299,7 +299,7 @@ const Report = () => {
                           <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-primary to-[hsl(174_60%_38%)] text-white flex items-center justify-center shadow-lg">
                             <Icon className="h-8 w-8 sm:h-10 sm:w-10" />
                           </div>
-                          <div className="absolute -top-2 -right-2 px-2 py-0.5 rounded-full bg-[hsl(15_100%_55%)] text-white text-xs font-bold tracking-wider shadow-md">
+                          <div className="absolute -top-2 -right-2 px-2 py-0.5 rounded-full bg-primary text-primary-foreground text-xs font-bold tracking-wider shadow-md">
                             #{i + 1}
                           </div>
                         </div>
