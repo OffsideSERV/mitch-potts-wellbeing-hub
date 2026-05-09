@@ -180,7 +180,6 @@ const App = () => (
                 
                 {/* Health Packages */}
                 <Route path="/health-packages" element={<HealthPackages />} />
-                <Route path="/report" element={<Report />} />
                 
                 {/* About Us page */}
                 <Route path="/about-us" element={<AboutUs />} />
