@@ -150,9 +150,6 @@ const Report = () => {
     return () => observer.disconnect();
   }, []);
 
-  const scrollToReport = () => {
-    document.getElementById("report-start")?.scrollIntoView({ behavior: "smooth" });
-  };
 
   return (
     <>
