@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import mitchAnalysis from "@/assets/mitch-analysis.png";
+import nxtlvlLogoWhite from "@/assets/nxtlvl-logo-white.png";
 import {
   Utensils,
   Brain,
@@ -21,10 +22,10 @@ const habits = [
     icon: Utensils,
     title: "Not Chewing Food Enough Before Swallowing",
     intro:
-      "This is a massive one. Most people only chew a few times before swallowing it down the hatch. This puts an intense amount of pressure on your stomach to break it all down.",
+      "This is a massive one. <strong>Most people only chew a few times before swallowing it down the hatch.</strong> This puts an intense amount of pressure on your stomach to break it all down.",
     body: [
-      "If you don't chew well, food doesn't break down properly, and bits of food get left in the gut, undigested. This food produces gases like hydrogen, methane, and sulphur, which blow up your belly like a balloon. Sound familiar? Well, now you know why.",
-      "The key is to keep chewing until the food feels like a paste inside your mouth. If you feel like you could chew more, DO IT, it takes a lot of stress off your digestive system, and your gut will thank you for it.",
+      "If you don't chew well, food doesn't break down properly, and <strong>bits of food get left in the gut, undigested.</strong> This food produces gases like hydrogen, methane, and sulphur, which <strong>blow up your belly like a balloon.</strong> Sound familiar? Well, now you know why.",
+      "The key is to <strong>keep chewing until the food feels like a paste inside your mouth.</strong> If you feel like you could chew more, DO IT, it takes a lot of stress off your digestive system, and your gut will thank you for it.",
     ],
   },
   {
@@ -32,10 +33,10 @@ const habits = [
     icon: Brain,
     title: "Eating While Stressed",
     intro:
-      "Have you ever heard of the terms 'Fight or Flight' and 'Rest & Digest'? Well these aren't just sayings, they're practically instructions that you can follow.",
+      "Have you ever heard of the terms <strong>'Fight or Flight'</strong> and <strong>'Rest &amp; Digest'</strong>? Well these aren't just sayings, they're practically instructions that you can follow.",
     body: [
-      "You see, when it comes to eating (digesting), your body is designed to do it in a calm and relaxed state. Your gut works its best when you eat without stress, that's why 'Digest' is associated with 'Rest'.",
-      "When you're stressed, your brain tells the gut to slow down. It stops stomach acid, stops enzyme production, and food just sits in your gut and ferments. This is part of what we call the gut-brain axis. It's a two-way connection between your brain and your gut, and when it's out of balance, symptoms show up quickly.",
+      "You see, when it comes to eating (digesting), your body is designed to do it in a <strong>calm and relaxed state.</strong> Your gut works its best when you eat without stress, that's why 'Digest' is associated with 'Rest'.",
+      "When you're stressed, your brain tells the gut to slow down. <strong>It stops stomach acid, stops enzyme production, and food just sits in your gut and ferments.</strong> This is part of what we call the <strong>gut-brain axis</strong>. It's a two-way connection between your brain and your gut, and when it's out of balance, symptoms show up quickly.",
     ],
     tipTitle: "Easy ways to signal your gut it's digestion time:",
     tips: [
@@ -49,10 +50,10 @@ const habits = [
     icon: Smartphone,
     title: "Eating While Distracted",
     intro:
-      "Not only does your gut slow down when you're stressed, but it also slows down when you eat while distracted.",
+      "Not only does your gut slow down when you're stressed, but it <strong>also slows down when you eat while distracted.</strong>",
     body: [
-      "This includes having meals as you walk, drive, work, and scroll through social media.",
-      "Your brain needs to signal to your gut that it's digestion time, so the next time you eat, keep the following in mind:",
+      "This includes having meals as you <strong>walk, drive, work, and scroll through social media.</strong>",
+      "Your brain needs to <strong>signal to your gut that it's digestion time</strong>, so the next time you eat, keep the following in mind:",
     ],
     tipTitle: "Keep this in mind at every meal:",
     tips: [
@@ -66,10 +67,10 @@ const habits = [
     icon: Droplets,
     title: "Drinking Too Much Water With Your Meals",
     intro:
-      "This is one of the most common mistakes I see in my clinic. We're always told to \"drink more water,\" but timing is everything. When you gulp down a large glass of water while eating, you are essentially drowning your digestive fire.",
+      "This is one of the most common mistakes I see in my clinic. We're always told to \"drink more water,\" but <strong>timing is everything.</strong> When you gulp down a large glass of water while eating, you are essentially <strong>drowning your digestive fire.</strong>",
     body: [
-      "Your stomach needs a specific level of acidity (hydrochloric acid) to break down proteins from food and activate digestive enzymes. When you fill up that acid with liters of water, it gets diluted and your stomach can't do its job properly.",
-      "This means food just sits in your gut, half-digested, beginning to ferment and release the very gases that leave you feeling tight and bloated.",
+      "Your stomach needs a specific level of acidity (<strong>hydrochloric acid</strong>) to break down proteins from food and activate digestive enzymes. When you fill up that acid with liters of water, <strong>it gets diluted and your stomach can't do its job properly.</strong>",
+      "This means food just sits in your gut, half-digested, beginning to ferment and release the very gases that <strong>leave you feeling tight and bloated.</strong>",
     ],
     tipTitle: "How you can avoid this:",
     tips: [
@@ -83,9 +84,9 @@ const habits = [
     icon: Wheat,
     title: "Taking The Wrong Type of Fibre",
     intro:
-      "We've been conditioned to think that if we're bloated or backed up, we just need \"more fibre.\" But for many women, throwing a massive scoop of harsh, insoluble fibre (like wheat bran or certain psyllium husks) into an already inflamed gut is like throwing petrol on a fire.",
+      "We've been conditioned to think that if we're bloated or backed up, we just need \"more fibre.\" But for many women, throwing a massive scoop of <strong>harsh, insoluble fibre</strong> (like wheat bran or certain psyllium husks) into an already inflamed gut is like <strong>throwing petrol on a fire.</strong>",
     body: [
-      "If your gut microbiome is out of balance, certain fibres act as a buffet for the wrong kind of bacteria. They ferment too quickly, creating a massive buildup of pressure, which leads to bloating.",
+      "If your gut microbiome is out of balance, certain fibres act as a <strong>buffet for the wrong kind of bacteria.</strong> They ferment too quickly, creating a <strong>massive buildup of pressure</strong>, which leads to bloating.",
     ],
     tipTitle: "How to always stay on the safe side:",
     tips: [
@@ -99,9 +100,9 @@ const habits = [
     icon: Candy,
     title: 'Falling For The "Sugar-Free" Marketing Trap',
     intro:
-      "I see so many women trying to do the \"right thing\" by choosing sugar-free snacks, protein bars, or \"diet\" treats. And while they might sound healthier, to make those foods taste good, manufacturers pack them with sugar alcohols like Sorbitol, Xylitol, and Erythritol.",
+      "I see so many women trying to do the \"right thing\" by choosing sugar-free snacks, protein bars, or \"diet\" treats. And while they might sound healthier, to make those foods taste good, manufacturers pack them with <strong>sugar alcohols like Sorbitol, Xylitol, and Erythritol.</strong>",
     body: [
-      'These are known as polyols, and they are notorious for causing "osmotic" bloating. Your body can\'t fully absorb them, so they sit in your large intestine, drawing in water and being fermented by bacteria.',
+      "These are known as <strong>polyols</strong>, and they are notorious for causing <strong>\"osmotic\" bloating.</strong> Your body can't fully absorb them, so they sit in your large intestine, <strong>drawing in water and being fermented by bacteria.</strong>",
     ],
     tipTitle: "A golden rule you can follow:",
     tips: [
@@ -115,9 +116,9 @@ const habits = [
     icon: Wind,
     title: "Drinking Through Straws",
     intro:
-      'It sounds so innocent, doesn\'t it? Whether it\'s your iced coffee, iced tea, or a green smoothie, using a straw is a one-way ticket to "Aerophagia", which is just a fancy medical term for swallowing air.',
+      "It sounds so innocent, doesn't it? Whether it's your iced coffee, iced tea, or a green smoothie, using a straw is a <strong>one-way ticket to \"Aerophagia\"</strong>, which is just a fancy medical term for <strong>swallowing air.</strong>",
     body: [
-      "Every time you take a sip through a straw, you're sucking in the air that's trapped in the top of the straw before the liquid reaches your mouth. That air has nowhere to go but down into your digestive tract. This trapped gas is often what causes that sharp, stabbing pain high up in your abdomen, and also bloats your stomach.",
+      "Every time you take a sip through a straw, you're <strong>sucking in the air that's trapped in the top of the straw</strong> before the liquid reaches your mouth. That air has nowhere to go but down into your digestive tract. This trapped gas is often what causes that <strong>sharp, stabbing pain high up in your abdomen</strong>, and also bloats your stomach.",
     ],
     tipTitle: "A guideline you can follow daily:",
     tips: [
@@ -214,6 +215,17 @@ const Report = () => {
             <div className="absolute -bottom-24 -right-24 w-[28rem] h-[28rem] rounded-full bg-primary/30 blur-3xl float-slow" />
           </div>
 
+          <div className="absolute top-5 left-5 sm:top-7 sm:left-8 z-10">
+            <a href="/" aria-label="NXTLVL Health home">
+              <img
+                src={nxtlvlLogoWhite}
+                alt="NXTLVL Health logo"
+                className="h-14 sm:h-16 md:h-20 w-auto"
+                loading="eager"
+              />
+            </a>
+          </div>
+
           <div className="relative max-w-5xl mx-auto px-5 sm:px-8 py-20 md:py-28 text-center">
             <div className="reveal inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur border border-white/20 text-[hsl(174_70%_65%)] text-xs sm:text-sm uppercase tracking-widest font-semibold mb-8">
               <Sparkles className="h-4 w-4" />
@@ -251,11 +263,11 @@ const Report = () => {
               </p>
 
               <p className="reveal">
-                I've heard your same frustrations from thousands of other women in my Brisbane clinic, and I know it's not your fault.
+                I've heard your same frustrations from <strong className="font-bold text-foreground">thousands of other women in my Brisbane clinic</strong>, and I know it's not your fault.
               </p>
 
               <p className="reveal">
-                You feel like a balloon after eating anything, you go to your GP to try and get answers, they give you another pill that solves nothing (or even gives you more issues), and you're left more lost with each visit.
+                You feel like a balloon after eating anything, you go to your GP to try and get answers, <strong className="font-bold text-foreground">they give you another pill that solves nothing</strong> (or even gives you more issues), and you're left more lost with each visit.
               </p>
 
               <p className="reveal italic text-foreground/80 border-l-4 border-primary pl-5">
@@ -263,11 +275,11 @@ const Report = () => {
               </p>
 
               <p className="reveal">
-                I'll tell you exactly why, it all stems from your daily habits, habits that you do without a second thought.
+                I'll tell you exactly why, <strong className="font-bold text-foreground">it all stems from your daily habits</strong>, habits that you do without a second thought.
               </p>
 
               <p className="reveal">
-                These overlooked habits are silent but deadly killers for your gut health, leaving your tummy screaming for help after every meal.
+                These overlooked habits are <strong className="font-bold text-foreground">silent but deadly killers for your gut health</strong>, leaving your tummy screaming for help after every meal.
               </p>
 
               <p className="reveal font-semibold text-foreground">
@@ -316,11 +328,16 @@ const Report = () => {
                       </div>
 
                       <div className="space-y-5 text-base sm:text-lg leading-relaxed text-foreground/85">
-                        <p className="text-lg sm:text-xl font-medium text-foreground/95 border-l-4 border-primary pl-5 italic">
-                          {h.intro}
-                        </p>
+                        <p
+                          className="text-lg sm:text-xl font-medium text-foreground/95 border-l-4 border-primary pl-5 italic [&_strong]:text-primary [&_strong]:font-bold [&_strong]:not-italic"
+                          dangerouslySetInnerHTML={{ __html: h.intro }}
+                        />
                         {h.body.map((p, idx) => (
-                          <p key={idx}>{p}</p>
+                          <p
+                            key={idx}
+                            className="[&_strong]:text-foreground [&_strong]:font-bold"
+                            dangerouslySetInnerHTML={{ __html: p }}
+                          />
                         ))}
                       </div>
 
