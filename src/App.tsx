@@ -85,6 +85,7 @@ import NaturopathInBrisbane from "./pages/NaturopathInBrisbane";
 import ThankYouFreeConsult from "./pages/ThankYouFreeConsult";
 import ThankYouAppointment from "./pages/ThankYouAppointment";
 import HealthPackages from "./pages/HealthPackages";
+import Report from "./pages/Report";
 
 const queryClient = new QueryClient();
 
