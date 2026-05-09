@@ -215,6 +215,17 @@ const Report = () => {
             <div className="absolute -bottom-24 -right-24 w-[28rem] h-[28rem] rounded-full bg-primary/30 blur-3xl float-slow" />
           </div>
 
+          <div className="absolute top-5 left-5 sm:top-7 sm:left-8 z-10">
+            <a href="/" aria-label="NXTLVL Health home">
+              <img
+                src={nxtlvlLogoWhite}
+                alt="NXTLVL Health logo"
+                className="h-14 sm:h-16 md:h-20 w-auto"
+                loading="eager"
+              />
+            </a>
+          </div>
+
           <div className="relative max-w-5xl mx-auto px-5 sm:px-8 py-20 md:py-28 text-center">
             <div className="reveal inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur border border-white/20 text-[hsl(174_70%_65%)] text-xs sm:text-sm uppercase tracking-widest font-semibold mb-8">
               <Sparkles className="h-4 w-4" />
