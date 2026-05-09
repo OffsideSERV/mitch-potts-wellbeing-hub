@@ -24,7 +24,7 @@ const habits = [
     intro:
       "This is a massive one. <strong>Most people only chew a few times before swallowing it down the hatch.</strong> This puts an intense amount of pressure on your stomach to break it all down.",
     body: [
-      "If you don't chew well, food doesn't break down properly, and <strong>bits of food get left in the gut, undigested.</strong> This food produces gases like hydrogen, methane, and sulphur, which <strong>blow up your belly like a balloon.</strong> Sound familiar? Well, now you know why.",
+      "If you don't chew well, food doesn't break down properly, and bits of food get left in the gut, undigested. This food produces gases like hydrogen, methane, and sulphur, which <strong>blow up your belly like a balloon.</strong> Sound familiar? Well, now you know why.",
       "The key is to <strong>keep chewing until the food feels like a paste inside your mouth.</strong> If you feel like you could chew more, DO IT, it takes a lot of stress off your digestive system, and your gut will thank you for it.",
     ],
   },
@@ -35,7 +35,7 @@ const habits = [
     intro:
       "Have you ever heard of the terms <strong>'Fight or Flight'</strong> and <strong>'Rest &amp; Digest'</strong>? Well these aren't just sayings, they're practically instructions that you can follow.",
     body: [
-      "You see, when it comes to eating (digesting), your body is designed to do it in a <strong>calm and relaxed state.</strong> Your gut works its best when you eat without stress, that's why 'Digest' is associated with 'Rest'.",
+      "You see, when it comes to eating (digesting), your body is designed to do it in a calm and relaxed state. Your gut works its best when you eat without stress, that's why 'Digest' is associated with 'Rest'.",
       "When you're stressed, your brain tells the gut to slow down. <strong>It stops stomach acid, stops enzyme production, and food just sits in your gut and ferments.</strong> This is part of what we call the <strong>gut-brain axis</strong>. It's a two-way connection between your brain and your gut, and when it's out of balance, symptoms show up quickly.",
     ],
     tipTitle: "Easy ways to signal your gut it's digestion time:",
@@ -52,7 +52,7 @@ const habits = [
     intro:
       "Not only does your gut slow down when you're stressed, but it <strong>also slows down when you eat while distracted.</strong>",
     body: [
-      "This includes having meals as you <strong>walk, drive, work, and scroll through social media.</strong>",
+      "This includes having meals as you walk, drive, work, and scroll through social media.",
       "Your brain needs to <strong>signal to your gut that it's digestion time</strong>, so the next time you eat, keep the following in mind:",
     ],
     tipTitle: "Keep this in mind at every meal:",
@@ -70,7 +70,7 @@ const habits = [
       "This is one of the most common mistakes I see in my clinic. We're always told to \"drink more water,\" but <strong>timing is everything.</strong> When you gulp down a large glass of water while eating, you are essentially <strong>drowning your digestive fire.</strong>",
     body: [
       "Your stomach needs a specific level of acidity (<strong>hydrochloric acid</strong>) to break down proteins from food and activate digestive enzymes. When you fill up that acid with liters of water, <strong>it gets diluted and your stomach can't do its job properly.</strong>",
-      "This means food just sits in your gut, half-digested, beginning to ferment and release the very gases that <strong>leave you feeling tight and bloated.</strong>",
+      "This means food just sits in your gut, half-digested, beginning to ferment and release the very gases that leave you feeling tight and bloated.",
     ],
     tipTitle: "How you can avoid this:",
     tips: [
@@ -84,7 +84,7 @@ const habits = [
     icon: Wheat,
     title: "Taking The Wrong Type of Fibre",
     intro:
-      "We've been conditioned to think that if we're bloated or backed up, we just need \"more fibre.\" But for many women, throwing a massive scoop of <strong>harsh, insoluble fibre</strong> (like wheat bran or certain psyllium husks) into an already inflamed gut is like <strong>throwing petrol on a fire.</strong>",
+      "We've been conditioned to think that if we're bloated or backed up, we just need \"more fibre.\" But for many women, throwing a massive scoop of harsh, insoluble fibre (like wheat bran or certain psyllium husks) into an already inflamed gut is like <strong>throwing petrol on a fire.</strong>",
     body: [
       "If your gut microbiome is out of balance, certain fibres act as a <strong>buffet for the wrong kind of bacteria.</strong> They ferment too quickly, creating a <strong>massive buildup of pressure</strong>, which leads to bloating.",
     ],
@@ -263,7 +263,7 @@ const Report = () => {
               </p>
 
               <p className="reveal">
-                I've heard your same frustrations from <strong className="font-bold text-foreground">thousands of other women in my Brisbane clinic</strong>, and I know it's not your fault.
+                I've heard your same frustrations from thousands of other women in my Brisbane clinic, and I know it's not your fault.
               </p>
 
               <p className="reveal">
