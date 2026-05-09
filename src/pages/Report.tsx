@@ -274,31 +274,6 @@ const Report = () => {
               </p>
             </div>
 
-            {/* Quick Index */}
-            <Card className="reveal mt-12 border-2 border-primary/15 bg-gradient-to-br from-primary/5 to-transparent">
-              <CardContent className="p-6 sm:p-8">
-                <h2 className="text-xl font-bold mb-5 flex items-center gap-2 text-foreground">
-                  <AlertTriangle className="h-5 w-5 text-[hsl(15_100%_55%)]" />
-                  The 7 Habits Destroying Your Gut
-                </h2>
-                <div className="grid sm:grid-cols-2 gap-3">
-                  {habits.map((h, i) => (
-                    <a
-                      key={h.number}
-                      href={`#habit-${i + 1}`}
-                      className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition-colors group"
-                    >
-                      <span className="flex-shrink-0 w-9 h-9 rounded-full bg-primary text-primary-foreground font-bold text-sm flex items-center justify-center group-hover:scale-110 transition-transform">
-                        {i + 1}
-                      </span>
-                      <span className="text-sm font-medium text-foreground/85 group-hover:text-primary transition-colors">
-                        {h.title}
-                      </span>
-                    </a>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </section>
 
