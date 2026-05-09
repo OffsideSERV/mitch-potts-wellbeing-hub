@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import SEO from "@/components/SEO";
-import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import mitchAnalysis from "@/assets/mitch-analysis.png";
 import {
   Utensils,
   Brain,
@@ -11,9 +11,7 @@ import {
   Candy,
   Wind,
   CheckCircle2,
-  AlertTriangle,
   Sparkles,
-  ArrowDown,
   Heart,
 } from "lucide-react";
 
@@ -152,9 +150,6 @@ const Report = () => {
     return () => observer.disconnect();
   }, []);
 
-  const scrollToReport = () => {
-    document.getElementById("report-start")?.scrollIntoView({ behavior: "smooth" });
-  };
 
   return (
     <>
@@ -203,10 +198,16 @@ const Report = () => {
 
       <div ref={containerRef} className="min-h-screen bg-background">
         {/* HERO */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-[hsl(174_100%_15%)] via-[hsl(174_100%_22%)] to-[hsl(174_60%_30%)] text-white">
-          <div className="absolute inset-0 opacity-20 pointer-events-none">
-            <div className="absolute -top-24 -left-24 w-96 h-96 rounded-full bg-white/10 blur-3xl float-slow" />
-            <div className="absolute -bottom-24 -right-24 w-[28rem] h-[28rem] rounded-full bg-[hsl(15_100%_60%)]/30 blur-3xl float-slow" />
+        <section className="relative overflow-hidden text-white">
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{ backgroundImage: `url(${mitchAnalysis})` }}
+            aria-hidden="true"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/75 to-black/85" aria-hidden="true" />
+          <div className="absolute inset-0 opacity-30 pointer-events-none">
+            <div className="absolute -top-24 -left-24 w-96 h-96 rounded-full bg-primary/40 blur-3xl float-slow" />
+            <div className="absolute -bottom-24 -right-24 w-[28rem] h-[28rem] rounded-full bg-primary/30 blur-3xl float-slow" />
           </div>
 
           <div className="relative max-w-5xl mx-auto px-5 sm:px-8 py-20 md:py-28 text-center">
@@ -215,25 +216,21 @@ const Report = () => {
               Naturopath's Confidential Report
             </div>
 
-            <h1 className="reveal delay-1 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-8 px-2">
-              Expert Naturopath Reveals{" "}
-              <span className="text-[hsl(15_100%_65%)]">7 Crazily Overlooked Habits</span>{" "}
-              That Cause Women To Bloat After Every Single Meal
+            <h1 className="reveal delay-1 font-bold leading-[1.1] tracking-tight mb-8 max-w-4xl mx-auto">
+              <span className="block text-2xl sm:text-3xl md:text-4xl text-white/90 mb-3">
+                Expert Naturopath Reveals
+              </span>
+              <span className="block text-3xl sm:text-5xl md:text-6xl text-primary mb-3">
+                7 Crazily Overlooked Habits
+              </span>
+              <span className="block text-xl sm:text-2xl md:text-3xl text-white/90 font-semibold">
+                That Cause Women To Bloat After Every Single Meal
+              </span>
             </h1>
 
-            <p className="reveal delay-2 text-lg sm:text-xl text-white/85 max-w-2xl mx-auto mb-10 italic">
+            <p className="reveal delay-2 text-xl sm:text-2xl text-white font-bold max-w-2xl mx-auto italic">
               (No Doctor Will Tell You This.)
             </p>
-
-            <div className="reveal delay-3 flex flex-col items-center gap-6">
-              <Button
-                onClick={scrollToReport}
-                className="bg-white text-[hsl(174_100%_22%)] hover:bg-white/90 font-bold text-base sm:text-lg px-8 py-6 rounded-full shadow-2xl"
-              >
-                Start Reading The Report
-              </Button>
-              <ArrowDown className="h-6 w-6 text-white/70 bounce-arrow" />
-            </div>
           </div>
         </section>
 
@@ -274,31 +271,6 @@ const Report = () => {
               </p>
             </div>
 
-            {/* Quick Index */}
-            <Card className="reveal mt-12 border-2 border-primary/15 bg-gradient-to-br from-primary/5 to-transparent">
-              <CardContent className="p-6 sm:p-8">
-                <h2 className="text-xl font-bold mb-5 flex items-center gap-2 text-foreground">
-                  <AlertTriangle className="h-5 w-5 text-[hsl(15_100%_55%)]" />
-                  The 7 Habits Destroying Your Gut
-                </h2>
-                <div className="grid sm:grid-cols-2 gap-3">
-                  {habits.map((h, i) => (
-                    <a
-                      key={h.number}
-                      href={`#habit-${i + 1}`}
-                      className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition-colors group"
-                    >
-                      <span className="flex-shrink-0 w-9 h-9 rounded-full bg-primary text-primary-foreground font-bold text-sm flex items-center justify-center group-hover:scale-110 transition-transform">
-                        {i + 1}
-                      </span>
-                      <span className="text-sm font-medium text-foreground/85 group-hover:text-primary transition-colors">
-                        {h.title}
-                      </span>
-                    </a>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </section>
 
@@ -316,7 +288,7 @@ const Report = () => {
                   {/* Habit header card */}
                   <div className="relative bg-card rounded-3xl shadow-xl border border-border overflow-hidden">
                     {/* Top stripe */}
-                    <div className="h-2 bg-gradient-to-r from-[hsl(15_100%_60%)] via-primary to-[hsl(174_60%_45%)]" />
+                    <div className="h-2 bg-primary" />
 
                     <div className="p-6 sm:p-10">
                       <div className="flex items-start gap-5 sm:gap-7 mb-6">
@@ -324,7 +296,7 @@ const Report = () => {
                           <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-primary to-[hsl(174_60%_38%)] text-white flex items-center justify-center shadow-lg">
                             <Icon className="h-8 w-8 sm:h-10 sm:w-10" />
                           </div>
-                          <div className="absolute -top-2 -right-2 px-2 py-0.5 rounded-full bg-[hsl(15_100%_55%)] text-white text-xs font-bold tracking-wider shadow-md">
+                          <div className="absolute -top-2 -right-2 px-2 py-0.5 rounded-full bg-primary text-primary-foreground text-xs font-bold tracking-wider shadow-md">
                             #{i + 1}
                           </div>
                         </div>
