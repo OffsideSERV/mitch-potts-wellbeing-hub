@@ -109,6 +109,7 @@ const App = () => (
             <Route path="/nxtlvl-reset/brochure" element={<NXTLVLResetBrochure />} />
             <Route path="/naturopathy-brisbane" element={<NaturopathyBrisbane />} />
             <Route path="/naturopath-in-brisbane" element={<NaturopathInBrisbane />} />
+            <Route path="/report" element={<Report />} />
           
           {/* Regular pages with Layout */}
           <Route path="/*" element={
