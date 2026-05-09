@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import SEO from "@/components/SEO";
-import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import mitchAnalysis from "@/assets/mitch-analysis.png";
 import {
   Utensils,
   Brain,
@@ -11,9 +11,7 @@ import {
   Candy,
   Wind,
   CheckCircle2,
-  AlertTriangle,
   Sparkles,
-  ArrowDown,
   Heart,
 } from "lucide-react";
 
