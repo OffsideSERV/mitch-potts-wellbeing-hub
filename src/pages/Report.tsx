@@ -263,11 +263,11 @@ const Report = () => {
               </p>
 
               <p className="reveal">
-                I've heard your same frustrations from thousands of other women in my Brisbane clinic, and I know it's not your fault.
+                I've heard your same frustrations from <strong className="font-bold text-foreground">thousands of other women in my Brisbane clinic</strong>, and I know it's not your fault.
               </p>
 
               <p className="reveal">
-                You feel like a balloon after eating anything, you go to your GP to try and get answers, they give you another pill that solves nothing (or even gives you more issues), and you're left more lost with each visit.
+                You feel like a balloon after eating anything, you go to your GP to try and get answers, <strong className="font-bold text-foreground">they give you another pill that solves nothing</strong> (or even gives you more issues), and you're left more lost with each visit.
               </p>
 
               <p className="reveal italic text-foreground/80 border-l-4 border-primary pl-5">
@@ -275,11 +275,11 @@ const Report = () => {
               </p>
 
               <p className="reveal">
-                I'll tell you exactly why, it all stems from your daily habits, habits that you do without a second thought.
+                I'll tell you exactly why, <strong className="font-bold text-foreground">it all stems from your daily habits</strong>, habits that you do without a second thought.
               </p>
 
               <p className="reveal">
-                These overlooked habits are silent but deadly killers for your gut health, leaving your tummy screaming for help after every meal.
+                These overlooked habits are <strong className="font-bold text-foreground">silent but deadly killers for your gut health</strong>, leaving your tummy screaming for help after every meal.
               </p>
 
               <p className="reveal font-semibold text-foreground">
