@@ -201,10 +201,16 @@ const Report = () => {
 
       <div ref={containerRef} className="min-h-screen bg-background">
         {/* HERO */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-[hsl(174_100%_15%)] via-[hsl(174_100%_22%)] to-[hsl(174_60%_30%)] text-white">
-          <div className="absolute inset-0 opacity-20 pointer-events-none">
-            <div className="absolute -top-24 -left-24 w-96 h-96 rounded-full bg-white/10 blur-3xl float-slow" />
-            <div className="absolute -bottom-24 -right-24 w-[28rem] h-[28rem] rounded-full bg-[hsl(15_100%_60%)]/30 blur-3xl float-slow" />
+        <section className="relative overflow-hidden text-white">
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{ backgroundImage: `url(${mitchAnalysis})` }}
+            aria-hidden="true"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/75 to-black/85" aria-hidden="true" />
+          <div className="absolute inset-0 opacity-30 pointer-events-none">
+            <div className="absolute -top-24 -left-24 w-96 h-96 rounded-full bg-primary/40 blur-3xl float-slow" />
+            <div className="absolute -bottom-24 -right-24 w-[28rem] h-[28rem] rounded-full bg-primary/30 blur-3xl float-slow" />
           </div>
 
           <div className="relative max-w-5xl mx-auto px-5 sm:px-8 py-20 md:py-28 text-center">
@@ -213,25 +219,21 @@ const Report = () => {
               Naturopath's Confidential Report
             </div>
 
-            <h1 className="reveal delay-1 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-8 px-2">
-              Expert Naturopath Reveals{" "}
-              <span className="text-[hsl(15_100%_65%)]">7 Crazily Overlooked Habits</span>{" "}
-              That Cause Women To Bloat After Every Single Meal
+            <h1 className="reveal delay-1 font-bold leading-[1.1] tracking-tight mb-8 max-w-4xl mx-auto">
+              <span className="block text-2xl sm:text-3xl md:text-4xl text-white/90 mb-3">
+                Expert Naturopath Reveals
+              </span>
+              <span className="block text-3xl sm:text-5xl md:text-6xl text-primary mb-3">
+                7 Crazily Overlooked Habits
+              </span>
+              <span className="block text-xl sm:text-2xl md:text-3xl text-white/90 font-semibold">
+                That Cause Women To Bloat After Every Single Meal
+              </span>
             </h1>
 
-            <p className="reveal delay-2 text-lg sm:text-xl text-white/85 max-w-2xl mx-auto mb-10 italic">
+            <p className="reveal delay-2 text-xl sm:text-2xl text-white font-bold max-w-2xl mx-auto italic">
               (No Doctor Will Tell You This.)
             </p>
-
-            <div className="reveal delay-3 flex flex-col items-center gap-6">
-              <Button
-                onClick={scrollToReport}
-                className="bg-white text-[hsl(174_100%_22%)] hover:bg-white/90 font-bold text-base sm:text-lg px-8 py-6 rounded-full shadow-2xl"
-              >
-                Start Reading The Report
-              </Button>
-              <ArrowDown className="h-6 w-6 text-white/70 bounce-arrow" />
-            </div>
           </div>
         </section>
 
