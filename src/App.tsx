@@ -85,6 +85,7 @@ import NaturopathInBrisbane from "./pages/NaturopathInBrisbane";
 import ThankYouFreeConsult from "./pages/ThankYouFreeConsult";
 import ThankYouAppointment from "./pages/ThankYouAppointment";
 import HealthPackages from "./pages/HealthPackages";
+import Report from "./pages/Report";
 
 const queryClient = new QueryClient();
 
@@ -178,6 +179,7 @@ const App = () => (
                 
                 {/* Health Packages */}
                 <Route path="/health-packages" element={<HealthPackages />} />
+                <Route path="/report" element={<Report />} />
                 
                 {/* About Us page */}
                 <Route path="/about-us" element={<AboutUs />} />
