@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import mitchAnalysis from "@/assets/mitch-analysis.png";
+import nxtlvlLogoWhite from "@/assets/nxtlvl-logo-white.png";
 import {
   Utensils,
   Brain,
