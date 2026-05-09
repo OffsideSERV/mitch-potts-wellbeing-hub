@@ -328,11 +328,16 @@ const Report = () => {
                       </div>
 
                       <div className="space-y-5 text-base sm:text-lg leading-relaxed text-foreground/85">
-                        <p className="text-lg sm:text-xl font-medium text-foreground/95 border-l-4 border-primary pl-5 italic">
-                          {h.intro}
-                        </p>
+                        <p
+                          className="text-lg sm:text-xl font-medium text-foreground/95 border-l-4 border-primary pl-5 italic [&_strong]:text-primary [&_strong]:font-bold [&_strong]:not-italic"
+                          dangerouslySetInnerHTML={{ __html: h.intro }}
+                        />
                         {h.body.map((p, idx) => (
-                          <p key={idx}>{p}</p>
+                          <p
+                            key={idx}
+                            className="[&_strong]:text-foreground [&_strong]:font-bold"
+                            dangerouslySetInnerHTML={{ __html: p }}
+                          />
                         ))}
                       </div>
 
