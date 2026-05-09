@@ -186,6 +186,10 @@ const Report = () => {
         }
         .bounce-arrow { animation: bounce-arrow 2s ease-in-out infinite; }
 
+        .hero-headline-shadow {
+          text-shadow: 0 2px 8px rgba(0,0,0,0.6), 0 4px 20px rgba(0,0,0,0.4);
+        }
+
         @media (prefers-reduced-motion: reduce), (max-width: 767px) {
           .reveal, .reveal.animate-in {
             opacity: 1;
@@ -211,19 +215,19 @@ const Report = () => {
           </div>
 
           <div className="relative max-w-5xl mx-auto px-5 sm:px-8 py-20 md:py-28 text-center">
-            <div className="reveal inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur border border-white/20 text-xs sm:text-sm uppercase tracking-widest font-semibold mb-8">
+            <div className="reveal inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur border border-white/20 text-[hsl(174_70%_65%)] text-xs sm:text-sm uppercase tracking-widest font-semibold mb-8">
               <Sparkles className="h-4 w-4" />
               Naturopath's Confidential Report
             </div>
 
-            <h1 className="reveal delay-1 font-bold leading-[1.1] tracking-tight mb-8 max-w-4xl mx-auto">
-              <span className="block text-2xl sm:text-3xl md:text-4xl text-white/90 mb-3">
+            <h1 className="reveal delay-1 font-bold leading-[1.1] tracking-tight mb-8 max-w-4xl mx-auto hero-headline-shadow">
+              <span className="block text-3xl sm:text-5xl md:text-6xl text-white/90 mb-3">
                 Expert Naturopath Reveals
               </span>
-              <span className="block text-3xl sm:text-5xl md:text-6xl text-primary mb-3">
+              <span className="block text-3xl sm:text-5xl md:text-6xl text-[hsl(174_75%_58%)] mb-3">
                 7 Crazily Overlooked Habits
               </span>
-              <span className="block text-xl sm:text-2xl md:text-3xl text-white/90 font-semibold">
+              <span className="block text-3xl sm:text-5xl md:text-6xl text-white/90 font-semibold">
                 That Cause Women To Bloat After Every Single Meal
               </span>
             </h1>
