@@ -351,7 +351,6 @@ const Report = () => {
                           />
                         </div>
                       )}
-                      </div>
 
                       <div className="space-y-5 text-base sm:text-lg leading-relaxed text-foreground/85">
                         <p
