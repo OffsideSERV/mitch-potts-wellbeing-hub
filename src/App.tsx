@@ -86,6 +86,7 @@ import ThankYouFreeConsult from "./pages/ThankYouFreeConsult";
 import ThankYouAppointment from "./pages/ThankYouAppointment";
 import HealthPackages from "./pages/HealthPackages";
 import Report from "./pages/Report";
+import FreeReport from "./pages/FreeReport";
 
 const queryClient = new QueryClient();
 
