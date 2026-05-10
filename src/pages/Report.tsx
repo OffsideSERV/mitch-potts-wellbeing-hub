@@ -3,6 +3,13 @@ import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import mitchAnalysis from "@/assets/mitch-analysis.png";
 import nxtlvlLogoWhite from "@/assets/nxtlvl-logo-white.png";
+import habit1 from "@/assets/report-habit-1.png";
+import habit2 from "@/assets/report-habit-2.png";
+import habit3 from "@/assets/report-habit-3.png";
+import habit4 from "@/assets/report-habit-4.png";
+import habit5 from "@/assets/report-habit-5.png";
+import habit6 from "@/assets/report-habit-6.png";
+import habit7 from "@/assets/report-habit-7.png";
 import {
   Utensils,
   Brain,
