@@ -111,6 +111,7 @@ const App = () => (
             <Route path="/nxtlvl-reset/brochure" element={<NXTLVLResetBrochure />} />
             <Route path="/naturopathy-brisbane" element={<NaturopathyBrisbane />} />
             <Route path="/naturopath-in-brisbane" element={<NaturopathInBrisbane />} />
+            <Route path="/naturopathy-in-brisbane" element={<NaturopathyInBrisbane />} />
             <Route path="/report" element={<Report />} />
             <Route path="/free-report" element={<FreeReport />} />
           
