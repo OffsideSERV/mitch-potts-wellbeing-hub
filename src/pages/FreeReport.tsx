@@ -243,6 +243,8 @@ const FreeReport = () => {
               >
                 <ReportMockup animationClass="report-float" sizeClass="w-[500px] xl:w-[580px]" />
               </div>
+            </div>
+          </div>
         </section>
       </div>
     </>
