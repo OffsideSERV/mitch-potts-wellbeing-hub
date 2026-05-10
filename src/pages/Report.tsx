@@ -3,6 +3,13 @@ import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import mitchAnalysis from "@/assets/mitch-analysis.png";
 import nxtlvlLogoWhite from "@/assets/nxtlvl-logo-white.png";
+import habit1 from "@/assets/report-habit-1.png";
+import habit2 from "@/assets/report-habit-2.png";
+import habit3 from "@/assets/report-habit-3.png";
+import habit4 from "@/assets/report-habit-4.png";
+import habit5 from "@/assets/report-habit-5.png";
+import habit6 from "@/assets/report-habit-6.png";
+import habit7 from "@/assets/report-habit-7.png";
 import {
   Utensils,
   Brain,
@@ -19,6 +26,7 @@ import {
 const habits = [
   {
     number: "01",
+    image: habit1,
     icon: Utensils,
     title: "Not Chewing Food Enough Before Swallowing",
     intro:
@@ -30,6 +38,7 @@ const habits = [
   },
   {
     number: "02",
+    image: habit2,
     icon: Brain,
     title: "Eating While Stressed",
     intro:
@@ -47,6 +56,7 @@ const habits = [
   },
   {
     number: "03",
+    image: habit3,
     icon: Smartphone,
     title: "Eating While Distracted",
     intro:
@@ -64,6 +74,7 @@ const habits = [
   },
   {
     number: "04",
+    image: habit4,
     icon: Droplets,
     title: "Drinking Too Much Water With Your Meals",
     intro:
@@ -81,6 +92,7 @@ const habits = [
   },
   {
     number: "05",
+    image: habit5,
     icon: Wheat,
     title: "Taking The Wrong Type of Fibre",
     intro:
@@ -97,6 +109,7 @@ const habits = [
   },
   {
     number: "06",
+    image: habit6,
     icon: Candy,
     title: 'Falling For The "Sugar-Free" Marketing Trap',
     intro:
@@ -113,6 +126,7 @@ const habits = [
   },
   {
     number: "07",
+    image: habit7,
     icon: Wind,
     title: "Drinking Through Straws",
     intro:
@@ -326,6 +340,17 @@ const Report = () => {
                           </h3>
                         </div>
                       </div>
+
+                      {h.image && (
+                        <div className="mb-7 -mx-6 sm:-mx-10 overflow-hidden">
+                          <img
+                            src={h.image}
+                            alt={h.title}
+                            loading="lazy"
+                            className="w-full h-56 sm:h-72 md:h-80 object-cover"
+                          />
+                        </div>
+                      )}
 
                       <div className="space-y-5 text-base sm:text-lg leading-relaxed text-foreground/85">
                         <p
