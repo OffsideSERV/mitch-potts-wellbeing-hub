@@ -123,7 +123,7 @@ const FreeReport = () => {
       });
       if (error) throw error;
       toast.success("Check your inbox — your report is on its way!");
-      window.location.href = "/report";
+      window.location.href = "/naturopathy-in-brisbane?welcome=1";
     } catch (err) {
       console.error("send-report-email failed:", err);
       toast.error("Something went wrong. Please try again.");
