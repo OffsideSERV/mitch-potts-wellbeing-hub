@@ -199,8 +199,8 @@ const FreeReport = () => {
                 </p>
 
                 {/* Mobile report cover */}
-                <div className="lg:hidden flex justify-center mb-8 -ml-4 sm:ml-0" style={{ perspective: "1800px" }}>
-                  <div style={{ transform: "translateX(-6%)" }}>
+                <div className="lg:hidden flex justify-center mb-8" style={{ perspective: "1800px" }}>
+                  <div style={{ transform: "translateX(-2%)" }}>
                     <ReportCover />
                   </div>
                 </div>
