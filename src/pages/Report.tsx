@@ -341,6 +341,18 @@ const Report = () => {
                         </div>
                       </div>
 
+                      {h.image && (
+                        <div className="mb-7 -mx-6 sm:-mx-10 overflow-hidden">
+                          <img
+                            src={h.image}
+                            alt={h.title}
+                            loading="lazy"
+                            className="w-full h-56 sm:h-72 md:h-80 object-cover"
+                          />
+                        </div>
+                      )}
+                      </div>
+
                       <div className="space-y-5 text-base sm:text-lg leading-relaxed text-foreground/85">
                         <p
                           className="text-lg sm:text-xl font-medium text-foreground/95 border-l-4 border-primary pl-5 italic [&_strong]:text-primary [&_strong]:font-bold [&_strong]:not-italic"
