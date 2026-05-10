@@ -21,6 +21,90 @@ const bullets = [
   { icon: Candy, text: "The <strong>dirty truth</strong> behind \"sugar-free\" snacks." },
 ];
 
+const ReportCover = () => (
+  <div className="report-float relative" style={{ transformStyle: "preserve-3d" }}>
+    {/* Stacked pages peeking from the right side */}
+    <div className="absolute top-2 left-2 right-[-10px] bottom-2 bg-white rounded-r-md rounded-l-sm shadow-lg" style={{ transform: "translateZ(-6px)" }} aria-hidden="true" />
+    <div className="absolute top-3 left-3 right-[-7px] bottom-3 bg-[hsl(0_0%_96%)] rounded-r-md rounded-l-sm shadow-md" style={{ transform: "translateZ(-3px)" }} aria-hidden="true" />
+    <div className="absolute top-4 left-4 right-[-4px] bottom-4 bg-[hsl(0_0%_92%)] rounded-r-md rounded-l-sm" style={{ transform: "translateZ(-1px)" }} aria-hidden="true" />
+
+    {/* Cover */}
+    <div
+      className="relative w-[300px] sm:w-[340px] md:w-[400px] lg:w-[420px] xl:w-[520px] aspect-[3/4] rounded-r-lg rounded-l-sm overflow-hidden border border-white/10"
+      style={{
+        background:
+          "linear-gradient(135deg, hsl(0 0% 8%) 0%, hsl(0 0% 14%) 50%, hsl(0 0% 6%) 100%)",
+        boxShadow:
+          "0 40px 80px -20px rgba(0,0,0,0.7), 0 20px 40px -15px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.08)",
+      }}
+    >
+      {/* Spine accent on the left edge */}
+      <div className="absolute left-0 top-0 bottom-0 w-2 bg-gradient-to-b from-[hsl(174_75%_45%)] via-[hsl(174_75%_38%)] to-[hsl(174_75%_30%)]" aria-hidden="true" />
+      <div className="absolute left-2 top-0 bottom-0 w-px bg-white/10" aria-hidden="true" />
+
+      {/* Subtle radial glow */}
+      <div
+        className="absolute inset-0 opacity-60 pointer-events-none"
+        style={{
+          background:
+            "radial-gradient(ellipse at top right, hsl(174 75% 45% / 0.18), transparent 60%)",
+        }}
+        aria-hidden="true"
+      />
+
+      {/* Cover content */}
+      <div className="relative h-full flex flex-col justify-between p-5 sm:p-6 md:p-8 xl:p-10">
+        {/* Top: tag + logo */}
+        <div>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-[hsl(174_75%_58%)]/40 bg-[hsl(174_75%_58%)]/10 text-[hsl(174_75%_65%)] text-[10px] uppercase tracking-[0.2em] font-bold mb-6">
+            <Sparkles className="h-3 w-3" />
+            Confidential Report
+          </div>
+          <div className="h-px w-16 bg-[hsl(174_75%_58%)] mb-6" />
+        </div>
+
+        {/* Headline */}
+        <div className="flex-1 flex items-center">
+          <h2 className="text-white font-bold leading-[1.18] tracking-tight text-[18px] sm:text-[20px] md:text-[22px] xl:text-[26px]">
+            Expert Naturopath Reveals{" "}
+            <span className="text-[hsl(174_75%_58%)]">
+              7 Crazily Overlooked Habits
+            </span>{" "}
+            That Cause{" "}
+            <span className="text-[hsl(174_75%_58%)]">Women</span>{" "}
+            To{" "}
+            <span className="text-[hsl(174_75%_58%)]">Bloat</span>{" "}
+            After Every Single Meal{" "}
+            <span className="italic text-white/85">
+              (#3 Will Shock You).
+            </span>
+          </h2>
+        </div>
+
+        {/* Bottom: prepared by */}
+        <div className="pt-6 border-t border-white/15">
+          <p className="text-[10px] uppercase tracking-[0.25em] text-white/50 mb-1">
+            Prepared By
+          </p>
+          <p className="text-white font-semibold text-lg">
+            Mitchell Potts
+          </p>
+        </div>
+      </div>
+
+      {/* Soft sheen highlight */}
+      <div
+        className="absolute inset-0 pointer-events-none opacity-40"
+        style={{
+          background:
+            "linear-gradient(115deg, transparent 40%, rgba(255,255,255,0.06) 50%, transparent 60%)",
+        }}
+        aria-hidden="true"
+      />
+    </div>
+  </div>
+);
+
 const FreeReport = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -88,11 +172,6 @@ const FreeReport = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               {/* COLUMN 1 */}
               <div>
-                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur border border-white/20 text-[hsl(174_70%_65%)] text-xs sm:text-sm uppercase tracking-widest font-semibold mb-6">
-                  <Sparkles className="h-4 w-4" />
-                  Free Naturopath Report
-                </div>
-
                 {/* Headline */}
                 <h1
                   className="font-bold leading-[1.15] tracking-tight mb-6 text-3xl sm:text-4xl md:text-5xl"
@@ -118,6 +197,11 @@ const FreeReport = () => {
                 <p className="text-base sm:text-lg text-white/90 leading-relaxed mb-8">
                   After helping <strong className="font-bold text-white">thousands of patients in Brisbane</strong> with their gut health, Naturopath Mitchell Potts reveals <strong className="font-bold text-white">7 habits that most women do mindlessly</strong> on a daily basis that are making their gut scream for help and <strong className="font-bold text-white">blow up like a balloon</strong>. Report uncovers everything you need to know.
                 </p>
+
+                {/* Mobile report cover */}
+                <div className="lg:hidden flex justify-center mb-8" style={{ perspective: "1800px" }}>
+                  <ReportCover />
+                </div>
 
                 {/* Bullets */}
                 <ul className="space-y-3 mb-8">
@@ -173,89 +257,9 @@ const FreeReport = () => {
                 </form>
               </div>
 
-              {/* COLUMN 2 — animated report mockup */}
-              <div className="hidden lg:flex items-center justify-center" style={{ perspective: "1800px" }}>
-                <div className="report-float relative" style={{ transformStyle: "preserve-3d" }}>
-                  {/* Stacked pages peeking from the right side */}
-                  <div className="absolute top-2 left-2 right-[-10px] bottom-2 bg-white rounded-r-md rounded-l-sm shadow-lg" style={{ transform: "translateZ(-6px)" }} aria-hidden="true" />
-                  <div className="absolute top-3 left-3 right-[-7px] bottom-3 bg-[hsl(0_0%_96%)] rounded-r-md rounded-l-sm shadow-md" style={{ transform: "translateZ(-3px)" }} aria-hidden="true" />
-                  <div className="absolute top-4 left-4 right-[-4px] bottom-4 bg-[hsl(0_0%_92%)] rounded-r-md rounded-l-sm" style={{ transform: "translateZ(-1px)" }} aria-hidden="true" />
-
-                  {/* Cover */}
-                  <div
-                    className="relative w-[420px] xl:w-[480px] aspect-[3/4] rounded-r-lg rounded-l-sm overflow-hidden border border-white/10"
-                    style={{
-                      background:
-                        "linear-gradient(135deg, hsl(0 0% 8%) 0%, hsl(0 0% 14%) 50%, hsl(0 0% 6%) 100%)",
-                      boxShadow:
-                        "0 40px 80px -20px rgba(0,0,0,0.7), 0 20px 40px -15px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.08)",
-                    }}
-                  >
-                    {/* Spine accent on the left edge */}
-                    <div className="absolute left-0 top-0 bottom-0 w-2 bg-gradient-to-b from-[hsl(174_75%_45%)] via-[hsl(174_75%_38%)] to-[hsl(174_75%_30%)]" aria-hidden="true" />
-                    <div className="absolute left-2 top-0 bottom-0 w-px bg-white/10" aria-hidden="true" />
-
-                    {/* Subtle radial glow */}
-                    <div
-                      className="absolute inset-0 opacity-60 pointer-events-none"
-                      style={{
-                        background:
-                          "radial-gradient(ellipse at top right, hsl(174 75% 45% / 0.18), transparent 60%)",
-                      }}
-                      aria-hidden="true"
-                    />
-
-                    {/* Cover content */}
-                    <div className="relative h-full flex flex-col justify-between p-8 xl:p-10">
-                      {/* Top: tag + logo */}
-                      <div>
-                        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-[hsl(174_75%_58%)]/40 bg-[hsl(174_75%_58%)]/10 text-[hsl(174_75%_65%)] text-[10px] uppercase tracking-[0.2em] font-bold mb-6">
-                          <Sparkles className="h-3 w-3" />
-                          Confidential Report
-                        </div>
-                        <div className="h-px w-16 bg-[hsl(174_75%_58%)] mb-6" />
-                      </div>
-
-                      {/* Headline */}
-                      <div className="flex-1 flex items-center">
-                        <h2 className="text-white font-bold leading-[1.18] tracking-tight text-[22px] xl:text-[26px]">
-                          Expert Naturopath Reveals{" "}
-                          <span className="text-[hsl(174_75%_58%)]">
-                            7 Crazily Overlooked Habits
-                          </span>{" "}
-                          That Cause{" "}
-                          <span className="text-[hsl(174_75%_58%)]">Women</span>{" "}
-                          To{" "}
-                          <span className="text-[hsl(174_75%_58%)]">Bloat</span>{" "}
-                          After Every Single Meal{" "}
-                          <span className="italic text-white/85">
-                            (#3 Will Shock You).
-                          </span>
-                        </h2>
-                      </div>
-
-                      {/* Bottom: prepared by */}
-                      <div className="pt-6 border-t border-white/15">
-                        <p className="text-[10px] uppercase tracking-[0.25em] text-white/50 mb-1">
-                          Prepared By
-                        </p>
-                        <p className="text-white font-semibold text-lg">
-                          Mitchell Potts
-                        </p>
-                      </div>
-                    </div>
-
-                    {/* Soft sheen highlight */}
-                    <div
-                      className="absolute inset-0 pointer-events-none opacity-40"
-                      style={{
-                        background:
-                          "linear-gradient(115deg, transparent 40%, rgba(255,255,255,0.06) 50%, transparent 60%)",
-                      }}
-                      aria-hidden="true"
-                    />
-                  </div>
-                </div>
+              {/* COLUMN 2 — animated report mockup (desktop only) */}
+              <div className="hidden lg:flex items-center lg:justify-end" style={{ perspective: "1800px" }}>
+                <ReportCover />
               </div>
             </div>
           </div>
