@@ -2,6 +2,8 @@ import { useState } from "react";
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { supabase } from "@/integrations/supabase/client";
+import { toast } from "sonner";
 import mitchAnalysis from "@/assets/mitch-analysis.png";
 import nxtlvlLogoWhite from "@/assets/nxtlvl-logo-white.png";
 import {
