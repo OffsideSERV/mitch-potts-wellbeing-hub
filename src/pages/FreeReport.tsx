@@ -39,6 +39,22 @@ const FreeReport = () => {
         canonical="https://nxtlvlhealth.com.au/free-report"
       />
 
+      <style>{`
+        @keyframes report-float {
+          0%   { transform: rotateY(-22deg) rotateX(6deg) translateY(0px); }
+          50%  { transform: rotateY(-19deg) rotateX(4deg) translateY(-12px); }
+          100% { transform: rotateY(-22deg) rotateX(6deg) translateY(0px); }
+        }
+        .report-float {
+          animation: report-float 6s ease-in-out infinite;
+          transform-origin: center center;
+          will-change: transform;
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .report-float { animation: none; transform: rotateY(-18deg) rotateX(4deg); }
+        }
+      `}</style>
+
       <div className="min-h-screen bg-background text-white">
         <section className="relative overflow-hidden min-h-screen flex items-center">
           {/* Background image + overlay */}
