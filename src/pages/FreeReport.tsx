@@ -2,6 +2,8 @@ import { useState } from "react";
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { supabase } from "@/integrations/supabase/client";
+import { toast } from "sonner";
 import mitchAnalysis from "@/assets/mitch-analysis.png";
 import nxtlvlLogoWhite from "@/assets/nxtlvl-logo-white.png";
 import {
@@ -109,10 +111,25 @@ const FreeReport = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [submitting, setSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Form handling will be wired up later
-    console.log({ name, email });
+    if (submitting) return;
+    setSubmitting(true);
+    try {
+      const { error } = await supabase.functions.invoke("send-report-email", {
+        body: { name, email },
+      });
+      if (error) throw error;
+      toast.success("Check your inbox — your report is on its way!");
+      window.location.href = "/report";
+    } catch (err) {
+      console.error("send-report-email failed:", err);
+      toast.error("Something went wrong. Please try again.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
