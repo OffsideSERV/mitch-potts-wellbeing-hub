@@ -30,7 +30,7 @@ const ReportCover = () => (
 
     {/* Cover */}
     <div
-      className="relative w-[300px] sm:w-[340px] md:w-[400px] lg:w-[420px] xl:w-[520px] aspect-[3/4] rounded-r-lg rounded-l-sm overflow-hidden border border-white/10"
+      className="relative w-[360px] sm:w-[400px] md:w-[440px] lg:w-[460px] xl:w-[560px] aspect-[3/4] rounded-r-lg rounded-l-sm overflow-hidden border border-white/10"
       style={{
         background:
           "linear-gradient(135deg, hsl(0 0% 8%) 0%, hsl(0 0% 14%) 50%, hsl(0 0% 6%) 100%)",
