@@ -26,6 +26,7 @@ import {
 const habits = [
   {
     number: "01",
+    image: habit1,
     icon: Utensils,
     title: "Not Chewing Food Enough Before Swallowing",
     intro:
@@ -37,6 +38,7 @@ const habits = [
   },
   {
     number: "02",
+    image: habit2,
     icon: Brain,
     title: "Eating While Stressed",
     intro:
@@ -54,6 +56,7 @@ const habits = [
   },
   {
     number: "03",
+    image: habit3,
     icon: Smartphone,
     title: "Eating While Distracted",
     intro:
@@ -71,6 +74,7 @@ const habits = [
   },
   {
     number: "04",
+    image: habit4,
     icon: Droplets,
     title: "Drinking Too Much Water With Your Meals",
     intro:
@@ -88,6 +92,7 @@ const habits = [
   },
   {
     number: "05",
+    image: habit5,
     icon: Wheat,
     title: "Taking The Wrong Type of Fibre",
     intro:
@@ -104,6 +109,7 @@ const habits = [
   },
   {
     number: "06",
+    image: habit6,
     icon: Candy,
     title: 'Falling For The "Sugar-Free" Marketing Trap',
     intro:
@@ -120,6 +126,7 @@ const habits = [
   },
   {
     number: "07",
+    image: habit7,
     icon: Wind,
     title: "Drinking Through Straws",
     intro:
