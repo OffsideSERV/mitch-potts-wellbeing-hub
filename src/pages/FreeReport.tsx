@@ -2,7 +2,6 @@ import { useState } from "react";
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
 import mitchAnalysis from "@/assets/mitch-analysis.png";
 import nxtlvlLogoWhite from "@/assets/nxtlvl-logo-white.png";
@@ -22,6 +21,23 @@ const bullets = [
   { icon: Smile, text: "Have you been <strong>chewing wrong</strong>? (And does it really matter?)" },
   { icon: Candy, text: "The <strong>dirty truth</strong> behind \"sugar-free\" snacks." },
 ];
+
+const sendReportEmail = async (name: string, email: string) => {
+  const response = await fetch(`${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-report-email`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      apikey: import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY,
+      Authorization: `Bearer ${import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY}`,
+    },
+    body: JSON.stringify({ name, email }),
+  });
+
+  if (!response.ok) {
+    const details = await response.text();
+    throw new Error(details || "Failed to send report email");
+  }
+};
 
 const ReportCover = () => (
   <div className="report-float relative" style={{ transformStyle: "preserve-3d" }}>
@@ -118,10 +134,7 @@ const FreeReport = () => {
     if (submitting) return;
     setSubmitting(true);
     try {
-      const { error } = await supabase.functions.invoke("send-report-email", {
-        body: { name, email },
-      });
-      if (error) throw error;
+      await sendReportEmail(name, email);
       toast.success("Check your inbox — your report is on its way!");
       window.location.href = "/naturopathy-in-brisbane?welcome=1";
     } catch (err) {
