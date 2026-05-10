@@ -45,13 +45,24 @@ const FreeReport = () => {
           50%  { transform: rotateY(-19deg) rotateX(4deg) translateY(-12px); }
           100% { transform: rotateY(-22deg) rotateX(6deg) translateY(0px); }
         }
+        @keyframes report-float-mobile {
+          0%   { transform: rotateY(-8deg) rotateX(4deg) translateY(0px); }
+          50%  { transform: rotateY(-6deg) rotateX(2deg) translateY(-8px); }
+          100% { transform: rotateY(-8deg) rotateX(4deg) translateY(0px); }
+        }
         .report-float {
           animation: report-float 6s ease-in-out infinite;
           transform-origin: center center;
           will-change: transform;
         }
+        .report-float-mobile {
+          animation: report-float-mobile 6s ease-in-out infinite;
+          transform-origin: center center;
+          will-change: transform;
+        }
         @media (prefers-reduced-motion: reduce) {
           .report-float { animation: none; transform: rotateY(-18deg) rotateX(4deg); }
+          .report-float-mobile { animation: none; transform: rotateY(-6deg) rotateX(2deg); }
         }
       `}</style>
 
