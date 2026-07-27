@@ -97,7 +97,7 @@ const BookNow = () => {
                         <MapPin className="h-5 w-5 text-primary" />
                         <div>
                           <p className="font-medium text-foreground">Location</p>
-                          <p className="text-muted-foreground">Brisbane, Queensland</p>
+                          <p className="text-muted-foreground">Brisbane-based, online Australia-wide</p>
                         </div>
                       </div>
 
@@ -106,7 +106,7 @@ const BookNow = () => {
                         <div>
                           <p className="font-medium text-foreground">Hours</p>
                           <p className="text-muted-foreground">Flexible Hours Available</p>
-                          <p className="text-sm text-muted-foreground">Online & In-Person</p>
+                          <p className="text-sm text-muted-foreground">Online Consultations, Australia-Wide</p>
                         </div>
                       </div>
                     </div>

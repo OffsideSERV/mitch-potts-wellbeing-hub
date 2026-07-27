@@ -73,7 +73,7 @@ const Contact = () => {
                       <div>
                         <h3 className="font-medium text-foreground">Location</h3>
                         <p className="text-muted-foreground">
-                          Brisbane, Queensland
+                          Brisbane-based, online Australia-wide
                         </p>
                       </div>
                     </div>
@@ -89,7 +89,7 @@ const Contact = () => {
                           Flexible Hours Available
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          Online & In-Person Consultations
+                          Online Consultations, Australia-Wide
                         </p>
                       </div>
                     </div>
