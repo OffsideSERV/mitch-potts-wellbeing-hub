@@ -39,17 +39,17 @@ const Index = () => {
     description: "You'll get a fully personalised nutrition plan built for your needs and goals. No more fad diets, just simple, powerful food support.",
     icon: <Salad className="h-8 w-8 text-primary" />
   }, {
-    title: "Live Blood Analysis",
-    description: "We use this tool to spot inflammation, nutrient absorption issues, gut problems and more, right from a single drop of blood.",
+    title: "Metagenomic Stool Testing",
+    description: "The most detailed gut test available. Full metagenomic sequencing reads every bacteria, fungus, yeast and parasite in your gut down to species level, plus what they're actually producing. Older tests guess at families. This shows us the names.",
     icon: <Microscope className="h-8 w-8 text-primary" />
   }, {
     title: "Functional Testing",
     description: "Dig deeper into hormones, digestive function, immune markers, and nutrients to find the real cause of your symptoms.",
     icon: <TestTube className="h-8 w-8 text-primary" />
   }, {
-    title: "MLS Laser Therapy",
-    description: "A fast, drug-free solution for pain, injury, and recovery. Great for improving range of motion and chronic pain relief.",
-    icon: <Zap className="h-8 w-8 text-primary" />
+    title: "Herbal Medicine",
+    description: "Practitioner-only formulas matched to what your testing actually shows, not pulled off a health food shop shelf.",
+    icon: <Pill className="h-8 w-8 text-primary" />
   }, {
     title: "Personal Training & Lifestyle Support",
     description: "Workouts and lifestyle coaching that help support both healing and performance – all tailored for your life and schedule.",
@@ -58,7 +58,7 @@ const Index = () => {
   const conditions = useMemo(() => ["Digestive disorders (IBS, SIBO, bloating, reflux)", "Hormonal imbalances (PMS, PCOS, peri menopause)", "Chronic fatigue and burnout", "Skin issues (eczema, acne)", "Mental health and stress", "Poor sleep and insomnia", "Autoimmune support", "Food intolerances and allergies", "Weight management", "Immune system support", "Mood disorders like anxiety or low mood", "Cardiovascular Health (blood pressure & cholesterol)"], []);
   const whyDifferent = useMemo(() => [{
     title: "We Test, We Don't Guess",
-    description: "Our live blood analysis and functional testing show us exactly what's going on in your body. There's no guessing, just real answers.",
+    description: "Metagenomic sequencing shows us your gut at species level - every organism in there, and what each one is doing to you. No guessing, no elimination diets in the dark. Real answers.",
     icon: <TestTube className="h-6 w-6 text-primary" />
   }, {
     title: "We Treat the Root Cause of Problems",
@@ -207,7 +207,7 @@ const Index = () => {
               Are you feeling <strong>bloated, exhausted, foggy, or just not like yourself</strong>? And yet, every test you get comes back "normal"? Well, you're not alone, and you're definitely not making it up.
             </p>
             <p>
-              At NXTLVL Health, Mitch is here to help you feel better on your <strong>health journey</strong>, naturally. As one of the <strong>best naturopaths in Brisbane</strong>, he brings local expertise and a modern, <strong>holistic approach</strong> to your care. Our <a href="/what-we-treat/wellness-clinic-brisbane" className="text-primary hover:underline">wellness clinic</a> serves clients from <a href="/areas-we-serve/naturopath-newstead" className="text-primary hover:underline">Newstead</a>, <a href="/areas-we-serve/naturopath-north-brisbane" className="text-primary hover:underline">North Brisbane</a>, and beyond. Mitch is extremely knowledgeable in <strong>naturopathy</strong> and <strong>holistic health</strong>, and as a <strong>qualified naturopath</strong>, he listens, he digs deep, and he finds the <strong>root cause</strong> of your <strong>health concerns</strong>, so you can finally feel clear, calm, and in control again.
+              At NXTLVL Health, Mitch is here to help you feel better on your <strong>health journey</strong>, naturally. As one of the <strong>best naturopaths in Brisbane</strong>, he brings local expertise and a modern, <strong>holistic approach</strong> to your care. Mitch is based in Brisbane and works with clients right across Australia, entirely online. Mitch is extremely knowledgeable in <strong>naturopathy</strong> and <strong>holistic health</strong>, and as a <strong>qualified naturopath</strong>, he listens, he digs deep, and he finds the <strong>root cause</strong> of your <strong>health concerns</strong>, so you can finally feel clear, calm, and in control again.
             </p>
           </div>
 
@@ -473,7 +473,7 @@ const Index = () => {
                 </div>
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                  <p className="text-lg text-muted-foreground"><strong>Live blood analysis</strong> for real-time insights into your health</p>
+                  <p className="text-lg text-muted-foreground"><strong>Species-level gut testing</strong>, so we know what we're treating before we treat it.</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
@@ -660,7 +660,7 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  <strong>Live blood analysis</strong> reveals what standard tests often miss – from gut bugs to nutrient deficiencies.
+                  <strong>Metagenomic sequencing</strong> picks up what GP stool panels and standard microbiome tests don't - the specific species driving your bloating, your fatigue, your food reactions.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -705,9 +705,9 @@ const Index = () => {
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Virtual Appointments: Online Consultations for Busy Lives</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Online Consultations, Wherever You Are</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              If you can't make it to our Brisbane clinic, we've got you. Our online consultations offer the same in-depth support and results. Whether you're managing chronic health conditions or just want to take better care of yourself, we're here.
+              Every consult is online now, so it doesn't matter if you're in New Farm or Newman. Same hour-long assessment, same personalised plan, same support. No traffic, no parking, no waiting room.
             </p>
           </div>
         </div>
@@ -731,7 +731,7 @@ const Index = () => {
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Based In New Farm, Serving All Of Brisbane</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Brisbane-Based. Working With Clients Right Across Australia.</h2>
           </div>
           
           <div className="rounded-2xl overflow-hidden shadow-lg max-w-4xl mx-auto">
@@ -755,7 +755,7 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">This is What You've Been Looking For</h2>
              <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-12">
-               From hormonal imbalances to chronic skin issues, from digestive discomfort to total burnout we see you. And we've got a plan to help. Whether you're looking for a <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">natural weight loss approach</a> or need support from an <a href="/areas-we-serve/naturopath-north-brisbane" className="text-primary hover:underline">experienced naturopath near North Brisbane</a> or <a href="/areas-we-serve/naturopath-new-farm" className="text-primary hover:underline">New Farm</a>, you don't need to do this alone.
+               From hormonal imbalances to chronic skin issues, from digestive discomfort to total burnout we see you. And we've got a plan to help. Whether you're looking for a <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">natural weight loss approach</a> or support from an experienced naturopath, wherever you are in Australia, you don't need to do this alone. There isn't a gut presentation we haven't seen. And once we can see exactly what's going on in there, we know what to do about it.
              </p>
             
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 mt-16">Ready to Get Your Life Back?</h2>
