@@ -1,4 +1,9 @@
 
+# 301 redirects for retired service pages (must precede SPA fallback)
+/services/live-blood-analysis-brisbane   /services   301
+/services/mls-laser-therapy-treatment-brisbane   /services   301
+/laser-healing   /services   301
+
 # SPA fallback for client-side routing
 /*    /index.html   200
 

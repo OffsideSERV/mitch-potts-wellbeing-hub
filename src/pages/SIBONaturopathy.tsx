@@ -133,7 +133,7 @@ const SIBONaturopathy = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/4c05f756-6f70-466c-b4f4-5f0fd25a5d07.png" alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/4c05f756-6f70-466c-b4f4-5f0fd25a5d07.png" alt="Naturopath looking through microscope at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -148,7 +148,7 @@ const SIBONaturopathy = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/4c05f756-6f70-466c-b4f4-5f0fd25a5d07.png" alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/4c05f756-6f70-466c-b4f4-5f0fd25a5d07.png" alt="Naturopath looking through microscope at NXTLVL Health" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>

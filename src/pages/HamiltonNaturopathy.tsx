@@ -143,7 +143,7 @@ const HamiltonNaturopathy = () => {
           <div className="lg:hidden mb-12">
             <img 
               src="/lovable-uploads/d515fc10-3cc2-4062-adf8-2638cee1c7bc.png" 
-              alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" 
+              alt="Naturopath looking through microscope at NXTLVL Health" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto"
             />
           </div>
@@ -163,7 +163,7 @@ const HamiltonNaturopathy = () => {
             <div className="relative hidden lg:block">
               <img 
                 src="/lovable-uploads/d515fc10-3cc2-4062-adf8-2638cee1c7bc.png" 
-                alt="Naturopath looking through microscope for live blood analysis at NXTLVL Health" 
+                alt="Naturopath looking through microscope at NXTLVL Health" 
                 className="rounded-2xl shadow-lg w-full h-auto"
               />
             </div>

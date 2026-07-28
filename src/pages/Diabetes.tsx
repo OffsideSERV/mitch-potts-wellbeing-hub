@@ -184,7 +184,7 @@ const Diabetes = () => {
           </div>
 
           <div className="mb-12">
-            <img src="/lovable-uploads/bd169e16-b7bf-4db3-bf47-e01fffad1dbb.png" alt="Brisbane naturopath conducting comprehensive live blood analysis for diabetes assessment at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/bd169e16-b7bf-4db3-bf47-e01fffad1dbb.png" alt="Brisbane naturopath conducting comprehensive assessment for diabetes at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto">

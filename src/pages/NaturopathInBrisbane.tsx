@@ -610,7 +610,7 @@ const NaturopathInBrisbane = () => {
 
           {/* Section Image */}
           <div className="scroll-animate delay-1 max-w-3xl mx-auto mb-10 rounded-2xl overflow-hidden shadow-lg">
-            <img src={mitchMicroscope} alt="Mitch performing live blood analysis with microscope" className="w-full h-auto object-cover" loading="lazy" />
+            <img src={mitchMicroscope} alt="Mitch performing diagnostic testing with microscope" className="w-full h-auto object-cover" loading="lazy" />
           </div>
 
           <p className="scroll-animate delay-1 text-center text-muted-foreground text-lg max-w-3xl mx-auto mb-12">

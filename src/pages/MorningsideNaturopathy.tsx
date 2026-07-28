@@ -110,7 +110,7 @@ const MorningsideNaturopathy = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/70956186-692e-4b37-8f6b-21a8b48d2ced.png" alt="Experienced naturopath Morningside performing detailed live blood analysis for comprehensive health assessment" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/70956186-692e-4b37-8f6b-21a8b48d2ced.png" alt="Experienced naturopath Morningside performing comprehensive health assessment" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -126,7 +126,7 @@ const MorningsideNaturopathy = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/70956186-692e-4b37-8f6b-21a8b48d2ced.png" alt="Experienced naturopath Morningside performing detailed live blood analysis for comprehensive health assessment" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/70956186-692e-4b37-8f6b-21a8b48d2ced.png" alt="Experienced naturopath Morningside performing comprehensive health assessment" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>

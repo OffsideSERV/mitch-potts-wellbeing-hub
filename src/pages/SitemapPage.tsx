@@ -64,12 +64,7 @@ const SitemapPage = () => {
   </url>
   
   <!-- Specific Services -->
-  <url>
-    <loc>https://nxtlvlhealth.com.au/services/mls-laser-therapy-treatment-brisbane</loc>
-    <lastmod>${currentDate}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  
   
   <url>
     <loc>https://nxtlvlhealth.com.au/services/personal-trainer-newstead</loc>
@@ -78,12 +73,6 @@ const SitemapPage = () => {
     <priority>0.8</priority>
   </url>
   
-  <url>
-    <loc>https://nxtlvlhealth.com.au/services/live-blood-analysis-brisbane</loc>
-    <lastmod>${currentDate}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
   
   <url>
     <loc>https://nxtlvlhealth.com.au/services/nutritionist-brisbane</loc>

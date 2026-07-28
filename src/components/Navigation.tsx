@@ -19,9 +19,6 @@ const Navigation = () => {
     title: "NXTLVL Reset - 12 Week Program",
     href: "/nxtlvl-reset"
   }, {
-    title: "Live Blood Analysis in Brisbane",
-    href: "/services/live-blood-analysis-brisbane"
-  }, {
     title: "Functional Medicine",
     href: "/functional-medicine"
   }, {
@@ -30,9 +27,6 @@ const Navigation = () => {
   }, {
     title: "Pathology Testing Prices",
     href: "/pathology-testing-prices"
-  }, {
-    title: "MLS Laser Therapy",
-    href: "/services/mls-laser-therapy-treatment-brisbane"
   }, {
     title: "Personal Training",
     href: "/services/personal-trainer-newstead"

@@ -198,10 +198,10 @@ const WeightLoss = () => {
                   If you're exhausted from dieting, working out, and "eating healthy" but still can't seem to shift the weight, you're not alone. At NXTLVL Health, our <strong>weight loss naturopath service</strong> is built for people like you people who are doing their best but still feel stuck.
                 </p>
                  <p>
-                   Our approach isn't about calorie counting or quick fixes it's about <strong>uncovering the root causes of your weight gain</strong> and treating them with science-backed, natural solutions. Our <a href="/functional-medicine" className="text-primary hover:underline">functional medicine approach</a> uses advanced tools like <a href="/services/live-blood-analysis-brisbane" className="text-primary hover:underline">live blood analysis</a> to identify underlying imbalances. Whether you're facing hormonal imbalances, insulin resistance, digestive problems, poor sleep, or chronic stress, we'll help your body work with you, not against you.
+                   Our approach isn't about calorie counting or quick fixes it's about <strong>uncovering the root causes of your weight gain</strong> and treating them with science-backed, natural solutions. Our <a href="/functional-medicine" className="text-primary hover:underline">functional medicine approach</a> uses advanced diagnostic tools to identify underlying imbalances. Whether you're facing hormonal imbalances, insulin resistance, digestive problems, poor sleep, or chronic stress, we'll help your body work with you, not against you.
                  </p>
                  <p>
-                   With support from <strong>Brisbane naturopath Mitchell Potts</strong>, you'll get a personalised treatment plan that supports sustainable weight loss, improved energy levels, and better overall health. Our comprehensive approach includes <a href="/services/personal-trainer-newstead" className="text-primary hover:underline">expert personal training</a> and advanced treatments like <a href="/services/mls-laser-therapy-treatment-brisbane" className="text-primary hover:underline">MLS laser therapy</a> to support your weight loss journey. Whether you're from <a href="/areas-we-serve/naturopath-clayfield-brisbane" className="text-primary hover:underline">Clayfield</a>, <a href="/areas-we-serve/naturopath-new-farm" className="text-primary hover:underline">New Farm</a>, <a href="/areas-we-serve/naturopath-hamilton" className="text-primary hover:underline">Hamilton</a>, or anywhere across Brisbane, our personalized approach is here to help.
+                   With support from <strong>Brisbane naturopath Mitchell Potts</strong>, you'll get a personalised treatment plan that supports sustainable weight loss, improved energy levels, and better overall health. Our comprehensive approach includes <a href="/services/personal-trainer-newstead" className="text-primary hover:underline">expert personal training</a> to support your weight loss journey. Whether you're from <a href="/areas-we-serve/naturopath-clayfield-brisbane" className="text-primary hover:underline">Clayfield</a>, <a href="/areas-we-serve/naturopath-new-farm" className="text-primary hover:underline">New Farm</a>, <a href="/areas-we-serve/naturopath-hamilton" className="text-primary hover:underline">Hamilton</a>, or anywhere across Brisbane, our personalized approach is here to help.
                  </p>
               </div>
             </div>
@@ -230,7 +230,7 @@ const WeightLoss = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/2020f836-b7f6-4db1-8574-8110e92396a4.png" alt="Brisbane naturopath performing advanced diagnostic testing for weight loss patients using live blood analysis" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/2020f836-b7f6-4db1-8574-8110e92396a4.png" alt="Brisbane naturopath performing advanced diagnostic testing for weight loss patients" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -248,7 +248,7 @@ const WeightLoss = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/2020f836-b7f6-4db1-8574-8110e92396a4.png" alt="Brisbane naturopath performing advanced diagnostic testing for weight loss patients using live blood analysis" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/2020f836-b7f6-4db1-8574-8110e92396a4.png" alt="Brisbane naturopath performing advanced diagnostic testing for weight loss patients" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>

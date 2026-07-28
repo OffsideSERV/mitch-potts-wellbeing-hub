@@ -390,7 +390,7 @@ const NaturopathicSportsMedicine = () => {
               {/* Live Blood Analysis */}
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div>
-                  <img src="/lovable-uploads/c932dabd-3ac9-4dd4-b8f6-9e2595151e1a.png" alt="Advanced live blood analysis technology enabling precise diagnostic insights for athletic performance optimization" className="rounded-2xl shadow-lg w-full h-auto" />
+                  <img src="/lovable-uploads/c932dabd-3ac9-4dd4-b8f6-9e2595151e1a.png" alt="Advanced diagnostic testing enabling precise insights for athletic performance optimization" className="rounded-2xl shadow-lg w-full h-auto" />
                 </div>
                 <div className="space-y-6">
                   <Card>
@@ -439,7 +439,7 @@ const NaturopathicSportsMedicine = () => {
                   </CardContent>
                 </Card>
                 <div>
-                  <img src="/lovable-uploads/8f5feae9-391d-4644-af47-61593b7bc840.png" alt="State-of-the-art MLS laser therapy device for accelerated healing and pain management in sports injuries" className="rounded-2xl shadow-lg w-full h-auto" />
+                  <img src="/lovable-uploads/8f5feae9-391d-4644-af47-61593b7bc840.png" alt="State-of-the-art diagnostic equipment for accelerated healing and recovery" className="rounded-2xl shadow-lg w-full h-auto" />
                 </div>
               </div>
 
