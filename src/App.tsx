@@ -12,7 +12,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Services from "./pages/Services";
-import MLSLaser from "./pages/MLSLaser";
+
 import PersonalTraining from "./pages/PersonalTraining";
 import GutHealth from "./pages/GutHealth";
 import GutHealthSpecialist from "./pages/GutHealthSpecialist";
@@ -46,7 +46,7 @@ import AllergyNaturopath from "./pages/AllergyNaturopath";
 import NaturopathicNutritionist from "./pages/NaturopathicNutritionist";
 import IndooroopillyNaturopathy from "./pages/IndooroopillyNaturopathy";
 import FunctionalMedicine from "./pages/FunctionalMedicine";
-import LiveBloodAnalysisBrisbane from "./pages/LiveBloodAnalysisBrisbane";
+
 import CancellationPolicy from "./pages/CancellationPolicy";
 import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -68,7 +68,7 @@ import SitemapPage from "./pages/SitemapPage";
 import RobotsPage from "./pages/RobotsPage";
 import AboutUs from "./pages/AboutUs";
 import NaturopathForAthletes from "./pages/NaturopathForAthletes";
-import LaserHealing from "./pages/LaserHealing";
+
 import ThankYou from "./pages/ThankYou";
 import AmIFatOrBloated from "./pages/AmIFatOrBloated";
 import PathologyTestingPrices from "./pages/PathologyTestingPrices";
@@ -102,7 +102,7 @@ const App = () => (
         <ScrollToTop />
         <Routes>
           {/* Landing pages without Layout (no nav/footer) */}
-            <Route path="/laser-healing" element={<LaserHealing />} />
+            
             <Route path="/thank-you" element={<ThankYou />} />
             <Route path="/thank-you-free-consult" element={<ThankYouFreeConsult />} />
             <Route path="/thank-you-appointment" element={<ThankYouAppointment />} />
@@ -121,7 +121,7 @@ const App = () => (
               <Routes>
                 <Route path="/" element={<Index />} />
                 <Route path="/services" element={<Services />} />
-                <Route path="/services/mls-laser-therapy-treatment-brisbane" element={<MLSLaser />} />
+                
                 <Route path="/services/personal-trainer-newstead" element={<PersonalTraining />} />
                 <Route path="/what-we-treat/gut-health-naturopath-brisbane" element={<GutHealth />} />
                 <Route path="/what-we-treat/gut-health-specialist" element={<GutHealthSpecialist />} />
@@ -155,7 +155,7 @@ const App = () => (
                 <Route path="/naturopathic-nutritionist" element={<NaturopathicNutritionist />} />
                 <Route path="/areas-we-serve/naturopath-indooroopilly" element={<IndooroopillyNaturopathy />} />
                 <Route path="/functional-medicine" element={<FunctionalMedicine />} />
-                <Route path="/services/live-blood-analysis-brisbane" element={<LiveBloodAnalysisBrisbane />} />
+                
                 <Route path="/cancellation-policy" element={<CancellationPolicy />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/privacy-policy" element={<PrivacyPolicy />} />
