@@ -230,7 +230,7 @@ const WeightLoss = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/2020f836-b7f6-4db1-8574-8110e92396a4.png" alt="Brisbane naturopath performing advanced diagnostic testing for weight loss patients using live blood analysis" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/2020f836-b7f6-4db1-8574-8110e92396a4.png" alt="Brisbane naturopath performing advanced diagnostic testing for weight loss patients" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -248,7 +248,7 @@ const WeightLoss = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/2020f836-b7f6-4db1-8574-8110e92396a4.png" alt="Brisbane naturopath performing advanced diagnostic testing for weight loss patients using live blood analysis" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/2020f836-b7f6-4db1-8574-8110e92396a4.png" alt="Brisbane naturopath performing advanced diagnostic testing for weight loss patients" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>

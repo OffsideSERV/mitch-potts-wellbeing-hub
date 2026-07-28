@@ -283,7 +283,7 @@ const AnxietyNaturopathy = () => {
 
           {/* Mobile Image */}
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/c0e311d2-fff4-40e4-86ad-e03f9bf17e39.png" alt="Qualified naturopath anxiety practitioner performing live blood analysis testing at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/c0e311d2-fff4-40e4-86ad-e03f9bf17e39.png" alt="Qualified naturopath anxiety practitioner at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -308,7 +308,7 @@ const AnxietyNaturopathy = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/c0e311d2-fff4-40e4-86ad-e03f9bf17e39.png" alt="Qualified naturopath anxiety practitioner performing live blood analysis testing at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/c0e311d2-fff4-40e4-86ad-e03f9bf17e39.png" alt="Qualified naturopath anxiety practitioner at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
