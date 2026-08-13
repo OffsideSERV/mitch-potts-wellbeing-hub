@@ -3,7 +3,7 @@ import React from 'react';
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, Phone, Calendar, Heart, Brain, Users, Target, Clock, Shield } from "lucide-react";
+import { CheckCircle, Calendar, Heart, Brain, Users, Target, Clock, Shield } from "lucide-react";
 
 const IBSClinic = () => {
   return (

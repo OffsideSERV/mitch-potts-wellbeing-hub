@@ -20,20 +20,11 @@ const GutHealth = () => {
     "url": "https://nxtlvlhealth.com.au/what-we-treat/gut-health-naturopath-brisbane",
     "image": "https://nxtlvlhealth.com.au/lovable-uploads/8c8b4eb3-73e7-4d27-a130-784ffb35035c.png",
     "provider": {
-      "@type": "LocalBusiness",
+      "@type": "Organization",
       "@id": "https://nxtlvlhealth.com.au/#organization",
       "name": "NXTLVL Health - Naturopath",
       "image": "https://nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
-      "telephone": "(07) 3180 8853",
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Suite 2/665 Brunswick St",
-        "addressLocality": "New Farm",
-        "addressRegion": "QLD",
-        "addressCountry": "AU",
-        "postalCode": "4005"
-      }
+      "priceRange": "$$"
     },
     "serviceType": "Naturopathic Medicine",
     "category": "Digestive Health Treatment",
@@ -69,32 +60,14 @@ const GutHealth = () => {
         "availability": "https://schema.org/InStock"
       }]
     },
-    "serviceArea": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": "-27.4646",
-        "longitude": "153.0448"
-      },
-      "geoRadius": "50000"
-    },
     "areaServed": ["Brisbane", "New Farm", "Fortitude Valley", "Newstead", "Teneriffe", "Kangaroo Point", "East Brisbane", "Norman Park", "Bulimba", "Hawthorne", "Morningside", "Ascot", "Hamilton", "Clayfield", "Wilston", "Windsor", "Kelvin Grove", "Paddington", "Red Hill", "Auchenflower", "Toowong", "Queensland"],
     "availableChannel": {
       "@type": "ServiceChannel",
       "name": "In-Person Naturopathic Consultations",
       "serviceLocation": {
         "@type": "Place",
-        "name": "NXTLVL Health",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Suite 2/665 Brunswick St",
-          "addressLocality": "New Farm",
-          "addressRegion": "QLD",
-          "addressCountry": "AU",
-          "postalCode": "4005"
-        }
+        "name": "NXTLVL Health"
       },
-      "servicePhone": "(07) 3180 8853",
       "serviceUrl": "https://nxtlvlhealth.com.au/what-we-treat/gut-health-naturopath-brisbane"
     },
     "serviceOutput": ["IBS Treatment", "SIBO Treatment", "Digestive Disorder Management", "Gut Healing", "Food Intolerance Management", "Inflammatory Bowel Disease Support", "Leaky Gut Treatment", "Microbiome Restoration", "Digestive Enzyme Support", "Anti-inflammatory Nutrition"],

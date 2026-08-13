@@ -88,12 +88,6 @@ const Footer = () => {
                   Book Free Consult
                 </a>
               </Button>
-              <Button variant="outline" className="w-full" asChild>
-                <a href="tel:0731808853">
-                  <Phone className="h-4 w-4 mr-2" />
-                  Call Now
-                </a>
-              </Button>
             </div>
             <div className="space-y-2">
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">

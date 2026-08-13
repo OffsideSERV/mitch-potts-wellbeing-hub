@@ -45,13 +45,12 @@ const SEO = ({
     if (currentPath === '/' || currentPath === '/index.html') {
       return {
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": "Organization",
         "@id": "https://nxtlvlhealth.com.au/#organization",
         "name": "NXTLVL Health - Naturopath",
         "alternateName": "NXTLVL Health Brisbane",
-        "description": "Brisbane's leading naturopathic clinic specialising in gut health, hormonal imbalances, chronic fatigue, and natural healing. Led by qualified naturopath Mitch Potts.",
+        "description": "Brisbane-based online naturopathic practice specialising in gut health, hormonal imbalances, chronic fatigue, and natural healing. Led by qualified naturopath Mitch Potts.",
         "url": "https://nxtlvlhealth.com.au",
-        "telephone": "(07) 3180 8853",
         "email": "info@nxtlvlhealth.com.au",
         "image": [
           "https://nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png"
@@ -60,35 +59,9 @@ const SEO = ({
           "@type": "ImageObject",
           "url": "https://nxtlvlhealth.com.au/lovable-uploads/e8ea191a-3d17-45b6-b926-fa1ce97867a9.png"
         },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Suite 2/665 Brunswick St",
-          "addressLocality": "New Farm",
-          "addressRegion": "QLD",
-          "addressCountry": "AU",
-          "postalCode": "4005"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": "-27.4646",
-          "longitude": "153.0448"
-        },
-        "openingHours": [
-          "Mo-Fr 09:00-17:00",
-          "Sa 09:00-15:00"
-        ],
-        "paymentAccepted": ["Cash", "Credit Card", "EFTPOS", "Health Fund"],
         "currenciesAccepted": "AUD",
         "priceRange": "$$",
-        "serviceArea": {
-          "@type": "GeoCircle",
-          "geoMidpoint": {
-            "@type": "GeoCoordinates",
-            "latitude": "-27.4646",
-            "longitude": "153.0448"
-          },
-          "geoRadius": "50000"
-        },
+
         "areaServed": [
           "Brisbane",
           "New Farm",
