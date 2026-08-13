@@ -133,11 +133,9 @@ const Navigation = () => {
     }));
   };
   return <>
-      {/* Health Quiz Promotion Header */}
+      {/* Free Guide Promotion Header */}
       <a 
-        href="https://nxtlvl-health.scoreapp.com" 
-        target="_blank" 
-        rel="noopener noreferrer"
+        href="/free-report" 
         className="block bg-gradient-to-r from-orange-500 to-red-500 text-white py-2 md:py-3 px-4 hover:from-orange-600 hover:to-red-600 transition-colors cursor-pointer"
       >
         <div className="container mx-auto">
@@ -145,7 +143,7 @@ const Navigation = () => {
           <div className="flex sm:hidden items-center justify-center gap-2">
             <Gift className="h-4 w-4 text-yellow-300 animate-pulse flex-shrink-0" />
             <div className="text-[11px] font-bold leading-tight text-center">
-              Not sure what's causing your symptoms? Take our Health Quiz!
+              Still bloated after every meal? Get the free Gut Freedom Guide.
             </div>
             <Button 
               variant="secondary" 
@@ -154,7 +152,7 @@ const Navigation = () => {
               asChild
               onClick={(e: React.MouseEvent) => e.stopPropagation()}
             >
-              <a href="https://nxtlvl-health.scoreapp.com" target="_blank" rel="noopener noreferrer">Start Health Quiz</a>
+              <a href="/free-report">Watch Free Guide</a>
             </Button>
           </div>
           
@@ -162,7 +160,7 @@ const Navigation = () => {
           <div className="hidden sm:flex flex-row items-center justify-center gap-4 text-center">
             <Gift className="h-5 w-5 text-yellow-300 animate-pulse flex-shrink-0" />
             <span className="text-sm md:text-base font-medium">
-              <strong>Not sure what's causing your symptoms?</strong> Take the NXTLVL Health Quiz to identify what system in your body needs support.
+              <strong>Still bloated after every meal?</strong> Get the free 15-minute Gut Freedom Guide.
             </span>
             <Button 
               variant="secondary" 
@@ -171,7 +169,7 @@ const Navigation = () => {
               asChild
               onClick={(e: React.MouseEvent) => e.stopPropagation()}
             >
-              <a href="https://nxtlvl-health.scoreapp.com" target="_blank" rel="noopener noreferrer">Start Health Quiz</a>
+              <a href="/free-report">Watch Free Guide</a>
             </Button>
           </div>
         </div>
