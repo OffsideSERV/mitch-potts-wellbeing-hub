@@ -187,9 +187,8 @@ const SEO = ({
       <meta name="author" content="NXTLVL Health - Naturopath" />
       <meta name="language" content="English" />
       <meta name="geo.region" content="AU-QLD" />
-      <meta name="geo.placename" content="New Farm, Brisbane, Queensland" />
-      <meta name="geo.position" content="-27.4646;153.0448" />
-      <meta name="ICBM" content="-27.4646, 153.0448" />
+      <meta name="geo.placename" content="Brisbane, Queensland" />
+
       
       {/* LocalBusiness Schema Markup - Only on homepage */}
       {localBusinessSchema && (
