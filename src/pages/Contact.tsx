@@ -98,13 +98,6 @@ const Contact = () => {
                       Book Free 15-Min Consult
                     </a>
                   </Button>
-                  
-                  <Button variant="outline" size="lg" className="w-full" asChild>
-                    <a href="tel:0731808853">
-                      <Phone className="h-5 w-5 mr-2" />
-                      Call Now
-                    </a>
-                  </Button>
                 </div>
 
                 <div className="mt-8 p-4 bg-primary/5 rounded-lg border border-primary/10">
