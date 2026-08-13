@@ -144,17 +144,7 @@ const Areas = () => {
                     <span className="text-center">Book a Consult</span>
                   </a>
                 </Button>
-                <Button 
-                  variant="outline" 
-                  size="lg" 
-                  asChild 
-                  className="text-base sm:text-lg px-4 py-3 h-auto"
-                >
-                  <a href="tel:0731808853">
-                    <Phone className="mr-2 h-4 w-4 flex-shrink-0" />
-                    Call Mitch Now
-                  </a>
-                </Button>
+
               </div>
 
               {/* Google 5 Star Badge */}
@@ -337,17 +327,7 @@ const Areas = () => {
                   Book a Consult
                 </a>
               </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                asChild 
-                className="text-base sm:text-lg px-6 py-4"
-              >
-                <a href="tel:0731808853">
-                  <Phone className="mr-2 h-4 w-4" />
-                  Call Mitch Now
-                </a>
-              </Button>
+
             </div>
           </div>
         </div>
