@@ -116,7 +116,7 @@ const NewsteadNaturopathy = () => {
       "name": "In-Person and Telehealth Consultations",
       "serviceLocation": {
         "@type": "Place",
-        "name": "NXTLVL Health",
+        "name": "NXTLVL Health"
       },
       "serviceUrl": "https://nxtlvlhealth.com.au/areas-we-serve/naturopath-newstead"
     },
