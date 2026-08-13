@@ -327,7 +327,6 @@ const NaturopathyBrisbane = () => {
               { label: "Why Us?", id: "why-us" },
               { label: "Reviews", id: "reviews" },
               { label: "FAQs", id: "faqs" },
-              { label: "Location", id: "location" },
             ].map((link) => (
               <a
                 key={link.id}
@@ -364,7 +363,6 @@ const NaturopathyBrisbane = () => {
               { label: "Why Us?", id: "why-us" },
               { label: "Reviews", id: "reviews" },
               { label: "FAQs", id: "faqs" },
-              { label: "Location", id: "location" },
             ].map((link) => (
               <a
                 key={link.id}
@@ -754,41 +752,6 @@ const NaturopathyBrisbane = () => {
         </div>
       </section>
 
-      <section id="location" className="py-20 bg-muted scroll-mt-20">
-        <div className="max-w-5xl mx-auto px-4">
-          <h2 className="scroll-animate text-3xl md:text-4xl font-extrabold text-foreground text-center mb-12">Come See Us In New Farm, Brisbane</h2>
-
-          <div className="scroll-animate delay-1 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            <div className="rounded-2xl overflow-hidden shadow-lg h-[400px]">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.0!2d153.0534!3d-27.4634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a07e7e3b3c1%3A0x0!2sSuite%202%2F665%20Brunswick%20St%2C%20New%20Farm%20QLD%204005!5e0!3m2!1sen!2sau!4v1"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="NXTLVL Health Location"
-              />
-            </div>
-            <div className="space-y-6">
-              <div className="flex items-start gap-4">
-                <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                <div>
-                  <p className="font-bold text-foreground text-lg">Suite 2/665 Brunswick St, New Farm QLD 4005</p>
-                </div>
-              </div>
-              <p className="text-muted-foreground text-lg leading-relaxed">
-                Our beautiful, calm clinic is located in New Farm, Brisbane.
-              </p>
-              <p className="text-muted-foreground text-lg leading-relaxed">
-                We help people from all over Brisbane, including Paddington, Teneriffe, Newstead, Fortitude Valley, and beyond. We also offer <strong className="text-foreground">online appointments</strong> if you can't make it in.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FINAL CTA SECTION */}
       <section className="py-20 bg-foreground text-background">
         <div className="max-w-4xl mx-auto px-4 overflow-hidden">
@@ -848,12 +811,6 @@ const NaturopathyBrisbane = () => {
 
       {/* Simple Footer */}
       <footer className="bg-foreground border-t border-white/10 py-8 text-center">
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4 text-white/60 text-sm">
-          <div className="flex items-center gap-2">
-            <MapPin className="w-4 h-4" />
-            Suite 2/665 Brunswick St, New Farm QLD 4005
-          </div>
-        </div>
         <p className="text-white/40 text-sm">© {new Date().getFullYear()} NXTLVL Health. All rights reserved.</p>
         <div className="flex items-center justify-center gap-4 mt-3">
           <a href="/privacy-policy" className="text-white/40 hover:text-white/70 text-sm transition-colors">Privacy Policy</a>
