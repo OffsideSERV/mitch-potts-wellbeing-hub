@@ -92,18 +92,6 @@ const NXTLVLTonics = () => {
                 Your personalised path to wellness, one blend at a time
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" asChild>
-                  <a href="/#free-consult">
-                    <Calendar className="h-5 w-5 mr-2" />
-                    Book Free Consultation
-                  </a>
-                </Button>
-                <Button variant="outline" size="lg" asChild>
-                  <a href="tel:0731808853">
-                    <Phone className="h-5 w-5 mr-2" />
-                    Call (07) 3180 8853
-                  </a>
-                </Button>
               </div>
             </div>
           </div>

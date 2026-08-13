@@ -343,12 +343,6 @@ const Navigation = () => {
 
             {/* Desktop CTA Buttons */}
             <div className="hidden lg:flex items-center space-x-2">
-              <Button variant="outline" size="sm" asChild>
-                <a href="tel:0731808853">
-                  <Phone className="h-4 w-4 mr-2" />
-                  Call Now
-                </a>
-              </Button>
               <Button size="sm" asChild>
                 <Link to="/book-now">
                   <Calendar className="h-4 w-4 mr-2" />
