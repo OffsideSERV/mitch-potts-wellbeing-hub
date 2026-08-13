@@ -1,6 +1,6 @@
 import SEO from "@/components/SEO";
 import { Button } from '@/components/ui/button';
-import { Phone, Calendar, Check, Leaf, Heart, Shield } from 'lucide-react';
+import { Calendar, Check, Leaf, Heart, Shield } from 'lucide-react';
 
 const NXTLVLTonics = () => {
   const benefits = [

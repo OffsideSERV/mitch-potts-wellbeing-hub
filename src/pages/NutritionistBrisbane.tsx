@@ -1,6 +1,6 @@
 import SEO from "@/components/SEO";
 import { Button } from '@/components/ui/button';
-import { Phone, Calendar, Apple, Activity, Target, Dna } from 'lucide-react';
+import { Calendar, Apple, Activity, Target, Dna } from 'lucide-react';
 
 const NutritionistBrisbane = () => {
   const services = [

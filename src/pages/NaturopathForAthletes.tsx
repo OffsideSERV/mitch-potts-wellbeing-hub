@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import SEO from '@/components/SEO';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Calendar, Phone, ChevronDown, ChevronUp, Activity, Heart, TestTube, Brain, Leaf, Target, Zap, ShieldCheck, Trophy, Timer, FlameKindling } from 'lucide-react';
+import { Calendar, ChevronDown, ChevronUp, Activity, Heart, TestTube, Brain, Leaf, Target, Zap, ShieldCheck, Trophy, Timer, FlameKindling } from 'lucide-react';
 
 const NaturopathForAthletes = () => {
   const [openDropdown, setOpenDropdown] = useState<number | null>(null);
@@ -173,12 +173,6 @@ const NaturopathForAthletes = () => {
                     <a href="/#free-consult">
                       <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                       <span className="text-center">Book Free 15-Min Consult</span>
-                    </a>
-                  </Button>
-                  <Button variant="outline" size="lg" className="text-base sm:text-lg px-4 py-3 h-auto" asChild>
-                    <a href="tel:0731808853">
-                      <Phone className="mr-2 h-4 w-4 flex-shrink-0" />
-                      Call (07) 3180 8853
                     </a>
                   </Button>
                 </div>
@@ -677,7 +671,6 @@ const NaturopathForAthletes = () => {
                 </Button>
                 <div className="space-y-2 text-muted-foreground">
                   <p>📍 In-Person in Brisbane or Online Across Australia</p>
-                  <p>📞 Call Mitch Now: (07) 3180 8853</p>
                 </div>
               </CardContent>
             </Card>

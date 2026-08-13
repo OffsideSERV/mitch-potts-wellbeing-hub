@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Calendar, Phone, ChevronDown, ChevronUp, Dumbbell, Heart, Activity, Target, Users, Monitor, MapPin } from 'lucide-react';
+import { Calendar, ChevronDown, ChevronUp, Dumbbell, Heart, Activity, Target, Users, Monitor, MapPin } from 'lucide-react';
 const PersonalTraining = () => {
   const [openDropdown, setOpenDropdown] = useState<number | null>(null);
   const toggleDropdown = (index: number) => {

@@ -1,7 +1,7 @@
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Calendar, Phone, CheckCircle, Heart, Users, Target, Leaf, Zap, Shield, Microscope, Stethoscope, Activity } from "lucide-react";
+import { Calendar, CheckCircle, Heart, Users, Target, Leaf, Zap, Shield, Microscope, Stethoscope, Activity } from "lucide-react";
 const NewFarmNaturopathy = () => {
   return <>
       <SEO title="Expert Naturopath in New Farm Brisbane | Mitchell Potts" description="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath in New Farm Brisbane that will find and heal the root cause of your problems." canonical="/areas-we-serve/naturopath-new-farm" keywords="naturopath New Farm, New Farm naturopathy, natural health New Farm, holistic health New Farm Brisbane" />

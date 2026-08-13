@@ -503,12 +503,6 @@ const Navigation = () => {
                   </nav>
 
                   <div className="mt-auto space-y-3">
-                    <Button variant="outline" className="w-full" asChild>
-                      <a href="tel:0731808853">
-                        <Phone className="h-4 w-4 mr-2" />
-                        Call Now
-                      </a>
-                    </Button>
                     <Button className="w-full" asChild>
                       <Link to="/book-now">
                         <Calendar className="h-4 w-4 mr-2" />
