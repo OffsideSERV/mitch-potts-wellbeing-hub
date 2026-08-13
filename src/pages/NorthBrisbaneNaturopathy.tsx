@@ -14,32 +14,14 @@ const NorthBrisbaneNaturopathy = () => {
     "url": "https://nxtlvlhealth.com.au/areas-we-serve/naturopath-north-brisbane",
     "image": ["https://nxtlvlhealth.com.au/lovable-uploads/d8fb55f4-1a1b-4a7f-9aef-fb782c41df21.png", "https://nxtlvlhealth.com.au/lovable-uploads/e1f6dd06-164a-425b-bc19-839d603bc5ed.png", "https://nxtlvlhealth.com.au/lovable-uploads/d4dfb30d-6da4-42d6-86b4-14b51e4d4a8f.png"],
     "provider": {
-      "@type": "LocalBusiness",
+      "@type": "Organization",
       "@id": "https://nxtlvlhealth.com.au/#organization",
       "name": "NXTLVL Health - Naturopath",
       "image": "https://nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
-      "telephone": "(07) 3180 8853",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Suite 2/665 Brunswick St",
-        "addressLocality": "New Farm",
-        "addressRegion": "QLD",
-        "addressCountry": "AU",
-        "postalCode": "4005"
-      },
       "priceRange": "$$"
     },
     "serviceType": "Healthcare Service",
     "category": ["Naturopathy", "Natural Medicine", "Holistic Health", "Functional Medicine"],
-    "serviceArea": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": "-27.4646",
-        "longitude": "153.0448"
-      },
-      "geoRadius": "25000"
-    },
     "areaServed": [{
       "@type": "City",
       "name": "North Brisbane",
@@ -134,22 +116,8 @@ const NorthBrisbaneNaturopathy = () => {
       "name": "In-Person and Telehealth Consultations",
       "serviceLocation": {
         "@type": "Place",
-        "name": "NXTLVL Health",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Suite 2/665 Brunswick St",
-          "addressLocality": "New Farm",
-          "addressRegion": "QLD",
-          "addressCountry": "AU",
-          "postalCode": "4005"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": "-27.4646",
-          "longitude": "153.0448"
-        }
+        "name": "NXTLVL Health"
       },
-      "servicePhone": "(07) 3180 8853",
       "serviceUrl": "https://nxtlvlhealth.com.au/areas-we-serve/naturopath-north-brisbane"
     },
     "serviceOutput": ["Personalised treatment plans", "Natural health solutions", "Functional testing recommendations", "Nutritional guidance", "Herbal medicine prescriptions", "Lifestyle recommendations", "Ongoing health monitoring"],
@@ -164,7 +132,7 @@ const NorthBrisbaneNaturopathy = () => {
       "jobTitle": "Naturopath & Nutritional Medicine Practitioner",
       "description": "Qualified naturopath with extensive experience in natural medicine, specialising in gut health, hormonal imbalances, and chronic health conditions",
       "worksFor": {
-        "@type": "LocalBusiness",
+        "@type": "Organization",
         "@id": "https://nxtlvlhealth.com.au/#organization"
       }
     },
@@ -178,13 +146,6 @@ const NorthBrisbaneNaturopathy = () => {
       "result": {
         "@type": "Reservation",
         "name": "Naturopathic Consultation Appointment"
-      }
-    }, {
-      "@type": "CommunicateAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": "tel:(07) 3180 8853",
-        "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]
       }
     }],
     "isRelatedTo": [{
@@ -230,22 +191,6 @@ const NorthBrisbaneNaturopathy = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight">
-                  <a href="https://nxtlvlhealth.com.au/book-now/">
-                    <svg className="mr-2 h-5 w-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                    </svg>
-                    <span className="text-center">Book an Appointment Today</span>
-                  </a>
-                </Button>
-                <Button variant="outline" asChild className="text-base sm:text-lg px-4 py-3 h-auto">
-                  <a href="tel:0731808853">
-                    <svg className="mr-2 h-4 w-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
-                    </svg>
-                    Call Mitch
-                  </a>
-                </Button>
               </div>
 
               {/* Google 5 Star Badge */}
@@ -525,22 +470,6 @@ const NorthBrisbaneNaturopathy = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild className="text-base sm:text-lg px-6 py-4">
-                <a href="https://nxtlvlhealth.com.au/book-now/">
-                  <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                  </svg>
-                  Book Your Consultation Today
-                </a>
-              </Button>
-              <Button variant="outline" asChild className="text-base sm:text-lg px-6 py-4">
-                <a href="tel:0731808853">
-                  <svg className="mr-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
-                  </svg>
-                  Call Mitch Today
-                </a>
-              </Button>
             </div>
           </div>
         </div>

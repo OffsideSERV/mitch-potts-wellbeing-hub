@@ -33,26 +33,11 @@ const Contact = () => {
                   </h2>
                   
                   <div className="space-y-6">
-                    {/* Phone */}
-                    <div className="flex items-center space-x-4">
-                      <div className="bg-primary/10 p-3 rounded-lg">
-                        <Phone className="h-6 w-6 text-primary" />
-                      </div>
-                      <div>
-                        <h3 className="font-medium text-foreground">Phone</h3>
-                        <a 
-                          href="tel:0731808853" 
-                          className="text-muted-foreground hover:text-primary transition-colors"
-                        >
-                          (07) 3180 8853
-                        </a>
-                      </div>
-                    </div>
-
                     {/* Email */}
                     <div className="flex items-center space-x-4">
                       <div className="bg-primary/10 p-3 rounded-lg">
                         <Mail className="h-6 w-6 text-primary" />
+
                       </div>
                       <div>
                         <h3 className="font-medium text-foreground">Email</h3>
@@ -111,13 +96,6 @@ const Contact = () => {
                     <a href="/#free-consult">
                       <Calendar className="h-5 w-5 mr-2" />
                       Book Free 15-Min Consult
-                    </a>
-                  </Button>
-                  
-                  <Button variant="outline" size="lg" className="w-full" asChild>
-                    <a href="tel:0731808853">
-                      <Phone className="h-5 w-5 mr-2" />
-                      Call Now
                     </a>
                   </Button>
                 </div>

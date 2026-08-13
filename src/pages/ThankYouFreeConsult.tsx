@@ -72,27 +72,17 @@ const ThankYouFreeConsult = () => {
           <div className="bg-primary/5 p-6 rounded-lg border border-primary/20 mb-8">
             <h3 className="text-xl font-semibold mb-3 text-foreground">Need to reschedule?</h3>
             <div className="space-y-2 text-muted-foreground">
-              <p>No worries — just give us a call or send an email and we'll sort it out.</p>
-              <p><strong>Phone:</strong> (07) 3191 3367</p>
+              <p>No worries — just send us an email and we'll sort it out.</p>
               <p><strong>Email:</strong> info@nxtlvlhealth.com.au</p>
             </div>
           </div>
 
           <div className="space-y-4">
-            <Button
-              size="lg"
-              className="text-lg px-8 py-4 h-auto bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700"
-              asChild
-            >
-              <a href="tel:0731913367">
-                <Phone className="mr-2 h-5 w-5" />
-                Call Us: (07) 3191 3367
-              </a>
-            </Button>
             <p className="text-sm text-muted-foreground">
               We're looking forward to chatting with you!
             </p>
           </div>
+
         </div>
       </div>
     </div>

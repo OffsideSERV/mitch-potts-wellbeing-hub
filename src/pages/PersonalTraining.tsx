@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Calendar, Phone, ChevronDown, ChevronUp, Dumbbell, Heart, Activity, Target, Users, Monitor, MapPin } from 'lucide-react';
+import { Calendar, ChevronDown, ChevronUp, Dumbbell, Heart, Activity, Target, Users, Monitor, MapPin } from 'lucide-react';
 const PersonalTraining = () => {
   const [openDropdown, setOpenDropdown] = useState<number | null>(null);
   const toggleDropdown = (index: number) => {
@@ -20,20 +20,11 @@ const PersonalTraining = () => {
     "url": "https://nxtlvlhealth.com.au/services/personal-trainer-newstead",
     "image": "https://nxtlvlhealth.com.au/lovable-uploads/dd4ff0ea-d4e7-416c-b0d9-d3a541758d60.png",
     "provider": {
-      "@type": "LocalBusiness",
+      "@type": "Organization",
       "@id": "https://nxtlvlhealth.com.au/#organization",
       "name": "NXTLVL Health - Naturopath",
       "image": "https://nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
-      "telephone": "(07) 3180 8853",
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Suite 2/665 Brunswick St",
-        "addressLocality": "New Farm",
-        "addressRegion": "QLD",
-        "addressCountry": "AU",
-        "postalCode": "4005"
-      }
+      "priceRange": "$$"
     },
     "serviceType": "Fitness and Exercise Training",
     "category": "Personal Training",
@@ -60,15 +51,6 @@ const PersonalTraining = () => {
         "availability": "https://schema.org/InStock"
       }]
     },
-    "serviceArea": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": "-27.4646",
-        "longitude": "153.0448"
-      },
-      "geoRadius": "50000"
-    },
     "areaServed": ["Brisbane", "Newstead", "New Farm", "Fortitude Valley", "Teneriffe", "Kangaroo Point", "East Brisbane", "Norman Park", "Bulimba", "Hawthorne", "Morningside", "Ascot", "Hamilton", "Clayfield", "Wilston", "Windsor", "Kelvin Grove", "Paddington", "Red Hill", "Auchenflower", "Toowong", "Bowen Hills", "South Brisbane", "Queensland"],
     "availableChannel": {
       "@type": "ServiceChannel",
@@ -76,14 +58,6 @@ const PersonalTraining = () => {
       "serviceLocation": {
         "@type": "Place",
         "name": "Function Well - Mercedes Benz Building",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Mercedes Benz Building",
-          "addressLocality": "Newstead",
-          "addressRegion": "QLD",
-          "addressCountry": "AU",
-          "postalCode": "4006"
-        },
         "amenityFeature": [{
           "@type": "LocationFeatureSpecification",
           "name": "Free Parking",
@@ -98,7 +72,6 @@ const PersonalTraining = () => {
           "value": "true"
         }]
       },
-      "servicePhone": "(07) 3180 8853",
       "serviceUrl": "https://nxtlvlhealth.com.au/services/personal-trainer-newstead"
     },
     "serviceOutput": ["Strength Building", "Weight Loss", "Body Composition Improvement", "Injury Prevention", "Functional Movement", "Athletic Performance", "Mobility Enhancement", "Exercise Therapy"],
@@ -240,18 +213,6 @@ const PersonalTraining = () => {
               </div>
               
               <div className="flex flex-col gap-4 mt-8 lg:mt-0">
-                <Button size="lg" className="text-lg px-10 py-6 h-auto w-full lg:w-auto" asChild>
-                  <a href="https://nxtlvlhealth.com.au/book-now/">
-                    <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
-                    Book Your Personal Training Session
-                  </a>
-                </Button>
-                <Button variant="outline" size="lg" className="text-lg px-10 py-6 h-auto w-full lg:w-auto" asChild>
-                  <a href="tel:0731808853">
-                    <Phone className="mr-2 h-4 w-4 flex-shrink-0" />
-                    Call Mitch
-                  </a>
-                </Button>
               </div>
 
               {/* Google 5 Star Badge */}
@@ -561,18 +522,6 @@ const PersonalTraining = () => {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="text-lg px-8 py-6 w-full sm:w-auto" asChild>
-                <a href="https://nxtlvlhealth.com.au/book-now/">
-                  <Calendar className="mr-2 h-5 w-5" />
-                  Book Your Personal Training Session
-                </a>
-              </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6 w-full sm:w-auto" asChild>
-                <a href="tel:0731808853">
-                  <Phone className="mr-2 h-4 w-4" />
-                  Call Mitch
-                </a>
-              </Button>
             </div>
           </div>
         </div>

@@ -707,7 +707,7 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Online Consultations, Wherever You Are</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Every consult is online now, so it doesn't matter if you're in New Farm or Newman. Same hour-long assessment, same personalised plan, same support. No traffic, no parking, no waiting room.
+              Every consult is online now, so it doesn't matter if you're in Newman or Melbourne. Same hour-long assessment, same personalised plan, same support. No traffic, no parking, no waiting room.
             </p>
           </div>
         </div>
@@ -768,12 +768,6 @@ const Index = () => {
                 <a href="#free-consult" onClick={(e) => { e.preventDefault(); document.getElementById('free-consult')?.scrollIntoView({ behavior: 'smooth' }); }}>
                   <Calendar className="mr-2 h-5 w-5" />
                   Book a Free 15-Min Consult
-                </a>
-              </Button>
-              <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3" asChild>
-                <a href="tel:0731808853">
-                  <Phone className="mr-2 h-4 w-4" />
-                  Call Mitch Now
                 </a>
               </Button>
             </div>

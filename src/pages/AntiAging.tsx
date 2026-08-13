@@ -8,19 +8,10 @@ import naturalAntiAgingTreatments from "@/assets/natural-anti-aging-treatments.j
 
 const antiAgingSchema = {
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
+  "@type": "Organization",
   "name": "NXTLVL Health - Anti-Aging Naturopath Brisbane",
   "description": "Professional naturopathic anti-aging treatments in Brisbane. Natural approaches to slow aging, improve vitality, and enhance longevity.",
   "url": "https://nxtlvlhealth.com.au/what-we-treat/anti-aging-naturopath-brisbane",
-  "telephone": "07 3256 6886",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "1/58 Longland Street",
-    "addressLocality": "Newstead",
-    "addressRegion": "QLD",
-    "postalCode": "4006",
-    "addressCountry": "AU"
-  },
   "medicalSpecialty": ["Naturopathy", "Anti-Aging Medicine", "Longevity Medicine"],
   "serviceType": "Anti-Aging Naturopathic Treatment"
 };
@@ -356,9 +347,6 @@ export default function AntiAging() {
             <Button size="lg" className="bg-primary hover:bg-primary/90">
               <Phone className="w-5 h-5 mr-2" />
               Book Your Anti-Aging Consultation
-            </Button>
-            <Button variant="outline" size="lg">
-              Call (07) 3256 6886
             </Button>
           </div>
         </div>

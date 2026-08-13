@@ -1,6 +1,6 @@
 import SEO from "@/components/SEO";
 import { Button } from '@/components/ui/button';
-import { Phone, Calendar, Heart, Brain, Shield, Activity } from 'lucide-react';
+import { Calendar, Heart, Brain, Shield, Activity } from 'lucide-react';
 
 const WhatWeTreat = () => {
   const conditions = [
@@ -69,7 +69,7 @@ const WhatWeTreat = () => {
               {/* CTA Section */}
               <div className="text-center mb-16">
                 <p className="text-lg text-muted-foreground mb-8">
-                  Here are just some of the conditions we can help with. To learn more, use our contact form to schedule phone call from a Naturopath call us at (07) 3180 8853 for a free 15-minute phone consultation with a Naturopath. Let us help you get back to feeling your best!
+                  Here are just some of the conditions we can help with. To learn more, use our contact form to book a free 15-minute consultation with a Naturopath. Let us help you get back to feeling your best!
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -77,12 +77,6 @@ const WhatWeTreat = () => {
                     <a href="/#free-consult">
                       <Calendar className="h-5 w-5 mr-2" />
                       Book Free 15-Min Consult
-                    </a>
-                  </Button>
-                  <Button variant="outline" size="lg" asChild>
-                    <a href="tel:0731808853">
-                      <Phone className="h-5 w-5 mr-2" />
-                      Call (07) 3180 8853
                     </a>
                   </Button>
                 </div>

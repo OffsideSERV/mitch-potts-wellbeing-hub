@@ -1,7 +1,7 @@
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Calendar, Phone, CheckCircle, Heart, Users, Target, Leaf, Zap, Shield, Activity } from "lucide-react";
+import { Calendar, CheckCircle, Heart, Users, Target, Leaf, Zap, Shield, Activity } from "lucide-react";
 const WellnessClinic = () => {
   return <>
       <SEO 
@@ -41,12 +41,6 @@ const WellnessClinic = () => {
                   <a href="/#free-consult">
                     <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
                     <span className="text-center">Book a Free 15-Min Consult</span>
-                  </a>
-                </Button>
-                <Button variant="outline" size="lg" asChild className="text-base sm:text-lg px-4 py-3 h-auto">
-                  <a href="tel:0731808853">
-                    <Phone className="mr-2 h-4 w-4 flex-shrink-0" />
-                    Call Mitch
                   </a>
                 </Button>
               </div>
@@ -671,12 +665,6 @@ const WellnessClinic = () => {
                 <a href="/#free-consult">
                   <Calendar className="mr-2 h-5 w-5" />
                   Book a Free 15-Min Consult
-                </a>
-              </Button>
-              <Button variant="outline" size="lg" asChild className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
-                <a href="tel:0731808853">
-                  <Phone className="mr-2 h-4 w-4" />
-                  Call Mitch
                 </a>
               </Button>
             </div>

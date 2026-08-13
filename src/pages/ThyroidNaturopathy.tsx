@@ -12,20 +12,11 @@ const ThyroidNaturopathy = () => {
     "url": "https://nxtlvlhealth.com.au/what-we-treat/naturopath-thyroid-brisbane",
     "image": "https://nxtlvlhealth.com.au/lovable-uploads/7bab2257-f140-4812-88c0-b910038ff849.png",
     "provider": {
-      "@type": "LocalBusiness",
+      "@type": "Organization",
       "@id": "https://nxtlvlhealth.com.au/#organization",
       "name": "NXTLVL Health - Naturopath",
       "image": "https://nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
-      "telephone": "(07) 3180 8853",
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Suite 2/665 Brunswick St",
-        "addressLocality": "New Farm",
-        "addressRegion": "QLD",
-        "addressCountry": "AU",
-        "postalCode": "4005"
-      }
+      "priceRange": "$$"
     },
     "serviceType": "Naturopathic Medicine",
     "category": "Thyroid and Hormonal Health",
@@ -132,12 +123,6 @@ const ThyroidNaturopathy = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                   </svg>
                   <span className="text-center">Book an Appointment Today</span>
-                </a>
-                <a href="tel:0731808853" className="inline-flex items-center justify-center text-base sm:text-lg px-4 py-3 h-auto border border-border bg-background hover:bg-muted rounded-md font-medium transition-colors">
-                  <svg className="mr-2 h-4 w-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
-                  </svg>
-                  Call Mitch
                 </a>
               </div>
 
@@ -595,12 +580,6 @@ const ThyroidNaturopathy = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                 </svg>
                 Book an Appointment Today
-              </a>
-              <a href="tel:0731808853" className="inline-flex items-center justify-center text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3 border border-border bg-background hover:bg-muted rounded-md font-medium transition-colors">
-                <svg className="mr-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
-                </svg>
-                Call Mitch
               </a>
             </div>
           </div>

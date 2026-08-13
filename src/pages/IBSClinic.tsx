@@ -3,7 +3,7 @@ import React from 'react';
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, Phone, Calendar, Heart, Brain, Users, Target, Clock, Shield } from "lucide-react";
+import { CheckCircle, Calendar, Heart, Brain, Users, Target, Clock, Shield } from "lucide-react";
 
 const IBSClinic = () => {
   return (
@@ -51,12 +51,7 @@ const IBSClinic = () => {
                     Book a Free 15-Min Consult
                   </a>
                 </Button>
-                <Button variant="outline" asChild className="text-base sm:text-lg px-6 py-3 h-auto">
-                  <a href="tel:0731808853">
-                    <Phone className="mr-2 h-4 w-4" />
-                    Call Mitch
-                  </a>
-                </Button>
+
               </div>
 
               {/* Google 5 Star Badge */}
@@ -636,12 +631,7 @@ const IBSClinic = () => {
                   Book a Free 15-Min Consult
                 </a>
               </Button>
-              <Button variant="outline" asChild className="text-base sm:text-lg px-6 py-4">
-                <a href="tel:0731808853">
-                  <Phone className="mr-2 h-4 w-4" />
-                  Call Mitch Today
-                </a>
-              </Button>
+
             </div>
           </div>
         </div>

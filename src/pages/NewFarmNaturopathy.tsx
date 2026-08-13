@@ -1,7 +1,7 @@
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Calendar, Phone, CheckCircle, Heart, Users, Target, Leaf, Zap, Shield, Microscope, Stethoscope, Activity } from "lucide-react";
+import { Calendar, CheckCircle, Heart, Users, Target, Leaf, Zap, Shield, Microscope, Stethoscope, Activity } from "lucide-react";
 const NewFarmNaturopathy = () => {
   return <>
       <SEO title="Expert Naturopath in New Farm Brisbane | Mitchell Potts" description="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath in New Farm Brisbane that will find and heal the root cause of your problems." canonical="/areas-we-serve/naturopath-new-farm" keywords="naturopath New Farm, New Farm naturopathy, natural health New Farm, holistic health New Farm Brisbane" />
@@ -32,18 +32,6 @@ const NewFarmNaturopathy = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild size="lg" className="text-base sm:text-lg px-4 py-3 h-auto whitespace-normal leading-tight">
-                  <a href="https://nxtlvlhealth.com.au/book-now/">
-                    <Calendar className="mr-2 h-5 w-5 flex-shrink-0" />
-                    <span className="text-center">Book an Appointment Today</span>
-                  </a>
-                </Button>
-                <Button variant="outline" size="lg" asChild className="text-base sm:text-lg px-4 py-3 h-auto">
-                  <a href="tel:0731808853">
-                    <Phone className="mr-2 h-4 w-4 flex-shrink-0" />
-                    Call Mitch
-                  </a>
-                </Button>
               </div>
 
               {/* Google 5 Star Badge */}
@@ -477,18 +465,6 @@ const NewFarmNaturopathy = () => {
               Let's help you feel <strong>clear, calm, and back in control</strong> again.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
-                <a href="https://nxtlvlhealth.com.au/book-now/">
-                  <Calendar className="mr-2 h-5 w-5" />
-                  Book an Appointment Today
-                </a>
-              </Button>
-              <Button variant="outline" size="lg" asChild className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3">
-                <a href="tel:0731808853">
-                  <Phone className="mr-2 h-4 w-4" />
-                  Call Mitch
-                </a>
-              </Button>
             </div>
           </div>
         </div>
