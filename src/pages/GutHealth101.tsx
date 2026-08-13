@@ -357,7 +357,7 @@ const GutHealth101 = () => {
             <div className="space-y-4 mb-8">
               <div className="flex items-center gap-2">
                 <ArrowRight className="w-5 h-5 text-primary" />
-                <span className="text-foreground font-medium">Take the quiz</span>
+                <span className="text-foreground font-medium">Get the free Gut Freedom Guide</span>
               </div>
               <div className="flex items-center gap-2">
                 <ArrowRight className="w-5 h-5 text-primary" />
