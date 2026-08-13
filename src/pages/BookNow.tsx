@@ -73,15 +73,8 @@ const BookNow = () => {
                     </h3>
                     
                     <div className="space-y-4">
-                      <div className="flex items-center space-x-3">
-                        <Phone className="h-5 w-5 text-primary" />
-                        <div>
-                          <p className="font-medium text-foreground">Phone</p>
-                          <a href="tel:0731808853" className="text-muted-foreground hover:text-primary">
-                            (07) 3180 8853
-                          </a>
-                        </div>
-                      </div>
+
+
 
                       <div className="flex items-center space-x-3">
                         <Mail className="h-5 w-5 text-primary" />
@@ -116,15 +109,16 @@ const BookNow = () => {
                         Need Help Booking?
                       </h4>
                       <p className="text-sm text-muted-foreground mb-3">
-                        If you have any questions or need assistance with booking, feel free to call us directly.
+                        If you have any questions or need assistance with booking, feel free to email us.
                       </p>
                       <a 
-                        href="tel:0731808853" 
+                        href="mailto:info@nxtlvlhealth.com.au" 
                         className="text-primary hover:text-primary/80 text-sm font-medium"
                       >
-                        Call (07) 3180 8853
+                        info@nxtlvlhealth.com.au
                       </a>
                     </div>
+
                   </div>
                 </div>
 

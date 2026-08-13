@@ -14,19 +14,10 @@ const NorthBrisbaneNaturopathy = () => {
     "url": "https://nxtlvlhealth.com.au/areas-we-serve/naturopath-north-brisbane",
     "image": ["https://nxtlvlhealth.com.au/lovable-uploads/d8fb55f4-1a1b-4a7f-9aef-fb782c41df21.png", "https://nxtlvlhealth.com.au/lovable-uploads/e1f6dd06-164a-425b-bc19-839d603bc5ed.png", "https://nxtlvlhealth.com.au/lovable-uploads/d4dfb30d-6da4-42d6-86b4-14b51e4d4a8f.png"],
     "provider": {
-      "@type": "LocalBusiness",
+      "@type": "Organization",
       "@id": "https://nxtlvlhealth.com.au/#organization",
       "name": "NXTLVL Health - Naturopath",
       "image": "https://nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
-      "telephone": "(07) 3180 8853",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Suite 2/665 Brunswick St",
-        "addressLocality": "New Farm",
-        "addressRegion": "QLD",
-        "addressCountry": "AU",
-        "postalCode": "4005"
-      },
       "priceRange": "$$"
     },
     "serviceType": "Healthcare Service",
@@ -135,21 +126,7 @@ const NorthBrisbaneNaturopathy = () => {
       "serviceLocation": {
         "@type": "Place",
         "name": "NXTLVL Health",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Suite 2/665 Brunswick St",
-          "addressLocality": "New Farm",
-          "addressRegion": "QLD",
-          "addressCountry": "AU",
-          "postalCode": "4005"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": "-27.4646",
-          "longitude": "153.0448"
-        }
       },
-      "servicePhone": "(07) 3180 8853",
       "serviceUrl": "https://nxtlvlhealth.com.au/areas-we-serve/naturopath-north-brisbane"
     },
     "serviceOutput": ["Personalised treatment plans", "Natural health solutions", "Functional testing recommendations", "Nutritional guidance", "Herbal medicine prescriptions", "Lifestyle recommendations", "Ongoing health monitoring"],
@@ -178,13 +155,6 @@ const NorthBrisbaneNaturopathy = () => {
       "result": {
         "@type": "Reservation",
         "name": "Naturopathic Consultation Appointment"
-      }
-    }, {
-      "@type": "CommunicateAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": "tel:(07) 3180 8853",
-        "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]
       }
     }],
     "isRelatedTo": [{

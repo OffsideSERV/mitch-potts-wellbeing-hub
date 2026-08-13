@@ -15,20 +15,11 @@ const CardiovascularHealth = () => {
     "url": "https://nxtlvlhealth.com.au/what-we-treat/cardiovascular-health-naturopath-brisbane",
     "image": "https://nxtlvlhealth.com.au/lovable-uploads/consultation-discussion.png",
     "provider": {
-      "@type": "LocalBusiness",
+      "@type": "Organization",
       "@id": "https://nxtlvlhealth.com.au/#organization",
       "name": "NXTLVL Health - Naturopath",
       "image": "https://nxtlvlhealth.com.au/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png",
-      "telephone": "(07) 3180 8853",
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Suite 2/665 Brunswick St",
-        "addressLocality": "New Farm",
-        "addressRegion": "QLD",
-        "addressCountry": "AU",
-        "postalCode": "4005"
-      }
+      "priceRange": "$$"
     },
     "serviceType": "Naturopathic Medicine",
     "category": "Cardiovascular and Heart Health",
@@ -62,8 +53,7 @@ const CardiovascularHealth = () => {
     }],
     "availableChannel": {
       "@type": "ServiceChannel",
-      "serviceUrl": "https://nxtlvlhealth.com.au/book-now",
-      "servicePhone": "(07) 3180 8853"
+      "serviceUrl": "https://nxtlvlhealth.com.au/book-now"
     }
   };
 
