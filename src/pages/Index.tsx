@@ -770,12 +770,6 @@ const Index = () => {
                   Book a Free 15-Min Consult
                 </a>
               </Button>
-              <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 py-4 sm:px-6 sm:py-3" asChild>
-                <a href="tel:0731808853">
-                  <Phone className="mr-2 h-4 w-4" />
-                  Call Mitch Now
-                </a>
-              </Button>
             </div>
           </div>
         </div>
