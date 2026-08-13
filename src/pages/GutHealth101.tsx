@@ -193,7 +193,7 @@ const GutHealth101 = () => {
             
             <div className="bg-destructive/10 p-6 rounded-lg border border-destructive/20">
               <p className="text-destructive font-bold mb-2">2 or more of these? You likely have a gut issue.</p>
-              <p className="text-foreground">Take the quiz now to see where you stand.</p>
+              <p className="text-foreground"><a href="/free-report" className="underline">Get the free Gut Freedom Guide</a> to see where you stand.</p>
             </div>
           </section>
 
