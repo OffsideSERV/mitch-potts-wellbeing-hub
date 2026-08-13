@@ -56,7 +56,7 @@ const GutHealth101 = () => {
                 
                 <div className="mt-6 p-4 bg-primary/10 rounded-lg border border-primary/20">
                   <p className="text-primary font-medium">
-                    👉 Take our 3-minute Gut Health Quiz to find out what your symptoms are really trying to tell you.
+                    👉 <a href="/free-report" className="underline">Get our free Gut Freedom Guide</a> to find out what your symptoms are really trying to tell you.
                   </p>
                 </div>
               </div>
