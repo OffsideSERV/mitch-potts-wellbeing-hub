@@ -343,11 +343,6 @@ const NaturopathInBrisbane = () => {
             ))}
           </nav>
           <div className="flex items-center gap-3">
-            <a href="tel:0731913367" className="flex items-center gap-2 text-primary font-bold hover:text-primary/80 transition-colors">
-              <Phone className="w-5 h-5" />
-              <span className="hidden sm:inline">(07) 3191 3367</span>
-              <span className="sm:hidden">Call Us</span>
-            </a>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="lg:hidden w-10 h-10 flex items-center justify-center rounded-lg hover:bg-muted transition-colors"
@@ -857,11 +852,6 @@ const NaturopathInBrisbane = () => {
       {/* Simple Footer */}
       <footer className="bg-foreground border-t border-white/10 py-8 text-center">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4 text-white/60 text-sm">
-          <a href="tel:0731913367" className="flex items-center gap-2 hover:text-white/90 transition-colors">
-            <Phone className="w-4 h-4" />
-            (07) 3191 3367
-          </a>
-          <span className="hidden sm:inline text-white/20">|</span>
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4" />
             Suite 2/665 Brunswick St, New Farm QLD 4005
