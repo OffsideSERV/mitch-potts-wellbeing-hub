@@ -22,15 +22,6 @@ const NewsteadNaturopathy = () => {
     },
     "serviceType": "Healthcare Service",
     "category": ["Naturopathy", "Natural Medicine", "Holistic Health", "Functional Medicine"],
-    "serviceArea": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": "-27.4646",
-        "longitude": "153.0448"
-      },
-      "geoRadius": "25000"
-    },
     "areaServed": [{
       "@type": "City",
       "name": "Newstead",

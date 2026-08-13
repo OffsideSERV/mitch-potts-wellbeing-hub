@@ -34,8 +34,10 @@ const Contact = () => {
                   
                   <div className="space-y-6">
                     {/* Email */}
-
+                    <div className="flex items-center space-x-4">
+                      <div className="bg-primary/10 p-3 rounded-lg">
                         <Mail className="h-6 w-6 text-primary" />
+
                       </div>
                       <div>
                         <h3 className="font-medium text-foreground">Email</h3>

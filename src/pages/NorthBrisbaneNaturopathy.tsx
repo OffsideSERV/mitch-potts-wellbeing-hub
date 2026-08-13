@@ -22,15 +22,6 @@ const NorthBrisbaneNaturopathy = () => {
     },
     "serviceType": "Healthcare Service",
     "category": ["Naturopathy", "Natural Medicine", "Holistic Health", "Functional Medicine"],
-    "serviceArea": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": "-27.4646",
-        "longitude": "153.0448"
-      },
-      "geoRadius": "25000"
-    },
     "areaServed": [{
       "@type": "City",
       "name": "North Brisbane",
@@ -141,7 +132,7 @@ const NorthBrisbaneNaturopathy = () => {
       "jobTitle": "Naturopath & Nutritional Medicine Practitioner",
       "description": "Qualified naturopath with extensive experience in natural medicine, specialising in gut health, hormonal imbalances, and chronic health conditions",
       "worksFor": {
-        "@type": "LocalBusiness",
+        "@type": "Organization",
         "@id": "https://nxtlvlhealth.com.au/#organization"
       }
     },
