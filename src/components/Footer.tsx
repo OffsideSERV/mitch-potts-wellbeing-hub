@@ -99,8 +99,9 @@ const Footer = () => {
                 <span>Saturday: 8:00 AM - 12:00 PM</span>
               </div>
               <p className="text-xs text-muted-foreground">
-                Online & In-Person Consultations
+                Online Consultations, Australia-Wide
               </p>
+
             </div>
           </div>
         </div>
