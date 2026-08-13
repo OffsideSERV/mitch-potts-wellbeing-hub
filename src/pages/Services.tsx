@@ -67,12 +67,6 @@ const Services = () => {
                     <span className="text-center">BOOK NOW</span>
                   </a>
                 </Button>
-                <Button variant="outline" size="lg" className="text-base sm:text-lg px-4 py-3 h-auto" asChild>
-                  <a href="tel:0731808853">
-                    <Phone className="mr-2 h-4 w-4 flex-shrink-0" />
-                    Call Mitch
-                  </a>
-                </Button>
               </div>
 
               {/* Google 5 Star Badge */}
