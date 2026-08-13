@@ -28,7 +28,7 @@ const Hero = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button size="lg" className="bg-nxt-teal hover:bg-nxt-teal-light text-nxt-white font-semibold px-8 py-4 text-lg transition-nxt shadow-teal" asChild>
-              <a href="https://nxtlvl-health-quiz.scoreapp.com" target="_blank" rel="noopener noreferrer">Take the 5-minute Health Quiz</a>
+              <a href="/free-report">Get the Free Gut Freedom Guide</a>
             </Button>
             <Button variant="outline" size="lg" className="border-nxt-white bg-transparent text-nxt-white hover:bg-nxt-white hover:text-nxt-black px-8 py-4 text-lg transition-nxt" asChild>
               <a href="/#free-consult">

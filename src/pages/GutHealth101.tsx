@@ -56,7 +56,7 @@ const GutHealth101 = () => {
                 
                 <div className="mt-6 p-4 bg-primary/10 rounded-lg border border-primary/20">
                   <p className="text-primary font-medium">
-                    👉 Take our 3-minute Gut Health Quiz to find out what your symptoms are really trying to tell you.
+                    👉 <a href="/free-report" className="underline">Get our free Gut Freedom Guide</a> to find out what your symptoms are really trying to tell you.
                   </p>
                 </div>
               </div>
@@ -193,7 +193,7 @@ const GutHealth101 = () => {
             
             <div className="bg-destructive/10 p-6 rounded-lg border border-destructive/20">
               <p className="text-destructive font-bold mb-2">2 or more of these? You likely have a gut issue.</p>
-              <p className="text-foreground">Take the quiz now to see where you stand.</p>
+              <p className="text-foreground"><a href="/free-report" className="underline">Get the free Gut Freedom Guide</a> to see where you stand.</p>
             </div>
           </section>
 
@@ -357,7 +357,7 @@ const GutHealth101 = () => {
             <div className="space-y-4 mb-8">
               <div className="flex items-center gap-2">
                 <ArrowRight className="w-5 h-5 text-primary" />
-                <span className="text-foreground font-medium">Take the quiz</span>
+                <span className="text-foreground font-medium">Get the free Gut Freedom Guide</span>
               </div>
               <div className="flex items-center gap-2">
                 <ArrowRight className="w-5 h-5 text-primary" />

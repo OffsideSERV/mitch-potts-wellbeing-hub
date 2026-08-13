@@ -41,8 +41,8 @@ const NXTLVLResetLearnMore = () => {
                   </a>
                 </Button>
                 <Button variant="outline" size="lg" className="border-nxt-white bg-white text-nxt-black hover:bg-nxt-teal hover:text-nxt-white hover:border-nxt-teal px-8 py-4 text-lg transition-nxt" asChild>
-                  <a href="https://nxtlvl-health-quiz.scoreapp.com" target="_blank" rel="noopener noreferrer">
-                    Take the Health Quiz
+                  <a href="/free-report">
+                    Get the Free Gut Freedom Guide
                   </a>
                 </Button>
               </div>
@@ -275,8 +275,8 @@ const NXTLVLResetLearnMore = () => {
                   </a>
                 </Button>
                 <Button variant="outline" size="lg" className="border-nxt-white bg-white text-nxt-black hover:bg-nxt-teal hover:text-nxt-white hover:border-nxt-teal px-8 py-4 text-lg transition-nxt" asChild>
-                  <a href="https://nxtlvl-health-quiz.scoreapp.com" target="_blank" rel="noopener noreferrer">
-                    Take the 5-Minute Health Quiz
+                  <a href="/free-report">
+                    Get the Free Gut Freedom Guide
                   </a>
                 </Button>
               </div>
