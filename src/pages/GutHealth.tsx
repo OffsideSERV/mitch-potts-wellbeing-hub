@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import SEO from '@/components/SEO';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Calendar, Phone, ChevronDown, ChevronUp, Activity, Heart, TestTube, Eye, Beaker, Stethoscope, Brain, Leaf } from 'lucide-react';
+import { Calendar, ChevronDown, ChevronUp, Activity, Heart, TestTube, Eye, Beaker, Stethoscope, Brain, Leaf } from 'lucide-react';
 const GutHealth = () => {
   const [openDropdown, setOpenDropdown] = useState<number | null>(null);
   const toggleDropdown = (index: number) => {
@@ -312,12 +312,7 @@ const GutHealth = () => {
                     Book an Appointment Today!
                   </a>
                 </Button>
-                <Button variant="outline" size="lg" className="text-lg px-8 py-6" asChild>
-                  <a href="tel:0731808853">
-                    <Phone className="mr-2 h-4 w-4" />
-                    Call Mitch
-                  </a>
-                </Button>
+                
               </div>
 
               {/* Google 5 Star Badge */}
@@ -769,12 +764,7 @@ const GutHealth = () => {
                   Book an Appointment Today!
                 </a>
               </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6" asChild>
-                <a href="tel:0731808853">
-                  <Phone className="mr-2 h-4 w-4" />
-                  Call Mitch
-                </a>
-              </Button>
+              
             </div>
           </div>
         </div>

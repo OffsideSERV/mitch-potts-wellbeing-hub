@@ -1,7 +1,7 @@
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, Heart, Activity, Brain, Microscope, MapPin, Phone, BookOpen } from "lucide-react";
+import { CheckCircle, Heart, Activity, Brain, Microscope, BookOpen } from "lucide-react";
 
 const FunctionalMedicine = () => {
   return (
@@ -240,17 +240,6 @@ const FunctionalMedicine = () => {
                     <span className="text-xl font-semibold">NXTLVL Health – Naturopath</span>
                   </div>
                   
-                  <div className="flex items-center justify-center space-x-3">
-                    <MapPin className="h-6 w-6 text-primary" />
-                    <span className="text-lg">2/665 Brunswick St, New Farm, QLD 4005</span>
-                  </div>
-                  
-                  <div className="flex items-center justify-center space-x-3">
-                    <Phone className="h-6 w-6 text-primary" />
-                    <a href="tel:0731808853" className="text-lg text-primary hover:underline">
-                      (07) 3180 8853
-                    </a>
-                  </div>
                 </div>
 
                 <div className="pt-6">

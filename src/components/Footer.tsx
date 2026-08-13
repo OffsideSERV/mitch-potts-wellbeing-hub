@@ -31,27 +31,18 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="font-bold text-xl text-primary">NXTLVL Health - Naturopath</div>
             <p className="text-sm text-muted-foreground">
-              Natural health solutions with personalised care. Expert naturopathy services across Brisbane.
+              Natural health solutions with personalised care. Online naturopathy consultations Australia-wide.
             </p>
             <div className="space-y-2">
-              <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-                <Phone className="h-4 w-4" />
-                <a href="tel:0731808853" className="hover:text-primary">
-                  (07) 3180 8853
-                </a>
-              </div>
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4" />
                 <a href="mailto:info@nxtlvlhealth.com.au" className="hover:text-primary">
                   info@nxtlvlhealth.com.au
                 </a>
               </div>
-              <div className="flex items-start space-x-2 text-sm text-muted-foreground">
-                <MapPin className="h-4 w-4 mt-0.5" />
-                <span>Suite 2/665 Brunswick St, New Farm QLD 4005</span>
-              </div>
             </div>
           </div>
+
 
           {/* Services */}
           <div className="space-y-4">
