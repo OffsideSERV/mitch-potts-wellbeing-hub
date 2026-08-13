@@ -16,8 +16,8 @@ const CTA = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button size="lg" className="bg-nxt-teal hover:bg-nxt-teal-light text-nxt-white font-semibold px-8 py-4 text-lg transition-nxt shadow-teal" asChild>
-              <a href="https://nxtlvl-health-quiz.scoreapp.com" target="_blank" rel="noopener noreferrer">
-                Start With A 5-minute Health Quiz
+              <a href="/free-report">
+                Get the Free Gut Freedom Guide
               </a>
             </Button>
             <Button variant="outline" size="lg" className="border-nxt-black text-nxt-black hover:bg-nxt-black hover:text-nxt-white px-8 py-4 text-lg transition-nxt" asChild>
