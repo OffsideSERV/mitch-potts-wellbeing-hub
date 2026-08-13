@@ -329,7 +329,6 @@ const NaturopathyInBrisbane = () => {
               { label: "Why Us?", id: "why-us" },
               { label: "Reviews", id: "reviews" },
               { label: "FAQs", id: "faqs" },
-              { label: "Location", id: "location" },
             ].map((link) => (
               <a
                 key={link.id}
@@ -366,7 +365,6 @@ const NaturopathyInBrisbane = () => {
               { label: "Why Us?", id: "why-us" },
               { label: "Reviews", id: "reviews" },
               { label: "FAQs", id: "faqs" },
-              { label: "Location", id: "location" },
             ].map((link) => (
               <a
                 key={link.id}
