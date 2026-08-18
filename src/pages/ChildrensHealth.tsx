@@ -297,7 +297,7 @@ const ChildrensHealth = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img src="/lovable-uploads/3e8138df-4579-4443-838a-2d4275fc12ec.png" alt="NXTLVL Health natural medicine clinic interior in New Farm Brisbane specialising in gentle pediatric healthcare" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/3e8138df-4579-4443-838a-2d4275fc12ec.png" alt="NXTLVL Health natural medicine practice serving New Farm Brisbane specialising in gentle pediatric healthcare" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
         </div>
       </section>
@@ -309,7 +309,7 @@ const ChildrensHealth = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Book Your Child's Naturopath Visit Today</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
               <p>
-                Let's give your child the tools they need to feel calm, strong, and full of energy again. We offer <strong>in-person appointments in New Farm, Brisbane</strong>, and <strong>online consultations</strong> for families across Australia.
+                Let's give your child the tools they need to feel calm, strong, and full of energy again. We offer <strong>online consultations for families in New Farm, Brisbane</strong> and <strong>right across Australia</strong>.
               </p>
             </div>
 
