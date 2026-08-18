@@ -171,7 +171,7 @@ const Report = () => {
       <SEO
         title="7 Overlooked Habits That Cause Women To Bloat After Every Meal | NXTLVL Health"
         description="Brisbane naturopath Mitch Potts reveals 7 crazily overlooked daily habits that cause women to bloat after every single meal. Most doctors will never tell you this."
-        canonical="/report"
+        canonical="/guide"
         keywords="bloating, gut health, naturopath Brisbane, women bloating causes, bloated after eating, NXTLVL Health"
       />
 
@@ -243,7 +243,7 @@ const Report = () => {
           <div className="relative max-w-5xl mx-auto px-5 sm:px-8 py-20 md:py-28 text-center">
             <div className="reveal inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur border border-white/20 text-[hsl(174_70%_65%)] text-xs sm:text-sm uppercase tracking-widest font-semibold mb-8">
               <Sparkles className="h-4 w-4" />
-              Naturopath's Confidential Report
+              Naturopath's Confidential Guide
             </div>
 
             <h1 className="reveal delay-1 font-bold leading-[1.1] tracking-tight mb-8 max-w-4xl mx-auto hero-headline-shadow">

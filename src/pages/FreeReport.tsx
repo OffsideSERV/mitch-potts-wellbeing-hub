@@ -76,7 +76,7 @@ const ReportCover = () => (
         <div>
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-[hsl(174_75%_58%)]/40 bg-[hsl(174_75%_58%)]/10 text-[hsl(174_75%_65%)] text-[10px] uppercase tracking-[0.2em] font-bold mb-6">
             <Sparkles className="h-3 w-3" />
-            Confidential Report
+            Confidential Guide
           </div>
           <div className="h-px w-16 bg-[hsl(174_75%_58%)] mb-6" />
         </div>
@@ -135,7 +135,7 @@ const FreeReport = () => {
     setSubmitting(true);
     try {
       await sendReportEmail(name, email);
-      toast.success("Check your inbox — your report is on its way!");
+      toast.success("Check your inbox — your guide is on its way!");
       window.location.href = "/naturopathy-in-brisbane?welcome=1";
     } catch (err) {
       console.error("send-report-email failed:", err);
@@ -148,8 +148,8 @@ const FreeReport = () => {
   return (
     <>
       <SEO
-        title="Free Report: 7 Overlooked Habits Causing Bloating | NXTLVL Health"
-        description="Expert Naturopath Mitchell Potts reveals 7 crazily overlooked habits causing women to bloat after every meal. Get the free report instantly."
+        title="Free Guide: 7 Overlooked Habits Causing Bloating | NXTLVL Health"
+        description="Expert Naturopath Mitchell Potts reveals 7 crazily overlooked habits causing women to bloat after every meal. Get the free guide instantly."
         canonical="https://nxtlvlhealth.com.au/free-report"
       />
 
@@ -225,7 +225,7 @@ const FreeReport = () => {
 
                 {/* Sub-headline */}
                 <p className="text-base sm:text-lg text-white/90 leading-relaxed mb-8">
-                  After helping <strong className="font-bold text-white">thousands of patients in Brisbane</strong> with their gut health, Naturopath Mitchell Potts reveals <strong className="font-bold text-white">7 habits that most women do mindlessly</strong> on a daily basis that are making their gut scream for help and <strong className="font-bold text-white">blow up like a balloon</strong>. Report uncovers everything you need to know.
+                  After helping <strong className="font-bold text-white">thousands of patients in Brisbane</strong> with their gut health, Naturopath Mitchell Potts reveals <strong className="font-bold text-white">7 habits that most women do mindlessly</strong> on a daily basis that are making their gut scream for help and <strong className="font-bold text-white">blow up like a balloon</strong>. Guide uncovers everything you need to know.
                 </p>
 
                 {/* Mobile report cover */}
@@ -281,7 +281,7 @@ const FreeReport = () => {
                     size="lg"
                     className="w-full h-12 text-base sm:text-lg font-bold bg-primary hover:bg-primary/90 text-primary-foreground"
                   >
-                    Get Access To Report
+                    Get Access To Guide
                   </Button>
                   <p className="text-center text-sm text-white/70 italic">
                     You'll be emailed access immediately.

@@ -50,7 +50,7 @@ const WelcomeReportPopup = () => {
             id="welcome-report-title"
             className="text-2xl sm:text-3xl font-bold text-foreground leading-tight mb-4"
           >
-            Thank You For Your Interest In Our Report!
+            Thank You For Your Interest In Our Guide!
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground leading-relaxed mb-6">
             We've just sent you an email to access it, enjoy!
