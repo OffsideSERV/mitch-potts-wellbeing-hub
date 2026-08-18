@@ -113,7 +113,7 @@ const NorthBrisbaneNaturopathy = () => {
     },
     "availableChannel": {
       "@type": "ServiceChannel",
-      "name": "In-Person and Telehealth Consultations",
+      "name": "Online Video Consultations",
       "serviceLocation": {
         "@type": "Place",
         "name": "NXTLVL Health"
@@ -233,7 +233,7 @@ const NorthBrisbaneNaturopathy = () => {
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>If you're based here in North Brisbane and you're searching for a qualified naturopath who listens, understands, and helps you get real results, then you're in the right place.</p>
                 <p>
-                  At NXTLVL Health, we work with clients from across Brisbane Northside, including Wavell Heights, Aspley, Chermside, and beyond. While we're not based directly in North Brisbane, our clinic is located just minutes away, and we're proud to be one of the leading naturopathic clinics serving the area. Whether you're looking for help with gut health, hormonal imbalances, chronic fatigue, or simply want to feel like yourself again, we're here to help you out.
+                  At NXTLVL Health, we work online with clients from across Brisbane Northside, including Wavell Heights, Aspley, Chermside, and beyond, and we're proud to be one of the leading naturopathic services serving the area. Whether you're looking for help with gut health, hormonal imbalances, chronic fatigue, or simply want to feel like yourself again, we're here to help you out.
                 </p>
               </div>
             </div>
@@ -345,7 +345,7 @@ const NorthBrisbaneNaturopathy = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            {["Root-Cause Focus: We don't mask your symptoms, we dig deep to understand what's driving your health problems.", "Years of Experience: With extensive experience in naturopathic medicine and nutritional therapy, Mitch is a trusted figure for those looking for a long-term fix to their problems.", "Qualified, Personalised Care: We tailor every treatment plan to your background, lifestyle, medical history, current symptoms, and health goals.", "Functional Testing: Where needed, we offer targeted blood tests, hormone panels, digestive tests, and more to get precise insights.", "Gentle, Natural Solutions: We use the highest quality nutritional supplements and herbal remedies that are clinically backed and safe.", "Convenient Access: While not located in North Brisbane, our clinic is a very short drive away, making it easy for you to receive the care you deserve."].map((item, index) => <Card key={index}>
+            {["Root-Cause Focus: We don't mask your symptoms, we dig deep to understand what's driving your health problems.", "Years of Experience: With extensive experience in naturopathic medicine and nutritional therapy, Mitch is a trusted figure for those looking for a long-term fix to their problems.", "Qualified, Personalised Care: We tailor every treatment plan to your background, lifestyle, medical history, current symptoms, and health goals.", "Functional Testing: Where needed, we offer targeted blood tests, hormone panels, digestive tests, and more to get precise insights.", "Gentle, Natural Solutions: We use the highest quality nutritional supplements and herbal remedies that are clinically backed and safe.", "Convenient Access: Our online consultations mean you can receive the care you deserve wherever you are in North Brisbane."].map((item, index) => <Card key={index}>
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />

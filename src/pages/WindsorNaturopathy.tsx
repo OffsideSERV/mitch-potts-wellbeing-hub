@@ -397,10 +397,10 @@ const WindsorNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6">
             <p>
-              While our clinic focuses on <strong>evidence-based natural medicine</strong>, we also draw inspiration from traditional systems like <strong>Traditional Chinese Medicine (TCM)</strong>. These practices have been used for centuries to support body balance and vitality.
+              While our practice focuses on <strong>evidence-based natural medicine</strong>, we also draw inspiration from traditional systems like <strong>Traditional Chinese Medicine (TCM)</strong>. These practices have been used for centuries to support body balance and vitality.
             </p>
             <p>
-              Although we don't offer acupuncture in our clinic, we understand and respect its role in wellness, and we're happy to work collaboratively with other healthcare providers.
+              Although we don't offer acupuncture as part of our practice, we understand and respect its role in wellness, and we're happy to work collaboratively with other healthcare providers.
             </p>
           </div>
 
@@ -597,7 +597,7 @@ const WindsorNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  <strong>Mitch leads the clinic with a calm, grounded approach</strong> to health. With years of experience in naturopathic medicine and a passion for whole-body wellness, Mitch takes time to truly understand what's going on beneath the surface.
+                  <strong>Mitch leads the practice with a calm, grounded approach</strong> to health. With years of experience in naturopathic medicine and a passion for whole-body wellness, Mitch takes time to truly understand what's going on beneath the surface.
                 </p>
                 <p>
                   His <strong>warm, practical guidance</strong> helps patients feel safe, informed, and empowered to take back control of their health.

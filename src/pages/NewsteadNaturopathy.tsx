@@ -113,7 +113,7 @@ const NewsteadNaturopathy = () => {
     },
     "availableChannel": {
       "@type": "ServiceChannel",
-      "name": "In-Person and Telehealth Consultations",
+      "name": "Online Video Consultations",
       "serviceLocation": {
         "@type": "Place",
         "name": "NXTLVL Health"
@@ -225,7 +225,7 @@ const NewsteadNaturopathy = () => {
                   If you're tired of feeling <strong>"not quite right"</strong> and you're looking for a <strong>holistic approach that actually delivers long-term results</strong> for your health, you've come to the right place. At NXTLVL Health, we support many people like you from Newstead who are looking for <strong>clarity, support, and answers to their health</strong> that they couldn't get from doctors.
                 </p>
                 <p>
-                  Our clinic, based just minutes from Newstead QLD, offers <strong>evidence-based natural medicine, functional testing, and personalised treatment plans</strong> designed to get you feeling better physically, mentally, and emotionally. Whether you're struggling with digestive issues, hormonal imbalances, or chronic fatigue, our qualified naturopath Mitchell Potts is here to guide you every step of the way.
+                  I work online with clients from across Newstead QLD, offering <strong>evidence-based natural medicine, functional testing, and personalised treatment plans</strong> designed to get you feeling better physically, mentally, and emotionally. Whether you're struggling with digestive issues, hormonal imbalances, or chronic fatigue, our qualified naturopath Mitchell Potts is here to guide you every step of the way.
                 </p>
               </div>
             </div>
@@ -254,7 +254,7 @@ const NewsteadNaturopathy = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Although we're not located in Newstead itself, our clinic is just a <strong>short walk or drive away</strong>, conveniently located near New Farm and Fortitude Valley.
+                  I offer online consultations that are just a <strong>click away</strong>, conveniently accessible for clients near New Farm and Fortitude Valley.
                 </p>
               </CardContent>
             </Card>
@@ -569,12 +569,12 @@ const NewsteadNaturopathy = () => {
               <CardHeader>
                 <CardTitle className="text-xl text-primary flex items-center gap-2">
                   <MapPin className="h-6 w-6" />
-                  Located Minutes from Gasworks Plaza & Fortitude Valley
+                  Working Online with Clients Near Gasworks Plaza & Fortitude Valley
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Our New Farm location is <strong>highly accessible for Newstead locals</strong>. We're just around the corner, literally.
+                  My online service is <strong>highly accessible for Newstead locals</strong>. I'm just a video call away, literally.
                 </p>
               </CardContent>
             </Card>
@@ -658,7 +658,7 @@ const NewsteadNaturopathy = () => {
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Conditions We Commonly See at Our Clinic</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Conditions We Commonly See in Practice</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
@@ -722,7 +722,7 @@ const NewsteadNaturopathy = () => {
               <p>
                 Book your initial consultation today and get the <strong>answers and support you've been looking for</strong>.
               </p>
-              <h3 className="text-xl font-semibold text-foreground">In-Clinic or Telehealth Options Available for Newstead Residents</h3>
+              <h3 className="text-xl font-semibold text-foreground">Online Video Consultation Options Available for Newstead Residents</h3>
               <p>
                 Whether you're based in Newstead QLD or nearby, we're here to <strong>support your health journey on your terms</strong>.
               </p>
