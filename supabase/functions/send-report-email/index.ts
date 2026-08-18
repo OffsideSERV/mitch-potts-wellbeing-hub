@@ -27,13 +27,13 @@ Deno.serve(async (req) => {
     const html = `
       <div style="font-family: Arial, sans-serif; font-size: 16px; color: #1a1a1a; line-height: 1.6;">
         <p>${greeting}</p>
-        <p>Here's your access to the report as promised, we hope it serves your gut well:</p>
-        <p><a href="https://nxtlvlhealth.com.au/report" style="color: #009485; font-weight: bold;">https://nxtlvlhealth.com.au/report</a></p>
+        <p>Here's your access to the guide as promised, we hope it serves your gut well:</p>
+        <p><a href="https://nxtlvlhealth.com.au/guide" style="color: #009485; font-weight: bold;">https://nxtlvlhealth.com.au/guide</a></p>
         <p>— The NXTLVL Health Team</p>
       </div>
     `;
 
-    const text = `${greeting}\n\nHere's your access to the report as promised, we hope it serves your gut well:\n\nhttps://nxtlvlhealth.com.au/report\n\n— The NXTLVL Health Team`;
+    const text = `${greeting}\n\nHere's your access to the guide as promised, we hope it serves your gut well:\n\nhttps://nxtlvlhealth.com.au/guide\n\n— The NXTLVL Health Team`;
 
     const res = await fetch("https://api.resend.com/emails", {
       method: "POST",
@@ -44,7 +44,7 @@ Deno.serve(async (req) => {
       body: JSON.stringify({
         from: "NXTLVL Health <nxtlvlhealth@offsideservleads.online>",
         to: [email],
-        subject: "Access To Your Report",
+        subject: "Access To Your Guide",
         html,
         text,
       }),
