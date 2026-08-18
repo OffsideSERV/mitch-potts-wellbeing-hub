@@ -65,7 +65,7 @@ const GutMicrobiomeMentalHealth = () => {
           <div className="max-w-4xl mx-auto">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg leading-relaxed mb-6">
-                In my New Farm clinic, I often hear patients ask: <strong>"Mitch, what does my gut have to do with my mood?"</strong>
+                In my New Farm practice, I often hear patients ask: <strong>"Mitch, what does my gut have to do with my mood?"</strong>
               </p>
               
               <p className="text-lg leading-relaxed mb-6">
@@ -486,7 +486,7 @@ const GutMicrobiomeMentalHealth = () => {
         {/* Patient Stories */}
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-muted/20">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Patient Stories (What I See in Clinic)</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Patient Stories (What I See in Practice)</h2>
             
             <div className="space-y-8">
               <Card className="p-8">

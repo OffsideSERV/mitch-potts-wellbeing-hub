@@ -242,7 +242,7 @@ const IBSNaturopathy = () => {
                 <p className="text-lg">
                   <a href="/what-we-treat/gut-health-naturopath-brisbane" className="text-primary hover:text-primary/80 underline">
                     Learn more about our Gut Health Naturopathy
-                  </a> or discover <a href="/what-we-treat/ibs-brisbane" className="text-primary hover:underline">comprehensive IBS treatment options</a> available at our clinic.
+                  </a> or discover <a href="/what-we-treat/ibs-brisbane" className="text-primary hover:underline">comprehensive IBS treatment options</a> available through our online consultations.
                 </p>
             </div>
           </div>

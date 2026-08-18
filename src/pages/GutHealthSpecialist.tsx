@@ -57,7 +57,7 @@ const GutHealthSpecialist = () => {
     "areaServed": ["Brisbane", "New Farm", "Fortitude Valley", "Newstead", "Teneriffe", "Kangaroo Point", "East Brisbane", "Norman Park", "Bulimba", "Hawthorne", "Morningside", "Ascot", "Hamilton", "Clayfield", "Wilston", "Windsor", "Kelvin Grove", "Paddington", "Red Hill", "Auchenflower", "Toowong", "Queensland"],
     "availableChannel": {
       "@type": "ServiceChannel",
-      "name": "In-Person Gut Health Consultations",
+      "name": "Online Gut Health Consultations",
       "serviceLocation": {
         "@type": "Place",
         "name": "NXTLVL Health"
@@ -172,7 +172,7 @@ const GutHealthSpecialist = () => {
             </div>
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-               <img src="/lovable-uploads/09a6a7fe-ea21-4642-87aa-dad3d0f73026.png" alt="Comprehensive consultation for IBS, SIBO and digestive disorders at NXTLVL Health Brisbane clinic" className="rounded-2xl shadow-lg w-full h-auto" />
+               <img src="/lovable-uploads/09a6a7fe-ea21-4642-87aa-dad3d0f73026.png" alt="Comprehensive consultation for IBS, SIBO and digestive disorders with NXTLVL Health in Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>

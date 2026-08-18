@@ -89,7 +89,7 @@ const NaturopathicSportsMedicine = () => {
                   
                   {/* Mobile Image */}
                   <div className="relative lg:hidden mb-8 -mx-4">
-                    <img alt="Professional naturopathic sports medicine consultation demonstrating holistic athletic performance enhancement at Brisbane clinic" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/39b7f717-8cae-400f-8062-def9a15add9b.png" />
+                    <img alt="Professional naturopathic sports medicine consultation demonstrating holistic athletic performance enhancement in Brisbane" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/39b7f717-8cae-400f-8062-def9a15add9b.png" />
                     <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                       <div className="flex items-center space-x-3">
                         <Target className="h-6 w-6 text-primary" />
@@ -113,7 +113,7 @@ const NaturopathicSportsMedicine = () => {
               
               {/* Desktop Image */}
               <div className="relative hidden lg:block">
-                <img alt="Professional naturopathic sports medicine consultation demonstrating holistic athletic performance enhancement at Brisbane clinic" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/39b7f717-8cae-400f-8062-def9a15add9b.png" />
+                <img alt="Professional naturopathic sports medicine consultation demonstrating holistic athletic performance enhancement in Brisbane" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/39b7f717-8cae-400f-8062-def9a15add9b.png" />
                 <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                   <div className="flex items-center space-x-3">
                     <Target className="h-8 w-8 text-primary" />
@@ -514,7 +514,7 @@ const NaturopathicSportsMedicine = () => {
 
             {/* Centered Image */}
             <div className="mb-12">
-              <img src="/lovable-uploads/108aecf4-9e98-4025-803d-5e64dbd22b5b.png" alt="Structured consultation pathway for naturopathic sports medicine treatment plans at Brisbane wellness clinic" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+              <img src="/lovable-uploads/108aecf4-9e98-4025-803d-5e64dbd22b5b.png" alt="Structured consultation pathway for naturopathic sports medicine treatment plans in Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
             </div>
 
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
@@ -548,7 +548,7 @@ const NaturopathicSportsMedicine = () => {
             </div>
 
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              {["Trained in naturopathic medicine and personal training", "Years of experience working with athletes of all levels", "Combines science, compassion, and clear results", "Focused on finding and treating the root cause — not just masking the symptoms", "Offers virtual and in-person consultations across Brisbane and Australia", "Known for making complex health challenges easy to understand and fix"].map((benefit, index) => <Card key={index}>
+              {["Trained in naturopathic medicine and personal training", "Years of experience working with athletes of all levels", "Combines science, compassion, and clear results", "Focused on finding and treating the root cause — not just masking the symptoms", "Offers online video consultations across Brisbane and Australia", "Known for making complex health challenges easy to understand and fix"].map((benefit, index) => <Card key={index}>
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-3">
                       <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
@@ -624,7 +624,7 @@ const NaturopathicSportsMedicine = () => {
               </div>
 
               <div className="text-center text-muted-foreground">
-                <p>📍 In-person at our Brisbane clinic or online Australia-wide</p>
+                <p>📍 Online consultations Australia-wide, from Brisbane to anywhere</p>
               </div>
             </div>
           </div>

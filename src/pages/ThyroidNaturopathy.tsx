@@ -102,7 +102,7 @@ const ThyroidNaturopathy = () => {
                 
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Experienced naturopath consulting with patient about thyroid health at NXTLVL Health clinic in Brisbane" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/7bab2257-f140-4812-88c0-b910038ff849.png" />
+                  <img alt="Experienced naturopath consulting with patient about thyroid health with NXTLVL Health in Brisbane" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/7bab2257-f140-4812-88c0-b910038ff849.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <svg className="h-6 w-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -134,7 +134,7 @@ const ThyroidNaturopathy = () => {
             
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img alt="Experienced naturopath consulting with patient about thyroid health at NXTLVL Health clinic in Brisbane" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/7bab2257-f140-4812-88c0-b910038ff849.png" />
+              <img alt="Experienced naturopath consulting with patient about thyroid health with NXTLVL Health in Brisbane" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/7bab2257-f140-4812-88c0-b910038ff849.png" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <svg className="h-8 w-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -155,7 +155,7 @@ const ThyroidNaturopathy = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="lg:hidden mb-12">
-            <img src="/lovable-uploads/98dc86b9-d19c-4674-90b5-465183ac0c06.png" alt="Professional naturopath thyroid consultation discussing treatment options with female patient at Brisbane clinic" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
+            <img src="/lovable-uploads/98dc86b9-d19c-4674-90b5-465183ac0c06.png" alt="Professional naturopath thyroid consultation discussing treatment options with female patient in Brisbane" className="rounded-2xl shadow-lg w-full h-auto mx-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
@@ -170,7 +170,7 @@ const ThyroidNaturopathy = () => {
               </div>
             </div>
             <div className="relative hidden lg:block">
-              <img src="/lovable-uploads/98dc86b9-d19c-4674-90b5-465183ac0c06.png" alt="Professional naturopath thyroid consultation discussing treatment options with female patient at Brisbane clinic" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/98dc86b9-d19c-4674-90b5-465183ac0c06.png" alt="Professional naturopath thyroid consultation discussing treatment options with female patient in Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -478,7 +478,7 @@ const ThyroidNaturopathy = () => {
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-base text-muted-foreground">In-person sessions in Brisbane or accessible online consultations</p>
+                  <p className="text-base text-muted-foreground">Online consultations accessible for clients in Brisbane and beyond</p>
                 </div>
               </div>
             </div>

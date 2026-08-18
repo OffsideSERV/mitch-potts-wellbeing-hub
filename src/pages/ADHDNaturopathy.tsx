@@ -413,7 +413,7 @@ const ADHDNaturopathy = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img src="/lovable-uploads/4748db27-c782-4bc2-b09d-d93a2b5b2433.png" alt="ADHD naturopath consultation preparation at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/4748db27-c782-4bc2-b09d-d93a2b5b2433.png" alt="ADHD naturopath consultation preparation with NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto space-y-8">
@@ -565,7 +565,7 @@ const ADHDNaturopathy = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img src="/lovable-uploads/256bf666-d5db-4321-8b3b-b0f2b25a18c2.png" alt="NXTLVL Health natural ADHD treatment clinic in Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/256bf666-d5db-4321-8b3b-b0f2b25a18c2.png" alt="NXTLVL Health natural ADHD treatment practice in Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto">

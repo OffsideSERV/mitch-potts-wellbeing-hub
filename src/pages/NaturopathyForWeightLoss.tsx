@@ -159,7 +159,7 @@ const NaturopathyForWeightLoss = () => {
                 <h2 className="text-3xl font-bold text-foreground mb-6">What to Expect in Your First Visit</h2>
                 
                 <div className="mb-8 rounded-lg overflow-hidden">
-                  <img src="/lovable-uploads/d578aa66-15d8-4fc4-abfb-27018f2e2841.png" alt="NXTLVL Health clinic interior - naturopath consulting with patient in modern clinical setting" className="w-full h-auto object-cover" />
+                  <img src="/lovable-uploads/d578aa66-15d8-4fc4-abfb-27018f2e2841.png" alt="NXTLVL Health - naturopath consulting with patient via online video call" className="w-full h-auto object-cover" />
                 </div>
                 
                 <div className="text-muted-foreground space-y-4">

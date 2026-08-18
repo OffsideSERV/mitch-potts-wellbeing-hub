@@ -75,7 +75,7 @@ const HomemadeRemedyBloatedStomach = () => {
               
               <div className="bg-primary/5 border-l-4 border-primary p-6 rounded-r-lg mb-8">
                 <p className="text-lg font-medium text-foreground mb-0">
-                  I hear this question in my New Farm clinic almost every week:<br />
+                  I hear this question in my New Farm practice almost every week:<br />
                   <strong>"Mitch, what's the best homemade remedy for a bloated stomach?"</strong>
                 </p>
               </div>
@@ -94,7 +94,7 @@ const HomemadeRemedyBloatedStomach = () => {
                <div className="rounded-lg overflow-hidden my-12">
                  <img 
                    src="/lovable-uploads/naturopath-consultation-bloating.png" 
-                   alt="Female naturopath consulting with patient about bloating concerns in clinical setting"
+                   alt="Naturopath consulting with a patient about bloating concerns"
                    className="w-full h-auto object-cover"
                  />
                </div>
@@ -104,7 +104,7 @@ const HomemadeRemedyBloatedStomach = () => {
               </h2>
 
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Before we talk remedies, let's quickly look at why bloating happens. In my clinic, I often see these common triggers:
+                Before we talk remedies, let's quickly look at why bloating happens. In my practice, I often see these common triggers:
               </p>
 
               <Card className="mb-8">
@@ -623,7 +623,7 @@ const HomemadeRemedyBloatedStomach = () => {
                <div className="rounded-lg overflow-hidden my-12">
                  <img 
                    src="/lovable-uploads/naturopath-consultation-mitch.png" 
-                   alt="Naturopath Mitch consulting with patient in modern clinic setting with medical equipment"
+                   alt="Naturopath Mitch consulting with a patient about their health"
                    className="w-full h-auto object-cover"
                  />
                </div>

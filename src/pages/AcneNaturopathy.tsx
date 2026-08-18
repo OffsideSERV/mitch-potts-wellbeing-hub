@@ -349,7 +349,7 @@ const AcneNaturopathy = () => {
           <div className="lg:hidden mb-12">
             <img 
               src="/lovable-uploads/001a23d3-f9a1-4973-a6a1-a0bf46a7cfbb.png" 
-              alt="NXTLVL Health clinic interior showing gut health consultation area" 
+              alt="NXTLVL Health gut health consultation area" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto"
             />
           </div>
@@ -369,7 +369,7 @@ const AcneNaturopathy = () => {
             <div className="relative hidden lg:block">
               <img 
                 src="/lovable-uploads/001a23d3-f9a1-4973-a6a1-a0bf46a7cfbb.png" 
-                alt="NXTLVL Health clinic interior showing gut health consultation area" 
+                alt="NXTLVL Health gut health consultation area" 
                 className="rounded-2xl shadow-lg w-full h-auto"
               />
             </div>
@@ -603,7 +603,7 @@ const AcneNaturopathy = () => {
           <div className="mb-12">
             <img 
               src="/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png" 
-              alt="NXTLVL Health natural medicine clinic in New Farm Brisbane with Mitch" 
+              alt="NXTLVL Health natural medicine practice in New Farm Brisbane with Mitch" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
             />
           </div>

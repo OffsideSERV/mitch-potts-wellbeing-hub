@@ -144,7 +144,7 @@ const HamiltonNaturopathy = () => {
                   At NXTLVL Health, we believe in helping the body heal by <strong>finding and treating the underlying cause</strong> of your symptoms—not just covering them up. Whether you're facing digestive complaints, irregular periods, menopause symptoms, or low energy, our naturopathic treatment focuses on <strong>individualised patient care</strong> to help you feel your best.
                 </p>
                 <p>
-                  Our clinic is led by Mitch, a <strong>trusted and experienced naturopath</strong> with a particular interest in women's health, gut health, and mental wellbeing. Mitch has been a naturopath for 20 years and treats various gut problems. Using <strong>naturopathic medicine that is backed by the latest research</strong>, Mitch creates tailored plans using herbal medicine, nutrition, and advanced health science to help you reach long-lasting results.
+                  My practice is led by Mitch, a <strong>trusted and experienced naturopath</strong> with a particular interest in women's health, gut health, and mental wellbeing. Mitch has been a naturopath for 20 years and treats various gut problems. Using <strong>naturopathic medicine that is backed by the latest research</strong>, Mitch creates tailored plans using herbal medicine, nutrition, and advanced health science to help you reach long-lasting results.
                 </p>
               </div>
             </div>
@@ -193,7 +193,7 @@ const HamiltonNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
             <p>
-              Although we're not in Hamilton itself, our clinic is <strong>very close</strong>—and many Hamilton locals choose NXTLVL Health because they want quality care that rivals our services in <a href="/areas-we-serve/naturopath-north-brisbane" className="text-primary hover:underline">North Brisbane</a>, <a href="/areas-we-serve/naturopath-indooroopilly" className="text-primary hover:underline">Indooroopilly</a>, and <a href="/areas-we-serve/naturopath-morningside" className="text-primary hover:underline">Morningside</a>. They choose us because they want:
+              I work online with many Hamilton locals who choose NXTLVL Health because they want quality care that rivals our services in <a href="/areas-we-serve/naturopath-north-brisbane" className="text-primary hover:underline">North Brisbane</a>, <a href="/areas-we-serve/naturopath-indooroopilly" className="text-primary hover:underline">Indooroopilly</a>, and <a href="/areas-we-serve/naturopath-morningside" className="text-primary hover:underline">Morningside</a>. They choose us because they want:
             </p>
           </div>
 
@@ -317,7 +317,7 @@ const HamiltonNaturopathy = () => {
                   At NXTLVL Health, we know that health is more than just feeling "okay." Our <strong>integrative healthcare approach</strong> means we work alongside your other medical professionals (if needed), bringing together the best of natural and conventional care to get to the root of what's really going on. Naturopathy recognises the importance of <strong>combining conventional therapies with naturopathic medicine</strong>.
                 </p>
                 <p>
-                  Mitch has an <strong>Advanced Diploma in Naturopathy and years of clinical experience</strong>. He offers expert advice with real empathy, helping you feel supported from your very first visit. Sarah, who graduated with a Bachelor of Naturopathy in 2010, also offers <strong>expert naturopathic advice</strong> at our clinic.
+                  Mitch has an <strong>Advanced Diploma in Naturopathy and years of clinical experience</strong>. He offers expert advice with real empathy, helping you feel supported from your very first consultation. Sarah, who graduated with a Bachelor of Naturopathy in 2010, also offers <strong>expert naturopathic advice</strong> as part of our practice.
                 </p>
               </div>
             </div>
@@ -332,7 +332,7 @@ const HamiltonNaturopathy = () => {
           </div>
 
           <div className="mt-16">
-            <h3 className="text-2xl font-bold mb-8 text-center">Here's what makes our clinic different:</h3>
+            <h3 className="text-2xl font-bold mb-8 text-center">Here's what makes our practice different:</h3>
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {[
                 "We take time to understand your story",
@@ -380,7 +380,7 @@ const HamiltonNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  Many women from Hamilton visit our clinic for help with <strong>period problems, fertility, hormone imbalances, or menopause support</strong>. Emma, who has been a naturopath since 2003, has a special interest in hormones and fertility. These health changes can be overwhelming—but they don't have to be.
+                  Many women from Hamilton consult us online for help with <strong>period problems, fertility, hormone imbalances, or menopause support</strong>. Emma, who has been a naturopath since 2003, has a special interest in hormones and fertility. These health changes can be overwhelming—but they don't have to be.
                 </p>
                 <p>
                   With <strong>gentle, effective naturopathic care</strong>, we can help you understand your body better, ease your symptoms, and support your natural cycles. Whether you're coming off the pill, planning a pregnancy, or just not feeling yourself—<strong>there is a natural way forward</strong>.

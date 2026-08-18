@@ -84,13 +84,13 @@ const WellnessClinic = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  At NXTLVL Health, we believe you deserve to <strong>feel well</strong>, inside and out. Our wellness clinic in Brisbane is here to help you feel <strong>more energy, better sleep, and less stress</strong> using natural care that makes sense for your life.
+                  At NXTLVL Health, we believe you deserve to <strong>feel well</strong>, inside and out. Our Brisbane wellness clinic works entirely online and is here to help you feel <strong>more energy, better sleep, and less stress</strong> using natural care that makes sense for your life.
                 </p>
                 <p>
                   We're not about quick fixes. We're about <strong>real answers and long-term change</strong> to your wellbeing. Whether you need help with your gut, your energy, your hormones, or your mood, our team listens carefully and works with you to create a plan that works.
                 </p>
                 <p>
-                  Our clinic in New Farm is trusted by people from Fortitude Valley, Spring Hill, Newstead, and all across Brisbane. If you're looking for a <strong>warm, expert-led space</strong> that blends natural care with real results, you've just found your Brisbane wellness clinic.
+                  We're trusted by people in New Farm, Fortitude Valley, Spring Hill, Newstead, and all across Brisbane, with every consultation done online. If you're looking for <strong>warm, expert-led care</strong> that blends natural medicine with real results, you've just found your Brisbane wellness clinic.
                 </p>
               </div>
             </div>
@@ -196,7 +196,7 @@ const WellnessClinic = () => {
                   Mitch believes your body has the power to heal when given the right support. Whether you're dealing with <strong>digestive troubles, hormonal imbalances, chronic fatigue, or stress</strong>, he'll listen deeply and work with you to create a plan that feels right. Our specialized services include <a href="/what-we-treat/naturopath-thyroid-brisbane" className="text-primary hover:underline">thyroid naturopathy</a>, <a href="/what-we-treat/naturopath-diabetes-brisbane" className="text-primary hover:underline">diabetes support</a>, comprehensive <a href="/what-we-treat/naturopathy-for-skin" className="text-primary hover:underline">skin naturopathy</a>, and targeted treatments for <a href="/what-we-treat/acne-naturopathy" className="text-primary hover:underline">acne</a>, <a href="/what-we-treat/hormonal-acne-naturopath" className="text-primary hover:underline">hormonal acne</a>, and <a href="/what-we-treat/naturopath-eczema" className="text-primary hover:underline">eczema</a>.
                 </p>
                 <p>
-                  When he's not in clinic, Mitch is continually learning about the latest in <strong>nutritional medicine, herbal therapies, and functional testing</strong> so he can offer the best care possible.
+                  When he's not in consultations, Mitch is continually learning about the latest in <strong>nutritional medicine, herbal therapies, and functional testing</strong> so he can offer the best care possible.
                 </p>
                 <p>
                   <strong>His approach? Kind, clear, and honest.</strong> No judgment. No overwhelming protocols. Just practical support to help you feel well again.
@@ -205,7 +205,7 @@ const WellnessClinic = () => {
             </div>
             {/* Image */}
             <div className="relative">
-              <img src="/lovable-uploads/001a23d3-f9a1-4973-a6a1-a0bf46a7cfbb.png" alt="Mitchell Potts, lead practitioner at NXTLVL Health wellness clinic Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
+              <img src="/lovable-uploads/001a23d3-f9a1-4973-a6a1-a0bf46a7cfbb.png" alt="Mitchell Potts, lead naturopath at NXTLVL Health, online wellness clinic Brisbane" className="rounded-2xl shadow-lg w-full h-auto" />
             </div>
           </div>
         </div>
@@ -629,7 +629,7 @@ const WellnessClinic = () => {
                   No matter what you're going through, <strong>we're here to listen without judgment</strong>. You'll never feel rushed, dismissed, or misunderstood.
                 </p>
                 <p>
-                  Our clinic is designed to be a <strong>peaceful, welcoming environment</strong> where you can relax and focus on your healing.
+                  Every consultation is designed to feel like a <strong>peaceful, welcoming space</strong> where you can relax at home and focus on your healing.
                 </p>
               </div>
               <div className="mt-6 p-6 bg-primary/10 rounded-lg">

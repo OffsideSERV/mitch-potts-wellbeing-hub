@@ -33,7 +33,7 @@ const PrivacyPolicy = () => {
                   1. Personal Information We Collect
                 </h2>
                 <p>
-                  We may collect personal information when you interact with us online, in person, or as a client. This may include:
+                  We may collect personal information when you interact with us online or as a client. This may include:
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Name, address, email address, and telephone number</li>
@@ -107,7 +107,7 @@ const PrivacyPolicy = () => {
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Secure intake forms</li>
-                  <li>Consultations (online or in person)</li>
+                  <li>Online consultations</li>
                   <li>Laboratory portals</li>
                   <li>Clinical testing platforms</li>
                   <li>Secure communications</li>

@@ -37,7 +37,7 @@ const DoesGumMakeYouBloated = () => {
     },
     {
       question: "Does Sugar-Free Gum Cause Gas More Than Regular Gum?",
-      answer: "Yes. Regular gum with sugar doesn't usually ferment the same way, so it's less likely to cause gas. But sugar-free gum is everywhere — which is why more patients come in with gum sweeteners causing bloating."
+      answer: "Yes. Regular gum with sugar doesn't usually ferment the same way, so it's less likely to cause gas. But sugar-free gum is everywhere — which is why more patients tell me about gum sweeteners causing bloating."
     }
   ];
 
@@ -111,10 +111,10 @@ const DoesGumMakeYouBloated = () => {
                 </div>
                 
                 <div className="text-muted-foreground space-y-4">
-                  <p>Patients ask me all the time in my New Farm clinic:</p>
+                  <p>Patients ask me all the time in my New Farm practice:</p>
                   <p className="text-xl italic font-medium">"Mitch, does gum make you bloated?"</p>
                   <p><strong>And the short answer is: Yes, chewing gum can cause gas and bloating in some people.</strong></p>
-                  <p>Not everyone reacts the same way, but I've seen many patients come in with that bloated feeling after chewing gum, wondering if it's food, gut issues, or something else. <strong>More often than not, gum is a hidden trigger.</strong> Let's break it down together.</p>
+                  <p>Not everyone reacts the same way, but I hear from many patients about that bloated feeling after chewing gum, wondering if it's food, gut issues, or something else. <strong>More often than not, gum is a hidden trigger.</strong> Let's break it down together.</p>
                 </div>
               </div>
 
@@ -228,7 +228,7 @@ const DoesGumMakeYouBloated = () => {
                   Who Gets Hit the Hardest?
                 </h2>
                 <div className="text-muted-foreground space-y-4">
-                  <p>From my clinic, here's what I've noticed:</p>
+                  <p>From my practice, here's what I've noticed:</p>
                   <div className="bg-red-50 border border-red-200 rounded-lg p-6">
                     <ul className="space-y-3">
                       {whoGetsHitHardest.map((group, index) => (

@@ -94,7 +94,7 @@ const NaturopathicNutritionist = () => {
           <div className="lg:hidden mb-12">
             <img 
               src="/lovable-uploads/507d386f-e7d8-4e14-a144-56b40f6d528f.png" 
-              alt="NXTLVL Health clinic Brisbane naturopathic nutrition" 
+              alt="NXTLVL Health Brisbane naturopathic nutrition consultation" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
           </div>
@@ -106,7 +106,7 @@ const NaturopathicNutritionist = () => {
                   Are you feeling tired, overwhelmed, or simply not yourself lately? Struggling with skin issues, gut problems, or stress? At NXTLVL Health, our focus is on restoring your health naturally—with food, lifestyle, and science.
                 </p>
                 <p>
-                  Our Brisbane-based clinic is led by Mitch, a compassionate and experienced naturopathic nutritionist. Mitch blends evidence-based nutrition with naturopathic medicine to help you feel your best, support your body, and reach your health goals.
+                  Our Brisbane-based online practice is led by Mitch, a compassionate and experienced naturopathic nutritionist. Mitch blends evidence-based nutrition with naturopathic medicine to help you feel your best, support your body, and reach your health goals.
                 </p>
               </div>
             </div>
@@ -114,7 +114,7 @@ const NaturopathicNutritionist = () => {
             <div className="relative hidden lg:block">
               <img 
                 src="/lovable-uploads/507d386f-e7d8-4e14-a144-56b40f6d528f.png" 
-                alt="NXTLVL Health clinic Brisbane naturopathic nutrition" 
+                alt="NXTLVL Health Brisbane naturopathic nutrition consultation" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
             </div>
@@ -677,30 +677,31 @@ const NaturopathicNutritionist = () => {
         </div>
       </section>
 
-      {/* Our Clinic Environment Section */}
+      {/* What an Online Consultation Is Like Section */}
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Our Clinic Environment</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">What an Online Consultation With Mitch Is Like</h2>
           </div>
 
           {/* Replaced Image */}
           <div className="mb-12">
             <img 
               src="/lovable-uploads/0d102a48-b739-4586-a6d3-c43bc6493ff0.png" 
-              alt="NXTLVL Health clinic environment Brisbane naturopathic nutrition" 
+              alt="Online naturopathic nutrition consultation with NXTLVL Health Brisbane" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
           </div>
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6">
             <p>
-              NXTLVL Health is a warm, welcoming wellness centre where patients feel safe and heard. Our team respects every health journey and provides support with compassion and understanding.
+              Everything happens online, so you can settle in at home with a cup of tea. Your first appointment is a full hour on a private video call, where Mitch takes the time to go through your symptoms, your history, your diet and your goals properly. Nothing is rushed, and nothing is dismissed.
             </p>
             <p>
-              We also offer integrative services such as lifestyle coaching, and emotional wellbeing support.
+              If testing is needed, kits are posted straight to your door with simple instructions, and results are talked through with you on your next call. Your personalised nutrition and treatment plan, any practitioner-only formulas, and all your follow-up support are delivered online too, so wherever you are in Brisbane or Australia, care stays consistent, warm and easy to stick with.
             </p>
           </div>
+
         </div>
       </section>
 

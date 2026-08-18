@@ -50,7 +50,7 @@ const CancellationPolicy = () => {
                   When Cancellation Fees Will Apply
                 </h2>
                 <p>
-                  Subsequent cancellations within the 24 hour period by or for the same client will incur a cancelled booking fee. This fee will be equivalent to half the value of the consultation fee for the booking that was made and subsequently cancelled. Additionally, clients who fail to attend their appointment without prior notification to the clinic may also be subject to a cancelled booking fee.
+                  Subsequent cancellations within the 24 hour period by or for the same client will incur a cancelled booking fee. This fee will be equivalent to half the value of the consultation fee for the booking that was made and subsequently cancelled. Additionally, clients who fail to attend their appointment without prior notification to the practice may also be subject to a cancelled booking fee.
                 </p>
               </section>
 

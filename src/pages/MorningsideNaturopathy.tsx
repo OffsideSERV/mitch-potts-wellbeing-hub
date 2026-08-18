@@ -81,7 +81,7 @@ const MorningsideNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  If you're in Morningside and searching for a <strong>trusted, experienced naturopath</strong>, NXTLVL Health is just a short drive away. While our clinic isn't located directly in Morningside, we proudly support clients from this vibrant Brisbane suburb every day. We're just around the corner and passionate about helping you <strong>feel better—naturally</strong>.
+                  If you're in Morningside and searching for a <strong>trusted, experienced naturopath</strong>, NXTLVL Health is here to help. I work online with clients across this vibrant Brisbane suburb every day, and I'm passionate about helping you <strong>feel better—naturally</strong>.
                 </p>
               </div>
             </div>
@@ -112,7 +112,7 @@ const MorningsideNaturopathy = () => {
                   At NXTLVL Health, we understand that <strong>every person is different</strong>. That's why we take the time to truly listen and get to the root cause of your symptoms. Whether you're dealing with gut health issues, chronic fatigue, hormone imbalance, or skin conditions like acne, we're here to help. Our naturopathic practitioners provide <strong>individualised care plans</strong> to address hormonal health based on the patient's unique biochemistry.
                 </p>
                 <p>
-                  Our clinic is led by <strong>Mitch, a dedicated naturopath and herbalist</strong> with a special interest in women's health, mental health, and natural medicine. With an evidence-based approach and deep knowledge of health science, Mitch creates <strong>tailored treatment plans</strong> to support your body, mind, and wellbeing. Common women's health issues treated by naturopaths include endometriosis and polycystic ovary syndrome (PCOS).
+                  My practice is led by <strong>Mitch, a dedicated naturopath and herbalist</strong> with a special interest in women's health, mental health, and natural medicine. With an evidence-based approach and deep knowledge of health science, Mitch creates <strong>tailored treatment plans</strong> to support your body, mind, and wellbeing. Common women's health issues treated by naturopaths include endometriosis and polycystic ovary syndrome (PCOS).
                 </p>
               </div>
             </div>
@@ -153,7 +153,7 @@ const MorningsideNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
             <p>
-              Although we're not located in Morningside itself, our clinic is <strong>very close by</strong>—and many of our clients live in the area. They come to us because they want:
+              I work online with many clients from Morningside, offering care that's <strong>convenient and accessible</strong>—wherever they are. They choose me because they want:
             </p>
           </div>
 

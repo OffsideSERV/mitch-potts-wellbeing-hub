@@ -78,7 +78,7 @@ const habits = [
     icon: Droplets,
     title: "Drinking Too Much Water With Your Meals",
     intro:
-      "This is one of the most common mistakes I see in my clinic. We're always told to \"drink more water,\" but <strong>timing is everything.</strong> When you gulp down a large glass of water while eating, you are essentially <strong>drowning your digestive fire.</strong>",
+      "This is one of the most common mistakes I see in practice. We're always told to \"drink more water,\" but <strong>timing is everything.</strong> When you gulp down a large glass of water while eating, you are essentially <strong>drowning your digestive fire.</strong>",
     body: [
       "Your stomach needs a specific level of acidity (<strong>hydrochloric acid</strong>) to break down proteins from food and activate digestive enzymes. When you fill up that acid with liters of water, <strong>it gets diluted and your stomach can't do its job properly.</strong>",
       "This means food just sits in your gut, half-digested, beginning to ferment and release the very gases that leave you feeling tight and bloated.",
@@ -277,7 +277,7 @@ const Report = () => {
               </p>
 
               <p className="reveal">
-                I've heard your same frustrations from thousands of other women in my Brisbane clinic, and I know it's not your fault.
+                I've heard your same frustrations from thousands of other women in my Brisbane practice, and I know it's not your fault.
               </p>
 
               <p className="reveal">

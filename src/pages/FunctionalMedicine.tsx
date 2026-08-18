@@ -49,7 +49,7 @@ const FunctionalMedicine = () => {
                      At NXTLVL Health, our <strong>Functional Medicine in Brisbane</strong> doesn't just treat your symptoms, it's much more than that. We actually help you find out why you feel tired, bloated, foggy, or just off—then <strong>fix it properly</strong>.
                    </p>
                   <p>
-                    We're a <strong>functional medicine clinic in New Farm</strong> that uses a simple, whole-body approach. Instead of quick fixes like most solutions out there, we look at how your <strong>gut, brain, hormones, skin, and energy all connect together</strong>.
+                    We're a <strong>functional medicine practice in New Farm</strong> that uses a simple, whole-body approach. Instead of quick fixes like most solutions out there, we look at how your <strong>gut, brain, hormones, skin, and energy all connect together</strong>.
                   </p>
                    <p>
                      You'll get a <strong>full health plan that's made just for you</strong>, no one else—using real tests, not guesses. Whether you need <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">sustainable weight loss support</a> or <a href="/services/personal-trainer-newstead" className="text-primary hover:underline">personalised fitness guidance</a>, we have the tools and expertise to help. If you're sick of that "not quite right" feeling, <strong>this is where you start feeling like you again</strong>.
@@ -189,14 +189,14 @@ const FunctionalMedicine = () => {
             <div className="relative mb-8 lg:mb-0">
               <img 
                 src="/lovable-uploads/778efa12-2a50-4463-9137-b9811fb860b1.png" 
-                alt="Practitioner at a Functional Naturopathic clinic looking through a microscope" 
+                alt="Practitioner at a Functional Naturopathic practice looking through a microscope" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
             </div>
             
             <div className="space-y-6">
               <h2 className="text-3xl lg:text-4xl font-bold">
-                Inside Our <span className="text-primary">Functional Naturopathic Clinic</span> in New Farm
+                Inside Our <span className="text-primary">Functional Naturopathic Practice</span> in New Farm
               </h2>
               
               <div className="grid gap-4">

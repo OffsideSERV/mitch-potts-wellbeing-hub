@@ -76,7 +76,7 @@ const NewFarmNaturopathy = () => {
                   If you're tired of feeling <strong>"not quite right"</strong> and you're looking for a gentle, natural health solution that actually works, then you've come to the right place. At NXTLVL Health, we help people from <strong>New Farm QLD</strong> and nearby suburbs like <strong>Fortitude Valley, Spring Hill, and Bowen Hills</strong>, as well as <a href="/areas-we-serve/naturopath-newstead" className="text-primary hover:underline">Newstead</a>, <a href="/areas-we-serve/naturopath-hamilton" className="text-primary hover:underline">Hamilton</a>, and <a href="/areas-we-serve/naturopath-clayfield-brisbane" className="text-primary hover:underline">Clayfield</a> who are looking for more than just quick fixes. We get to the <strong>root cause of your health problems</strong>.
                 </p>
                 <p>
-                  Our clinic is located right in <strong>New Farm, near Brunswick St, Merthyr Rd, and 187 James Street</strong>. Whether you're dealing with <strong>gut issues, <a href="https://www.haberfieldhealth.com.au/post/7-ways-a-naturopath-can-help-treat-stress" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">chronic stress</a>, or hormonal imbalances</strong>, our friendly, experienced naturopath <strong>Mitchell Potts</strong> is here to help.
+                  I work online with clients right across <strong>New Farm, near Brunswick St, Merthyr Rd, and 187 James Street</strong>. Whether you're dealing with <strong>gut issues, <a href="https://www.haberfieldhealth.com.au/post/7-ways-a-naturopath-can-help-treat-stress" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">chronic stress</a>, or hormonal imbalances</strong>, our friendly, experienced naturopath <strong>Mitchell Potts</strong> is here to help.
                 </p>
               </div>
             </div>
@@ -95,7 +95,7 @@ const NewFarmNaturopathy = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Mitchell Potts is a Local Naturopath You Can Trust</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
-                When your body feels off, it's hard to live the life you want. Maybe your <strong>sleep isn't great</strong>, your <strong>tummy feels upset</strong>, or your <strong>mood is low</strong>. Or maybe you've been told <strong>"everything is normal"</strong> from your doctor, but you still don't feel well. That's where we come in.
+                When your body feels off, it's hard to live the life you want. Maybe your <strong>sleep isn't great</strong>, your <strong>tummy feels upset</strong>, or your <strong>mood is low</strong>. Or maybe you've been told <strong>"everything is normal"</strong> from your doctor, but you still don't feel well. That's where I come in.
               </p>
               <p>
                 At NXTLVL Health, our <strong>qualified naturopath Mitch Potts</strong> takes the time to really understand what you've been going through. We use a <strong>holistic approach</strong>, mixing <strong>natural therapies with modern science and functional testing</strong> to understand your whole body. Then, we create a plan that fits your <strong>unique needs and health goals</strong>.
@@ -272,7 +272,7 @@ const NewFarmNaturopathy = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">What to Expect at Your First Consultation</h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-              When you come in for your initial consultation, we take our time to get to know you. We talk about your <strong>symptoms, your lifestyle, your diet, your past medical history, and what you want to achieve</strong> with your health.
+              When you join your initial online consultation, we take our time to get to know you. We talk about your <strong>symptoms, your lifestyle, your diet, your past medical history, and what you want to achieve</strong> with your health.
             </p>
           </div>
 
@@ -328,9 +328,9 @@ const NewFarmNaturopathy = () => {
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Natural Therapies at Our New Farm Clinic</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Natural Therapies for My New Farm Clients</h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-8">
-              Our clinic uses a blend of <strong>safe, science-backed therapies</strong>:
+              I use a blend of <strong>safe, science-backed therapies</strong>:
             </p>
           </div>
 
@@ -414,7 +414,7 @@ const NewFarmNaturopathy = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">We're Part of the New Farm Wellness Community</h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-8">
-              Our clinic is easy to get to from:
+              My online consultations are easy to access from:
             </p>
           </div>
 

@@ -670,7 +670,7 @@ const NaturopathForAthletes = () => {
                   </a>
                 </Button>
                 <div className="space-y-2 text-muted-foreground">
-                  <p>📍 In-Person in Brisbane or Online Across Australia</p>
+                  <p>📍 Online Video Consultations for Brisbane and Across Australia</p>
                 </div>
               </CardContent>
             </Card>

@@ -77,7 +77,7 @@ const NaturopathyVsHomeopathy = () => {
             </h2>
             
             <div className="space-y-4 text-muted-foreground">
-              <p>A lot of people who walk into my clinic in Brisbane always ask this one question. Whether they're from <a href="/areas-we-serve/naturopath-clayfield-brisbane" className="text-primary hover:underline">Clayfield</a>, <a href="/areas-we-serve/naturopath-new-farm" className="text-primary hover:underline">New Farm</a>, or <a href="/areas-we-serve/naturopath-hamilton" className="text-primary hover:underline">Hamilton</a>, this comes up frequently:</p>
+              <p>A lot of people who work with me online across Brisbane always ask this one question. Whether they're from <a href="/areas-we-serve/naturopath-clayfield-brisbane" className="text-primary hover:underline">Clayfield</a>, <a href="/areas-we-serve/naturopath-new-farm" className="text-primary hover:underline">New Farm</a>, or <a href="/areas-we-serve/naturopath-hamilton" className="text-primary hover:underline">Hamilton</a>, this comes up frequently:</p>
               <blockquote className="border-l-4 border-primary pl-6 text-lg italic text-foreground">
                 "What's the difference between naturopathy and homeopathy?"
               </blockquote>
@@ -85,7 +85,7 @@ const NaturopathyVsHomeopathy = () => {
               <div className="my-8">
                 <img 
                   src="/lovable-uploads/d26f132d-21a4-414d-a5e7-633af7b90717.png" 
-                  alt="Naturopathic consultation at NXTLVL Health Brisbane clinic"
+                  alt="Naturopathic consultation with NXTLVL Health Brisbane"
                   className="w-full rounded-lg shadow-md"
                 />
               </div>
@@ -282,7 +282,7 @@ const NaturopathyVsHomeopathy = () => {
               <div className="my-8">
                 <img 
                   src="/lovable-uploads/3af8c6b2-c819-4289-8e53-63e15d12d285.png" 
-                  alt="Detailed consultation notes and planning at NXTLVL Health naturopathy clinic"
+                  alt="Detailed consultation notes and planning with NXTLVL Health naturopathy"
                   className="w-full rounded-lg shadow-md"
                 />
               </div>
@@ -340,7 +340,7 @@ const NaturopathyVsHomeopathy = () => {
                 <div className="my-6">
                   <img 
                     src="/lovable-uploads/1c395807-ba22-42e6-b589-6a8498840075.png" 
-                    alt="Naturopathic herbal medicine preparation at NXTLVL Health clinic"
+                    alt="Naturopathic herbal medicine preparation with NXTLVL Health"
                     className="w-full rounded-lg shadow-md"
                   />
                 </div>
@@ -386,7 +386,7 @@ const NaturopathyVsHomeopathy = () => {
             <div className="space-y-4 text-muted-foreground mb-8">
               <p>Natural healing doesn't have to be confusing. Both naturopathy and homeopathy offer valuable paths—but they're different in how they work, what they focus on, and the tools they use.</p>
               <p>If you're leaning toward naturopathy and want to understand what's really going on in your body, that's where I come in.</p>
-              <p>At my clinic in New Farm, I use naturopathy, nutrition, functional testing, and movement to support real change. I'm here to help people who feel tired, bloated, or just not themselves anymore—finally feel strong again.</p>
+              <p>In my practice based in New Farm, I use naturopathy, nutrition, functional testing, and movement to support real change. I'm here to help people who feel tired, bloated, or just not themselves anymore—finally feel strong again.</p>
               <p>Still not sure? That's okay. You can always reach out and ask questions. I'm more than happy to help.</p>
             </div>
 

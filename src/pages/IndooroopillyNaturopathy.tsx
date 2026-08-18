@@ -282,7 +282,7 @@ const IndooroopillyNaturopathy = () => {
               "Natural solutions that work with the body",
               "Support for long-term change—not just short-term fixes",
               "A welcoming and professional environment",
-              "Flexible appointment options (in person or book online)"
+              "Flexible online appointment options that fit your schedule"
             ].map((item, index) => (
               <Card key={index}>
                 <CardContent className="p-6">
@@ -568,10 +568,10 @@ const IndooroopillyNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto text-lg text-muted-foreground leading-relaxed space-y-6">
             <p>
-              We welcome Indooroopilly clients for <strong>in-person visits</strong> and also offer <strong>online consultations</strong> for added convenience. Whether you're in Chapel Hill, Toowong, or elsewhere in Brisbane, <strong>our doors are open to you</strong>.
+              I welcome Indooroopilly clients for <strong>online consultations</strong> for added convenience. Whether you're in Chapel Hill, Toowong, or elsewhere in Brisbane, <strong>I'm here to help you</strong>.
             </p>
             <p>
-              To get started, you can <strong>easily book online</strong> or call our team. We're happy to answer any questions and help you choose the <strong>best time for your first visit</strong>.
+              To get started, you can <strong>easily book online</strong> or call our team. We're happy to answer any questions and help you choose the <strong>best time for your first consultation</strong>.
             </p>
           </div>
 

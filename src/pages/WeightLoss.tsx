@@ -57,7 +57,7 @@ const WeightLoss = () => {
     "areaServed": ["Brisbane", "New Farm", "Fortitude Valley", "Newstead", "Teneriffe", "Kangaroo Point", "East Brisbane", "Norman Park", "Bulimba", "Hawthorne", "Morningside", "Ascot", "Hamilton", "Clayfield", "Wilston", "Windsor", "Kelvin Grove", "Paddington", "Red Hill", "Auchenflower", "Toowong", "Queensland"],
     "availableChannel": {
       "@type": "ServiceChannel",
-      "name": "In-Person and Online Weight Loss Consultations",
+      "name": "Online Weight Loss Consultations",
       "serviceLocation": {
         "@type": "Place",
         "name": "NXTLVL Health"
@@ -97,7 +97,7 @@ const WeightLoss = () => {
                 
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Woman consulting with a qualified weight loss naturopath in Brisbane at NXTLVL Health clinic" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/aeafb801-21a6-4748-a8c0-7cfe86dda52d.png" />
+                  <img alt="Woman consulting with a qualified weight loss naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/aeafb801-21a6-4748-a8c0-7cfe86dda52d.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Scale className="h-6 w-6 text-primary" />
@@ -129,7 +129,7 @@ const WeightLoss = () => {
             
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
-              <img alt="Woman consulting with a qualified weight loss naturopath in Brisbane at NXTLVL Health clinic" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/aeafb801-21a6-4748-a8c0-7cfe86dda52d.png" />
+              <img alt="Woman consulting with a qualified weight loss naturopath in Brisbane at NXTLVL Health" className="rounded-2xl shadow-2xl w-full h-auto" src="/lovable-uploads/aeafb801-21a6-4748-a8c0-7cfe86dda52d.png" />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <Scale className="h-8 w-8 text-primary" />
@@ -228,7 +228,7 @@ const WeightLoss = () => {
 
           {/* Centered Image */}
           <div className="mb-12">
-            <img src="/lovable-uploads/611cabfc-2300-478c-a789-817b8bac2f8e.png" alt="Professional naturopath reviewing personalized weight loss program results with patient at NXTLVL Health clinic" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/611cabfc-2300-478c-a789-817b8bac2f8e.png" alt="Professional naturopath reviewing personalized weight loss program results with patient at NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-8 mb-12">
@@ -316,11 +316,11 @@ const WeightLoss = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img src="/lovable-uploads/fee05240-1244-4024-9a2b-a3742433d32f.png" alt="NXTLVL Health modern naturopathic weight loss clinic in New Farm Brisbane offering comprehensive wellness services" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/fee05240-1244-4024-9a2b-a3742433d32f.png" alt="NXTLVL Health modern naturopathic weight loss practice in New Farm Brisbane offering comprehensive wellness services" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {["Years of experience in naturopathic medicine, nutrition, and functional testing", "Advanced knowledge of naturopathic principles and natural weight loss protocols", "Customised plans built around your real life, not unrealistic programs", "Care that goes beyond the scale focusing on your health goals, energy, and confidence", "Appointments available in-clinic or via online consultations"].map((item, index) => <Card key={index} className="text-center">
+            {["Years of experience in naturopathic medicine, nutrition, and functional testing", "Advanced knowledge of naturopathic principles and natural weight loss protocols", "Customised plans built around your real life, not unrealistic programs", "Care that goes beyond the scale focusing on your health goals, energy, and confidence", "Appointments available online, wherever you are"].map((item, index) => <Card key={index} className="text-center">
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>

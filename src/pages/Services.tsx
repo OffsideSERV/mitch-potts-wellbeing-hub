@@ -51,7 +51,7 @@ const Services = () => {
                   <a href="/services/personal-trainer-newstead" className="text-primary hover:underline">Naturopath</a>, <a href="/services/personal-trainer-newstead" className="text-primary hover:underline">PT</a> & <a href="/functional-medicine" className="text-primary hover:underline">functional medicine</a> services for holistic wellness
                 </p>
                 <p className="text-lg text-muted-foreground">
-                  With the guidance and expert knowledge of naturopathy Mitch at NXTLVL Health in New Farm your goals are well within reach. Our comprehensive treatments include <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">natural weight loss solutions</a>. Start your journey towards optimal well-being and book an appointment today!
+                  With the guidance and expert knowledge of naturopath Mitch at NXTLVL Health, working online with clients across New Farm and all of Brisbane, your goals are well within reach. Our comprehensive treatments include <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">natural weight loss solutions</a>. Start your journey towards optimal well-being and book an appointment today!
                 </p>
                 
                 {/* Mobile Image - placed right after headline */}
