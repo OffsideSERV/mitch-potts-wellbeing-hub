@@ -63,7 +63,7 @@ const GutHealth = () => {
     "areaServed": ["Brisbane", "New Farm", "Fortitude Valley", "Newstead", "Teneriffe", "Kangaroo Point", "East Brisbane", "Norman Park", "Bulimba", "Hawthorne", "Morningside", "Ascot", "Hamilton", "Clayfield", "Wilston", "Windsor", "Kelvin Grove", "Paddington", "Red Hill", "Auchenflower", "Toowong", "Queensland"],
     "availableChannel": {
       "@type": "ServiceChannel",
-      "name": "In-Person Naturopathic Consultations",
+      "name": "Online Naturopathic Consultations",
       "serviceLocation": {
         "@type": "Place",
         "name": "NXTLVL Health"
@@ -265,7 +265,7 @@ const GutHealth = () => {
                 
                 {/* Mobile Image - placed right after headline */}
                 <div className="relative lg:hidden mb-8 -mx-4">
-                  <img alt="Expert naturopath gut health consultation and functional testing at NXTLVL Health Brisbane clinic" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/8c8b4eb3-73e7-4d27-a130-784ffb35035c.png" />
+                  <img alt="Expert naturopath gut health consultation and functional testing with NXTLVL Health in Brisbane" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/8c8b4eb3-73e7-4d27-a130-784ffb35035c.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Activity className="h-6 w-6 text-primary" />
