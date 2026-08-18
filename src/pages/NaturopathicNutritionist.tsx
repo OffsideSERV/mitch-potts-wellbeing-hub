@@ -94,7 +94,7 @@ const NaturopathicNutritionist = () => {
           <div className="lg:hidden mb-12">
             <img 
               src="/lovable-uploads/507d386f-e7d8-4e14-a144-56b40f6d528f.png" 
-              alt="NXTLVL Health clinic Brisbane naturopathic nutrition" 
+              alt="NXTLVL Health Brisbane naturopathic nutrition consultation" 
               className="rounded-2xl shadow-lg w-full h-auto mx-auto" 
             />
           </div>
@@ -106,7 +106,7 @@ const NaturopathicNutritionist = () => {
                   Are you feeling tired, overwhelmed, or simply not yourself lately? Struggling with skin issues, gut problems, or stress? At NXTLVL Health, our focus is on restoring your health naturally—with food, lifestyle, and science.
                 </p>
                 <p>
-                  Our Brisbane-based clinic is led by Mitch, a compassionate and experienced naturopathic nutritionist. Mitch blends evidence-based nutrition with naturopathic medicine to help you feel your best, support your body, and reach your health goals.
+                  Our Brisbane-based online practice is led by Mitch, a compassionate and experienced naturopathic nutritionist. Mitch blends evidence-based nutrition with naturopathic medicine to help you feel your best, support your body, and reach your health goals.
                 </p>
               </div>
             </div>
@@ -114,7 +114,7 @@ const NaturopathicNutritionist = () => {
             <div className="relative hidden lg:block">
               <img 
                 src="/lovable-uploads/507d386f-e7d8-4e14-a144-56b40f6d528f.png" 
-                alt="NXTLVL Health clinic Brisbane naturopathic nutrition" 
+                alt="NXTLVL Health Brisbane naturopathic nutrition consultation" 
                 className="rounded-2xl shadow-lg w-full h-auto" 
               />
             </div>

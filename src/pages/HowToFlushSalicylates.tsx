@@ -158,7 +158,7 @@ const HowToFlushSalicylates = () => {
                 <div className="mt-8 rounded-lg overflow-hidden">
                   <img 
                     src="/lovable-uploads/d18c82d8-632d-4799-873a-d4948af25d3c.png" 
-                    alt="Healthcare professional consulting with patient in a clinical setting"
+                    alt="Naturopath consulting with a patient about salicylate sensitivity"
                     className="w-full h-auto object-cover"
                   />
                 </div>
@@ -182,7 +182,7 @@ const HowToFlushSalicylates = () => {
                   Common Signs Your Body's Not Coping With Salicylates
                 </h2>
                 <div className="text-muted-foreground space-y-4">
-                  <p>Here are some red flags I often see in clinic:</p>
+                  <p>Here are some red flags I often see in practice:</p>
                   <div className="bg-orange-50 border border-orange-200 rounded-lg p-6">
                     <div className="flex items-center mb-4">
                       <AlertTriangle className="h-5 w-5 text-orange-600 mr-2" />
@@ -331,7 +331,7 @@ const HowToFlushSalicylates = () => {
                 <div className="mt-8 rounded-lg overflow-hidden">
                   <img 
                     src="/lovable-uploads/77b58f7a-2882-46e5-a8c8-2f1044ae149e.png" 
-                    alt="Healthcare professional using microscope for detailed analysis in clinic"
+                    alt="Naturopath using a microscope for detailed analysis"
                     className="w-full h-auto object-cover"
                   />
                 </div>

@@ -52,7 +52,7 @@ const AmIFatOrBloated = () => {
             Am I Fat Or Bloated?
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            The question I get asked most in clinic. Learn how to tell the difference between belly fat and bloating, plus what to do about each one.
+            The question I get asked most in practice. Learn how to tell the difference between belly fat and bloating, plus what to do about each one.
           </p>
           
           {/* Hero Image */}
@@ -82,11 +82,11 @@ const AmIFatOrBloated = () => {
         {/* Introduction */}
         <div className="prose prose-lg max-w-none mb-12">
           <p className="text-lg leading-relaxed">
-            I get asked this question a lot in clinic: <strong>"Mitch, am I fat or bloated?"</strong>
+            I get asked this question a lot in practice: <strong>"Mitch, am I fat or bloated?"</strong>
           </p>
 
           <p>
-            And it's a fair question. Many of my patients in New Farm, Brisbane come in feeling confused. 
+            And it's a fair question. Many of my patients in New Farm, Brisbane tell me they feel confused. 
             One day their belly looks flat. The next day it looks swollen, round, or "pregnant-like." 
             They wonder: <strong>is this fat gain, water retention, or just bloating from food?</strong>
           </p>
@@ -98,7 +98,7 @@ const AmIFatOrBloated = () => {
 
         {/* Professional consultation image */}
         <div className="mb-12">
-          <img src="/lovable-uploads/naturopath-consultation.png" alt="Professional naturopath consultation in modern clinic setting" className="w-full h-48 object-cover rounded-lg shadow-lg" />
+          <img src="/lovable-uploads/naturopath-consultation.png" alt="Naturopath consulting with a patient about bloating" className="w-full h-48 object-cover rounded-lg shadow-lg" />
         </div>
 
         {/* Main Content Sections */}
@@ -286,7 +286,7 @@ const AmIFatOrBloated = () => {
           <h2 className="text-3xl font-bold text-primary mb-6">Common Causes of Bloating</h2>
           
           <p className="mb-6">So, <strong>why am I bloated all the time?</strong></p>
-          <p className="mb-6">Here are the patterns I see most often in clinic:</p>
+          <p className="mb-6">Here are the patterns I see most often in practice:</p>
 
           <div className="space-y-6">
             {[{
@@ -400,7 +400,7 @@ const AmIFatOrBloated = () => {
           <h2 className="text-3xl font-bold text-primary mb-6">Why Do Some People Get Both?</h2>
           
           <p className="mb-4">
-            I've seen this in clinic so often: patients feel <strong>"fat stomach every morning vs bloated evenings."</strong>
+            I hear this in practice so often: patients feel <strong>"fat stomach every morning vs bloated evenings."</strong>
           </p>
 
           <p className="mb-4">That's because:</p>

@@ -454,7 +454,7 @@ const NorthBrisbaneNaturopathy = () => {
 
           <div className="text-center">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Even if you're located slightly further out, you're not too far from getting help that makes a massive difference in your life. Our New Farm clinic is just a short trip away, or you can even book a telehealth consult from the comfort of your home.
+              Even if you're located slightly further out, you're not too far from getting help that makes a massive difference in your life. You can book an online video consultation from the comfort of your home, wherever you're based.
             </p>
           </div>
         </div>

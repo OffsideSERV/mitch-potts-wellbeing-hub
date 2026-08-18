@@ -10,7 +10,7 @@ const BestTeaForStomachPain = () => {
     "The Best Tea for Stomach Pain and Bloating",
     "When to Drink These Teas (and How Often)",
     "What to Avoid If You're Bloated",
-    "Bonus Tips from My Clinic",
+    "Bonus Tips from My Practice",
     "FAQs"
   ];
 
@@ -137,7 +137,7 @@ const BestTeaForStomachPain = () => {
                   <blockquote className="border-l-4 border-primary pl-4 italic text-lg">
                     "I feel bloated after every meal, and I don't even know why."
                   </blockquote>
-                  <p>That's what I hear from people every week in my clinic.</p>
+                  <p>That's what I hear from people every week in my practice.</p>
                   <p>Whether it's from food, stress, gut bugs, or hormone shifts—your gut is trying to tell you something. While there are many potential causes - from food intolerances to <a href="/what-we-treat/ibs-naturopath" className="text-primary hover:underline">digestive disorders like IBS</a> or <a href="/what-we-treat/sibo-naturopath" className="text-primary hover:underline">SIBO</a> - understanding the root cause is crucial for lasting relief.</p>
                   <p>And while we work on fixing the root cause, sometimes you need fast, natural relief—and that's where the best tea for stomach pain and bloating can really help.</p>
                 </div>
@@ -215,7 +215,7 @@ const BestTeaForStomachPain = () => {
                 <div className="mt-8 rounded-lg overflow-hidden">
                   <img 
                     src="/lovable-uploads/df06128e-5140-44aa-8843-c166143842b9.png" 
-                    alt="Healthcare professional consulting with a patient in a clinical setting"
+                    alt="Naturopath consulting with a patient about digestive symptoms"
                     className="w-full h-auto object-cover"
                   />
                 </div>
@@ -241,7 +241,7 @@ const BestTeaForStomachPain = () => {
               {/* Bonus Tips */}
               <div className="mb-12">
                 <h2 className="text-3xl font-bold text-foreground mb-6">
-                  Bonus Tips from My Clinic
+                  Bonus Tips from My Practice
                 </h2>
                 <div className="text-muted-foreground space-y-4">
                   <p>Here's what I tell clients at NXTLVL Health when they ask about the best tea for stomach pain and bloating:</p>
@@ -259,7 +259,7 @@ const BestTeaForStomachPain = () => {
                 <div className="mt-8 rounded-lg overflow-hidden">
                   <img 
                     src="/lovable-uploads/16a21a8d-a48b-4648-a0d8-d725b514fe0d.png" 
-                    alt="Naturopath discussing treatment options with patient in a modern clinic"
+                    alt="Naturopath discussing treatment options with a patient"
                     className="w-full h-auto object-cover"
                   />
                 </div>

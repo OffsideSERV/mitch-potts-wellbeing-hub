@@ -14,7 +14,7 @@ const Areas = () => {
   const suburbs = [
     {
       name: "New Farm",
-      description: "This is where our clinic is! Right in the heart of New Farm. If you're nearby, we're just around the corner."
+      description: "New Farm is where it all started for us. I work online with plenty of New Farm locals, so wherever you are in the suburb, care is only a video call away."
     },
     {
       name: "Fortitude Valley",
@@ -22,7 +22,7 @@ const Areas = () => {
     },
     {
       name: "Newstead",
-      description: "Just across the river, full of modern apartments and cafes. Many of our clients from Newstead love how close and easy our clinic is to get to."
+      description: "Just across the river, full of modern apartments and cafes. Many of our Newstead clients love how easy online consultations are to fit around a busy week."
     },
     {
       name: "Teneriffe",
@@ -58,15 +58,15 @@ const Areas = () => {
     },
     {
       name: "Hamilton",
-      description: "Whether it's Portside dining or a river stroll, Hamilton residents love how close our clinic is to home."
+      description: "Whether it's Portside dining or a river stroll, Hamilton residents love that they can have their consultation from home."
     },
     {
       name: "Clayfield",
-      description: "A lovely mix of old and new. Clayfield locals visit us for everything from stress to skin health to sleep."
+      description: "A lovely mix of old and new. Clayfield locals work with us online for everything from stress to skin health to sleep."
     },
     {
       name: "Wilston",
-      description: "A little village feel in the big city. If you're in Wilston, our clinic is just a short trip away."
+      description: "A little village feel in the big city. If you're in Wilston, your consultation is just a click away."
     },
     {
       name: "Windsor",
