@@ -855,7 +855,7 @@ const AllergyNaturopath = () => {
           <div className="mb-12">
             <img 
               src="/lovable-uploads/681db518-b59b-4540-ab5a-b9bba5b43d6c.png" 
-              alt="NXTLVL Health natural allergy support clinic" 
+              alt="NXTLVL Health natural allergy support practice" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" 
             />
           </div>
@@ -897,7 +897,7 @@ const AllergyNaturopath = () => {
               <CardContent className="p-6">
                 <div className="flex items-start space-x-3">
                   <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <span className="text-base"><strong>A welcoming clinic environment and compassionate care</strong></span>
+                  <span className="text-base"><strong>A welcoming, compassionate approach to your care</strong></span>
                 </div>
               </CardContent>
             </Card>
