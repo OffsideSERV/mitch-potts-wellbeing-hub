@@ -105,7 +105,7 @@ const ClayfieldNaturopathy = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  If you're based in Clayfield and searching for a <strong>kind, experienced naturopath</strong> who takes the time to really listen, NXTLVL Health is just around the corner. While we're not located directly in Clayfield, our clinic is close by—and we regularly see clients from this beautiful Brisbane suburb as well as nearby areas like <a href="/areas-we-serve/naturopath-new-farm" className="text-primary hover:underline">New Farm</a>, <a href="/areas-we-serve/naturopath-newstead" className="text-primary hover:underline">Newstead</a>, and <a href="/areas-we-serve/naturopath-hamilton" className="text-primary hover:underline">Hamilton</a>.
+                  If you're based in Clayfield and searching for a <strong>kind, experienced naturopath</strong> who takes the time to really listen, NXTLVL Health is easy to reach online. I work with clients right across this beautiful Brisbane suburb as well as nearby areas like <a href="/areas-we-serve/naturopath-new-farm" className="text-primary hover:underline">New Farm</a>, <a href="/areas-we-serve/naturopath-newstead" className="text-primary hover:underline">Newstead</a>, and <a href="/areas-we-serve/naturopath-hamilton" className="text-primary hover:underline">Hamilton</a>.
                 </p>
                 <p>
                   Whether you're feeling tired, stressed, run-down, or struggling with a chronic health issue, we're here to help you feel your best again—<strong>naturally</strong>.
@@ -236,7 +236,7 @@ const ClayfieldNaturopathy = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Clayfield Locals Trust NXTLVL Health</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto mb-8">
-              Even though our clinic isn't in Clayfield, many of our clients live just around the corner and are happy to make the short trip for <strong>high-quality naturopathic care</strong>. We also serve families from <a href="/areas-we-serve/naturopath-north-brisbane" className="text-primary hover:underline">North Brisbane</a>, <a href="/areas-we-serve/naturopath-indooroopilly" className="text-primary hover:underline">Indooroopilly</a>, and <a href="/areas-we-serve/naturopath-morningside" className="text-primary hover:underline">Morningside</a> who value our personalised <a href="/" className="text-primary hover:underline">naturopathic services in Brisbane</a>.
+              Many of my Clayfield clients love being able to access <strong>high-quality naturopathic care</strong> online without leaving home. I also work with families from <a href="/areas-we-serve/naturopath-north-brisbane" className="text-primary hover:underline">North Brisbane</a>, <a href="/areas-we-serve/naturopath-indooroopilly" className="text-primary hover:underline">Indooroopilly</a>, and <a href="/areas-we-serve/naturopath-morningside" className="text-primary hover:underline">Morningside</a> who value our personalised <a href="/" className="text-primary hover:underline">naturopathic services in Brisbane</a>.
             </p>
           </div>
 
@@ -430,7 +430,7 @@ const ClayfieldNaturopathy = () => {
               </div>
 
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Women from Clayfield often visit our clinic for help with hormonal concerns because they want <strong>real answers, not just temporary solutions</strong>.
+                Women from Clayfield often book online consultations for help with hormonal concerns because they want <strong>real answers, not just temporary solutions</strong>.
               </p>
             </div>
             {/* Desktop Image */}
@@ -606,7 +606,7 @@ const ClayfieldNaturopathy = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Our Holistic Approach to Health</h2>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto mb-8">
-              When you visit NXTLVL Health, we start with a <strong>thorough health consultation</strong>. We ask about your symptoms, lifestyle, medical history, and health goals. Appointments can be booked online or by phone at naturopath clinics.
+              When you book a consultation with NXTLVL Health, we start with a <strong>thorough health consultation</strong>. We ask about your symptoms, lifestyle, medical history, and health goals. Appointments can be booked online or by phone.
             </p>
           </div>
 
@@ -730,7 +730,7 @@ const ClayfieldNaturopathy = () => {
 
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground text-center">
             <p>
-              If you've been looking for a <strong>naturopath Clayfield locals trust</strong>, NXTLVL Health is just a short drive away—and we're ready to help.
+              If you've been looking for a <strong>naturopath Clayfield locals trust</strong>, NXTLVL Health is just a click away online—and we're ready to help.
             </p>
             <p>
               Whether you're managing stress, dealing with hormonal changes, or just want to feel more balanced, we'll help you <strong>get to the root of the problem</strong> and support your journey to optimal health.
