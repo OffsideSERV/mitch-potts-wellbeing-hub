@@ -7,7 +7,7 @@ const Contact = () => {
     <>
       <SEO
         title="Contact Us | NXTLVL Health Brisbane"
-        description="Get in touch with NXTLVL Health. Book a free 15-minute consultation with our expert naturopath or call us directly. Located in Brisbane, Queensland."
+        description="Get in touch with NXTLVL Health. Book a free 15-minute consultation with our expert naturopath. Brisbane-based, online consultations Australia-wide."
         canonical="/contact"
         keywords="contact naturopath Brisbane, book consultation Brisbane, NXTLVL Health contact"
       />
