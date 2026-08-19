@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, CheckCircle, Heart, Users, Target, Leaf, Zap, Shield, Microscope, Stethoscope, Activity } from "lucide-react";
 const NewFarmNaturopathy = () => {
   return <>
-      <SEO title="Expert Naturopath in New Farm Brisbane | Mitchell Potts" description="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath in New Farm Brisbane that will find and heal the root cause of your problems." canonical="/areas-we-serve/naturopath-new-farm" keywords="naturopath New Farm, New Farm naturopathy, natural health New Farm, holistic health New Farm Brisbane" />
+      <SEO title="Naturopath New Farm | Online Consults | NXTLVL Health" description="Online naturopath consultations for New Farm and greater Brisbane, covering gut health, energy, skin and hormones. Book your free 15-minute chat today." canonical="/areas-we-serve/naturopath-new-farm" keywords="naturopath New Farm, New Farm naturopathy, natural health New Farm, holistic health New Farm Brisbane" />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 via-accent/10 to-primary/5 py-20 px-4">

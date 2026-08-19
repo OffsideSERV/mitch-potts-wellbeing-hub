@@ -9,8 +9,8 @@ const GutBrainConnection = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-muted/20">
       <SEO 
-        title="Gut-Brain Connection: How Your Gut Affects Mental Health - Naturopath Brisbane - Health Optimisation Expert"
-        description="Discover the fascinating gut-brain connection and how your gut health directly impacts mental health. Learn evidence-based strategies from a Brisbane naturopath to improve both gut and mental wellbeing."
+        title="Gut-Brain Connection | How Your Gut Affects Mental Health"
+        description="The gut-brain axis explained: how gut bacteria influence mood, anxiety and focus, plus the practical steps a naturopath uses to settle them both."
         canonical="/blog/gut-health/gut-brain-connection-how-your-gut-affects-mental-health"
         keywords="gut-brain connection, mental health, gut health, naturopath Brisbane, microbiome, anxiety, depression, serotonin, functional medicine"
       />

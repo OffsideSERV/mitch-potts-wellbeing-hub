@@ -7,8 +7,8 @@ const AllergyNaturopath = () => {
   return (
     <>
       <SEO 
-        title="Allergy Naturopath Brisbane | Food & Environmental Allergies"
-        description="Expert allergy naturopath in Brisbane specialising in food sensitivities, environmental allergies, and natural allergy treatment. Get personalised allergy testing and treatment."
+        title="Allergy Naturopath Brisbane | Food & Hay Fever Support"
+        description="Allergy naturopath support for food sensitivities, hay fever and histamine issues, with testing to find your triggers. Online consults Australia-wide."
         canonical="/allergy-naturopath"
         keywords="allergy naturopath Brisbane, food allergy testing, environmental allergies, naturopathic allergy treatment, food sensitivities"
       />

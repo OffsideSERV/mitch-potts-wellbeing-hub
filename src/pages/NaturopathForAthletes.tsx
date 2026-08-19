@@ -133,8 +133,8 @@ const NaturopathForAthletes = () => {
   return (
     <>
       <SEO 
-        title="Naturopath for Athletes | Book a FREE 15-Min Consult!"
-        description="Boost performance, recover faster, and feel stronger with a trusted naturopath for athletes in Brisbane. Book your free 15-min consult at NXTLVL Health today."
+        title="Naturopath for Athletes | Performance & Recovery Support"
+        description="Naturopathic care for athletes: testing for the deficiencies, gut issues and inflammation that blunt performance, plus recovery plans that actually work."
         canonical="/what-we-treat/naturopath-for-athletes"
       />
       <div className="min-h-screen bg-background">

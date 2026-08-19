@@ -9,8 +9,8 @@ const NaturopathyVsHomeopathy = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-muted/20">
       <SEO 
-        title="Naturopathy vs Homeopathy | Which Should You Pick in 2025?"
-        description="Confused about naturopathy vs homeopathy? Learn the 5 big differences between these natural healing approaches and discover which one is right for you."
+        title="Naturopathy vs Homeopathy | Key Differences Explained"
+        description="Naturopathy and homeopathy are not the same thing. Compare the training, evidence, testing and treatments so you can choose the right practitioner."
         canonical="/blog/naturopathy/naturopathy-vs-homeopathy"
         keywords="naturopathy vs homeopathy, natural healing, alternative medicine, holistic health, Brisbane naturopath, homeopath"
       />

@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Calendar, Play } from "lucide-react";
 const GutHealthVideo = () => {
   return <>
-      <SEO title="Gut Health Video - Learn How to Fix Your Gut | NXTLVL Health" description="Watch our comprehensive gut health video to learn exactly how you can fix your digestive issues naturally. Book a free 15-minute consultation with our Brisbane naturopath." keywords="gut health video, digestive health, naturopath Brisbane, fix gut health, digestive issues, natural health" canonical="/gut-health-video" />
+      <SEO title="Gut Health Video | How to Fix Bloating Naturally at Home" description="Watch Mitch Potts explain what really drives bloating and how to start settling your gut at home, then book a free 15-minute online consult with him." keywords="gut health video, digestive health, naturopath Brisbane, fix gut health, digestive issues, natural health" canonical="/gut-health-video" />
       
       <div className="min-h-screen bg-background">
         {/* Hero Section */}

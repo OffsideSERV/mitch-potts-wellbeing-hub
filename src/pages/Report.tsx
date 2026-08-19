@@ -169,8 +169,8 @@ const Report = () => {
   return (
     <>
       <SEO
-        title="7 Overlooked Habits That Cause Women To Bloat After Every Meal | NXTLVL Health"
-        description="Brisbane naturopath Mitch Potts reveals 7 crazily overlooked daily habits that cause women to bloat after every single meal. Most doctors will never tell you this."
+        title="7 Habits That Cause Bloating After Every Meal | Guide"
+        description="The free NXTLVL Health guide: seven overlooked daily habits a naturopath says make women bloat after every meal, and exactly what to do instead."
         canonical="/guide"
         keywords="bloating, gut health, naturopath Brisbane, women bloating causes, bloated after eating, NXTLVL Health"
       />

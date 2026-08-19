@@ -74,7 +74,7 @@ const Index = () => {
     icon: <Shield className="h-6 w-6 text-primary" />
   }], []);
   return <div className="min-h-screen bg-background">
-      <SEO title="Best Naturopath Brisbane | Book a FREE 15-Min Consult!" description="Feel like something's wrong but no one's listening? NXTLVL Health is the best Naturopath in Brisbane and is here to give you the answers you've been looking for" canonical="/" keywords="naturopath Brisbane, best naturopath Brisbane, natural medicine Brisbane, functional medicine Brisbane, gut health Brisbane" />
+      <SEO title="Best Naturopath Brisbane | Online Consults | NXTLVL Health" description="Brisbane naturopath Mitch Potts finds the root cause of bloating, fatigue and hormonal issues. Online consults Australia-wide. Book a free 15-min chat." canonical="/" keywords="naturopath Brisbane, best naturopath Brisbane, natural medicine Brisbane, functional medicine Brisbane, gut health Brisbane" />
       
       {/* Hero Section */}
       <section 

@@ -93,8 +93,8 @@ const HowToFlushSalicylates = () => {
   return (
     <>
       <SEO 
-        title="How to Flush Salicylates from Your Body | 4-Step Guide"
-        description="Always feel bloated, itchy or foggy after eating healthy foods? Learn how to flush salicylates from your body gently and naturally in this guide, let's jump in!"
+        title="How to Flush Salicylates From Your Body | 4-Step Guide"
+        description="Itchy, bloated or foggy after high-salicylate foods? Follow this four-step naturopathic guide to lower your load and rebuild your tolerance safely."
         canonical="/blog/naturopathy/how-to-flush-salicylates-from-your-body"
         keywords="flush salicylates, salicylate intolerance, food sensitivities, naturopathy, detox, natural remedies"
       />

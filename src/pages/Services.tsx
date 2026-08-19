@@ -34,7 +34,7 @@ const Services = () => {
     icon: <Star className="h-8 w-8 text-primary" />
   }];
   return <div className="min-h-screen bg-background">
-      <SEO title="Naturopathic Services Brisbane | NXTLVL Health" description="Comprehensive naturopathic services including functional medicine, nutrition, herbal medicine, and personal training. Tailored health plans for your well-being in Brisbane." canonical="/services" keywords="naturopathic services Brisbane, functional medicine Brisbane, nutrition Brisbane, herbal medicine Brisbane, personal training Brisbane" />
+      <SEO title="Naturopathy Services Brisbane | Testing & Herbal Medicine" description="See every NXTLVL Health service: naturopathy, functional medicine, metagenomic stool testing, nutrition and herbal medicine, all delivered online." canonical="/services" keywords="naturopathic services Brisbane, functional medicine Brisbane, nutrition Brisbane, herbal medicine Brisbane, personal training Brisbane" />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
         <div className="container mx-auto max-w-6xl">

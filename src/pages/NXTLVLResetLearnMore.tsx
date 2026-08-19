@@ -8,11 +8,10 @@ const NXTLVLResetLearnMore = () => {
   return (
     <>
       <Helmet>
-        <title>Learn More About NXTLVL Reset | 12 Week Health Transformation</title>
-        <meta
-          name="description"
-          content="Discover how the NXTLVL Reset 12-week program helps busy professionals overcome fatigue, gut issues, and stress through evidence-based nutrition, supplements, and structured lifestyle strategies."
-        />
+        <title>NXTLVL Reset Details | What Is Inside the Programme</title>
+        <meta name="description" content="A closer look at the NXTLVL Reset 12-week programme: each phase, the testing involved, the support you get and who it suits best. Read before you join." />
+        <meta property="og:title" content="NXTLVL Reset Details | What Is Inside the Programme" />
+        <meta property="og:description" content="A closer look at the NXTLVL Reset 12-week programme: each phase, the testing involved, the support you get and who it suits best. Read before you join." />
         <meta name="keywords" content="NXTLVL Reset program details, 12 week health reset, naturopath Brisbane, gut reset program, stress management program, energy restoration" />
         <link rel="canonical" href="https://nxtlvlhealth.com.au/nxtlvl-reset/learn-more" />
       </Helmet>

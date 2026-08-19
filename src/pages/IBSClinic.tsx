@@ -9,8 +9,8 @@ const IBSClinic = () => {
   return (
     <>
       <SEO 
-        title="Best IBS Clinic in Brisbane | Book a Free 15-Min Consult!"
-        description="Feeling tired, bloated, foggy or just flat? Our IBS Clinic in Brisbane will heal the real cause of your symptoms, so you can finally feel like YOU again."
+        title="IBS Clinic Brisbane | Online IBS Care | NXTLVL Health"
+        description="Our online IBS clinic maps what is living in your gut, then treats it with practitioner-only formulas and diet support. Australia-wide consultations."
         canonical="/what-we-treat/ibs-clinic"
         keywords="IBS clinic Brisbane, irritable bowel syndrome clinic, IBS treatment center, gut health clinic Brisbane, digestive health clinic"
       />

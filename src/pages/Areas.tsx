@@ -97,8 +97,8 @@ const Areas = () => {
   return (
     <>
       <SEO 
-        title="Areas We Serve | NXTLVL Health"
-        description="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath that will find and heal the root cause of your problems. Find out where to get help."
+        title="Areas We Serve | Online Naturopath Across Brisbane & AU"
+        description="See the Brisbane suburbs and Australian regions Mitch works with online, from New Farm and Newstead to Windsor, Hamilton, Clayfield and further afield."
         canonical="/areas-we-serve"
         keywords="naturopath Brisbane areas, Brisbane naturopathy suburbs, natural health Brisbane, holistic health Brisbane"
       />

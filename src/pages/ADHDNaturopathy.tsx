@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Brain, Activity, Shield } from "lucide-react";
 const ADHDNaturopathy = () => {
   return <>
-      <SEO title="Top ADHD Naturopath in Brisbane | Book a Free 15-Min Consult" description="Mitch from NXTLVL Health is here to help take the stress and confusion out of ADHD. Book a free consult and start getting the answers you've been looking for!" canonical="/what-we-treat/adhd-naturopath" keywords="ADHD naturopath Brisbane, ADHD treatment, natural ADHD support, holistic ADHD treatment, ADHD specialist" serviceSchema={{
+      <SEO title="ADHD Naturopath | Natural Focus and Behaviour Support" description="Naturopathic ADHD support for kids and adults, looking at gut health, nutrient levels and food triggers behind focus and mood. Online consults available." canonical="/what-we-treat/adhd-naturopath" keywords="ADHD naturopath Brisbane, ADHD treatment, natural ADHD support, holistic ADHD treatment, ADHD specialist" serviceSchema={{
       "@context": "https://schema.org",
       "@type": "Service",
       "@id": "https://nxtlvlhealth.com.au/what-we-treat/adhd-naturopath#service",

@@ -8,8 +8,8 @@ const WindsorNaturopathy = () => {
   return (
     <>
       <SEO 
-        title="Best Naturopath Windsor | Book a Free 15-Min Consult!"
-        description="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath in Windsor that will find and heal the root cause of your problems."
+        title="Naturopath Windsor | Online Consults | NXTLVL Health"
+        description="Online naturopath consultations for Windsor and greater Brisbane. Species-level gut testing and tailored herbal plans. Book a free 15-minute chat today."
         canonical="/areas-we-serve/naturopath-windsor"
         keywords="naturopath Windsor, Windsor naturopathy, natural health Windsor, holistic health Windsor Brisbane"
       />

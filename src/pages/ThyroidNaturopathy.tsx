@@ -88,7 +88,7 @@ const ThyroidNaturopathy = () => {
     }]
   };
   return <>
-      <SEO title="#1 Naturopath for Thyroid Support in Brisbane" description="Feel tired, foggy or stuck with thyroid symptoms? Our naturopath for thyroid problems will find what others have missed—so you can finally heal." canonical="/what-we-treat/naturopath-thyroid-brisbane" keywords="thyroid naturopath Brisbane, thyroid treatment, hypothyroid naturopath, Hashimoto's treatment, thyroid support" serviceSchema={thyroidNaturopathSchema} />
+      <SEO title="Naturopath Thyroid Brisbane | Hashimotos & Fatigue Help" description="Tired, cold and foggy with normal thyroid results? We review full thyroid pathology and gut health to find the driver. Free 15-minute online consult." canonical="/what-we-treat/naturopath-thyroid-brisbane" keywords="thyroid naturopath Brisbane, thyroid treatment, hypothyroid naturopath, Hashimoto's treatment, thyroid support" serviceSchema={thyroidNaturopathSchema} />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

@@ -8,8 +8,8 @@ const ClayfieldNaturopathy = () => {
   return (
     <>
       <SEO 
-        title="Best Naturopath Clayfield | Book a Free 15-Min Consult!"
-        description="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath in Clayfield that will find and heal the root cause of your problems."
+        title="Naturopath Clayfield | Online Consults | NXTLVL Health"
+        description="Online naturopath consultations for Clayfield and greater Brisbane, finding the root cause of bloating, fatigue and skin issues. Free 15-minute chat."
         canonical="/areas-we-serve/naturopath-clayfield-brisbane"
         keywords="naturopath Clayfield, Clayfield naturopathy, natural health Clayfield, holistic health Clayfield Brisbane"
       />

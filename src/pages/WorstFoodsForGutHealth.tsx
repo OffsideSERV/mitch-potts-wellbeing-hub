@@ -93,8 +93,8 @@ const WorstFoodsForGutHealth = () => {
   return (
     <>
       <SEO 
-        title="7 Worst Foods for Gut Health | Avoid These Like The Plague"
-        description="Are you struggling with bloating or tummy pain? Learn about the 7 worst foods for gut health that might be causing your pain. Let's jump in!"
+        title="7 Worst Foods for Gut Health | Brisbane Naturopath Guide"
+        description="The seven foods a naturopath sees wrecking gut health most often, why they irritate your microbiome, and what to eat instead without going hungry."
         canonical="/blog/gut-health/7-worst-foods-for-gut-health"
         keywords="worst foods for gut health, gut health foods to avoid, digestive health, bloating causes, gut bacteria, food intolerance"
       />

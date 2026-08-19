@@ -8,8 +8,8 @@ const AcneNaturopathy = () => {
   return (
     <>
       <SEO 
-        title="Acne Naturopathy for YOU | Book a Free 15-Min Consult Today!"
-        description="Skin breaking out and have no idea why? No problem, Mitch's Acne Naturopathy will finally give you answers. Book a free 15-min consult today!"
+        title="Acne Naturopathy Brisbane | Clear Breakouts Naturally"
+        description="Acne naturopathy for breakouts that will not clear, targeting gut bacteria, hormones and nutrient gaps. Book a free 15-minute online consult with Mitch."
         canonical="/what-we-treat/acne-naturopathy"
         keywords="acne naturopath Brisbane, natural acne treatment, acne specialist, holistic acne care, naturopathic acne treatment"
       />

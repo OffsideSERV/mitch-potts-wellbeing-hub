@@ -276,8 +276,8 @@ const NaturopathyBrisbane = () => {
   return (
     <div ref={pageRef} className="min-h-screen bg-background">
       <SEO 
-        title="Best Naturopath Brisbane | Book a FREE 15-Min Consult" 
-        description="We'll give you energy that never dies, skin that never breaks out, and a gut that never bloats in as little as 21 days. Book your free 15-minute consult now." 
+        title="Naturopathy Brisbane | Book a Free 15-Minute Consult" 
+        description="Naturopathy in Brisbane that starts with testing, not guessing. See how Mitch treats bloating, fatigue and hormones, and book a free 15-minute consult." 
         canonical="/naturopathy-brisbane"
         keywords="naturopath Brisbane, naturopathy Brisbane, natural medicine Brisbane, gut health Brisbane, holistic health Brisbane"
         noindex={true}

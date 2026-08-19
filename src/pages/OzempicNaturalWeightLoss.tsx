@@ -9,8 +9,8 @@ const OzempicNaturalWeightLoss = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-muted/20">
       <SEO 
-        title="Embracing Natural Weight Loss with Ozempic: A Naturopath's Approach - Naturopath Brisbane - Health Optimisation Expert"
-        description="Discover how to combine Ozempic with natural weight loss methods. Learn a naturopath's holistic approach to sustainable weight loss with clean eating, exercise, and targeted supplements."
+        title="Ozempic and Natural Weight Loss | A Naturopaths Approach"
+        description="How to pair Ozempic with naturopathic care, protect muscle and gut health, manage side effects and keep the weight off once you stop the injections."
         canonical="/blog/weight-loss/embracing-natural-weight-loss-with-ozempic-a-naturopaths-approach"
         keywords="Ozempic weight loss, natural weight loss, naturopath Brisbane, holistic weight loss, sustainable weight loss, GLP-1, muscle preservation"
       />

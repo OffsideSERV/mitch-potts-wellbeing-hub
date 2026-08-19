@@ -9,8 +9,8 @@ const IBSTreatmentBrisbane = () => {
   return (
     <>
       <SEO 
-        title="Best Treatment for IBS in Brisbane | Book a Free Consult"
-        description="Feeling tired, bloated, foggy or just flat? Our treatment for IBS in Brisbane will heal the real cause of your symptoms, so you can finally feel like YOU again."
+        title="IBS Treatment Brisbane | Root-Cause Gut Testing Plans"
+        description="Practical IBS treatment for Brisbane and beyond: stool testing, targeted herbs and a food plan that suits your life. Free 15-minute online consult."
         canonical="/what-we-treat/ibs-brisbane"
         keywords="IBS treatment Brisbane, irritable bowel syndrome Brisbane, IBS specialist Brisbane, natural IBS treatment, gut health Brisbane"
       />

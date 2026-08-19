@@ -9,8 +9,8 @@ const GutHealth101 = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-muted/20">
       <SEO 
-        title="Gut Health 101: Why Your Stomach Might Be Behind Your Brain Fog and Fatigue - Naturopath Brisbane - Health Optimisation Expert"
-        description="Struggling with brain fog or constant fatigue? Your gut could be the missing link. Discover how poor gut health affects energy, focus, and mental clarity."
+        title="Gut Health 101 | Why Your Gut Causes Brain Fog & Fatigue"
+        description="How poor gut health drains your energy and clouds thinking, the signs to watch for, and the first steps a naturopath uses to rebuild digestion."
         canonical="/blog/gut-health/gut-health-101-why-your-stomach-might-be-behind-your-brain-fog-and-fatigue"
         keywords="gut health, brain fog, fatigue, naturopath Brisbane, digestive health, microbiome, energy, mental clarity"
       />

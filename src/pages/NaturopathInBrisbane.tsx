@@ -278,8 +278,8 @@ const NaturopathInBrisbane = () => {
     <div ref={pageRef} className="min-h-screen bg-background">
       <WelcomeReportPopup />
       <SEO 
-        title="Best Naturopath Brisbane | Book a FREE 15-Min Consult" 
-        description="We'll give you energy that never dies, skin that never breaks out, and a gut that never bloats in as little as 21 days. Book your free 15-minute consult now." 
+        title="Naturopath in Brisbane | Free 15-Min Consult With Mitch" 
+        description="Energy that lasts, calmer skin and a gut that stops bloating in as little as 21 days. Book a free 15-minute consult with naturopath Mitch Potts today." 
         canonical="/naturopath-in-brisbane"
         keywords="naturopath Brisbane, naturopathy Brisbane, natural medicine Brisbane, gut health Brisbane, holistic health Brisbane"
         noindex={true}

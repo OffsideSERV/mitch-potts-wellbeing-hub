@@ -18,8 +18,8 @@ const ThankYouFreeConsult = () => {
     <Layout>
       <div className="bg-gradient-to-br from-primary/10 to-accent/10">
       <SEO
-        title="Thank You for Booking Your Free Consult | NXTLVL Health"
-        description="Thank you for booking your free 15-minute consultation with NXTLVL Health. We look forward to speaking with you."
+        title="Thank You | Your Free 15-Minute Consult Is Booked"
+        description="Your free 15-minute consult with naturopath Mitch Potts is booked. Check your inbox for confirmation and see how to get the most from your call."
         canonical="/thank-you-free-consult"
         noindex={true}
       />

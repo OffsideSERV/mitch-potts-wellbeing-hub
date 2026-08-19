@@ -7,8 +7,8 @@ const NaturopathicNutritionist = () => {
   return (
     <>
       <SEO 
-        title="Naturopathic Nutritionist Brisbane | Holistic Nutrition Therapy"
-        description="Expert naturopathic nutritionist in Brisbane combining nutrition science with natural medicine. Personalised nutrition plans for optimal health and wellness."
+        title="Naturopathic Nutritionist Brisbane | Food as Medicine"
+        description="A naturopathic nutritionist who builds meal plans around your test results, not fads. Hour-long online consults and ongoing support Australia-wide."
         canonical="/naturopathic-nutritionist"
         keywords="naturopathic nutritionist Brisbane, holistic nutrition, functional nutrition, naturopathic nutrition therapy, nutritional medicine"
       />

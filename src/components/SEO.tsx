@@ -13,8 +13,8 @@ interface SEOProps {
 }
 
 const SEO = ({ 
-  title = "NXTLVL Health - Naturopath | Best Naturopath Brisbane | Book a FREE 15-Min Consult!",
-  description = "Feel like something's wrong but no one's listening? NXTLVL Health is the best Naturopath in Brisbane and is here to give you the answers you've been looking for",
+  title = "Best Naturopath Brisbane | Online Consults | NXTLVL Health",
+  description = "Brisbane naturopath Mitch Potts finds the root cause of bloating, fatigue and hormonal issues. Online consults Australia-wide. Book a free 15-min chat.",
   canonical,
   ogImage = "https://nxtlvlhealth.com.au/wp-content/uploads/2025/06/Naturopath-having-consult-with-female-patient-scaled.jpeg",
   ogType = "website",

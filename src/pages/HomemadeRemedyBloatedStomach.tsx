@@ -11,8 +11,8 @@ const HomemadeRemedyBloatedStomach = () => {
   return (
     <>
       <SEO 
-        title="#1 Homemade Remedy for Bloated Stomach | Natural Relief Tips"
-        description="Discover the best homemade remedies for bloated stomach relief. Learn natural, safe, and effective ways to reduce bloating fast with expert naturopathic advice."
+        title="Homemade Remedy for Bloated Stomach | Fast Natural Relief"
+        description="Simple homemade remedies for a bloated stomach, from warm teas to gentle movement, plus the habits a naturopath says cause the bloating to begin with."
         canonical="/blog/gut-health/homemade-remedy-for-bloated-stomach"
         keywords="homemade remedy bloated stomach, natural bloating relief, ginger tea bloating, home remedies for gas, stomach bloating cure, naturopathic bloating treatment"
       />

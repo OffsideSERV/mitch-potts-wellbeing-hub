@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Award, Users, Heart, CheckCircle, Star, BookOpen, Microscope, Brain } from "lucide-react";
 const AboutUs = () => {
   return <div className="min-h-screen">
-      <SEO title="About Mitch Potts - Brisbane's Most Trusted Naturopath | NXTLVL Health" description="Meet Mitch Potts, Brisbane's leading naturopath who has helped thousands feel better naturally. Discover his story, qualifications, and why patients trust him with their health journey." canonical="/about-us" keywords="Mitch Potts naturopath, Brisbane naturopath qualifications, trusted naturopath Brisbane, experienced naturopath, natural health practitioner Brisbane" />
+      <SEO title="About Mitch Potts | Brisbane Naturopath | NXTLVL Health" description="Meet Mitch Potts, the Brisbane naturopath behind NXTLVL Health. His story, qualifications, testing-first approach and how he works with clients online." canonical="/about-us" keywords="Mitch Potts naturopath, Brisbane naturopath qualifications, trusted naturopath Brisbane, experienced naturopath, natural health practitioner Brisbane" />
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-background to-accent/20 py-16 lg:py-24">

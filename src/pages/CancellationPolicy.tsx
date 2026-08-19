@@ -4,8 +4,8 @@ const CancellationPolicy = () => {
   return (
     <>
       <SEO 
-        title="Cancellation Policy | NXTLVL Health"
-        description="Learn about NXTLVL Health's cancellation and no-show policy. 24-hour cancellation policy with flexible approach for unforeseen circumstances."
+        title="Cancellation Policy | NXTLVL Health Online Consults"
+        description="Read the NXTLVL Health cancellation and rescheduling policy, including our 24-hour notice period and how we handle genuinely unforeseen circumstances."
         canonical="/cancellation-policy"
         keywords="naturopath cancellation policy, appointment cancellation, NXTLVL Health booking policy"
       />

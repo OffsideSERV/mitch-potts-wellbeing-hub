@@ -60,8 +60,8 @@ const CardiovascularHealth = () => {
   return (
     <>
       <SEO 
-        title="Cardiovascular Health Naturopath Brisbane | High Cholesterol Treatment"
-        description="Expert cardiovascular health naturopath in Brisbane. Natural treatment for high cholesterol, hypertension & heart health. Book your consultation today."
+        title="Cardiovascular Health Naturopath | Cholesterol Support"
+        description="Natural support for high cholesterol, blood pressure and heart health, using detailed pathology and targeted nutrition. Online consults Australia-wide."
         canonical="/what-we-treat/cardiovascular-health-naturopath-brisbane"
       />
       

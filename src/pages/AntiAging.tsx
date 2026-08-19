@@ -20,8 +20,8 @@ export default function AntiAging() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-muted/20">
       <SEO 
-        title="Anti-Aging Naturopath Brisbane | Natural Longevity Medicine | NXTLVL Health"
-        description="Expert naturopathic anti-aging treatments in Brisbane. Natural approaches to slow aging, boost vitality, and enhance longevity. Book your consultation today."
+        title="Anti-Ageing Naturopath Brisbane | Longevity Medicine"
+        description="Naturopathic anti-ageing care focused on energy, skin, muscle and metabolic health, guided by testing rather than guesswork. Online consults available."
         keywords="anti-aging naturopath Brisbane, longevity medicine, natural anti-aging, vitality enhancement, healthy aging, naturopathic anti-aging treatment"
         canonical="/what-we-treat/anti-aging-naturopath-brisbane"
       />

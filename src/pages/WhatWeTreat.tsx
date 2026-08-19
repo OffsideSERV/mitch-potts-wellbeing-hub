@@ -29,8 +29,8 @@ const WhatWeTreat = () => {
   return (
     <>
       <SEO 
-        title="What We Treat | Conditions & Health Issues | NXTLVL Health"
-        description="Discover the wide range of health conditions we treat at NXTLVL Health. From gut health and fatigue to thyroid issues and weight management - we can help you feel your best."
+        title="What We Treat | Gut, Hormones, Skin & Fatigue Support"
+        description="Browse every condition Mitch works with, from IBS, SIBO and reflux to thyroid, acne, eczema, anxiety and fatigue. Online consults across Australia."
         canonical="/what-we-treat"
         keywords="naturopath conditions Brisbane, health conditions treated, naturopathic medicine Brisbane, holistic health treatment"
       />
