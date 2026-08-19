@@ -519,7 +519,7 @@ const SIBONaturopathy = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img src="/lovable-uploads/17548d2b-e4a0-4571-aba5-1705f04c994e.png" alt="NXTLVL Health natural medicine practice in New Farm Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/17548d2b-e4a0-4571-aba5-1705f04c994e.png" alt="NXTLVL Health online natural medicine serving New Farm Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">

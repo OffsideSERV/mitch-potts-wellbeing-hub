@@ -116,7 +116,7 @@ const Areas = () => {
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
                   <img 
-                    alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" 
+                    alt="NXTLVL Health online natural medicine serving New Farm Brisbane" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
                     src="/lovable-uploads/001a23d3-f9a1-4973-a6a1-a0bf46a7cfbb.png"
                   />
@@ -155,7 +155,7 @@ const Areas = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" 
+                alt="NXTLVL Health online natural medicine serving New Farm Brisbane" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
                 src="/lovable-uploads/001a23d3-f9a1-4973-a6a1-a0bf46a7cfbb.png" 
               />
@@ -182,7 +182,7 @@ const Areas = () => {
                 Looking for a trusted naturopath near your suburb? NXTLVL Health is here to help.
               </p>
               <p>
-                We're based right in <strong>New Farm</strong>, and we support clients from all around Brisbane's inner and surrounding suburbs. People travel from across the city to see us because they want <strong>natural answers, real care, and a plan that works for their body</strong>.
+                We're Brisbane born and bred, working online with clients across <strong>New Farm</strong> and all around Brisbane's inner and surrounding suburbs. People right across the city choose us because they want <strong>natural answers, real care, and a plan that works for their body</strong>.
               </p>
               <p>
                 Below are just some of the suburbs we work with.

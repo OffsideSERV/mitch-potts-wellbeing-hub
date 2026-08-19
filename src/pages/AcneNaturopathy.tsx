@@ -603,7 +603,7 @@ const AcneNaturopathy = () => {
           <div className="mb-12">
             <img 
               src="/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png" 
-              alt="NXTLVL Health natural medicine practice in New Farm Brisbane with Mitch" 
+              alt="NXTLVL Health online natural medicine serving New Farm Brisbane with Mitch" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
             />
           </div>

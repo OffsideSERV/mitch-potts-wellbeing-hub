@@ -75,7 +75,7 @@ const HomemadeRemedyBloatedStomach = () => {
               
               <div className="bg-primary/5 border-l-4 border-primary p-6 rounded-r-lg mb-8">
                 <p className="text-lg font-medium text-foreground mb-0">
-                  I hear this question in my New Farm practice almost every week:<br />
+                  I hear this question in my online consults almost every week:<br />
                   <strong>"Mitch, what's the best homemade remedy for a bloated stomach?"</strong>
                 </p>
               </div>

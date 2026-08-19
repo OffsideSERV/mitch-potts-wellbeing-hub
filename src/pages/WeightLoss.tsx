@@ -316,7 +316,7 @@ const WeightLoss = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img src="/lovable-uploads/fee05240-1244-4024-9a2b-a3742433d32f.png" alt="NXTLVL Health modern naturopathic weight loss practice in New Farm Brisbane offering comprehensive wellness services" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/fee05240-1244-4024-9a2b-a3742433d32f.png" alt="NXTLVL Health online naturopathic weight loss support serving New Farm Brisbane offering comprehensive wellness services" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

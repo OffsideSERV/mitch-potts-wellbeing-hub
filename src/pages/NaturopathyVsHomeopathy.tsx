@@ -386,7 +386,7 @@ const NaturopathyVsHomeopathy = () => {
             <div className="space-y-4 text-muted-foreground mb-8">
               <p>Natural healing doesn't have to be confusing. Both naturopathy and homeopathy offer valuable paths—but they're different in how they work, what they focus on, and the tools they use.</p>
               <p>If you're leaning toward naturopathy and want to understand what's really going on in your body, that's where I come in.</p>
-              <p>In my practice based in New Farm, I use naturopathy, nutrition, functional testing, and movement to support real change. I'm here to help people who feel tired, bloated, or just not themselves anymore—finally feel strong again.</p>
+              <p>Working online with clients across New Farm and greater Brisbane, I use naturopathy, nutrition, functional testing, and movement to support real change. I'm here to help people who feel tired, bloated, or just not themselves anymore—finally feel strong again.</p>
               <p>Still not sure? That's okay. You can always reach out and ask questions. I'm more than happy to help.</p>
             </div>
 

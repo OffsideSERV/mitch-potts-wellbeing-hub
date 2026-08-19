@@ -446,7 +446,7 @@ const ThyroidNaturopathy = () => {
           </div>
 
           <div className="mb-12">
-            <img src="/lovable-uploads/c3e9d0bc-b8cf-4e44-81d0-11a9a0213d4b.png" alt="Professional naturopath thyroid treatment centre at NXTLVL Health in New Farm Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/c3e9d0bc-b8cf-4e44-81d0-11a9a0213d4b.png" alt="Professional online naturopath thyroid support at NXTLVL Health serving New Farm Brisbane" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="max-w-4xl mx-auto">

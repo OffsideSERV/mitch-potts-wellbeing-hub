@@ -146,7 +146,7 @@ const ChildrensHealth = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  If your child is struggling with skin conditions, digestive issues, mood swings, or poor immunity, you're not alone. At NXTLVL Health in New Farm, our <strong>children's naturopath services</strong> are designed to support your child's health naturally and very gently.
+                  If your child is struggling with skin conditions, digestive issues, mood swings, or poor immunity, you're not alone. At NXTLVL Health, working online with families across New Farm, our <strong>children's naturopath services</strong> are designed to support your child's health naturally and very gently.
                 </p>
                 <p>
                   Led by an experienced naturopath by the name of <strong>Mitchell Potts</strong>, we aim to treat the root cause, not just manage the symptoms, so your child can feel healthier, stronger, and more balanced. Whether it's gut health, food intolerances, behavioural issues, or chronic health concerns, we provide safe and effective naturopathic treatment tailored for children of all ages. For children with anxiety concerns, our <a href="/what-we-treat/naturopath-anxiety" className="text-primary hover:text-primary/80 underline">anxiety naturopath services</a> can provide gentle, age-appropriate support.
