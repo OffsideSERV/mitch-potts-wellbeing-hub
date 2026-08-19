@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -7,14 +6,6 @@ import Footer from "@/components/Footer";
 const NXTLVLResetBrochure = () => {
   return (
     <>
-      <Helmet>
-        <title>NXTLVL Reset Brochure | 12-Week Programme Overview</title>
-        <meta name="description" content="The NXTLVL Reset brochure covering the 12-week programme structure, inclusions, testing and support, so you can review everything in one place." />
-        <meta property="og:title" content="NXTLVL Reset Brochure | 12-Week Programme Overview" />
-        <meta property="og:description" content="The NXTLVL Reset brochure covering the 12-week programme structure, inclusions, testing and support, so you can review everything in one place." />
-        <link rel="canonical" href="https://nxtlvlhealth.com.au/nxtlvl-reset/brochure" />
-      </Helmet>
-
       <div className="min-h-screen" style={{ background: 'linear-gradient(135deg, #1a1a1a, #2d2d2d)' }}>
         <div className="container mx-auto px-4 py-8">
           <Link to="/nxtlvl-reset" className="inline-flex items-center gap-2 text-nxt-teal hover:text-nxt-teal-light transition-nxt mb-8">

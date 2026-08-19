@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import CriticalCSS from "./components/CriticalCSS";
 import ScrollToTop from "./components/ScrollToTop";
+import RouteMetadata from "./components/RouteMetadata";
 
 // Import all pages directly for instant navigation
 import Index from "./pages/Index";
@@ -96,6 +97,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <RouteMetadata />
         <ScrollToTop />
         <Routes>
           {/* Landing pages without Layout (no nav/footer) */}

@@ -1,11 +1,5 @@
 
-import { useEffect } from 'react';
-
 const RobotsPage = () => {
-  useEffect(() => {
-    document.title = 'Robots.txt';
-  }, []);
-
   const robotsContent = `User-agent: Googlebot
 Allow: /
 Crawl-delay: 1
