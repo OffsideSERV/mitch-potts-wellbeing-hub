@@ -9,10 +9,10 @@ const IBSClinic = () => {
   return (
     <>
       <SEO 
-        title="IBS Clinic Brisbane | Online IBS Care | NXTLVL Health"
-        description="Our online IBS clinic maps what is living in your gut, then treats it with practitioner-only formulas and diet support. Australia-wide consultations."
+        title="Online IBS Programme Brisbane | Week-by-Week Process | NXTLVL Health"
+        description="See exactly what happens week by week in our online IBS programme, from your free first chat through testing, results, protocol and review. Video consults Australia-wide."
         canonical="/what-we-treat/ibs-clinic"
-        keywords="IBS clinic Brisbane, irritable bowel syndrome clinic, IBS treatment center, gut health clinic Brisbane, digestive health clinic"
+        keywords="IBS programme Brisbane, online IBS treatment process, IBS testing timeline, IBS protocol weeks, IBS review consult"
       />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
@@ -22,27 +22,31 @@ const IBSClinic = () => {
             <div className="space-y-8 lg:mt-0 mt-12">
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  IBS Clinic | <span className="text-primary">Find Real Relief</span> at NXTLVL Health
+                  Our Online IBS Programme, Week by Week: <span className="text-primary">From First Consult to Review</span>
                 </h1>
                 
                 {/* Mobile Image */}
                 <div className="relative lg:hidden mb-8 -mx-4">
                   <img 
-                    alt="IBS clinic consultation at NXTLVL Health Brisbane" 
+                    alt="Online IBS programme consultation at NXTLVL Health Brisbane" 
                     className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" 
                     src="/lovable-uploads/629b9330-8bcf-44db-8889-18509024f856.png"
                   />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
-                      <Heart className="h-6 w-6 text-primary" />
+                      <Clock className="h-6 w-6 text-primary" />
                       <div>
-                        <p className="font-semibold text-sm">IBS Clinic</p>
-                        <p className="text-xs text-muted-foreground">Natural • Expert Care • Real Relief</p>
+                        <p className="font-semibold text-sm">Structured Programme</p>
+                        <p className="text-xs text-muted-foreground">Clear Timeline • Online • Australia-Wide</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+
+              <p className="text-lg text-muted-foreground">
+                Wondering what actually happens once you book in? Here's our online IBS programme laid out stage by stage, so you know what to expect, what's included, and roughly when things should start to shift.
+              </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild className="text-base sm:text-lg px-6 py-3 h-auto">
@@ -63,16 +67,16 @@ const IBSClinic = () => {
             {/* Desktop Image */}
             <div className="relative hidden lg:block">
               <img 
-                alt="IBS clinic consultation at NXTLVL Health Brisbane" 
+                alt="Online IBS programme consultation at NXTLVL Health Brisbane" 
                 className="rounded-2xl shadow-2xl w-full h-auto" 
                 src="/lovable-uploads/629b9330-8bcf-44db-8889-18509024f856.png"
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
-                  <Heart className="h-8 w-8 text-primary" />
+                  <Clock className="h-8 w-8 text-primary" />
                   <div>
-                    <p className="font-semibold">IBS Clinic</p>
-                    <p className="text-sm text-muted-foreground">Natural • Expert Care • Real Relief</p>
+                    <p className="font-semibold">Structured Programme</p>
+                    <p className="text-sm text-muted-foreground">Clear Timeline • Online • Australia-Wide</p>
                   </div>
                 </div>
               </div>
@@ -81,17 +85,16 @@ const IBSClinic = () => {
         </div>
       </section>
 
-      {/* Feel Like Yourself Again Section */}
+      {/* Before You Start Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Feel Like Yourself Again At Our IBS Clinic</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Before You Start: The Free 15-Minute Chat</h2>
             
-            {/* Image right under heading */}
             <div className="mb-12">
               <img 
                 src="/lovable-uploads/291dac49-43a8-4619-95ce-899c186cb8e0.png" 
-                alt="Woman feeling uncomfortable with digestive issues and IBS symptoms" 
+                alt="Woman preparing for her free IBS consultation call" 
                 className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
               />
             </div>
@@ -100,30 +103,29 @@ const IBSClinic = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
               <p>
-                <strong>If you can relate to what's below, our IBS Clinic can help:</strong>
+                If you're not sure whether our online IBS programme is the right fit, we start with a short, free video call. This isn't a full consult — it's a chance for us to hear a quick summary of what's going on, check whether we're a good match, and answer any practical questions about cost, timing, or how the video consults work.
               </p>
               <p>
-                Do you feel <strong>bloated, uncomfortable, or like your gut just isn't working right</strong>? Do you have to think twice before eating certain foods? Are you constantly dealing with <strong>stomach pain, constipation, or diarrhoea</strong>? If this sounds like you, you may be living with Irritable Bowel Syndrome (IBS).
+                If you already suspect small intestinal bacterial overgrowth rather than classic IBS (think sudden bloating soon after eating, or symptoms that started after a course of antibiotics or food poisoning), it's worth reading about our dedicated <a href="/what-we-treat/sibo-naturopath" className="text-primary hover:underline">SIBO programme</a> before you book, as the testing pathway differs slightly.
               </p>
               <p>
-                At NXTLVL Health, our <strong>IBS clinic is here to help you</strong>. Led by Mitch, a trusted naturopath and <a href="/what-we-treat/gut-health-specialist" className="text-primary hover:underline">gut health expert</a>, we work with people just like you to uncover the real reason behind your digestive troubles. Our experienced <a href="/what-we-treat/ibs-naturopath" className="text-primary hover:underline">IBS naturopath</a> provides specialized care for lasting relief. Whether you're struggling with <strong>long-term gastrointestinal symptoms</strong> or just starting to notice gut issues, you'll receive <strong>natural support, expert guidance, and a clear plan</strong> to finally feel great.
+                Not sure if what you're experiencing is actually IBS? Our separate page on <a href="/what-we-treat/ibs-brisbane" className="text-primary hover:underline">recognising and understanding an IBS diagnosis</a> covers that in more detail — this page assumes you already have a working diagnosis or a strong suspicion, and focuses purely on the process from here.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* What Is IBS Section */}
+      {/* Week 1 Consult Section */}
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">What Is IBS?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Week 1: Your First Full Consult</h2>
             
-            {/* Image right under heading */}
             <div className="mb-12">
               <img 
                 src="/lovable-uploads/5ab885c2-6334-4880-bd61-dce3bd826f8e.png" 
-                alt="Naturopath explaining IBS to patient at NXTLVL Health clinic" 
+                alt="Naturopath conducting first full IBS video consult" 
                 className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
               />
             </div>
@@ -132,127 +134,63 @@ const IBSClinic = () => {
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
               <p>
-                Irritable bowel syndrome (IBS) is a <strong>common disorder that affects the gastrointestinal tract</strong>. It can cause a range of issues, like <strong>abdominal pain, abdominal bloating, constipation, and diarrhoea</strong>. IBS affects around 1 in 5 people. Some people experience symptoms worse after eating certain foods, or during times of stress or anxiety. These are known as <strong>trigger symptoms</strong>.
+                Your first proper appointment is an hour-long video consult with Mitch, booked at a time that suits you wherever you are in Australia. This session is mostly about building an accurate timeline: when symptoms started, what makes them better or worse, past courses of antibiotics, previous investigations, stress patterns, sleep, and how your bowel habits have changed over months and years, not just this week.
               </p>
               <p>
-                IBS doesn't look the same for everyone. You might have mostly <strong>constipation (<a href="https://www.healthline.com/health/ibs-constipation" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">IBS-C</a>), mostly diarrhoea (<a href="https://www.webmd.com/ibs/what-is-ibs-d" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">IBS-D</a>), or a mix of both (<a href="https://www.healthline.com/health/irritable-bowel-syndrome/ibs-m-causes-symptoms-treatment" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">IBS-M</a>)</strong>. Females are more likely than males to be affected by IBS. That's why <strong>personalised care is so important</strong>.
+                To get the most out of this hour, it helps to arrive with a rough symptom diary (even two weeks of notes on meals, stools and pain is useful), a list of any medications or supplements you're taking, and copies of any previous test results, scopes, or specialist letters. None of this is compulsory, but it saves time and means we can move straight to decisions rather than history-gathering.
+              </p>
+              <p>
+                By the end of Week 1 you'll usually leave with a short-term plan — a few immediate changes to try — plus a decision on whether functional testing makes sense for your case, and if so, which tests.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Do These Symptoms Sound Familiar Section */}
+      {/* Weeks 1-2 Testing Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Do These Symptoms Sound Familiar?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Weeks 1–2: Test Kits Posted Out</h2>
             
-            {/* Image right under heading */}
             <div className="mb-12">
               <img 
                 src="/lovable-uploads/27a9d38d-9848-4b64-aa99-831c8689e952.png" 
-                alt="Woman experiencing IBS symptoms and abdominal discomfort" 
+                alt="IBS test kit posted to patient's home for sampling" 
                 className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
               />
             </div>
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-6">
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Abdominal pain that comes and goes</span>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Bloating or feeling full all the time</span>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Frequent trips to the bathroom</span>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Constipation or diarrhoea (or both)</span>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Feeling tired, foggy, or low in energy</span>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Worrying about what foods might set you off</span>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Embarrassment or discomfort around your gut</span>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">Incomplete bowel movements and pain relieved by passing wind or faeces</span>
-                  </div>
-                </CardContent>
-              </Card>
+            <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
+              <p>
+                If testing is recommended, your kit (usually a stool test, sometimes alongside a food sensitivity or breath test) is posted straight to your door — there's no need to visit anywhere in person. Each kit comes with plain-English instructions covering how to take the sample, how to store it, and how to arrange courier or reply-paid postage back to the lab.
+              </p>
+              <p>
+                Sampling itself typically takes a few minutes and can usually be done on a normal day, though we'll flag anything you need to pause beforehand, such as probiotics or certain medications, so the results aren't skewed. Most people complete and return their kit within a few days of receiving it, and lab turnaround from there is generally one to two weeks.
+              </p>
+              <p>
+                We keep the rationale for which markers we're testing brief here — if you'd like the fuller explanation of why we choose particular tests and how they guide herbal prescribing, that's covered on our <a href="/what-we-treat/ibs-naturopath" className="text-primary hover:underline">IBS naturopath page</a>.
+              </p>
+              <p>
+                While you wait on results, we're still reachable by message for quick practical questions — this isn't a stage where you're left in the dark.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* How Our IBS Clinic Helps Section */}
+      {/* Weeks 2-3 Results Section */}
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">How Our IBS Clinic Helps</h2>
-            <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-8">
-              At NXTLVL Health, we believe in a <strong>full-body approach to IBS treatment</strong>. That means we don't just examine your digestive system; we look at how your <strong>gut, lifestyle, stress, diet, and other factors</strong> all connect.
-            </p>
-            <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Here's what makes our care different from other IBS clinics:
-            </p>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Weeks 2–3: The Results Interpretation Session</h2>
             
-            {/* Image right under text */}
-            <div className="mb-12 mt-8">
+            <div className="mb-12">
               <img 
                 src="/lovable-uploads/001a23d3-f9a1-4973-a6a1-a0bf46a7cfbb.png" 
-                alt="Mitch at NXTLVL Health planning IBS treatment approach" 
+                alt="Naturopath explaining IBS test results during video session" 
                 className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
               />
             </div>
@@ -263,8 +201,8 @@ const IBSClinic = () => {
               <Card className="shadow-md">
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
-                    <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground"><strong>We listen to your story:</strong> Your symptoms, health history, lifestyle, and goals.</span>
+                    <Target className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
+                    <span className="text-lg text-muted-foreground"><strong>We walk through your report together</strong> on a video call, in plain language rather than lab jargon.</span>
                   </div>
                 </CardContent>
               </Card>
@@ -273,16 +211,7 @@ const IBSClinic = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <Brain className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground"><strong>We use natural therapies</strong> that support your body, rather than cover symptoms.</span>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <Target className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground"><strong>We offer testing</strong> like stool tests, food sensitivity checks, and functional gut testing.</span>
+                    <span className="text-lg text-muted-foreground"><strong>We connect findings back to your timeline</strong> from Week 1, so the results explain your actual symptoms, not just numbers on a page.</span>
                   </div>
                 </CardContent>
               </Card>
@@ -291,37 +220,31 @@ const IBSClinic = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-3">
                     <Users className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground"><strong>We build your plan:</strong> Diet, herbs, supplements, and lifestyle — all personalised.</span>
+                    <span className="text-lg text-muted-foreground"><strong>We agree the protocol together</strong> — priorities, sequencing, and what you can realistically fit around work and family life.</span>
                   </div>
                 </CardContent>
               </Card>
             </div>
             
-            <div className="text-center mt-8">
-              <p className="text-lg text-muted-foreground">
-                <a 
-                  href="/what-we-treat/gut-health-specialist"
-                  className="text-primary hover:text-primary/80 underline"
-                >
-                  Click here to learn about Mitchell, our Specialist in Gut Health
-                </a>
+            <div className="text-lg text-muted-foreground leading-relaxed space-y-6 mt-8">
+              <p>
+                This session is also where we talk through cost and duration of any recommended supplements or herbal formulas, so there are no surprises once the protocol phase begins.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Common Causes Section */}
+      {/* Weeks 3-8 Protocol Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Common Causes of IBS Symptoms</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Weeks 3–8: The Protocol Phase</h2>
             
-            {/* Image right under heading */}
             <div className="mb-12">
               <img 
                 src="/lovable-uploads/95e81372-7d61-43a1-b42c-b1cf39f1ff92.png" 
-                alt="Naturopath explaining IBS causes to patient on computer screen" 
+                alt="Patient following personalised IBS protocol at home" 
                 className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
               />
             </div>
@@ -330,27 +253,32 @@ const IBSClinic = () => {
           <div className="max-w-4xl mx-auto space-y-6">
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
               <p>
-                IBS can be triggered by many things. It often shows up after a <strong>gut infection or food poisoning</strong>, but it can also develop from <strong>chronic stress, anxiety, poor diet, or even hormonal changes</strong>. Some patients also show signs of inflammatory bowel disease (IBD), like ulcerative colitis, or have coeliac disease. <strong>IBS can lead to anxiety and depression</strong> in some individuals.
+                This is the longest stretch of the programme and the part where most of the actual change happens. You'll be following a personalised combination of diet adjustments, herbal medicine and targeted supplements, with a short check-in consult roughly midway through to fine-tune dosing and troubleshoot anything that isn't sitting well.
               </p>
               <p>
-                Your symptoms could also be related to other conditions in the <strong>small intestine or large intestine</strong> that need proper testing and personalised care.
+                Expectation-setting matters here. Bowel regularity and bloating are often the first things to shift, sometimes within the first couple of weeks. Pain and urgency tend to follow a little later, as gut lining and motility settle. Energy, skin and mood changes are usually the slowest to show, often not obvious until six to eight weeks in.
+              </p>
+              <p>
+                It's also completely normal to hit a wobble around weeks four to five — a stressful week, a dietary slip, or a temporary flare as your gut adjusts to new herbs. This doesn't mean the plan has failed; it's exactly why we stay in contact through this phase rather than sending you off for two months alone.
+              </p>
+              <p>
+                Communication between consults happens by message, so if a symptom changes, a herb doesn't agree with you, or you're simply unsure whether something is expected, you're not waiting weeks for an answer. What we ask of you in return is honesty about adherence — if a food plan or dosing schedule isn't realistic for your week, tell us so we can adjust it rather than guess later why progress has stalled.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* What to Expect Section */}
+      {/* Weeks 8-12 Review Section */}
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">What to Expect From Your Appointment</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Weeks 8–12: Review, Retesting and Reintroduction</h2>
             
-            {/* Image right under heading */}
             <div className="mb-12">
               <img 
                 src="/lovable-uploads/d4800494-c236-4cb2-be3b-0596f06a6964.png" 
-                alt="Naturopath providing comprehensive IBS care at NXTLVL Health" 
+                alt="Naturopath reviewing IBS progress during retest consult" 
                 className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
               />
             </div>
@@ -359,33 +287,33 @@ const IBSClinic = () => {
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
               <p>
-                Your first visit will involve a <strong>full chat about your symptoms and health journey</strong>. This includes a physical examination, as well as talking through your <strong>bowel function, stool patterns, and dietary habits</strong>. We may also recommend stool testing or other functional testing if needed.
+                Around the two to three month mark, we hold a formal review consult. For many people this includes a retest of the original markers, so we can see objectively what's shifted rather than relying on memory of how you felt on any given day. If trigger foods were removed earlier in the programme, this is also the stage where we guide a structured reintroduction, adding items back one at a time so any reaction is easy to trace.
               </p>
             </div>
 
             <Card className="shadow-lg">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-semibold mb-6 text-primary">Your Treatment Plan Might Include:</h3>
+                <h3 className="text-2xl font-semibold mb-6 text-primary">What This Stage Typically Covers:</h3>
                 <ul className="space-y-4">
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                    <span>Targeted herbs and supplements to support gut healing</span>
+                    <span>Comparing retest results against your original baseline</span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                    <span>Diet changes to reduce trigger foods (like fermentable oligosaccharides and milk products)</span>
+                    <span>A structured, one-at-a-time food reintroduction plan</span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                    <span>Stress reduction strategies to help you feel calmer and in control</span>
+                    <span>Tapering or adjusting herbs and supplements based on progress</span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                    <span>Lifestyle changes to improve digestion, sleep, and energy</span>
+                    <span>Flagging anything that still needs further investigation, including a possible SIBO pathway</span>
                   </li>
                 </ul>
                 <p className="text-muted-foreground text-lg mt-6">
-                  <strong>Diet and lifestyle changes are often the best long-term strategy</strong> to ease IBS symptoms.
+                  If bloating patterns still point to bacterial overgrowth rather than resolved IBS at this stage, we'll talk through whether our <a href="/what-we-treat/sibo-naturopath" className="text-primary hover:underline">SIBO programme</a> is a more accurate next step.
                 </p>
               </CardContent>
             </Card>
@@ -393,234 +321,79 @@ const IBSClinic = () => {
         </div>
       </section>
 
-      {/* Testing at Our IBS Clinic Section */}
+      {/* Maintenance Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Testing at Our IBS Clinic</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Beyond Week 12: Maintenance</h2>
             
-            {/* Image right under heading */}
             <div className="mb-12">
               <img 
                 src="/lovable-uploads/6253d25b-6827-4ec4-81ad-37d3b431a140.png" 
-                alt="Naturopath conducting testing for IBS diagnosis at NXTLVL Health" 
+                alt="Patient maintaining IBS improvements after completing the programme" 
                 className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
               />
             </div>
           </div>
 
           <div className="max-w-4xl mx-auto space-y-8">
-            <div className="grid md:grid-cols-1 gap-6">
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <Target className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground"><strong>Stool tests</strong> – to check your gut bacteria, inflammation, and digestion markers</span>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <Heart className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground"><strong>Food allergy and sensitivity panels</strong> – to see what foods might be causing issues</span>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <Brain className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground"><strong>Other testing options</strong> – including hormone, liver, and microbiome testing if needed</span>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
-
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
               <p>
-                This helps us <strong>accurately diagnose IBS, uncover the exact cause of your symptoms, and rule out other illnesses</strong> or chronic conditions. In IBS, medical tests such as blood tests, endoscopy, and imaging tests don't show anything abnormal. In more severe cases, we may refer you for a colonoscopy, CT scan, or testing with a flexible tube via your doctor.
+                Once symptoms have settled and reintroduction is complete, most people move to occasional maintenance check-ins rather than regular consults — perhaps once every few months, or simply on an as-needed basis if stress, travel or illness threatens to unsettle things again. Some patients stay on a low, ongoing dose of a particular herb or supplement long term; others need nothing further at all.
+              </p>
+              <p>
+                What's expected of you at this stage is mainly self-monitoring: noticing early if old patterns creep back, and reaching out promptly rather than waiting for a full relapse before booking back in.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Natural Treatments Section */}
+      {/* Testing rationale brief Section */}
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Natural Treatments That Work</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why This Order, Briefly</h2>
             
-            {/* Image right under heading */}
             <div className="mb-12">
               <img 
                 src="/lovable-uploads/d515fc10-3cc2-4062-adf8-2638cee1c7bc.png" 
-                alt="Mitch planning natural IBS treatments at NXTLVL Health" 
+                alt="Naturopath planning IBS programme sequencing" 
                 className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
               />
             </div>
           </div>
 
           <div className="max-w-4xl mx-auto space-y-6">
-            <div className="grid gap-4">
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground">Personalised diet based on your trigger symptoms</span>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground">Herbal medicine to calm inflammation and restore gut balance</span>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground">Digestive enzymes to support nutrient absorption and ease discomfort</span>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground">Guidance from a clinical psychologist if stress or trauma is a factor</span>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground">Easy, effective supplements that are based on what your body actually needs</span>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
-
-            <div className="text-center mt-8 space-y-4">
-              <p className="text-lg text-muted-foreground">
-                <strong>Counseling can be suggested for patients with IBS</strong> if depression or stress worsens their symptoms.
+            <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
+              <p>
+                We test before we treat because guessing at herbs and supplements wastes both your time and money. We retest before declaring victory because how you feel and what's actually changed internally don't always move at the same pace. And we reintroduce foods gradually because an overly restricted diet is not a long-term solution.
               </p>
-              <p className="text-lg text-muted-foreground">
-                 <a 
-                   href="/what-we-treat/ibs-naturopath"
-                   className="text-primary hover:text-primary/80 underline"
-                 >
-                   Click here to learn about our IBS Naturopathy
-                 </a>
+              <p>
+                The detailed reasoning behind our specific testing choices and herbal selections lives on our <a href="/what-we-treat/ibs-naturopath" className="text-primary hover:underline">IBS naturopath page</a> — this page is deliberately focused on the process and timeline rather than the clinical rationale.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Why Choose NXTLVL Health Section */}
-      <section className="py-20 px-4">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Choose NXTLVL Health?</h2>
-            
-            {/* Image right under heading */}
-            <div className="mb-12">
-              <img 
-                src="/lovable-uploads/123c33a8-6a44-4e25-911f-05813ec42a6f.png" 
-                alt="Happy patient consulting with naturopath at NXTLVL Health IBS clinic" 
-                className="rounded-2xl shadow-lg w-full h-auto max-w-4xl mx-auto" 
-              />
-            </div>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            <div className="grid gap-6">
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-4">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground">We specialise in treating IBS symptoms naturally</span>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-4">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground">We help you manage gastrointestinal symptoms, not just mask them</span>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-4">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground">We offer a tailored treatment plan to fit your goals and lifestyle</span>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-4">
-                    <CheckCircle className="h-6 w-6 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-lg text-muted-foreground">We look at the whole picture — from gut to brain, from stress to food</span>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
-
-            <div className="text-center mt-8 space-y-4">
-              <p className="text-lg text-muted-foreground">
-                At NXTLVL Health, <strong>we're not just another one of those IBS clinics. We're a team that genuinely cares</strong> about your health, your body, and your life.
-              </p>
-              <p className="text-lg text-muted-foreground">
-                 <a 
-                   href="/what-we-treat/gut-health-naturopath-brisbane"
-                   className="text-primary hover:text-primary/80 underline"
-                 >
-                   Click here to explore our Gut Health Naturopathy
-                 </a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Let's Help You Get Your Life Back Section */}
+      {/* CTA Section */}
       <section className="py-20 px-4 bg-primary/5">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Let's Help You Get Your Life Back</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Ready to See Where You'd Start?</h2>
           </div>
 
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6 text-center">
               <p>
-                Living with IBS can feel like a <strong>daily struggle</strong>. You're constantly checking where the nearest bathroom is, stressing about what to eat, or hiding how you feel. <strong>But it doesn't have to be this way</strong>.
+                Every programme starts in the same place: a short, free conversation to work out whether this timeline fits your situation. From there, it's a clear sequence of consults, testing, and check-ins — never guesswork, and never open-ended.
               </p>
               <p>
-                With the right support, the right testing, and the right plan, <strong>you can feel better</strong>. IBS symptoms can have a huge impact on your quality of life, but they don't have to define it.
-              </p>
-              <p>
-                You can <strong>wake up without bloating. Eat without fear. Travel without worry. And just live life again</strong>.
+                If you'd like to understand your symptoms first, read more on our <a href="/what-we-treat/ibs-brisbane" className="text-primary hover:underline">IBS Brisbane page</a>, or head back to our <a href="/what-we-treat/gut-health-naturopath-brisbane" className="text-primary hover:underline">gut health naturopathy hub</a> to compare this with our other digestive programmes.
               </p>
               <p className="font-semibold text-primary">
-                If you're ready to take that step, our <strong>IBS clinic is here for you</strong>.
+                Ready to find out where you'd start? Book your free 15-minute chat below.
               </p>
             </div>
 

@@ -88,170 +88,118 @@ const GutHealth = () => {
       }
     }]
   };
-  const gutHealthSigns = [{
-    title: "CONSTANT BLOATING, GAS, OR ABDOMINAL PAIN",
-    description: "Persistent digestive discomfort that affects your daily life and makes you feel uncomfortable after eating.",
+
+  // Digestive complaints covered on this hub, each summarised briefly and linked out where a dedicated page exists
+  const digestiveComplaints = [{
+    title: "BLOATING, WIND AND ABDOMINAL DISTENSION",
+    description: "One of the most common reasons Brisbane clients book in. Bloating can come from fermentation of certain carbohydrates, sluggish motility, low stomach acid, or an overgrowth of bacteria higher up the digestive tract. We work out which of these is driving your bloat rather than guessing.",
     icon: <Activity className="h-6 w-6 text-primary" />
   }, {
-    title: "TROUBLE WITH BOWEL MOVEMENTS (DIARRHOEA, CONSTIPATION, OR BOTH)",
-    description: "Irregular bowel patterns that may alternate between loose stools and constipation, indicating digestive imbalance.",
-    icon: <TestTube className="h-6 w-6 text-primary" />
-  }, {
-    title: "FOOD INTOLERANCES OR SENSITIVITIES",
-    description: "Reactions to certain foods that cause digestive upset, skin issues, or other systemic symptoms.",
-    icon: <Heart className="h-6 w-6 text-primary" />
-  }, {
-    title: "SKIN CONDITIONS LIKE ACNE OR ECZEMA",
-    description: "Skin problems that may be linked to gut inflammation and poor digestive health affecting your body's ability to eliminate toxins.",
-    icon: <Eye className="h-6 w-6 text-primary" />
-  }, {
-    title: "LOW ENERGY AND UNEXPLAINED FATIGUE",
-    description: "Persistent tiredness that may be related to poor nutrient absorption and gut dysfunction affecting your overall vitality.",
-    icon: <Activity className="h-6 w-6 text-primary" />
-  }, {
-    title: "ANXIETY, DEPRESSION, OR FREQUENT OVERWHELM",
-    description: "Mental health symptoms that may be connected to the gut-brain axis and imbalanced gut bacteria affecting neurotransmitter production.",
-    icon: <Brain className="h-6 w-6 text-primary" />
-  }, {
-    title: "A HISTORY OF ANTIBIOTIC USE OR CHRONIC STRESS",
-    description: "Past treatments or lifestyle factors that may have disrupted your natural gut flora balance.",
-    icon: <Beaker className="h-6 w-6 text-primary" />
-  }, {
-    title: "BEING TOLD 'YOUR RESULTS ARE FINE,' BUT YOU STILL FEEL OFF",
-    description: "Standard medical tests showing normal results while you continue to experience digestive and health symptoms.",
-    icon: <Stethoscope className="h-6 w-6 text-primary" />
-  }];
-  const conditionsWeWorkWith = [{
     title: "IRRITABLE BOWEL SYNDROME (IBS)",
-    description: "A common digestive disorder causing cramping, abdominal pain, bloating, gas, and changes in bowel habits.",
-    icon: <Activity className="h-6 w-6 text-primary" />
+    description: "A diagnosis of exclusion covering a cluster of symptoms — cramping, urgency, alternating bowel habits — once more serious causes have been ruled out. It's broad enough that two people with an IBS label can need completely different plans.",
+    icon: <TestTube className="h-6 w-6 text-primary" />
   }, {
     title: "SMALL INTESTINAL BACTERIAL OVERGROWTH (SIBO)",
-    description: "An overgrowth of bacteria in the small intestine that can cause bloating, gas, diarrhoea, and malabsorption.",
-    icon: <TestTube className="h-6 w-6 text-primary" />
-  }, {
-    title: "ULCERATIVE COLITIS",
-    description: "An inflammatory bowel disease that causes inflammation and ulcers in the digestive tract.",
-    icon: <Heart className="h-6 w-6 text-primary" />
-  }, {
-    title: "CROHN'S DISEASE",
-    description: "A type of inflammatory bowel disease that causes inflammation of the digestive tract lining.",
-    icon: <Activity className="h-6 w-6 text-primary" />
-  }, {
-    title: "LEAKY GUT SYNDROME",
-    description: "Increased intestinal permeability that allows toxins and bacteria to leak through the intestinal wall.",
-    icon: <Eye className="h-6 w-6 text-primary" />
-  }, {
-    title: "ACID REFLUX AND HEARTBURN",
-    description: "Stomach acid flowing back into the esophagus, causing burning sensations and digestive discomfort.",
+    description: "Excess bacteria colonising the small intestine, producing hydrogen or methane gas that causes bloating, discomfort and altered bowel habits. Breath testing can confirm it, and treatment usually runs in structured phases.",
     icon: <Beaker className="h-6 w-6 text-primary" />
   }, {
-    title: "FOOD ALLERGIES AND SENSITIVITIES",
-    description: "Immune reactions to specific foods that can cause digestive symptoms and systemic inflammation.",
+    title: "REFLUX AND HEARTBURN",
+    description: "Burning, regurgitation or a lump-in-throat feeling after meals. Often assumed to mean 'too much acid', when low stomach acid, delayed emptying, or a stressed nervous system are frequently the real drivers.",
     icon: <Heart className="h-6 w-6 text-primary" />
   }, {
-    title: "POOR NUTRIENT ABSORPTION",
-    description: "Difficulty absorbing essential vitamins and minerals from food, leading to deficiencies and health issues.",
+    title: "CONSTIPATION",
+    description: "Infrequent, hard or incomplete-feeling bowel motions. We look at fibre and fluid intake, motility, thyroid function, pelvic floor coordination and gut flora balance rather than reaching straight for a laxative.",
+    icon: <Stethoscope className="h-6 w-6 text-primary" />
+  }, {
+    title: "DIARRHOEA AND URGENCY",
+    description: "Loose, frequent or urgent motions that can stem from infection, bile acid issues, food intolerance, inflammation or an anxious gut-brain connection. Stool testing helps rule pathogens in or out early.",
     icon: <TestTube className="h-6 w-6 text-primary" />
   }, {
-    title: "AUTOIMMUNE CONDITIONS",
-    description: "Conditions where the immune system attacks healthy tissues, often linked to gut health imbalances.",
-    icon: <Activity className="h-6 w-6 text-primary" />
-  }, {
-    title: "SKIN CONDITIONS LINKED TO GUT IMBALANCES",
-    description: "Skin problems like eczema, acne, and psoriasis that may be connected to digestive health issues.",
+    title: "FOOD INTOLERANCES AND SENSITIVITIES",
+    description: "Reactions to foods like dairy, gluten, fructose or histamine-rich meals that cause bloating, pain, fatigue or skin flares. We map genuine triggers with structured elimination and testing rather than long-term blanket restriction.",
     icon: <Eye className="h-6 w-6 text-primary" />
   }, {
-    title: "CHRONIC FATIGUE, HORMONAL IMBALANCE, AND MENTAL HEALTH ISSUES",
-    description: "Systemic health problems that may be rooted in poor gut health and microbiome imbalances.",
+    title: "COELIAC DISEASE AND NON-COELIAC GLUTEN SENSITIVITY",
+    description: "Where gluten is suspected, we help you understand what proper testing looks like, support you if coeliac disease is confirmed, and help those with non-coeliac sensitivity manage symptoms without unnecessary anxiety around food.",
+    icon: <Leaf className="h-6 w-6 text-primary" />
+  }, {
+    title: "GUT-SKIN CONNECTIONS (ACNE, ECZEMA, ROSACEA)",
+    description: "Persistent skin flares that haven't resolved with topical treatment alone often trace back to gut inflammation, dysbiosis or intolerances. Calming the gut is frequently the missing piece in long-term skin clarity.",
+    icon: <Eye className="h-6 w-6 text-primary" />
+  }, {
+    title: "GUT-MOOD LINKS (ANXIETY, LOW MOOD, BRAIN FOG)",
+    description: "The gut and brain communicate constantly via the vagus nerve, immune signalling and neurotransmitter production. Digestive imbalance can show up as mood and cognition symptoms just as often as bowel symptoms.",
     icon: <Brain className="h-6 w-6 text-primary" />
+  }, {
+    title: "PARASITES AND DYSBIOSIS",
+    description: "An imbalanced or infected microbiome — too few beneficial species, opportunistic overgrowth, or a genuine parasitic infection — can sit quietly behind years of 'unexplained' digestive symptoms. Comprehensive stool mapping brings this into view.",
+    icon: <TestTube className="h-6 w-6 text-primary" />
   }];
+
   const functionalTestingOptions = [{
-    title: "STOOL TESTS TO ANALYSE GUT FLORA AND PATHOGENS",
-    description: "Comprehensive analysis of your gut microbiome, beneficial bacteria levels, and potential harmful organisms.",
+    title: "COMPREHENSIVE STOOL MAPPING",
+    description: "Species-level analysis of your gut flora, inflammatory markers, digestive function and any pathogens or parasites present, using a kit posted to your door.",
     icon: <TestTube className="h-6 w-6 text-primary" />
   }, {
-    title: "SIBO BREATH TESTS FOR DETECTING BACTERIAL OVERGROWTH",
-    description: "Specialized testing to identify small intestinal bacterial overgrowth that may be causing digestive symptoms.",
+    title: "SIBO BREATH TESTING",
+    description: "A home breath test that measures hydrogen and methane gas to identify small intestinal bacterial overgrowth, posted out and completed from your own kitchen table.",
     icon: <Activity className="h-6 w-6 text-primary" />
   }, {
-    title: "FOOD INTOLERANCE TESTING",
-    description: "Identify specific foods that may be triggering your digestive symptoms and inflammatory responses.",
+    title: "FOOD INTOLERANCE ASSESSMENT",
+    description: "Structured elimination and reintroduction, sometimes paired with lab testing, to identify which specific foods are genuinely triggering your symptoms.",
     icon: <Heart className="h-6 w-6 text-primary" />
   }, {
-    title: "BLOOD TESTS FOR NUTRIENT DEFICIENCIES AND INFLAMMATION",
-    description: "Assess vitamin and mineral levels, inflammatory markers, and autoimmune indicators affecting your health.",
+    title: "BLOOD PANELS FOR NUTRIENT STATUS AND INFLAMMATION",
+    description: "Pathology referrals to check iron, B12, vitamin D, inflammatory markers and coeliac antibodies where relevant, so nothing is missed.",
     icon: <Beaker className="h-6 w-6 text-primary" />
   }, {
-    title: "HORMONE TESTING TO EXPLORE THE GUT-BRAIN AXIS",
-    description: "Evaluate hormonal imbalances that may be connected to your digestive health and overall wellbeing.",
+    title: "HORMONE AND STRESS MARKERS",
+    description: "Where the gut-brain axis looks like a major contributor, hormone testing can reveal how stress physiology is feeding into digestive symptoms.",
     icon: <Brain className="h-6 w-6 text-primary" />
   }];
+
+  const philosophyPoints = [{
+    title: "TESTING BEFORE GUESSING",
+    description: "Rather than starting with a generic 'gut reset', we use targeted testing to see what's actually happening in your digestive tract before recommending a single herb or supplement.",
+    icon: <TestTube className="h-6 w-6 text-primary" />
+  }, {
+    title: "THE LABEL ISN'T THE PLAN",
+    description: "IBS, SIBO, and reflux are starting points for investigation, not treatment protocols in themselves. Two clients with the same diagnosis can walk away with very different plans.",
+    icon: <Stethoscope className="h-6 w-6 text-primary" />
+  }, {
+    title: "WHOLE-BODY, NOT JUST BOWEL SYMPTOMS",
+    description: "Skin, mood, energy and hormones are considered alongside bowel habits, because the gut rarely operates in isolation from the rest of your physiology.",
+    icon: <Brain className="h-6 w-6 text-primary" />
+  }, {
+    title: "PRACTICAL, SUSTAINABLE CHANGE",
+    description: "Plans are built to fit around your work, travel and social life. Restrictive elimination diets are a short-term investigative tool, not a long-term lifestyle.",
+    icon: <Leaf className="h-6 w-6 text-primary" />
+  }];
+
   const healingPlanComponents = [{
     title: "GUT-SPECIFIC HERBAL MEDICINE",
-    description: "Targeted herbal remedies designed to heal the digestive tract, reduce inflammation, and restore gut function.",
+    description: "Targeted herbal remedies chosen for your specific pattern — carminatives, bitters, antimicrobials or motility support — rather than a one-size-fits-all gut tonic.",
     icon: <Leaf className="h-6 w-6 text-primary" />
   }, {
     title: "TARGETED NUTRITIONAL SUPPLEMENTS",
-    description: "Probiotics, prebiotics, digestive enzymes, and other supplements specifically chosen for your gut health needs.",
+    description: "Probiotics, prebiotics or digestive enzymes matched to what your testing and history actually indicate you need.",
     icon: <TestTube className="h-6 w-6 text-primary" />
   }, {
-    title: "ANTI-INFLAMMATORY NUTRITION AND HEALTHY DIET STRATEGIES",
-    description: "Personalised nutrition plans that reduce inflammation and support optimal digestive function.",
+    title: "FOOD-FIRST NUTRITION STRATEGIES",
+    description: "Anti-inflammatory, low-irritant or structured elimination approaches depending on what's driving your symptoms, always with an eye on reintroducing variety.",
     icon: <Heart className="h-6 w-6 text-primary" />
   }, {
-    title: "NERVOUS SYSTEM SUPPORT AND STRESS MANAGEMENT",
-    description: "Techniques to support the gut-brain connection and manage stress that can impact digestive health.",
+    title: "NERVOUS SYSTEM AND STRESS SUPPORT",
+    description: "Practical tools for calming a wound-up nervous system, since chronic stress can drive digestive symptoms just as much as diet does.",
     icon: <Brain className="h-6 w-6 text-primary" />
   }, {
-    title: "SUPPORT FOR IMMUNE FUNCTION, MENTAL HEALTH, AND JOINT PAIN",
-    description: "Holistic approach addressing the interconnected systems affected by gut health imbalances.",
+    title: "REVIEW AND ADJUSTMENT OVER TIME",
+    description: "Your plan is revisited and refined at follow-up video consults as your gut responds, rather than being set in stone at the first appointment.",
     icon: <Activity className="h-6 w-6 text-primary" />
   }];
-  const gutBrainBenefits = [{
-    title: "ANXIETY AND EMOTIONAL STABILITY",
-    description: "Improved gut health can help regulate neurotransmitter production, leading to better emotional balance and reduced anxiety.",
-    icon: <Brain className="h-6 w-6 text-primary" />
-  }, {
-    title: "FOCUS, COGNITION, AND CLARITY",
-    description: "A healthy gut supports better brain function, improving mental clarity, focus, and cognitive performance.",
-    icon: <Eye className="h-6 w-6 text-primary" />
-  }, {
-    title: "ENERGY LEVELS AND MOTIVATION",
-    description: "Optimal gut health improves nutrient absorption and reduces inflammation, leading to increased energy and motivation.",
-    icon: <Activity className="h-6 w-6 text-primary" />
-  }, {
-    title: "RESILIENCE TO CHRONIC STRESS",
-    description: "A balanced gut microbiome helps your body better cope with and recover from chronic stress.",
-    icon: <Heart className="h-6 w-6 text-primary" />
-  }];
-  const naturalTreatmentMethods = [{
-    title: "HIGH-QUALITY DIGESTIVE ENZYMES",
-    description: "Supplemental enzymes to support proper digestion and nutrient absorption when your body's natural production is insufficient.",
-    icon: <TestTube className="h-6 w-6 text-primary" />
-  }, {
-    title: "HERBAL ANTIMICROBIALS TO REBALANCE GUT FLORA",
-    description: "Natural antimicrobial herbs that help eliminate harmful bacteria while supporting beneficial microorganisms.",
-    icon: <Leaf className="h-6 w-6 text-primary" />
-  }, {
-    title: "ANTI-INFLAMMATORY FOODS TO SUPPORT YOUR DIGESTIVE SYSTEM",
-    description: "Specific foods and nutrients that reduce inflammation in the gut and promote healing of the digestive tract.",
-    icon: <Heart className="h-6 w-6 text-primary" />
-  }, {
-    title: "PROBIOTIC AND PREBIOTIC THERAPY",
-    description: "Targeted probiotic strains and prebiotic fibers to restore and maintain a healthy gut microbiome.",
-    icon: <Activity className="h-6 w-6 text-primary" />
-  }, {
-    title: "TAILORED DIET PLANS FOR FOOD SENSITIVITIES AND NUTRIENT ABSORPTION",
-    description: "Personalised nutrition strategies that eliminate trigger foods and optimise nutrient uptake for healing.",
-    icon: <Beaker className="h-6 w-6 text-primary" />
-  }, {
-    title: "CHINESE MEDICINE PRINCIPLES (IF APPROPRIATE)",
-    description: "Traditional Chinese Medicine approaches that may complement naturopathic treatment for digestive health.",
-    icon: <Eye className="h-6 w-6 text-primary" />
-  }];
+
   return <>
-      <SEO title="Gut Health Naturopath Brisbane | Bloating & IBS Support" description="Bloated, tired and foggy? Our gut health naturopath uses species-level stool testing to find why, then builds your plan. Free 15-minute consult online." canonical="/what-we-treat/gut-health-naturopath-brisbane" keywords="gut health naturopath Brisbane, digestive health Brisbane, IBS treatment Brisbane, gut healing Brisbane, functional medicine Brisbane" serviceSchema={gutHealthServiceSchema} />
+      <SEO title="Gut Health Naturopath Brisbane | Every Digestive Complaint We Treat" description="From bloating and IBS to SIBO, reflux and gut-skin links: see the full range of digestive complaints our Brisbane naturopath treats online, and how testing-led care works." canonical="/what-we-treat/gut-health-naturopath-brisbane" keywords="gut health naturopath Brisbane, digestive health Brisbane, IBS treatment Brisbane, gut healing Brisbane, functional medicine Brisbane" serviceSchema={gutHealthServiceSchema} />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">
@@ -259,8 +207,8 @@ const GutHealth = () => {
           <div className="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
             <div className="space-y-8 lg:mt-0 mt-12">
               <div className="space-y-4">
-                <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Gut Health Naturopath in <span className="text-primary">Brisbane</span> | Personalised Digestive Care That Works
+                <h1 className="text-4xl lg:text-5xl font-bold text-foreground leading-tight">
+                  Gut Health Naturopath Brisbane: Every Digestive Complaint We Treat, and How
                 </h1>
                 
                 {/* Mobile Image - placed right after headline */}
@@ -271,7 +219,7 @@ const GutHealth = () => {
                       <Activity className="h-6 w-6 text-primary" />
                       <div>
                         <p className="font-semibold text-sm">Gut Health Naturopath</p>
-                        <p className="text-xs text-muted-foreground">Digestive Care • Natural Healing</p>
+                        <p className="text-xs text-muted-foreground">Digestive Care • Online Australia-Wide</p>
                       </div>
                     </div>
                   </div>
@@ -302,7 +250,7 @@ const GutHealth = () => {
                   <Activity className="h-8 w-8 text-primary" />
                   <div>
                     <p className="font-semibold">Gut Health Naturopath</p>
-                    <p className="text-sm text-muted-foreground">Digestive Care • Natural Healing</p>
+                    <p className="text-sm text-muted-foreground">Digestive Care • Online Australia-Wide</p>
                   </div>
                 </div>
               </div>
@@ -315,7 +263,7 @@ const GutHealth = () => {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Let's Find the Root Cause of Your Digestive Issues</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">One Hub for the Full Range of Digestive Complaints</h2>
           </div>
 
           {/* Mobile Image positioned after heading */}
@@ -327,10 +275,10 @@ const GutHealth = () => {
             <div className="space-y-6">
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  If your gut feels off, everything feels off. Whether it's bloating, brain fog, fatigue, or mood swings, your digestive system plays a crucial role in your overall wellbeing. At NXTLVL Health in Brisbane, our <strong>gut health naturopath</strong> services are designed to uncover the <strong>underlying cause</strong> of your digestive issues, and treat it the natural way.
+                  "Gut health" gets used as a catch-all term, but the complaints that sit under it are genuinely different problems with different mechanisms. Bloating after lunch is not the same as small intestinal bacterial overgrowth. Constipation from slow motility is not the same as constipation from a coordination issue in the pelvic floor. This page is the map: a plain-English rundown of every digestive complaint Mitchell Potts works with as a Brisbane naturopath, seeing clients Australia-wide by video consult.
                 </p>
                 <p>
-                  Led by experienced naturopath Mitchell Potts, we take a comprehensive approach that blends science with nature to get to the <strong>root cause</strong> of your gut problems. Whether you're dealing with <strong>Irritable Bowel Syndrome</strong>, <strong>Crohn's disease</strong>, <strong>acid reflux</strong>, or <strong>Leaky Gut Syndrome</strong>, we craft a personalised gut health plan that works with your body, so you can feel better from the inside out.
+                  If you already know exactly what you're dealing with, use the "where to go next" grid further down to jump to a page written specifically for IBS, SIBO or working with Mitch directly. If you're not sure yet, keep reading — that's exactly what this hub is for.
                 </p>
               </div>
             </div>
@@ -342,35 +290,32 @@ const GutHealth = () => {
         </div>
       </section>
 
-      {/* Why Gut Health Matters Section */}
+      {/* Digestive Complaints Section */}
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Your Gut Health Matters More Than You Think</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">The Digestive Complaints We See Most Often</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
-                Your gut is more than just a digestive organ. Often called your "second brain," the gut is deeply connected to your <strong>immune system</strong>, <strong>mental health</strong>, hormones, and even your skin. If your gut is out of balance, the effects can show up almost anywhere.
-              </p>
-              <p>
-                Here are just a few signs that you could benefit from seeing a <strong>naturopath for gut health</strong>:
+                Each of these is summarised briefly below. Where we've written a dedicated deep-dive, you'll find the link in the description or in the grid further down the page.
               </p>
             </div>
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto">
-            {gutHealthSigns.map((sign, index) => <Card key={index} className="border-0 shadow-md">
+            {digestiveComplaints.map((complaint, index) => <Card key={index} className="border-0 shadow-md">
                 <CardHeader className="cursor-pointer hover:bg-muted/20 transition-colors" onClick={() => toggleDropdown(index)}>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-3">
-                      {sign.icon}
-                      <CardTitle className="text-lg">{sign.title}</CardTitle>
+                      {complaint.icon}
+                      <CardTitle className="text-lg">{complaint.title}</CardTitle>
                     </div>
                     {openDropdown === index ? <ChevronUp className="h-5 w-5 text-muted-foreground" /> : <ChevronDown className="h-5 w-5 text-muted-foreground" />}
                   </div>
                 </CardHeader>
                 {openDropdown === index && <CardContent className="pt-0">
                     <CardDescription className="text-base leading-relaxed">
-                      {sign.description}
+                      {complaint.description}
                     </CardDescription>
                   </CardContent>}
               </Card>)}
@@ -378,20 +323,20 @@ const GutHealth = () => {
 
           <div className="text-center mt-12">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              You don't have to accept poor digestion or constant discomfort as your "normal." Our <strong>naturopathic approaches</strong> are designed to help you regain control of your health.
+              For a much more detailed breakdown of IBS diagnosis and treatment specifically, see our dedicated <a href="/what-we-treat/ibs-brisbane" className="text-primary hover:underline">IBS in Brisbane</a> and <a href="/what-we-treat/sibo-naturopath" className="text-primary hover:underline">SIBO naturopath</a> pages.
             </p>
           </div>
         </div>
       </section>
 
-      {/* What Makes Us Different Section */}
+      {/* Philosophy Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">What Makes Our Gut Naturopath Services Different From Others?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">How Mitch Approaches Digestive Complaints, Generally</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
-                At NXTLVL Health, we don't treat symptoms in isolation. We take a <strong>whole-body approach</strong> to understand how your <strong>digestive function</strong> affects everything else in your life, from your mood to your metabolism.
+                Across all of the complaints above, the same underlying approach applies. It's less a "programme" and more a way of working through your case methodically.
               </p>
             </div>
           </div>
@@ -400,81 +345,38 @@ const GutHealth = () => {
             <img src="/lovable-uploads/c8bb9855-7c0b-45b1-8e50-ae2da28905ea.png" alt="Advanced functional digestive testing and SIBO breath tests for accurate diagnosis" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
-          <div className="text-center mb-12">
-            <h3 className="text-2xl font-bold mb-8">Here's what sets us apart:</h3>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-6 text-left max-w-4xl mx-auto">
-            <div className="bg-white p-6 rounded-xl shadow-lg">
-              <div className="flex items-start space-x-3">
-                <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-base">A personalised treatment plan based on your unique needs</p>
-              </div>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-lg">
-              <div className="flex items-start space-x-3">
-                <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-base"><strong>Functional testing</strong> to detect <strong>bacterial overgrowth</strong>, <strong>nutrient absorption</strong> issues, and more</p>
-              </div>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-lg">
-              <div className="flex items-start space-x-3">
-                <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-base">Integration of <strong>Herbal Medicine</strong>, <strong>nutritional supplements</strong>, and <strong>lifestyle modifications</strong></p>
-              </div>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-lg">
-              <div className="flex items-start space-x-3">
-                <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-base">Collaboration with other health professionals if needed</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="text-center mt-12">
-            <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              We look beyond your medical history and symptoms. Instead, we examine your <strong>gut flora</strong>, your <strong>digestive tract</strong>, and your <strong>overall health</strong> from a fresh, evidence-based perspective. Learn about <a href="/blog/gut-health/7-worst-foods-for-gut-health" className="text-primary hover:underline">foods that harm gut health</a> or discover <a href="/blog/gut-health/best-tea-for-stomach-pain-and-bloating" className="text-primary hover:underline">natural teas for digestive relief</a> while you embark on your healing journey with our <a href="/what-we-treat/ibs-brisbane" className="text-primary hover:underline">comprehensive IBS treatment in Brisbane</a>.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Conditions We Work With Section */}
-      <section className="py-20 px-4 bg-muted/30">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Conditions We Work With</h2>
-            <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-              Our <strong>gut health naturopath</strong> services are ideal for individuals struggling with a <strong>wide range</strong> of digestive disorders and related issues. Whether you need specialized <a href="/what-we-treat/ibs-naturopath" className="text-primary hover:underline">IBS naturopathy</a>, comprehensive <a href="/what-we-treat/ibs-clinic" className="text-primary hover:underline">IBS clinic support</a>, expert <a href="/what-we-treat/sibo-naturopath" className="text-primary hover:underline">SIBO treatment</a>, or our dedicated <a href="/what-we-treat/gut-health-specialist" className="text-primary hover:underline">gut health specialist services</a>, including:
-            </p>
-          </div>
-
           <div className="space-y-4 max-w-4xl mx-auto">
-            {conditionsWeWorkWith.map((condition, index) => <Card key={index} className="border-0 shadow-md">
+            {philosophyPoints.map((point, index) => <Card key={index} className="border-0 shadow-md">
                 <CardHeader className="cursor-pointer hover:bg-muted/20 transition-colors" onClick={() => toggleDropdown(index + 20)}>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-3">
-                      {condition.icon}
-                      <CardTitle className="text-lg">{condition.title}</CardTitle>
+                      {point.icon}
+                      <CardTitle className="text-lg">{point.title}</CardTitle>
                     </div>
                     {openDropdown === index + 20 ? <ChevronUp className="h-5 w-5 text-muted-foreground" /> : <ChevronDown className="h-5 w-5 text-muted-foreground" />}
                   </div>
                 </CardHeader>
                 {openDropdown === index + 20 && <CardContent className="pt-0">
                     <CardDescription className="text-base leading-relaxed">
-                      {condition.description}
+                      {point.description}
                     </CardDescription>
                   </CardContent>}
               </Card>)}
           </div>
+
+          <div className="text-center mt-12">
+            <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
+              Curious what this looks like week to week for IBS specifically? Our <a href="/what-we-treat/ibs-clinic" className="text-primary hover:underline">structured IBS programme</a> walks through it stage by stage. For everything else, read on for how testing generally fits into your plan.
+            </p>
+          </div>
         </div>
       </section>
 
-      {/* How It Works Section */}
-      <section className="py-20 px-4">
+      {/* How Testing-Led Care Works Section */}
+      <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">How It Works: Your Gut Health Consult Process</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">How Testing-Led Care Works, From Booking to Results</h2>
           </div>
 
           <div className="mb-12">
@@ -486,9 +388,9 @@ const GutHealth = () => {
               <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white font-bold text-xl">1</span>
               </div>
-              <h3 className="text-xl font-bold mb-4">In-Depth Health Review</h3>
+              <h3 className="text-xl font-bold mb-4">Video Consultation</h3>
               <p className="text-muted-foreground">
-                We begin with a 60–75 minute initial consultation, diving deep into your symptoms, <strong>dietary changes</strong>, lifestyle, and medical history to understand your digestive health story. No rushing, just a real, personalised conversation.
+                An hour-long video consult from wherever you are in Australia, unpacking your symptoms, history, diet and lifestyle in real detail — no waiting rooms involved.
               </p>
             </div>
             
@@ -496,9 +398,9 @@ const GutHealth = () => {
               <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white font-bold text-xl">2</span>
               </div>
-              <h3 className="text-xl font-bold mb-4">Functional Testing (If Needed)</h3>
+              <h3 className="text-xl font-bold mb-4">Testing Kits Posted Out</h3>
               <p className="text-muted-foreground">
-                When appropriate, we may suggest advanced diagnostic tools to get <strong>accurate results</strong>. All testing is optional and tailored to your situation.
+                When testing is warranted, kits for stool analysis, SIBO breath testing or similar are posted straight to your door, with clear instructions for completing them at home.
               </p>
             </div>
             
@@ -506,9 +408,9 @@ const GutHealth = () => {
               <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white font-bold text-xl">3</span>
               </div>
-              <h3 className="text-xl font-bold mb-4">Personalised Gut Healing Plan</h3>
+              <h3 className="text-xl font-bold mb-4">Results Interpreted Together</h3>
               <p className="text-muted-foreground">
-                Based on what we uncover, your <strong>gut naturopath</strong> will create a step-by-step plan focusing on <strong>natural remedies</strong> and <strong>naturopathic treatments</strong>.
+                Once results are in, we go through them together on a follow-up video call, translating the data into what it actually means for your specific complaint.
               </p>
             </div>
             
@@ -516,15 +418,15 @@ const GutHealth = () => {
               <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white font-bold text-xl">4</span>
               </div>
-              <h3 className="text-xl font-bold mb-4">Ongoing Support & Check-Ins</h3>
+              <h3 className="text-xl font-bold mb-4">A Plan Built Around You</h3>
               <p className="text-muted-foreground">
-                Your gut didn't become unbalanced overnight, so it takes time to heal. That's why we offer ongoing support to monitor progress and adjust your treatment.
+                Your plan is reviewed and adjusted at each check-in as your gut responds, rather than handed over once and left to run on autopilot.
               </p>
             </div>
           </div>
 
           <div className="text-center mb-12">
-            <h3 className="text-2xl font-bold mb-8">Functional Testing Options Include:</h3>
+            <h3 className="text-2xl font-bold mb-8">Testing Options We Draw On:</h3>
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto">
@@ -547,7 +449,7 @@ const GutHealth = () => {
           </div>
 
           <div className="text-center mt-12">
-            <h3 className="text-2xl font-bold mb-8">Your Personalised Gut Healing Plan May Include:</h3>
+            <h3 className="text-2xl font-bold mb-8">A Personalised Plan May Then Include:</h3>
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto">
@@ -571,94 +473,60 @@ const GutHealth = () => {
         </div>
       </section>
 
-      {/* Gut-Brain Connection Section */}
-      <section className="py-20 px-4 bg-muted/30">
+      {/* Where to Go Next Section */}
+      <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">The Gut-Brain Connection: Why It Matters</h2>
-            <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
-              <p>
-                The <strong>gut-brain axis</strong> refers to the two-way communication between your <strong>digestive tract</strong> and your <strong>nervous system</strong>. In fact, up to <a href="https://www.co-biome.com/education/patient/the-important-role-of-serotonin-in-your-gut/" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80">90% of your body's serotonin is made in the gut</a>. That means your gut health can directly influence your <strong>mental health</strong>, emotions, and even sleep quality.
-              </p>
-            </div>
-          </div>
-
-          <div className="text-center mb-12">
-            <h3 className="text-2xl font-bold mb-8">By improving your gut, we can also support:</h3>
-          </div>
-
-          <div className="space-y-4 max-w-4xl mx-auto mb-16">
-            {gutBrainBenefits.map((benefit, index) => <Card key={index} className="border-0 shadow-md">
-                <CardHeader className="cursor-pointer hover:bg-muted/20 transition-colors" onClick={() => toggleDropdown(index + 60)}>
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-3">
-                      {benefit.icon}
-                      <CardTitle className="text-lg">{benefit.title}</CardTitle>
-                    </div>
-                    {openDropdown === index + 60 ? <ChevronUp className="h-5 w-5 text-muted-foreground" /> : <ChevronDown className="h-5 w-5 text-muted-foreground" />}
-                  </div>
-                </CardHeader>
-                {openDropdown === index + 60 && <CardContent className="pt-0">
-                    <CardDescription className="text-base leading-relaxed">
-                      {benefit.description}
-                    </CardDescription>
-                  </CardContent>}
-              </Card>)}
-          </div>
-
-          <div className="text-center">
-            <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              A <strong>healthy gut microbiome</strong> equals a more balanced, energetic, and happier you.
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Where to Go Next</h2>
+            <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
+              This page is deliberately broad. If one complaint is your main concern, these pages go much deeper on that specific topic:
             </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            <a href="/what-we-treat/ibs-brisbane" className="block bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+              <h3 className="text-lg font-bold mb-2 text-primary">Understanding an IBS diagnosis</h3>
+              <p className="text-muted-foreground">What an IBS label actually means, how it's diagnosed, and the questions worth asking before you accept it as the final answer.</p>
+            </a>
+            <a href="/what-we-treat/ibs-naturopath" className="block bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+              <h3 className="text-lg font-bold mb-2 text-primary">The naturopathic method for treating IBS</h3>
+              <p className="text-muted-foreground">The specific reasoning and tools naturopathy brings to IBS treatment, beyond generic dietary advice.</p>
+            </a>
+            <a href="/what-we-treat/ibs-clinic" className="block bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+              <h3 className="text-lg font-bold mb-2 text-primary">A structured, week-by-week IBS programme</h3>
+              <p className="text-muted-foreground">See exactly what a staged IBS programme with Mitch looks like from week one through to long-term maintenance.</p>
+            </a>
+            <a href="/what-we-treat/sibo-naturopath" className="block bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+              <h3 className="text-lg font-bold mb-2 text-primary">SIBO testing and treatment in detail</h3>
+              <p className="text-muted-foreground">Breath testing, treatment phases and relapse prevention for small intestinal bacterial overgrowth specifically.</p>
+            </a>
+            <a href="/what-we-treat/gut-health-specialist" className="block bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow md:col-span-2">
+              <h3 className="text-lg font-bold mb-2 text-primary">Who Mitch is, and who this suits</h3>
+              <p className="text-muted-foreground">Background, approach and the kinds of clients who tend to get the most out of working with Mitch directly.</p>
+            </a>
           </div>
         </div>
       </section>
 
-      {/* Healing the Gut Naturally Section */}
-      <section className="py-20 px-4">
+      {/* Gut-Brain and Gut-Skin Snapshot Section */}
+      <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Healing the Gut Naturally: What We Use</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Skin and Mood Come Up in Gut Consults</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
-                Unlike <strong>conventional medicine</strong>, which often treats symptoms in isolation, we rely on <strong>natural treatment</strong> methods backed by research and guided by your body's response.
+                Up to <a href="https://www.co-biome.com/education/patient/the-important-role-of-serotonin-in-your-gut/" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80">90% of the body's serotonin is produced in the gut</a>, and the gut lining plays a direct role in systemic inflammation that can surface as skin flares. That's why a gut consult often ends up touching on sleep, mood and skin, even when bowel symptoms were the original reason for booking.
+              </p>
+              <p>
+                None of this means every skin or mood issue is "just the gut" — but for many clients, addressing digestive imbalance is the piece that finally moves the needle after other approaches have stalled.
               </p>
             </div>
-          </div>
-
-          <div className="text-center mb-12">
-            <h3 className="text-2xl font-bold mb-8">We may use:</h3>
-          </div>
-
-          <div className="space-y-4 max-w-4xl mx-auto mb-16">
-            {naturalTreatmentMethods.map((method, index) => <Card key={index} className="border-0 shadow-md">
-                <CardHeader className="cursor-pointer hover:bg-muted/20 transition-colors" onClick={() => toggleDropdown(index + 70)}>
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-3">
-                      {method.icon}
-                      <CardTitle className="text-lg">{method.title}</CardTitle>
-                    </div>
-                    {openDropdown === index + 70 ? <ChevronUp className="h-5 w-5 text-muted-foreground" /> : <ChevronDown className="h-5 w-5 text-muted-foreground" />}
-                  </div>
-                </CardHeader>
-                {openDropdown === index + 70 && <CardContent className="pt-0">
-                    <CardDescription className="text-base leading-relaxed">
-                      {method.description}
-                    </CardDescription>
-                  </CardContent>}
-              </Card>)}
-          </div>
-
-          <div className="text-center">
-            <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Everything is explained clearly and practically, so you know exactly what you're doing and why.
-            </p>
           </div>
         </div>
       </section>
 
       {/* Why Clients Choose Mitch Section */}
-      <section className="py-20 px-4 bg-muted/30">
+      <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Why Clients Choose Mitch at NXTLVL Health</h2>
@@ -704,14 +572,14 @@ const GutHealth = () => {
             <div className="bg-white p-6 rounded-xl shadow-lg md:col-span-2 lg:col-span-2">
               <div className="flex items-start space-x-3">
                 <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-base">He's walked this path with thousands of clients across Brisbane and beyond</p>
+                <p className="text-base">He's worked with thousands of clients across Brisbane and Australia-wide via video consults</p>
               </div>
             </div>
           </div>
 
           <div className="text-center mt-12">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              From <strong>autoimmune disorders</strong> to <strong>digestive discomfort</strong>, Mitch helps you get your life back—naturally.
+              Whatever combination of digestive complaints brought you here, Mitch helps you get your life back—naturally.
             </p>
           </div>
         </div>
@@ -724,10 +592,10 @@ const GutHealth = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Book Your Gut Health Consultation Today</h2>
             <div className="max-w-3xl mx-auto space-y-6 text-lg text-muted-foreground mb-8">
               <p>
-                Tired of living with <strong>digestive problems</strong> like <a href="/what-we-treat/ibs-brisbane" className="text-primary hover:underline">IBS</a>, <a href="/what-we-treat/sibo-naturopath" className="text-primary hover:underline">SIBO</a>, bloating, or just feeling off? If you're ready to get real answers and real results, it's time to work with a <strong>gut health naturopath</strong> who truly understands how to heal the body from the inside out. Learn more about working with our dedicated <a href="/what-we-treat/gut-health-specialist" className="text-primary hover:underline">gut health specialist</a> for comprehensive care.
+                Tired of living with <a href="/what-we-treat/ibs-brisbane" className="text-primary hover:underline">IBS</a>, <a href="/what-we-treat/sibo-naturopath" className="text-primary hover:underline">SIBO</a>, bloating, or a digestive complaint that hasn't been given a proper name yet? Start with an hour-long video consult and we'll work out what's actually going on. Or read more about <a href="/what-we-treat/gut-health-specialist" className="text-primary hover:underline">who Mitch is and who he suits</a> before you book.
               </p>
               <p>
-                Whether you're local to Brisbane or joining us via <strong>online consultations</strong>, NXTLVL Health is here to guide you every step of the way.
+                Every consult runs via video, testing kits are posted to your door, and clients join us from right across Australia — not just Brisbane.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
