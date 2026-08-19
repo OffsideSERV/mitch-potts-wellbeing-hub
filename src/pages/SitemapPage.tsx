@@ -4,7 +4,6 @@ import { useEffect } from 'react';
 const SitemapPage = () => {
   useEffect(() => {
     // Set proper headers for XML sitemap
-    document.title = 'Sitemap';
     const metaContentType = document.createElement('meta');
     metaContentType.httpEquiv = 'Content-Type';
     metaContentType.content = 'application/xml; charset=utf-8';

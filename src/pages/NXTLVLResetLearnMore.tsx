@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, ArrowRight, Heart, Brain, Zap, Moon, Dumbbell, Users, BookOpen, Shield } from "lucide-react";
@@ -7,15 +6,6 @@ import Footer from "@/components/Footer";
 const NXTLVLResetLearnMore = () => {
   return (
     <>
-      <Helmet>
-        <title>NXTLVL Reset Details | What Is Inside the Programme</title>
-        <meta name="description" content="A closer look at the NXTLVL Reset 12-week programme: each phase, the testing involved, the support you get and who it suits best. Read before you join." />
-        <meta property="og:title" content="NXTLVL Reset Details | What Is Inside the Programme" />
-        <meta property="og:description" content="A closer look at the NXTLVL Reset 12-week programme: each phase, the testing involved, the support you get and who it suits best. Read before you join." />
-        <meta name="keywords" content="NXTLVL Reset program details, 12 week health reset, naturopath Brisbane, gut reset program, stress management program, energy restoration" />
-        <link rel="canonical" href="https://nxtlvlhealth.com.au/nxtlvl-reset/learn-more" />
-      </Helmet>
-
       <div className="min-h-screen" style={{ background: 'linear-gradient(135deg, #1a1a1a, #2d2d2d)' }}>
 
         {/* Hero Section */}
