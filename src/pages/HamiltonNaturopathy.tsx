@@ -186,7 +186,7 @@ const HamiltonNaturopathy = () => {
           <div className="mb-12">
             <img 
               src="/lovable-uploads/001a23d3-f9a1-4973-a6a1-a0bf46a7cfbb.png" 
-              alt="NXTLVL Health natural medicine clinic in New Farm Brisbane" 
+              alt="NXTLVL Health online natural medicine serving New Farm Brisbane" 
               className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto"
             />
           </div>

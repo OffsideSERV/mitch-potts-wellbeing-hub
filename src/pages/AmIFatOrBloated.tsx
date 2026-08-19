@@ -495,7 +495,7 @@ const AmIFatOrBloated = () => {
           </p>
 
           <p className="mb-8">
-            At NXTLVL Health here in New Farm, I work with patients every week who feel heavy, swollen, or "stuck in their belly." 
+            At NXTLVL Health, working online with clients across New Farm and greater Brisbane, I work with patients every week who feel heavy, swollen, or "stuck in their belly." 
             The good news? <strong>There's always a reason — and always a path forward</strong>.
           </p>
 

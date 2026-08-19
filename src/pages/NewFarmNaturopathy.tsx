@@ -235,7 +235,7 @@ const NewFarmNaturopathy = () => {
                <div className="bg-white p-6 rounded-xl shadow-lg">
                  <div className="flex items-start space-x-3">
                    <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                   <p className="text-base">We're based <strong>right here in New Farm QLD</strong> - convenient for clients from <a href="/areas-we-serve/naturopath-north-brisbane" className="text-primary hover:underline">North Brisbane</a>, <a href="/areas-we-serve/naturopath-indooroopilly" className="text-primary hover:underline">Indooroopilly</a>, and <a href="/areas-we-serve/naturopath-morningside" className="text-primary hover:underline">Morningside</a></p>
+                   <p className="text-base">We work online with clients <strong>right across New Farm QLD</strong> - just as convenient for clients from <a href="/areas-we-serve/naturopath-north-brisbane" className="text-primary hover:underline">North Brisbane</a>, <a href="/areas-we-serve/naturopath-indooroopilly" className="text-primary hover:underline">Indooroopilly</a>, and <a href="/areas-we-serve/naturopath-morningside" className="text-primary hover:underline">Morningside</a></p>
                  </div>
                </div>
             <div className="bg-white p-6 rounded-xl shadow-lg">

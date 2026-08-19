@@ -609,7 +609,7 @@ const AnxietyNaturopathy = () => {
 
           {/* Image */}
           <div className="mb-12">
-            <img src="/lovable-uploads/f1d596df-5da2-4147-9fcd-7375c36afd5f.png" alt="NXTLVL Health naturopathic clinic exterior in New Farm Brisbane offering comprehensive anxiety treatment services" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/f1d596df-5da2-4147-9fcd-7375c36afd5f.png" alt="NXTLVL Health online naturopathic care serving New Farm Brisbane offering comprehensive anxiety treatment services" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

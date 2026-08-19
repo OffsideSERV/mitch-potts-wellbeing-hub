@@ -49,7 +49,7 @@ const FunctionalMedicine = () => {
                      At NXTLVL Health, our <strong>Functional Medicine in Brisbane</strong> doesn't just treat your symptoms, it's much more than that. We actually help you find out why you feel tired, bloated, foggy, or just off—then <strong>fix it properly</strong>.
                    </p>
                   <p>
-                    We're a <strong>functional medicine practice in New Farm</strong> that uses a simple, whole-body approach. Instead of quick fixes like most solutions out there, we look at how your <strong>gut, brain, hormones, skin, and energy all connect together</strong>.
+                    We're a <strong>functional medicine practice working online with clients across New Farm</strong> that uses a simple, whole-body approach. Instead of quick fixes like most solutions out there, we look at how your <strong>gut, brain, hormones, skin, and energy all connect together</strong>.
                   </p>
                    <p>
                      You'll get a <strong>full health plan that's made just for you</strong>, no one else—using real tests, not guesses. Whether you need <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">sustainable weight loss support</a> or <a href="/services/personal-trainer-newstead" className="text-primary hover:underline">personalised fitness guidance</a>, we have the tools and expertise to help. If you're sick of that "not quite right" feeling, <strong>this is where you start feeling like you again</strong>.
@@ -163,7 +163,7 @@ const FunctionalMedicine = () => {
               </h2>
               <div className="text-lg text-muted-foreground leading-relaxed space-y-4">
                 <p>
-                  NXTLVL Health is a <strong>Naturopath based in New Farm</strong> that heals people who feel <strong>tired, bloated, foggy, or unwell</strong>—and can't find answers anywhere.
+                  NXTLVL Health is a <strong>Naturopath working online with clients across New Farm</strong> that heals people who feel <strong>tired, bloated, foggy, or unwell</strong>—and can't find answers anywhere.
                 </p>
                 <p>
                   We go deep to <strong>find the root problem</strong>, then give you a <strong>custom plan to fix it</strong>.
@@ -196,7 +196,7 @@ const FunctionalMedicine = () => {
             
             <div className="space-y-6">
               <h2 className="text-3xl lg:text-4xl font-bold">
-                Inside Our <span className="text-primary">Functional Naturopathic Practice</span> in New Farm
+                Inside Our <span className="text-primary">Functional Naturopathic Practice</span> Serving New Farm
               </h2>
               
               <div className="grid gap-4">

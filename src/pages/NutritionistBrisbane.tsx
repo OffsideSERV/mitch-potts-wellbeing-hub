@@ -30,7 +30,7 @@ const NutritionistBrisbane = () => {
     <>
       <SEO 
         title="Nutritionist Brisbane | Expert Nutrition Plans | New Farm"
-        description="Expert nutritionist in New Farm, Brisbane. Get tailored nutrition plans for weight loss, muscle gain, gut health & more. Book with Mitch for personalised nutrition guidance."
+        description="Expert nutritionist serving New Farm, Brisbane online. Get tailored nutrition plans for weight loss, muscle gain, gut health & more. Book with Mitch for personalised nutrition guidance."
         canonical="/services/nutritionist-brisbane"
         keywords="nutritionist Brisbane, nutrition plans, dietitian Brisbane, sports nutrition, weight loss nutrition, New Farm nutritionist"
       />
@@ -44,7 +44,7 @@ const NutritionistBrisbane = () => {
                 Nutrition
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-                Tailored nutrition plans by expert nutritionists in New Farm, Brisbane
+                Tailored nutrition plans by expert nutritionists serving New Farm, Brisbane
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
               </div>
@@ -80,7 +80,7 @@ const NutritionistBrisbane = () => {
                 </p>
                 
                 <p>
-                  Book in with Mitch to optimise your nutrition and achieve your health objectives. Conveniently located in New Farm, Brisbane.
+                  Book in with Mitch to optimise your nutrition and achieve your health objectives. Working online with clients across New Farm and greater Brisbane.
                 </p>
               </div>
 
@@ -178,7 +178,7 @@ const NutritionistBrisbane = () => {
                 Work with Mitch - Your Expert Nutritionist
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
-                Located conveniently in New Farm, Brisbane, Mitch specializes in creating personalized nutrition plans that help you achieve your health goals without the guilt. Experience the difference that balanced, evidence-based nutrition can make in your life.
+                Working online with clients across New Farm and greater Brisbane, Mitch specializes in creating personalized nutrition plans that help you achieve your health goals without the guilt. Experience the difference that balanced, evidence-based nutrition can make in your life.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" asChild>

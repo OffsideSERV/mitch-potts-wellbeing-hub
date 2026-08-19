@@ -75,7 +75,7 @@ const NXTLVLTonics = () => {
     <>
       <SEO 
         title="NXTLVL Tonics | Custom Herbal Blends & Natural Remedies"
-        description="Discover personalised herbal tonics at NXTLVL Health. Custom blends for energy, sleep, immunity, gut health & more. Made by qualified naturopaths in New Farm."
+        description="Discover personalised herbal tonics at NXTLVL Health. Custom blends for energy, sleep, immunity, gut health & more. Made by qualified naturopaths serving New Farm online."
         canonical="/nxtlvl-tonics"
         keywords="herbal tonics, custom herbal blends, natural remedies, naturopath New Farm, herbal medicine Brisbane, personalized health"
       />
@@ -115,7 +115,7 @@ const NXTLVLTonics = () => {
                   When your body sends you signals — fatigue, poor sleep, low immunity, or feeling out of balance — it's easy to jump straight to over-the-counter fixes or feel like a doctor's visit is your only option. But what if there's a natural, personalised solution that targets the root cause?
                 </p>
                 <p>
-                  At NXTLVL Tonics, we offer custom herbal blends and nutraceuticals that are designed to support your health in a gentle yet powerful way. Created by a qualified naturopath in New Farm, these remedies are tailored to your unique needs!
+                  At NXTLVL Tonics, we offer custom herbal blends and nutraceuticals that are designed to support your health in a gentle yet powerful way. Created by a qualified naturopath serving New Farm online, these remedies are tailored to your unique needs!
                 </p>
                 <p>
                   Think of it as your first step towards feeling better — with fewer side effects and a more natural approach to wellbeing.

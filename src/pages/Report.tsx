@@ -277,7 +277,7 @@ const Report = () => {
               </p>
 
               <p className="reveal">
-                I've heard your same frustrations from thousands of other women in my Brisbane practice, and I know it's not your fault.
+                I've heard your same frustrations from thousands of other women in my online consults with women across Brisbane, and I know it's not your fault.
               </p>
 
               <p className="reveal">
