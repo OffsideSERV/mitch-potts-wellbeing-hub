@@ -186,8 +186,6 @@ const SEO = ({
       {/* Additional SEO meta tags */}
       <meta name="author" content="NXTLVL Health - Naturopath" />
       <meta name="language" content="English" />
-      <meta name="geo.region" content="AU-QLD" />
-      <meta name="geo.placename" content="Brisbane, Queensland" />
 
       
       {/* LocalBusiness Schema Markup - Only on homepage */}
