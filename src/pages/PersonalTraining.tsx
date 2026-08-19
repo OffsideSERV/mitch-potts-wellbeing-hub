@@ -54,24 +54,7 @@ const PersonalTraining = () => {
     "areaServed": ["Brisbane", "Newstead", "New Farm", "Fortitude Valley", "Teneriffe", "Kangaroo Point", "East Brisbane", "Norman Park", "Bulimba", "Hawthorne", "Morningside", "Ascot", "Hamilton", "Clayfield", "Wilston", "Windsor", "Kelvin Grove", "Paddington", "Red Hill", "Auchenflower", "Toowong", "Bowen Hills", "South Brisbane", "Queensland"],
     "availableChannel": {
       "@type": "ServiceChannel",
-      "name": "In-Person Training at Function Well",
-      "serviceLocation": {
-        "@type": "Place",
-        "name": "Function Well - Mercedes Benz Building",
-        "amenityFeature": [{
-          "@type": "LocationFeatureSpecification",
-          "name": "Free Parking",
-          "value": "true"
-        }, {
-          "@type": "LocationFeatureSpecification",
-          "name": "Private Gym Facility",
-          "value": "true"
-        }, {
-          "@type": "LocationFeatureSpecification",
-          "name": "Professional Equipment",
-          "value": "true"
-        }]
-      },
+      "name": "Online Personal Training",
       "serviceUrl": "https://nxtlvlhealth.com.au/services/personal-trainer-newstead"
     },
     "serviceOutput": ["Strength Building", "Weight Loss", "Body Composition Improvement", "Injury Prevention", "Functional Movement", "Athletic Performance", "Mobility Enhancement", "Exercise Therapy"],
@@ -130,8 +113,8 @@ const PersonalTraining = () => {
     description: "Unique combination of qualifications allows for a comprehensive approach to your health, addressing both fitness and overall wellbeing.",
     icon: <Heart className="h-6 w-6 text-primary" />
   }, {
-    title: "BASED AT FUNCTION WELL, A CLEAN, MODERN PRIVATE GYM WITH FREE PARKING",
-    description: "Train in a premium, private facility without the crowds and chaos of commercial gyms, with the convenience of free parking.",
+    title: "FULLY ONLINE COACHING YOU CAN DO FROM HOME OR ANY GYM",
+    description: "Train wherever suits you, with your programme built around the equipment you actually have access to.",
     icon: <MapPin className="h-6 w-6 text-primary" />
   }, {
     title: "OFFERS GREAT EXPERIENCE, STRUCTURE, AND SUPPORT",
@@ -142,8 +125,8 @@ const PersonalTraining = () => {
     description: "Sustainable approach to fitness that creates lasting changes rather than temporary results that don't stick.",
     icon: <Dumbbell className="h-6 w-6 text-primary" />
   }, {
-    title: "TRAINS CLIENTS FROM NEARBY AREAS LIKE BOWEN HILLS, KANGAROO POINT, AND SOUTH BRISBANE",
-    description: "Convenient location serving clients from across Brisbane's inner suburbs with easy access and parking.",
+    title: "TRAINS CLIENTS IN AREAS LIKE BOWEN HILLS, KANGAROO POINT, AND SOUTH BRISBANE",
+    description: "Working online with clients right across Brisbane's inner suburbs and beyond, with no travel needed.",
     icon: <MapPin className="h-6 w-6 text-primary" />
   }];
   const additionalServices = [{
@@ -164,24 +147,24 @@ const PersonalTraining = () => {
     icon: <Activity className="h-6 w-6 text-primary" />
   }];
   const gymFeatures = [{
-    title: "FULLY EQUIPPED PRIVATE STUDIO",
-    description: "Access to a complete range of professional equipment in a private setting designed for optimal training results.",
+    title: "PROGRAMMES BUILT AROUND YOUR EQUIPMENT",
+    description: "Whether you train at home or at your local gym, your programme is written around the equipment you have.",
     icon: <Dumbbell className="h-6 w-6 text-primary" />
   }, {
-    title: "CLEAN, HIGH-END ENVIRONMENT",
-    description: "Train in a premium, well-maintained facility that provides an inspiring and motivating atmosphere for your workouts.",
+    title: "STRUCTURED, PROFESSIONAL COACHING",
+    description: "Clear structure, video form feedback and regular check-ins so every session has a purpose.",
     icon: <Heart className="h-6 w-6 text-primary" />
   }, {
-    title: "FREE PARKING INCLUDED",
-    description: "Convenient free parking takes the stress out of getting to your training sessions.",
+    title: "NO TRAVEL REQUIRED",
+    description: "Training online takes the stress out of fitting your sessions around a busy week.",
     icon: <MapPin className="h-6 w-6 text-primary" />
   }, {
     title: "FLEXIBLE PERSONAL TRAINING SESSIONS",
     description: "Scheduling flexibility to accommodate your busy lifestyle and ensure consistency in your training program.",
     icon: <Target className="h-6 w-6 text-primary" />
   }, {
-    title: "CONVENIENT FOR THOSE IN BOWEN HILLS, NEWSTEAD, AND SURROUNDS",
-    description: "Strategically located for easy access from surrounding Brisbane suburbs with excellent transport links.",
+    title: "POPULAR WITH CLIENTS IN BOWEN HILLS, NEWSTEAD, AND SURROUNDS",
+    description: "Plenty of clients across these Brisbane suburbs train with Mitch online, wherever they are.",
     icon: <MapPin className="h-6 w-6 text-primary" />
   }];
   return <>
@@ -199,13 +182,13 @@ const PersonalTraining = () => {
                 
                 {/* Mobile Image - placed right after headline */}
                 <div className="relative lg:hidden mb-24 -mx-4">
-                  <img alt="Professional personal trainer newstead working with client demonstrating strength training exercises at Function Well gym" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/dd4ff0ea-d4e7-416c-b0d9-d3a541758d60.png" />
+                  <img alt="Professional personal trainer working with a client demonstrating strength training exercises" className="rounded-2xl shadow-2xl w-full h-auto max-h-96 object-cover" src="/lovable-uploads/dd4ff0ea-d4e7-416c-b0d9-d3a541758d60.png" />
                   <div className="absolute -bottom-6 left-2 bg-white p-4 rounded-xl shadow-lg">
                     <div className="flex items-center space-x-3">
                       <Dumbbell className="h-6 w-6 text-primary" />
                       <div>
                         <p className="font-semibold text-sm">Personal Training</p>
-                        <p className="text-xs text-muted-foreground">Function Well • Newstead</p>
+                        <p className="text-xs text-muted-foreground">Online • Newstead &amp; Brisbane</p>
                       </div>
                     </div>
                   </div>
@@ -229,7 +212,7 @@ const PersonalTraining = () => {
                   <Dumbbell className="h-8 w-8 text-primary" />
                   <div>
                     <p className="font-semibold">Personal Training</p>
-                    <p className="text-sm text-muted-foreground">Function Well • Newstead</p>
+                    <p className="text-sm text-muted-foreground">Online • Newstead &amp; Brisbane</p>
                   </div>
                 </div>
               </div>
@@ -257,7 +240,7 @@ const PersonalTraining = () => {
                    Looking for a <strong>personal trainer in Newstead</strong> who actually listens, understands your body, and helps you get long-term results? At NXTLVL Health, Mitch offers <strong>expert-led personal training in Newstead</strong> that's tailored to your fitness level, lifestyle, and personal goals. Combined with our <a href="/functional-medicine" className="text-primary hover:underline">functional medicine approach</a> and <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">natural weight loss solutions</a>, this holistic approach ensures lasting results. Whether you want to build strength, lose fat, recover from injury, or just feel better in your body, this is your next step.
                  </p>
                 <p>
-                  All sessions are held at <a href="https://functionwell.com.au" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Why Clients Choose Mitch From NXTLVL Health</a>, a premium private gym in the Mercedes Benz Building, Newstead QLD 4006. It's an inspiring space—free from the crowds and chaos of commercial gyms—giving you room to move freely and train with purpose.
+                  Every session is now run online, so you can train from home or at your own gym while still getting proper coaching. I work this way with plenty of Newstead locals and clients right across Brisbane, giving you room to move freely and train with purpose.
                 </p>
                  <p>
                    Forget cookie-cutter workouts. This is <strong>training designed for your unique body and real goals</strong>, delivered by one of the best personal trainers in Brisbane.
@@ -408,7 +391,7 @@ const PersonalTraining = () => {
                 <h3 className="text-xl font-bold">Online Training & Programming</h3>
               </div>
               <p className="text-muted-foreground">
-                Based outside of Newstead? Mitch offers online training with check-ins, form feedback, and custom workouts. Stay on track anywhere—East Brisbane, West End, or Victoria Point.
+All coaching is online, with check-ins, form feedback, and custom workouts. Stay on track anywhere—Newstead, East Brisbane, West End, or Victoria Point.
               </p>
             </div>
           </div>
@@ -464,21 +447,21 @@ const PersonalTraining = () => {
         </div>
       </section>
 
-      {/* Function Well Section */}
+      {/* Online Training Setup Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Train at Function Well – Newstead's Premier Gym</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Train Online, From Newstead Or Anywhere Else</h2>
             <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
               <p>
-                You'll train at <strong>Function Well, one of the top gyms in Newstead QLD 4006</strong>. Located on Level 3, 194 Breakfast Creek Rd in the Mercedes Benz building, it's a world-class facility with everything you need to get real results.
+You'll train <strong>online with Mitch</strong>, whether that's at home or at your own gym in Newstead QLD 4006 or further afield. Your programme is written around the equipment you have, so you've got everything you need to get real results.
               </p>
             </div>
           </div>
 
           {/* Add image after heading and description */}
           <div className="mb-12">
-            <img src="/lovable-uploads/2acfe9ea-e8c0-461e-8881-8afe96eee441.png" alt="Function Well premium private gym facility in Mercedes Benz Building showcasing professional fitness equipment and spacious training environment" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
+            <img src="/lovable-uploads/2acfe9ea-e8c0-461e-8881-8afe96eee441.png" alt="Professional gym equipment used in online personal training programmes with NXTLVL Health" className="rounded-2xl shadow-lg w-full max-w-2xl mx-auto h-auto" />
           </div>
 
           <div className="space-y-4 max-w-4xl mx-auto mb-16">

@@ -216,7 +216,7 @@ const NewFarmNaturopathy = () => {
                   <strong>Fatigue, skin problems, allergies, joint pain</strong>
                 </p>
                 <p className="text-muted-foreground mt-4 font-medium">
-                  We treat a wide range of health problems by looking at the <strong>underlying imbalances</strong> that may be holding your body back. Whether you need specialized <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">naturopathic weight loss support</a> or comprehensive care from our <a href="/what-we-treat/wellness-clinic-brisbane" className="text-primary hover:underline">Brisbane wellness clinic</a>, we're here to help.
+                  We treat a wide range of health problems by looking at the <strong>underlying imbalances</strong> that may be holding your body back. Whether you need specialized <a href="/what-we-treat/weight-loss-naturopath-brisbane" className="text-primary hover:underline">naturopathic weight loss support</a> or comprehensive <a href="/what-we-treat/wellness-clinic-brisbane" className="text-primary hover:underline">online naturopathic care</a> from anywhere in Brisbane, we're here to help.
                 </p>
               </CardContent>
             </Card>
