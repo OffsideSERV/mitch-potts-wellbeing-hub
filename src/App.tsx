@@ -7,6 +7,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import Layout from "./components/Layout";
 import CriticalCSS from "./components/CriticalCSS";
 import ScrollToTop from "./components/ScrollToTop";
+import HeadDedupe from "./components/HeadDedupe";
 
 // Import all pages directly for instant navigation
 import Index from "./pages/Index";
