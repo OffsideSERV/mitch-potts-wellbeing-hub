@@ -54,24 +54,7 @@ const PersonalTraining = () => {
     "areaServed": ["Brisbane", "Newstead", "New Farm", "Fortitude Valley", "Teneriffe", "Kangaroo Point", "East Brisbane", "Norman Park", "Bulimba", "Hawthorne", "Morningside", "Ascot", "Hamilton", "Clayfield", "Wilston", "Windsor", "Kelvin Grove", "Paddington", "Red Hill", "Auchenflower", "Toowong", "Bowen Hills", "South Brisbane", "Queensland"],
     "availableChannel": {
       "@type": "ServiceChannel",
-      "name": "In-Person Training at Function Well",
-      "serviceLocation": {
-        "@type": "Place",
-        "name": "Function Well - Mercedes Benz Building",
-        "amenityFeature": [{
-          "@type": "LocationFeatureSpecification",
-          "name": "Free Parking",
-          "value": "true"
-        }, {
-          "@type": "LocationFeatureSpecification",
-          "name": "Private Gym Facility",
-          "value": "true"
-        }, {
-          "@type": "LocationFeatureSpecification",
-          "name": "Professional Equipment",
-          "value": "true"
-        }]
-      },
+      "name": "Online Personal Training",
       "serviceUrl": "https://nxtlvlhealth.com.au/services/personal-trainer-newstead"
     },
     "serviceOutput": ["Strength Building", "Weight Loss", "Body Composition Improvement", "Injury Prevention", "Functional Movement", "Athletic Performance", "Mobility Enhancement", "Exercise Therapy"],
