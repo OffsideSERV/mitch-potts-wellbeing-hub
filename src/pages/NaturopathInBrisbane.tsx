@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import SEO from '@/components/SEO';
+import WelcomeReportPopup from '@/components/WelcomeReportPopup';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -275,6 +276,7 @@ const NaturopathInBrisbane = () => {
 
   return (
     <div ref={pageRef} className="min-h-screen bg-background">
+      <WelcomeReportPopup />
       <SEO 
         title="Best Naturopath Brisbane | Book a FREE 15-Min Consult" 
         description="We'll give you energy that never dies, skin that never breaks out, and a gut that never bloats in as little as 21 days. Book your free 15-minute consult now." 

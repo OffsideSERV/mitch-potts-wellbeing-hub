@@ -4,6 +4,12 @@
 /services/mls-laser-therapy-treatment-brisbane   /services   301
 /laser-healing   /services   301
 
+# Retired duplicate landing page
+/naturopathy-in-brisbane   /naturopath-in-brisbane   301
+
+# Old suburb URL pattern
+/indooroopilly-naturopathy   /areas-we-serve/naturopath-indooroopilly   301
+
 # Lead magnet renamed from report to guide
 /report   /guide   301
 

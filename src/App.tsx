@@ -82,7 +82,6 @@ import NXTLVLResetLearnMore from "./pages/NXTLVLResetLearnMore";
 import NXTLVLResetBrochure from "./pages/NXTLVLResetBrochure";
 import NaturopathyBrisbane from "./pages/NaturopathyBrisbane";
 import NaturopathInBrisbane from "./pages/NaturopathInBrisbane";
-import NaturopathyInBrisbane from "./pages/NaturopathyInBrisbane";
 import ThankYouFreeConsult from "./pages/ThankYouFreeConsult";
 import ThankYouAppointment from "./pages/ThankYouAppointment";
 import HealthPackages from "./pages/HealthPackages";
@@ -111,7 +110,6 @@ const App = () => (
             <Route path="/nxtlvl-reset/brochure" element={<NXTLVLResetBrochure />} />
             <Route path="/naturopathy-brisbane" element={<NaturopathyBrisbane />} />
             <Route path="/naturopath-in-brisbane" element={<NaturopathInBrisbane />} />
-            <Route path="/naturopathy-in-brisbane" element={<NaturopathyInBrisbane />} />
             <Route path="/guide" element={<Report />} />
             <Route path="/free-report" element={<FreeReport />} />
           
