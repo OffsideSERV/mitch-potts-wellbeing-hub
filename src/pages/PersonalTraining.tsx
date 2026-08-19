@@ -168,7 +168,7 @@ const PersonalTraining = () => {
     icon: <MapPin className="h-6 w-6 text-primary" />
   }];
   return <>
-      <SEO title="5-Star Rated Personal Trainer In Newstead | Mitchell Potts" description="Train right with Mitch, a 5-star personal trainer in Newstead. Build your strength, lose weight, boost energy, and feel confidence that lasts a lifetime." canonical="/services/personal-trainer-newstead" keywords="personal trainer Newstead, personal trainer Brisbane, fitness trainer, strength training, weight loss trainer" serviceSchema={personalTrainingServiceSchema} />
+      <SEO title="Personal Trainer Newstead | Online Coaching | NXTLVL Health" description="Online personal training with naturopath Mitch Potts for Newstead and Brisbane locals. Programmes built around your body, gym access and recovery needs." canonical="/services/personal-trainer-newstead" keywords="personal trainer Newstead, personal trainer Brisbane, fitness trainer, strength training, weight loss trainer" serviceSchema={personalTrainingServiceSchema} />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

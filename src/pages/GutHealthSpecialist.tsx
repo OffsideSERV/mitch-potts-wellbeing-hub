@@ -83,7 +83,7 @@ const GutHealthSpecialist = () => {
     }]
   };
   return <>
-      <SEO title="Best Gut Health Specialist in Brisbane | Book a Free Consult" description="Feeling tired, bloated, foggy or just flat? Our gut health specialist Mitch will the real cause of your symptoms, so you can finally feel like YOU again." canonical="/what-we-treat/gut-health-specialist" keywords="gut health specialist Brisbane, digestive health Brisbane, gut health doctor, microbiome specialist, SIBO specialist Brisbane" serviceSchema={gutHealthSpecialistSchema} />
+      <SEO title="Gut Health Specialist Brisbane | Species-Level Testing" description="Work with a gut health specialist who tests instead of guessing. Metagenomic sequencing, tailored herbs and nutrition, delivered online Australia-wide." canonical="/what-we-treat/gut-health-specialist" keywords="gut health specialist Brisbane, digestive health Brisbane, gut health doctor, microbiome specialist, SIBO specialist Brisbane" serviceSchema={gutHealthSpecialistSchema} />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

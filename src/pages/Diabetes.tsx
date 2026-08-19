@@ -2,7 +2,7 @@ import SEO from "@/components/SEO";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const Diabetes = () => {
   return <>
-      <SEO title="5-Star Naturopath Diabetes Support in Brisbane" description="Tired of, or stuck with blood sugar issues? Our naturopath diabetes support will find the root cause of your problems,—so you can be calm and in control again." canonical="/what-we-treat/naturopath-diabetes-brisbane" keywords="diabetes naturopath Brisbane, blood sugar support, natural diabetes treatment, diabetes specialist Brisbane, naturopathic diabetes care" serviceSchema={{
+      <SEO title="Naturopath Diabetes Brisbane | Natural Blood Sugar Help" description="Natural support for insulin resistance, prediabetes and type 2 diabetes using testing, nutrition and herbal medicine. Online consults across Australia." canonical="/what-we-treat/naturopath-diabetes-brisbane" keywords="diabetes naturopath Brisbane, blood sugar support, natural diabetes treatment, diabetes specialist Brisbane, naturopathic diabetes care" serviceSchema={{
       "@context": "https://schema.org",
       "@type": "Service",
       "@id": "https://nxtlvlhealth.com.au/what-we-treat/naturopath-diabetes-brisbane#service",

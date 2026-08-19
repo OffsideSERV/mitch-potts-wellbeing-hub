@@ -11,11 +11,10 @@ const NXTLVLReset = () => {
   return (
     <>
       <Helmet>
-        <title>NXTLVL Reset - 12 Week Health Transformation Program | Brisbane</title>
-        <meta 
-          name="description" 
-          content="Transform your health in 12 weeks with NXTLVL Reset. Overcome fatigue, digestive issues, and stress with our structured health optimization program for busy professionals in Brisbane."
-        />
+        <title>NXTLVL Reset | 12-Week Gut and Energy Reset Programme</title>
+        <meta name="description" content="The NXTLVL Reset is a 12-week programme for busy professionals tackling fatigue, gut issues and stress. See the phases, inclusions and real results." />
+        <meta property="og:title" content="NXTLVL Reset | 12-Week Gut and Energy Reset Programme" />
+        <meta property="og:description" content="The NXTLVL Reset is a 12-week programme for busy professionals tackling fatigue, gut issues and stress. See the phases, inclusions and real results." />
         <meta name="keywords" content="health transformation, 12 week program, naturopath Brisbane, gut health reset, stress management, energy optimization" />
         <link rel="canonical" href="https://nxtlvlhealth.com.au/nxtlvl-reset" />
       </Helmet>

@@ -78,8 +78,8 @@ const BestTeaForStomachPain = () => {
   return (
     <>
       <SEO 
-        title="The Best Tea for Stomach Pain and Bloating | 2025 Look"
-        description="Are you struggling with bloating or tummy pain? Learn about the best tea for stomach pain and bloating in this quick guide. Let's jump in!"
+        title="Best Tea for Stomach Pain and Bloating | Naturopath Guide"
+        description="Which teas actually ease stomach pain and bloating? A naturopath ranks peppermint, ginger, fennel and chamomile, and explains when to drink each one."
         canonical="/blog/gut-health/best-tea-for-stomach-pain-and-bloating"
         keywords="best tea for stomach pain, tea for bloating, herbal teas for digestion, natural stomach remedies, digestive teas"
       />

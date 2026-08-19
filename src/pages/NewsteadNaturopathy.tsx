@@ -153,7 +153,7 @@ const NewsteadNaturopathy = () => {
     }]
   };
   return <>
-      <SEO title="Top Naturopath in Newstead Brisbane | Mitchell Potts" description="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath in Newstead Brisbane that will find and heal the root cause of your problems." canonical="/areas-we-serve/naturopath-newstead" keywords="naturopath Newstead, Newstead naturopathy, natural health Newstead, holistic health Newstead Brisbane" serviceSchema={newsteadNaturopathyServiceSchema} />
+      <SEO title="Naturopath Newstead | Online Consultations | NXTLVL Health" description="Online naturopath consultations for Newstead and greater Brisbane. Root-cause testing for bloating, fatigue and hormones. Book a free 15-minute chat." canonical="/areas-we-serve/naturopath-newstead" keywords="naturopath Newstead, Newstead naturopathy, natural health Newstead, holistic health Newstead Brisbane" serviceSchema={newsteadNaturopathyServiceSchema} />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

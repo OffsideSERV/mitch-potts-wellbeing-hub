@@ -7,8 +7,8 @@ const FunctionalMedicine = () => {
   return (
     <>
       <SEO 
-        title="Functional Medicine Brisbane | Root Cause Health Solutions"
-        description="Expert functional medicine practitioner in Brisbane. Advanced testing and personalised treatment plans to address root causes of chronic health conditions."
+        title="Functional Medicine Brisbane | Root Cause Testing Plans"
+        description="Functional medicine in Brisbane and online: metagenomic stool testing, blood and gene testing, then a plan that treats the cause of your symptoms."
         canonical="/functional-medicine"
         keywords="functional medicine Brisbane, root cause medicine, functional medicine practitioner, holistic health Brisbane, integrative medicine"
       />

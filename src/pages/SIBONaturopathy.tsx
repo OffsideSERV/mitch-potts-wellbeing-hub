@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Activity, Users, Brain, Zap } from "lucide-react";
 const SIBONaturopathy = () => {
   return <>
-      <SEO title="SIBO Naturopath | The Best in Brisbane | NXTLVL Health" description="Feeling tired, bloated, foggy or just flat? Our SIBO naturopath will the real cause of your symptoms, so you can finally feel like YOU again." canonical="/what-we-treat/sibo-naturopath" keywords="SIBO naturopath Brisbane, small intestinal bacterial overgrowth treatment, SIBO specialist, gut health Brisbane, natural SIBO treatment" />
+      <SEO title="SIBO Naturopath Brisbane | Testing & Natural Treatment" description="SIBO testing and natural treatment for bloating, wind and reflux that will not settle. Herbal protocols and diet support, delivered online Australia-wide." canonical="/what-we-treat/sibo-naturopath" keywords="SIBO naturopath Brisbane, small intestinal bacterial overgrowth treatment, SIBO specialist, gut health Brisbane, natural SIBO treatment" />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

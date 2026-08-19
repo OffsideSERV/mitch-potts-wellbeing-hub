@@ -29,8 +29,8 @@ const NutritionistBrisbane = () => {
   return (
     <>
       <SEO 
-        title="Nutritionist Brisbane | Expert Nutrition Plans | New Farm"
-        description="Expert nutritionist serving New Farm, Brisbane online. Get tailored nutrition plans for weight loss, muscle gain, gut health & more. Book with Mitch for personalised nutrition guidance."
+        title="Nutritionist Brisbane | Personalised Nutrition Plans"
+        description="Work with a Brisbane nutritionist online for gut-friendly meal plans, nutrient testing and habits that stick. Book a free 15-minute chat with Mitch."
         canonical="/services/nutritionist-brisbane"
         keywords="nutritionist Brisbane, nutrition plans, dietitian Brisbane, sports nutrition, weight loss nutrition, New Farm nutritionist"
       />

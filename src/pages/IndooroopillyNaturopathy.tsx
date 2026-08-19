@@ -8,8 +8,8 @@ const IndooroopillyNaturopathy = () => {
   return (
     <>
       <SEO 
-        title="Naturopath Indooroopilly | Natural Health Clinic Brisbane"
-        description="Expert naturopath serving Indooroopilly and surrounding Brisbane areas. Specialising in natural health solutions, gut health, hormones, and holistic wellness."
+        title="Naturopath Indooroopilly | Online Consults | NXTLVL"
+        description="Online naturopath consultations for Indooroopilly and greater Brisbane. Root-cause testing for gut, hormone and energy problems. Free 15-minute chat."
         canonical="/areas-we-serve/naturopath-indooroopilly"
         keywords="naturopath Indooroopilly, natural health Indooroopilly, holistic health Brisbane, naturopathy clinic Indooroopilly"
       />

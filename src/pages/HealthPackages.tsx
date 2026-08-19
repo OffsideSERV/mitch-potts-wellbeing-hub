@@ -91,8 +91,8 @@ const HealthPackages = () => {
   return (
     <>
       <SEO 
-        title="Health Packages Brisbane | Gut Health & Weight Loss Programs - NXTLVL Health"
-        description="Comprehensive health packages for gut health transformation and weight loss. 3, 6 and 12-month programs with personalised care, testing, and ongoing support in Brisbane."
+        title="Health Packages | Gut Health & Weight Loss Programmes"
+        description="Compare our 3, 6 and 12-month gut health and weight loss packages, including testing, herbal formulas, follow-ups and pricing. Online Australia-wide."
         canonical="https://nxtlvlhealth.com.au/health-packages"
       />
       

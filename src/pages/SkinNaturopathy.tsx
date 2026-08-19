@@ -8,8 +8,8 @@ const SkinNaturopathy = () => {
   return (
     <>
       <SEO 
-        title="Naturopathy for Skin Conditions | The Best in Brisbane"
-        description="Skin breaking out and have no idea why? No problem, Mitch's naturopathy for skin treatment will finally give you answers. Book a free 15-min consult today!"
+        title="Naturopathy for Skin Brisbane | Clear Skin From Within"
+        description="Naturopathic skin support for acne, eczema, rosacea and rashes, working on gut health, hormones and nutrients. Online consults right across Australia."
         canonical="/what-we-treat/naturopathy-for-skin"
         keywords="skin naturopath Brisbane, naturopathy for skin, natural skin treatment, holistic skin care, skin specialist Brisbane"
       />

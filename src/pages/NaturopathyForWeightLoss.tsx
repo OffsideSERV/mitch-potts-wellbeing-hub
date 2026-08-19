@@ -35,7 +35,7 @@ const NaturopathyForWeightLoss = () => {
     answer: "Absolutely! It's best when your naturopath and doctor work together as a team."
   }];
   return <>
-      <SEO title="Naturopathy for Weight Loss in 2025 | Does It Really Work?" description="Learn all about how effective Naturopathy is for weight loss and how it helps you feel better naturally. Find out how a naturopath can heal your body and mind." canonical="/blog/naturopathy/naturopathy-for-weight-loss" keywords="naturopathy weight loss, naturopath weight loss, natural weight loss, holistic weight loss, naturopathy Brisbane" />
+      <SEO title="Naturopathy for Weight Loss | Does It Actually Work?" description="Can naturopathy help you lose weight? See what testing, herbs and nutrition really do for your metabolism, plus who gets the best results and why." canonical="/blog/naturopathy/naturopathy-for-weight-loss" keywords="naturopathy weight loss, naturopath weight loss, natural weight loss, holistic weight loss, naturopathy Brisbane" />
 
       <div className="min-h-screen bg-background">
         {/* Header */}

@@ -74,8 +74,8 @@ const NXTLVLTonics = () => {
   return (
     <>
       <SEO 
-        title="NXTLVL Tonics | Custom Herbal Blends & Natural Remedies"
-        description="Discover personalised herbal tonics at NXTLVL Health. Custom blends for energy, sleep, immunity, gut health & more. Made by qualified naturopaths serving New Farm online."
+        title="NXTLVL Tonics | Custom Herbal Blends Made For Your Body"
+        description="Practitioner-only herbal tonics blended for your symptoms and test results, posted to your door anywhere in Australia. See how each one is made."
         canonical="/nxtlvl-tonics"
         keywords="herbal tonics, custom herbal blends, natural remedies, naturopath New Farm, herbal medicine Brisbane, personalized health"
       />

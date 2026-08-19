@@ -8,8 +8,8 @@ const GutFreedomOptIn = () => {
   return (
     <>
       <SEO 
-        title="Gut Freedom | Free 15-Minute Video Guide | NXTLVL Health"
-        description="Get your FREE 15-minute video guide to achieving gut freedom. Learn the 3 steps to transform your digestive health and regain energy naturally."
+        title="Gut Freedom | Free 15-Minute Video Guide to Beat Bloating"
+        description="Watch the free Gut Freedom video guide and learn the three steps Mitch uses to settle bloating and rebuild digestion. Instant access, nothing to pay."
         canonical="/gut-freedom"
         keywords="gut freedom, digestive health guide, gut health video, free gut health resource, naturopath Brisbane"
       />

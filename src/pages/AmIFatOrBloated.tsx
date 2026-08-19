@@ -43,7 +43,7 @@ const AmIFatOrBloated = () => {
     title: "What Patients Often Report After Working on This"
   }];
   return <>
-      <SEO title="Am I Fat Or Bloated? | Let's Take a Look" description="Wondering 'am I fat or bloated'? Learn how to spot the difference, what causes belly changes, and how to reduce bloating fast. Click to read." canonical="/am-i-fat-or-bloated" keywords="fat vs bloating, belly bloating, stomach bloating vs fat, digestive health Brisbane, naturopath Brisbane" />
+      <SEO title="Am I Fat or Bloated? How to Tell the Difference Fast" description="Learn how to tell bloating from body fat, why your stomach changes through the day, and the quickest naturopathic ways to settle a swollen belly." canonical="/am-i-fat-or-bloated" keywords="fat vs bloating, belly bloating, stomach bloating vs fat, digestive health Brisbane, naturopath Brisbane" />
 
       <article className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Hero Section */}

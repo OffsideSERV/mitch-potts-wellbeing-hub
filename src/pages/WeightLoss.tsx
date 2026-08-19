@@ -83,7 +83,7 @@ const WeightLoss = () => {
     }]
   };
   return <>
-      <SEO title="Weight Loss Naturopath | The Best in Brisbane" description="Tried everything and still not dropping the weight? Our weight loss naturopath finds out what's really going on—and helps your body transform the way you like." canonical="/what-we-treat/weight-loss-naturopath-brisbane" keywords="weight loss naturopath Brisbane, natural weight loss, holistic weight loss, naturopathic weight loss" serviceSchema={weightLossNaturopathSchema} />
+      <SEO title="Weight Loss Naturopath Brisbane | Metabolism & Hormones" description="Dieting hard and still stuck? Our weight loss naturopath tests gut, thyroid and hormones to find what blocks fat loss. Online consults Australia-wide." canonical="/what-we-treat/weight-loss-naturopath-brisbane" keywords="weight loss naturopath Brisbane, natural weight loss, holistic weight loss, naturopathic weight loss" serviceSchema={weightLossNaturopathSchema} />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

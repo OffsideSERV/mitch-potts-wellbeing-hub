@@ -133,8 +133,8 @@ const Blog = () => {
   return (
     <>
       <SEO 
-        title="Health & Wellness Blog | NXTLVL Health"
-        description="Discover expert insights on gut health, naturopathy, weight loss, and wellness. Read our latest articles on natural health solutions and holistic healing approaches."
+        title="Gut Health & Naturopathy Blog | NXTLVL Health Brisbane"
+        description="Practical articles on bloating, IBS, gut bacteria, weight loss and natural health, written by Brisbane naturopath Mitch Potts. Read the latest posts."
         canonical="/blog"
         keywords="health blog, naturopathy articles, gut health tips, weight loss advice, wellness blog, holistic health, natural remedies"
       />

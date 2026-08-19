@@ -8,8 +8,8 @@ const HamiltonNaturopathy = () => {
   return (
     <>
       <SEO 
-        title="Best Naturopath Hamilton | Book a Free 15-Min Consult!"
-        description="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath in Hamilton that will find and heal the root cause of your problems."
+        title="Naturopath Hamilton | Online Consults | NXTLVL Health"
+        description="Online naturopath consultations for Hamilton and greater Brisbane. Gut, hormone and energy testing with plans built around you. Free 15-minute chat."
         canonical="/areas-we-serve/naturopath-hamilton"
         keywords="naturopath Hamilton, Hamilton naturopathy, natural health Hamilton, holistic health Hamilton Brisbane"
       />

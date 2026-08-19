@@ -6,8 +6,8 @@ const PathologyTestingPrices = () => {
   return (
     <>
       <SEO 
-        title="Pathology Testing Prices | NXTLVL Health Brisbane"
-        description="Simple, clear pricing for comprehensive pathology testing. Food allergies, gut health, hormones, and more. Get accurate results with trusted labs."
+        title="Pathology Testing Prices | Naturopathic Test Costs AU"
+        description="Clear pricing for the pathology and functional tests we use, including metagenomic stool testing, hormone and blood panels. See costs before you book."
         canonical="/pathology-testing-prices"
       />
       

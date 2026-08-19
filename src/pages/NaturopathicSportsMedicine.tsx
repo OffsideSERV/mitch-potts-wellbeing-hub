@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Activity, Brain, Zap, Target, Users, Shield } from "lucide-react";
 const NaturopathicSportsMedicine = () => {
   return <>
-      <SEO title="Naturopathic Sports Medicine in Brisbane | Book a FREE 15-Min Consult!" description="Improve recovery, boost performance, and treat the root cause with naturopathic sports medicine in Brisbane. Book your free 15-min consult today." canonical="/what-we-treat/naturopathic-sports-medicine" keywords="naturopathic sports medicine Brisbane, sports naturopath, athlete recovery, sports performance, natural sports medicine, holistic sports health" serviceSchema={{
+      <SEO title="Naturopathic Sports Medicine Brisbane | Recover Faster" description="Naturopathic sports medicine for recovery, energy and injury repair, using functional testing and practitioner-only herbs. Online consults Australia-wide." canonical="/what-we-treat/naturopathic-sports-medicine" keywords="naturopathic sports medicine Brisbane, sports naturopath, athlete recovery, sports performance, natural sports medicine, holistic sports health" serviceSchema={{
       "@context": "https://schema.org",
       "@type": "Service",
       "@id": "https://nxtlvlhealth.com.au/what-we-treat/naturopathic-sports-medicine#service",

@@ -163,7 +163,7 @@ const NorthBrisbaneNaturopathy = () => {
     }]
   };
   return <>
-      <SEO title="Best Naturopath in North Brisbane | NXTLVL Health" description="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath in North Brisbane that will find and heal the root cause of your problems." canonical="/areas-we-serve/naturopath-north-brisbane" keywords="naturopath North Brisbane, naturopathy North Brisbane, natural health North Brisbane, holistic health North Brisbane" serviceSchema={northBrisbaneNaturopathyServiceSchema} />
+      <SEO title="Naturopath North Brisbane | Online Consults | NXTLVL" description="Online naturopath consultations for North Brisbane. Gut health, hormones, fatigue and skin, with testing kits posted to your door. Free 15-minute chat." canonical="/areas-we-serve/naturopath-north-brisbane" keywords="naturopath North Brisbane, naturopathy North Brisbane, natural health North Brisbane, holistic health North Brisbane" serviceSchema={northBrisbaneNaturopathyServiceSchema} />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

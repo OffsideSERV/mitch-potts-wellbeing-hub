@@ -8,8 +8,8 @@ const HormonalAcneNaturopathy = () => {
   return (
     <>
       <SEO 
-        title="Best Hormonal Acne Naturopath in Brisbane | Free Consult!"
-        description="Skin breaking out and have no idea why? No problem, Mitch's Hormonal Acne Naturopathy will finally give you answers. Book a free 15-min consult today!"
+        title="Hormonal Acne Naturopath | Balance Skin From Within"
+        description="Hormonal acne support for jawline and cyclical breakouts, testing hormones and gut health before treating. Online consultations right across Australia."
         canonical="/what-we-treat/hormonal-acne-naturopath"
         keywords="hormonal acne naturopath Brisbane, hormonal acne treatment, natural acne treatment, acne specialist Brisbane, hormonal balance Brisbane"
       />

@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Brain, Shield, Users, Activity } from "lucide-react";
 const AnxietyNaturopathy = () => {
   return <>
-      <SEO title="Naturopath for Anxiety | Best in Brisbane | Free Consult!" description="Not feeling like yourself lately? Feeling on edge? Not sure what to do? Mitchell is a 5-star Naturopath for Anxiety that will finally give you answers." canonical="/what-we-treat/naturopath-anxiety" keywords="anxiety naturopath Brisbane, natural anxiety treatment, anxiety support, holistic anxiety treatment, naturopathic anxiety care" serviceSchema={{
+      <SEO title="Naturopath for Anxiety | Calm Your Nervous System Again" description="Naturopathic anxiety support that looks at gut health, nutrients and stress hormones, not just symptoms. Book a free 15-minute online consult with Mitch." canonical="/what-we-treat/naturopath-anxiety" keywords="anxiety naturopath Brisbane, natural anxiety treatment, anxiety support, holistic anxiety treatment, naturopathic anxiety care" serviceSchema={{
       "@context": "https://schema.org",
       "@type": "Service",
       "@id": "https://nxtlvlhealth.com.au/what-we-treat/naturopath-anxiety#service",

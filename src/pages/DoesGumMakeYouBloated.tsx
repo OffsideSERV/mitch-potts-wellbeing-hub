@@ -64,8 +64,8 @@ const DoesGumMakeYouBloated = () => {
   return (
     <>
       <SEO 
-        title="Does Gum Make You Bloated? | Let's Take a Look"
-        description="Patients ask me all the time: 'Mitch, does gum make you bloated?' The short answer is yes - chewing gum can cause gas and bloating in some people. Let's break it down."
+        title="Does Gum Make You Bloated? A Naturopath Explains Why"
+        description="Chewing gum really can cause wind and bloating. A naturopath explains swallowed air, sugar alcohols and what to chew instead if you want fresh breath."
         canonical="/blog/gut-health/does-gum-make-you-bloated"
         keywords="chewing gum bloating, sugar free gum bloating, does gum cause gas, gum and digestion, bloating causes"
       />

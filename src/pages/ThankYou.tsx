@@ -6,8 +6,8 @@ const ThankYou = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary/10 to-accent/10">
       <SEO
-        title="Thank You for Booking | NXTLVL Health"
-        description="Thank you for booking your appointment with NXTLVL Health. We'll be in touch soon to confirm your session."
+        title="Thank You | Your Appointment Is Booked | NXTLVL Health"
+        description="Your appointment with NXTLVL Health is confirmed. Here is what happens next, how to prepare, and where to find the details in your confirmation email."
         canonical="/thank-you"
       />
 

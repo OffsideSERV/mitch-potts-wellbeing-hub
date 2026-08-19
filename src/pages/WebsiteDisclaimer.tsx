@@ -4,8 +4,8 @@ const WebsiteDisclaimer = () => {
   return (
     <>
       <SEO 
-        title="Website Disclaimer | NXTLVL Health"
-        description="Read NXTLVL Health's website disclaimer covering general information, liability limitations, and intellectual property rights for our health services website."
+        title="Website Disclaimer | NXTLVL Health Brisbane Naturopath"
+        description="The NXTLVL Health website disclaimer covering general health information, external links and why our content is not a substitute for medical advice."
         canonical="/website-disclaimer"
         keywords="website disclaimer, liability, intellectual property, NXTLVL Health legal terms"
       />

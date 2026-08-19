@@ -5,8 +5,8 @@ import { Calendar, CheckCircle, Heart, Users, Target, Leaf, Zap, Shield, Activit
 const WellnessClinic = () => {
   return <>
       <SEO 
-        title="Best Wellness Clinic Brisbane | Book a FREE 15-Min Consult!"
-        description="Feeling off lately with no idea why? At NXTLVL Health, the best wellness clinic in Brisbane, we will find the real cause and heal the problem at its root."
+        title="Wellness Clinic Brisbane | Online Naturopathy Programmes"
+        description="An online wellness clinic for Brisbane and beyond, combining naturopathy, nutrition, testing and coaching in one plan. Book a free 15-minute chat today."
         canonical="/what-we-treat/wellness-clinic-brisbane"
         keywords="wellness clinic Brisbane, natural health clinic Brisbane, holistic health clinic, naturopathic clinic Brisbane"
       />

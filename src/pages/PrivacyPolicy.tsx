@@ -4,8 +4,8 @@ const PrivacyPolicy = () => {
   return (
     <>
       <SEO 
-        title="Privacy Policy | NXTLVL Health"
-        description="Learn how NXTLVL Health protects your personal information. Our privacy policy outlines our commitment to safeguarding your data in compliance with Australian Privacy Principles."
+        title="Privacy Policy | How NXTLVL Health Protects Your Data"
+        description="How NXTLVL Health collects, stores and protects your personal and health information, including consultation records, testing data and your privacy rights."
         canonical="/privacy-policy"
         keywords="privacy policy, data protection, Australian Privacy Principles, NXTLVL Health privacy"
       />

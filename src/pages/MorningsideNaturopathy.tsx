@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Activity, Brain, Baby } from "lucide-react";
 const MorningsideNaturopathy = () => {
   return <>
-      <SEO title="Best Naturopath Morningside | Book a Free 15-Min Consult!" description="Not feeling like yourself and not getting answers? Mitchell is a 5-star Naturopath in Morningside that will find and heal the root cause of your problems." canonical="/areas-we-serve/naturopath-morningside" keywords="naturopath Morningside, Morningside naturopathy, natural health Morningside, holistic health Morningside Brisbane" />
+      <SEO title="Naturopath Morningside | Online Consults | NXTLVL Health" description="Online naturopath consultations for Morningside and greater Brisbane. We test first, then treat the cause of your symptoms. Free 15-minute chat to start." canonical="/areas-we-serve/naturopath-morningside" keywords="naturopath Morningside, Morningside naturopathy, natural health Morningside, holistic health Morningside Brisbane" />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

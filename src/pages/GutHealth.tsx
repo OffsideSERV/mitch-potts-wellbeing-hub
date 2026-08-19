@@ -251,7 +251,7 @@ const GutHealth = () => {
     icon: <Eye className="h-6 w-6 text-primary" />
   }];
   return <>
-      <SEO title="Highly Trusted Gut Health Naturopath | Mitchell Potts" description="Feeling tired, bloated, foggy or just flat? Our gut health naturopath will the real cause of your symptoms—so you can finally feel like YOU again." canonical="/what-we-treat/gut-health-naturopath-brisbane" keywords="gut health naturopath Brisbane, digestive health Brisbane, IBS treatment Brisbane, gut healing Brisbane, functional medicine Brisbane" serviceSchema={gutHealthServiceSchema} />
+      <SEO title="Gut Health Naturopath Brisbane | Bloating & IBS Support" description="Bloated, tired and foggy? Our gut health naturopath uses species-level stool testing to find why, then builds your plan. Free 15-minute consult online." canonical="/what-we-treat/gut-health-naturopath-brisbane" keywords="gut health naturopath Brisbane, digestive health Brisbane, IBS treatment Brisbane, gut healing Brisbane, functional medicine Brisbane" serviceSchema={gutHealthServiceSchema} />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 to-accent/10 py-20 px-4">

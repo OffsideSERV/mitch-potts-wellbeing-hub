@@ -148,8 +148,8 @@ const FreeReport = () => {
   return (
     <>
       <SEO
-        title="Free Guide: 7 Overlooked Habits Causing Bloating | NXTLVL Health"
-        description="Expert Naturopath Mitchell Potts reveals 7 crazily overlooked habits causing women to bloat after every meal. Get the free guide instantly."
+        title="Free Guide | 7 Overlooked Habits That Cause Bloating"
+        description="Get instant access to the free guide where naturopath Mitch Potts reveals seven habits making women bloat after every meal. Emailed to you right away."
         canonical="https://nxtlvlhealth.com.au/free-report"
       />
 

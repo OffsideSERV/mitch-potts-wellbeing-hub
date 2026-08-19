@@ -6,8 +6,8 @@ const Contact = () => {
   return (
     <>
       <SEO
-        title="Contact Us | NXTLVL Health Brisbane"
-        description="Get in touch with NXTLVL Health. Book a free 15-minute consultation with our expert naturopath. Brisbane-based, online consultations Australia-wide."
+        title="Contact NXTLVL Health | Brisbane Naturopath Online"
+        description="Email NXTLVL Health or book a free 15-minute consultation with naturopath Mitch Potts. Brisbane-based, online consultations right across Australia."
         canonical="/contact"
         keywords="contact naturopath Brisbane, book consultation Brisbane, NXTLVL Health contact"
       />

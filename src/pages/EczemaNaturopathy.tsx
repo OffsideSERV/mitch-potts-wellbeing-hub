@@ -8,8 +8,8 @@ const EczemaNaturopathy = () => {
   return (
     <>
       <SEO 
-        title="Best Naturopath for Eczema | Book a Free 15-Min Consult!"
-        description="Always flaring up and have no idea why? No problem, Mitch is a Naturopath for Eczema who will finally give you answers. Book a free 15-min consult today!"
+        title="Naturopath for Eczema | Calm Flare-Ups Naturally"
+        description="Eczema support that looks past creams to gut health, food triggers and immune balance. Testing plus tailored herbs, delivered online Australia-wide."
         canonical="/what-we-treat/naturopath-eczema"
         keywords="eczema naturopath Brisbane, natural eczema treatment, eczema specialist, holistic eczema care, naturopathic eczema treatment"
       />

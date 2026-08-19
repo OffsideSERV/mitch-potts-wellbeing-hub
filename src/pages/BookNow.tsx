@@ -39,8 +39,8 @@ const BookNow = () => {
   return (
     <>
       <SEO 
-        title="Book Appointment | NXTLVL Health | Brisbane Naturopath"
-        description="Book your appointment with NXTLVL Health. Easy online booking for naturopathy consultations in Brisbane. Start your health journey today."
+        title="Book Now | Naturopath Appointments Online Australia-Wide"
+        description="Book your online naturopathy appointment with Mitch Potts. Choose an initial consult or follow-up, check availability and secure your time in minutes."
         canonical="/book-now"
         keywords="book naturopath Brisbane, naturopathy appointment, health consultation booking, NXTLVL Health appointment"
       />

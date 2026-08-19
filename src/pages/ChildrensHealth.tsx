@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Heart, Users, Baby, Shield, Activity } from "lucide-react";
 const ChildrensHealth = () => {
   return <>
-      <SEO title="Top-Rated Children's Naturopath in Brisbane" description="Our gentle children's naturopath Mitchell Potts helps uncover and treat the root causes of your child's gut, skin, mood, and energy problems—safely and easily." canonical="/what-we-treat/childrens-naturopath-brisbane" keywords="children's naturopath Brisbane, kids naturopath, paediatric naturopath, children's health Brisbane, natural children's medicine" serviceSchema={{
+      <SEO title="Childrens Naturopath Brisbane | Gentle Kids Health Care" description="Gentle naturopathic care for children with gut, skin, mood, sleep and immunity problems. Testing plus safe, simple plans delivered online Australia-wide." canonical="/what-we-treat/childrens-naturopath-brisbane" keywords="children's naturopath Brisbane, kids naturopath, paediatric naturopath, children's health Brisbane, natural children's medicine" serviceSchema={{
       "@context": "https://schema.org",
       "@type": "Service",
       "@id": "https://nxtlvlhealth.com.au/what-we-treat/childrens-naturopath-brisbane#service",

@@ -8,8 +8,10 @@ const NXTLVLResetBrochure = () => {
   return (
     <>
       <Helmet>
-        <title>NXTLVL Reset Brochure | 12 Week Health Program</title>
-        <meta name="description" content="View the NXTLVL Reset 12-week health transformation program brochure. Learn about our structured approach to restoring energy, gut health, and performance." />
+        <title>NXTLVL Reset Brochure | 12-Week Programme Overview</title>
+        <meta name="description" content="The NXTLVL Reset brochure covering the 12-week programme structure, inclusions, testing and support, so you can review everything in one place." />
+        <meta property="og:title" content="NXTLVL Reset Brochure | 12-Week Programme Overview" />
+        <meta property="og:description" content="The NXTLVL Reset brochure covering the 12-week programme structure, inclusions, testing and support, so you can review everything in one place." />
         <link rel="canonical" href="https://nxtlvlhealth.com.au/nxtlvl-reset/brochure" />
       </Helmet>
 
