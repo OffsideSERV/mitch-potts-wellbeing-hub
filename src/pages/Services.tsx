@@ -14,7 +14,7 @@ const Services = () => {
     title: "NUTRITION",
     icon: <Salad className="h-8 w-8 text-primary" />
   }, {
-    title: "LASER THERAPY",
+    title: "HERBAL MEDICINE",
     icon: <Zap className="h-8 w-8 text-primary" />
   }, {
     title: "PERSONAL TRAINING",

@@ -120,7 +120,7 @@ const AboutUs = () => {
                 <Microscope className="h-12 w-12 text-primary mx-auto mb-4" />
                 <h3 className="text-xl font-semibold mb-2">Advanced Screening 
 Training</h3>
-                <p className="text-muted-foreground">Live blood analysis & functional testing</p>
+                <p className="text-muted-foreground">Metagenomic stool testing & functional testing</p>
               </CardContent>
             </Card>
 

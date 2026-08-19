@@ -131,7 +131,7 @@ const SEO = ({
           "Eczema Treatment",
           "Anxiety Support",
           "Weight Management",
-          "Live Blood Analysis",
+          "Metagenomic Stool Testing",
           "Functional Medicine Testing"
         ],
         "potentialAction": {

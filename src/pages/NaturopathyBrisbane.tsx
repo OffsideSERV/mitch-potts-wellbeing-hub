@@ -613,10 +613,10 @@ const NaturopathyBrisbane = () => {
             {[
               { icon: <Salad className="w-7 h-7" />, title: "Nutritional Medicine", desc: "Using **food as medicine** to heal your body." },
               { icon: <TestTube className="w-7 h-7" />, title: "Functional Testing", desc: "**Advanced tests** to find the **hidden cause** of your problems." },
-              { icon: <Microscope className="w-7 h-7" />, title: "Live Blood Analysis", desc: "A drop of blood on a big screen shows us **what's happening inside your body** right now." },
+              { icon: <Microscope className="w-7 h-7" />, title: "Metagenomic Stool Testing", desc: "The most detailed gut test available. Full metagenomic sequencing reads **every bacteria, fungus, yeast and parasite** in your gut down to species level, plus what they're actually producing." },
               { icon: <Heart className="w-7 h-7" />, title: "Lifestyle Coaching", desc: "Helping you build **healthy habits** that last a lifetime." },
               { icon: <Dumbbell className="w-7 h-7" />, title: "Personal Training", desc: "Creating a **fitness plan** that works for your body." },
-              { icon: <Zap className="w-7 h-7" />, title: "MLS Laser Therapy", desc: "A special light that helps **reduce pain and swelling**." },
+              { icon: <Zap className="w-7 h-7" />, title: "Herbal Medicine", desc: "**Practitioner-only formulas** matched to what your testing actually shows, not pulled off a health food shop shelf." },
             ].map((item, i) => (
               <Card key={i} className={`scroll-animate delay-${(i % 3) + 1} group hover:shadow-xl transition-all duration-300 hover:-translate-y-1`}>
                 <CardContent className="p-6 text-center">

@@ -62,9 +62,9 @@ const NaturopathForAthletes = () => {
       description: "Targeted herbs to support immune function, reduce inflammation, and aid recovery with adaptogenic properties."
     },
     {
-      title: "Live Blood Analysis",
+      title: "Metagenomic Stool Testing",
       icon: <TestTube className="h-8 w-8 text-primary" />,
-      description: "Real-time view into your health showing inflammation, nutrient issues, and immune system stress."
+      description: "Species-level view of your gut showing inflammation drivers, nutrient issues, and immune system stress."
     },
     {
       title: "Functional Testing",
@@ -72,9 +72,9 @@ const NaturopathForAthletes = () => {
       description: "Comprehensive testing of hormones, digestion, adrenal function, and nutrient levels."
     },
     {
-      title: "Laser Therapy (MLS)",
+      title: "Targeted Supplementation",
       icon: <Zap className="h-8 w-8 text-primary" />,
-      description: "Support tissue repair, muscle relaxation, and reduce inflammation for injury recovery."
+      description: "Practitioner-only nutrients to support tissue repair, recovery, and reduce inflammation after injury."
     },
     {
       title: "Personal Training & Lifestyle Coaching",
@@ -383,7 +383,7 @@ const NaturopathForAthletes = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Through <strong className="text-foreground">live blood analysis</strong> and advanced <strong className="text-foreground">functional testing</strong>, we can pinpoint imbalances affecting your <strong className="text-foreground">sports performance</strong> — from nutrient deficiencies to inflammation, gut bugs, and hormonal disruption.
+                    Through <strong className="text-foreground">metagenomic stool testing</strong> and advanced <strong className="text-foreground">functional testing</strong>, we can pinpoint imbalances affecting your <strong className="text-foreground">sports performance</strong> — from nutrient deficiencies to inflammation, gut bugs, and hormonal disruption.
                   </p>
                 </CardContent>
               </Card>

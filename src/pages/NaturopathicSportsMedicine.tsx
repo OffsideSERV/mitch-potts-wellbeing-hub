@@ -371,7 +371,7 @@ const NaturopathicSportsMedicine = () => {
                 </div>
               </div>
 
-              {/* Live Blood Analysis */}
+              {/* Metagenomic Stool Testing */}
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <img src="/lovable-uploads/c932dabd-3ac9-4dd4-b8f6-9e2595151e1a.png" alt="Advanced diagnostic testing enabling precise insights for athletic performance optimization" className="rounded-2xl shadow-lg w-full h-auto" />
@@ -395,30 +395,30 @@ const NaturopathicSportsMedicine = () => {
                     <CardHeader>
                       <CardTitle className="flex items-center space-x-3">
                         <Target className="h-6 w-6 text-primary" />
-                        <span>Live Blood Analysis</span>
+                        <span>Metagenomic Stool Testing</span>
                       </CardTitle>
                     </CardHeader>
                     <CardContent>
                       <p className="text-muted-foreground">
-                        In just one drop of blood, we can see signs of inflammation, digestion issues, and oxidative stress. It's an amazing tool for understanding your body in real time.
+                        Full metagenomic sequencing reads every bacteria, fungus, yeast and parasite in your gut down to species level, plus what they're actually producing. It's an amazing tool for understanding what's really driving your symptoms.
                       </p>
                     </CardContent>
                   </Card>
                 </div>
               </div>
 
-              {/* MLS Laser Therapy */}
+              {/* Herbal Medicine */}
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <Card>
                   <CardHeader>
                     <CardTitle className="flex items-center space-x-3">
                       <Zap className="h-6 w-6 text-primary" />
-                      <span>MLS Laser Therapy</span>
+                      <span>Herbal Medicine</span>
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">
-                      If you're dealing with pain or injury, <strong>MLS laser therapy</strong> helps reduce inflammation and speed up healing — safely and without drugs. Great for <strong>manual therapy</strong> recovery and <strong>muscle relaxation</strong>. <strong>Naturopathic treatments</strong> also promote healing of muscle and tendon damage, addressing inflammation naturally.
+                      If you're dealing with pain or injury, <strong>practitioner-only herbal formulas</strong> help reduce inflammation and speed up healing — matched to what your testing actually shows. Great for <strong>recovery</strong> and <strong>muscle relaxation</strong>. <strong>Naturopathic treatments</strong> also promote healing of muscle and tendon damage, addressing inflammation naturally.
                     </p>
                   </CardContent>
                 </Card>
@@ -523,7 +523,7 @@ const NaturopathicSportsMedicine = () => {
               description: "We start with a 15-minute phone chat to learn about your symptoms, goals, and whether we're the right fit."
             }, {
               step: "Step 2: Comprehensive Testing and Assessment",
-              description: "We use live blood analysis and functional testing to build a complete picture of your current health."
+              description: "We use metagenomic stool testing and functional testing to build a complete picture of your current health."
             }, {
               step: "Step 3: Custom Treatment Plan",
               description: "You'll receive a clear, step-by-step plan built around your sport, lifestyle, and body. This may include nutrition, herbs, testing, and movement strategies."
