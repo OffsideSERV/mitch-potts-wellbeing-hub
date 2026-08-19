@@ -44,7 +44,7 @@ const BookingModal = ({ isOpen, onClose }: BookingModalProps) => {
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="max-w-4xl w-full h-[90vh] max-h-[900px] p-0">
         <DialogHeader className="p-6 pb-0">
-          <DialogTitle className="text-2xl font-bold text-center">Book Your MLS Laser Session</DialogTitle>
+          <DialogTitle className="text-2xl font-bold text-center">Book Your Consultation</DialogTitle>
           <button
             onClick={onClose}
             className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none"

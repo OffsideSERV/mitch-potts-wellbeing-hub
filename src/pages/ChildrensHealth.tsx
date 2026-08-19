@@ -232,7 +232,7 @@ const ChildrensHealth = () => {
               <CardContent>
                 <p className="text-muted-foreground mb-4">When appropriate, we may recommend gentle tests to provide additional insights:</p>
                 <ul className="space-y-2">
-                  {["Live blood analysis (to check nutrient levels or immune response)", "Stool and urine testing (for digestive health or gut flora imbalances)", "Food intolerance or allergy testing", "Organic Acids Test (OAT)", "Blood tests for Vitamin D, iron, and other nutritional deficiencies"].map((item, index) => <li key={index} className="flex items-start space-x-2">
+                  {["Functional pathology testing (to check nutrient levels or immune response)", "Stool and urine testing (for digestive health or gut flora imbalances)", "Food intolerance or allergy testing", "Organic Acids Test (OAT)", "Blood tests for Vitamin D, iron, and other nutritional deficiencies"].map((item, index) => <li key={index} className="flex items-start space-x-2">
                       <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-muted-foreground text-sm">{item}</span>
                     </li>)}

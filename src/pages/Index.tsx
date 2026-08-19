@@ -152,7 +152,7 @@ const Index = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 mt-8 md:mt-12 max-w-4xl mx-auto px-0 sm:px-4">
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 md:p-6 text-center">
                 <CheckCircle className="h-6 w-6 md:h-8 md:w-8 text-primary mx-auto mb-2" />
-                <p className="text-white font-semibold text-sm md:text-base">947+ Patients Healed</p>
+                <p className="text-white font-semibold text-sm md:text-base">947+ Guts Feeling Good Again</p>
               </div>
               
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 md:p-6 text-center">

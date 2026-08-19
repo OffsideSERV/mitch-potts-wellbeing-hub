@@ -456,7 +456,7 @@ const GutHealthSpecialist = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  We use advanced tools like gut microbiome testing, stool analysis, and live blood screening to find the root problem.
+                  We use advanced tools like gut microbiome testing, metagenomic stool analysis, and functional pathology screening to find the root problem.
                 </p>
               </CardContent>
             </Card>

@@ -19,7 +19,7 @@ const ThankYou = () => {
               Thank You for Booking!
             </h1>
             <p className="text-xl text-muted-foreground">
-              Your MLS Laser Therapy session has been successfully booked.
+              Your appointment has been successfully booked.
             </p>
           </div>
 

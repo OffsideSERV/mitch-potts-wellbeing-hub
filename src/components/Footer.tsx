@@ -19,7 +19,7 @@ const Footer = () => {
     { title: "New Farm", href: "/areas-we-serve/naturopath-new-farm" },
     { title: "Clayfield", href: "/areas-we-serve/naturopath-clayfield-brisbane" },
     { title: "Windsor", href: "/areas-we-serve/naturopath-windsor" },
-    { title: "Indooroopilly", href: "/indooroopilly-naturopathy" },
+    { title: "Indooroopilly", href: "/areas-we-serve/naturopath-indooroopilly" },
   ];
 
   return (

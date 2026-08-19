@@ -201,7 +201,7 @@ const FunctionalMedicine = () => {
               
               <div className="grid gap-4">
                 {[
-                  "LIVE BLOOD READING",
+                  "METAGENOMIC STOOL TESTING",
                   "CELLULAR HEALTH SCAN", 
                   "GENE TESTING",
                   "BLOOD TESTING",

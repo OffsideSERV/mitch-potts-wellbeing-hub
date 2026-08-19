@@ -136,7 +136,7 @@ const FreeReport = () => {
     try {
       await sendReportEmail(name, email);
       toast.success("Check your inbox — your guide is on its way!");
-      window.location.href = "/naturopathy-in-brisbane?welcome=1";
+      window.location.href = "/naturopath-in-brisbane?welcome=1";
     } catch (err) {
       console.error("send-report-email failed:", err);
       toast.error("Something went wrong. Please try again.");
