@@ -93,15 +93,7 @@ const SitemapPage = () => {
     <lastmod>${currentDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://nxtlvlhealth.com.au/gut-health-video</loc>
-    <lastmod>${currentDate}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
+  </url>  
   <url>
     <loc>https://nxtlvlhealth.com.au/what-we-treat/weight-loss-naturopath-brisbane</loc>
     <lastmod>${currentDate}</lastmod>

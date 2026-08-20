@@ -16,7 +16,6 @@ import Services from "./pages/Services";
 import PersonalTraining from "./pages/PersonalTraining";
 import GutHealth from "./pages/GutHealth";
 import GutHealthSpecialist from "./pages/GutHealthSpecialist";
-import GutHealthVideo from "./pages/GutHealthVideo";
 import WeightLoss from "./pages/WeightLoss";
 import ThyroidNaturopathy from "./pages/ThyroidNaturopathy";
 import Diabetes from "./pages/Diabetes";
@@ -123,7 +122,6 @@ const App = () => (
                 <Route path="/services/personal-trainer-newstead" element={<PersonalTraining />} />
                 <Route path="/what-we-treat/gut-health-naturopath-brisbane" element={<GutHealth />} />
                 <Route path="/what-we-treat/gut-health-specialist" element={<GutHealthSpecialist />} />
-                <Route path="/gut-health-video" element={<GutHealthVideo />} />
                 <Route path="/what-we-treat/weight-loss-naturopath-brisbane" element={<WeightLoss />} />
                 <Route path="/what-we-treat/naturopath-thyroid-brisbane" element={<ThyroidNaturopathy />} />
                 <Route path="/what-we-treat/naturopath-diabetes-brisbane" element={<Diabetes />} />
