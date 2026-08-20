@@ -234,7 +234,7 @@ const Report = () => {
               <img
                 src={nxtlvlLogoWhite}
                 alt="NXTLVL Health logo"
-                className="h-14 sm:h-16 md:h-20 w-auto"
+                className="h-14 sm:h-16 md:h-20 w-auto object-contain"
                 loading="eager"
               />
             </a>

@@ -152,7 +152,7 @@ const Navigation = () => {
               asChild
               onClick={(e: React.MouseEvent) => e.stopPropagation()}
             >
-              <a href="/free-report">Watch Free Guide</a>
+              <a href="/free-report">Read Free Guide</a>
             </Button>
           </div>
           
@@ -160,7 +160,7 @@ const Navigation = () => {
           <div className="hidden sm:flex flex-row items-center justify-center gap-4 text-center">
             <Gift className="h-5 w-5 text-yellow-300 animate-pulse flex-shrink-0" />
             <span className="text-sm md:text-base font-medium">
-              <strong>Still bloated after every meal?</strong> Get the free 15-minute Gut Freedom Guide.
+              <strong>Still bloated after every meal?</strong> Get the free Gut Freedom Guide.
             </span>
             <Button 
               variant="secondary" 
@@ -169,7 +169,7 @@ const Navigation = () => {
               asChild
               onClick={(e: React.MouseEvent) => e.stopPropagation()}
             >
-              <a href="/free-report">Watch Free Guide</a>
+              <a href="/free-report">Read Free Guide</a>
             </Button>
           </div>
         </div>
@@ -177,10 +177,10 @@ const Navigation = () => {
 
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto px-4">
-          <div className="flex h-16 items-center justify-between">
+          <div className="flex h-20 md:h-24 items-center justify-between">
             {/* Logo */}
             <Link to="/" className="flex items-center">
-              <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-14 w-14" />
+              <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-16 md:h-20 w-auto object-contain" />
             </Link>
 
             {/* Desktop Navigation */}
@@ -360,7 +360,7 @@ const Navigation = () => {
               <SheetContent side="right" className="w-80">
                   <div className="flex flex-col h-full">
                   <div className="flex items-center mb-6">
-                    <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-10" />
+                    <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-14 w-auto object-contain" />
                   </div>
 
                   <nav className="flex flex-col space-y-4 mb-8">
