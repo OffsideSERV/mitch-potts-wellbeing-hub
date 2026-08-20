@@ -1,24 +1,31 @@
 
 # 301 redirects for retired service pages (must precede SPA fallback)
 /services/live-blood-analysis-brisbane   /services   301
+/services/live-blood-analysis-brisbane/   /services   301
 /services/mls-laser-therapy-treatment-brisbane   /services   301
+/services/mls-laser-therapy-treatment-brisbane/   /services   301
 /laser-healing   /services   301
+/laser-healing/   /services   301
 
 # Retired duplicate landing page
 /naturopathy-in-brisbane   /naturopath-in-brisbane   301
+/naturopathy-in-brisbane/   /naturopath-in-brisbane   301
 
 # Old suburb URL pattern
 /indooroopilly-naturopathy   /areas-we-serve/naturopath-indooroopilly   301
+/indooroopilly-naturopathy/   /areas-we-serve/naturopath-indooroopilly   301
 
 # Retired broken video page
 /gut-health-video   /free-report   301
+/gut-health-video/   /free-report   301
 
 # Lead magnet renamed from report to guide
 /report   /guide   301
+/report/   /guide   301
 
 # SPA fallback for client-side routing
 /*    /index.html   200
 
 # Static files should be served directly
 /robots.txt   /robots.txt   200
-/sitemap.xml  /sitemap.xml  200
+/sitemap.xml  /sitemap.xml   200
