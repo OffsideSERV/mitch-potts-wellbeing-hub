@@ -8,10 +8,10 @@ const GutFreedomOptIn = () => {
   return (
     <>
       <SEO 
-        title="Gut Freedom | Free 15-Minute Video Guide to Beat Bloating"
-        description="Watch the free Gut Freedom video guide and learn the three steps Mitch uses to settle bloating and rebuild digestion. Instant access, nothing to pay."
+        title="Gut Freedom | Free Written Guide to Beat Bloating"
+        description="Read the free Gut Freedom guide and learn the three steps Mitch uses to settle bloating and rebuild digestion. Instant access, nothing to pay."
         canonical="/gut-freedom"
-        keywords="gut freedom, digestive health guide, gut health video, free gut health resource, naturopath Brisbane"
+        keywords="gut freedom, digestive health guide, gut health guide, free gut health resource, naturopath Brisbane"
       />
       <div className="min-h-screen bg-background">
       {/* Hero Section */}
@@ -22,7 +22,7 @@ const GutFreedomOptIn = () => {
               <div className="space-y-4 lg:space-y-6">
                 <div className="inline-flex items-center px-3 py-1 bg-primary/20 text-primary rounded-full text-sm font-medium">
                   <Clock className="w-4 h-4 mr-2" />
-                  FREE 15-Minute Video Guide
+                  FREE Gut Freedom Guide
                 </div>
                 
                 <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-foreground leading-tight">
@@ -63,7 +63,7 @@ const GutFreedomOptIn = () => {
                       <div class="_form-content">
                         <div class="_form_element _x09077243 _full_width _clear" >
                           <title class="_form-title">
-                            Get Answers To Your Bloating With This Easy 15-Min Gut Health Video Guide
+                            Get Answers To Your Bloating With This Easy Gut Health Guide
                           </title>
                         </div>
                         <div class="_form_element _x44556073 _full_width _clear" >
@@ -720,7 +720,7 @@ const GutFreedomOptIn = () => {
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12 lg:mb-16">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 lg:mb-6">
-              In This FREE 15-Minute Video, You'll Discover...
+              In This FREE Guide, You'll Discover...
             </h2>
           </div>
 
@@ -764,7 +764,7 @@ const GutFreedomOptIn = () => {
         <div className="container mx-auto max-w-2xl text-center">
           <div className="mb-8 lg:mb-12">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 lg:mb-6">
-              Get Instant Access to Your Free Video Guide
+              Get Instant Access to Your Free Guide
             </h2>
             <p className="text-lg lg:text-xl text-muted-foreground mb-6 lg:mb-8">
               Join over 1,000 Brisbane locals who've already started their journey to gut freedom.
@@ -789,7 +789,7 @@ const GutFreedomOptIn = () => {
                 <div class="_form-content">
                   <div class="_form_element _x09077243 _full_width _clear" >
                     <title class="_form-title">
-                      Get Answers To Your Bloating With This Easy 15-Min Gut Health Video Guide
+                      Get Answers To Your Bloating With This Easy Gut Health Guide
                     </title>
                   </div>
                   <div class="_form_element _x44556073 _full_width _clear" >
@@ -1412,7 +1412,7 @@ const GutFreedomOptIn = () => {
           </h2>
           <p className="text-lg lg:text-xl text-muted-foreground mb-6 lg:mb-8">
             Your gut health affects everything - your energy, mood, sleep, and overall quality of life. 
-            Take the first step toward feeling like yourself again with this free 15-minute guide.
+            Take the first step toward feeling like yourself again with this free guide.
           </p>
           
           <div className="flex items-center justify-center space-x-2 text-primary mb-6 lg:mb-8">
@@ -1421,7 +1421,7 @@ const GutFreedomOptIn = () => {
           </div>
 
           <p className="text-base lg:text-lg font-medium">
-            Scroll up to get your free video guide now ⬆️
+            Scroll up to get your free guide now ⬆️
           </p>
         </div>
       </section>

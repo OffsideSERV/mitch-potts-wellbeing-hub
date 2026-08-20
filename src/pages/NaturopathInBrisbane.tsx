@@ -320,7 +320,7 @@ const NaturopathInBrisbane = () => {
       <header className="sticky top-0 z-50 bg-background border-b border-border">
         <div className="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
           <a href="/" className="flex items-center">
-            <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-14 w-14" />
+            <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-16 md:h-20 w-auto object-contain" />
           </a>
           <nav className="hidden lg:flex items-center gap-8">
             {[

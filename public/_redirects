@@ -10,6 +10,9 @@
 # Old suburb URL pattern
 /indooroopilly-naturopathy   /areas-we-serve/naturopath-indooroopilly   301
 
+# Retired broken video page
+/gut-health-video   /free-report   301
+
 # Lead magnet renamed from report to guide
 /report   /guide   301
 

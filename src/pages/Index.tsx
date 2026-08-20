@@ -292,7 +292,7 @@ const Index = () => {
           <div className="text-center mb-8 lg:mb-16">
             <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-3 py-2 md:px-4 md:py-2 rounded-full text-sm font-medium mb-6">
               <Gift className="h-4 w-4" />
-              FREE VIDEO GUIDE
+              FREE GUIDE
             </div>
             
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-6">
@@ -311,7 +311,7 @@ const Index = () => {
                     </div>
                     <div>
                       <h3 className="text-lg sm:text-xl font-bold">Gut Freedom Guide</h3>
-                      <p className="text-primary-foreground/80 text-sm">15-Minute Video</p>
+                      <p className="text-primary-foreground/80 text-sm">Free Guide</p>
                     </div>
                   </div>
                   
@@ -344,7 +344,7 @@ const Index = () => {
             {/* Content below on mobile */}
             <div className="space-y-6 text-center">
               <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
-                Watch our free 15-minute video guide and discover the simple steps to eliminate bloating, improve digestion, and feel comfortable in your body again.
+                Read our free Gut Freedom Guide and discover the simple steps to eliminate bloating, improve digestion, and feel comfortable in your body again.
               </p>
               
               <div className="space-y-3 sm:space-y-4 text-left max-w-md mx-auto">
@@ -365,7 +365,7 @@ const Index = () => {
               <Button size="lg" className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 h-auto group w-full sm:w-auto" asChild>
                 <a href="/gut-freedom">
                   <Gift className="mr-2 h-5 w-5" />
-                  Get Your Free Video Guide Now
+                  Get Your Free Guide Now
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </a>
               </Button>
@@ -380,7 +380,7 @@ const Index = () => {
           <div className="hidden lg:grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Watch our free 15-minute video guide and discover the simple steps to eliminate bloating, improve digestion, and feel comfortable in your body again.
+                Read our free Gut Freedom Guide and discover the simple steps to eliminate bloating, improve digestion, and feel comfortable in your body again.
               </p>
               
               <div className="space-y-4">
@@ -401,7 +401,7 @@ const Index = () => {
               <Button size="lg" className="text-base sm:text-lg px-8 py-4 h-auto group" asChild>
                 <a href="/gut-freedom">
                   <Gift className="mr-2 h-5 w-5" />
-                  Get Your Free Video Guide Now
+                  Get Your Free Guide Now
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </a>
               </Button>
@@ -420,7 +420,7 @@ const Index = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold">Gut Freedom Guide</h3>
-                      <p className="text-primary-foreground/80">15-Minute Video</p>
+                      <p className="text-primary-foreground/80">Free Guide</p>
                     </div>
                   </div>
                   
