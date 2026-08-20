@@ -179,8 +179,8 @@ const Navigation = () => {
         <div className="container mx-auto px-4">
           <div className="flex h-20 md:h-24 items-center justify-between">
             {/* Logo */}
-            <Link to="/" className="flex items-center">
-              <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-16 md:h-20 w-auto object-contain" />
+            <Link to="/" className="flex items-center shrink-0">
+              <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-16 md:h-20 w-auto object-contain shrink-0" />
             </Link>
 
             {/* Desktop Navigation */}
@@ -360,7 +360,7 @@ const Navigation = () => {
               <SheetContent side="right" className="w-80">
                   <div className="flex flex-col h-full">
                   <div className="flex items-center mb-6">
-                    <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-14 w-auto object-contain" />
+                    <img src={nxtlvlLogo} alt="NXTLVL Health" className="h-14 w-auto object-contain shrink-0" />
                   </div>
 
                   <nav className="flex flex-col space-y-4 mb-8">
