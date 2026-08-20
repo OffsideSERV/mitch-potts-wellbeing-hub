@@ -365,7 +365,7 @@ const Index = () => {
               <Button size="lg" className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 h-auto group w-full sm:w-auto" asChild>
                 <a href="/gut-freedom">
                   <Gift className="mr-2 h-5 w-5" />
-                  Get Your Free Video Guide Now
+                  Get Your Free Guide Now
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </a>
               </Button>
@@ -401,7 +401,7 @@ const Index = () => {
               <Button size="lg" className="text-base sm:text-lg px-8 py-4 h-auto group" asChild>
                 <a href="/gut-freedom">
                   <Gift className="mr-2 h-5 w-5" />
-                  Get Your Free Video Guide Now
+                  Get Your Free Guide Now
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </a>
               </Button>
